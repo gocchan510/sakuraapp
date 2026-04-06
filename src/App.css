@@ -168,6 +168,93 @@ body {
   text-underline-offset: 2px;
 }
 
+/* ── All Spots Map (全体マップビュー) ── */
+.app-map-view {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  padding: 0;
+}
+
+.app-header-compact {
+  padding: 12px 16px 8px;
+  flex-shrink: 0;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.header-petal-sm { font-size: 1.2rem; }
+
+.app-title-sm {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #880e4f;
+}
+
+.map-legend {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.map-today-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #f06292;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #f06292;
+  vertical-align: middle;
+}
+
+.all-spots-map {
+  flex: 1;
+  min-height: 0;
+  z-index: 0;
+}
+
+/* ── Bottom Nav ── */
+.bottom-nav {
+  display: flex;
+  background: rgba(255,255,255,0.96);
+  border-top: 1px solid #fce4ec;
+  flex-shrink: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.bottom-nav-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #bbb;
+  font-family: 'Noto Serif JP', serif;
+  transition: color 0.15s;
+}
+
+.bottom-nav-btn.active {
+  color: #e91e8c;
+}
+
+.bnav-icon { font-size: 1.2rem; }
+.bnav-label { font-size: 0.68rem; letter-spacing: 0.04em; }
+
+/* カレンダービューにもボトムナビ分の余白 */
+.app:not(.app-map-view) .calendar {
+  padding-bottom: 80px;
+}
+
 /* ── Spot Map ── */
 .spot-map {
   width: 100%;
