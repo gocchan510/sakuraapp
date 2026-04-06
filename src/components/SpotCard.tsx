@@ -1,4 +1,5 @@
 import { getSpotStatus, formatHeikinsa, isSomeiCompatible } from '../utils/sakuraStatus'
+import { SpotMap } from './SpotMap'
 
 interface Spot {
   week: string
@@ -37,12 +38,7 @@ export function SpotCard({ spot }: Props) {
   const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.spot) : null
 
   return (
-    <div
-      className="spot-card"
-      onClick={() => mapsUrl && window.open(mapsUrl, '_blank')}
-      role={mapsUrl ? 'link' : undefined}
-      style={{ cursor: mapsUrl ? 'pointer' : 'default' }}
-    >
+    <div className="spot-card">
       <div className="spot-header">
         <h2 className="spot-name">{spot.spot}</h2>
         <span className="prefecture-badge">{spot.prefecture}</span>
@@ -51,7 +47,7 @@ export function SpotCard({ spot }: Props) {
       <p className="comment">{spot.comment}</p>
 
       {status && (
-        <div className="status-block" onClick={e => e.stopPropagation()}>
+        <div className="status-block">
           <div className="status-header">🌸 開花情報（{status.station}観測点）</div>
           <div className="status-rows">
             {status.kaika?.date ? (
@@ -89,9 +85,23 @@ export function SpotCard({ spot }: Props) {
         </div>
       )}
 
+      {spot.lat !== null && spot.lng !== null && (
+        <SpotMap spotName={spot.spot} lat={spot.lat} lng={spot.lng} />
+      )}
+
       <div className="spot-footer">
         <span className="travel-time">📍 尻手から{spot.travelTime}</span>
-        {mapsUrl && <span className="maps-link">→ Googleマップで見る</span>}
+        {mapsUrl && (
+          <a
+            className="maps-link"
+            href={mapsUrl}
+            target="_blank"
+            rel="noreferrer"
+            onClick={e => e.stopPropagation()}
+          >
+            → Googleマップで見る
+          </a>
+        )}
       </div>
       {!spot.inMetro && (
         <div className="out-of-metro-badge">1都3県外</div>

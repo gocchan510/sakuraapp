@@ -168,6 +168,16 @@ body {
   text-underline-offset: 2px;
 }
 
+/* ── Spot Map ── */
+.spot-map {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 12px 0 4px;
+  z-index: 0;
+}
+
 /* ── Status block (開花情報) ── */
 .status-block {
   margin: 12px 0 4px;
