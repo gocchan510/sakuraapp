@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # 毎日 JST 7:00 (UTC 22:00) に自動実行
+    - cron: '0 22 * * *'
 
 permissions:
   contents: read
@@ -24,6 +27,10 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # 気象庁から最新の開花データを取得
+      - name: Fetch sakura status from JMA
+        run: node scripts/fetch-sakura-status.mjs
+        continue-on-error: true  # 取得失敗しても既存JSONでビルドを続行
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

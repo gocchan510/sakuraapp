@@ -1,0 +1,81 @@
+{
+  "updated": "2026/4/6",
+  "stations": {
+    "東京": {
+      "kaika": {
+        "date": "3月19日",
+        "heikinsa": -5,
+        "heikinDate": "3月24日"
+      },
+      "mankai": {
+        "date": "3月28日",
+        "heikinsa": -3,
+        "heikinDate": "3月31日"
+      }
+    },
+    "横浜": {
+      "kaika": {
+        "date": "3月22日",
+        "heikinsa": -3,
+        "heikinDate": "3月25日"
+      },
+      "mankai": {
+        "date": "4月 1日",
+        "heikinsa": 0,
+        "heikinDate": "4月 1日"
+      }
+    },
+    "熊谷": {
+      "kaika": {
+        "date": "3月23日",
+        "heikinsa": -4,
+        "heikinDate": "3月27日"
+      },
+      "mankai": {
+        "date": "4月 3日",
+        "heikinsa": 0,
+        "heikinDate": "4月 3日"
+      }
+    },
+    "静岡": {
+      "kaika": {
+        "date": "3月20日",
+        "heikinsa": -4,
+        "heikinDate": "3月24日"
+      },
+      "mankai": {
+        "date": "4月 2日",
+        "heikinsa": 0,
+        "heikinDate": "4月 2日"
+      }
+    },
+    "下田": {
+      "kaika": null,
+      "mankai": null
+    },
+    "前橋": {
+      "kaika": {
+        "date": "3月22日",
+        "heikinsa": -7,
+        "heikinDate": "3月29日"
+      },
+      "mankai": {
+        "date": "4月 1日",
+        "heikinsa": -4,
+        "heikinDate": "4月 5日"
+      }
+    },
+    "千葉": {
+      "kaika": null,
+      "mankai": null
+    },
+    "小田原": {
+      "kaika": null,
+      "mankai": null
+    },
+    "秩父": {
+      "kaika": null,
+      "mankai": null
+    }
+  }
+}

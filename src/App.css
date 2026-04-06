@@ -168,6 +168,70 @@ body {
   text-underline-offset: 2px;
 }
 
+/* ── Status block (開花情報) ── */
+.status-block {
+  margin: 12px 0 4px;
+  background: #fff8fb;
+  border: 1px solid #fce4ec;
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: default;
+}
+
+.status-header {
+  font-size: 0.72rem;
+  color: #ad1457;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 7px;
+}
+
+.status-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+}
+
+.status-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.status-label.kaika {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+.status-label.mankai {
+  background: #f48fb1;
+  color: #fff;
+}
+
+.status-date {
+  color: #444;
+  font-weight: 500;
+}
+
+.status-date.muted {
+  color: #bbb;
+  font-weight: 400;
+}
+
+.status-heikinsa {
+  font-size: 0.72rem;
+  color: #888;
+}
+
 .out-of-metro-badge {
   display: inline-block;
   font-size: 0.7rem;

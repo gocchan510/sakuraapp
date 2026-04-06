@@ -1,3 +1,5 @@
+import { getSpotStatus, formatHeikinsa } from '../utils/sakuraStatus'
+
 interface Spot {
   week: string
   variety: string
@@ -32,6 +34,8 @@ export function SpotCard({ spot }: Props) {
       ? `https://maps.google.com/?q=${spot.lat},${spot.lng}`
       : null
 
+  const status = getSpotStatus(spot.spot)
+
   return (
     <div
       className="spot-card"
@@ -45,6 +49,46 @@ export function SpotCard({ spot }: Props) {
       </div>
       <p className="variety">{spot.variety}</p>
       <p className="comment">{spot.comment}</p>
+
+      {status && (
+        <div className="status-block" onClick={e => e.stopPropagation()}>
+          <div className="status-header">🌸 開花情報（{status.station}観測点）</div>
+          <div className="status-rows">
+            {status.kaika?.date ? (
+              <div className="status-row">
+                <span className="status-label kaika">開花</span>
+                <span className="status-date">{status.kaika.date}</span>
+                {status.kaika.heikinsa !== null && (
+                  <span className="status-heikinsa">{formatHeikinsa(status.kaika.heikinsa)}</span>
+                )}
+              </div>
+            ) : (
+              <div className="status-row">
+                <span className="status-label kaika">開花</span>
+                <span className="status-date muted">
+                  未観測
+                  {status.kaika?.heikinDate && `（平年 ${status.kaika.heikinDate}頃）`}
+                </span>
+              </div>
+            )}
+            {status.mankai?.date ? (
+              <div className="status-row">
+                <span className="status-label mankai">満開</span>
+                <span className="status-date">{status.mankai.date}</span>
+                {status.mankai.heikinsa !== null && (
+                  <span className="status-heikinsa">{formatHeikinsa(status.mankai.heikinsa)}</span>
+                )}
+              </div>
+            ) : status.kaika?.date ? (
+              <div className="status-row">
+                <span className="status-label mankai">満開</span>
+                <span className="status-date muted">未観測</span>
+              </div>
+            ) : null}
+          </div>
+        </div>
+      )}
+
       <div className="spot-footer">
         <span className="travel-time">📍 尻手から{spot.travelTime}</span>
         {mapsUrl && <span className="maps-link">→ Googleマップで見る</span>}
