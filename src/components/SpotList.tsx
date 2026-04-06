@@ -1,3 +1,4 @@
+import { useLang } from '../i18n'
 import type { Spot } from '../utils/spotsByWeek'
 
 interface Props {
@@ -8,13 +9,14 @@ interface Props {
 }
 
 export function SpotList({ weekLabel, spots, onSelect, onBack }: Props) {
+  const { t } = useLang()
   return (
     <div className="app">
       <header className="app-header">
-        <button className="back-btn" onClick={onBack}>← カレンダー</button>
+        <button className="back-btn" onClick={onBack}>{t.backCalendar}</button>
         <div className="header-petal">🌸</div>
         <h1 className="app-title">{weekLabel}</h1>
-        <p className="app-subtitle">{spots.length}件のスポット</p>
+        <p className="app-subtitle">{spots.length}{t.spotsUnit}</p>
       </header>
 
       <main className="spot-list">

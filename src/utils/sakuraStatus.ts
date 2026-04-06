@@ -64,9 +64,14 @@ export function getStatusUpdated(): string | null {
   return ((statusData as Record<string, unknown>).updated as string) ?? null
 }
 
-export function formatHeikinsa(val: number | null): string {
+export function formatHeikinsa(val: number | null, t?: { statusAvg: string; statusEarly: string; statusDayEarly: string; statusDayLate: string }): string {
   if (val === null) return ''
-  if (val === 0) return '平年並み'
+  if (!t) {
+    if (val === 0) return '平年並み'
+    const abs = Math.abs(val)
+    return val < 0 ? `平年より${abs}日早` : `平年より${abs}日遅`
+  }
+  if (val === 0) return t.statusAvg
   const abs = Math.abs(val)
-  return val < 0 ? `平年より${abs}日早` : `平年より${abs}日遅`
+  return val < 0 ? `${t.statusEarly}${abs}${t.statusDayEarly}` : `${t.statusEarly}${abs}${t.statusDayLate}`
 }

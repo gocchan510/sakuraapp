@@ -8,11 +8,13 @@ import { VarietyList } from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { getCurrentWeekIndex, getWeekLabel, ALL_WEEK_LABELS } from './utils/getWeek'
 import { getSpotsForWeek, isOffSeason } from './utils/spotsByWeek'
+import { useLang } from './i18n'
 
 type Tab = 'calendar' | 'map' | 'zukan'
 type View = 'calendar' | 'spotlist' | 'detail' | 'map' | 'zukan' | 'zukan-detail'
 
-const MONTH_NAMES = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+const MONTH_NAMES_JA = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+const MONTH_NAMES_ZH = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
 
 function getVarietyClass(weekLabel: string): string {
   const spots = getSpotsForWeek(weekLabel)
@@ -31,14 +33,15 @@ function findVarietyId(varietyName: string): string | null {
 }
 
 export default function App() {
+  const { t, lang, setLang } = useLang()
   const todayWeek = getWeekLabel(getCurrentWeekIndex())
+  const MONTH_NAMES = lang === 'zh-TW' ? MONTH_NAMES_ZH : MONTH_NAMES_JA
 
   const [tab, setTab] = useState<Tab>('calendar')
   const [view, setView] = useState<View>('calendar')
   const [selectedWeek, setSelectedWeek] = useState<string>(todayWeek)
   const [selectedSpotId, setSelectedSpotId] = useState<string | null>(null)
   const [varietyId, setVarietyId] = useState<string | null>(null)
-  // マップで選択中の週フィルター（nullで全件）
   const [mapFilterWeek, setMapFilterWeek] = useState<string | null>(null)
 
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
@@ -55,15 +58,15 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPopState)
   }, [])
 
-  const push = (v: View, t: Tab = tab) => {
-    history.pushState({ view: v, tab: t }, '')
+  const push = (v: View, newTab: Tab = tab) => {
+    history.pushState({ view: v, tab: newTab }, '')
     setView(v)
-    setTab(t)
+    setTab(newTab)
   }
 
   const openWeek = (week: string) => {
     setSelectedWeek(week)
-    if (isOffSeason(week)) return  // オフシーズンはスポットなし→何もしない
+    if (isOffSeason(week)) return
     push('spotlist', 'calendar')
   }
 
@@ -84,25 +87,34 @@ export default function App() {
     push('zukan-detail')
   }
 
-  const switchTab = (t: Tab) => {
-    setTab(t)
-    setView(t as View)
-    history.pushState({ view: t, tab: t }, '')
+  const switchTab = (newTab: Tab) => {
+    setTab(newTab)
+    setView(newTab as View)
+    history.pushState({ view: newTab, tab: newTab }, '')
   }
+
+  const LangToggle = () => (
+    <button
+      className="lang-toggle"
+      onClick={() => setLang(lang === 'ja' ? 'zh-TW' : 'ja')}
+    >
+      {lang === 'ja' ? '繁中' : '日本語'}
+    </button>
+  )
 
   const BottomNav = () => (
     <nav className="bottom-nav">
       <button className={`bottom-nav-btn ${tab === 'calendar' ? 'active' : ''}`} onClick={() => switchTab('calendar')}>
         <span className="bnav-icon">📅</span>
-        <span className="bnav-label">カレンダー</span>
+        <span className="bnav-label">{t.tabCalendar}</span>
       </button>
       <button className={`bottom-nav-btn ${tab === 'map' ? 'active' : ''}`} onClick={() => switchTab('map')}>
         <span className="bnav-icon">🗾</span>
-        <span className="bnav-label">マップ</span>
+        <span className="bnav-label">{t.tabMap}</span>
       </button>
       <button className={`bottom-nav-btn ${tab === 'zukan' ? 'active' : ''}`} onClick={() => switchTab('zukan')}>
         <span className="bnav-icon">📖</span>
-        <span className="bnav-label">図鑑</span>
+        <span className="bnav-label">{t.tabZukan}</span>
       </button>
     </nav>
   )
@@ -113,8 +125,8 @@ export default function App() {
       <div className="app">
         <VarietyDetail
           id={varietyId}
-          onBack={() => { setView('zukan') }}
-          onSelectSpot={(spotId) => openSpotDetail(spotId)}
+          onBack={() => setView('zukan')}
+          onSelectSpot={openSpotDetail}
         />
         <BottomNav />
       </div>
@@ -136,12 +148,13 @@ export default function App() {
     return (
       <div className="app">
         <header className="app-header">
-          <button className="back-btn" onClick={() => history.back()}>← 戻る</button>
+          <div className="header-top-row">
+            <button className="back-btn" onClick={() => history.back()}>{t.backButton}</button>
+            <LangToggle />
+          </div>
           <div className="header-petal">🌸</div>
           <p className="week-label">{selectedSpot.name}</p>
-          <p className="app-subtitle">
-            {selectedSpot.peakWeeks.join(' / ')}
-          </p>
+          <p className="app-subtitle">{selectedSpot.peakWeeks.join(' / ')}</p>
         </header>
         <main className="main-content">
           <section className="section">
@@ -152,7 +165,7 @@ export default function App() {
     )
   }
 
-  // ── スポット一覧（週タップ後）──
+  // ── スポット一覧 ──
   if (view === 'spotlist') {
     return (
       <div className="app">
@@ -174,35 +187,34 @@ export default function App() {
         <header className="app-header app-header-compact">
           <div className="header-row">
             <div className="header-petal-sm">🌸</div>
-            <h1 className="app-title-sm">スポットマップ</h1>
+            <h1 className="app-title-sm">{t.mapTitle}</h1>
+            <LangToggle />
           </div>
-          {/* 週フィルター */}
           <div className="map-week-filter">
             <select
               className="map-week-select"
               value={mapFilterWeek ?? ''}
               onChange={e => setMapFilterWeek(e.target.value || null)}
             >
-              <option value="">全スポット表示</option>
+              <option value="">{t.mapFilterAll}</option>
               {ALL_WEEK_LABELS.map(w => {
                 const count = getSpotsForWeek(w).length
                 if (count === 0) return null
                 return (
                   <option key={w} value={w}>
-                    {w}（{count}件）{w === todayWeek ? ' ← 今週' : ''}
+                    {w}（{count}{t.mapFilterSuffix}）{w === todayWeek ? t.mapFilterToday : ''}
                   </option>
                 )
               })}
             </select>
           </div>
           <div className="map-legend">
-            <span className="legend-item"><span className="legend-dot dot-spring" />春</span>
-            <span className="legend-item"><span className="legend-dot dot-kawazu" />河津</span>
-            <span className="legend-item"><span className="legend-dot dot-winter" />冬・秋</span>
-            <span className="legend-item"><span className="map-today-dot" />対象週</span>
+            <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpringShort}</span>
+            <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawaziShort}</span>
+            <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinterShort}</span>
+            <span className="legend-item"><span className="map-today-dot" />{t.legendThisWeek}</span>
           </div>
         </header>
-
         <AllSpotsMap
           spots={spotsData}
           filterWeek={mapFilterWeek}
@@ -218,16 +230,19 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <div className="header-petal">🌸</div>
-        <h1 className="app-title">桜週末ガイド</h1>
-        <p className="app-subtitle">週を選んで花見計画を立てよう</p>
+        <div className="header-top-row">
+          <div className="header-petal">🌸</div>
+          <LangToggle />
+        </div>
+        <h1 className="app-title">{t.appTitle}</h1>
+        <p className="app-subtitle">{t.appSubtitle}</p>
       </header>
 
       <div className="legend">
-        <span className="legend-item"><span className="legend-dot dot-spring" />春の桜</span>
-        <span className="legend-item"><span className="legend-dot dot-kawazu" />河津桜</span>
-        <span className="legend-item"><span className="legend-dot dot-winter" />冬・秋桜</span>
-        <span className="legend-item"><span className="legend-dot dot-off" />オフ</span>
+        <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpring}</span>
+        <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawazu}</span>
+        <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinter}</span>
+        <span className="legend-item"><span className="legend-dot dot-off" />{t.legendOff}</span>
       </div>
 
       <main className="calendar">
@@ -250,12 +265,12 @@ export default function App() {
                       disabled={off}
                     >
                       <span className="cal-week-num">第{wi + 1}週</span>
-                      {isToday && <span className="cal-today-badge">今週</span>}
+                      {isToday && <span className="cal-today-badge">{t.todayBadge}</span>}
                       {off ? (
-                        <span className="cal-spot-name" style={{ color: '#ccc' }}>—</span>
+                        <span className="cal-spot-name" style={{ color: '#ccc' }}>{t.calendarOffLabel}</span>
                       ) : (
                         <>
-                          <span className="cal-spot-count">{spots.length}件</span>
+                          <span className="cal-spot-count">{spots.length}{t.calUnitSpots}</span>
                           <span className="cal-spot-name">{spots[0].name}</span>
                         </>
                       )}

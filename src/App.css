@@ -733,6 +733,30 @@ body {
   letter-spacing: 0.05em;
 }
 
+/* ── Language Toggle ── */
+.lang-toggle {
+  background: rgba(255,255,255,0.88);
+  border: 1px solid #f48fb1;
+  color: #c2185b;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.78rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.lang-toggle:hover { background: #fce4ec; }
+
+.header-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
 /* ── Back button ── */
 .back-btn {
   display: inline-block;

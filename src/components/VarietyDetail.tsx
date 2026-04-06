@@ -1,5 +1,6 @@
 import varietiesData from '../data/varieties.json'
 import spotsData from '../data/spots.json'
+import { useLang } from '../i18n'
 
 interface Props {
   id: string
@@ -8,10 +9,10 @@ interface Props {
 }
 
 export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
+  const { t } = useLang()
   const variety = varietiesData.find((v) => v.id === id)
   if (!variety) return null
 
-  // この品種が登場するスポットを spots.json から検索
   const linkedSpots = variety.spots.flatMap((spotName) =>
     spotsData.filter((s) => s.name === spotName || s.name.includes(spotName) || spotName.includes(s.name))
   )
@@ -22,7 +23,7 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
   return (
     <div className="app">
       <header className="app-header">
-        <button className="back-btn" onClick={onBack}>← 図鑑一覧</button>
+        <button className="back-btn" onClick={onBack}>{t.backZukan}</button>
         <div className="variety-detail-hero" style={{ background: `linear-gradient(135deg, ${variety.color}55, ${variety.color}22)` }}>
           <span className="variety-detail-emoji">{variety.emoji}</span>
           <div>
@@ -34,23 +35,23 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
 
       <main className="main-content">
         <section className="section">
-          <div className="section-title">基本情報</div>
+          <div className="section-title">{t.detailBasicInfo}</div>
           <div className="variety-info-card">
             <div className="variety-info-row">
-              <span className="variety-info-label">開花時期</span>
+              <span className="variety-info-label">{t.detailSeason}</span>
               <span className="variety-info-value">{variety.season}</span>
             </div>
             <div className="variety-info-row">
-              <span className="variety-info-label">花の色</span>
+              <span className="variety-info-label">{t.detailColor}</span>
               <span className="variety-info-value">
                 <span className="variety-color-chip" style={{ background: variety.color }} />
               </span>
             </div>
             <div className="variety-info-row variety-info-row-tags">
-              <span className="variety-info-label">特徴</span>
+              <span className="variety-info-label">{t.detailFeatures}</span>
               <span className="variety-info-value">
-                {variety.tags.map((t) => (
-                  <span key={t} className="variety-tag">{t}</span>
+                {variety.tags.map((tag) => (
+                  <span key={tag} className="variety-tag">{tag}</span>
                 ))}
               </span>
             </div>
@@ -58,7 +59,7 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
         </section>
 
         <section className="section">
-          <div className="section-title">どんな桜？</div>
+          <div className="section-title">{t.detailDescription}</div>
           <div className="variety-desc-card">
             <p className="variety-desc">{variety.detail}</p>
           </div>
@@ -66,7 +67,7 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
 
         {uniqueSpots.length > 0 && (
           <section className="section">
-            <div className="section-title">このアプリで見られるスポット</div>
+            <div className="section-title">{t.detailLinkedSpots}</div>
             <div className="variety-spots">
               {uniqueSpots.map((s) => (
                 <button
