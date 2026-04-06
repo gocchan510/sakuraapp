@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import spotsData from './data/spots.json'
 import { SpotCard } from './components/SpotCard'
 import { getCurrentWeekIndex } from './utils/getWeek'
@@ -26,7 +26,20 @@ export default function App() {
   const openDetail = (i: number) => {
     setIndex(i)
     setView('detail')
+    history.pushState({ view: 'detail' }, '')
   }
+
+  const backToCalendar = () => {
+    setView('calendar')
+  }
+
+  useEffect(() => {
+    const onPopState = () => {
+      setView('calendar')
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [])
 
   const goPrev = () => setIndex((i) => (i - 1 + spotsData.length) % spotsData.length)
   const goNext = () => setIndex((i) => (i + 1) % spotsData.length)
@@ -86,7 +99,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <button className="back-btn" onClick={() => setView('calendar')}>
+        <button className="back-btn" onClick={backToCalendar}>
           ← カレンダー
         </button>
         <div className="header-petal">🌸</div>
