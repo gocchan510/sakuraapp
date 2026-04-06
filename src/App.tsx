@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react'
 import spotsData from './data/spots.json'
+import varietiesData from './data/varieties.json'
 import { SpotCard } from './components/SpotCard'
 import { AllSpotsMap } from './components/AllSpotsMap'
+import { VarietyList } from './components/VarietyList'
+import { VarietyDetail } from './components/VarietyDetail'
 import { getCurrentWeekIndex } from './utils/getWeek'
 
-type Tab = 'calendar' | 'map'
-type View = 'calendar' | 'map' | 'detail'
+type Tab = 'calendar' | 'map' | 'zukan'
+type View = 'calendar' | 'map' | 'detail' | 'zukan' | 'zukan-detail'
 
 const MONTH_NAMES = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
 
@@ -16,50 +19,111 @@ function getVarietyClass(variety: string): string {
   return 'cell-winter'
 }
 
+// 品種名からidを検索（前方一致・部分一致）
+function findVarietyId(varietyName: string): string | null {
+  const found = varietiesData.find(
+    (v) => v.name === varietyName || varietyName.includes(v.name) || v.name.includes(varietyName)
+  )
+  return found?.id ?? null
+}
+
 export default function App() {
   const [tab, setTab] = useState<Tab>('calendar')
   const [view, setView] = useState<View>('calendar')
-  const [index, setIndex] = useState(getCurrentWeekIndex)
+  const [spotIndex, setSpotIndex] = useState(getCurrentWeekIndex)
+  const [varietyId, setVarietyId] = useState<string | null>(null)
   const todayIndex = getCurrentWeekIndex()
 
-  const spot = spotsData[index]
+  const spot = spotsData[spotIndex]
   const isOffSeason = spot.variety === 'オフシーズン'
 
   const openDetail = (i: number, fromTab: Tab = 'calendar') => {
-    setIndex(i)
+    setSpotIndex(i)
     setView('detail')
     history.pushState({ view: 'detail', fromTab }, '')
   }
 
+  const openVariety = (id: string, fromView: View = 'zukan') => {
+    setVarietyId(id)
+    setView('zukan-detail')
+    history.pushState({ view: 'zukan-detail', fromView }, '')
+  }
+
+  const openVarietyFromSpot = (varietyName: string) => {
+    const id = findVarietyId(varietyName)
+    if (!id) return
+    openVariety(id, 'detail')
+  }
+
   useEffect(() => {
     const onPopState = (e: PopStateEvent) => {
-      const fromTab: Tab = e.state?.fromTab ?? 'calendar'
-      setTab(fromTab)
-      setView(fromTab)
+      const state = e.state
+      if (!state) { setTab('calendar'); setView('calendar'); return }
+      if (state.view === 'detail') { setTab(state.fromTab); setView(state.fromTab) }
+      else if (state.view === 'zukan-detail') { setTab('zukan'); setView(state.fromView ?? 'zukan') }
+      else { setView(state.view ?? 'calendar') }
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
   }, [])
-
-  const backToTab = () => {
-    setView(tab)
-  }
 
   const switchTab = (t: Tab) => {
     setTab(t)
     setView(t)
   }
 
-  const goPrev = () => setIndex((i) => (i - 1 + spotsData.length) % spotsData.length)
-  const goNext = () => setIndex((i) => (i + 1) % spotsData.length)
+  const goPrev = () => setSpotIndex((i) => (i - 1 + spotsData.length) % spotsData.length)
+  const goNext = () => setSpotIndex((i) => (i + 1) % spotsData.length)
 
-  // ── 詳細ビュー ──
+  const BottomNav = () => (
+    <nav className="bottom-nav">
+      <button className={`bottom-nav-btn ${tab === 'calendar' ? 'active' : ''}`} onClick={() => switchTab('calendar')}>
+        <span className="bnav-icon">📅</span>
+        <span className="bnav-label">カレンダー</span>
+      </button>
+      <button className={`bottom-nav-btn ${tab === 'map' ? 'active' : ''}`} onClick={() => switchTab('map')}>
+        <span className="bnav-icon">🗾</span>
+        <span className="bnav-label">マップ</span>
+      </button>
+      <button className={`bottom-nav-btn ${tab === 'zukan' ? 'active' : ''}`} onClick={() => switchTab('zukan')}>
+        <span className="bnav-icon">📖</span>
+        <span className="bnav-label">図鑑</span>
+      </button>
+    </nav>
+  )
+
+  // ── 品種詳細ビュー ──
+  if (view === 'zukan-detail' && varietyId) {
+    return (
+      <div className="app">
+        <VarietyDetail
+          id={varietyId}
+          onBack={() => { setView('zukan') }}
+          onSelectSpot={(i) => openDetail(i, 'zukan' as Tab)}
+        />
+        <BottomNav />
+      </div>
+    )
+  }
+
+  // ── 図鑑一覧ビュー ──
+  if (view === 'zukan') {
+    return (
+      <div className="app">
+        <VarietyList onSelect={(id) => openVariety(id, 'zukan')} />
+        <BottomNav />
+      </div>
+    )
+  }
+
+  // ── スポット詳細ビュー ──
   if (view === 'detail') {
+    const fromTab = (history.state?.fromTab ?? tab) as Tab
     return (
       <div className="app">
         <header className="app-header">
-          <button className="back-btn" onClick={backToTab}>
-            ← {tab === 'map' ? 'マップ' : 'カレンダー'}
+          <button className="back-btn" onClick={() => { setView(fromTab) }}>
+            ← {fromTab === 'map' ? 'マップ' : fromTab === 'zukan' ? '図鑑' : 'カレンダー'}
           </button>
           <div className="header-petal">🌸</div>
           <h1 className="app-title">今週末の桜</h1>
@@ -69,7 +133,7 @@ export default function App() {
         <main className="main-content">
           <section className="section">
             <div className="section-title">今週のイチオシ</div>
-            <SpotCard spot={spot} />
+            <SpotCard spot={spot} onVarietyClick={openVarietyFromSpot} />
           </section>
 
           {!isOffSeason && (
@@ -95,7 +159,7 @@ export default function App() {
 
         <nav className="navigation">
           <button className="nav-btn" onClick={goPrev}>← 前週</button>
-          <span className="week-counter">{index + 1} / {spotsData.length}</span>
+          <span className="week-counter">{spotIndex + 1} / {spotsData.length}</span>
           <button className="nav-btn" onClick={goNext}>次週 →</button>
         </nav>
       </div>
@@ -124,17 +188,7 @@ export default function App() {
           todayIndex={todayIndex}
           onSelectSpot={(i) => openDetail(i, 'map')}
         />
-
-        <nav className="bottom-nav">
-          <button className={`bottom-nav-btn ${tab === 'calendar' ? 'active' : ''}`} onClick={() => switchTab('calendar')}>
-            <span className="bnav-icon">📅</span>
-            <span className="bnav-label">カレンダー</span>
-          </button>
-          <button className={`bottom-nav-btn ${tab === 'map' ? 'active' : ''}`} onClick={() => switchTab('map')}>
-            <span className="bnav-icon">🗾</span>
-            <span className="bnav-label">マップ</span>
-          </button>
-        </nav>
+        <BottomNav />
       </div>
     )
   }
@@ -186,16 +240,7 @@ export default function App() {
         })}
       </main>
 
-      <nav className="bottom-nav">
-        <button className={`bottom-nav-btn ${tab === 'calendar' ? 'active' : ''}`} onClick={() => switchTab('calendar')}>
-          <span className="bnav-icon">📅</span>
-          <span className="bnav-label">カレンダー</span>
-        </button>
-        <button className={`bottom-nav-btn ${tab === 'map' ? 'active' : ''}`} onClick={() => switchTab('map')}>
-          <span className="bnav-icon">🗾</span>
-          <span className="bnav-label">マップ</span>
-        </button>
-      </nav>
+      <BottomNav />
     </div>
   )
 }

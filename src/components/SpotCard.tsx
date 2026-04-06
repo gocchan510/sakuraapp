@@ -17,9 +17,10 @@ interface Spot {
 
 interface Props {
   spot: Spot
+  onVarietyClick?: (varietyName: string) => void
 }
 
-export function SpotCard({ spot }: Props) {
+export function SpotCard({ spot, onVarietyClick }: Props) {
   if (spot.variety === 'オフシーズン') {
     return (
       <div className="spot-card off-season">
@@ -43,7 +44,16 @@ export function SpotCard({ spot }: Props) {
         <h2 className="spot-name">{spot.spot}</h2>
         <span className="prefecture-badge">{spot.prefecture}</span>
       </div>
-      <p className="variety">{spot.variety}</p>
+      {onVarietyClick ? (
+        <button
+          className="variety variety-link"
+          onClick={(e) => { e.stopPropagation(); onVarietyClick(spot.variety) }}
+        >
+          {spot.variety} →図鑑
+        </button>
+      ) : (
+        <p className="variety">{spot.variety}</p>
+      )}
       <p className="comment">{spot.comment}</p>
 
       {status && (
