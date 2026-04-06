@@ -1,4 +1,4 @@
-import { getSpotStatus, formatHeikinsa } from '../utils/sakuraStatus'
+import { getSpotStatus, formatHeikinsa, isSomeiCompatible } from '../utils/sakuraStatus'
 
 interface Spot {
   week: string
@@ -34,7 +34,7 @@ export function SpotCard({ spot }: Props) {
       ? `https://maps.google.com/?q=${spot.lat},${spot.lng}`
       : null
 
-  const status = getSpotStatus(spot.spot)
+  const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.spot) : null
 
   return (
     <div

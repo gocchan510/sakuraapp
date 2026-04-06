@@ -46,6 +46,22 @@ export type SpotStatus = {
   mankai: StationEntry
 }
 
+// 気象庁データ（ソメイヨシノ基準）を表示してよい品種
+const SOMEI_COMPATIBLE_VARIETIES = new Set([
+  'ソメイヨシノ',
+  'ヤマザクラ',
+  'ヤマザクラ系',
+  'オオカンザクラ',
+  'カンザン（八重）',
+  'ケイオウザクラ・シダレザクラ',
+  'サトザクラ系（遅咲き）',
+  'ギョイコウ・ウコン',
+])
+
+export function isSomeiCompatible(variety: string): boolean {
+  return SOMEI_COMPATIBLE_VARIETIES.has(variety)
+}
+
 export function getSpotStatus(spotName: string): SpotStatus | null {
   const station = SPOT_TO_STATION[spotName]
   if (!station) return null
