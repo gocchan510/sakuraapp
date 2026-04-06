@@ -4,23 +4,19 @@ import spotsData from '../data/spots.json'
 interface Props {
   id: string
   onBack: () => void
-  onSelectSpot: (weekIndex: number) => void
+  onSelectSpot: (spotId: string) => void
 }
 
 export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
   const variety = varietiesData.find((v) => v.id === id)
   if (!variety) return null
 
-  // この品種が登場する週のインデックスを探す
+  // この品種が登場するスポットを spots.json から検索
   const linkedSpots = variety.spots.flatMap((spotName) =>
-    spotsData
-      .map((s, i) => ({ s, i }))
-      .filter(({ s }) => s.spot === spotName || s.spot.includes(spotName))
-      .map(({ s, i }) => ({ index: i, week: s.week, spot: s.spot }))
+    spotsData.filter((s) => s.name === spotName || s.name.includes(spotName) || spotName.includes(s.name))
   )
-  // 重複除去
   const uniqueSpots = linkedSpots.filter(
-    (item, idx, self) => self.findIndex((x) => x.index === item.index) === idx
+    (item, idx, self) => self.findIndex((x) => x.id === item.id) === idx
   )
 
   return (
@@ -72,14 +68,14 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
           <section className="section">
             <div className="section-title">このアプリで見られるスポット</div>
             <div className="variety-spots">
-              {uniqueSpots.map(({ index, week, spot }) => (
+              {uniqueSpots.map((s) => (
                 <button
-                  key={index}
+                  key={s.id}
                   className="variety-spot-btn"
-                  onClick={() => onSelectSpot(index)}
+                  onClick={() => onSelectSpot(s.id)}
                 >
-                  <span className="variety-spot-name">{spot}</span>
-                  <span className="variety-spot-week">{week} →</span>
+                  <span className="variety-spot-name">{s.name}</span>
+                  <span className="variety-spot-week">{s.peakWeeks[0]} →</span>
                 </button>
               ))}
             </div>

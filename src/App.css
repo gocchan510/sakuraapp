@@ -436,6 +436,112 @@ body {
   z-index: 0;
 }
 
+/* ── SpotList ── */
+.spot-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 80px;
+}
+
+.spot-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(244,143,177,0.4);
+  border-radius: 12px;
+  padding: 14px;
+  cursor: pointer;
+  font-family: 'Noto Serif JP', serif;
+  text-align: left;
+  transition: background 0.12s;
+}
+
+.spot-list-item:hover { background: #fce4ec; }
+
+.sli-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.sli-name {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #880e4f;
+  margin-bottom: 2px;
+}
+
+.sli-prefecture {
+  font-size: 0.72rem;
+  color: #aaa;
+}
+
+.sli-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.sli-variety {
+  font-size: 0.72rem;
+  color: #e91e8c;
+  font-style: italic;
+  text-align: right;
+  max-width: 120px;
+}
+
+.sli-travel {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+.sli-arrow {
+  font-size: 1.2rem;
+  color: #e91e8c;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+
+/* ── カレンダーセルの件数バッジ ── */
+.cal-spot-count {
+  font-size: 0.62rem;
+  background: rgba(233,30,140,0.12);
+  color: #c2185b;
+  padding: 1px 5px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.cal-cell-disabled {
+  cursor: default !important;
+  pointer-events: none;
+}
+
+/* ── マップの週フィルター ── */
+.map-week-filter {
+  margin-bottom: 6px;
+}
+
+.map-week-select {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #f48fb1;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.9);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.82rem;
+  color: #444;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M0 0l6 8 6-8z' fill='%23e91e8c'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 28px;
+}
+
 /* ── Bottom Nav ── */
 .bottom-nav {
   display: flex;
