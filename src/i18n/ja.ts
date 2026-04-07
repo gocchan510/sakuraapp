@@ -26,6 +26,8 @@ export const ja = {
   zukanTitle: '品種図鑑',
   zukanSubtitle: '登場する桜',
   zukanVarietyUnit: '品種',
+  zukanSortBloom: '開花時期順',
+  zukanSortName: '名前順',
   detailBasicInfo: '基本情報',
   detailSeason: '開花時期',
   detailColor: '花の色',

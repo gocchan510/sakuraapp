@@ -28,6 +28,8 @@ export const zhTW: I18nKeys = {
   zukanTitle: '品種圖鑑',
   zukanSubtitle: '收錄櫻花品種',
   zukanVarietyUnit: '種',
+  zukanSortBloom: '依開花時期',
+  zukanSortName: '依名稱',
   detailBasicInfo: '基本資訊',
   detailSeason: '開花時期',
   detailColor: '花色',
