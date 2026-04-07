@@ -1440,6 +1440,46 @@ body {
 .cell-kawazu  .cal-day-bloom-dot { background: #ab47bc; }
 .cell-winter  .cal-day-bloom-dot { background: #1976d2; }
 
+/* 見頃予測による色分けドット（東京満開日基準） */
+.bloom-dot-mikoro  { background: #e91e8c !important; opacity: 0.95 !important; width: 5px !important; height: 5px !important; }
+.bloom-dot-kaika   { background: #ff7043 !important; opacity: 0.85 !important; }
+.bloom-dot-chiri   { background: #ba68c8 !important; opacity: 0.80 !important; }
+.bloom-dot-hazakura{ background: #81c784 !important; opacity: 0.70 !important; }
+
+/* ── 見頃予測バー (SpotList) ── */
+.bloom-forecast-bar {
+  padding: 8px 0 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.bloom-forecast-title {
+  font-size: 0.72rem;
+  color: #999;
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing: 0.02em;
+}
+.bloom-forecast-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.bloom-fc-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: 'Noto Serif JP', serif;
+}
+.bloom-fc-mikoro  { background: #fce4ec; color: #c62828; border: 1px solid #f48fb1; }
+.bloom-fc-kaika   { background: #fff3e0; color: #bf360c; border: 1px solid #ffb74d; }
+.bloom-fc-chiri   { background: #f3e5f5; color: #6a1b9a; border: 1px solid #ce93d8; }
+.bloom-fc-hazakura{ background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+.bloom-fc-mikaika { background: #e3f2fd; color: #1565c0; border: 1px solid #90caf9; }
+
 /* プランモード：計画済みセルのハイライト */
 .cal-day-has-plan {
   border-color: #e91e8c !important;

@@ -4,7 +4,7 @@ import { estimateMinutes, DEFAULT_STATION } from '../utils/travelTime'
 import type { Station } from '../utils/travelTime'
 import type { Spot } from '../utils/spotsByWeek'
 import { formatDateDisplay } from '../utils/calendarUtils'
-import { getPrefStatus } from '../utils/sakuraStatus'
+import { getPrefStatus, getBloomStatusForDate, getStatusClass, isSomeiCompatible } from '../utils/sakuraStatus'
 
 // 開花状況の表示順（数値が小さいほど「今見ごろ」）
 const BLOOM_RANK: Record<string, number> = {
@@ -126,6 +126,24 @@ export function SpotList({
           </>
         )}
       </header>
+
+      {/* ── 日付別見頃予測バー ── */}
+      {selectedDate && availablePrefs.some(p => isSomeiCompatible(spots.find(s => s.prefecture === p)?.variety ?? '')) && (
+        <div className="bloom-forecast-bar">
+          <span className="bloom-forecast-title">🌸 {formatDateDisplay(selectedDate, lang)}{lang === 'zh-TW' ? '的花況預測' : 'の見頃予測'}</span>
+          <div className="bloom-forecast-chips">
+            {availablePrefs.map(pref => {
+              const st = getBloomStatusForDate(pref, selectedDate)
+              if (!st) return null
+              return (
+                <span key={pref} className={`bloom-fc-chip bloom-fc-${getStatusClass(st)}`}>
+                  {PREF_SHORT[pref] ?? pref}：{st}
+                </span>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ── エリアフィルターバー ── */}
       {availablePrefs.length > 1 && (

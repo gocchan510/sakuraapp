@@ -14,6 +14,7 @@ import { getSpotsForWeek, isOffSeason } from './utils/spotsByWeek'
 import { getCalendarMonth, dateToWeekLabel, isSameDay, formatDateStr, formatDateDisplay } from './utils/calendarUtils'
 import { DEFAULT_STATION } from './utils/travelTime'
 import type { Station } from './utils/travelTime'
+import { getBloomStatusForDate, getStatusClass } from './utils/sakuraStatus'
 import { useLang } from './i18n'
 
 type Tab = 'calendar' | 'map' | 'zukan'
@@ -480,6 +481,10 @@ export default function App() {
                       const isToday = isSameDay(date, today)
                       const varClass = getVarietyClass(wl)
                       const dow = date.getDay()
+                      // 東京の満開日基準で見頃ウィンドウを計算（ソメイヨシノ期のみ）
+                      const bloomFc = !offSeason && varClass === 'cell-spring'
+                        ? getBloomStatusForDate('東京都', dateStr)
+                        : null
 
                       return (
                         <button
@@ -502,7 +507,10 @@ export default function App() {
                             <span className="cal-day-star">★</span>
                           )}
                           {!offSeason && !plannedForDate && (
-                            <span className="cal-day-bloom-dot" />
+                            <span className={[
+                              'cal-day-bloom-dot',
+                              bloomFc ? `bloom-dot-${getStatusClass(bloomFc)}` : '',
+                            ].filter(Boolean).join(' ')} />
                           )}
                         </button>
                       )

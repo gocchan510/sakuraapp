@@ -1,5 +1,57 @@
 import statusData from '../data/sakura_status.json'
 
+// ─────────────────────────────────────────────────────────────
+// 日付ベース見頃予測
+// 気象庁の実測 満開日 + 標準的な落花ウィンドウで任意日の状態を推定
+//   見頃:     満開日 〜 +7日
+//   散り始め: +8日 〜 +14日
+//   葉桜:    +15日以降
+//   開花:    開花日 〜 満開日前日
+//   null:    開花前 or データなし
+// ─────────────────────────────────────────────────────────────
+
+function parseJpDateStr(jpDate: string, year: number): Date | null {
+  const m = /(\d+)月\s*(\d+)日/.exec(jpDate)
+  if (!m) return null
+  return new Date(year, parseInt(m[1]) - 1, parseInt(m[2]))
+}
+
+// 都道府県 → 最寄り観測ステーション
+const PREF_TO_STATION: Record<string, string> = {
+  '東京都':  '東京',
+  '神奈川県': '横浜',
+  '埼玉県':  '熊谷',
+  '千葉県':  '東京',   // 千葉観測値未公表→東京で代替
+  '静岡県':  '静岡',
+  '群馬県':  '前橋',
+}
+
+export function getBloomStatusForDate(prefecture: string, dateStr: string): string | null {
+  const stationName = PREF_TO_STATION[prefecture]
+  if (!stationName) return null
+  const stations = (statusData as Record<string, unknown>).stations as Record<
+    string, { kaika: StationEntry; mankai: StationEntry }
+  >
+  const data = stations?.[stationName]
+  if (!data?.mankai?.date) return null
+
+  const year = parseInt(dateStr.slice(0, 4))
+  const mankai = parseJpDateStr(data.mankai.date, year)
+  if (!mankai) return null
+  const kaika = data.kaika?.date ? parseJpDateStr(data.kaika.date, year) : null
+
+  const target = new Date(dateStr)
+  const diff = Math.round((target.getTime() - mankai.getTime()) / 86400000)
+
+  if (diff < 0) {
+    if (kaika && target >= kaika) return '開花'
+    return null   // 開花前
+  }
+  if (diff <= 7)  return '見頃'
+  if (diff <= 14) return '散り始め'
+  return '葉桜'
+}
+
 // スポット名 → 気象庁観測地点名
 const SPOT_TO_STATION: Record<string, string> = {
   '皇居東御苑': '東京', '飛鳥山公園': '東京', '新宿御苑': '東京',
