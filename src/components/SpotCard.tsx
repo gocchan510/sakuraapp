@@ -9,9 +9,11 @@ interface Props {
   spot: Spot
   onVarietyClick?: (varietyName: string) => void
   fromStation?: Station
+  inPlan?: boolean
+  onTogglePlan?: (id: string) => void
 }
 
-export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION }: Props) {
+export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION, inPlan, onTogglePlan }: Props) {
   const { t } = useLang()
 
   const mapsUrl =
@@ -34,6 +36,15 @@ export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION }
         <h2 className="spot-name">{spot.name}</h2>
         <span className="prefecture-badge">{spot.prefecture}</span>
       </div>
+
+      {onTogglePlan && (
+        <button
+          className={`plan-star-card-btn${inPlan ? ' plan-star-active' : ''}`}
+          onClick={() => onTogglePlan(spot.id)}
+        >
+          {inPlan ? '★ ' + t.inPlan : '☆ ' + t.addToPlan}
+        </button>
+      )}
 
       {onVarietyClick ? (
         <button

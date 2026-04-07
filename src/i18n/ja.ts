@@ -54,6 +54,12 @@ export const ja = {
   outOfMetro: '1都3県外',
   toZukan: '→図鑑',
   offSeasonMsg: '桜のシーズンではありません',
+  allSpots: '全スポット',
+  myPlan: 'マイプラン',
+  addToPlan: 'プランに追加',
+  inPlan: 'プラン済み ★',
+  planEmpty: '★ を押してスポットをプランに追加しよう',
+  planCount: '件計画中',
 }
 
 export type I18nKeys = typeof ja

@@ -1119,6 +1119,141 @@ body {
   color: #bbb;
 }
 
+/* ── マイプラン トグル ── */
+.plan-toggle-row {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid #f48fb1;
+  border-radius: 22px;
+  padding: 3px;
+  margin: 10px auto 0;
+  gap: 2px;
+  width: fit-content;
+}
+
+.plan-toggle-btn {
+  padding: 5px 16px;
+  border-radius: 18px;
+  border: none;
+  background: transparent;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.8rem;
+  color: #ad1457;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.plan-toggle-btn:hover {
+  background: #fce4ec;
+}
+
+.plan-toggle-active {
+  background: #e91e8c !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* ── カレンダーセル プラン表示 ── */
+.cal-cell-has-plan {
+  border-color: #e91e8c !important;
+  box-shadow: 0 0 0 2px rgba(233, 30, 140, 0.2), 0 2px 8px rgba(233, 30, 140, 0.15);
+}
+
+.cal-cell-plan-dim {
+  opacity: 0.38;
+}
+
+/* プランドット（全スポットモードでプランあり週に表示） */
+.cal-plan-dot {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  background: #e91e8c;
+  border-radius: 50%;
+}
+
+/* プランモードの件数バッジ */
+.cal-plan-count {
+  background: rgba(233, 30, 140, 0.18) !important;
+  color: #880e4f !important;
+}
+
+/* ── スター（プラン追加）ボタン ── */
+.plan-star-btn {
+  font-size: 1.1rem;
+  line-height: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 8px;
+  color: #ccc;
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.1s;
+  margin-right: 2px;
+}
+
+.plan-star-btn:active {
+  transform: scale(1.25);
+}
+
+.plan-star-active {
+  color: #e91e8c !important;
+}
+
+/* SpotCard内のプランボタン */
+.plan-star-card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0 12px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1.5px solid #f48fb1;
+  background: #fff8fb;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.82rem;
+  color: #ad1457;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.plan-star-card-btn:hover {
+  background: #fce4ec;
+}
+
+.plan-star-card-btn.plan-star-active {
+  background: #fce4ec;
+  border-color: #e91e8c;
+  color: #880e4f;
+  font-weight: 600;
+}
+
+/* スポット一覧：プラン済み行のハイライト */
+.spot-list-item-planned {
+  background: rgba(252, 228, 236, 0.6) !important;
+  border-color: rgba(244, 143, 177, 0.7) !important;
+}
+
+/* プラン空表示 */
+.plan-empty-msg {
+  text-align: center;
+  padding: 48px 16px;
+  color: #bbb;
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+.plan-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+
 /* ── Responsive ── */
 @media (max-width: 360px) {
   .app-title {

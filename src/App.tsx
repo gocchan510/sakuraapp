@@ -53,14 +53,31 @@ export default function App() {
     } catch { return DEFAULT_STATION }
   })
   const [showStationPicker, setShowStationPicker] = useState(false)
+  const [planIds, setPlanIds] = useState<Set<string>>(() => {
+    try {
+      const saved = localStorage.getItem('planIds')
+      return saved ? new Set(JSON.parse(saved) as string[]) : new Set<string>()
+    } catch { return new Set<string>() }
+  })
+  const [showPlanOnly, setShowPlanOnly] = useState(false)
 
   const handleSelectStation = (s: Station) => {
     setFromStation(s)
     localStorage.setItem('fromStation', JSON.stringify(s))
   }
 
+  const togglePlan = (id: string) => {
+    setPlanIds(prev => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id); else next.add(id)
+      localStorage.setItem('planIds', JSON.stringify([...next]))
+      return next
+    })
+  }
+
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
   const weekSpots = getSpotsForWeek(selectedWeek)
+  const displayWeekSpots = showPlanOnly ? weekSpots.filter(s => planIds.has(s.id)) : weekSpots
 
   useEffect(() => {
     const onPopState = (e: PopStateEvent) => {
@@ -182,7 +199,13 @@ export default function App() {
         </header>
         <main className="main-content">
           <section className="section">
-            <SpotCard spot={selectedSpot} onVarietyClick={openVarietyFromSpot} fromStation={fromStation} />
+            <SpotCard
+              spot={selectedSpot}
+              onVarietyClick={openVarietyFromSpot}
+              fromStation={fromStation}
+              inPlan={planIds.has(selectedSpot.id)}
+              onTogglePlan={togglePlan}
+            />
           </section>
         </main>
       </div>
@@ -195,10 +218,13 @@ export default function App() {
       <div className="app">
         <SpotList
           weekLabel={selectedWeek}
-          spots={weekSpots}
+          spots={displayWeekSpots}
           onSelect={openSpotDetail}
           onBack={() => history.back()}
           fromStation={fromStation}
+          planIds={planIds}
+          onTogglePlan={togglePlan}
+          isPlanMode={showPlanOnly}
         />
         <BottomNav />
       </div>
@@ -269,6 +295,16 @@ export default function App() {
         <h1 className="app-title">{t.appTitle}</h1>
         <p className="app-subtitle">{t.appSubtitle}</p>
         <StationBtn />
+        <div className="plan-toggle-row">
+          <button
+            className={`plan-toggle-btn${!showPlanOnly ? ' plan-toggle-active' : ''}`}
+            onClick={() => setShowPlanOnly(false)}
+          >{t.allSpots}</button>
+          <button
+            className={`plan-toggle-btn${showPlanOnly ? ' plan-toggle-active' : ''}`}
+            onClick={() => setShowPlanOnly(true)}
+          >⭐ {t.myPlan}{planIds.size > 0 ? ` (${planIds.size})` : ''}</button>
+        </div>
       </header>
 
       <div className="legend">
@@ -287,13 +323,25 @@ export default function App() {
               <div className="cal-week-row">
                 {weekLabels.map((wl, wi) => {
                   const isToday = wl === todayWeek
-                  const spots = getSpotsForWeek(wl)
-                  const off = spots.length === 0
+                  const allSpots = getSpotsForWeek(wl)
+                  const offSeason = allSpots.length === 0
+                  const planSpots = allSpots.filter(s => planIds.has(s.id))
+                  const planCount = planSpots.length
+                  const hasPlan = planCount > 0
                   const varClass = getVarietyClass(wl)
+                  const off = offSeason
+                  const planDimmed = showPlanOnly && !offSeason && !hasPlan
                   return (
                     <button
                       key={wl}
-                      className={`cal-cell ${varClass} ${isToday ? 'cal-cell-today' : ''} ${off ? 'cal-cell-disabled' : ''}`}
+                      className={[
+                        'cal-cell',
+                        varClass,
+                        isToday ? 'cal-cell-today' : '',
+                        off ? 'cal-cell-disabled' : '',
+                        showPlanOnly && hasPlan ? 'cal-cell-has-plan' : '',
+                        planDimmed ? 'cal-cell-plan-dim' : '',
+                      ].filter(Boolean).join(' ')}
                       onClick={() => !off && openWeek(wl)}
                       disabled={off}
                     >
@@ -301,10 +349,20 @@ export default function App() {
                       {isToday && <span className="cal-today-badge">{t.todayBadge}</span>}
                       {off ? (
                         <span className="cal-spot-name" style={{ color: '#ccc' }}>{t.calendarOffLabel}</span>
+                      ) : showPlanOnly ? (
+                        hasPlan ? (
+                          <>
+                            <span className="cal-spot-count cal-plan-count">{planCount}{t.calUnitSpots}</span>
+                            <span className="cal-spot-name">{planSpots[0].name}</span>
+                          </>
+                        ) : (
+                          <span className="cal-spot-name" style={{ color: '#ccc' }}>—</span>
+                        )
                       ) : (
                         <>
-                          <span className="cal-spot-count">{spots.length}{t.calUnitSpots}</span>
-                          <span className="cal-spot-name">{spots[0].name}</span>
+                          {hasPlan && <span className="cal-plan-dot" title={`${planCount}件計画中`} />}
+                          <span className="cal-spot-count">{allSpots.length}{t.calUnitSpots}</span>
+                          <span className="cal-spot-name">{allSpots[0].name}</span>
                         </>
                       )}
                     </button>

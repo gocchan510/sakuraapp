@@ -9,11 +9,24 @@ interface Props {
   onSelect: (spotId: string) => void
   onBack: () => void
   fromStation?: Station
+  planIds?: Set<string>
+  onTogglePlan?: (id: string) => void
+  isPlanMode?: boolean
 }
 
-export function SpotList({ weekLabel, spots, onSelect, onBack, fromStation = DEFAULT_STATION }: Props) {
+export function SpotList({
+  weekLabel,
+  spots,
+  onSelect,
+  onBack,
+  fromStation = DEFAULT_STATION,
+  planIds,
+  onTogglePlan,
+  isPlanMode,
+}: Props) {
   const { t } = useLang()
   const isDefault = fromStation.id === 'shitte'
+
   return (
     <div className="app">
       <header className="app-header">
@@ -24,26 +37,45 @@ export function SpotList({ weekLabel, spots, onSelect, onBack, fromStation = DEF
       </header>
 
       <main className="spot-list">
-        {spots.map((s) => (
-          <button
-            key={s.id}
-            className="spot-list-item"
-            onClick={() => onSelect(s.id)}
-          >
-            <div className="sli-left">
-              <span className="sli-name">{s.name}</span>
-              <span className="sli-prefecture">{s.prefecture}</span>
-            </div>
-            <div className="sli-right">
-              <span className="sli-variety">{s.variety}</span>
-              <span className="sli-travel">
-                📍 {isDefault ? s.travelTime : `約${estimateMinutes(fromStation.lat, fromStation.lng, s.lat, s.lng)}分`}
-                {!isDefault && <span className="estimate-badge-sm">推</span>}
-              </span>
-            </div>
-            <span className="sli-arrow">›</span>
-          </button>
-        ))}
+        {spots.length === 0 && isPlanMode ? (
+          <div className="plan-empty-msg">
+            <div className="plan-empty-icon">🌸</div>
+            <div>{t.planEmpty}</div>
+          </div>
+        ) : (
+          spots.map((s) => {
+            const inPlan = planIds?.has(s.id) ?? false
+            return (
+              <button
+                key={s.id}
+                className={`spot-list-item${inPlan ? ' spot-list-item-planned' : ''}`}
+                onClick={() => onSelect(s.id)}
+              >
+                {onTogglePlan && (
+                  <button
+                    className={`plan-star-btn${inPlan ? ' plan-star-active' : ''}`}
+                    onClick={e => { e.stopPropagation(); onTogglePlan(s.id) }}
+                    aria-label={inPlan ? 'プランから削除' : 'プランに追加'}
+                  >
+                    {inPlan ? '★' : '☆'}
+                  </button>
+                )}
+                <div className="sli-left">
+                  <span className="sli-name">{s.name}</span>
+                  <span className="sli-prefecture">{s.prefecture}</span>
+                </div>
+                <div className="sli-right">
+                  <span className="sli-variety">{s.variety}</span>
+                  <span className="sli-travel">
+                    📍 {isDefault ? s.travelTime : `約${estimateMinutes(fromStation.lat, fromStation.lng, s.lat, s.lng)}分`}
+                    {!isDefault && <span className="estimate-badge-sm">推</span>}
+                  </span>
+                </div>
+                <span className="sli-arrow">›</span>
+              </button>
+            )
+          })
+        )}
       </main>
     </div>
   )

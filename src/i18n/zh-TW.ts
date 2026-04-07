@@ -56,4 +56,10 @@ export const zhTW: I18nKeys = {
   outOfMetro: '東京都及近三縣以外',
   toZukan: '→圖鑑',
   offSeasonMsg: '目前非櫻花季節',
+  allSpots: '全景點',
+  myPlan: '我的計畫',
+  addToPlan: '加入計畫',
+  inPlan: '已計畫 ★',
+  planEmpty: '點選 ★ 將景點加入計畫',
+  planCount: '個已計畫',
 }
