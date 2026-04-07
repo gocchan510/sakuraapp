@@ -5,6 +5,7 @@ import { SpotCard } from './components/SpotCard'
 import { SpotList } from './components/SpotList'
 import { AllSpotsMap } from './components/AllSpotsMap'
 import { PlanView } from './components/PlanView'
+import { TutorialOverlay } from './components/TutorialOverlay'
 import { VarietyList } from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { StationPicker } from './components/StationPicker'
@@ -66,6 +67,14 @@ export default function App() {
   })
   const [selectedDate, setSelectedDate] = useState<string | null>(null)
   // 月ごとの展開状態（数字=月番号 1〜12）。localStorageに永続化
+  const [showTutorial, setShowTutorial] = useState<boolean>(() => {
+    try { return !localStorage.getItem('tutorialSeen') } catch { return true }
+  })
+  const closeTutorial = () => {
+    try { localStorage.setItem('tutorialSeen', '1') } catch { /* noop */ }
+    setShowTutorial(false)
+  }
+
   const [openMonths, setOpenMonths] = useState<Set<number>>(() => {
     try {
       const saved = localStorage.getItem('openMonths')
@@ -168,6 +177,12 @@ export default function App() {
       onClick={() => setLang(lang === 'ja' ? 'zh-TW' : 'ja')}
     >
       {lang === 'ja' ? '繁中' : '日本語'}
+    </button>
+  )
+
+  const HelpBtn = () => (
+    <button className="help-btn" onClick={() => setShowTutorial(true)} aria-label="使い方">
+      ？
     </button>
   )
 
@@ -348,10 +363,14 @@ export default function App() {
           onClose={() => setShowStationPicker(false)}
         />
       )}
+      {showTutorial && <TutorialOverlay onClose={closeTutorial} />}
       <header className="app-header">
         <div className="header-top-row">
           <div className="header-petal">🌸</div>
-          <LangToggle />
+          <div className="header-top-right">
+            <HelpBtn />
+            <LangToggle />
+          </div>
         </div>
         <h1 className="app-title">{t.appTitle}</h1>
         <p className="app-subtitle">{calYear}年 — {t.appSubtitle}</p>
