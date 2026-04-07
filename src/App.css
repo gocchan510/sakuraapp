@@ -78,6 +78,18 @@ body {
   box-shadow: 0 4px 20px rgba(173, 20, 87, 0.12);
   border: 1px solid rgba(244, 143, 177, 0.5);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  overflow: hidden;
+}
+
+.spot-image-wrap {
+  margin: -20px -20px 16px -20px;
+}
+
+.spot-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
 }
 
 .spot-card:not(.off-season):hover {
