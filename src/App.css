@@ -588,6 +588,33 @@ body {
   z-index: 0;
 }
 
+/* ── Pref status badge（現在の状況） ── */
+.pref-status-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 4px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.83rem;
+}
+.pref-status-emoji { font-size: 1rem; line-height: 1; }
+.pref-status-label { color: inherit; opacity: 0.75; font-size: 0.72rem; }
+.pref-status-value { font-weight: 700; }
+.pref-status-source {
+  margin-left: auto;
+  font-size: 0.62rem;
+  opacity: 0.55;
+  font-weight: 400;
+}
+
+/* 状況別カラー */
+.pref-status-mikoro  { background: #fce4ec; color: #880e4f; border: 1px solid #f48fb1; }
+.pref-status-kaika   { background: #fce4ec; color: #c2185b; border: 1px solid #fce4ec; }
+.pref-status-chiri   { background: #fff3e0; color: #bf360c; border: 1px solid #ffcc80; }
+.pref-status-hazakura{ background: #f1f8e9; color: #33691e; border: 1px solid #aed581; }
+.pref-status-mikaika { background: #f5f5f5; color: #616161; border: 1px solid #e0e0e0; }
+
 /* ── Status block (開花情報) ── */
 .status-block {
   margin: 12px 0 4px;

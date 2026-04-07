@@ -32,6 +32,7 @@ export const ja = {
   detailFeatures: '特徴',
   detailDescription: 'どんな桜？',
   detailLinkedSpots: 'このアプリで見られるスポット',
+  statusNow: '現在の状況',
   statusTitle: '開花情報',
   statusStation: '観測点',
   statusKaika: '開花',

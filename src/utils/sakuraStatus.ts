@@ -64,6 +64,38 @@ export function getStatusUpdated(): string | null {
   return ((statusData as Record<string, unknown>).updated as string) ?? null
 }
 
+// ── 都道府県ごとの現在ステータス（tenki.jp / Yahoo天気）────────────
+
+export type PrefStatusEntry = {
+  status: string
+  source: string
+} | null
+
+export function getPrefStatus(prefecture: string): PrefStatusEntry {
+  const prefStatus = (statusData as Record<string, unknown>).prefStatus as Record<string, PrefStatusEntry> | undefined
+  return prefStatus?.[prefecture] ?? null
+}
+
+/** ステータス文字列 → CSSクラス名（色分け用） */
+export function getStatusClass(status: string): string {
+  if (status.includes('見頃')) return 'mikoro'
+  if (status.includes('散り')) return 'chiri'
+  if (status.includes('葉桜')) return 'hazakura'
+  if (status.includes('開花前') || status.includes('未発表')) return 'mikaika'
+  if (status.includes('開花')) return 'kaika'
+  return 'mikaika'
+}
+
+/** ステータス文字列 → 絵文字 */
+export function getStatusEmoji(status: string): string {
+  if (status.includes('見頃')) return '🌸'
+  if (status.includes('散り')) return '🌿'
+  if (status.includes('葉桜')) return '🍃'
+  if (status.includes('開花前') || status.includes('未発表')) return '🌱'
+  if (status.includes('開花')) return '🌸'
+  return '🌸'
+}
+
 export function formatHeikinsa(val: number | null, t?: { statusAvg: string; statusEarly: string; statusDayEarly: string; statusDayLate: string }): string {
   if (val === null) return ''
   if (!t) {

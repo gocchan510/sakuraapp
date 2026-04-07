@@ -1,4 +1,4 @@
-import { getSpotStatus, formatHeikinsa, isSomeiCompatible } from '../utils/sakuraStatus'
+import { getSpotStatus, formatHeikinsa, isSomeiCompatible, getPrefStatus, getStatusClass, getStatusEmoji } from '../utils/sakuraStatus'
 import { SpotMap } from './SpotMap'
 import { useLang } from '../i18n'
 import type { Spot } from '../utils/spotsByWeek'
@@ -17,6 +17,7 @@ export function SpotCard({ spot, onVarietyClick }: Props) {
       : null
 
   const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.name) : null
+  const prefStatus = isSomeiCompatible(spot.variety) ? getPrefStatus(spot.prefecture) : null
 
   return (
     <div className="spot-card">
@@ -37,6 +38,15 @@ export function SpotCard({ spot, onVarietyClick }: Props) {
       )}
 
       <p className="comment">{spot.comment}</p>
+
+      {prefStatus && (
+        <div className={`pref-status-badge pref-status-${getStatusClass(prefStatus.status)}`}>
+          <span className="pref-status-emoji">{getStatusEmoji(prefStatus.status)}</span>
+          <span className="pref-status-label">{t.statusNow}</span>
+          <strong className="pref-status-value">{prefStatus.status}</strong>
+          <span className="pref-status-source">{prefStatus.source}</span>
+        </div>
+      )}
 
       {status && (
         <div className="status-block">

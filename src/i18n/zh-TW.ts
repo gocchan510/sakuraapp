@@ -34,6 +34,7 @@ export const zhTW: I18nKeys = {
   detailFeatures: '特徵',
   detailDescription: '品種介紹',
   detailLinkedSpots: '本應用中的賞花景點',
+  statusNow: '目前狀況',
   statusTitle: '開花資訊',
   statusStation: '觀測站',
   statusKaika: '初開',

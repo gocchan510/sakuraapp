@@ -1,5 +1,13 @@
 {
   "updated": "2026/4/6",
+  "prefStatus": {
+    "東京都": null,
+    "神奈川県": null,
+    "埼玉県": null,
+    "千葉県": null,
+    "静岡県": null,
+    "群馬県": null
+  },
   "stations": {
     "東京": {
       "kaika": {
