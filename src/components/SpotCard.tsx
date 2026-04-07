@@ -58,16 +58,21 @@ export function SpotCard({
 
   return (
     <div className="spot-card">
-      {spot.imageUrl && (
-        <div className="spot-image-wrap">
+      <div className="spot-image-wrap">
+        {spot.imageUrl ? (
           <img
             src={spot.imageUrl}
             alt={spot.name}
             className="spot-image"
             loading="lazy"
           />
-        </div>
-      )}
+        ) : (
+          <div className="spot-image-placeholder">
+            <span className="spot-image-placeholder-icon">🌸</span>
+            <span className="spot-image-placeholder-name">{spot.name}</span>
+          </div>
+        )}
+      </div>
       <div className="spot-header">
         <h2 className="spot-name">{spot.name}</h2>
         <span className="prefecture-badge">{spot.prefecture}</span>
