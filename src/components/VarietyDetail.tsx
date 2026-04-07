@@ -6,12 +6,16 @@ interface Props {
   id: string
   onBack: () => void
   onSelectSpot: (spotId: string) => void
+  onGoCalendar?: (month: number) => void
 }
 
-export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
+export function VarietyDetail({ id, onBack, onSelectSpot, onGoCalendar }: Props) {
   const { t } = useLang()
   const variety = varietiesData.find((v) => v.id === id)
   if (!variety) return null
+
+  // season文字列から先頭の月を取得（例: "1月下旬〜3月" → 1）
+  const bloomMonth = parseInt(/(\d+)月/.exec(variety.season)?.[1] ?? '4')
 
   const linkedSpots = variety.spots.flatMap((spotName) =>
     spotsData.filter((s) => s.name === spotName || s.name.includes(spotName) || spotName.includes(s.name))
@@ -63,6 +67,14 @@ export function VarietyDetail({ id, onBack, onSelectSpot }: Props) {
           <div className="variety-desc-card">
             <p className="variety-desc">{variety.detail}</p>
           </div>
+          {onGoCalendar && (
+            <button
+              className="variety-go-calendar-btn"
+              onClick={() => onGoCalendar(bloomMonth)}
+            >
+              📅 {t.zukanGoCalendar}
+            </button>
+          )}
         </section>
 
         {uniqueSpots.length > 0 && (

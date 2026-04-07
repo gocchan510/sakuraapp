@@ -83,4 +83,6 @@ export const zhTW: I18nKeys = {
   sortDistance: '距離近',
   sortPopularity: '人氣',
   bloomNoData: '無資料',
+  zukanGoCalendar: '在行事曆確認花期',
+  jumpToToday: '跳至本週',
 }

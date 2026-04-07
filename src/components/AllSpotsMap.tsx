@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Spot } from '../utils/spotsByWeek'
+import { getPrefStatus } from '../utils/sakuraStatus'
 
 delete (L.Icon.Default.prototype as unknown as Record<string, unknown>)._getIconUrl
 L.Icon.Default.mergeOptions({
@@ -16,15 +17,35 @@ function pinColor(variety: string): string {
   return '#f06292'
 }
 
-function makeIcon(color: string, isHighlight: boolean, isDimmed: boolean) {
-  const size = isHighlight ? 36 : 26
-  const opacity = isDimmed ? 0.35 : 1
-  const svg = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 36 36" opacity="${opacity}">
-      <circle cx="18" cy="18" r="14" fill="${color}" stroke="white" stroke-width="${isHighlight ? 3 : 2}"/>
-      ${isHighlight ? '<circle cx="18" cy="18" r="6" fill="white"/>' : ''}
-    </svg>
-  `
+// 開花状況→マーカー内ラベルと色の補正
+const BLOOM_MARKER: Record<string, { label: string; rim: string }> = {
+  '見頃':     { label: '満', rim: '#c62828' },
+  '散り始め': { label: '散', rim: '#8d6e63' },
+  '開花':     { label: '咲', rim: '#ad1457' },
+  '開花前':   { label: '蕾', rim: '#7b8ccc' },
+  '葉桜':     { label: '葉', rim: '#558b2f' },
+}
+
+function makeIcon(color: string, isHighlight: boolean, isDimmed: boolean, bloomStatus?: string) {
+  const size = isHighlight ? 38 : 26
+  const opacity = isDimmed ? 0.32 : 1
+  const bm = bloomStatus ? BLOOM_MARKER[bloomStatus] : null
+  const rimColor = bm ? bm.rim : 'white'
+  const strokeW = isHighlight ? 3 : 2
+
+  let inner = ''
+  if (isHighlight && bm) {
+    // 見頃状況ラベルを中央に表示
+    inner = `<text x="19" y="24" text-anchor="middle" font-size="11" font-weight="bold" fill="white" font-family="sans-serif">${bm.label}</text>`
+  } else if (isHighlight) {
+    inner = '<circle cx="19" cy="19" r="6" fill="white"/>'
+  }
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 38 38" opacity="${opacity}">
+    <circle cx="19" cy="19" r="15" fill="${color}" stroke="${rimColor}" stroke-width="${strokeW}"/>
+    ${inner}
+  </svg>`
+
   return L.divIcon({
     html: svg,
     className: '',
@@ -75,13 +96,21 @@ export function AllSpotsMap({ spots, filterWeek, todayWeek, onSelectSpot }: Prop
         : s.peakWeeks.includes(todayWeek)
       const isDimmed = filterWeek ? !inFilter : false
       const color = pinColor(s.variety)
-      const icon = makeIcon(color, isHighlight, isDimmed)
+
+      // 現在の開花状況（ハイライトスポットのみ取得して表示）
+      const prefStatus = isHighlight ? getPrefStatus(s.prefecture) : null
+      const bloomStatus = prefStatus?.status
+      const icon = makeIcon(color, isHighlight, isDimmed, bloomStatus)
+
+      const bloomLine = bloomStatus
+        ? `<br/><span style="font-size:11px;font-weight:bold;color:#c62828">🌸 ${bloomStatus}</span>`
+        : ''
 
       const marker = L.marker([s.lat, s.lng], { icon }).addTo(map)
         .bindPopup(`
           <div style="min-width:150px">
             <b style="font-size:13px">${s.name}</b><br/>
-            <span style="font-size:11px;color:#888">${s.variety}</span><br/>
+            <span style="font-size:11px;color:#888">${s.variety}</span>${bloomLine}<br/>
             <span style="font-size:11px;color:#999">📍 尻手から${s.travelTime}</span>
           </div>
         `)

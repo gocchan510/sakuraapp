@@ -81,6 +81,8 @@ export const ja = {
   sortDistance: '近い順',
   sortPopularity: '人気順',
   bloomNoData: 'データなし',
+  zukanGoCalendar: 'カレンダーで見頃週を確認',
+  jumpToToday: '今週へ',
 }
 
 export type I18nKeys = typeof ja

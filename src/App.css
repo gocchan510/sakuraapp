@@ -375,6 +375,29 @@ body {
   line-height: 1.8;
 }
 
+/* 図鑑→カレンダーボタン */
+.variety-go-calendar-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,0.85);
+  border: 1.5px solid #f48fb1;
+  border-radius: 12px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.83rem;
+  color: #ad1457;
+  cursor: pointer;
+  transition: background 0.13s, box-shadow 0.13s;
+}
+.variety-go-calendar-btn:hover {
+  background: #fce4ec;
+  box-shadow: 0 2px 8px rgba(173,20,87,0.12);
+}
+
 .variety-spots {
   display: flex;
   flex-direction: column;
@@ -1429,6 +1452,29 @@ body {
 }
 
 /* ── マイプラン 概要ボタン ── */
+/* ── 今週へボタン ── */
+.jump-today-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin: 8px 0 0;
+  padding: 8px 14px;
+  background: rgba(255,255,255,0.70);
+  border: 1.5px solid #f48fb1;
+  border-radius: 12px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.82rem;
+  color: #ad1457;
+  cursor: pointer;
+  transition: background 0.13s, box-shadow 0.13s;
+}
+.jump-today-btn:hover {
+  background: #fce4ec;
+  box-shadow: 0 2px 8px rgba(173,20,87,0.10);
+}
+
 .plan-overview-btn {
   display: flex;
   align-items: center;

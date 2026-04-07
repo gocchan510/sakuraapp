@@ -212,6 +212,34 @@ export default function App() {
     </nav>
   )
 
+  // Fix #5: 図鑑品種→カレンダー（見頃月を展開してスクロール）
+  const goToVarietyCalendar = (month: number) => {
+    setOpenMonths(prev => {
+      const next = new Set(prev)
+      next.add(month)
+      localStorage.setItem('openMonths', JSON.stringify([...next]))
+      return next
+    })
+    switchTab('calendar')
+    setTimeout(() => {
+      document.getElementById(`cal-month-${month}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 150)
+  }
+
+  // Fix #6: 今週へジャンプ
+  const jumpToToday = () => {
+    const m = today.getMonth() + 1
+    setOpenMonths(prev => {
+      const next = new Set(prev)
+      next.add(m)
+      localStorage.setItem('openMonths', JSON.stringify([...next]))
+      return next
+    })
+    setTimeout(() => {
+      document.getElementById('cal-today')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }, 150)
+  }
+
   // ── 品種詳細 ──
   if (view === 'zukan-detail' && varietyId) {
     return (
@@ -220,6 +248,7 @@ export default function App() {
           id={varietyId}
           onBack={() => setView('zukan')}
           onSelectSpot={openSpotDetail}
+          onGoCalendar={goToVarietyCalendar}
         />
         <BottomNav />
       </div>
@@ -375,6 +404,9 @@ export default function App() {
         <h1 className="app-title">{t.appTitle}</h1>
         <p className="app-subtitle">{calYear}年 — {t.appSubtitle}</p>
         <StationBtn />
+        <button className="jump-today-btn" onClick={jumpToToday}>
+          📅 {t.jumpToToday}
+        </button>
         <button
           className={`plan-overview-btn${plannedDayCount > 0 ? ' plan-overview-btn-active' : ''}`}
           onClick={openPlan}
@@ -409,7 +441,7 @@ export default function App() {
           }).length
 
           return (
-            <div key={mi} className="cal-month">
+            <div key={mi} id={`cal-month-${month}`} className="cal-month">
               {/* 月ヘッダー（タップで展開/折りたたみ） */}
               <button
                 className={`cal-month-toggle${isOpen ? ' cal-month-open' : ''}`}
@@ -452,6 +484,7 @@ export default function App() {
                       return (
                         <button
                           key={ci}
+                          id={isToday ? 'cal-today' : undefined}
                           className={[
                             'cal-day-cell',
                             offSeason ? 'cal-day-off' : varClass,

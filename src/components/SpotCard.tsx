@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { getSpotStatus, formatHeikinsa, isSomeiCompatible, getPrefStatus, getStatusClass, getStatusEmoji } from '../utils/sakuraStatus'
 import { estimateMinutes, DEFAULT_STATION } from '../utils/travelTime'
 import type { Station } from '../utils/travelTime'
@@ -27,8 +26,6 @@ export function SpotCard({
   lang = 'ja',
 }: Props) {
   const { t } = useLang()
-  const [showDateInput, setShowDateInput] = useState(false)
-  const [addDateValue, setAddDateValue] = useState('')
 
   const mapsUrl =
     spot.lat !== null && spot.lng !== null
@@ -116,34 +113,6 @@ export function SpotCard({
             </div>
           )}
 
-          {/* 別の日に追加 */}
-          {!showDateInput ? (
-            <button className="plan-add-other-btn" onClick={() => setShowDateInput(true)}>
-              + {t.planAddOther}
-            </button>
-          ) : (
-            <div className="plan-date-input-row">
-              <input
-                type="date"
-                className="plan-date-input"
-                value={addDateValue}
-                onChange={e => setAddDateValue(e.target.value)}
-                min={new Date().toISOString().slice(0, 10)}
-              />
-              <button
-                className="plan-date-confirm-btn"
-                disabled={!addDateValue}
-                onClick={() => {
-                  if (addDateValue) {
-                    onTogglePlan(addDateValue, spot.id)
-                    setAddDateValue('')
-                    setShowDateInput(false)
-                  }
-                }}
-              >{t.planConfirmAdd}</button>
-              <button className="plan-date-cancel-btn" onClick={() => setShowDateInput(false)}>×</button>
-            </div>
-          )}
         </div>
       )}
 
