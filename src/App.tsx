@@ -65,6 +65,13 @@ export default function App() {
   })
   const [selectedDate, setSelectedDate] = useState<string | null>(null)
   const [showPlanOnly, setShowPlanOnly] = useState(false)
+  // 月ごとの展開状態（数字=月番号 1〜12）。localStorageに永続化
+  const [openMonths, setOpenMonths] = useState<Set<number>>(() => {
+    try {
+      const saved = localStorage.getItem('openMonths')
+      return saved ? new Set(JSON.parse(saved) as number[]) : new Set<number>()
+    } catch { return new Set<number>() }
+  })
 
   const handleSelectStation = (s: Station) => {
     setFromStation(s)
@@ -87,6 +94,15 @@ export default function App() {
 
   // 計画済み日数（プラントグルのバッジ用）
   const plannedDayCount = Object.keys(planDates).length
+
+  const toggleMonth = (m: number) => {
+    setOpenMonths(prev => {
+      const next = new Set(prev)
+      if (next.has(m)) next.delete(m); else next.add(m)
+      localStorage.setItem('openMonths', JSON.stringify([...next]))
+      return next
+    })
+  }
 
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
   const weekSpots = getSpotsForWeek(selectedWeek)
@@ -297,7 +313,6 @@ export default function App() {
   const calYear = new Date().getFullYear()
   const today = new Date()
   const DOW_LABELS = lang === 'zh-TW' ? DOW_LABELS_ZH : DOW_LABELS_JA
-  const [calOpen, setCalOpen] = useState(true)
 
   return (
     <div className="app">
@@ -328,90 +343,100 @@ export default function App() {
         </div>
       </header>
 
-      {/* カレンダー展開トグル */}
-      <button
-        className={`cal-toggle-btn${calOpen ? ' cal-toggle-open' : ''}`}
-        onClick={() => setCalOpen(o => !o)}
-      >
-        <div className="legend">
-          <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpring}</span>
-          <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawazu}</span>
-          <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinter}</span>
-          <span className="legend-item"><span className="legend-dot dot-off" />{t.legendOff}</span>
-        </div>
-        <span className="cal-toggle-chevron">{calOpen ? '▲' : '▼'}</span>
-      </button>
+      <div className="legend">
+        <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpring}</span>
+        <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawazu}</span>
+        <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinter}</span>
+        <span className="legend-item"><span className="legend-dot dot-off" />{t.legendOff}</span>
+      </div>
 
-      <div className={`calendar-collapse${calOpen ? ' cal-open' : ''}`}>
       <main className="calendar">
         {MONTH_NAMES.map((monthLabel, mi) => {
           const month = mi + 1
+          const isOpen = openMonths.has(month)
           const cells = getCalendarMonth(calYear, month)
+
+          // この月に計画済み日があるか（バッジ表示用）
+          const planCountInMonth = cells.filter(d => {
+            if (!d) return false
+            return (planDates[formatDateStr(d)] ?? []).length > 0
+          }).length
+
           return (
             <div key={mi} className="cal-month">
-              {/* 月ヘッダー */}
-              <div className="cal-month-header">
+              {/* 月ヘッダー（タップで展開/折りたたみ） */}
+              <button
+                className={`cal-month-toggle${isOpen ? ' cal-month-open' : ''}`}
+                onClick={() => toggleMonth(month)}
+              >
                 <span className="cal-month-label">{monthLabel}</span>
-              </div>
+                {planCountInMonth > 0 && (
+                  <span className="cal-month-plan-badge">★{planCountInMonth}</span>
+                )}
+                <span className="cal-month-chevron">{isOpen ? '▲' : '▼'}</span>
+              </button>
 
-              {/* 曜日ヘッダー */}
-              <div className="cal-dow-row">
-                {DOW_LABELS.map((d, di) => (
-                  <div
-                    key={di}
-                    className={`cal-dow${di === 0 ? ' cal-dow-sun' : di === 6 ? ' cal-dow-sat' : ''}`}
-                  >{d}</div>
-                ))}
-              </div>
+              {/* 折りたたみコンテンツ */}
+              <div className={`calendar-collapse${isOpen ? ' cal-open' : ''}`}>
+                <div className="cal-month-inner">
+                  {/* 曜日ヘッダー */}
+                  <div className="cal-dow-row">
+                    {DOW_LABELS.map((d, di) => (
+                      <div
+                        key={di}
+                        className={`cal-dow${di === 0 ? ' cal-dow-sun' : di === 6 ? ' cal-dow-sat' : ''}`}
+                      >{d}</div>
+                    ))}
+                  </div>
 
-              {/* 日付グリッド */}
-              <div className="cal-day-grid">
-                {cells.map((date, ci) => {
-                  if (!date) return <div key={ci} className="cal-day-empty" />
+                  {/* 日付グリッド */}
+                  <div className="cal-day-grid">
+                    {cells.map((date, ci) => {
+                      if (!date) return <div key={ci} className="cal-day-empty" />
 
-                  const wl = dateToWeekLabel(date)
-                  const dateStr = formatDateStr(date)
-                  const allSpotsInWeek = getSpotsForWeek(wl)
-                  const offSeason = allSpotsInWeek.length === 0
-                  // この「日付」に計画があるか（週単位ではなく日単位）
-                  const plannedForDate = (planDates[dateStr] ?? []).length > 0
-                  const isToday = isSameDay(date, today)
-                  const varClass = getVarietyClass(wl)
-                  const dow = date.getDay() // 0=日, 6=土
-                  const planDimmed = showPlanOnly && !offSeason && !plannedForDate
+                      const wl = dateToWeekLabel(date)
+                      const dateStr = formatDateStr(date)
+                      const allSpotsInWeek = getSpotsForWeek(wl)
+                      const offSeason = allSpotsInWeek.length === 0
+                      const plannedForDate = (planDates[dateStr] ?? []).length > 0
+                      const isToday = isSameDay(date, today)
+                      const varClass = getVarietyClass(wl)
+                      const dow = date.getDay()
+                      const planDimmed = showPlanOnly && !offSeason && !plannedForDate
 
-                  return (
-                    <button
-                      key={ci}
-                      className={[
-                        'cal-day-cell',
-                        offSeason ? 'cal-day-off' : varClass,
-                        isToday ? 'cal-day-today' : '',
-                        offSeason ? 'cal-day-disabled' : '',
-                        !offSeason && plannedForDate ? 'cal-day-has-plan' : '',
-                        planDimmed ? 'cal-day-plan-dim' : '',
-                        dow === 0 ? 'cal-day-sun' : '',
-                        dow === 6 ? 'cal-day-sat' : '',
-                      ].filter(Boolean).join(' ')}
-                      onClick={() => !offSeason && openWeek(wl, dateStr)}
-                      disabled={offSeason}
-                    >
-                      <span className="cal-day-num">{date.getDate()}</span>
-                      {!offSeason && plannedForDate && (
-                        <span className="cal-day-star">★</span>
-                      )}
-                      {!offSeason && !plannedForDate && (
-                        <span className="cal-day-bloom-dot" />
-                      )}
-                    </button>
-                  )
-                })}
+                      return (
+                        <button
+                          key={ci}
+                          className={[
+                            'cal-day-cell',
+                            offSeason ? 'cal-day-off' : varClass,
+                            isToday ? 'cal-day-today' : '',
+                            offSeason ? 'cal-day-disabled' : '',
+                            !offSeason && plannedForDate ? 'cal-day-has-plan' : '',
+                            planDimmed ? 'cal-day-plan-dim' : '',
+                            dow === 0 ? 'cal-day-sun' : '',
+                            dow === 6 ? 'cal-day-sat' : '',
+                          ].filter(Boolean).join(' ')}
+                          onClick={() => !offSeason && openWeek(wl, dateStr)}
+                          disabled={offSeason}
+                        >
+                          <span className="cal-day-num">{date.getDate()}</span>
+                          {!offSeason && plannedForDate && (
+                            <span className="cal-day-star">★</span>
+                          )}
+                          {!offSeason && !plannedForDate && (
+                            <span className="cal-day-bloom-dot" />
+                          )}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
               </div>
             </div>
           )
         })}
       </main>
-      </div>{/* /calendar-collapse */}
 
       <BottomNav />
     </div>

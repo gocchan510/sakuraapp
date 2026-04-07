@@ -978,54 +978,76 @@ body {
   font-weight: 300;
 }
 
-/* ── カレンダー展開トグル ── */
-.cal-toggle-btn {
+/* ── 月ごとアコーディオン ── */
+
+/* 月ヘッダー（トグルボタン） */
+.cal-month-toggle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
-  background: rgba(255,255,255,0.72);
-  border: 1px solid rgba(244,143,177,0.35);
-  border-radius: 12px;
-  padding: 8px 14px;
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(244,143,177,0.3);
+  border-radius: 10px;
+  padding: 8px 12px;
   cursor: pointer;
   font-family: 'Noto Serif JP', serif;
-  margin-bottom: 4px;
-  transition: background 0.15s;
+  gap: 8px;
+  transition: background 0.14s;
   text-align: left;
 }
-.cal-toggle-btn:hover { background: rgba(252,228,236,0.8); }
-.cal-toggle-btn.cal-toggle-open { border-color: rgba(233,30,140,0.25); }
+.cal-month-toggle:hover { background: rgba(252,228,236,0.7); }
+.cal-month-toggle.cal-month-open {
+  background: rgba(252,228,236,0.5);
+  border-color: rgba(233,30,140,0.25);
+  border-radius: 10px 10px 0 0;
+}
 
-.cal-toggle-chevron {
-  font-size: 0.7rem;
+.cal-month-chevron {
+  margin-left: auto;
+  font-size: 0.65rem;
   color: #c2185b;
+  opacity: 0.6;
   flex-shrink: 0;
-  margin-left: 8px;
-  opacity: 0.7;
+}
+
+/* 月の計画バッジ */
+.cal-month-plan-badge {
+  font-size: 0.65rem;
+  background: #e91e8c;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
 }
 
 /* ── カレンダー折りたたみアニメーション ── */
 .calendar-collapse {
   display: grid;
   grid-template-rows: 0fr;
-  transition: grid-template-rows 0.28s ease;
+  transition: grid-template-rows 0.26s ease;
 }
 .calendar-collapse.cal-open {
   grid-template-rows: 1fr;
 }
-.calendar-collapse > * {
+/* grid-template-rows トリックの内側ラッパー */
+.cal-month-inner {
   overflow: hidden;
   min-height: 0;
+  border: 1px solid rgba(244,143,177,0.25);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 6px 4px 8px;
+  background: rgba(255,255,255,0.45);
 }
 
 /* ── Legend ── */
 .legend {
   display: flex;
   gap: 10px;
+  justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  flex: 1;
+  margin-bottom: 8px;
 }
 
 .legend-item {
