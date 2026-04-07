@@ -75,6 +75,7 @@ export const ja = {
   planAddOther: '別の日に追加',
   planConfirmAdd: '追加',
   planNone: 'まだ計画がありません',
+  filterAll: 'すべて',
   sortDefault: '計画順',
   sortBloom: '見頃順',
   sortDistance: '近い順',

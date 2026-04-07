@@ -77,6 +77,7 @@ export const zhTW: I18nKeys = {
   planAddOther: '加入其他日期',
   planConfirmAdd: '加入',
   planNone: '尚無計畫',
+  filterAll: '全部',
   sortDefault: '計畫優先',
   sortBloom: '花況排序',
   sortDistance: '距離近',

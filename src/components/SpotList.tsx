@@ -22,6 +22,19 @@ function bloomScore(spot: Spot): number {
 
 type SortKey = 'default' | 'bloom' | 'distance' | 'popularity'
 
+// 都道府県の省略表示
+const PREF_SHORT: Record<string, string> = {
+  '東京都':   '東京',
+  '神奈川県': '神奈川',
+  '埼玉県':   '埼玉',
+  '千葉県':   '千葉',
+  '静岡県':   '静岡',
+  '群馬県':   '群馬',
+}
+function prefShort(pref: string): string {
+  return PREF_SHORT[pref] ?? pref
+}
+
 interface Props {
   weekLabel: string
   selectedDate: string | null
@@ -47,12 +60,28 @@ export function SpotList({
 }: Props) {
   const { t } = useLang()
   const [sortKey, setSortKey] = useState<SortKey>('default')
+  const [filterPref, setFilterPref] = useState<string | null>(null)
   const isDefault = fromStation.id === 'shitte'
 
   const plannedIdsForDate = selectedDate ? (planDates[selectedDate] ?? []) : []
 
+  // その週に存在する都道府県（登場順を保ちつつ重複除去）
+  const availablePrefs = useMemo(() => {
+    const seen = new Set<string>()
+    const prefs: string[] = []
+    for (const s of spots) {
+      if (!seen.has(s.prefecture)) { seen.add(s.prefecture); prefs.push(s.prefecture) }
+    }
+    return prefs
+  }, [spots])
+
+  // エリアフィルター後のスポット
+  const filtered = useMemo(() =>
+    filterPref ? spots.filter(s => s.prefecture === filterPref) : spots
+  , [spots, filterPref])
+
   const sorted = useMemo(() => {
-    const arr = [...spots]
+    const arr = [...filtered]
     switch (sortKey) {
       case 'bloom':
         return arr.sort((a, b) => {
@@ -76,7 +105,7 @@ export function SpotList({
           return aP - bP
         })
     }
-  }, [spots, sortKey, fromStation, plannedIdsForDate])
+  }, [filtered, sortKey, fromStation, plannedIdsForDate])
 
   const toggleSort = (key: SortKey) => setSortKey(prev => (prev === key ? 'default' : key))
 
@@ -88,15 +117,39 @@ export function SpotList({
         {selectedDate ? (
           <>
             <h1 className="app-title">{formatDateDisplay(selectedDate, lang)}</h1>
-            <p className="app-subtitle">{weekLabel} · {spots.length}{t.spotsUnit}</p>
+            <p className="app-subtitle">{weekLabel} · {filtered.length}{t.spotsUnit}</p>
           </>
         ) : (
           <>
             <h1 className="app-title">{weekLabel}</h1>
-            <p className="app-subtitle">{spots.length}{t.spotsUnit}</p>
+            <p className="app-subtitle">{filtered.length}{t.spotsUnit}</p>
           </>
         )}
       </header>
+
+      {/* ── エリアフィルターバー ── */}
+      {availablePrefs.length > 1 && (
+        <div className="area-filter-bar">
+          <button
+            className={`area-chip${filterPref === null ? ' area-chip-active' : ''}`}
+            onClick={() => setFilterPref(null)}
+          >
+            {t.filterAll}<span className="area-chip-count">{spots.length}</span>
+          </button>
+          {availablePrefs.map(pref => {
+            const cnt = spots.filter(s => s.prefecture === pref).length
+            return (
+              <button
+                key={pref}
+                className={`area-chip${filterPref === pref ? ' area-chip-active' : ''}`}
+                onClick={() => setFilterPref(prev => prev === pref ? null : pref)}
+              >
+                {prefShort(pref)}<span className="area-chip-count">{cnt}</span>
+              </button>
+            )
+          })}
+        </div>
+      )}
 
       {/* ── ソートバー ── */}
       <div className="sort-bar">

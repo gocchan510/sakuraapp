@@ -1858,6 +1858,58 @@ body {
 }
 
 /* ── ソートバー ── */
+/* ── エリアフィルターバー ── */
+.area-filter-bar {
+  display: flex;
+  gap: 6px;
+  padding: 8px 0 4px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+.area-filter-bar::-webkit-scrollbar { display: none; }
+
+.area-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 11px;
+  border-radius: 20px;
+  border: 1.5px solid #f48fb1;
+  background: rgba(255,255,255,0.88);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.76rem;
+  color: #ad1457;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.13s, border-color 0.13s, color 0.13s;
+  flex-shrink: 0;
+}
+.area-chip:hover { background: #fce4ec; }
+.area-chip-active {
+  background: #f06292 !important;
+  border-color: #f06292 !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.area-chip-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: rgba(0,0,0,0.10);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0 4px;
+  margin-left: 1px;
+}
+.area-chip-active .area-chip-count {
+  background: rgba(255,255,255,0.30);
+}
+
 .sort-bar {
   display: flex;
   gap: 7px;
