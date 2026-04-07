@@ -1,20 +1,34 @@
+import { useState } from 'react'
 import { getSpotStatus, formatHeikinsa, isSomeiCompatible, getPrefStatus, getStatusClass, getStatusEmoji } from '../utils/sakuraStatus'
 import { estimateMinutes, DEFAULT_STATION } from '../utils/travelTime'
 import type { Station } from '../utils/travelTime'
 import { SpotMap } from './SpotMap'
 import { useLang } from '../i18n'
 import type { Spot } from '../utils/spotsByWeek'
+import { formatDateDisplay } from '../utils/calendarUtils'
 
 interface Props {
   spot: Spot
   onVarietyClick?: (varietyName: string) => void
   fromStation?: Station
-  inPlan?: boolean
-  onTogglePlan?: (id: string) => void
+  planDates?: Record<string, string[]>  // 全計画データ
+  selectedDate?: string | null          // 今タップされた日付
+  onTogglePlan?: (dateStr: string, spotId: string) => void
+  lang?: string
 }
 
-export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION, inPlan, onTogglePlan }: Props) {
+export function SpotCard({
+  spot,
+  onVarietyClick,
+  fromStation = DEFAULT_STATION,
+  planDates,
+  selectedDate,
+  onTogglePlan,
+  lang = 'ja',
+}: Props) {
   const { t } = useLang()
+  const [showDateInput, setShowDateInput] = useState(false)
+  const [addDateValue, setAddDateValue] = useState('')
 
   const mapsUrl =
     spot.lat !== null && spot.lng !== null
@@ -24,11 +38,23 @@ export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION, 
   const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.name) : null
   const prefStatus = isSomeiCompatible(spot.variety) ? getPrefStatus(spot.prefecture) : null
 
-  // 所要時間：尻手の場合はオリジナルの実測値、それ以外は推定
   const isDefaultStation = fromStation.id === 'shitte'
   const travelTimeText = isDefaultStation
     ? spot.travelTime
     : `約${estimateMinutes(fromStation.lat, fromStation.lng, spot.lat, spot.lng)}分`
+
+  // このスポットが計画済みの日付一覧
+  const plannedDatesForSpot = planDates
+    ? Object.entries(planDates)
+        .filter(([, ids]) => ids.includes(spot.id))
+        .map(([d]) => d)
+        .sort()
+    : []
+
+  // 選択日に対してこのスポットが計画済みか
+  const inPlanForSelectedDate = selectedDate
+    ? (planDates?.[selectedDate] ?? []).includes(spot.id)
+    : false
 
   return (
     <div className="spot-card">
@@ -37,13 +63,73 @@ export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION, 
         <span className="prefecture-badge">{spot.prefecture}</span>
       </div>
 
+      {/* ── 計画セクション ── */}
       {onTogglePlan && (
-        <button
-          className={`plan-star-card-btn${inPlan ? ' plan-star-active' : ''}`}
-          onClick={() => onTogglePlan(spot.id)}
-        >
-          {inPlan ? '★ ' + t.inPlan : '☆ ' + t.addToPlan}
-        </button>
+        <div className="spot-plan-section">
+          {/* 選択日へのトグルボタン */}
+          {selectedDate && (
+            <button
+              className={`plan-date-toggle-btn${inPlanForSelectedDate ? ' plan-date-active' : ''}`}
+              onClick={() => onTogglePlan(selectedDate, spot.id)}
+            >
+              <span className="plan-date-star">{inPlanForSelectedDate ? '★' : '☆'}</span>
+              <span>{formatDateDisplay(selectedDate, lang)}</span>
+              <span className="plan-date-label">
+                {inPlanForSelectedDate ? t.inPlan : t.addToPlan}
+              </span>
+            </button>
+          )}
+
+          {/* 計画済みの他の日程 */}
+          {plannedDatesForSpot.filter(d => d !== selectedDate).length > 0 && (
+            <div className="spot-planned-dates">
+              <span className="spot-planned-label">{t.planDateSection}</span>
+              <div className="spot-planned-chips">
+                {plannedDatesForSpot
+                  .filter(d => d !== selectedDate)
+                  .map(d => (
+                    <span key={d} className="spot-planned-chip">
+                      {formatDateDisplay(d, lang)}
+                      <button
+                        className="spot-planned-remove"
+                        onClick={() => onTogglePlan(d, spot.id)}
+                        aria-label="削除"
+                      >×</button>
+                    </span>
+                  ))}
+              </div>
+            </div>
+          )}
+
+          {/* 別の日に追加 */}
+          {!showDateInput ? (
+            <button className="plan-add-other-btn" onClick={() => setShowDateInput(true)}>
+              + {t.planAddOther}
+            </button>
+          ) : (
+            <div className="plan-date-input-row">
+              <input
+                type="date"
+                className="plan-date-input"
+                value={addDateValue}
+                onChange={e => setAddDateValue(e.target.value)}
+                min={new Date().toISOString().slice(0, 10)}
+              />
+              <button
+                className="plan-date-confirm-btn"
+                disabled={!addDateValue}
+                onClick={() => {
+                  if (addDateValue) {
+                    onTogglePlan(addDateValue, spot.id)
+                    setAddDateValue('')
+                    setShowDateInput(false)
+                  }
+                }}
+              >{t.planConfirmAdd}</button>
+              <button className="plan-date-cancel-btn" onClick={() => setShowDateInput(false)}>×</button>
+            </div>
+          )}
+        </div>
       )}
 
       {onVarietyClick ? (

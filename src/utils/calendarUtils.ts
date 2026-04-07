@@ -36,3 +36,28 @@ export function isSameDay(a: Date, b: Date): boolean {
     a.getDate() === b.getDate()
   )
 }
+
+/** Date → "YYYY-MM-DD" 文字列 */
+export function formatDateStr(date: Date): string {
+  const y = date.getFullYear()
+  const m = String(date.getMonth() + 1).padStart(2, '0')
+  const d = String(date.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
+/** "YYYY-MM-DD" → Date */
+export function parseDateStr(s: string): Date {
+  const [y, m, d] = s.split('-').map(Number)
+  return new Date(y, m - 1, d)
+}
+
+/** "YYYY-MM-DD" → "4月5日（日）" 表示用文字列 */
+export function formatDateDisplay(s: string, lang = 'ja'): string {
+  const date = parseDateStr(s)
+  const m = date.getMonth() + 1
+  const d = date.getDate()
+  const DOW_JA = ['日', '月', '火', '水', '木', '金', '土']
+  const DOW_ZH = ['日', '一', '二', '三', '四', '五', '六']
+  const dow = (lang === 'zh-TW' ? DOW_ZH : DOW_JA)[date.getDay()]
+  return `${m}月${d}日（${dow}）`
+}

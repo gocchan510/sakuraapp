@@ -9,7 +9,7 @@ import { VarietyDetail } from './components/VarietyDetail'
 import { StationPicker } from './components/StationPicker'
 import { getCurrentWeekIndex, getWeekLabel, ALL_WEEK_LABELS } from './utils/getWeek'
 import { getSpotsForWeek, isOffSeason } from './utils/spotsByWeek'
-import { getCalendarMonth, dateToWeekLabel, isSameDay } from './utils/calendarUtils'
+import { getCalendarMonth, dateToWeekLabel, isSameDay, formatDateStr, formatDateDisplay } from './utils/calendarUtils'
 import { DEFAULT_STATION } from './utils/travelTime'
 import type { Station } from './utils/travelTime'
 import { useLang } from './i18n'
@@ -56,12 +56,14 @@ export default function App() {
     } catch { return DEFAULT_STATION }
   })
   const [showStationPicker, setShowStationPicker] = useState(false)
-  const [planIds, setPlanIds] = useState<Set<string>>(() => {
+  // planDates: { "2026-04-05": ["spot-id-1", ...], ... }
+  const [planDates, setPlanDates] = useState<Record<string, string[]>>(() => {
     try {
-      const saved = localStorage.getItem('planIds')
-      return saved ? new Set(JSON.parse(saved) as string[]) : new Set<string>()
-    } catch { return new Set<string>() }
+      const saved = localStorage.getItem('planDates')
+      return saved ? JSON.parse(saved) : {}
+    } catch { return {} }
   })
+  const [selectedDate, setSelectedDate] = useState<string | null>(null)
   const [showPlanOnly, setShowPlanOnly] = useState(false)
 
   const handleSelectStation = (s: Station) => {
@@ -69,14 +71,22 @@ export default function App() {
     localStorage.setItem('fromStation', JSON.stringify(s))
   }
 
-  const togglePlan = (id: string) => {
-    setPlanIds(prev => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id); else next.add(id)
-      localStorage.setItem('planIds', JSON.stringify([...next]))
+  const togglePlanForDate = (dateStr: string, spotId: string) => {
+    setPlanDates(prev => {
+      const spots = prev[dateStr] ? [...prev[dateStr]] : []
+      const idx = spots.indexOf(spotId)
+      if (idx >= 0) spots.splice(idx, 1)
+      else spots.push(spotId)
+      const next = { ...prev }
+      if (spots.length === 0) delete next[dateStr]
+      else next[dateStr] = spots
+      localStorage.setItem('planDates', JSON.stringify(next))
       return next
     })
   }
+
+  // 計画済み日数（プラントグルのバッジ用）
+  const plannedDayCount = Object.keys(planDates).length
 
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
   const weekSpots = getSpotsForWeek(selectedWeek)
@@ -98,8 +108,9 @@ export default function App() {
     setTab(newTab)
   }
 
-  const openWeek = (week: string) => {
+  const openWeek = (week: string, dateStr?: string) => {
     setSelectedWeek(week)
+    setSelectedDate(dateStr ?? null)
     if (isOffSeason(week)) return
     push('spotlist', 'calendar')
   }
@@ -205,8 +216,10 @@ export default function App() {
               spot={selectedSpot}
               onVarietyClick={openVarietyFromSpot}
               fromStation={fromStation}
-              inPlan={planIds.has(selectedSpot.id)}
-              onTogglePlan={togglePlan}
+              planDates={planDates}
+              selectedDate={selectedDate}
+              onTogglePlan={togglePlanForDate}
+              lang={lang}
             />
           </section>
         </main>
@@ -220,13 +233,14 @@ export default function App() {
       <div className="app">
         <SpotList
           weekLabel={selectedWeek}
+          selectedDate={selectedDate}
           spots={weekSpots}
           onSelect={openSpotDetail}
           onBack={() => history.back()}
           fromStation={fromStation}
-          planIds={planIds}
-          onTogglePlan={togglePlan}
-          isPlanMode={showPlanOnly}
+          planDates={planDates}
+          onTogglePlan={togglePlanForDate}
+          lang={lang}
         />
         <BottomNav />
       </div>
@@ -309,7 +323,7 @@ export default function App() {
           <button
             className={`plan-toggle-btn${showPlanOnly ? ' plan-toggle-active' : ''}`}
             onClick={() => setShowPlanOnly(true)}
-          >⭐ {t.myPlan}{planIds.size > 0 ? ` (${planIds.size})` : ''}</button>
+          >⭐ {t.myPlan}{plannedDayCount > 0 ? ` (${plannedDayCount}${t.planCount})` : ''}</button>
         </div>
       </header>
 
@@ -347,14 +361,15 @@ export default function App() {
                   if (!date) return <div key={ci} className="cal-day-empty" />
 
                   const wl = dateToWeekLabel(date)
+                  const dateStr = formatDateStr(date)
                   const allSpotsInWeek = getSpotsForWeek(wl)
                   const offSeason = allSpotsInWeek.length === 0
-                  const planSpotsInWeek = allSpotsInWeek.filter(s => planIds.has(s.id))
-                  const hasPlan = planSpotsInWeek.length > 0
+                  // この「日付」に計画があるか（週単位ではなく日単位）
+                  const plannedForDate = (planDates[dateStr] ?? []).length > 0
                   const isToday = isSameDay(date, today)
                   const varClass = getVarietyClass(wl)
                   const dow = date.getDay() // 0=日, 6=土
-                  const planDimmed = showPlanOnly && !offSeason && !hasPlan
+                  const planDimmed = showPlanOnly && !offSeason && !plannedForDate
 
                   return (
                     <button
@@ -364,19 +379,19 @@ export default function App() {
                         offSeason ? 'cal-day-off' : varClass,
                         isToday ? 'cal-day-today' : '',
                         offSeason ? 'cal-day-disabled' : '',
-                        !offSeason && showPlanOnly && hasPlan ? 'cal-day-has-plan' : '',
+                        !offSeason && plannedForDate ? 'cal-day-has-plan' : '',
                         planDimmed ? 'cal-day-plan-dim' : '',
                         dow === 0 ? 'cal-day-sun' : '',
                         dow === 6 ? 'cal-day-sat' : '',
                       ].filter(Boolean).join(' ')}
-                      onClick={() => !offSeason && openWeek(wl)}
+                      onClick={() => !offSeason && openWeek(wl, dateStr)}
                       disabled={offSeason}
                     >
                       <span className="cal-day-num">{date.getDate()}</span>
-                      {!offSeason && hasPlan && (
+                      {!offSeason && plannedForDate && (
                         <span className="cal-day-star">★</span>
                       )}
-                      {!offSeason && !hasPlan && (
+                      {!offSeason && !plannedForDate && (
                         <span className="cal-day-bloom-dot" />
                       )}
                     </button>

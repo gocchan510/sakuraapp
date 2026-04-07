@@ -1260,32 +1260,155 @@ body {
   color: #e91e8c !important;
 }
 
-/* SpotCard内のプランボタン */
-.plan-star-card-btn {
-  display: inline-flex;
+/* ── SpotCard 計画セクション ── */
+.spot-plan-section {
+  margin: 6px 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 選択日へのトグルボタン */
+.plan-date-toggle-btn {
+  display: flex;
   align-items: center;
-  gap: 4px;
-  margin: 4px 0 12px;
-  padding: 6px 16px;
-  border-radius: 20px;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
   border: 1.5px solid #f48fb1;
   background: #fff8fb;
   font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   color: #ad1457;
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
+  text-align: left;
+  width: 100%;
 }
 
-.plan-star-card-btn:hover {
-  background: #fce4ec;
-}
+.plan-date-toggle-btn:hover { background: #fce4ec; }
 
-.plan-star-card-btn.plan-star-active {
+.plan-date-toggle-btn.plan-date-active {
   background: #fce4ec;
   border-color: #e91e8c;
   color: #880e4f;
   font-weight: 600;
+}
+
+.plan-date-star {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.plan-date-label {
+  margin-left: auto;
+  font-size: 0.72rem;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+/* 計画済み日程チップス */
+.spot-planned-dates {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.spot-planned-label {
+  font-size: 0.68rem;
+  color: #aaa;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.spot-planned-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.spot-planned-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #fce4ec;
+  border: 1px solid #f48fb1;
+  border-radius: 14px;
+  padding: 4px 8px 4px 10px;
+  font-size: 0.78rem;
+  color: #880e4f;
+}
+
+.spot-planned-remove {
+  background: none;
+  border: none;
+  color: #e91e8c;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* 別の日に追加ボタン */
+.plan-add-other-btn {
+  background: none;
+  border: 1px dashed #f48fb1;
+  border-radius: 10px;
+  padding: 7px 12px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.78rem;
+  color: #c2185b;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s;
+}
+.plan-add-other-btn:hover { background: #fce4ec; }
+
+/* 日付入力行 */
+.plan-date-input-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.plan-date-input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #f48fb1;
+  border-radius: 8px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.82rem;
+  color: #444;
+  background: #fff8fb;
+  outline: none;
+  min-width: 0;
+}
+
+.plan-date-confirm-btn {
+  padding: 6px 14px;
+  background: #e91e8c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.82rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: opacity 0.15s;
+}
+.plan-date-confirm-btn:disabled { opacity: 0.4; cursor: default; }
+.plan-date-confirm-btn:not(:disabled):hover { opacity: 0.85; }
+
+.plan-date-cancel-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  flex-shrink: 0;
 }
 
 /* スポット一覧：プラン済み行のハイライト */

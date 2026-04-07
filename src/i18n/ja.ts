@@ -56,10 +56,14 @@ export const ja = {
   offSeasonMsg: '桜のシーズンではありません',
   allSpots: '全スポット',
   myPlan: 'マイプラン',
-  addToPlan: 'プランに追加',
-  inPlan: 'プラン済み ★',
-  planEmpty: '★ を押してスポットをプランに追加しよう',
-  planCount: '件計画中',
+  addToPlan: 'この日の計画に追加',
+  inPlan: 'この日の計画済み',
+  planEmpty: '日付をタップしてスポットを選ぼう',
+  planCount: '日に予定',
+  planDateSection: '計画済みの日程',
+  planAddOther: '別の日に追加',
+  planConfirmAdd: '追加',
+  planNone: 'まだ計画がありません',
 }
 
 export type I18nKeys = typeof ja
