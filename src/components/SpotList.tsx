@@ -1,4 +1,6 @@
 import { useLang } from '../i18n'
+import { estimateMinutes, DEFAULT_STATION } from '../utils/travelTime'
+import type { Station } from '../utils/travelTime'
 import type { Spot } from '../utils/spotsByWeek'
 
 interface Props {
@@ -6,10 +8,12 @@ interface Props {
   spots: Spot[]
   onSelect: (spotId: string) => void
   onBack: () => void
+  fromStation?: Station
 }
 
-export function SpotList({ weekLabel, spots, onSelect, onBack }: Props) {
+export function SpotList({ weekLabel, spots, onSelect, onBack, fromStation = DEFAULT_STATION }: Props) {
   const { t } = useLang()
+  const isDefault = fromStation.id === 'shitte'
   return (
     <div className="app">
       <header className="app-header">
@@ -32,7 +36,10 @@ export function SpotList({ weekLabel, spots, onSelect, onBack }: Props) {
             </div>
             <div className="sli-right">
               <span className="sli-variety">{s.variety}</span>
-              <span className="sli-travel">📍 {s.travelTime}</span>
+              <span className="sli-travel">
+                📍 {isDefault ? s.travelTime : `約${estimateMinutes(fromStation.lat, fromStation.lng, s.lat, s.lng)}分`}
+                {!isDefault && <span className="estimate-badge-sm">推</span>}
+              </span>
             </div>
             <span className="sli-arrow">›</span>
           </button>

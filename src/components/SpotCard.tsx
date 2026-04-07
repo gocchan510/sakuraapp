@@ -1,4 +1,6 @@
 import { getSpotStatus, formatHeikinsa, isSomeiCompatible, getPrefStatus, getStatusClass, getStatusEmoji } from '../utils/sakuraStatus'
+import { estimateMinutes, DEFAULT_STATION } from '../utils/travelTime'
+import type { Station } from '../utils/travelTime'
 import { SpotMap } from './SpotMap'
 import { useLang } from '../i18n'
 import type { Spot } from '../utils/spotsByWeek'
@@ -6,9 +8,10 @@ import type { Spot } from '../utils/spotsByWeek'
 interface Props {
   spot: Spot
   onVarietyClick?: (varietyName: string) => void
+  fromStation?: Station
 }
 
-export function SpotCard({ spot, onVarietyClick }: Props) {
+export function SpotCard({ spot, onVarietyClick, fromStation = DEFAULT_STATION }: Props) {
   const { t } = useLang()
 
   const mapsUrl =
@@ -18,6 +21,12 @@ export function SpotCard({ spot, onVarietyClick }: Props) {
 
   const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.name) : null
   const prefStatus = isSomeiCompatible(spot.variety) ? getPrefStatus(spot.prefecture) : null
+
+  // 所要時間：尻手の場合はオリジナルの実測値、それ以外は推定
+  const isDefaultStation = fromStation.id === 'shitte'
+  const travelTimeText = isDefaultStation
+    ? spot.travelTime
+    : `約${estimateMinutes(fromStation.lat, fromStation.lng, spot.lat, spot.lng)}分`
 
   return (
     <div className="spot-card">
@@ -91,7 +100,10 @@ export function SpotCard({ spot, onVarietyClick }: Props) {
       )}
 
       <div className="spot-footer">
-        <span className="travel-time">📍 {t.travelFrom}{spot.travelTime}</span>
+        <span className="travel-time">
+          📍 {fromStation.name}{t.travelFrom}{travelTimeText}
+          {!isDefaultStation && <span className="estimate-badge">{t.estimate}</span>}
+        </span>
         {mapsUrl && (
           <a className="maps-link" href={mapsUrl} target="_blank" rel="noreferrer">
             {t.googleMaps}

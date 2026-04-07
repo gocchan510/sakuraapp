@@ -6,8 +6,11 @@ import { SpotList } from './components/SpotList'
 import { AllSpotsMap } from './components/AllSpotsMap'
 import { VarietyList } from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
+import { StationPicker } from './components/StationPicker'
 import { getCurrentWeekIndex, getWeekLabel, ALL_WEEK_LABELS } from './utils/getWeek'
 import { getSpotsForWeek, isOffSeason } from './utils/spotsByWeek'
+import { DEFAULT_STATION } from './utils/travelTime'
+import type { Station } from './utils/travelTime'
 import { useLang } from './i18n'
 
 type Tab = 'calendar' | 'map' | 'zukan'
@@ -43,6 +46,18 @@ export default function App() {
   const [selectedSpotId, setSelectedSpotId] = useState<string | null>(null)
   const [varietyId, setVarietyId] = useState<string | null>(null)
   const [mapFilterWeek, setMapFilterWeek] = useState<string | null>(null)
+  const [fromStation, setFromStation] = useState<Station>(() => {
+    try {
+      const saved = localStorage.getItem('fromStation')
+      return saved ? JSON.parse(saved) : DEFAULT_STATION
+    } catch { return DEFAULT_STATION }
+  })
+  const [showStationPicker, setShowStationPicker] = useState(false)
+
+  const handleSelectStation = (s: Station) => {
+    setFromStation(s)
+    localStorage.setItem('fromStation', JSON.stringify(s))
+  }
 
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
   const weekSpots = getSpotsForWeek(selectedWeek)
@@ -102,6 +117,15 @@ export default function App() {
     </button>
   )
 
+  const StationBtn = () => (
+    <button
+      className="station-selector-btn"
+      onClick={() => setShowStationPicker(true)}
+    >
+      🚉 {t.fromStation}: <strong>{fromStation.name}</strong> ▼
+    </button>
+  )
+
   const BottomNav = () => (
     <nav className="bottom-nav">
       <button className={`bottom-nav-btn ${tab === 'calendar' ? 'active' : ''}`} onClick={() => switchTab('calendar')}>
@@ -158,7 +182,7 @@ export default function App() {
         </header>
         <main className="main-content">
           <section className="section">
-            <SpotCard spot={selectedSpot} onVarietyClick={openVarietyFromSpot} />
+            <SpotCard spot={selectedSpot} onVarietyClick={openVarietyFromSpot} fromStation={fromStation} />
           </section>
         </main>
       </div>
@@ -174,6 +198,7 @@ export default function App() {
           spots={weekSpots}
           onSelect={openSpotDetail}
           onBack={() => history.back()}
+          fromStation={fromStation}
         />
         <BottomNav />
       </div>
@@ -229,6 +254,13 @@ export default function App() {
   // ── カレンダー ──
   return (
     <div className="app">
+      {showStationPicker && (
+        <StationPicker
+          current={fromStation}
+          onSelect={handleSelectStation}
+          onClose={() => setShowStationPicker(false)}
+        />
+      )}
       <header className="app-header">
         <div className="header-top-row">
           <div className="header-petal">🌸</div>
@@ -236,6 +268,7 @@ export default function App() {
         </div>
         <h1 className="app-title">{t.appTitle}</h1>
         <p className="app-subtitle">{t.appSubtitle}</p>
+        <StationBtn />
       </header>
 
       <div className="legend">

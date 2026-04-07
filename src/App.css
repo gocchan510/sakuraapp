@@ -679,6 +679,175 @@ body {
   color: #888;
 }
 
+/* ── 出発駅セレクターボタン ── */
+.station-selector-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 8px auto 0;
+  padding: 6px 14px;
+  background: #fff8fb;
+  border: 1px solid #f48fb1;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #880e4f;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.station-selector-btn:active { background: #fce4ec; }
+
+/* ── 推定バッジ ── */
+.estimate-badge {
+  font-size: 0.62rem;
+  background: #ffe0b2;
+  color: #bf360c;
+  padding: 1px 5px;
+  border-radius: 6px;
+  margin-left: 4px;
+  font-weight: 600;
+}
+.estimate-badge-sm {
+  font-size: 0.58rem;
+  background: #ffe0b2;
+  color: #bf360c;
+  padding: 0 4px;
+  border-radius: 4px;
+  margin-left: 2px;
+  font-weight: 700;
+}
+
+/* ── StationPicker モーダル ── */
+.station-picker-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1000;
+  display: flex;
+  align-items: flex-end;
+}
+.station-picker-modal {
+  width: 100%;
+  max-height: 85vh;
+  background: #fff;
+  border-radius: 18px 18px 0 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideUp 0.22s ease;
+}
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+.station-picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 8px;
+  border-bottom: 1px solid #fce4ec;
+}
+.station-picker-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #880e4f;
+}
+.station-picker-close {
+  font-size: 1.1rem;
+  color: #aaa;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.station-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 12px 6px;
+  padding: 8px 12px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+.station-search-icon { font-size: 0.9rem; }
+.station-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  outline: none;
+}
+.station-search-clear {
+  font-size: 0.8rem;
+  color: #aaa;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.station-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 0 8px;
+  -webkit-overflow-scrolling: touch;
+}
+.station-area-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #ad1457;
+  letter-spacing: 0.06em;
+  padding: 10px 16px 4px;
+  background: #fff8fb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.station-area-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 14px 8px;
+}
+.station-item {
+  padding: 6px 14px;
+  border: 1px solid #fce4ec;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 0.85rem;
+  color: #2d1b1b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: background 0.12s;
+}
+.station-item:active { background: #fce4ec; }
+.station-item-selected {
+  background: #fce4ec;
+  border-color: #f48fb1;
+  color: #880e4f;
+  font-weight: 600;
+}
+.station-check {
+  font-size: 0.75rem;
+  color: #e91e63;
+}
+.station-not-found {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+  padding: 24px;
+}
+.station-picker-note {
+  font-size: 0.62rem;
+  color: #bbb;
+  text-align: center;
+  padding: 6px 12px 10px;
+  border-top: 1px solid #f5f5f5;
+}
+
 .out-of-metro-badge {
   display: inline-block;
   font-size: 0.7rem;
