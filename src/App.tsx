@@ -297,6 +297,7 @@ export default function App() {
   const calYear = new Date().getFullYear()
   const today = new Date()
   const DOW_LABELS = lang === 'zh-TW' ? DOW_LABELS_ZH : DOW_LABELS_JA
+  const [calOpen, setCalOpen] = useState(true)
 
   return (
     <div className="app">
@@ -327,13 +328,21 @@ export default function App() {
         </div>
       </header>
 
-      <div className="legend">
-        <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpring}</span>
-        <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawazu}</span>
-        <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinter}</span>
-        <span className="legend-item"><span className="legend-dot dot-off" />{t.legendOff}</span>
-      </div>
+      {/* カレンダー展開トグル */}
+      <button
+        className={`cal-toggle-btn${calOpen ? ' cal-toggle-open' : ''}`}
+        onClick={() => setCalOpen(o => !o)}
+      >
+        <div className="legend">
+          <span className="legend-item"><span className="legend-dot dot-spring" />{t.legendSpring}</span>
+          <span className="legend-item"><span className="legend-dot dot-kawazu" />{t.legendKawazu}</span>
+          <span className="legend-item"><span className="legend-dot dot-winter" />{t.legendWinter}</span>
+          <span className="legend-item"><span className="legend-dot dot-off" />{t.legendOff}</span>
+        </div>
+        <span className="cal-toggle-chevron">{calOpen ? '▲' : '▼'}</span>
+      </button>
 
+      <div className={`calendar-collapse${calOpen ? ' cal-open' : ''}`}>
       <main className="calendar">
         {MONTH_NAMES.map((monthLabel, mi) => {
           const month = mi + 1
@@ -402,6 +411,7 @@ export default function App() {
           )
         })}
       </main>
+      </div>{/* /calendar-collapse */}
 
       <BottomNav />
     </div>

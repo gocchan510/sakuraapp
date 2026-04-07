@@ -978,13 +978,54 @@ body {
   font-weight: 300;
 }
 
+/* ── カレンダー展開トグル ── */
+.cal-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(244,143,177,0.35);
+  border-radius: 12px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-family: 'Noto Serif JP', serif;
+  margin-bottom: 4px;
+  transition: background 0.15s;
+  text-align: left;
+}
+.cal-toggle-btn:hover { background: rgba(252,228,236,0.8); }
+.cal-toggle-btn.cal-toggle-open { border-color: rgba(233,30,140,0.25); }
+
+.cal-toggle-chevron {
+  font-size: 0.7rem;
+  color: #c2185b;
+  flex-shrink: 0;
+  margin-left: 8px;
+  opacity: 0.7;
+}
+
+/* ── カレンダー折りたたみアニメーション ── */
+.calendar-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.28s ease;
+}
+.calendar-collapse.cal-open {
+  grid-template-rows: 1fr;
+}
+.calendar-collapse > * {
+  overflow: hidden;
+  min-height: 0;
+}
+
 /* ── Legend ── */
 .legend {
   display: flex;
-  gap: 12px;
-  justify-content: center;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  align-items: center;
+  flex: 1;
 }
 
 .legend-item {
