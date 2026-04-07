@@ -9,6 +9,7 @@ import { VarietyDetail } from './components/VarietyDetail'
 import { StationPicker } from './components/StationPicker'
 import { getCurrentWeekIndex, getWeekLabel, ALL_WEEK_LABELS } from './utils/getWeek'
 import { getSpotsForWeek, isOffSeason } from './utils/spotsByWeek'
+import { getCalendarMonth, dateToWeekLabel, isSameDay } from './utils/calendarUtils'
 import { DEFAULT_STATION } from './utils/travelTime'
 import type { Station } from './utils/travelTime'
 import { useLang } from './i18n'
@@ -18,6 +19,8 @@ type View = 'calendar' | 'spotlist' | 'detail' | 'map' | 'zukan' | 'zukan-detail
 
 const MONTH_NAMES_JA = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
 const MONTH_NAMES_ZH = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+const DOW_LABELS_JA = ['日', '月', '火', '水', '木', '金', '土']
+const DOW_LABELS_ZH = ['日', '一', '二', '三', '四', '五', '六']
 
 function getVarietyClass(weekLabel: string): string {
   const spots = getSpotsForWeek(weekLabel)
@@ -77,7 +80,6 @@ export default function App() {
 
   const selectedSpot = selectedSpotId ? spotsData.find(s => s.id === selectedSpotId) ?? null : null
   const weekSpots = getSpotsForWeek(selectedWeek)
-  const displayWeekSpots = showPlanOnly ? weekSpots.filter(s => planIds.has(s.id)) : weekSpots
 
   useEffect(() => {
     const onPopState = (e: PopStateEvent) => {
@@ -218,7 +220,7 @@ export default function App() {
       <div className="app">
         <SpotList
           weekLabel={selectedWeek}
-          spots={displayWeekSpots}
+          spots={weekSpots}
           onSelect={openSpotDetail}
           onBack={() => history.back()}
           fromStation={fromStation}
@@ -278,6 +280,10 @@ export default function App() {
   }
 
   // ── カレンダー ──
+  const calYear = new Date().getFullYear()
+  const today = new Date()
+  const DOW_LABELS = lang === 'zh-TW' ? DOW_LABELS_ZH : DOW_LABELS_JA
+
   return (
     <div className="app">
       {showStationPicker && (
@@ -293,7 +299,7 @@ export default function App() {
           <LangToggle />
         </div>
         <h1 className="app-title">{t.appTitle}</h1>
-        <p className="app-subtitle">{t.appSubtitle}</p>
+        <p className="app-subtitle">{calYear}年 — {t.appSubtitle}</p>
         <StationBtn />
         <div className="plan-toggle-row">
           <button
@@ -316,54 +322,62 @@ export default function App() {
 
       <main className="calendar">
         {MONTH_NAMES.map((monthLabel, mi) => {
-          const weekLabels = ALL_WEEK_LABELS.slice(mi * 4, mi * 4 + 4)
+          const month = mi + 1
+          const cells = getCalendarMonth(calYear, month)
           return (
-            <div key={monthLabel} className="cal-month">
-              <div className="cal-month-label">{monthLabel}</div>
-              <div className="cal-week-row">
-                {weekLabels.map((wl, wi) => {
-                  const isToday = wl === todayWeek
-                  const allSpots = getSpotsForWeek(wl)
-                  const offSeason = allSpots.length === 0
-                  const planSpots = allSpots.filter(s => planIds.has(s.id))
-                  const planCount = planSpots.length
-                  const hasPlan = planCount > 0
+            <div key={mi} className="cal-month">
+              {/* 月ヘッダー */}
+              <div className="cal-month-header">
+                <span className="cal-month-label">{monthLabel}</span>
+              </div>
+
+              {/* 曜日ヘッダー */}
+              <div className="cal-dow-row">
+                {DOW_LABELS.map((d, di) => (
+                  <div
+                    key={di}
+                    className={`cal-dow${di === 0 ? ' cal-dow-sun' : di === 6 ? ' cal-dow-sat' : ''}`}
+                  >{d}</div>
+                ))}
+              </div>
+
+              {/* 日付グリッド */}
+              <div className="cal-day-grid">
+                {cells.map((date, ci) => {
+                  if (!date) return <div key={ci} className="cal-day-empty" />
+
+                  const wl = dateToWeekLabel(date)
+                  const allSpotsInWeek = getSpotsForWeek(wl)
+                  const offSeason = allSpotsInWeek.length === 0
+                  const planSpotsInWeek = allSpotsInWeek.filter(s => planIds.has(s.id))
+                  const hasPlan = planSpotsInWeek.length > 0
+                  const isToday = isSameDay(date, today)
                   const varClass = getVarietyClass(wl)
-                  const off = offSeason
+                  const dow = date.getDay() // 0=日, 6=土
                   const planDimmed = showPlanOnly && !offSeason && !hasPlan
+
                   return (
                     <button
-                      key={wl}
+                      key={ci}
                       className={[
-                        'cal-cell',
-                        varClass,
-                        isToday ? 'cal-cell-today' : '',
-                        off ? 'cal-cell-disabled' : '',
-                        showPlanOnly && hasPlan ? 'cal-cell-has-plan' : '',
-                        planDimmed ? 'cal-cell-plan-dim' : '',
+                        'cal-day-cell',
+                        offSeason ? 'cal-day-off' : varClass,
+                        isToday ? 'cal-day-today' : '',
+                        offSeason ? 'cal-day-disabled' : '',
+                        !offSeason && showPlanOnly && hasPlan ? 'cal-day-has-plan' : '',
+                        planDimmed ? 'cal-day-plan-dim' : '',
+                        dow === 0 ? 'cal-day-sun' : '',
+                        dow === 6 ? 'cal-day-sat' : '',
                       ].filter(Boolean).join(' ')}
-                      onClick={() => !off && openWeek(wl)}
-                      disabled={off}
+                      onClick={() => !offSeason && openWeek(wl)}
+                      disabled={offSeason}
                     >
-                      <span className="cal-week-num">第{wi + 1}週</span>
-                      {isToday && <span className="cal-today-badge">{t.todayBadge}</span>}
-                      {off ? (
-                        <span className="cal-spot-name" style={{ color: '#ccc' }}>{t.calendarOffLabel}</span>
-                      ) : showPlanOnly ? (
-                        hasPlan ? (
-                          <>
-                            <span className="cal-spot-count cal-plan-count">{planCount}{t.calUnitSpots}</span>
-                            <span className="cal-spot-name">{planSpots[0].name}</span>
-                          </>
-                        ) : (
-                          <span className="cal-spot-name" style={{ color: '#ccc' }}>—</span>
-                        )
-                      ) : (
-                        <>
-                          {hasPlan && <span className="cal-plan-dot" title={`${planCount}件計画中`} />}
-                          <span className="cal-spot-count">{allSpots.length}{t.calUnitSpots}</span>
-                          <span className="cal-spot-name">{allSpots[0].name}</span>
-                        </>
+                      <span className="cal-day-num">{date.getDate()}</span>
+                      {!offSeason && hasPlan && (
+                        <span className="cal-day-star">★</span>
+                      )}
+                      {!offSeason && !hasPlan && (
+                        <span className="cal-day-bloom-dot" />
                       )}
                     </button>
                   )
