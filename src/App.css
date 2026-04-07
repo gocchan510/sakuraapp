@@ -1411,6 +1411,73 @@ body {
   flex-shrink: 0;
 }
 
+/* ── ソートバー ── */
+.sort-bar {
+  display: flex;
+  gap: 7px;
+  padding: 6px 0 10px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+.sort-bar::-webkit-scrollbar { display: none; }
+
+.sort-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #f48fb1;
+  background: rgba(255,255,255,0.88);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.78rem;
+  color: #ad1457;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.13s, border-color 0.13s, color 0.13s;
+  flex-shrink: 0;
+}
+.sort-chip:hover { background: #fce4ec; }
+.sort-chip-active {
+  background: #e91e8c !important;
+  border-color: #e91e8c !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* 見頃バッジ */
+.sli-bloom-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  text-align: right;
+}
+.sli-bloom-1 { background: #fce4ec; color: #880e4f; }   /* 見頃 */
+.sli-bloom-2 { background: #fff3e0; color: #bf360c; }   /* 散り始め */
+.sli-bloom-3 { background: #fce4ec; color: #c2185b; }   /* 開花 */
+.sli-bloom-4 { background: #f5f5f5; color: #888; }      /* 開花前 */
+.sli-bloom-5 { background: #f1f8e9; color: #558b2f; }   /* 葉桜 */
+.sli-bloom-9 { background: #f5f5f5; color: #bbb; }      /* データなし */
+
+/* 人気度星 */
+.sli-stars {
+  font-size: 0.68rem;
+  color: #e91e8c;
+  letter-spacing: -1px;
+  text-align: right;
+}
+
+/* 距離表示 */
+.sli-dist {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #1976d2;
+  text-align: right;
+}
+
 /* スポット一覧：プラン済み行のハイライト */
 .spot-list-item-planned {
   background: rgba(252, 228, 236, 0.6) !important;
