@@ -4,6 +4,7 @@ import varietiesData from './data/varieties.json'
 import { SpotCard } from './components/SpotCard'
 import { SpotList } from './components/SpotList'
 import { AllSpotsMap } from './components/AllSpotsMap'
+import { PlanView } from './components/PlanView'
 import { VarietyList } from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { StationPicker } from './components/StationPicker'
@@ -15,7 +16,7 @@ import type { Station } from './utils/travelTime'
 import { useLang } from './i18n'
 
 type Tab = 'calendar' | 'map' | 'zukan'
-type View = 'calendar' | 'spotlist' | 'detail' | 'map' | 'zukan' | 'zukan-detail'
+type View = 'calendar' | 'spotlist' | 'detail' | 'map' | 'zukan' | 'zukan-detail' | 'plan'
 
 const MONTH_NAMES_JA = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
 const MONTH_NAMES_ZH = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
@@ -64,7 +65,6 @@ export default function App() {
     } catch { return {} }
   })
   const [selectedDate, setSelectedDate] = useState<string | null>(null)
-  const [showPlanOnly, setShowPlanOnly] = useState(false)
   // 月ごとの展開状態（数字=月番号 1〜12）。localStorageに永続化
   const [openMonths, setOpenMonths] = useState<Set<number>>(() => {
     try {
@@ -128,6 +128,14 @@ export default function App() {
     setSelectedWeek(week)
     setSelectedDate(dateStr ?? null)
     if (isOffSeason(week)) return
+    push('spotlist', 'calendar')
+  }
+
+  const openPlan = () => push('plan', 'calendar')
+
+  const editDateFromPlan = (dateStr: string, weekLabel: string) => {
+    setSelectedDate(dateStr)
+    setSelectedWeek(weekLabel)
     push('spotlist', 'calendar')
   }
 
@@ -309,6 +317,23 @@ export default function App() {
     )
   }
 
+  // ── マイプラン一覧 ──
+  if (view === 'plan') {
+    return (
+      <div className="app">
+        <PlanView
+          planDates={planDates}
+          onBack={() => history.back()}
+          onSelectSpot={openSpotDetail}
+          onRemoveSpot={togglePlanForDate}
+          onEditDate={editDateFromPlan}
+          lang={lang}
+        />
+        <BottomNav />
+      </div>
+    )
+  }
+
   // ── カレンダー ──
   const calYear = new Date().getFullYear()
   const today = new Date()
@@ -331,16 +356,18 @@ export default function App() {
         <h1 className="app-title">{t.appTitle}</h1>
         <p className="app-subtitle">{calYear}年 — {t.appSubtitle}</p>
         <StationBtn />
-        <div className="plan-toggle-row">
-          <button
-            className={`plan-toggle-btn${!showPlanOnly ? ' plan-toggle-active' : ''}`}
-            onClick={() => setShowPlanOnly(false)}
-          >{t.allSpots}</button>
-          <button
-            className={`plan-toggle-btn${showPlanOnly ? ' plan-toggle-active' : ''}`}
-            onClick={() => setShowPlanOnly(true)}
-          >⭐ {t.myPlan}{plannedDayCount > 0 ? ` (${plannedDayCount}${t.planCount})` : ''}</button>
-        </div>
+        <button
+          className={`plan-overview-btn${plannedDayCount > 0 ? ' plan-overview-btn-active' : ''}`}
+          onClick={openPlan}
+        >
+          <span className="plan-overview-icon">⭐</span>
+          <span className="plan-overview-label">
+            {plannedDayCount > 0
+              ? `${t.myPlan}　${plannedDayCount}${t.planViewDays} / ${Object.values(planDates).reduce((s, a) => s + a.length, 0)}${t.planViewSpots}`
+              : t.myPlan}
+          </span>
+          <span className="plan-overview-arrow">›</span>
+        </button>
       </header>
 
       <div className="legend">
@@ -402,7 +429,6 @@ export default function App() {
                       const isToday = isSameDay(date, today)
                       const varClass = getVarietyClass(wl)
                       const dow = date.getDay()
-                      const planDimmed = showPlanOnly && !offSeason && !plannedForDate
 
                       return (
                         <button
@@ -413,7 +439,6 @@ export default function App() {
                             isToday ? 'cal-day-today' : '',
                             offSeason ? 'cal-day-disabled' : '',
                             !offSeason && plannedForDate ? 'cal-day-has-plan' : '',
-                            planDimmed ? 'cal-day-plan-dim' : '',
                             dow === 0 ? 'cal-day-sun' : '',
                             dow === 6 ? 'cal-day-sat' : '',
                           ].filter(Boolean).join(' ')}
