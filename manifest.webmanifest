@@ -1,0 +1,1 @@
+{"name":"桜週末ガイド","short_name":"桜ガイド","start_url":"/sakuraapp/","display":"standalone","background_color":"#fce4ec","lang":"ja","scope":"/sakuraapp/","description":"今週末どこで桜を見ればいい？","theme_color":"#f4a7b9","icons":[{"src":"/sakuraapp/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"/sakuraapp/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
