@@ -1316,6 +1316,7 @@ html, body {
   font-size: 11px;
   color: #888;
 }
+.detail-spot-bloom { color: #c0547a; font-weight: 600; }
 .detail-spot-card__actions { display: flex; gap: 6px; flex-shrink: 0; }
 .detail-spot-btn {
   background: none;

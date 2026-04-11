@@ -15,6 +15,8 @@ interface OffsetEntry {
   status: 'observed' | 'not_yet' | 'no_data'
 }
 
+const ALL_STATIONS = offsetData.offsets as OffsetEntry[]
+
 // ── Haversine ─────────────────────────────────────────────────
 function haversine(lat1: number, lng1: number, lat2: number, lng2: number): number {
   const R = 6371
@@ -24,23 +26,73 @@ function haversine(lat1: number, lng1: number, lat2: number, lng2: number): numb
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
 }
 
-// ── 最寄り観測地点のオフセット取得 ──────────────────────────
+// ── 東京基準値（地域差計算の基準） ──────────────────────────
+function parseNormalDateMMDD(mmdd: string): Date {
+  const [m, d] = mmdd.split('-').map(Number)
+  return new Date(2000, m - 1, d)  // 閏年の2000年で統一
+}
+
+const TOKYO_ENTRY = ALL_STATIONS.find(o => o.station === '東京')
+const TOKYO_NORMAL_DATE = TOKYO_ENTRY?.normalBloomDate
+  ? parseNormalDateMMDD(TOKYO_ENTRY.normalBloomDate)
+  : new Date(2000, 2, 24)  // fallback: 3月24日
+
+// ── 地域差の計算（地点の平年値 − 東京の平年値）────────────
+function getRegionalDiff(normalBloomDate: string): number {
+  const local = parseNormalDateMMDD(normalBloomDate)
+  return Math.round((local.getTime() - TOKYO_NORMAL_DATE.getTime()) / (1000 * 60 * 60 * 24))
+}
+
+// ── 最寄り地点検索 ────────────────────────────────────────────
+// 地域差用: normalBloomDate がある地点なら距離制限なし
+function findNearestWithNormal(lat: number, lng: number): OffsetEntry | null {
+  const candidates = ALL_STATIONS.filter(o => o.normalBloomDate)
+  if (!candidates.length) return null
+  return candidates.reduce((best, o) => {
+    return haversine(lat, lng, o.lat, o.lng) < haversine(lat, lng, best.lat, best.lng) ? o : best
+  })
+}
+
+// 今年のズレ用: 観測済み地点のみ、200km 以内
 const MAX_DISTANCE_KM = 200
 
-export function getOffsetDaysForLocation(lat: number, lng: number): number {
-  const observed = (offsetData.offsets as OffsetEntry[]).filter(
-    o => o.status === 'observed' && o.offsetDays !== null
-  )
-  if (observed.length === 0) return 0
-
-  let best = { dist: Infinity, offset: 0 }
+function findNearestObserved(lat: number, lng: number): OffsetEntry | null {
+  const observed = ALL_STATIONS.filter(o => o.status === 'observed' && o.offsetDays !== null)
+  if (!observed.length) return null
+  let best = { dist: Infinity, entry: null as OffsetEntry | null }
   for (const o of observed) {
     const d = haversine(lat, lng, o.lat, o.lng)
-    if (d < best.dist) best = { dist: d, offset: o.offsetDays! }
+    if (d < best.dist) best = { dist: d, entry: o }
   }
+  return best.dist <= MAX_DISTANCE_KM ? best.entry : null
+}
 
-  // 200km超は補正しない
-  return best.dist <= MAX_DISTANCE_KM ? best.offset : 0
+// ── 合計オフセット取得（地域差 + 今年のズレ）─────────────────
+export function getTotalOffset(lat: number, lng: number): {
+  regionalDiff: number
+  yearlyOffset: number
+  totalOffset: number
+  stationName: string | null
+} {
+  const normalStation = findNearestWithNormal(lat, lng)
+  const regionalDiff = normalStation?.normalBloomDate
+    ? getRegionalDiff(normalStation.normalBloomDate)
+    : 0
+
+  const observedStation = findNearestObserved(lat, lng)
+  const yearlyOffset = observedStation?.offsetDays ?? 0
+
+  return {
+    regionalDiff,
+    yearlyOffset,
+    totalOffset: regionalDiff + yearlyOffset,
+    stationName: normalStation?.station ?? null,
+  }
+}
+
+// v1 互換: 今年のズレのみ（内部での後方互換用）
+export function getOffsetDaysForLocation(lat: number, lng: number): number {
+  return findNearestObserved(lat, lng)?.offsetDays ?? 0
 }
 
 // ── MMDD 整数 ↔ Date 変換 ───────────────────────────────────
@@ -70,8 +122,7 @@ function periodToMmddRange(period: string): { start: number; end: number } | nul
   }
 }
 
-// ── 補正しない条件チェック ───────────────────────────────────
-// 03-mid(0311) 以前の start は補正しない（冬桜・河津桜等）
+// ── 補正対象チェック（3月中旬以前の冬桜・河津桜等は対象外）──
 const SPRING_THRESHOLD = 311  // MMDD: 3月11日
 
 function shouldAdjust(bloomStart: string): boolean {
@@ -80,7 +131,7 @@ function shouldAdjust(bloomStart: string): boolean {
   return range.start > SPRING_THRESHOLD
 }
 
-// ── メイン: 補正した日付範囲で今日が開花中か判定 ─────────
+// ── bloomPeriod を補正して実日付に変換 ───────────────────────
 export interface AdjustedBloomResult {
   startDate: Date
   endDate: Date
@@ -89,43 +140,63 @@ export interface AdjustedBloomResult {
 
 export function adjustBloomPeriod(
   bloomPeriod: { start: string; end: string },
-  offsetDays: number
+  totalOffset: number
 ): AdjustedBloomResult {
   const startRange = periodToMmddRange(bloomPeriod.start)
   const endRange   = periodToMmddRange(bloomPeriod.end)
 
   if (!startRange || !endRange) {
-    // fallback
     return { startDate: new Date(0), endDate: new Date(0), adjusted: false }
   }
 
   const startDate = mmddToDate(startRange.start)
   const endDate   = mmddToDate(endRange.end)
 
-  if (!shouldAdjust(bloomPeriod.start) || offsetDays === 0) {
+  if (!shouldAdjust(bloomPeriod.start) || totalOffset === 0) {
     return { startDate, endDate, adjusted: false }
   }
 
   return {
-    startDate: addDays(startDate, offsetDays),
-    endDate:   addDays(endDate,   offsetDays),
+    startDate: addDays(startDate, totalOffset),
+    endDate:   addDays(endDate,   totalOffset),
     adjusted:  true,
   }
 }
 
 export function isInBloomAdjusted(
   bloomPeriod: { start: string; end: string } | null | undefined,
-  offsetDays: number,
+  totalOffset: number,
   today: Date = new Date()
 ): boolean {
   if (!bloomPeriod?.start || !bloomPeriod?.end) return false
-  const { startDate, endDate } = adjustBloomPeriod(bloomPeriod, offsetDays)
+  const { startDate, endDate } = adjustBloomPeriod(bloomPeriod, totalOffset)
   return today >= startDate && today <= endDate
 }
 
-// ── offset が使えるかチェック ────────────────────────────────
+// ── 補正後の見頃時期を日本語ラベルで返す ──────────────────────
+function dateToJunLabel(date: Date): string {
+  const m = date.getMonth() + 1
+  const d = date.getDate()
+  const jun = d <= 10 ? '上旬' : d <= 20 ? '中旬' : '下旬'
+  return `${m}月${jun}`
+}
+
+export function adjustedBloomLabel(
+  bloomPeriod: { start: string; end: string } | null | undefined,
+  totalOffset: number
+): string | null {
+  if (!bloomPeriod?.start || !bloomPeriod?.end) return null
+  const { startDate, endDate, adjusted } = adjustBloomPeriod(bloomPeriod, totalOffset)
+  if (startDate.getTime() === 0) return null
+  const startLabel = dateToJunLabel(startDate)
+  const endLabel   = dateToJunLabel(endDate)
+  const label = startLabel === endLabel ? startLabel : `${startLabel}〜${endLabel}`
+  return adjusted ? label : label  // 表示は同じ、呼び出し側で adjusted フラグを使える
+}
+
+// ── ユーティリティ ────────────────────────────────────────────
 export function hasOffsetData(): boolean {
-  return (offsetData.offsets as OffsetEntry[]).some(o => o.status === 'observed' && o.offsetDays !== null)
+  return ALL_STATIONS.some(o => o.status === 'observed' && o.offsetDays !== null)
 }
 
 export const OFFSET_UPDATED_AT: string = offsetData.updatedAt

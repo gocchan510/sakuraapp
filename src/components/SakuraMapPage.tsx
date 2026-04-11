@@ -5,7 +5,7 @@ import spotsData from '../data/spots.json'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
 import { bloomOrd, periodsOverlap } from '../utils/bloomFilter'
-import { getOffsetDaysForLocation, isInBloomAdjusted, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
+import { getTotalOffset, isInBloomAdjusted, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
 
 // ── 型 ───────────────────────────────────────────────────────────
 type RawSpot = typeof spotsData[number]
@@ -95,9 +95,9 @@ function computeSpotStatus(spot: MapSpot): BloomStatus {
   const ids = spot.varieties ?? []
   if (!ids.length) return estimateFromPeakMonth(spot.peakMonth ?? '')
 
-  // Get offset for this spot's location
+  // 地域差 + 今年のズレ の合計オフセット
   const offset = (spot.lat && spot.lng && hasOffsetData())
-    ? getOffsetDaysForLocation(spot.lat, spot.lng)
+    ? getTotalOffset(spot.lat, spot.lng).totalOffset
     : 0
 
   const statuses = ids.map(id => {

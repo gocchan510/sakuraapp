@@ -3,6 +3,7 @@ import type { Variety } from '../types'
 import { useWikiImage } from '../hooks/useWikiImage'
 import spotsData from '../data/spots.json'
 import { Discovery, getDiscoveries, addDiscovery } from '../utils/discoveries'
+import { getTotalOffset, adjustedBloomLabel } from '../utils/bloomOffset'
 
 type DetailTab = 'basic' | 'detail'
 
@@ -261,6 +262,11 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
                       {spotData?.prefecture && <span>{spotData.prefecture}</span>}
                       {(spotData?.varietyCount ?? 0) > 0 && <span>{spotData!.varietyCount}品種</span>}
                       {dist != null && <span>{dist.toFixed(1)} km</span>}
+                      {spotData?.lat && spotData?.lng && variety.bloomPeriod?.start && (() => {
+                        const { totalOffset } = getTotalOffset(spotData.lat!, spotData.lng!)
+                        const label = adjustedBloomLabel(variety.bloomPeriod as { start: string; end: string }, totalOffset)
+                        return label ? <span className="detail-spot-bloom">🌸 {label}</span> : null
+                      })()}
                     </div>
                   </div>
                   <div className="detail-spot-card__actions">
