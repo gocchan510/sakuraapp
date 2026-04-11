@@ -192,27 +192,41 @@ function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): nu
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
-// ── 検索インデックス ─────────────────────────────────────────────
-const varietyNameToSpotIds = new Map<string, Set<string>>()
+// ── 検索インデックス（正規化済み） ───────────────────────────────
+import { normalize, queryVariants } from '../utils/searchNormalize'
+
+// スポット: 正規化済み名前・都道府県をキャッシュ
+const spotNormIndex = allSpots.map(s => ({
+  id:       s.id,
+  nameNorm: normalize(s.name),
+  prefNorm: normalize(s.prefecture ?? ''),
+}))
+
+// 品種名（正規化済み）→ スポットID集合
+const varietyNormIndex = new Map<string, Set<string>>()
 allVarieties.forEach(v => {
-  ((v as any).spots ?? []).forEach((s: { spotId: string }) => {
-    if (!varietyNameToSpotIds.has(v.name)) varietyNameToSpotIds.set(v.name, new Set())
-    varietyNameToSpotIds.get(v.name)!.add(s.spotId)
+  const norm = normalize(v.name)
+  ;((v as any).spots ?? []).forEach((s: { spotId: string }) => {
+    if (!varietyNormIndex.has(norm)) varietyNormIndex.set(norm, new Set())
+    varietyNormIndex.get(norm)!.add(s.spotId)
   })
 })
 
 function searchSpots(query: string): MapSpot[] {
   if (query.length < 2) return []
-  const q = query.toLowerCase()
+  const variants = queryVariants(query)
+  if (!variants.length) return []
+
   const matched = new Set<string>()
-  allSpots.forEach(s => {
-    if (s.name.toLowerCase().includes(q)) matched.add(s.id)
-    if ((s.prefecture ?? '').toLowerCase().startsWith(q)) matched.add(s.id)
-  })
-  // variety name search
-  varietyNameToSpotIds.forEach((spotIds, vName) => {
-    if (vName.includes(query)) spotIds.forEach(id => matched.add(id))
-  })
+  for (const q of variants) {
+    spotNormIndex.forEach(e => {
+      if (e.nameNorm.includes(q)) matched.add(e.id)
+      if (e.prefNorm.startsWith(q)) matched.add(e.id)
+    })
+    varietyNormIndex.forEach((spotIds, normName) => {
+      if (normName.includes(q)) spotIds.forEach(id => matched.add(id))
+    })
+  }
   return allSpots.filter(s => matched.has(s.id)).slice(0, 10)
 }
 
