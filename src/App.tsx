@@ -7,6 +7,7 @@ import varietiesData from './data/varieties.json'
 import { VarietyList }   from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { SakuraMapPage } from './components/SakuraMapPage'
+import { SakuraCalendar } from './components/SakuraCalendar'
 import type { Variety } from './types'
 
 const varieties = varietiesData as Variety[]
@@ -14,7 +15,7 @@ const varieties = varietiesData as Variety[]
 // ── スポットフィルタの型（location.state で受け渡し） ──────────
 interface SpotFilter { name: string; ids: string[] }
 
-// ── タブ付きレイアウト（図鑑 / 地図） ────────────────────────
+// ── タブ付きレイアウト（図鑑 / 地図 / カレンダー） ────────────────────────
 function TabLayout() {
   const location = useLocation()
   const isMap    = location.pathname === '/map'
@@ -39,12 +40,19 @@ function TabLayout() {
           <span className="tab-icon">🗺️</span>
           <span className="tab-label">地図</span>
         </NavLink>
+        <NavLink
+          to="/calendar"
+          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
+        >
+          <span className="tab-icon">🗓️</span>
+          <span className="tab-label">カレンダー</span>
+        </NavLink>
       </nav>
     </div>
   )
 }
 
-// ── 図鑑タブ ─────────────────────────────────────────────────
+// ── 図鑑タブ ─────────────────────────────────────────────────────
 function ZukanRoute() {
   const navigate = useNavigate()
   const location = useLocation()
@@ -64,9 +72,11 @@ function ZukanRoute() {
   )
 }
 
-// ── 地図タブ ─────────────────────────────────────────────────
+// ── 地図タブ ─────────────────────────────────────────────────────
 function MapRoute() {
   const navigate = useNavigate()
+  const location = useLocation()
+  const focusSpotId = (location.state as any)?.focusSpotId as string | undefined
 
   return (
     <SakuraMapPage
@@ -74,11 +84,12 @@ function MapRoute() {
         navigate('/', { state: { spotFilter: { name, ids } } })
       }
       onSelectVariety={(id) => navigate(`/variety/${id}`)}
+      focusSpotId={focusSpotId}
     />
   )
 }
 
-// ── 品種詳細（タブバーなし） ──────────────────────────────────
+// ── 品種詳細（タブバーなし） ──────────────────────────────────────
 function VarietyDetailRoute() {
   const { id }   = useParams<{ id: string }>()
   const navigate = useNavigate()
@@ -88,19 +99,24 @@ function VarietyDetailRoute() {
 
   return (
     <div className="app">
-      <VarietyDetail variety={variety} onBack={() => navigate(-1)} />
+      <VarietyDetail
+        variety={variety}
+        onBack={() => navigate(-1)}
+        onShowOnMap={(spotId) => navigate('/map', { state: { focusSpotId: spotId } })}
+      />
     </div>
   )
 }
 
-// ── ルート定義 ────────────────────────────────────────────────
+// ── ルート定義 ────────────────────────────────────────────────────
 export default function App() {
   return (
     <Routes>
       {/* タブバーあり */}
       <Route element={<TabLayout />}>
-        <Route index        element={<ZukanRoute />} />
-        <Route path="map"   element={<MapRoute />} />
+        <Route index           element={<ZukanRoute />} />
+        <Route path="map"      element={<MapRoute />} />
+        <Route path="calendar" element={<SakuraCalendar />} />
       </Route>
 
       {/* タブバーなし */}

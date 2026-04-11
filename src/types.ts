@@ -36,4 +36,5 @@ export interface Variety {
     label: string
     reasons: string[]
   }
+  spots?: { spotId: string; spotName: string; linkSource?: string }[]
 }

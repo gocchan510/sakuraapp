@@ -155,6 +155,30 @@ function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): nu
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
+// ── 検索インデックス ─────────────────────────────────────────────
+const varietyNameToSpotIds = new Map<string, Set<string>>()
+allVarieties.forEach(v => {
+  ((v as any).spots ?? []).forEach((s: { spotId: string }) => {
+    if (!varietyNameToSpotIds.has(v.name)) varietyNameToSpotIds.set(v.name, new Set())
+    varietyNameToSpotIds.get(v.name)!.add(s.spotId)
+  })
+})
+
+function searchSpots(query: string): MapSpot[] {
+  if (query.length < 2) return []
+  const q = query.toLowerCase()
+  const matched = new Set<string>()
+  allSpots.forEach(s => {
+    if (s.name.toLowerCase().includes(q)) matched.add(s.id)
+    if ((s.prefecture ?? '').toLowerCase().startsWith(q)) matched.add(s.id)
+  })
+  // variety name search
+  varietyNameToSpotIds.forEach((spotIds, vName) => {
+    if (vName.includes(query)) spotIds.forEach(id => matched.add(id))
+  })
+  return allSpots.filter(s => matched.has(s.id)).slice(0, 10)
+}
+
 // ── BottomSheet 内の品種カード ────────────────────────────────────
 interface MiniCardProps {
   variety: Variety
@@ -255,7 +279,20 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety }: SheetPro
         <div className="spot-sheet__header">
           <div className="spot-sheet__title-row">
             <h2 className="spot-sheet__name">🌸 {spot.name}</h2>
-            <button className="spot-sheet__close" onClick={onClose} aria-label="閉じる">✕</button>
+            <div className="spot-sheet__header-actions">
+              {spot.lat && spot.lng && (
+                <button
+                  className="spot-sheet__route-btn"
+                  onClick={() => window.open(
+                    `https://www.google.com/maps/dir/?api=1&destination=${spot.lat},${spot.lng}&travelmode=transit`,
+                    '_blank'
+                  )}
+                >
+                  🚶 ルート
+                </button>
+              )}
+              <button className="spot-sheet__close" onClick={onClose} aria-label="閉じる">✕</button>
+            </div>
           </div>
           <div className="spot-sheet__meta">
             <span className="spot-sheet__pref">{spot.prefecture}</span>
@@ -390,6 +427,17 @@ function NearbySpotCard({ spot, distance, status, onTap }: {
           {'★'.repeat(Math.min(maxRarity, 5))}{rareCount}種
         </div>
       )}
+      {spot.lat && spot.lng && (
+        <button
+          className="nearby-card__route"
+          onClick={e => {
+            e.stopPropagation()
+            window.open(`https://www.google.com/maps/dir/?api=1&destination=${spot.lat},${spot.lng}&travelmode=transit`, '_blank')
+          }}
+        >
+          🚶
+        </button>
+      )}
     </div>
   )
 }
@@ -422,10 +470,11 @@ function NearbyCarousel({ spots, onSpotTap }: {
 interface Props {
   onViewVarieties:   (spotName: string, varietyIds: string[]) => void
   onSelectVariety:   (id: string) => void
+  focusSpotId?:      string
 }
 
 // ── メインコンポーネント ─────────────────────────────────────────
-export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
+export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }: Props) {
   const containerRef      = useRef<HTMLDivElement>(null)
   const mapRef            = useRef<L.Map | null>(null)
   const markerLayerRef    = useRef<L.LayerGroup | null>(null)
@@ -434,6 +483,12 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
   const [selectedSpot, setSelectedSpot] = useState<MapSpot | null>(null)
   const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set())
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+
+  // 検索状態
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchResults, setSearchResults] = useState<MapSpot[]>([])
+  const [searchActive, setSearchActive] = useState(false)
+  const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   // Refs for Leaflet callbacks (avoid stale closures)
   const onSelectSpotRef  = useRef<(s: MapSpot) => void>(() => {})
@@ -447,6 +502,20 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
     activeFiltersRef.current = activeFilters
     updateMarkersRef.current?.()
   }, [activeFilters])
+
+  // focusSpotId が変化したらそのスポットにフォーカス
+  useEffect(() => {
+    if (!focusSpotId) return
+    const tryFocus = () => {
+      if (!mapRef.current) { setTimeout(tryFocus, 100); return }
+      const spot = allSpots.find(s => s.id === focusSpotId)
+      if (spot?.lat && spot?.lng) {
+        mapRef.current.setView([spot.lat, spot.lng], 14)
+        setSelectedSpot(spot)
+      }
+    }
+    tryFocus()
+  }, [focusSpotId])
 
   // ── nearbySpots ──────────────────────────────────────────────
   const nearbySpots = useMemo(() => {
@@ -567,13 +636,66 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
     setActiveFilters(new Set())
   }
 
+  // ── 検索 ─────────────────────────────────────────────────────
+  function handleSearchChange(val: string) {
+    setSearchQuery(val)
+    if (searchTimerRef.current) clearTimeout(searchTimerRef.current)
+    searchTimerRef.current = setTimeout(() => {
+      setSearchResults(val.length >= 2 ? searchSpots(val) : [])
+    }, 300)
+  }
+
   const showCarousel = !selectedSpot && !!userLocation && nearbySpots.length > 0
 
   return (
     <div className="sakura-map-page">
       <div ref={containerRef} className="sakura-map-container" />
 
-      {/* Feature 1: フィルタチップバー */}
+      {/* 検索バー */}
+      <div className="map-search-bar">
+        <span className="map-search-icon">🔍</span>
+        <input
+          className="map-search-input"
+          type="text"
+          placeholder="スポット名・品種名で検索..."
+          value={searchQuery}
+          onChange={e => handleSearchChange(e.target.value)}
+          onFocus={() => setSearchActive(true)}
+        />
+        {searchQuery && (
+          <button className="map-search-clear" onClick={() => {
+            setSearchQuery('')
+            setSearchResults([])
+            setSearchActive(false)
+          }}>✕</button>
+        )}
+        {/* Search results dropdown */}
+        {searchActive && searchResults.length > 0 && (
+          <div className="map-search-results">
+            {searchResults.map(spot => (
+              <div
+                key={spot.id}
+                className="map-search-result-item"
+                onClick={() => {
+                  setSelectedSpot(spot)
+                  if (spot.lat && spot.lng) {
+                    mapRef.current?.setView([spot.lat, spot.lng], 14)
+                  }
+                  setSearchQuery('')
+                  setSearchResults([])
+                  setSearchActive(false)
+                }}
+              >
+                <span className="map-search-result-dot" style={{ background: BLOOM_COLOR[spotStatusMap.get(spot.id) ?? 'off_season'] }} />
+                <span className="map-search-result-name">{spot.name}</span>
+                {spot.prefecture && <span className="map-search-result-pref">{spot.prefecture}</span>}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* フィルタチップバー */}
       <div className="map-chip-bar">
         {CHIPS.map(({ key, label }) => (
           <button

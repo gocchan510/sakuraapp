@@ -1,21 +1,108 @@
 import { useState } from 'react'
 import type { Variety } from '../types'
 import { useWikiImage } from '../hooks/useWikiImage'
+import spotsData from '../data/spots.json'
+import { Discovery, getDiscoveries, addDiscovery } from '../utils/discoveries'
 
 type DetailTab = 'basic' | 'detail'
 
+// ── スポット検索用 ────────────────────────────────────────────────
+type SpotEntry = {
+  id: string
+  name: string
+  lat?: number
+  lng?: number
+  prefecture?: string
+  varietyCount?: number
+  popularity?: number
+}
+
+const spotsById = new Map((spotsData as unknown as SpotEntry[]).map(s => [s.id, s]))
+
+function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
+
+// ── Props ────────────────────────────────────────────────────────
 interface Props {
   variety: Variety
   onBack: () => void
+  userLocation?: { lat: number; lng: number } | null
+  onShowOnMap?: (spotId: string) => void
 }
 
-export function VarietyDetail({ variety, onBack }: Props) {
+export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Props) {
   const [tab, setTab] = useState<DetailTab>('basic')
   const imageUrl = useWikiImage(variety.wikiTitleJa, variety.wikiTitleEn)
+
+  // ── Discovery state ───────────────────────────────────────────
+  const [discoveries, setDiscoveries] = useState<Discovery[]>(() =>
+    getDiscoveries().filter(d => d.varietyId === variety.id)
+  )
+  const [reportMode, setReportMode] = useState<'none' | 'locating' | 'spot_select'>('none')
+  const [spotSearchQuery, setSpotSearchQuery] = useState('')
+
+  function handleReportCurrentLocation() {
+    setReportMode('locating')
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        const nearby = (spotsData as unknown as SpotEntry[])
+          .filter(s => s.lat && s.lng)
+          .map(s => ({ s, d: getDistance(coords.latitude, coords.longitude, s.lat!, s.lng!) }))
+          .filter(x => x.d <= 0.5)
+          .sort((a, b) => a.d - b.d)[0]
+
+        const discovery: Discovery = {
+          varietyId: variety.id,
+          spotId: nearby?.s.id ?? null,
+          spotName: nearby?.s.name ?? null,
+          lat: coords.latitude,
+          lng: coords.longitude,
+          date: new Date().toISOString(),
+        }
+        addDiscovery(discovery)
+        setDiscoveries(getDiscoveries().filter(d => d.varietyId === variety.id))
+        setReportMode('none')
+      },
+      () => setReportMode('none')
+    )
+  }
+
+  function handleReportWithSpot(spotId: string, spotName: string) {
+    const spotData = spotsById.get(spotId)
+    const discovery: Discovery = {
+      varietyId: variety.id,
+      spotId,
+      spotName,
+      lat: spotData?.lat ?? null,
+      lng: spotData?.lng ?? null,
+      date: new Date().toISOString(),
+    }
+    addDiscovery(discovery)
+    setDiscoveries(getDiscoveries().filter(d => d.varietyId === variety.id))
+    setReportMode('none')
+    setSpotSearchQuery('')
+  }
 
   const gradientStyle = {
     background: `linear-gradient(160deg, ${variety.colorCode}44 0%, ${variety.colorCode}bb 100%)`,
   }
+
+  // ── Sort spots by distance or popularity ──────────────────────
+  const sortedSpots = [...(variety.spots ?? [])].sort((a, b) => {
+    const sa = spotsById.get(a.spotId)
+    const sb = spotsById.get(b.spotId)
+    if (userLocation && sa?.lat && sa?.lng && sb?.lat && sb?.lng) {
+      const da = getDistance(userLocation.lat, userLocation.lng, sa.lat, sa.lng)
+      const db = getDistance(userLocation.lat, userLocation.lng, sb.lat, sb.lng)
+      return da - db
+    }
+    return (sb?.popularity ?? 0) - (sa?.popularity ?? 0)
+  })
 
   return (
     <div className="detail-page">
@@ -153,6 +240,115 @@ export function VarietyDetail({ variety, onBack }: Props) {
           </div>
         </div>
       )}
+
+      {/* ── スポットリスト ── */}
+      <div className="detail-spots-section">
+        <h3 className="detail-spots-title">🗺️ この品種が見られるスポット</h3>
+        {sortedSpots.length === 0 ? (
+          <p className="detail-spots-empty">この品種の観賞スポット情報はまだありません</p>
+        ) : (
+          <div className="detail-spots-list">
+            {sortedSpots.map(s => {
+              const spotData = spotsById.get(s.spotId)
+              const dist = userLocation && spotData?.lat && spotData?.lng
+                ? getDistance(userLocation.lat, userLocation.lng, spotData.lat, spotData.lng)
+                : null
+              return (
+                <div key={s.spotId} className="detail-spot-card">
+                  <div className="detail-spot-card__info">
+                    <div className="detail-spot-card__name">📍 {s.spotName}</div>
+                    <div className="detail-spot-card__meta">
+                      {spotData?.prefecture && <span>{spotData.prefecture}</span>}
+                      {(spotData?.varietyCount ?? 0) > 0 && <span>{spotData!.varietyCount}品種</span>}
+                      {dist != null && <span>{dist.toFixed(1)} km</span>}
+                    </div>
+                  </div>
+                  <div className="detail-spot-card__actions">
+                    {onShowOnMap && (
+                      <button className="detail-spot-btn" onClick={() => onShowOnMap(s.spotId)}>
+                        地図で見る
+                      </button>
+                    )}
+                    {spotData?.lat && spotData?.lng && (
+                      <button
+                        className="detail-spot-btn detail-spot-btn--route"
+                        onClick={() => window.open(
+                          `https://www.google.com/maps/dir/?api=1&destination=${spotData.lat},${spotData.lng}&travelmode=transit`,
+                          '_blank'
+                        )}
+                      >
+                        🚶 ルート
+                      </button>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        )}
+      </div>
+
+      {/* ── 見つけた！ ── */}
+      <div className="detail-discovery-section">
+        <h3 className="detail-discovery-title">📸 見つけた！</h3>
+        <div className="detail-discovery-actions">
+          <button
+            className="detail-discovery-btn"
+            onClick={handleReportCurrentLocation}
+            disabled={reportMode === 'locating'}
+          >
+            {reportMode === 'locating' ? '位置取得中...' : '📍 現在地で報告'}
+          </button>
+          <button
+            className="detail-discovery-btn"
+            onClick={() => setReportMode(m => m === 'spot_select' ? 'none' : 'spot_select')}
+          >
+            🗺️ スポットを選んで報告
+          </button>
+        </div>
+
+        {reportMode === 'spot_select' && (
+          <div className="detail-discovery-spot-select">
+            <input
+              className="detail-discovery-search"
+              type="text"
+              placeholder="スポット名で検索..."
+              value={spotSearchQuery}
+              onChange={e => setSpotSearchQuery(e.target.value)}
+              autoFocus
+            />
+            {spotSearchQuery.length >= 2 && (
+              <div className="detail-discovery-spot-results">
+                {(spotsData as unknown as SpotEntry[])
+                  .filter(s => s.name.toLowerCase().includes(spotSearchQuery.toLowerCase()))
+                  .slice(0, 6)
+                  .map(s => (
+                    <div
+                      key={s.id}
+                      className="detail-discovery-spot-item"
+                      onClick={() => handleReportWithSpot(s.id, s.name)}
+                    >
+                      📍 {s.name}{s.prefecture ? ` (${s.prefecture})` : ''}
+                    </div>
+                  ))
+                }
+              </div>
+            )}
+          </div>
+        )}
+
+        {discoveries.length > 0 && (
+          <div className="detail-discovery-log">
+            <div className="detail-discovery-log-title">あなたの発見記録</div>
+            {discoveries.slice(0, 5).map((d, i) => (
+              <div key={i} className="detail-discovery-log-item">
+                🌸 {d.date.slice(0, 10).replace(/-/g, '/')}
+                {d.spotName && ` ${d.spotName}`}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   )
 }

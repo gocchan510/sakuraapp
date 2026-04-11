@@ -7,15 +7,17 @@ import {
   BLOOM_PRESETS,
   type BloomPreset,
 } from '../utils/bloomFilter'
+import { getDiscoveredVarietyIds } from '../utils/discoveries'
 
 // ── Card ────────────────────────────────────────────────────────────────────
 
 interface CardProps {
   variety: Variety
   onClick: () => void
+  discovered?: boolean
 }
 
-function VarietyCard({ variety, onClick }: CardProps) {
+function VarietyCard({ variety, onClick, discovered }: CardProps) {
   const imageUrl = useWikiImage(variety.wikiTitleJa, variety.wikiTitleEn)
 
   const gradientStyle = {
@@ -66,6 +68,9 @@ function VarietyCard({ variety, onClick }: CardProps) {
             className="variety-card-colordot"
             style={{ background: variety.colorCode }}
           />
+          {discovered && (
+            <span className="variety-card-discovered">✓</span>
+          )}
         </div>
       </div>
     </div>
@@ -179,6 +184,7 @@ interface Props {
 
 export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter }: Props) {
   const [filter, setFilter] = useState<FilterState>(INIT_FILTER)
+  const [discoveredIds] = useState(() => getDiscoveredVarietyIds())
 
   const filtered = useMemo(() => {
     if (!filter.start || !filter.end) return varieties
@@ -215,6 +221,21 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
       {/* Filter */}
       <FilterPanel filter={filter} onChange={setFilter} />
 
+      {/* 発見進捗バー */}
+      {discoveredIds.size > 0 && (
+        <div className="discovery-progress">
+          <div className="discovery-progress__text">
+            発見済み: {discoveredIds.size}/{varieties.length}品種
+          </div>
+          <div className="discovery-progress__bar">
+            <div
+              className="discovery-progress__fill"
+              style={{ width: `${(discoveredIds.size / varieties.length * 100).toFixed(1)}%` }}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Empty state */}
       {filtered.length === 0 && (
         <div className="bloom-empty">
@@ -229,7 +250,7 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
       {/* Grid */}
       <div className="zukan-grid">
         {filtered.map(v => (
-          <VarietyCard key={v.id} variety={v} onClick={() => onSelect(v.id)} />
+          <VarietyCard key={v.id} variety={v} onClick={() => onSelect(v.id)} discovered={discoveredIds.has(v.id)} />
         ))}
       </div>
     </div>

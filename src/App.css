@@ -1160,3 +1160,398 @@ html, body {
   font-weight: 600;
   white-space: nowrap;
 }
+
+/* ── 検索バー ── */
+.map-search-bar {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1001;
+  background: rgba(255,255,255,0.97);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.map-search-icon { font-size: 14px; flex-shrink: 0; }
+.map-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-family: inherit;
+  background: transparent;
+  color: #333;
+}
+.map-search-input::placeholder { color: #aaa; }
+.map-search-clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+  padding: 0;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.map-search-results {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  overflow: hidden;
+  z-index: 1002;
+}
+.map-search-result-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0d0da;
+  -webkit-tap-highlight-color: transparent;
+}
+.map-search-result-item:last-child { border-bottom: none; }
+.map-search-result-item:active { background: #fce4ec; }
+.map-search-result-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.map-search-result-name { font-size: 13px; font-weight: 600; color: #333; flex: 1; }
+.map-search-result-pref { font-size: 11px; color: #999; }
+
+/* ── フィルタチップバーを検索バーの下に移動 ── */
+.map-chip-bar { top: 58px !important; }
+
+/* ── ルートボタン（ボトムシートヘッダー） ── */
+.spot-sheet__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.spot-sheet__route-btn {
+  background: none;
+  border: 1.5px solid #e0a0b8;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #c0547a;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.nearby-card__route {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 2px 0 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── 品種詳細: スポットリスト ── */
+.detail-spots-section {
+  padding: 16px;
+  border-top: 1px solid #f0d0da;
+  margin-top: 8px;
+}
+.detail-spots-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #c0547a;
+  margin: 0 0 10px;
+}
+.detail-spots-empty {
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+  padding: 12px 0;
+}
+.detail-spots-list { display: flex; flex-direction: column; gap: 8px; }
+.detail-spot-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #fce4ec22;
+  border: 1px solid #f0d0da;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.detail-spot-card__name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2px;
+}
+.detail-spot-card__meta {
+  display: flex;
+  gap: 6px;
+  font-size: 11px;
+  color: #888;
+}
+.detail-spot-card__actions { display: flex; gap: 6px; flex-shrink: 0; }
+.detail-spot-btn {
+  background: none;
+  border: 1.5px solid #e0a0b8;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #c0547a;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.detail-spot-btn--route {
+  border-color: #a0c0e0;
+  color: #3070a0;
+}
+
+/* ── 品種詳細: 見つけた！ ── */
+.detail-discovery-section {
+  padding: 16px;
+  border-top: 1px solid #f0d0da;
+  background: #fce4ec11;
+}
+.detail-discovery-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #c0547a;
+  margin: 0 0 10px;
+}
+.detail-discovery-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.detail-discovery-btn {
+  background: #fff;
+  border: 1.5px solid #e0a0b8;
+  border-radius: 20px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #c0547a;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+.detail-discovery-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.detail-discovery-search {
+  width: 100%;
+  border: 1.5px solid #e0a0b8;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+}
+.detail-discovery-spot-select { margin-bottom: 10px; }
+.detail-discovery-spot-results {
+  background: #fff;
+  border: 1px solid #f0d0da;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.detail-discovery-spot-item {
+  padding: 10px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0d0da;
+  -webkit-tap-highlight-color: transparent;
+}
+.detail-discovery-spot-item:last-child { border-bottom: none; }
+.detail-discovery-spot-item:active { background: #fce4ec; }
+.detail-discovery-log-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 6px;
+}
+.detail-discovery-log-item {
+  font-size: 12px;
+  color: #555;
+  padding: 4px 0;
+  border-bottom: 1px solid #f0e0e8;
+}
+
+/* ── VarietyList: 発見進捗バー ── */
+.discovery-progress {
+  padding: 10px 16px;
+  background: #fce4ec;
+}
+.discovery-progress__text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c0547a;
+  margin-bottom: 4px;
+}
+.discovery-progress__bar {
+  height: 6px;
+  background: #f0c0d0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.discovery-progress__fill {
+  height: 100%;
+  background: linear-gradient(90deg, #FF85A1, #FFB7C5);
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+.variety-card-discovered {
+  color: #4caf50;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+/* ── カレンダーページ ── */
+.calendar-page {
+  min-height: 100vh;
+  padding-bottom: 56px;
+  background: var(--bg-light, #fff5f8);
+}
+.calendar-header {
+  background: linear-gradient(135deg, #FF85A1, #FFB7C5);
+  padding: 16px;
+  text-align: center;
+}
+.calendar-title { font-size: 20px; font-weight: 700; color: #fff; margin: 0; }
+.calendar-subtitle { font-size: 12px; color: rgba(255,255,255,0.85); margin: 2px 0 0; }
+
+.calendar-heatmap-wrap {
+  overflow-x: auto;
+  padding: 12px 8px 6px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.calendar-heatmap-wrap::-webkit-scrollbar { display: none; }
+.calendar-heatmap {
+  display: flex;
+  gap: 2px;
+  align-items: flex-end;
+  min-width: max-content;
+  padding-bottom: 20px;
+  position: relative;
+}
+.calendar-cell {
+  width: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 18px;
+  -webkit-tap-highlight-color: transparent;
+}
+.calendar-cell__bar {
+  width: 18px;
+  background: #FF85A1;
+  border-radius: 3px 3px 0 0;
+  transition: height 0.2s;
+}
+.calendar-cell.selected .calendar-cell__bar {
+  background: #c0547a;
+  outline: 2px solid #c0547a;
+  outline-offset: 1px;
+}
+.calendar-cell.today .calendar-cell__bar { background: #FF4488; }
+.calendar-cell__month {
+  position: absolute;
+  bottom: 0;
+  font-size: 9px;
+  color: #888;
+  white-space: nowrap;
+}
+.calendar-cell__today-marker {
+  position: absolute;
+  top: -16px;
+  font-size: 9px;
+  color: #FF4488;
+  white-space: nowrap;
+}
+
+.calendar-period-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #fff;
+  border-bottom: 1px solid #f0d0da;
+}
+.calendar-period-label { font-size: 16px; font-weight: 700; color: #333; }
+.calendar-period-count {
+  font-size: 13px;
+  color: #c0547a;
+  background: #fce4ec;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.calendar-period-now { font-size: 12px; color: #FF4488; font-weight: 600; }
+
+.calendar-variety-list { padding: 8px 12px 16px; }
+.calendar-rarity-group { margin-bottom: 16px; }
+.calendar-rarity-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+.calendar-variety-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.calendar-variety-card {
+  width: 72px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.calendar-variety-card__color {
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.calendar-variety-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.calendar-variety-card__dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.calendar-variety-card__name {
+  font-size: 10px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.calendar-variety-card__stars {
+  font-size: 9px;
+  color: #c87820;
+}
+.calendar-empty { text-align: center; color: #aaa; font-size: 13px; padding: 32px 0; }
