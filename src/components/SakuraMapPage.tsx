@@ -193,7 +193,7 @@ function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): nu
 }
 
 // ── 検索インデックス（正規化済み） ───────────────────────────────
-import { normalize, queryVariants } from '../utils/searchNormalize'
+import { normalize, queryVariants, romajiToHiragana } from '../utils/searchNormalize'
 
 // スポット: 正規化済み名前・都道府県をキャッシュ
 const spotNormIndex = allSpots.map(s => ({
@@ -202,13 +202,24 @@ const spotNormIndex = allSpots.map(s => ({
   prefNorm: normalize(s.prefecture ?? ''),
 }))
 
-// 品種名（正規化済み）→ スポットID集合
+// 品種→スポットID インデックス
+// キー: 正規化済み品種名 / ローマ字ID / ひらがな読み（IDをローマ字変換）
 const varietyNormIndex = new Map<string, Set<string>>()
+function addVarietyKey(key: string, spotId: string) {
+  if (!key) return
+  if (!varietyNormIndex.has(key)) varietyNormIndex.set(key, new Set())
+  varietyNormIndex.get(key)!.add(spotId)
+}
 allVarieties.forEach(v => {
-  const norm = normalize(v.name)
-  ;((v as any).spots ?? []).forEach((s: { spotId: string }) => {
-    if (!varietyNormIndex.has(norm)) varietyNormIndex.set(norm, new Set())
-    varietyNormIndex.get(norm)!.add(s.spotId)
+  const spots = (v as any).spots ?? []
+  if (!spots.length) return
+  const nameNorm = normalize(v.name)         // 御衣黄 → 御衣黄（漢字はそのまま）
+  const idRomaji = v.id.toLowerCase()        // gyoikou（ローマ字検索用）
+  const idHira   = romajiToHiragana(v.id)    // ぎょいこう（ひらがな検索用）
+  spots.forEach((s: { spotId: string }) => {
+    addVarietyKey(nameNorm, s.spotId)
+    addVarietyKey(idRomaji, s.spotId)
+    if (idHira !== idRomaji) addVarietyKey(idHira, s.spotId)
   })
 })
 
