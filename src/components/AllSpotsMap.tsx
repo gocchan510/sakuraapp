@@ -11,9 +11,11 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 })
 
-function pinColor(variety: string): string {
-  if (variety.includes('カワヅザクラ')) return '#ce93d8'
-  if (variety.includes('フユザクラ') || variety.includes('ジュウガツザクラ')) return '#90caf9'
+function pinColor(varieties: string[], varietyNote: string): string {
+  const note = varietyNote || ''
+  if (varieties.includes('kawazu-zakura') || note.includes('カワヅザクラ')) return '#ce93d8'
+  if (varieties.includes('fuyuzakura') || varieties.includes('jugatsuzakura') ||
+      note.includes('フユザクラ') || note.includes('ジュウガツザクラ')) return '#90caf9'
   return '#f06292'
 }
 
@@ -90,12 +92,13 @@ export function AllSpotsMap({ spots, filterWeek, todayWeek, onSelectSpot }: Prop
       if (seen.has(key)) return
       seen.add(key)
 
-      const inFilter = filterWeek ? s.peakWeeks.includes(filterWeek) : true
+      const peakWeeks = s.peakWeeks ?? []
+      const inFilter = filterWeek ? peakWeeks.includes(filterWeek) : true
       const isHighlight = filterWeek
-        ? s.peakWeeks.includes(filterWeek)
-        : s.peakWeeks.includes(todayWeek)
+        ? peakWeeks.includes(filterWeek)
+        : peakWeeks.includes(todayWeek)
       const isDimmed = filterWeek ? !inFilter : false
-      const color = pinColor(s.variety)
+      const color = pinColor(s.varieties ?? [], s.varietyNote ?? '')
 
       // 現在の開花状況（ハイライトスポットのみ取得して表示）
       const prefStatus = isHighlight ? getPrefStatus(s.prefecture) : null
@@ -110,7 +113,7 @@ export function AllSpotsMap({ spots, filterWeek, todayWeek, onSelectSpot }: Prop
         .bindPopup(`
           <div style="min-width:150px">
             <b style="font-size:13px">${s.name}</b><br/>
-            <span style="font-size:11px;color:#888">${s.variety}</span>${bloomLine}<br/>
+            <span style="font-size:11px;color:#888">${s.varietyNote ?? ''}</span>${bloomLine}<br/>
             <span style="font-size:11px;color:#999">📍 尻手から${s.travelTime}</span>
           </div>
         `)

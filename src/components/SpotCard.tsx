@@ -32,8 +32,9 @@ export function SpotCard({
       ? `https://maps.google.com/?q=${spot.lat},${spot.lng}`
       : null
 
-  const status = isSomeiCompatible(spot.variety) ? getSpotStatus(spot.name) : null
-  const prefStatus = isSomeiCompatible(spot.variety) ? getPrefStatus(spot.prefecture) : null
+  const isSomei = spot.varieties?.includes('somei-yoshino') ?? false
+  const status = isSomei ? getSpotStatus(spot.name) : null
+  const prefStatus = isSomei ? getPrefStatus(spot.prefecture) : null
 
   const isDefaultStation = fromStation.id === 'shitte'
   const travelTimeText = isDefaultStation
@@ -116,16 +117,16 @@ export function SpotCard({
         </div>
       )}
 
-      {onVarietyClick ? (
+      {onVarietyClick && spot.varieties && spot.varieties.length > 0 ? (
         <button
           className="variety variety-link"
-          onClick={() => onVarietyClick(spot.variety)}
+          onClick={() => onVarietyClick(spot.varieties![0])}
         >
-          {spot.variety} {t.toZukan}
+          {spot.varietyNote || spot.varieties!.join('・')} {t.toZukan}
         </button>
-      ) : (
-        <p className="variety">{spot.variety}</p>
-      )}
+      ) : spot.varietyNote ? (
+        <p className="variety">{spot.varietyNote}</p>
+      ) : null}
 
       <p className="comment">{spot.comment}</p>
 

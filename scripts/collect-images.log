@@ -1,0 +1,6343 @@
+╔══════════════════════════════════════╗
+║  桜図鑑 画像収集スクリプト v2        ║
+╚══════════════════════════════════════╝
+
+品種数: 775
+未処理: 775品種 (推定所要時間: 約117分)
+
+
+── [accolade] アーコレード ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [aizu-usuzumi] 会津薄墨 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [akashinju] 赤真珠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [akatsuki-naden] 暁南殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [akabana-mazakura] 赤花真桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [akami-ohshima] 赤実大島 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [agishi-kogiku-zakura] 阿岸小菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [asahiyama] 旭山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [azumanishiki] 東錦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [atamizakura] 熱海桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (10/775)
+
+── [akkeshi-taizanfukun] 厚岸泰山府君 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [amagiyoshino] 天城吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [amanogawa] 天の川 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/aa/Prunus_serrulata_Amanogawa_7
+ ✗
+
+── [amayadori] 雨宿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [america] アメリカ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [arakawanioi] 荒川匂 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [arashiyama] 嵐山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [aratama] 新珠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ariake] 有明 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [izu-saifukuji-shidare] 伊豆最福寺枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (20/775)
+
+── [izutaga-aka] 伊豆多賀赤 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [izutaga-shiro] 伊豆多賀白 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [izu-yoshino] 伊豆吉野 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ichiharatoranoo] 市原虎の尾 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ichiyou] 一葉 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [itsukayama] 早晩山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ito-zakura] 伊東桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [itokukuri] 糸括 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ivensii] イベンシー ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [hiranojinja-imose] 妹背（平野神社） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (30/775)
+
+── [iyo-usuzumi] 伊予薄墨 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6a/Isasumi-jinja_Usuzumi-zakura
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [ueno-shirayuki-shidare] 上野白雪枝垂 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/98/Ueno_Park%2C_Tokyo_around_19
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/47/April_2009%2C_hanami_in_Ueno
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5d/April_2009%2C_hanami_in_Ueno
+ ✗
+
+── [warwick] ウォーウィック ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ukon] 鬱金 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/91/Prunus_lannesiana_Grandiflor
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/7c/Prunus_lannesiana_Grandiflor
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8b/Prunus_lannesiana_Grandiflor
+ ✗
+
+── [ujo-shidare] 雨情枝垂 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9e/Wakasa_Kouta.jpg
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/52/Ujo_Noguchi_who_visited_Shos
+ ✗
+
+── [ushugasane-ohshima] 薄重大島 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/1b/%E3%82%AA%E3%82%AA%E3%82%B7%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [usuge-ohshima] 薄毛大島 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/99/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [usuzumi] 薄墨 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/2a/Usuzumi_Zakura_20220401_03.j
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0c/Usuzumi_Zakura_20220401_02.j
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/15/Usuzumi_Zakura_20220401_01.j
+ ✗
+
+── [usubeni-miyama] 薄紅深山桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/30/Siriuti_spa_tenbou_no_yu.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3e/Masaki_Park_20240605_%288%29
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/88/Masaki_Park_20240605_%281%29
+ ✗
+
+── [uzuzakura] 渦桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (40/775)
+
+── [umineko] ウミネコ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [umineko-isyu] ウミネコ異種 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [unryu-ohshima] 雲竜大島 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [eigenji] 永源寺 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ezo-nishiki] 蝦夷錦 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/30/Siriuti_spa_tenbou_no_yu.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/88/Masaki_Park_20240605_%281%29
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5a/Masaki_Park_20240605_%283%29
+ ✗
+
+── [edo] 江戸 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4f/Sukeroku%2C_from_the_series_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/93/NDL1309120_%E6%B1%9F%E6%88%B
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [edohigan-ichifusa-beni] 江戸彼岸（市房紅） ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9d/Prunus_01.jpg
+ ✗
+
+── [edohigan-ozakura] 江戸彼岸（大桜） ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9d/Prunus_01.jpg
+ ✗
+
+── [edohigan-mukaino] 江戸彼岸（向野） ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9d/Prunus_01.jpg
+ ✗
+
+── [edohigan-yamataka-jindai-zakura] 江戸彼岸（山高神代桜） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (50/775)
+
+  [容量チェック] images/: 17.1 MB
+
+── [eregansu-miyuki] エレガンスみゆき ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [entsuji-zakura] 円通寺桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [oushusatozakura] 奥州里桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ouchi-zakura] 大内桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/44/%E5%A4%A7%E5%86%85%E6%B0%8F%
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/98/Japanse_houtblokdruk_of_ukiy
+ ✗
+
+── [o-kanzakura] 大寒桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9a/Prunus_campanulata_01.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [okusa-kohigan] 大草小彼岸 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/c4/TakatoCastle%EF%BC%88%E9%AB%
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8f/Cerasus_%C3%97_subhirtella_%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [osawazakura] 大沢桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6a/Omote-mon%2C_view_from_insid
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/Small_gate_between_two_court
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [oshimazakura] オオシマザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/1b/%E3%82%AA%E3%82%AA%E3%82%B7%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [ota-zakura] 太田桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ojochin] 大提灯 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (60/775)
+
+── [onadeshiko] 大撫子 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [onaden] 大南殿 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ohara-nagisa] 大原渚 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/20/%E5%AF%82%E5%85%89%E9%99%A2_
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [oharanagisa-isyu] 大原渚異種 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+
+── [ominezakura] 大峰桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [omurazakura] 大村桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/c5/Omura_Park_%28Nagasaki%29_01
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [okame] オカメ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/ff/Okame_no_Kata.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e2/Okame_mask_2024_Jun_29_05-05
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [okuchoji-zakura] 奥丁字桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [oshidorizakura] 鴛鴦桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [oneyama-higan] 小根山彼岸 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8f/Cerasus_%C3%97_subhirtella_%
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (70/775)
+
+── [ofusa-zakura] お房桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9a/Prunus_campanulata_01.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/33/NDL1301941_%E5%85%AD_%E8%9A%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [ominosato-buraizakura] 麻績の里舞台桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [omuro-ariake] 御室有明 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [omoigawa] 思川 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d6/Omoigawa_Station_1.JPG
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e1/Omoigawa_Station_2.JPG
+ ✗
+
+── [omoidezakura] 思伊出桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kakegawa-zakura] 掛川桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kasumizakura] カスミザクラ ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/dc/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/72/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [kataoka-zakura] 片丘桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/dc/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/72/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [katsuura-hinazakura] 勝浦雛桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/08/Map_Katsuura%2CTokushima_en.
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/ca/%E5%8B%9D%E6%B5%A6%E7%94%BA%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [kaba-sakura] 蒲桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3b/Ishito_Ishitokabazakura_1923
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/35/Ishito_Ishitokabazakura_1923
+ ✗
+
+  [中間保存] varieties.json (80/775)
+
+── [kamatari-zakura] 鎌足桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/71/Fujiwara-Kamatari-LACMA.jpg
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/7e/Fujiwara_Kamatari_Stamp_in_1
+ ✗
+
+── [kamiiso-ushiozakura] 上磯海潮桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/26/Amount_Hokuto_Town_Hall.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/ee/Hokuto_City_Hall.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/eb/%E5%8C%97%E6%96%97%E5%B8%82%
+ ✗
+
+── [kamiokazakura] 神岡桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/73/Bus_stop_at_Hida%2C_Gifu_001
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kamiyama-shidare-zakura] 神山枝垂桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e6/Minsei_Hall.JPG
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/34/Kamiyama_montage.JPG
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [kawaduzakura] 河津桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6a/Cerasus_lannesiana_Kawazu-za
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e6/%E4%B8%80%E9%83%A8%E3%81%A7%
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/30/%E5%8D%88%E5%BE%8C%E3%81%AE%
+ ✗
+
+── [kanzaki-ohshima] 寒咲大島 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kanzashi-zakura] 簪桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kanzan] 関山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [campanuloides] カンパニュロイデス ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/61/Map_of_%22Royal_Botanic_Kew_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d0/Kew_Gardens_building_exterio
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/03/Exterior_of_Greenhouse_at_Ke
+ ✗
+
+── [kanhizakura] カンヒザクラ ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9a/Prunus_campanulata_01.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/7c/Prunusceret1.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/41/Prunusceret2.jpg
+ ✗
+
+  [中間保存] varieties.json (90/775)
+
+── [kanhizakura-taiwan] カンヒザクラ（台湾産） ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9a/Prunus_campanulata_01.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [ganman-zakura] 含満桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kikushidare] 菊枝垂 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kibune-uzu] 貴船雲珠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kirin] 麒麟 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kinki-mamezakura] 近畿豆桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/ed/Prunus_incisa_var._kinkiensi
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5b/Prunus_incisa_var._kinkiensi
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4c/Prunus_incisa_var._kinkiensi
+ ✗
+
+── [kinryu-zakura] 金龍桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [gioji-gijo-zakura] 祇王寺祇女桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [gyoikou] 御衣黄 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/50/Prunus_lannesiana_Gioiko_04.
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/86/Prunus_lannesiana_Gioiko_05.
+ ✗
+
+── [gyosyo] 暁鐘 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (100/775)
+
+  [容量チェック] images/: 30.9 MB
+
+── [kushima-zakura] 玖島桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kushiro-yae] 釧路八重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kumagai] 熊谷 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5b/Prunus_incisa_var._kinkiensi
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4c/Prunus_incisa_var._kinkiensi
+ ✗
+
+── [kumagaizakura] 熊谷桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5b/Prunus_incisa_var._kinkiensi
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4c/Prunus_incisa_var._kinkiensi
+ ✗
+
+── [kumanozakura] クマノザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kurama] クラマ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kurama-uzu] 鞍馬雲珠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kurama-zakura] 鞍馬桜（肥後吉野） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kurusaru] クルサル ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kureha-otome-shidare] 呉羽おとめ枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (110/775)
+
+── [keio-zakura] 啓翁桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ketano-shirokikuzakura] 気多の白菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kechimyakuzakura] 血脈桜原木 ──
+  Wikimedia: 2件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 2枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+
+── [kemuriyama-beni-yamazakura] 煙山紅山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kenrokuen-kikuzakura] 兼六園菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kenrokuen-kumagai] 兼六園熊谷 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [geba-zakura-ishu] 下馬桜異種 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koka] 紅華 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kofuku] 幸福 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kokeshimizu] 苔清水 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (120/775)
+
+── [kokonoe] 九重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koshioyama] 小汐山（小塩山） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koshino-kamozakura] 越の加茂桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koshinohigan-kimurakabu] 越の彼岸（木村株） ──
+  Wikimedia: 2件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 2枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+
+── [koshinohigan_koshimuragenboku] 越の彼岸（越村原木） ──
+  Wikimedia: 2件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 2枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e3/Cerasus_spachiana_f._spachia
+ ✗
+
+── [koshino-fuyuzakura] 越の冬桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/File%E3%83%95%E3%83%A6%E3%82
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kojonomai] 湖上の舞 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kocho] 胡蝶 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kotohira] 琴平 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [konohana-zakura] 木の花桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8c/Matsumoto_Ichiy%C5%8D_Prinze
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/ee/YOSOJI%27S_CAMELLIA_TREE.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8b/Fuji_goddess_flies.jpg
+ ✗
+
+  [中間保存] varieties.json (130/775)
+
+── [kobanayae-ohshima] 小花八重大島 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kohigan] 小彼岸 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/c4/TakatoCastle%EF%BC%88%E9%AB%
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8f/Cerasus_%C3%97_subhirtella_%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [kobuku-zakura] 子福桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [komatsu-otome] 小松乙女 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [komatsunagi] 駒繋 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/2d/Sh%C5%8Dren-in%2C_Kyoto_-_IM
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/b/b4/Sh%C5%8Dren-in%2C_Kyoto_-_IM
+ ✗
+
+── [komame-zakura] 小豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [collingwood-ingram] コリングウッド イングラム ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/a5/Ingram_Stainback.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/60/Gordon_Ingram_with_Ingram_Mo
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/97/First_Presbyterian_Church_%2
+ ✗
+
+── [conradinae-schmitii-semiplena] コンラディナエ × スミッティ セミプレナ ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+
+── [conradinae-semiplena] コンラディナエ セミプレナ ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+
+── [gokurakuji-zakura] 極楽寺桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/dc/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/72/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+  [中間保存] varieties.json (140/775)
+
+── [gozanomanioi] 御座の間匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [gosyozakura] 五所桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [goshinzakura] 御信桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [gotenba-zakura] 御殿場桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sakigake] さきがけ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [sakuyahime] 咲耶姫 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/99/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8c/Matsumoto_Ichiy%C5%8D_Prinze
+ ✗
+
+── [sasaga-oshidori] 笹賀鴛鴦桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [sasabe-zakura] 笹部桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [satohara] 里原 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [sanozakura] 佐野桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/a2/Tomitaro_Makino.jpg
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/fe/Dr._Makino_Tomitaro.jpg
+ ✗
+
+  [中間保存] varieties.json (150/775)
+
+  [容量チェック] images/: 46.4 MB
+
+── [shikizaki-chojizakura] 四季咲丁字桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/File%E3%83%95%E3%83%A6%E3%82
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [shikizaki-banshi] 四季咲伴氏 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [shikizakura] 四季桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/16/Sikisakura.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/37/Shikizakura_Logo.png
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [shizuka] 静香 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shizuka-zakura] 静桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/c9/Mt.Iwamoto.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8f/Kabuki-Play-Yoshitsune-Senbo
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [shizuka-nioi] 静匂 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Naturalis_Biodiversity_Cente
+ ✗
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+
+── [shisensho-gabisansan] 四川省峨眉山産 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e1/Prunus_serrula_bark_lenticel
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/64/Prunus_serrula_-_Botanischer
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5d/Prunus_serrula_-_Botanischer
+ ✗
+
+── [shidarezakura] 枝垂桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/65/Prunus_pendula_form._ascende
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/2b/Prunus_pendula_form._ascende
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/72/Naturalis_Biodiversity_Cente
+ ✗
+
+── [shidarezakura-daisenshiro] 枝垂桜（大仙白） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [shidare-higan] しだれ彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (160/775)
+
+── [shidare-fujizakura] 枝垂富士桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shidare-yamazakura] 枝垂山桜（仙台枝垂） ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shinamizakura] シナミザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shibayama] 芝山 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/df/%E3%80%8C%E6%A1%9C%E7%A9%BA%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [syuzenjikanzakura] 修善寺寒桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9a/Prunus_campanulata_01.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [schmittii] シュミッティイ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shogetsu] 松月 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/%E6%98%8E%E6%B2%BB%E6%99%82%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [shogetsu-isyu] 松月異種 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shodo-zakura] 勝道桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3e/Nikko_Botanical_Garden%2C_Ja
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5c/Nikko_Botanical_Garden%2C_Ja
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3b/Nikko_Botanical_Garden%2C_Ja
+ ✗
+
+── [shodo-higan] 勝道彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (170/775)
+
+── [shofukuji-zakura] 正福寺桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/54/Ibukisan_Sh%C5%8Dfuku-ji_Tem
+ ✗
+
+── [showa-zakura] 昭和桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/99/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [shosai] ショーサイ ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/a5/Ingram_Stainback.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/60/Gordon_Ingram_with_Ingram_Mo
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/97/First_Presbyterian_Church_%2
+ ✗
+
+── [shirayuki] 白雪 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shirayukihime] 白雪姫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shirotae] 白妙 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shirofugen-karamurauto] シロフゲン（カラムタウト） ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shin-sumizome] 新墨染 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shinranshonin-juzukake-zakura] 親鸞上人数珠掛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [jugatsu-zakura] 十月桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (180/775)
+
+── [jyonioi] 上匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [jindai-akebono] 神代曙 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [suisho] 水晶 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sumaura-fugenzo] 須磨浦普賢象 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sumizome-nioi] 墨染匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [surugadai-nioi] 駿河台匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sunpu-zakura] 駿府桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [zuisenji-fuyuzakura] 瑞泉寺冬桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [seimei-sakura] 清明さくら ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sendaiya] 仙台屋 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (190/775)
+
+── [sendaiyoshino] 仙台吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sennenji-hizakura] 専念寺緋桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [senriko] 千里香 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [zenshoji-kikuzakura] 善正寺菊桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sotoorihime] 衣通姫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sonosato-kizakura] 園里黄桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sonosato-ryokuryu] 園里緑龍 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [somei-beni] 染井紅 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [someiyoshino] 染井吉野 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [taizanfukun] 泰山府君 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (200/775)
+
+  [容量チェック] images/: 65.5 MB
+
+── [taihaku] 太白 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [taiheizakura] 太平桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tairyo-zakura] 大漁桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [taoyame] 手弱女 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [takaoka-koshino-higan] 高岡越の彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [takasago] 高砂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [takato-kohigan] 高遠小彼岸桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [takamatsu-chigo] 高松稚児 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [taguiarashi] 類嵐 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tatsugo-satozakura] たつご里桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (210/775)
+
+── [cheju-zakura] 済州桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [chichibuzakura] 秩父桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [chiharazakura] 千原桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [chosyuhizakura] 長州緋桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tyoujizakura] チョウジザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [chikushizakura] 筑紫桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hirano-tsukubane] 突羽根（平野突羽根） ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [tsubakikanzakura] 椿寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tsurukikusakura] 鶴菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [temari] 手毬 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (220/775)
+
+── [tenshiko] 天賜香 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [toukaizakura] 東海桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tokyo-zakura] 東京桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [togen] 桃源 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [naito-ohshima] 内藤大島 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [najimazakura] 名島桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [narano-yaezakura] 奈良の八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [nioizakura] 匂桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [nikko-zakura] 日光桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [nidozakura] 二度桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (230/775)
+
+── [nodano-osakura] 野田の大桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hakusan-hatazakura] 白山旗桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hatagasane-ohshima] 旗重大島 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hachisuka-zakura] 蜂須賀桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [hatsumiyozakura] 初御代桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hanakagami] 華加賀美 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hanagasa] 花笠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hanagatami-zakura] 花筺桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hamaoka-hamazaki] 浜岡早咲（仮称） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hayazaki-yae-ohshima] 早咲八重大島 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (240/775)
+
+── [baigoji-juzukakezakura] 梅護寺数珠掛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [banrikou] 萬里香 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hiuchidani-kikuzakura] 火打谷菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [higan-dai-zakura] 彼岸大桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [higurashi] 日暮 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hitachi-miyabi] 常陸乙女 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hinagikuzakura] 雛菊桜（菊枝垂の別種） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [himenosawa] 姫の沢 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/41/Prunusceret2.jpg
+ ✗
+
+── [hupehensis-1] ヒュペエンシス ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hiyoshizakura] 日吉桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (250/775)
+
+  [容量チェック] images/: 87.3 MB
+
+── [hiyodorizakura] ヒヨドリザクラ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hirosaki-sandanzaki] 弘前三段咲 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hirosaki-yukiakari] 弘前雪明り ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [pink-wave] ピンク ウェーブ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [pink-cloud] ピンク クラウド ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [pink-perfection] ピンク パーフェクション ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [first-lady] ファースト レディー ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [fuiri-zakura-b] 斑入桜（B） ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [fuiri-shidare-zakura] 斑入枝垂桜 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [fukuzaura] 福寿桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (260/775)
+
+── [fukurokujyu] 福禄寿 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [fugenzou] 普賢象 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [fusa-zakura] 房桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/37/NDL-DC_1311152_Utagawa_Kunis
+ ✗
+
+── [fujizakura-ohaku-chirifu] 藤桜 大白散り斑 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [futakami-zakura] 二上山 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5b/Prunus_incisa_var._kinkiensi
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4c/Prunus_incisa_var._kinkiensi
+ ✗
+
+── [funadu-13go] 船津13号 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [funadu-3go] 船津3号 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [funabara-yoshino] 船原吉野 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [fuyu-zakura] 冬桜 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/File%E3%83%95%E3%83%A6%E3%82
+ ✗
+
+── [furusatozakura-isyu] 古里桜異種 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (270/775)
+
+── [pusilliflora-yunnanensis] プシリフローラ × ユンナネンシス ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [heishichi-zakura] 平七桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [benigasa] 紅傘 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beni-shigure] 紅時雨 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beni-shidare] 紅枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [beni-tamanishiki] 紅玉錦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beni-chochin] 紅提灯 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [benizuruzakura] 紅鶴桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beni-demari] 紅手毬 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [benibana-koubon-outou] 紅花甲本桜桃 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (280/775)
+
+── [beniyutaka] 紅豊 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [bendono] 弁殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hoki-zakura] 伯耆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [hoshu-zakura] 芳州桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hokusai] 北斎 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [hokusai-isyu] 北斎異種 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [hokuho] 北甫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hozaki-higan-yaezakura] 穂咲彼岸八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hosokawa-beni] 細川紅 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hosokawa-nioi] 細川匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (290/775)
+
+── [white-fastigiata] ホワイトファスティギアータ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [botan] 牡丹 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [pond-c] ポンドC ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [maihime] 舞姫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mazakura] 磨桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [masuyama] 益山 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae] 松前 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-aizen] 松前愛染 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-usugasanesomei] 松前薄重染井 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-usbenikokonoe] 松前薄紅小重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (300/775)
+
+  [容量チェック] images/: 105.1 MB
+
+── [matsumae-osio] 松前大紫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-kazanin] 松前花山院 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-shiraginu] 松前白絹 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-hanazomei] 松前花染井 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-hanamiyako] 松前花都 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-hayazaki] 松前早咲 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [matsumae-fukujuzakura] 松前福寿桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-benitamae] 松前紅玉妻 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-benihigoromo] 松前紅緋衣 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-benimurasaki] 松前紅紫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (310/775)
+
+── [matsumae-yaekotobuki] 松前八重寿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [manaduruzakura] 愛鶴桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [manoga] マノガ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mamezakura] マメザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [mikado-yoshino] 御帝吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mikurumagaeshi] 御車返し ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mishima-fujizakura] 三島藤桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mishoumumei-imose729] 未詳無名（イモセ729番） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [mishoumumei-imose730] 未詳無名（イモセ730番） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [mishoumumei-oushusatozakura1224] 未詳無名（奥州里桜1224番） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (320/775)
+
+── [mishoumumei-matsumaeyaekotobuki869] 未詳無名（松前八重寿869番） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [mishoumumei-mikurumagaeshi270] 未詳無名（御車返し270番） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [mitsukabizakura] 三鍬桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [midorizakura] 緑桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [minakami-taihaku] 水上太白 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [minobu-zakura] 身延桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [miyabi] 雅（プリンセス） ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [myoshoji] 妙正寺 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [myotoku-jigenzakura] 妙徳寺現源桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [murasakizakura] 紫桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (330/775)
+
+── [meigetsu] 明月 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mochizukizakura] 望月桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [morioka-shidare] 盛岡しだれ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [morikomachi] 森町桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaeakebono] 八重曙 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaekanhizakura] 八重寒緋桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [yaeno-ohshima] 八重の大島 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaenomamezakura] 八重の豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [yaebeni-ohshima] 八重紅大島 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaebenishidare-sanokei] 八重紅枝垂(佐野系） ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (340/775)
+
+── [yaebeni-toranoo] 八重紅虎の尾 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaebeni-higan] 八重紅彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaemiyamazakura] 八重深山桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaemurasakizakura-koshimizukei] 八重紫桜（小清水系） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yakuoji-yae] 薬王寺八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [yatsubusazakura] 八房桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yamazakura] ヤマザクラ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yumehagizakura] 夢萩桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [youkihi] 楊貴妃 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yoko] 陽光 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (350/775)
+
+  [容量チェック] images/: 122.7 MB
+
+── [yousyun] 陽春 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/92/Yoshun_20250404_3.jpg
+ ✗
+
+── [yoro-zakura] 養老桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yokohamahizakura] 横浜緋桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [yokowazakura] 横輪桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yonono-yaezakura] 予野の八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [raikoji-kikuzakura] 来迎寺菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ranran] 蘭蘭 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/44/%E7%A5%9E%E9%BE%8D%E8%98%AD%
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [ryuunin-beniyaezakura] 龍雲院紅八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [royal-burgundy] ロイヤルバーガンディ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [wakakinosakura] 稚木の桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (360/775)
+
+── [washinoo] 鷲の尾 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/89/Washi-no-o_no_Saburo_Ichi-no
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/f7/Washi-no-o_no_Saburo_Ichi-no
+ ✗
+
+── [watanabezakura] 渡辺桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [wadai] ワダイ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [wabihito] ワビヒト ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [aoba] 青葉 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/86/Prunus_lannesiana_Gioiko_05.
+ ✗
+
+── [akatsukizakura] 暁桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [akatsunaden] 暁撫弦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [akaneyae] 茜八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [asagirizakura] 朝霧桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [akihimezakura] 秋姫桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (370/775)
+
+── [akebonozakura] 曙桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/fa/Prunus_%C3%97_yedoensis_%27J
+ ✗
+
+── [asatsuyuzakura] 朝露桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [asami] 浅見 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ashigarazakura] 春めき ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [gekko] 月光 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [azumahigan] 東彼岸 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [amedamazakura] 雨玉桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ayanishiki] 綾錦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [izayoizakura] 十六夜桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ishizuchizakura] 石鎚桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (380/775)
+
+── [izuzakura] 伊豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [izutoizakura] 伊豆戸居桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [itoukomorozakura] 伊藤小室桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [itozakura] 糸桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ibozakura] 疣桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [imaiichikizakura] 今井一木桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [imazubenikunzakura] 今津紅寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [iyokumagai] 伊予熊谷 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [iriaizakura] 入会桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [usuirokanzakura] 薄色寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (390/775)
+
+── [usugeyamazakura] 薄毛山桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [usuzan] 薄山 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [usubenikunzakura] 薄紅寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ubahigan] ウバヒガン ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [umaji] ウマジ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [urawa] ウラワ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [unnanzakura] ウンナンザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [eishu-zakura] エイシュウザクラ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ezonogasumizakura] エゾノガスミザクラ ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [ezozakura] エゾザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (400/775)
+
+  [容量チェック] images/: 141.0 MB
+
+── [ezoyamazakura] エゾヤマザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [edohigan-yae] エドヒガンヤエ ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [etorofuzakura] エトロフザクラ ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [eboshizakura] エボシザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [endozakura] エンドウザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ouchiyama] オオウチヤマ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [oookuchoji-zakura] オオオクチョウジザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ookamezakura] オオカメザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [osaka-fuyuzakura] オオサカフユザクラ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/8f/Cerasus_%C3%97_subhirtella_%
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [oshogun] オオショウクン ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (410/775)
+
+── [osomei] オオソメイ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/99/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [oodemari] オオデマリ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [oobanamame-zakura] オオバナマメザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ooyamazakura] オオヤマザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [okamoto-zakura] オカモトザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [okinazakura] オキナザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [okumiyako] オクミヤコ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [oguraya-mazakura] オグラヤマザクラ ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [okesa] オケサ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [osozaki-oshima] オソザキオオシマ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/1b/%E3%82%AA%E3%82%AA%E3%82%B7%
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (420/775)
+
+── [otani-yae] オタニヤエ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [otomegasumi] オトメガスミ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [obizakura] オビザクラ ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/24/Cerasus_lannesiana_%28Prunus
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [ontake-mamezakura] オンタケマメザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [gakunanzakura] ガクナンザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kasazakura] 笠桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kasugai] 春日井 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kasumiezoyamazakura] 霞蝦夷山桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [kasumiooyamazakura] 霞大山桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6d/Prunus_leveilleana.jpg
+ ✗
+
+── [kamakazezakura] 鎌掛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (430/775)
+
+── [kamonokebono] 加茂の曙 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [karamizakura] 唐実桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/16/Descriptive_catalogue_of_flo
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [kariginu] 狩衣 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kawadzushogatu] 河津正月 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6a/Cerasus_lannesiana_Kawazu-za
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e6/%E4%B8%80%E9%83%A8%E3%81%A7%
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/30/%E5%8D%88%E5%BE%8C%E3%81%AE%
+ ✗
+
+── [kawanishizakura] 川西桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kankaoto] 寒花桜桃 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kankan] 寒寒 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kanzakura] 寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kanjitsuzakura] 寒実桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kikuzakichoujizakura] 菊咲丁子桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (440/775)
+
+── [kikuzakura] 菊桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kitanozakura] 北の桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kichijoji] 吉祥寺 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kinashichigozakura] 鬼無稚児桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kibizakura] 吉備桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [kiyosumishidare] 清澄枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kirigaya] 桐ヶ谷 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kiritachiyamazakura] 切立山桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kujootome] 九条乙女 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kumenosakura] 久米の桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (450/775)
+
+  [容量チェック] images/: 157.0 MB
+
+── [kumoizakura] 雲居桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kumogabata] 雲ヶ畑 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kumonoe] 雲の上 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kuramakauzan] 鞍馬寒山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kuramanibana] 鞍馬二花 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [キヌガサ] 衣笠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [キリタチヤマザクラ] 霧立山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [クモノエ] 雲の井 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [クラマカンザン] 鞍馬関山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [クラマニバナ] 鞍馬似花 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (460/775)
+
+── [クルマドメ] 車駐 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [クロダヒャクネン] 黒田百年 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [クワジマザクラ] 桑島桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ゲバザクラ] 下馬桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ケヤマザクラ] 霞桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ケンロクエンシキザクラ] 兼六園冬桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コウゼンジシロヤエザクラ] 光善寺白八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コウダイジ] 高台寺 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コウヨウ] 松前紅陽 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コウラン] 紅蘭 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (470/775)
+
+── [コウリン] 松前香輪 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コガネイウスベニザクラ] 小金井薄紅桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コシノフクカサネ] 越の福かさね ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [コシミズハヤザキ] 越水早咲き ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ゴショサコンノサクラ] 御所左近の桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ゴショミクルマガエシ] 御所御車返し ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [satsuma-zakura] 薩摩桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [satsuma-hizakura] 薩摩緋桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sanoki-kuzakura] 佐野菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sanzenki-zakura] 三千木桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (480/775)
+
+── [shiokaze-zakura] 潮風桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [shiogama] 塩竈 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [shionobori] 塩昇 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shikoku-mamezakura] 四国豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [shishinden] 紫宸殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shidaresomei-yoshino] 枝垂染井吉野 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shibuya-konno-uzakura] 渋谷金王桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/db/Konno-hachimangu%2C_sakura.j
+ ✗
+
+── [shimamachi-kiku-zakura] 島町菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shimotaga-naden] 下多賀納殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shukugawa-maizakura] 夙川舞桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (490/775)
+
+── [shuzenji-zakura] 修禅寺桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherry_blossoms_%28Prunus_x_
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [juniyae] 十二単 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [jurokunichi-zakura] 十六日桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/21/File%E3%83%95%E3%83%A6%E3%82
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/20/Yukio_Sakurauchi_cropped.jpg
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3e/NDL-DC_762376_0297_0014crd-1
+ ✗
+
+── [junai-gasumi] 純愛霞 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [jogasaki-zakura] 城ヶ崎桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [jokyoji-temari-zakura] 常鏡寺手鞠桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shogatsu-zakura] 正月桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shoki] 鐘馗 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shogetsuj-noozakura] 松月寺の大桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [shoji-kanzashi] 庄司簪 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (500/775)
+
+  [容量チェック] images/: 181.3 MB
+
+── [shofukuji] 正福寺 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/0/07/K%C5%8Dsenzan_Sh%C5%8Dfuku-j
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/54/Ibukisan_Sh%C5%8Dfuku-ji_Tem
+ ✗
+
+── [shofukuji-shidare] 正福寺枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shohoji-kikuzakura] 正法寺菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ジョウキョウジテマリザクラ] 浄教寺手鞠桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [シラクモ] 白雲 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [シラツユ] 白露 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/6f/Morus_alba_stamp_from_Ukrain
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [シラハマイコナ] 白浜伊古奈 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/5d/Ikonahimenomikoto-jinja_Suna
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/30/Ikonahimenomikoto-jinja_hond
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/ae/Ikonahimenomikoto-jinja_Mime
+ ✗
+
+── [シロウスガサネ] 白薄重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [シロヒガン] 江戸彼岸 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [シロヤマザクラ] 白山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (510/775)
+
+── [シンエイザクラ] 信英桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [シンデン] 心田 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/98/%E2%BF%B0%E7%89%9B%E2%BF%B3%
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/b/b9/%E2%BF%B0%E7%89%9B%E2%BF%B3%
+ ✗
+
+── [シンニシキ] 新錦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [スザク] 朱雀 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [スパイアー] スパイアー ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [スミゾメ] 墨染 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/77/Sumizome-zakura.jpg
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [takamorikojo] 高森古城 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [takiko] 滝香 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/9e/NDL1303190_%E5%A4%A7%E9%A1%9
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [takinioi] 滝匂 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [takeshima] 竹島 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (520/775)
+
+── [tachihigan] 立彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tatsuzakura] 立桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/b/bd/NDL-DC_1303862-Utagawa_Kunis
+ ✗
+
+── [tamagaki] 松前玉垣 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tamanawa-zakura] 玉縄桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/af/Prunus_x_yedoensis_%27Tamana
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [tamanohoshi-zakura] 玉の星桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [dainagon-kikuzakura] 大納言菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [daimin] 大明 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [dairino-sakura] 内裏の桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/b/bb/Kyoto-gosho_Sakon-no-sakura.
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [danchi-oto] 檀智桜桃 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+
+── [chishima-zakura] 千島桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/a5/Prinus_nipponica_var._kurile
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (530/775)
+
+── [chichibu-benishidare] 秩父紅枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [chuzenji-zakura] 中禅寺桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [choshoin-hatazakura] 長勝院旗桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [choryo] 長良 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/8/86/Prunus_lannesiana_Gioiko_05.
+ ✗
+
+── [tsukihashi-kikuzakura] 月橋菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [tsukushi-yamazakura] 筑紫山桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/d/d4/Prunus_serrulata_var._sponta
+ ✗
+  ↓ 02.webp [inaturalist]... ✓
+
+── [tegara-zakura] 手柄桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/38/Cherry_blossom_buds_1.jpg
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+
+── [tennin-fuji] 天人藤 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [torano-o] 虎の尾 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [dobakanza] 道場勘山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (540/775)
+
+── [nagae-yae] 長枝八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [nagasaki-zakura] 長崎桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [nadeshiko-zakura] 撫子桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [nanamori-zakura] 七曲桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [naniwa-zakura] 難波桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [チョウリョウ] 潮陵 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ツキハシキクザクラ] 槻橋菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ツクバネ] 突羽根 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ツルギオリトキクザクラ] 剱折戸菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [テンニンフジ] 天人富士 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (550/775)
+
+  [容量チェック] images/: 200.0 MB
+
+── [トウインヤエヤマザクラ] 東員八重山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ドウバカンザン] 銅葉関山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ナガエヤエ] 長柄八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ナガサキザクラ] 長咲桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ナナモリザクラ] 七盛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ナルサワザクラ] 鳴沢桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ナラノココノエザクラ] 奈良の九重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニシナザオウ] 仁科蔵王 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニシナオトメ] 仁科乙女 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニシナコマチ] 仁科小町 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (560/775)
+
+── [ニシナハルカ] 仁科春果 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニシノミヤゴンゲンタイラザクラ] 西宮権現平桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニソンインフケンゾウ] 二尊院普賢象 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニュウゼンオトメキクザクラ] 入善乙女キクザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ニョゼザクラ] 如是桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ノナカノサクラ] 野中桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ノノミヤ] 野々宮 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハクサン1ゴウ] 白山１号 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハクサンオオデマリ] 白山大手毬 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハクチョウ] 白鳥 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (570/775)
+
+── [ハクホウザクラ] 白鳳桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハクホウ] 白峰 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハコダテニオイ] 函館匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハコネザクラ] 豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ハシタテキクザクラ] 橋立菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハセフ] 長谷府 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハタザクラ] 旗桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハッテンザクラ] 八天桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハナカゴト] 花香琴 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハナシホウ] 花司峰 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (580/775)
+
+── [ハヤシ1ゴウ] 林１号 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハヤシ2ゴウ] 林２号 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ハンベイシロベニザクラ] 半兵衛白紅桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒゴヨシノ] 肥後吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒザクラ] 緋桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒナハチジョウ] 雛八丈桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒマラヤザクラ] ヒマラヤ桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒマラヤヒザクラ] ヒマラヤ緋桜 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [ヒミクヅロキクザクラ] 氷見久津呂菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒメタカサゴ] 姫高砂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (590/775)
+
+── [ヒメミドリザクラ] 姫緑桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ヒュペヘンシス] ヒュペヘンシス ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒラノニオイ] 平野匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒラノネザメ] 平野寝覚 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヒロシマエバヤマザクラ] 広島江波山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [フイリシダレ] 斑入り枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [beniyaesomeiyoshino] 紅八重染井吉野 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beniyamazakura] 紅山桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [beniyoshino] 紅吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [houmyouji] 豊明寺 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (600/775)
+
+  [容量チェック] images/: 224.2 MB
+  ⚠ 200MB超。quality=55 で全ファイルを再変換します...
+  再変換完了: 1366ファイル
+
+── [houraizakura] 蓬莱桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [houraisan] 蓬莱山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hourinji] 法輪寺 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hokuenzakura] 北苑桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hokutotakasago] 北斗高砂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hoshizakura] 星桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hotate] 帆立 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [horiihizakura] 堀井緋桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [honseijikogikuzakura] 本誓寺小菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [honseijishidare] 本誓寺枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (610/775)
+
+── [bonborizakura] 雪洞桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [machimura] 待村桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsuhimezakura] 松姫桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeakane] 松前茜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeavanishiki] 松前綾錦 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [matsumaearatama] 松前新玉 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaekorin] 松前紅鱗 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaekoitozakura] 松前琴糸桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeokoyuki] 松前小雪 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaesasameyuki] 松前笹目雪 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (620/775)
+
+── [matsumaesarasa] 松前更紗 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeoshizuka] 松前静 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeshirasagi] 松前白鷺 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaeshirobotan] 松前白牡丹 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaesekimori] 松前関守 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaefuki] 松前深紅 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumaefukuzakura] 松前福桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-beni-usome] 松前紅染 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-benigasa] 松前紅笠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-beni-kosode] 松前紅小袖 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (630/775)
+
+── [matsumae-beni-botan] 松前紅牡丹 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-yae-goromo] 松前八重衣 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-yuen] 松前幽艶 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mani-yae-yamazakura] 真仁八重山桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [maruyama] 丸山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mishima-zakura] 三島桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mishima-taki-nioi] 三島滝匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mizutama-zakura] 水玉桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [misumi-ohira-zakura] 三角大平桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [midono-yae] 三殿野八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+  [中間保存] varieties.json (640/775)
+
+── [midori-kinki-mame-zakura] 緑近畿豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [midori-yoshino] 緑吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [minami-zakura] 南桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mine-zakura] 峰桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [miyano-hina-zakura] 宮野雛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [miyama-zakura] 深山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [meg-zakura] 目具桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mejiro-zakura] 目白桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [moniwa-zakura] 茂庭桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [yae-zaki-yamahigan] 八重咲き山彼岸 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+  [中間保存] varieties.json (650/775)
+
+  [容量チェック] images/: 221.1 MB
+  ⚠ 200MB超。quality=55 で全ファイルを再変換します...
+  再変換完了: 1494ファイル
+
+── [yae-no-oyama-zakura] 八重のオオヤマ桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yae-no-sakon] 八重の左近 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yae-yamakoshi] 八重山越 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yae-yamazakura] 八重山桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [マンゲツ] 満月 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [ミシマフジミザクラ] 三島富士見桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミスミオオヒラザクラ] 三隅大平桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミダレユキ] 乱雪 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミドノヤエ] 水土野八重 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ミナカミ] 水上 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (660/775)
+
+── [ミナトザクラ] 湊桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミヤコニシキ] 都錦 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミヤノヒナザクラ] 宮の雛桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ミヤマチョウジザクラ] 深山丁子桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ムシャザクライデンケン] ムシャザクラ（遺伝研の株） ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [メグザクラ] 萌紅桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤエムラサキザクラ] 八重紫桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤエヤマコシ] 八重山古志 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤダケムラサキ] 矢岳紫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤチヨ] 八千代 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/f4/Yachiyo_Green_Village_003.jp
+ ✗
+
+  [中間保存] varieties.json (670/775)
+
+── [ヤツセニオイ] 八瀬匂 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤヒコ] 雛菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤブザクラ] 藪桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤマトニシキ] 大和錦 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤマヒガン] ヤマヒガン ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヤヨイタカサゴ] 弥生高砂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ユウエン] 松前優艶 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ユウガ] 松前優雅 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ユウグレ] 夕暮 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/2/2c/%E4%BA%9C%E6%9D%B1%E5%8D%B0%
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/1/1e/%E4%BA%9C%E6%9D%B1%E5%8D%B0%
+ ✗
+
+── [ユウバエガスミ] 夕映霞 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (680/775)
+
+── [ユゲ] 弓削 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヨウドウザクラ] 揚道桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ヨサノアキコ] 与謝野晶子 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/b/b3/YOSANO_Akiko_%28cropped%29.j
+ ✗
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/7/72/Akiko_Yosano_younger.jpg
+ ✗
+
+── [ヨシノシダレ] 吉野枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [リュウウンインベニヤエ] 龍雲院紅八重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [リンポウザクラ] 林宝桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [ワカナニッコウザクラ] 若名日光桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ワカムシャザクラ] 若武者桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ワセヤマザクラ] 早生山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ワセヨシノ] 早生吉野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (690/775)
+
+── [angyo-zakura] 安行桜 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [inu-zakura] 犬桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [uwamizu-zakura] 上溝桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [edo-zakura] 江戸桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/4/4f/Sukeroku%2C_from_the_series_
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/93/NDL1309120_%E6%B1%9F%E6%88%B
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+── [edohigan-zakura] 江戸彼岸桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [suzaku-zakura] 朱雀桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [niwa-zakura] 庭桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [higan-zakura] 彼岸桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [fuji-shidare-zakura] 富士枝垂桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [miyabi-zakura] 雅桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (700/775)
+
+  [容量チェック] images/: 237.1 MB
+  ⚠ 200MB超。quality=55 で全ファイルを再変換します...
+  再変換完了: 1623ファイル
+
+── [ryukyu-kanhizakura] 琉球寒緋桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koba-zakura] 小葉桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [koshi-no-higan] 越の彼岸 ──
+  Wikimedia: 2件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 2枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+
+── [choji-mame-zakura] チョウジマメザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [oneyama-zakura] オネヤマザクラ ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [miyama-kasumi-zakura] 深山霞桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [shinei-zakura] 晋栄桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kashio-zakura] 樫尾桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [imajuku-zakura] 今宿桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [iwai-zakura] 祝桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (710/775)
+
+── [oshiba-yama] 大芝山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kuruma-dome] 車止め ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [koenji-shiro-yae-zakura] 高円寺白八重桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [goten-nioi] 御殿匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kongo-zan] 金剛山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sho-nanden] 正南殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sendai-shidare] 仙台枝垂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [haku-kasan] 白花山 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [fuku-zakura] 福桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [fudan-zakura] 不断桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/6/69/Shiroko_Fudan_Zakura._Photog
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/3/3e/Shiroko_Fudan_Zakura._Photog
+ ✗
+  ↓ 01.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (720/775)
+
+── [beni-gasa] 紅笠 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hokuhо] 北方 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/f/f1/BlueOutlineUttarPradesh.png
+ ✗
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/5/54/Map_of_Bengal%2C_Bihar%2C_Ou
+ ✗
+
+── [ma-zakura] 真桜 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/c/cc/Mao_in_Yan%27an.jpg
+ ✗
+
+── [matsumae-oshima] 松前大島 ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/e/e2/CH-47_at_%C5%8Cshima_%28Kese
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/a/af/E-Oshima_OshimaShipyard_2022
+ ✗
+  ↓ 01.webp [wikimedia]...    ✗ HTTP undefined: https://upload.wikimedia.org/wikipedia/commons/9/98/E-Oshima_OshimaShipyard_2022
+ ✗
+
+── [matsumae-fuki] 松前風杏 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [mikkabi-zakura] 三ヶ日桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yae-nioi] 八重匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yadake-murasaki] 矢竹紫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hatsu-yuki-zakura] 初雪桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [ke-ezo-yamazakura] 毛蝦夷山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (730/775)
+
+── [kirifuri-zakura] 霧降桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kuchinashi-zakura] 梔子桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [sodo-zakura] 総道桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [raikoji-kiku-zakura] 頼光寺菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yamagoshi-murasaki] 山越紫 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yama-mochizuki-zakura] 山望月桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [okusai-zakura] 大草井桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shidare-okusai-zakura] 枝垂大草井桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [katte-zakura] 勝手桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [somei-nioi] 染井匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (740/775)
+
+── [shira-taki-zakura] 白滝桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [shira-tama] 白玉 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [tomoe-zakura] 巴桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shojo] 猩々 ──
+  Wikimedia: 1件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 1枚
+  ↓ 01.webp [wikimedia]... ✓
+
+── [myojo] 明星 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [buko-mame-zakura] 武甲豆桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [manazuru-zakura] 真鶴桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [yaeno-oshima-zakura] 八重大島桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [yaeno-kasumi-zakura] 八重霞桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kikuzaki-okuchoji-zakura] 菊咲奥丁字桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (750/775)
+
+  [容量チェック] images/: 246.1 MB
+  ⚠ 200MB超。quality=55 で全ファイルを再変換します...
+  再変換完了: 1726ファイル
+
+── [hatsumiyo-zakura] 初巳桜 ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [risshun-kanzakura] 立春寒桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [beni-nanden] 紅南殿 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [saiho-ji-zakura] 西方寺桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [wakaki-no-sakura] 若木の桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [taki-no-sakura] 滝の桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kohoku-nioi] 江北匂 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [matsumae-usubeni-kokonoe] 松前薄紅九重 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [shidare-oyama-zakura] 枝垂大山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [kaba-zakura] 樺桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (760/775)
+
+── [takane-oyama-zakura] 高嶺大山桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [zenshoji-kiku-zakura] 善照寺菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [snow-goose] スノーグース ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [spire] スパイア ──
+  Wikimedia: 3件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [wikimedia]... ✓
+
+── [dawyck-zakura] ドーウィック桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [siebold-zakura] シーボルト桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kurama-yama] 鞍馬山 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [rosy-cloud] ロージークラウド ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [hirtipes-zakura] ヒルティペス桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [kursar] クルサー ──
+  Wikimedia: 2件
+  iNaturalist: 1件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [wikimedia]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+  [中間保存] varieties.json (770/775)
+
+── [kojo-no-mai] 小城の舞 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+── [autumnalis-rosea] オータムナリスロゼア ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [asano] 浅野 ──
+  Wikimedia: 0件
+  iNaturalist: 3件
+  合計候補: 3枚
+  ↓ 01.webp [inaturalist]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [seiyomizakura] 西洋実桜 ──
+  Wikimedia: 1件
+  iNaturalist: 2件
+  合計候補: 3枚
+  ↓ 01.webp [wikimedia]... ✓
+  ↓ 02.webp [inaturalist]... ✓
+  ↓ 03.webp [inaturalist]... ✓
+
+── [rokkoukikuzakura] 六高菊桜 ──
+  Wikimedia: 0件
+  iNaturalist: 0件
+  GBIF: 0件
+  合計候補: 0枚
+
+varieties.json 更新完了
+レポート: C:\Users\pcyus\Documents\sakura-app\scripts\image_collection_report.csv
+
+╔══════════════════════════════════════╗
+║  サマリー                            ║
+╚══════════════════════════════════════╝
+Total varieties:        775
+With images:            647 (83.5%)
+Without images:         128
+Total images downloaded:1780
+  Wikimedia:            270
+  iNaturalist:          1510
+  GBIF:                 0

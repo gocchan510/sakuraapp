@@ -128,7 +128,7 @@ export function SpotList({
       </header>
 
       {/* ── 日付別見頃予測バー ── */}
-      {selectedDate && availablePrefs.some(p => isSomeiCompatible(spots.find(s => s.prefecture === p)?.variety ?? '')) && (
+      {selectedDate && availablePrefs.some(p => spots.find(s => s.prefecture === p)?.varieties?.includes('somei-yoshino')) && (
         <div className="bloom-forecast-bar">
           <span className="bloom-forecast-title">🌸 {formatDateDisplay(selectedDate, lang)}{lang === 'zh-TW' ? '的花況預測' : 'の見頃予測'}</span>
           <div className="bloom-forecast-chips">
@@ -228,7 +228,7 @@ export function SpotList({
                 ) : sortKey === 'distance' && distMin !== null ? (
                   <span className="sli-dist">約{distMin}分</span>
                 ) : (
-                  <span className="sli-variety">{s.variety}</span>
+                  <span className="sli-variety">{s.varietyNote}</span>
                 )}
                 <span className="sli-travel">
                   📍 {isDefault ? s.travelTime : `約${estimateMinutes(fromStation.lat, fromStation.lng, s.lat, s.lng)}分`}

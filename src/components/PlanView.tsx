@@ -74,7 +74,7 @@ export function PlanView({ planDates, onBack, onSelectSpot, onRemoveSpot, onEdit
                         onClick={() => onSelectSpot(spot.id)}
                       >
                         <span className="plan-spot-name">{spot.name}</span>
-                        <span className="plan-spot-meta">{spot.prefecture} · {spot.variety}</span>
+                        <span className="plan-spot-meta">{spot.prefecture}{spot.varietyNote ? ` · ${spot.varietyNote}` : ''}</span>
                       </button>
                       <button
                         className="plan-spot-remove-btn"

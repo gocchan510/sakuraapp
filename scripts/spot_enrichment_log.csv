@@ -1,0 +1,182 @@
+﻿task,spot_id,spot_name,action,details
+missing_spot,tama-forest-science,多摩森林科学園,added,6品種
+missing_spot,isazawa-kubozakura,伊佐沢の久保桜,added,0品種
+missing_spot,yuki-sakura-farm,日本花の会 結城農場 桜見本園,added,6品種
+duplicate,walker-ar0101e25532,円山公園の桜(北海道),merged,walker-ar0101e25532 ← walker-ar0726e26131
+duplicate,walker-ar0313e25833,千鳥ヶ淵緑道の桜,merged,walker-ar0313e25833 ← chidorigafuchi
+duplicate,walker-ar0313e25849,目黒川の桜,merged,walker-ar0313e25849 ← meguro-river
+duplicate,walker-ar0729e60635,吉野山(上千本)の桜,merged,walker-ar0729e60635 ← walker-ar0729e26171
+duplicate,walker-ar0729e60635,吉野山(上千本)の桜,merged,walker-ar0729e60635 ← walker-ar0729e60636
+duplicate,walker-ar0313e25817,上野恩賜公園の桜,merged,walker-ar0313e25817 ← ueno-park
+duplicate,walker-ar0202e25572,愛宕公園の桜(青森県),merged,walker-ar0202e25572 ← walker-ar0621e26028
+duplicate,walker-ar0204e25601,西公園の桜(宮城県),merged,walker-ar0204e25601 ← walker-ar1040e26327
+duplicate,walker-ar0204e60529,日和山公園の桜(宮城県),merged,walker-ar0204e60529 ← walker-ar0206e25648
+duplicate,walker-ar0204e60529,日和山公園の桜(宮城県),merged,walker-ar0204e60529 ← walker-ar0835e60670
+duplicate,walker-ar0204e60532,国営みちのく杜の湖畔公園の桜(ソメイヨシノ),merged,walker-ar0204e60532 ← walker-ar0204e60533
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0309e60200
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0309e60172
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0311e60194
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0312e60551
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0314e60207
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0516e60598
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0621e26035
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0832e60651
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar0833e26230
+duplicate,walker-ar0204e25617,城山公園の桜(宮城県),merged,walker-ar0204e25617 ← walker-ar1046e26427
+duplicate,walker-ar0206e25647,大山公園の桜(山形県),merged,walker-ar0206e25647 ← walker-ar1042e60317
+duplicate,walker-ar0308e25709,亀城公園の桜(茨城県),merged,walker-ar0308e25709 ← walker-ar0623e60464
+duplicate,walker-ar0308e25713,西山公園の桜(茨城県),merged,walker-ar0308e25713 ← walker-ar0518e25939
+duplicate,walker-ar0308e25714,愛宕山(山頂)の桜,merged,walker-ar0308e25714 ← walker-ar0308e60546
+duplicate,walker-ar0311e25759,大宮公園の桜,merged,walker-ar0311e25759 ← omiya-park
+duplicate,walker-ar0311e60539,熊谷桜堤の桜,merged,walker-ar0311e60539 ← kumagaya-sakuratsutsumi
+duplicate,walker-ar0311e60431,羊山公園の桜,merged,walker-ar0311e60431 ← chichibu-hitsujiyama-park
+duplicate,walker-ar0311e60432,所沢航空記念公園の桜,merged,walker-ar0311e60432 ← tokorozawa-kokuu-park
+duplicate,walker-ar0311e138388,羽生水郷公園の桜,merged,walker-ar0311e138388 ← hanyuu-suigo-park
+duplicate,walker-ar0311e338485,北浅羽桜堤公園の桜,merged,walker-ar0311e338485 ← kitaasaba-sakuratsutsumi
+duplicate,walker-ar0311e25771,都幾川桜堤の桜,merged,walker-ar0311e25771 ← tokigawa-sakuratsutsumi
+duplicate,walker-ar0311e60159,吉見百穴周辺の桜,merged,walker-ar0311e60159 ← yoshimi-hyakuana-sakura
+duplicate,walker-ar0312e25773,千葉公園の桜,merged,walker-ar0312e25773 ← chiba-park
+duplicate,walker-ar0312e60173,亥鼻公園の桜,merged,walker-ar0312e60173 ← inohana-park
+duplicate,walker-ar0312e381580,青葉の森公園の桜,merged,walker-ar0312e381580 ← aoba-forest
+duplicate,walker-ar0312e25772,泉自然公園の桜,merged,walker-ar0312e25772 ← izumi-nature-park
+duplicate,walker-ar0312e25775,里見公園の桜,merged,walker-ar0312e25775 ← satomi-park
+duplicate,walker-ar0312e25777,清水公園の桜(千葉県),merged,walker-ar0312e25777 ← walker-ar0832e60647
+duplicate,walker-ar0312e25781,成田山公園の桜,merged,walker-ar0312e25781 ← naritasan-park
+duplicate,walker-ar0312e25782,宗吾霊堂(境内)の桜,merged,walker-ar0312e25782 ← walker-ar0312e60521
+duplicate,walker-ar0312e60550,佐倉城址公園の桜,merged,walker-ar0312e60550 ← sakura-castle
+duplicate,walker-ar0313e25855,日比谷公園の桜,merged,walker-ar0313e25855 ← hibiya-park
+duplicate,walker-ar0313e30652,浜離宮恩賜庭園の桜,merged,walker-ar0313e30652 ← hama-rikyu
+duplicate,walker-ar0313e60405,旧芝離宮恩賜庭園の桜,merged,walker-ar0313e60405 ← kyu-shiba-rikyu
+duplicate,walker-ar0313e25816,新宿御苑の桜,merged,walker-ar0313e25816 ← shinjuku-gyoen
+duplicate,walker-ar0313e536322,神田川遊歩道(西早稲田地区)の桜,merged,walker-ar0313e536322 ← walker-ar0313e536327
+duplicate,walker-ar0313e26443,六義園の桜,merged,walker-ar0313e26443 ← rikugien
+duplicate,walker-ar0313e60406,小石川後楽園の桜,merged,walker-ar0313e60406 ← koishikawa-korakuen
+duplicate,walker-ar0313e25818,隅田公園の桜,merged,walker-ar0313e25818 ← sumida-park
+duplicate,walker-ar0313e60408,向島百花園の桜,merged,walker-ar0313e60408 ← mukojima-hyakkaen
+duplicate,walker-ar0313e25843,洗足池公園の桜,merged,walker-ar0313e25843 ← senzokuike-park
+duplicate,walker-ar0313e25841,砧公園の桜,merged,walker-ar0313e25841 ← kinuta-park
+duplicate,walker-ar0313e25837,代々木公園の桜,merged,walker-ar0313e25837 ← yoyogi-park
+duplicate,walker-ar0313e25821,飛鳥山公園の桜,merged,walker-ar0313e25821 ← asukayama-park
+duplicate,walker-ar0313e60439,音無親水公園の桜,merged,walker-ar0313e60439 ← otonashi-park
+duplicate,walker-ar0313e25839,石神井公園の桜,merged,walker-ar0313e25839 ← shakujii-park
+duplicate,walker-ar0313e26530,舎人公園の桜,merged,walker-ar0313e26530 ← toneri-park
+duplicate,walker-ar0313e459178,葛西臨海公園の桜,merged,walker-ar0313e459178 ← kasai-rinkai-park
+duplicate,walker-ar0313e25845,国営昭和記念公園の桜,merged,walker-ar0313e25845 ← showa-kinen-park
+duplicate,walker-ar0313e25825,井の頭恩賜公園の桜,merged,walker-ar0313e25825 ← inokashira-park
+duplicate,walker-ar0313e60411,武蔵野公園の桜,merged,walker-ar0313e60411 ← musashino-park
+duplicate,walker-ar0313e25826,小金井公園の桜,merged,walker-ar0313e25826 ← koganei-park
+duplicate,walker-ar0313e380306,狭山池公園(東京都)の桜,merged,walker-ar0313e380306 ← walker-ar0727e60611
+duplicate,walker-ar0314e25856,県立三ツ池公園の桜,merged,walker-ar0314e25856 ← mitsuike-park
+duplicate,walker-ar0314e25857,三溪園の桜,merged,walker-ar0314e25857 ← sankei-en
+duplicate,walker-ar0314e381412,山下公園の桜,merged,walker-ar0314e381412 ← yamashita-park
+duplicate,walker-ar0314e381918,港の見える丘公園の桜,merged,walker-ar0314e381918 ← minato-mieru-oka-park
+duplicate,walker-ar0314e60455,大岡川プロムナードの桜,merged,walker-ar0314e60455 ← okagawa-yokohama
+duplicate,walker-ar0314e382334,四季の森公園の桜,merged,walker-ar0314e382334 ← shikino-mori-park
+duplicate,walker-ar0314e25887,二ヶ領用水宿河原堀の桜,merged,walker-ar0314e25887 ← nikkaryodo-sakura
+duplicate,walker-ar0314e381578,生田緑地の桜,merged,walker-ar0314e381578 ← ikuta-ryokuchi
+duplicate,walker-ar0314e25859,衣笠山公園の桜,merged,walker-ar0314e25859 ← kinugasayama-park
+duplicate,walker-ar0314e25862,鶴岡八幡宮の桜,merged,walker-ar0314e25862 ← tsurugaoka-hachimangu
+duplicate,walker-ar0314e377268,長谷寺の桜(神奈川県),merged,walker-ar0314e377268 ← walker-ar0729e26172
+duplicate,walker-ar0314e25865,小田原城址公園の桜,merged,walker-ar0314e25865 ← odawara-castle
+duplicate,walker-ar0314e25866,弘法山公園の桜,merged,walker-ar0314e25866 ← koboyama-park
+duplicate,walker-ar0314e25874,箱根強羅公園の桜,merged,walker-ar0314e25874 ← hakone-gora
+duplicate,walker-ar0314e25875,宮城野早川堤の桜,merged,walker-ar0314e25875 ← miyagino-hayakawa
+duplicate,walker-ar0314e60573,荒井城址公園の桜,merged,walker-ar0314e60573 ← arai-shiroshigoto
+duplicate,walker-ar0415e25900,弥彦公園(早咲き)の桜,merged,walker-ar0415e25900 ← walker-ar0415e60536
+duplicate,walker-ar0518e60595,亀山公園の桜(福井県),merged,walker-ar0518e60595 ← walker-ar1044e60382
+duplicate,walker-ar0623e60463,明石公園(愛知県)の桜,merged,walker-ar0623e60463 ← walker-ar0728e26149
+duplicate,walker-ar0624e26091,上野公園の桜(三重県),merged,walker-ar0624e26091 ← walker-ar0834e26248
+duplicate,walker-ar0725e26100,琵琶湖疏水の桜,merged,walker-ar0725e26100 ← walker-ar0726e60619
+duplicate,walker-ar1040e60381,舞鶴公園の桜,merged,walker-ar1040e60381 ← walker-ar1045e60494
+duplicate,walker-ar1040e60450,甘木公園の桜(福岡県大牟田市),merged,walker-ar1040e60450 ← walker-ar1040e26329
+duplicate,walker-ar1042e60517,大村公園(大村神社)の桜,merged,walker-ar1042e60517 ← walker-ar1042e26358
+duplicate,walker-ar1040e60490,清水公園(清水山周辺)の桜,merged,walker-ar1040e60490 ← shimizu-park
+enrichment,walker-ar0101e60101,五稜郭公園の桜,varieties_updated,"+1品種 (計1件, 未解決:['ソメイヨシノ', 'シダレザクラ'])"
+enrichment,walker-ar0101e25542,松前公園の桜,varieties_updated,"+9品種 (計13件, 未解決:['ソメイヨシノ', '白絹', '翁桜'])"
+enrichment,walker-ar0313e25833,千鳥ヶ淵緑道の桜,varieties_updated,"+3品種 (計3件, 未解決:['ソメイヨシノ', 'カンザクラ', 'エドヒガン'])"
+enrichment,walker-ar0729e60635,吉野山(上千本)の桜,varieties_updated,"+2品種 (計3件, 未解決:['シロヤマザクラ', 'タカネザクラ'])"
+enrichment,walker-ar0313e25817,上野恩賜公園の桜,varieties_updated,"+10品種 (計16件, 未解決:['ソメイヨシノ', 'カンザクラ', 'オオカンザクラ'])"
+enrichment,walker-ar0420e25997,高遠城址公園の桜,varieties_updated,"+2品種 (計2件, 未解決:['タカトオコヒガンザクラ', 'コヒガン', 'エドヒガン'])"
+enrichment,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,varieties_updated,"+10品種 (計13件, 未解決:['ソメイヨシノ', 'シダレザクラ', 'ヤエベニシダレ'])"
+enrichment,walker-ar0207e25667,花見山の桜,varieties_updated,"+1品種 (計4件, 未解決:['ジュウガツザクラ', 'トウカイザクラ', 'ヒガンザクラ'])"
+enrichment,walker-ar0420e25995,龍岡城五稜郭の桜,varieties_updated,"+1品種 (計1件, 未解決:['ソメイヨシノ', 'シダレザクラ'])"
+enrichment,walker-ar0727e26135,造幣局　桜の通り抜け,varieties_updated,"+28品種 (計28件, 未解決:['大手毬', '小手毬', '養老'])"
+enrichment,walker-ar0726e26129,平野神社の桜,varieties_updated,"+9品種 (計16件, 未解決:['ソメイヨシノ', 'シダレザクラ', 'エドヒガン'])"
+enrichment,walker-ar0726e60606,京都府立植物園の桜,varieties_updated,"+9品種 (計18件, 未解決:['カンザクラ', 'ツバキカンザクラ', 'カワヅザクラ'])"
+enrichment,walker-ar0726e401387,元離宮二条城の桜,varieties_updated,"+1品種 (計3件, 未解決:['ソメイヨシノ', 'シダレザクラ', 'ヤエベニシダレ'])"
+enrichment,walker-ar0726e26119,醍醐寺の桜,varieties_updated,"+2品種 (計3件, 未解決:['カワヅザクラ', 'シダレザクラ', 'ベニシダレ'])"
+enrichment,walker-ar0728e26148,姫路城の桜,varieties_updated,"+1品種 (計2件, 未解決:['ソメイヨシノ', 'シダレザクラ'])"
+enrichment,walker-ar0834e26242,造幣局広島支局 花のまわりみち,varieties_updated,"+28品種 (計28件, 未解決:['大手毬', '小手毬', '養老'])"
+enrichment,walker-ar1043e26363,熊本城の桜,varieties_updated,"+5品種 (計6件, 未解決:['ソメイヨシノ', 'シダレザクラ', 'ベニシダレ'])"
+one_tree,walker-ar1041e26347,馬場の山桜,variety_linked,yamazakura
+auto_estimate,walker-ar0101e60093,天都山桜公園の桜,variety_estimated,yamazakura
+auto_estimate,walker-ar0207e25698,日中線しだれ桜並木,variety_estimated,shidarezakura
+auto_estimate,walker-ar0204e60532,国営みちのく杜の湖畔公園の桜(ソメイヨシノ),variety_estimated,someiyoshino
+auto_estimate,walker-ar0206e25665,倉津川しだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0207e25703,合戦場のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0308e25712,龍ケ崎のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0308e25717,外大野のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0309e60198,関場のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0310e60119,妙義神社しだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0311e582193,清雲寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0311e382691,砂川堀のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0311e382692,金仙寺(こんせんじ)のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0311e60436,伊奈町無線山桜並木の桜,variety_estimated,yamazakura
+auto_estimate,walker-ar0311e382212,鉢形城の桜・エドヒガン(氏邦桜),variety_estimated,edohigan-zakura
+auto_estimate,walker-ar0312e496001,松戸宿坂川の河津桜,variety_estimated,kawaduzakura
+auto_estimate,walker-ar0312e496159,西志津スポーツ等多目的広場の河津桜,variety_estimated,kawaduzakura
+auto_estimate,walker-ar0312e380667,福星寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0312e380830,長光寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,variety_estimated,someiyoshino
+auto_estimate,walker-ar0314e25881,長興山紹太寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0314e495002,小出川沿いの河津桜,variety_estimated,kawaduzakura
+auto_estimate,walker-ar0314e381588,三浦海岸の河津桜,variety_estimated,kawaduzakura
+auto_estimate,walker-ar0314e381936,大平台のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0420e60180,光前寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0420e60197,中曽根のエドヒガン,variety_estimated,edohigan-zakura
+auto_estimate,walker-ar0420e60155,愛宕様の小彼岸桜,variety_estimated,higanzakura
+auto_estimate,walker-ar0420e26001,貞麟寺しだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0420e60385,水中のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0420e60120,宇木のエドヒガン(千歳桜),variety_estimated,edohigan-zakura
+auto_estimate,walker-ar0517e60456,喜多家しだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0518e60414,妙祐寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0518e60371,神子の山桜,variety_estimated,yamazakura
+auto_estimate,walker-ar0623e26463,瑞龍寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0623e381772,金剛寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0623e428588,大安寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0624e60354,春谷寺エドヒガンザクラ,variety_estimated,edohigan-zakura
+auto_estimate,walker-ar0726e382421,日蓮宗本山 本満寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0726e382553,鴨川公園(半木の道)の八重紅枝垂桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0728e381576,日笠山の桜,variety_estimated,someiyoshino
+auto_estimate,walker-ar0834e26241,神原のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0936e60219,吉良のエドヒガンザクラ,variety_estimated,edohigan-zakura
+auto_estimate,walker-ar0938e60299,石畳東のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar0939e60301,中越家のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar1042e60325,田ノ頭郷のしだれ桜(波佐見町),variety_estimated,shidarezakura
+auto_estimate,walker-ar1045e60313,浄専寺のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,walker-ar1045e60332,原田家のしだれ桜,variety_estimated,shidarezakura
+auto_estimate,atami-itogawa,熱海糸川,variety_estimated,kawaduzakura
+auto_estimate,kawazu-matsuri,河津桜まつり会場,variety_estimated,kawaduzakura
+auto_estimate,miura-kaigan,三浦海岸,variety_estimated,kawaduzakura
+auto_estimate,matsudayama-herb,松田山ハーブガーデン,variety_estimated,kawaduzakura
+auto_estimate,zama-seriyuze,座間市芹沢公園,variety_estimated,kawaduzakura
+auto_estimate,yumenoshima-park,夢の島公園,variety_estimated,kawaduzakura+someiyoshino
+auto_estimate,hakkeijima,八景島シーパラダイス周辺,variety_estimated,kawaduzakura+someiyoshino
+auto_estimate,kodomo-shizen-park,横浜市こども自然公園,variety_estimated,someiyoshino
+auto_estimate,somei-cemetery,染井霊園,variety_estimated,someiyoshino
+auto_estimate,harimabashi-promenade,播磨坂桜並木,variety_estimated,someiyoshino
+auto_estimate,todoroki-ravine,等々力渓谷,variety_estimated,someiyoshino
+auto_estimate,zenpukujigawa-ryokuchi,善福寺川緑地,variety_estimated,someiyoshino
+auto_estimate,tama-reien,多磨霊園,variety_estimated,someiyoshino
+auto_estimate,hikarigaoka-park,光が丘公園,variety_estimated,someiyoshino
+auto_estimate,hikawa-sando,武蔵一宮氷川神社参道,variety_estimated,someiyoshino
+auto_estimate,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,variety_estimated,someiyoshino
+auto_estimate,sakitama-kofun-park,さきたま古墳公園,variety_estimated,someiyoshino
+auto_estimate,gongendo-sakuratsutsumi,幸手権現堂桜堤,variety_estimated,someiyoshino
+auto_estimate,musashikyuryo,武蔵丘陵森林公園,variety_estimated,someiyoshino
+auto_estimate,kawagoe-kitain,川越・喜多院,variety_estimated,shidarezakura+someiyoshino
+auto_estimate,inage-seaside-park,稲毛海浜公園,variety_estimated,someiyoshino
+auto_estimate,naritasan-sakura,成田さくらの山,variety_estimated,kawaduzakura+someiyoshino
+auto_estimate,inba-numa-cycling-road,印旛沼サイクリングロード桜並木,variety_estimated,someiyoshino
+auto_estimate,funabashi-ebigawa,海老川ジョギングロード,variety_estimated,someiyoshino
+auto_estimate,myogisan-sakura,妙義山さくらの里,variety_estimated,yamazakura

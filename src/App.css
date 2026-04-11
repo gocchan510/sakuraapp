@@ -1,2101 +1,1014 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: 'Noto Serif JP', serif;
-  background: linear-gradient(160deg, #fce4ec 0%, #f8bbd0 40%, #fce4ec 100%);
+:root {
+  --pink-light: #fff0f5;
+  --pink-mid: #fce4ec;
+  --pink: #f48fb1;
+  --pink-dark: #e91e8c;
+  --pink-deep: #c2185b;
+  --text: #2d1b2e;
+  --text-mid: #6d4c6e;
+  --text-light: #b09ab0;
+  --white: #ffffff;
+  --card-shadow: 0 4px 20px rgba(200, 100, 140, 0.15);
+  --card-shadow-hover: 0 8px 32px rgba(200, 100, 140, 0.28);
+  --radius: 16px;
+  --radius-sm: 8px;
+}
+
+html, body {
+  background: var(--pink-light);
+  font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', serif;
+  color: var(--text);
   min-height: 100vh;
-  color: #2d1b1b;
+  -webkit-font-smoothing: antialiased;
 }
 
 .app {
   max-width: 480px;
   margin: 0 auto;
-  padding: 0 16px 32px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-/* ── Header ── */
-.app-header {
-  text-align: center;
-  padding: 32px 0 20px;
-}
-
-.header-petal {
-  font-size: 2.2rem;
-  margin-bottom: 6px;
-  line-height: 1;
-}
-
-.app-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #880e4f;
-  letter-spacing: 0.08em;
-}
-
-.week-label {
-  font-size: 0.95rem;
-  color: #ad1457;
-  margin-top: 6px;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-/* ── Main ── */
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.section-title {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #880e4f;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-  padding-left: 4px;
-  border-left: 3px solid #f48fb1;
-  padding-left: 8px;
-}
-
-/* ── SpotCard ── */
-.spot-card {
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 18px;
-  padding: 20px;
-  box-shadow: 0 4px 20px rgba(173, 20, 87, 0.12);
-  border: 1px solid rgba(244, 143, 177, 0.5);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  overflow: hidden;
-}
-
-.spot-image-wrap {
-  margin: -20px -20px 16px -20px;
-}
-
-.spot-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-}
-
-.spot-image-placeholder {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 50%, #ffcdd2 100%);
-}
-
-.spot-image-placeholder-icon {
-  font-size: 2.8rem;
-  opacity: 0.55;
-  line-height: 1;
-}
-
-.spot-image-placeholder-name {
-  font-size: 0.78rem;
-  color: #c2185b;
-  opacity: 0.7;
-  font-family: 'Noto Serif JP', serif;
-  letter-spacing: 0.04em;
-}
-
-.spot-card:not(.off-season):hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(173, 20, 87, 0.18);
-}
-
-.spot-card.off-season {
-  text-align: center;
-  padding: 36px 20px;
-  background: rgba(255, 255, 255, 0.7);
-}
-
-.off-season-icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.off-season-message {
-  font-size: 1.05rem;
-  color: #aaa;
-  margin-bottom: 6px;
-}
-
-.off-season-sub {
-  font-size: 0.82rem;
-  color: #bbb;
-}
-
-.spot-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-
-.spot-name {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #880e4f;
-  line-height: 1.4;
-}
-
-.prefecture-badge {
-  font-size: 0.72rem;
-  background: #fce4ec;
-  color: #c2185b;
-  padding: 3px 10px;
-  border-radius: 20px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.variety {
-  font-size: 0.82rem;
-  color: #e91e8c;
-  margin-bottom: 10px;
-  font-style: italic;
-  letter-spacing: 0.03em;
-}
-
-.comment {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.7;
-  margin-bottom: 14px;
-}
-
-.spot-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 12px;
-  border-top: 1px solid #fce4ec;
-}
-
-.travel-time {
-  font-size: 0.82rem;
-  color: #999;
-}
-
-.maps-link {
-  font-size: 0.82rem;
-  color: #e91e8c;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* ── 品種図鑑 ── */
-.variety-list-wrap {
-  flex: 1;
-  overflow-y: auto;
-}
-
-.variety-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 0 0 16px;
-}
-
-.variety-card {
-  display: flex;
-  gap: 12px;
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(244,143,177,0.4);
-  border-radius: 14px;
-  padding: 14px;
-  cursor: pointer;
-  text-align: left;
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-  box-shadow: 0 2px 8px rgba(173,20,87,0.07);
-}
-
-.variety-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(173,20,87,0.14);
-}
-
-.variety-card-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  flex-shrink: 0;
-}
-
-.variety-emoji { font-size: 1.6rem; }
-
-.variety-color-bar {
-  width: 4px;
-  flex: 1;
-  border-radius: 2px;
-  min-height: 20px;
-}
-
-.variety-card-body { flex: 1; min-width: 0; }
-
-.variety-card-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 4px;
-}
-
-.variety-name {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #880e4f;
-}
-
-.variety-season {
-  font-size: 0.7rem;
-  color: #aaa;
-  flex-shrink: 0;
-}
-
-.variety-summary {
-  font-size: 0.8rem;
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 6px;
-}
-
-.variety-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.variety-tag {
-  font-size: 0.66rem;
-  background: #fce4ec;
-  color: #c2185b;
-  padding: 2px 7px;
-  border-radius: 8px;
-}
-
-/* 品種詳細 */
-.variety-detail-hero {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 16px;
-  border-radius: 14px;
-  margin-top: 8px;
-}
-
-.variety-detail-emoji { font-size: 2.4rem; }
-
-.variety-detail-name {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #880e4f;
-}
-
-.variety-detail-reading {
-  font-size: 0.78rem;
-  color: #aaa;
-  margin-top: 2px;
-}
-
-.variety-info-card {
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(244,143,177,0.4);
-  border-radius: 12px;
-  padding: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.variety-info-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 0.85rem;
-}
-
-.variety-info-row-tags { align-items: flex-start; }
-
-.variety-info-label {
-  color: #aaa;
-  font-size: 0.75rem;
-  flex-shrink: 0;
-  width: 52px;
-}
-
-.variety-info-value {
-  color: #444;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  align-items: center;
-}
-
-.variety-color-chip {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 2px solid rgba(0,0,0,0.08);
-}
-
-.variety-desc-card {
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(244,143,177,0.4);
-  border-radius: 12px;
-  padding: 16px;
-}
-
-.variety-desc {
-  font-size: 0.88rem;
-  color: #555;
-  line-height: 1.8;
-}
-
-/* 図鑑→カレンダーボタン */
-.variety-go-calendar-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  width: 100%;
-  margin-top: 12px;
-  padding: 10px 16px;
-  background: rgba(255,255,255,0.85);
-  border: 1.5px solid #f48fb1;
-  border-radius: 12px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.83rem;
-  color: #ad1457;
-  cursor: pointer;
-  transition: background 0.13s, box-shadow 0.13s;
-}
-.variety-go-calendar-btn:hover {
-  background: #fce4ec;
-  box-shadow: 0 2px 8px rgba(173,20,87,0.12);
-}
-
-.variety-spots {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.variety-spot-btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(244,143,177,0.5);
-  border-radius: 10px;
-  padding: 12px 14px;
-  cursor: pointer;
-  font-family: 'Noto Serif JP', serif;
-  transition: background 0.12s;
-}
-
-.variety-spot-btn:hover { background: #fce4ec; }
-
-.variety-spot-name {
-  font-size: 0.9rem;
-  color: #444;
-  font-weight: 500;
-}
-
-.variety-spot-week {
-  font-size: 0.78rem;
-  color: #e91e8c;
-}
-
-/* SpotCard の品種リンク */
-.variety-link {
-  display: inline-block;
-  background: none;
-  border: none;
-  padding: 0;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
-  color: #e91e8c;
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  margin-bottom: 10px;
-}
-
-/* ── All Spots Map (全体マップビュー) ── */
-.app-map-view {
-  display: flex;
-  flex-direction: column;
-  height: 100dvh;
-  padding: 0;
-}
-
-.app-header-compact {
-  padding: 12px 16px 8px;
-  flex-shrink: 0;
-}
-
-.header-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 6px;
-}
-
-.header-petal-sm { font-size: 1.2rem; }
-
-.app-title-sm {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #880e4f;
-}
-
-.map-legend {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.map-today-dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #f06292;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px #f06292;
-  vertical-align: middle;
-}
-
-.all-spots-map {
-  flex: 1;
-  min-height: 0;
-  z-index: 0;
-}
-
-/* ── SpotList ── */
-.spot-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding-bottom: 80px;
-}
-
-.spot-list-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(244,143,177,0.4);
-  border-radius: 12px;
-  padding: 14px;
-  cursor: pointer;
-  font-family: 'Noto Serif JP', serif;
-  text-align: left;
-  transition: background 0.12s;
-}
-
-.spot-list-item:hover { background: #fce4ec; }
-
-.sli-left {
-  flex: 1;
-  min-width: 0;
-}
-
-.sli-name {
-  display: block;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #880e4f;
-  margin-bottom: 2px;
-}
-
-.sli-prefecture {
-  font-size: 0.72rem;
-  color: #aaa;
-}
-
-.sli-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 3px;
-  flex-shrink: 0;
-}
-
-.sli-variety {
-  font-size: 0.72rem;
-  color: #e91e8c;
-  font-style: italic;
-  text-align: right;
-  max-width: 120px;
-}
-
-.sli-travel {
-  font-size: 0.7rem;
-  color: #999;
-}
-
-.sli-arrow {
-  font-size: 1.2rem;
-  color: #e91e8c;
-  flex-shrink: 0;
-  margin-left: 4px;
-}
-
-/* ── カレンダーセルの件数バッジ ── */
-.cal-spot-count {
-  font-size: 0.62rem;
-  background: rgba(233,30,140,0.12);
-  color: #c2185b;
-  padding: 1px 5px;
-  border-radius: 6px;
-  font-weight: 600;
-}
-
-.cal-cell-disabled {
-  cursor: default !important;
-  pointer-events: none;
-}
-
-/* ── マップの週フィルター ── */
-.map-week-filter {
-  margin-bottom: 6px;
-}
-
-.map-week-select {
-  width: 100%;
-  padding: 6px 10px;
-  border: 1px solid #f48fb1;
-  border-radius: 8px;
-  background: rgba(255,255,255,0.9);
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
-  color: #444;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M0 0l6 8 6-8z' fill='%23e91e8c'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  padding-right: 28px;
-}
-
-/* ── Bottom Nav ── */
-.bottom-nav {
-  display: flex;
-  background: rgba(255,255,255,0.96);
-  border-top: 1px solid #fce4ec;
-  flex-shrink: 0;
-  padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-
-.bottom-nav-btn {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  padding: 10px 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #bbb;
-  font-family: 'Noto Serif JP', serif;
-  transition: color 0.15s;
-}
-
-.bottom-nav-btn.active {
-  color: #e91e8c;
-}
-
-.bnav-icon { font-size: 1.2rem; }
-.bnav-label { font-size: 0.68rem; letter-spacing: 0.04em; }
-
-/* カレンダービューにもボトムナビ分の余白 */
-.app:not(.app-map-view) .calendar {
-  padding-bottom: 88px;
-}
-
-/* ── Spot Map ── */
-.spot-map {
-  width: 100%;
-  height: 220px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 12px 0 4px;
-  z-index: 0;
-}
-
-/* ── Pref status badge（現在の状況） ── */
-.pref-status-badge {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin: 8px 0 4px;
-  padding: 8px 12px;
-  border-radius: 10px;
-  font-size: 0.83rem;
-}
-.pref-status-emoji { font-size: 1rem; line-height: 1; }
-.pref-status-label { color: inherit; opacity: 0.75; font-size: 0.72rem; }
-.pref-status-value { font-weight: 700; }
-.pref-status-source {
-  margin-left: auto;
-  font-size: 0.62rem;
-  opacity: 0.55;
-  font-weight: 400;
-}
-
-/* 状況別カラー */
-.pref-status-mikoro  { background: #fce4ec; color: #880e4f; border: 1px solid #f48fb1; }
-.pref-status-kaika   { background: #fce4ec; color: #c2185b; border: 1px solid #fce4ec; }
-.pref-status-chiri   { background: #fff3e0; color: #bf360c; border: 1px solid #ffcc80; }
-.pref-status-hazakura{ background: #f1f8e9; color: #33691e; border: 1px solid #aed581; }
-.pref-status-mikaika { background: #f5f5f5; color: #616161; border: 1px solid #e0e0e0; }
-
-/* ── Status block (開花情報) ── */
-.status-block {
-  margin: 12px 0 4px;
-  background: #fff8fb;
-  border: 1px solid #fce4ec;
-  border-radius: 10px;
-  padding: 10px 12px;
-  cursor: default;
-}
-
-.status-header {
-  font-size: 0.72rem;
-  color: #ad1457;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  margin-bottom: 7px;
-}
-
-.status-rows {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.status-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.82rem;
-}
-
-.status-label {
-  font-size: 0.68rem;
-  font-weight: 600;
-  padding: 1px 7px;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
-
-.status-label.kaika {
-  background: #fce4ec;
-  color: #c2185b;
-}
-
-.status-label.mankai {
-  background: #f48fb1;
-  color: #fff;
-}
-
-.status-date {
-  color: #444;
-  font-weight: 500;
-}
-
-.status-date.muted {
-  color: #bbb;
-  font-weight: 400;
-}
-
-.status-heikinsa {
-  font-size: 0.72rem;
-  color: #888;
-}
-
-/* ── 出発駅セレクターボタン ── */
-.station-selector-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin: 8px auto 0;
-  padding: 6px 14px;
-  background: #fff8fb;
-  border: 1px solid #f48fb1;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  color: #880e4f;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-.station-selector-btn:active { background: #fce4ec; }
-
-/* ── 推定バッジ ── */
-.estimate-badge {
-  font-size: 0.62rem;
-  background: #ffe0b2;
-  color: #bf360c;
-  padding: 1px 5px;
-  border-radius: 6px;
-  margin-left: 4px;
-  font-weight: 600;
-}
-.estimate-badge-sm {
-  font-size: 0.58rem;
-  background: #ffe0b2;
-  color: #bf360c;
-  padding: 0 4px;
-  border-radius: 4px;
-  margin-left: 2px;
-  font-weight: 700;
-}
-
-/* ── StationPicker モーダル ── */
-.station-picker-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.45);
-  z-index: 1000;
-  display: flex;
-  align-items: flex-end;
-}
-.station-picker-modal {
-  width: 100%;
-  max-height: 85vh;
-  background: #fff;
-  border-radius: 18px 18px 0 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  animation: slideUp 0.22s ease;
-}
-@keyframes slideUp {
-  from { transform: translateY(100%); }
-  to   { transform: translateY(0); }
-}
-
-.station-picker-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 16px 8px;
-  border-bottom: 1px solid #fce4ec;
-}
-.station-picker-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #880e4f;
-}
-.station-picker-close {
-  font-size: 1.1rem;
-  color: #aaa;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 4px 8px;
-}
-
-.station-search-wrap {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 10px 12px 6px;
-  padding: 8px 12px;
-  background: #fafafa;
-  border: 1px solid #eee;
-  border-radius: 12px;
-}
-.station-search-icon { font-size: 0.9rem; }
-.station-search-input {
-  flex: 1;
-  border: none;
+  background: var(--pink-light);
+  padding-bottom: 56px; /* タブバー分 */
+}
+
+/* 地図ページは全画面 */
+.app--map {
+  max-width: 100%;
+  margin: 0;
+  padding-bottom: 0;
   background: transparent;
-  font-size: 0.9rem;
-  outline: none;
 }
-.station-search-clear {
-  font-size: 0.8rem;
-  color: #aaa;
+
+/* ── タブバー ── */
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: var(--white);
+  border-top: 1.5px solid var(--pink-mid);
+  display: flex;
+  z-index: 1000;
+  box-shadow: 0 -2px 12px rgba(200, 100, 140, 0.12);
+}
+
+.tab-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
   background: none;
   border: none;
   cursor: pointer;
+  color: var(--text-light);
+  transition: color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.station-list {
-  flex: 1;
-  overflow-y: auto;
-  padding: 4px 0 8px;
-  -webkit-overflow-scrolling: touch;
+.tab-btn.active {
+  color: var(--pink-deep);
 }
-.station-area-label {
-  font-size: 0.68rem;
-  font-weight: 700;
-  color: #ad1457;
-  letter-spacing: 0.06em;
-  padding: 10px 16px 4px;
-  background: #fff8fb;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+
+.tab-icon {
+  font-size: 20px;
+  line-height: 1;
 }
-.station-area-items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  padding: 6px 14px 8px;
-}
-.station-item {
-  padding: 6px 14px;
-  border: 1px solid #fce4ec;
-  border-radius: 16px;
-  background: #fff;
-  font-size: 0.85rem;
-  color: #2d1b1b;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  transition: background 0.12s;
-}
-.station-item:active { background: #fce4ec; }
-.station-item-selected {
-  background: #fce4ec;
-  border-color: #f48fb1;
-  color: #880e4f;
+
+.tab-label {
+  font-size: 10px;
   font-weight: 600;
-}
-.station-check {
-  font-size: 0.75rem;
-  color: #e91e63;
-}
-.station-not-found {
-  text-align: center;
-  color: #aaa;
-  font-size: 0.85rem;
-  padding: 24px;
-}
-.station-picker-note {
-  font-size: 0.62rem;
-  color: #bbb;
-  text-align: center;
-  padding: 6px 12px 10px;
-  border-top: 1px solid #f5f5f5;
-}
-
-.out-of-metro-badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  background: #fff3e0;
-  color: #e65100;
-  padding: 2px 8px;
-  border-radius: 8px;
-  margin-top: 10px;
-}
-
-/* ── Alternative card ── */
-.alternative-card {
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: 0 2px 10px rgba(173, 20, 87, 0.08);
-  border: 1px solid rgba(244, 143, 177, 0.4);
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.alternative-card.in-range {
-  background: rgba(241, 248, 233, 0.95);
-  border-color: rgba(197, 225, 165, 0.6);
-}
-
-.alt-check,
-.alt-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-
-.alt-main {
-  font-size: 0.9rem;
-  color: #444;
-  line-height: 1.6;
-}
-
-.alt-sub {
-  font-size: 0.78rem;
-  color: #7cb342;
-  margin-top: 3px;
-}
-
-/* ── Navigation ── */
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0 8px;
-}
-
-.nav-btn {
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid #f48fb1;
-  color: #c2185b;
-  padding: 10px 22px;
-  border-radius: 24px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.88rem;
-  cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease;
-}
-
-.nav-btn:hover {
-  background: #fce4ec;
-  border-color: #c2185b;
-}
-
-.nav-btn:active {
-  transform: scale(0.97);
-}
-
-.week-counter {
-  font-size: 0.78rem;
-  color: #bbb;
   letter-spacing: 0.05em;
 }
 
-/* ── Language Toggle ── */
-.lang-toggle {
-  background: rgba(255,255,255,0.88);
-  border: 1px solid #f48fb1;
-  color: #c2185b;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.78rem;
-  padding: 4px 12px;
-  border-radius: 20px;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: background 0.15s;
-}
-
-.lang-toggle:hover { background: #fce4ec; }
-
-.header-top-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 4px;
-}
-
-.header-top-right {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-/* ── ヘルプボタン ── */
-.help-btn {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  border: 1px solid #f48fb1;
-  background: rgba(255,255,255,0.88);
-  color: #c2185b;
-  font-size: 0.78rem;
-  font-weight: 700;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: background 0.15s;
-}
-
-.help-btn:hover { background: #fce4ec; }
-
-/* ── チュートリアル オーバーレイ ── */
-.tutorial-backdrop {
+/* ── 地図ページ ── */
+.sakura-map-page {
   position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  animation: fadeIn 0.2s ease;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 56px; /* タブバー分 */
+  z-index: 1;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-.tutorial-card {
-  background: #fff;
-  border-radius: 24px;
+.sakura-map-container {
   width: 100%;
-  max-width: 360px;
-  padding: 28px 24px 24px;
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.22);
-  animation: slideUp 0.25s ease;
+  height: 100%;
 }
 
-@keyframes slideUp {
-  from { transform: translateY(24px); opacity: 0; }
-  to   { transform: translateY(0);    opacity: 1; }
-}
-
-.tutorial-header {
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.tutorial-hero-icon {
-  font-size: 2.4rem;
-  display: block;
-  margin-bottom: 8px;
-}
-
-.tutorial-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #880e4f;
-  margin: 0 0 4px;
-}
-
-.tutorial-subtitle {
-  font-size: 0.82rem;
-  color: #aaa;
-  margin: 0;
-}
-
-.tutorial-steps {
-  list-style: none;
-  margin: 0 0 24px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.tutorial-step {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.tutorial-step-num {
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
+.sakura-map-locate-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: #e91e8c;
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
+  background: var(--white);
+  border: 2px solid var(--pink-mid);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  font-size: 20px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2px;
+  transition: background 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.tutorial-step-icon {
-  font-size: 1.4rem;
-  line-height: 1.2;
-  flex-shrink: 0;
+.sakura-map-locate-btn:active {
+  background: var(--pink-mid);
 }
 
-.tutorial-step-body {
-  flex: 1;
-}
-
-.tutorial-step-title {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #3e2723;
-  margin: 0 0 2px;
-}
-
-.tutorial-step-desc {
-  font-size: 0.78rem;
-  color: #888;
-  margin: 0;
-  line-height: 1.5;
-}
-
-.tutorial-close-btn {
-  width: 100%;
-  padding: 13px;
-  background: linear-gradient(135deg, #e91e8c, #c2185b);
-  color: #fff;
-  border: none;
-  border-radius: 14px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  cursor: pointer;
-  letter-spacing: 0.04em;
-  transition: opacity 0.15s;
-}
-
-.tutorial-close-btn:hover { opacity: 0.9; }
-
-/* ── Back button ── */
-.back-btn {
-  display: inline-block;
-  background: none;
-  border: none;
-  color: #c2185b;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.88rem;
-  cursor: pointer;
-  padding: 0 0 12px;
-  text-align: left;
-  width: 100%;
-}
-
-.back-btn:hover {
-  text-decoration: underline;
-}
-
-.app-subtitle {
-  font-size: 0.82rem;
-  color: #c2185b;
-  margin-top: 4px;
-  font-weight: 300;
-}
-
-/* ── 月ごとアコーディオン ── */
-
-/* 月ヘッダー（トグルボタン） */
-.cal-month-toggle {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background: rgba(255,255,255,0.6);
-  border: 1px solid rgba(244,143,177,0.3);
-  border-radius: 10px;
-  padding: 8px 12px;
-  cursor: pointer;
-  font-family: 'Noto Serif JP', serif;
-  gap: 8px;
-  transition: background 0.14s;
-  text-align: left;
-}
-.cal-month-toggle:hover { background: rgba(252,228,236,0.7); }
-.cal-month-toggle.cal-month-open {
-  background: rgba(252,228,236,0.5);
-  border-color: rgba(233,30,140,0.25);
-  border-radius: 10px 10px 0 0;
-}
-
-.cal-month-chevron {
-  margin-left: auto;
-  font-size: 0.65rem;
-  color: #c2185b;
-  opacity: 0.6;
-  flex-shrink: 0;
-}
-
-/* 月の計画バッジ */
-.cal-month-plan-badge {
-  font-size: 0.65rem;
-  background: #e91e8c;
-  color: #fff;
-  padding: 1px 6px;
-  border-radius: 10px;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-
-/* ── カレンダー折りたたみアニメーション ── */
-.calendar-collapse {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.26s ease;
-}
-.calendar-collapse.cal-open {
-  grid-template-rows: 1fr;
-}
-/* grid-template-rows トリックの内側ラッパー */
-.cal-month-inner {
-  overflow: hidden;
-  min-height: 0;
-  border: 1px solid rgba(244,143,177,0.25);
-  border-top: none;
-  border-radius: 0 0 10px 10px;
-  padding: 6px 4px 8px;
-  background: rgba(255,255,255,0.45);
-}
-
-/* ── Legend ── */
-.legend {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.72rem;
-  color: #888;
-}
-
-.legend-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.dot-spring  { background: #f48fb1; }
-.dot-kawazu  { background: #ce93d8; }
-.dot-winter  { background: #90caf9; }
-.dot-off     { background: #ddd; }
-
-/* ── Calendar (日付グリッド) ── */
-.calendar {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-bottom: 32px;
-}
-
-.cal-month {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.cal-month-header {
-  padding: 4px 2px 6px;
-}
-
-.cal-month-label {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #880e4f;
-  letter-spacing: 0.06em;
-}
-
-/* 曜日ヘッダー行 */
-.cal-dow-row {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin-bottom: 3px;
-}
-
-.cal-dow {
-  text-align: center;
-  font-size: 0.65rem;
-  color: #bbb;
-  padding: 3px 0 5px;
-  font-weight: 600;
-}
-
-.cal-dow-sun { color: #e91e8c; }
-.cal-dow-sat { color: #1976d2; }
-
-/* 日付グリッド */
-.cal-day-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 3px;
-}
-
-.cal-day-empty {
-  aspect-ratio: 1 / 1.1;
-}
-
-/* 日付セル */
-.cal-day-cell {
-  position: relative;
-  aspect-ratio: 1 / 1.1;
-  border-radius: 8px;
-  border: 1.5px solid transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1px;
-  cursor: pointer;
-  background: #f9f9f9;
-  font-family: 'Noto Serif JP', serif;
-  transition: transform 0.1s, box-shadow 0.1s;
-  padding: 2px 1px;
-  min-width: 0;
-}
-
-.cal-day-cell:hover:not(:disabled) {
-  transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(173, 20, 87, 0.15);
-}
-
-.cal-day-cell:active:not(:disabled) {
-  transform: scale(0.93);
-}
-
-.cal-day-num {
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: #444;
-  line-height: 1;
-}
-
-/* 曜日ごとの日付色 */
-.cal-day-sun .cal-day-num { color: #e91e8c; }
-.cal-day-sat .cal-day-num { color: #1976d2; }
-
-/* オフシーズン */
-.cal-day-off {
-  background: transparent;
-  opacity: 0.35;
-}
-
-.cal-day-off .cal-day-num { color: #bbb; }
-
-.cal-day-disabled {
-  cursor: default;
+/* ── 今見頃フィルタチップ ── */
+.map-filter-bar {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
   pointer-events: none;
 }
 
-/* 品種カラー */
-.cal-day-cell.cell-spring {
-  background: linear-gradient(160deg, #fff0f5 0%, #ffd6e7 100%);
-  border-color: rgba(244, 143, 177, 0.35);
-}
-
-.cal-day-cell.cell-kawazu {
-  background: linear-gradient(160deg, #f8e4ff 0%, #edb8ff 100%);
-  border-color: rgba(206, 147, 216, 0.35);
-}
-
-.cal-day-cell.cell-winter {
-  background: linear-gradient(160deg, #e8f4fd 0%, #b8ddf9 100%);
-  border-color: rgba(144, 202, 249, 0.4);
-}
-
-/* 今日 */
-.cal-day-today .cal-day-num {
-  background: #e91e8c;
-  color: #fff !important;
-  border-radius: 50%;
-  width: 22px;
-  height: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.72rem;
-  font-weight: 700;
-}
-
-/* プラン ★ バッジ */
-.cal-day-star {
-  font-size: 0.52rem;
-  color: #e91e8c;
-  line-height: 1;
-}
-
-/* 開花ドット（非プラン・開花週のみ） */
-.cal-day-bloom-dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: currentColor;
-  opacity: 0.35;
-}
-
-.cell-spring  .cal-day-bloom-dot { background: #e91e8c; }
-.cell-kawazu  .cal-day-bloom-dot { background: #ab47bc; }
-.cell-winter  .cal-day-bloom-dot { background: #1976d2; }
-
-/* 見頃予測による色分けドット（東京満開日基準） */
-.bloom-dot-mikoro  { background: #e91e8c !important; opacity: 0.95 !important; width: 5px !important; height: 5px !important; }
-.bloom-dot-kaika   { background: #ff7043 !important; opacity: 0.85 !important; }
-.bloom-dot-chiri   { background: #ba68c8 !important; opacity: 0.80 !important; }
-.bloom-dot-hazakura{ background: #81c784 !important; opacity: 0.70 !important; }
-
-/* ── 見頃予測バー (SpotList) ── */
-.bloom-forecast-bar {
-  padding: 8px 0 2px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  flex-shrink: 0;
-}
-.bloom-forecast-title {
-  font-size: 0.72rem;
-  color: #999;
-  font-family: 'Noto Serif JP', serif;
-  letter-spacing: 0.02em;
-}
-.bloom-forecast-chips {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-.bloom-fc-chip {
-  display: inline-flex;
-  align-items: center;
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+.map-filter-chip {
+  pointer-events: all;
+  background: var(--white);
+  border: 2px solid var(--pink-mid);
+  border-radius: 24px;
+  padding: 6px 16px;
+  font-size: 13px;
   font-weight: 600;
-  font-family: 'Noto Serif JP', serif;
-}
-.bloom-fc-mikoro  { background: #fce4ec; color: #c62828; border: 1px solid #f48fb1; }
-.bloom-fc-kaika   { background: #fff3e0; color: #bf360c; border: 1px solid #ffb74d; }
-.bloom-fc-chiri   { background: #f3e5f5; color: #6a1b9a; border: 1px solid #ce93d8; }
-.bloom-fc-hazakura{ background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
-.bloom-fc-mikaika { background: #e3f2fd; color: #1565c0; border: 1px solid #90caf9; }
-
-/* プランモード：計画済みセルのハイライト */
-.cal-day-has-plan {
-  border-color: #e91e8c !important;
-  box-shadow: 0 0 0 1.5px rgba(233, 30, 140, 0.28);
-}
-
-/* プランモード：未計画セルのフェード */
-.cal-day-plan-dim {
-  opacity: 0.22;
-}
-
-/* ── マイプラン 概要ボタン ── */
-/* ── 今週へボタン ── */
-.jump-today-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  width: 100%;
-  margin: 8px 0 0;
-  padding: 8px 14px;
-  background: rgba(255,255,255,0.70);
-  border: 1.5px solid #f48fb1;
-  border-radius: 12px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
-  color: #ad1457;
+  font-family: inherit;
+  color: var(--text-mid);
   cursor: pointer;
-  transition: background 0.13s, box-shadow 0.13s;
-}
-.jump-today-btn:hover {
-  background: #fce4ec;
-  box-shadow: 0 2px 8px rgba(173,20,87,0.10);
-}
-
-.plan-overview-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  width: 100%;
-  margin: 10px 0 0;
-  padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1.5px solid #f48fb1;
-  border-radius: 14px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.85rem;
-  color: #ad1457;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
-  text-align: left;
-}
-
-.plan-overview-btn:hover {
-  background: #fce4ec;
-  box-shadow: 0 2px 10px rgba(173, 20, 87, 0.12);
-}
-
-.plan-overview-btn-active {
-  background: linear-gradient(135deg, #fff0f7, #fce4ec);
-  border-color: #e91e8c;
-  font-weight: 600;
-}
-
-.plan-overview-icon { font-size: 1rem; }
-
-.plan-overview-label {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.plan-overview-arrow {
-  font-size: 1.2rem;
-  color: #e91e8c;
-  line-height: 1;
-}
-
-/* ── マイプラン 旅程ビュー ── */
-.plan-view-wrap {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.plan-view-header-body {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 4px 0 2px;
-}
-
-.plan-view-icon {
-  font-size: 2rem;
-  line-height: 1;
-}
-
-.plan-view-empty {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 48px 24px;
-  text-align: center;
-}
-
-.plan-view-empty-icon {
-  font-size: 3rem;
-  margin-bottom: 4px;
-}
-
-.plan-view-empty-msg {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #880e4f;
-}
-
-.plan-view-empty-sub {
-  font-size: 0.88rem;
-  color: #aaa;
-  line-height: 1.6;
-  max-width: 260px;
-}
-
-.plan-view-go-cal-btn {
-  margin-top: 12px;
-  padding: 10px 24px;
-  background: #e91e8c;
+.map-filter-chip.active {
+  background: var(--pink-deep);
+  border-color: var(--pink-deep);
   color: #fff;
-  border: none;
-  border-radius: 20px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
 }
 
-.plan-itinerary {
-  padding: 12px 16px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.plan-date-section {
-  background: rgba(255,255,255,0.92);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(173,20,87,0.08);
-  border: 1px solid rgba(244,143,177,0.4);
-}
-
-.plan-date-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 14px 8px;
-  border-bottom: 1px solid rgba(244,143,177,0.25);
-  background: linear-gradient(90deg, rgba(252,228,236,0.6), transparent);
-}
-
-.plan-date-label {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #880e4f;
-}
-
-.plan-date-edit-btn {
-  font-size: 0.78rem;
-  color: #e91e8c;
-  background: none;
-  border: 1px solid #f48fb1;
-  border-radius: 10px;
-  padding: 3px 10px;
-  cursor: pointer;
-  white-space: nowrap;
-  font-family: 'Noto Serif JP', serif;
-  transition: background 0.12s;
-}
-
-.plan-date-edit-btn:hover {
-  background: #fce4ec;
-}
-
-.plan-spot-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.plan-spot-row {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(244,143,177,0.15);
-}
-
-.plan-spot-row:last-child {
-  border-bottom: none;
-}
-
-.plan-spot-info {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
-  padding: 10px 14px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  min-width: 0;
-}
-
-.plan-spot-info:hover {
-  background: rgba(252,228,236,0.4);
-}
-
-.plan-spot-name {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #3e2723;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-
-.plan-spot-meta {
-  font-size: 0.75rem;
-  color: #aaa;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-
-.plan-spot-remove-btn {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  margin-right: 6px;
-  background: none;
-  border: none;
-  color: #ccc;
-  font-size: 1.1rem;
-  cursor: pointer;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.12s, color 0.12s;
-}
-
-.plan-spot-remove-btn:hover {
-  background: #fce4ec;
-  color: #e91e8c;
-}
-
-/* ── カレンダーセル プラン表示 ── */
-.cal-cell-has-plan {
-  border-color: #e91e8c !important;
-  box-shadow: 0 0 0 2px rgba(233, 30, 140, 0.2), 0 2px 8px rgba(233, 30, 140, 0.15);
-}
-
-.cal-cell-plan-dim {
-  opacity: 0.38;
-}
-
-/* プランドット（全スポットモードでプランあり週に表示） */
-.cal-plan-dot {
+/* ── 凡例 ── */
+.map-legend {
   position: absolute;
-  top: 5px;
-  left: 6px;
-  width: 6px;
-  height: 6px;
-  background: #e91e8c;
-  border-radius: 50%;
-}
-
-/* プランモードの件数バッジ */
-.cal-plan-count {
-  background: rgba(233, 30, 140, 0.18) !important;
-  color: #880e4f !important;
-}
-
-/* ── スター（プラン追加）ボタン ── */
-.plan-star-btn {
-  font-size: 1.1rem;
-  line-height: 1;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 4px 6px;
-  border-radius: 8px;
-  color: #ccc;
-  flex-shrink: 0;
-  transition: color 0.15s, transform 0.1s;
-  margin-right: 2px;
-}
-
-.plan-star-btn:active {
-  transform: scale(1.25);
-}
-
-.plan-star-active {
-  color: #e91e8c !important;
-}
-
-/* ── SpotCard 計画セクション ── */
-.spot-plan-section {
-  margin: 6px 0 14px;
+  top: 88px;
+  left: 10px;
+  z-index: 1000;
+  background: rgba(255,255,255,0.92);
+  border-radius: 10px;
+  padding: 5px 9px;
   display: flex;
   flex-direction: column;
+  gap: 2px;
+  font-size: 10px;
+  color: var(--text-mid);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+  pointer-events: none;
+}
+
+.map-legend span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.map-legend__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── ボトムシートバックドロップ ── */
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  bottom: 56px;
+  z-index: 400;
+  background: rgba(0,0,0,0.28);
+}
+
+/* ── ボトムシート ── */
+.spot-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 56px;
+  z-index: 500;
+  background: var(--white);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -4px 24px rgba(200,100,140,0.18);
+  transition: transform 0.28s cubic-bezier(0.32, 0.72, 0, 1);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.spot-sheet--peek {
+  transform: translateY(calc(100% - 120px));
+}
+
+.spot-sheet--full {
+  transform: translateY(0);
+}
+
+.spot-sheet__handle-wrap {
+  padding: 10px 0 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.spot-sheet__handle {
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--pink-mid);
+}
+
+.spot-sheet__header {
+  padding: 4px 16px 12px;
+  border-bottom: 1px solid var(--pink-mid);
+  flex-shrink: 0;
+}
+
+.spot-sheet__title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 8px;
 }
 
-/* 選択日へのトグルボタン */
-.plan-date-toggle-btn {
+.spot-sheet__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.spot-sheet__close {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--text-light);
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.spot-sheet__meta {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 14px;
-  border-radius: 12px;
-  border: 1.5px solid #f48fb1;
-  background: #fff8fb;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.88rem;
-  color: #ad1457;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
-  text-align: left;
-  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 4px;
 }
 
-.plan-date-toggle-btn:hover { background: #fce4ec; }
+.spot-sheet__pref {
+  font-size: 11px;
+  color: var(--text-light);
+}
 
-.plan-date-toggle-btn.plan-date-active {
-  background: #fce4ec;
-  border-color: #e91e8c;
-  color: #880e4f;
+.spot-sheet__count {
+  font-size: 11px;
+  color: var(--text-mid);
   font-weight: 600;
+  background: var(--pink-mid);
+  padding: 1px 6px;
+  border-radius: 8px;
 }
 
-.plan-date-star {
-  font-size: 1.1rem;
-  flex-shrink: 0;
-  line-height: 1;
+.spot-sheet__status {
+  font-size: 11px;
+  font-weight: 700;
 }
 
-.plan-date-label {
-  margin-left: auto;
-  font-size: 0.72rem;
-  opacity: 0.7;
-  flex-shrink: 0;
+.spot-sheet__peak {
+  font-size: 11px;
+  color: var(--text-light);
+  margin-top: 3px;
 }
 
-/* 計画済み日程チップス */
-.spot-planned-dates {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.spot-sheet__body {
+  overflow-y: auto;
+  flex: 1;
+  padding: 12px 16px 24px;
 }
 
-.spot-planned-label {
-  font-size: 0.68rem;
-  color: #aaa;
-  font-weight: 600;
+.spot-sheet__section {
+  margin-bottom: 16px;
+}
+
+.spot-sheet__section-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-mid);
+  margin-bottom: 8px;
   letter-spacing: 0.04em;
 }
 
-.spot-planned-chips {
+.spot-sheet__cards {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.spot-sheet__cards::-webkit-scrollbar { display: none; }
+
+.spot-sheet__view-all {
+  width: 100%;
+  margin-top: 8px;
+  background: var(--pink-deep);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── 品種ミニカード ── */
+.map-mini-card {
+  flex-shrink: 0;
+  width: 78px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--white);
+  border: 1.5px solid var(--pink-mid);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.12s;
+}
+
+.map-mini-card:active {
+  transform: scale(0.95);
+}
+
+.map-mini-card--past {
+  opacity: 0.45;
+}
+
+.map-mini-card__img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.map-mini-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-mini-card__dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+}
+
+.map-mini-card__badge {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  font-size: 8px;
+  font-weight: 700;
+  background: #FF69B4;
+  color: white;
+  border-radius: 4px;
+  padding: 1px 4px;
+  white-space: nowrap;
+}
+
+.map-mini-card__badge--bud {
+  background: #4a9f4a;
+}
+
+.map-mini-card__body {
+  padding: 4px 5px 5px;
+}
+
+.map-mini-card__name {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-mini-card__stars {
+  font-size: 8px;
+  margin-top: 1px;
+  letter-spacing: -0.5px;
+}
+.map-mini-card__stars[data-score="1"] { color: #bbb; }
+.map-mini-card__stars[data-score="2"] { color: #8bc34a; }
+.map-mini-card__stars[data-score="3"] { color: #ff9800; }
+.map-mini-card__stars[data-score="4"] { color: #e91e63; }
+.map-mini-card__stars[data-score="5"] { color: #9c27b0; }
+
+/* ── スポットフィルタバナー ── */
+.spot-filter-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--pink-mid);
+  border-bottom: 1px solid var(--pink);
+  padding: 8px 14px;
+  gap: 8px;
+}
+
+.spot-filter-text {
+  font-size: 12px;
+  color: var(--text-mid);
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spot-filter-clear {
+  background: var(--white);
+  border: 1.5px solid var(--pink);
+  color: var(--pink-deep);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Header ── */
+.zukan-header {
+  background: var(--white);
+  padding: 16px 20px 12px;
+  border-bottom: 2px solid var(--pink-mid);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.zukan-header-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--pink-deep);
+  letter-spacing: 0.08em;
+}
+
+.zukan-header-sub {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-top: 2px;
+  letter-spacing: 0.05em;
+}
+
+/* ── Grid ── */
+.zukan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 16px 14px 40px;
+}
+
+/* ── Card ── */
+.variety-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  border: 1.5px solid rgba(244, 143, 177, 0.2);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.variety-card:active {
+  transform: scale(0.96);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.variety-card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.variety-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.variety-card-image-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+}
+
+.variety-card-no {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: 0.05em;
+  font-family: 'Courier New', monospace;
+}
+
+.variety-card-body {
+  padding: 10px 12px 12px;
+}
+
+.variety-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.variety-card-reading {
+  font-size: 10px;
+  color: var(--text-light);
+  margin-top: 2px;
+  letter-spacing: 0.06em;
+}
+
+.variety-card-summary {
+  font-size: 11px;
+  color: var(--text-mid);
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.variety-card-colordot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0,0,0,0.1);
+  margin-top: 8px;
+}
+
+/* ── Detail page ── */
+.detail-page {
+  min-height: 100vh;
+  background: var(--pink-light);
+  padding-bottom: 40px;
+}
+
+.detail-hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.detail-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-hero-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+}
+
+.detail-back-btn {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(255,255,255,0.88);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  -webkit-tap-highlight-color: transparent;
+  z-index: 5;
+}
+
+.detail-no-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.05em;
+}
+
+.detail-info {
+  background: var(--white);
+  padding: 20px 20px 0;
+}
+
+.detail-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.06em;
+}
+
+.detail-reading {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 4px;
+  letter-spacing: 0.1em;
+}
+
+.detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.detail-tag {
+  background: var(--pink-mid);
+  color: var(--pink-deep);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+/* ── Tabs ── */
+.detail-tabs {
+  display: flex;
+  background: var(--white);
+  border-bottom: 2px solid var(--pink-mid);
+  margin-top: 4px;
+}
+
+.detail-tab-btn {
+  flex: 1;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text-light);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.detail-tab-btn.active {
+  color: var(--pink-deep);
+  border-bottom-color: var(--pink-deep);
+}
+
+/* ── Tab content ── */
+.detail-tab-content {
+  padding: 20px 20px;
+}
+
+.detail-info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--pink-mid);
+}
+
+.detail-info-row:last-child {
+  border-bottom: none;
+}
+
+.detail-info-label {
+  font-size: 12px;
+  color: var(--text-light);
+  min-width: 64px;
+  letter-spacing: 0.06em;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.detail-info-value {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.detail-rarity-value {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-rarity-stars {
+  font-size: 16px;
+  letter-spacing: -1px;
+  margin-right: 6px;
+}
+.detail-rarity-stars[data-score="1"] { color: #bbb; }
+.detail-rarity-stars[data-score="2"] { color: #8bc34a; }
+.detail-rarity-stars[data-score="3"] { color: #ff9800; }
+.detail-rarity-stars[data-score="4"] { color: #e91e63; }
+.detail-rarity-stars[data-score="5"] { color: #9c27b0; }
+
+.detail-rarity-label {
+  font-size: 12px;
+  color: var(--text-mid);
+  margin-right: 8px;
+}
+
+.detail-rarity-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.detail-rarity-reason {
+  font-size: 10px;
+  background: var(--pink-mid);
+  color: var(--text-mid);
+  border-radius: 10px;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+
+.detail-features-text {
+  font-size: 14px;
+  color: var(--text-mid);
+  line-height: 1.8;
+  margin-top: 16px;
+  padding: 16px;
+  background: var(--pink-light);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--pink);
+}
+
+/* ── Detail sections ── */
+.detail-section {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 18px 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 10px rgba(200, 100, 140, 0.08);
+}
+
+.detail-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--pink-deep);
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.detail-section-text {
+  font-size: 13px;
+  color: var(--text-mid);
+  line-height: 1.9;
+}
+
+/* ── Bloom Filter ── */
+.bloom-filter {
+  background: var(--white);
+  border-bottom: 1px solid var(--pink-mid);
+  padding: 10px 14px 8px;
+}
+
+.bloom-filter-presets {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
 
-.spot-planned-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  background: #fce4ec;
-  border: 1px solid #f48fb1;
-  border-radius: 14px;
-  padding: 4px 8px 4px 10px;
-  font-size: 0.78rem;
-  color: #880e4f;
-}
-
-.spot-planned-remove {
-  background: none;
-  border: none;
-  color: #e91e8c;
+.bloom-preset-btn {
+  background: var(--pink-light);
+  border: 1.5px solid var(--pink);
+  color: var(--pink-deep);
+  font-size: 12px;
+  font-family: inherit;
+  padding: 5px 12px;
+  border-radius: 20px;
   cursor: pointer;
-  font-size: 0.85rem;
-  padding: 0;
-  line-height: 1;
-  flex-shrink: 0;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: background 0.15s, color 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* 別の日に追加ボタン */
-.plan-add-other-btn {
-  background: none;
-  border: 1px dashed #f48fb1;
-  border-radius: 10px;
-  padding: 7px 12px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.78rem;
-  color: #c2185b;
-  cursor: pointer;
-  text-align: left;
-  transition: background 0.12s;
+.bloom-preset-btn.active {
+  background: var(--pink-deep);
+  border-color: var(--pink-deep);
+  color: var(--white);
 }
-.plan-add-other-btn:hover { background: #fce4ec; }
 
-/* 日付入力行 */
-.plan-date-input-row {
+.bloom-custom-toggle {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+  background: none;
+  border: none;
+  padding: 4px 2px;
+  font-size: 12px;
+  font-family: inherit;
+  color: var(--text-mid);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.plan-date-input {
+.bloom-custom-arrow {
+  font-size: 10px;
+  color: var(--text-light);
+}
+
+.bloom-custom-range {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.bloom-custom-range select {
   flex: 1;
-  padding: 6px 10px;
-  border: 1px solid #f48fb1;
-  border-radius: 8px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
-  color: #444;
-  background: #fff8fb;
-  outline: none;
-  min-width: 0;
+  font-size: 12px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--pink-light);
+  border: 1.5px solid var(--pink);
+  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
 }
 
-.plan-date-confirm-btn {
-  padding: 6px 14px;
-  background: #e91e8c;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.82rem;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: opacity 0.15s;
-}
-.plan-date-confirm-btn:disabled { opacity: 0.4; cursor: default; }
-.plan-date-confirm-btn:not(:disabled):hover { opacity: 0.85; }
-
-.plan-date-cancel-btn {
-  background: none;
-  border: none;
-  color: #aaa;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 4px 6px;
+.bloom-range-sep {
+  font-size: 14px;
+  color: var(--text-light);
   flex-shrink: 0;
 }
 
-/* ── ソートバー ── */
-/* ── エリアフィルターバー ── */
-.area-filter-bar {
+/* ── Empty state ── */
+.bloom-empty {
   display: flex;
-  gap: 6px;
-  padding: 8px 0 4px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  flex-shrink: 0;
-}
-.area-filter-bar::-webkit-scrollbar { display: none; }
-
-.area-chip {
-  display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  gap: 3px;
-  padding: 5px 11px;
-  border-radius: 20px;
-  border: 1.5px solid #f48fb1;
-  background: rgba(255,255,255,0.88);
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.76rem;
-  color: #ad1457;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.13s, border-color 0.13s, color 0.13s;
-  flex-shrink: 0;
-}
-.area-chip:hover { background: #fce4ec; }
-.area-chip-active {
-  background: #f06292 !important;
-  border-color: #f06292 !important;
-  color: #fff !important;
-  font-weight: 600;
-}
-.area-chip-count {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 18px;
-  height: 18px;
-  border-radius: 9px;
-  background: rgba(0,0,0,0.10);
-  font-size: 0.68rem;
-  font-weight: 700;
-  padding: 0 4px;
-  margin-left: 1px;
-}
-.area-chip-active .area-chip-count {
-  background: rgba(255,255,255,0.30);
+  padding: 48px 24px 24px;
+  gap: 10px;
 }
 
-.sort-bar {
-  display: flex;
-  gap: 7px;
-  padding: 6px 0 10px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  flex-shrink: 0;
-}
-.sort-bar::-webkit-scrollbar { display: none; }
-
-.sort-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 14px;
-  border-radius: 20px;
-  border: 1.5px solid #f48fb1;
-  background: rgba(255,255,255,0.88);
-  font-family: 'Noto Serif JP', serif;
-  font-size: 0.78rem;
-  color: #ad1457;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.13s, border-color 0.13s, color 0.13s;
-  flex-shrink: 0;
-}
-.sort-chip:hover { background: #fce4ec; }
-.sort-chip-active {
-  background: #e91e8c !important;
-  border-color: #e91e8c !important;
-  color: #fff !important;
-  font-weight: 600;
-}
-
-/* 見頃バッジ */
-.sli-bloom-badge {
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 10px;
-  text-align: right;
-}
-.sli-bloom-1 { background: #fce4ec; color: #880e4f; }   /* 見頃 */
-.sli-bloom-2 { background: #fff3e0; color: #bf360c; }   /* 散り始め */
-.sli-bloom-3 { background: #fce4ec; color: #c2185b; }   /* 開花 */
-.sli-bloom-4 { background: #f5f5f5; color: #888; }      /* 開花前 */
-.sli-bloom-5 { background: #f1f8e9; color: #558b2f; }   /* 葉桜 */
-.sli-bloom-9 { background: #f5f5f5; color: #bbb; }      /* データなし */
-
-/* 人気度星 */
-.sli-stars {
-  font-size: 0.68rem;
-  color: #e91e8c;
-  letter-spacing: -1px;
-  text-align: right;
-}
-
-/* 距離表示 */
-.sli-dist {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: #1976d2;
-  text-align: right;
-}
-
-/* スポット一覧：プラン済み行のハイライト */
-.spot-list-item-planned {
-  background: rgba(252, 228, 236, 0.6) !important;
-  border-color: rgba(244, 143, 177, 0.7) !important;
-}
-
-/* プラン空表示 */
-.plan-empty-msg {
-  text-align: center;
-  padding: 48px 16px;
-  color: #bbb;
-  font-size: 0.88rem;
-  line-height: 1.8;
-}
-
-.plan-empty-icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
+.bloom-empty-icon {
+  font-size: 40px;
   opacity: 0.5;
 }
 
-/* ── Responsive ── */
-@media (max-width: 360px) {
-  .app-title {
-    font-size: 1.3rem;
-  }
-  .spot-name {
-    font-size: 1.05rem;
-  }
-  .cal-cell {
-    min-height: 64px;
-    padding: 6px 4px;
-  }
-  .cal-spot-name {
-    font-size: 0.65rem;
-  }
+.bloom-empty-msg {
+  font-size: 14px;
+  color: var(--text-light);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.bloom-empty-reset {
+  margin-top: 4px;
+  background: var(--pink-deep);
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+
+/* ── Card: seasonal badge & bloom text ── */
+.variety-card-seasonal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 16px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+.variety-card-bloom {
+  font-size: 10px;
+  color: var(--text-light);
+  margin-top: 3px;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.variety-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.variety-card-rarity {
+  font-size: 10px;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+.variety-card-rarity[data-score="1"] { color: #bbb; }
+.variety-card-rarity[data-score="2"] { color: #8bc34a; }
+.variety-card-rarity[data-score="3"] { color: #ff9800; }
+.variety-card-rarity[data-score="4"] { color: #e91e63; }
+.variety-card-rarity[data-score="5"] { color: #9c27b0; }
+
+/* ── Filter count highlight ── */
+.filter-count {
+  color: var(--pink-deep);
+  font-weight: 700;
+}
+
+/* ── Detail: region note & secondary badge ── */
+.bloom-region-note {
+  display: block;
+  font-size: 11px;
+  color: var(--text-light);
+  margin-top: 3px;
+  letter-spacing: 0.03em;
+}
+
+.bloom-secondary-badge {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+/* ── Loading skeleton ── */
+.img-loading {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }

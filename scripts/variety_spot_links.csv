@@ -1,0 +1,1169 @@
+variety_id,variety_name,spot_id,spot_name,link_source,evidence
+aizu-usuzumi,会津薄墨,walker-ar0207e25691,宮川千本桜,text_extraction,Keyword '福島県大沼郡会津美里町' found in aizu-usuzumi text
+aizu-usuzumi,会津薄墨,walker-ar0207e25702,米沢の千歳桜,text_extraction,Keyword '福島県大沼郡会津美里町' found in aizu-usuzumi text
+akabana-mazakura,赤花真桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in akabana-mazakura text
+akatsuki-naden,暁南殿,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in akatsuki-naden text
+akihimezakura,秋姫桜,walker-ar0101e60114,春採公園の桜,text_extraction,Keyword '北海道釧路市' found in akihimezakura text
+amagiyoshino,天城吉野,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in amagiyoshino text
+amagiyoshino,天城吉野,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '天城吉野' at spot containing '造幣局'
+amagiyoshino,天城吉野,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '天城吉野' at spot containing '造幣局'
+amanogawa,天の川,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in amanogawa text
+amanogawa,天の川,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '天の川' (amanogawa) origin matches '荒川'
+amanogawa,天の川,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '天の川' at spot containing '弘前公園'
+amanogawa,天の川,walker-ar0207e25667,花見山の桜,web_search,Web search: '天の川' at spot containing '花見山'
+amanogawa,天の川,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '天の川' (amanogawa) origin matches '荒川'
+amanogawa,天の川,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'アマノガワ' at spot containing '新宿御苑'
+amanogawa,天の川,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in amanogawa text
+amanogawa,天の川,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in amanogawa text
+amanogawa,天の川,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '天の川' at spot containing '造幣局'
+amanogawa,天の川,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '天の川' at spot containing '造幣局'
+amayadori,雨宿,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in amayadori text
+amayadori,雨宿,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '雨宿' (amayadori) origin matches '荒川'
+amayadori,雨宿,walker-ar0101e25542,松前公園の桜,web_search,Web search: '雨宿' at spot containing '松前公園'
+amayadori,雨宿,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '雨宿' (amayadori) origin matches '荒川'
+amayadori,雨宿,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'アマヤドリ' at spot containing '新宿御苑'
+amayadori,雨宿,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in amayadori text
+amayadori,雨宿,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in amayadori text
+amayadori,雨宿,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '雨宿' at spot containing '造幣局'
+amayadori,雨宿,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '雨宿' at spot containing '造幣局'
+america,アメリカ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'アメリカ' at spot containing '新宿御苑'
+arakawanioi,荒川匂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in arakawanioi text
+arakawanioi,荒川匂,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '荒川匂' (arakawanioi) origin matches '荒川'
+arakawanioi,荒川匂,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '荒川匂' (arakawanioi) origin matches '荒川'
+arakawanioi,荒川匂,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in arakawanioi text
+arakawanioi,荒川匂,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in arakawanioi text
+arashiyama,嵐山,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in arashiyama text
+arashiyama,嵐山,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '嵐山' (arashiyama) origin matches '荒川'
+arashiyama,嵐山,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '嵐山' (arashiyama) origin matches '荒川'
+arashiyama,嵐山,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'アラシヤマ' at spot containing '新宿御苑'
+arashiyama,嵐山,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in arashiyama text
+arashiyama,嵐山,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in arashiyama text
+aratama,新珠,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in aratama text
+ariake,有明,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ariake text
+ariake,有明,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '有明' (ariake) origin matches '荒川'
+ariake,有明,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '有明' (ariake) origin matches '荒川'
+ariake,有明,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in ariake text
+ariake,有明,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in ariake text
+ariake,有明,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '有明' at spot containing '造幣局'
+ariake,有明,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '有明' at spot containing '造幣局'
+ashigarazakura,春めき,walker-ar0314e582869,春木径・幸せ道の桜,text_extraction,Keyword '神奈川県南足柄市' found in ashigarazakura text
+atamizakura,熱海桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'アタミザクラ' at spot containing '新宿御苑'
+atamizakura,熱海桜,walker-ar0622e209285,糸川遊歩道の桜,text_extraction,Keyword '静岡県熱海市' found in atamizakura text
+atamizakura,熱海桜,walker-ar0622e218294,熱海城の桜,text_extraction,Keyword '静岡県熱海市' found in atamizakura text
+atamizakura,熱海桜,walker-ar0622e60511,千歳川沿いの桜,text_extraction,Keyword '静岡県熱海市' found in atamizakura text
+ayanishiki,綾錦,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,text_extraction,Keyword '東京都豊島区' found in ayanishiki text
+ayanishiki,綾錦,walker-ar0313e382209,南大塚三丁目桜並木通りの桜,text_extraction,Keyword '東京都豊島区' found in ayanishiki text
+ayanishiki,綾錦,walker-ar0313e60565,法明寺の桜,text_extraction,Keyword '東京都豊島区' found in ayanishiki text
+ayanishiki,綾錦,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '綾錦' at spot containing '造幣局'
+ayanishiki,綾錦,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '綾錦' at spot containing '造幣局'
+azumahigan,東彼岸,walker-ar0207e25692,三春滝桜,text_extraction,Keyword '三春滝桜' found in azumahigan text
+azumahigan,東彼岸,walker-ar0419e25973,山高神代桜,text_extraction,Keyword '山高神代桜' found in azumahigan text
+azumanishiki,東錦,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in azumanishiki text
+azumanishiki,東錦,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '東錦' (azumanishiki) origin matches '荒川'
+azumanishiki,東錦,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '東錦' at spot containing '弘前公園'
+azumanishiki,東錦,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '東錦' (azumanishiki) origin matches '荒川'
+azumanishiki,東錦,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in azumanishiki text
+azumanishiki,東錦,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in azumanishiki text
+azumanishiki,東錦,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '東錦' at spot containing '造幣局'
+azumanishiki,東錦,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '東錦' at spot containing '造幣局'
+baigoji-juzukakezakura,梅護寺数珠掛桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '梅護寺数珠掛桜' at spot containing '弘前公園'
+baigoji-juzukakezakura,梅護寺数珠掛桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'バイゴジジュズカケザクラ' at spot containing '新宿御苑'
+baigoji-juzukakezakura,梅護寺数珠掛桜,walker-ar0415e60126,瓢湖水きん公園の桜,text_extraction,Keyword '新潟県阿賀野市' found in baigoji-juzukakezakura text
+banrikou,萬里香,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in banrikou text
+banrikou,萬里香,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '萬里香' (banrikou) origin matches '荒川'
+banrikou,萬里香,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in banrikou text
+banrikou,萬里香,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '萬里香' (banrikou) origin matches '荒川'
+banrikou,萬里香,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '萬里香' at spot containing '造幣局'
+banrikou,萬里香,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '萬里香' at spot containing '造幣局'
+bendono,弁殿,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in bendono text
+bendono,弁殿,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '弁殿' (bendono) origin matches '荒川'
+bendono,弁殿,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '弁殿' (bendono) origin matches '荒川'
+bendono,弁殿,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ベンドノ' at spot containing '新宿御苑'
+beni-chochin,紅提灯,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in beni-chochin text
+beni-demari,紅手毬,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in beni-demari text
+beni-demari,紅手毬,walker-ar0834e221175,ひろしま遊学の森 広島県緑化センター さくら通りの桜,web_search,Web search: '紅手毬' at spot containing '広島'
+beni-demari,紅手毬,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '紅手毬' at spot containing '広島'
+beni-demari,紅手毬,walker-ar0834e60423,広島市植物公園の桜,web_search,Web search: '紅手毬' at spot containing '広島'
+beni-nanden,紅南殿,walker-ar0623e60230,尾張大國霊神社(国府宮)の桜,text_extraction,Keyword '愛知県稲沢市' found in beni-nanden text
+beni-nanden,紅南殿,walker-ar0623e60386,桜ネックレスの桜,text_extraction,Keyword '愛知県稲沢市' found in beni-nanden text
+beni-shidare,紅枝垂,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'ベニシダレ' at spot containing '弘前公園'
+beni-shidare,紅枝垂,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ベニシダレ' at spot containing '新宿御苑'
+beni-shigure,紅時雨,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in beni-shigure text
+beni-tamanishiki,紅玉錦,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in beni-tamanishiki text
+beniyutaka,紅豊,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in beniyutaka text
+beniyutaka,紅豊,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '紅豊' at spot containing '弘前公園'
+beniyutaka,紅豊,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ベニユタカ' at spot containing '新宿御苑'
+benizuruzakura,紅鶴桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ベニヅルザクラ' at spot containing '新宿御苑'
+botan,牡丹,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in botan text
+botan,牡丹,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '牡丹' (botan) origin matches '荒川'
+botan,牡丹,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '牡丹' (botan) origin matches '荒川'
+chichibuzakura,秩父桜,walker-ar0311e25764,美の山(みのやま)公園の桜,text_extraction,Keyword '埼玉県秩父市' found in chichibuzakura text
+chichibuzakura,秩父桜,walker-ar0311e582193,清雲寺のしだれ桜,text_extraction,Keyword '埼玉県秩父市' found in chichibuzakura text
+chichibuzakura,秩父桜,walker-ar0311e60431,羊山公園の桜,text_extraction,Keyword '埼玉県秩父市' found in chichibuzakura text
+chosyuhizakura,長州緋桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in chosyuhizakura text
+chosyuhizakura,長州緋桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '長州緋桜' (chosyuhizakura) origin matches '荒川'
+chosyuhizakura,長州緋桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '長州緋桜' (chosyuhizakura) origin matches '荒川'
+chosyuhizakura,長州緋桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'チョウシュウヒザクラ' at spot containing '新宿御苑'
+edo,江戸,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in edo text
+edo,江戸,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '江戸' (edo) origin matches '荒川'
+edo,江戸,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '江戸' (edo) origin matches '荒川'
+edo,江戸,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'エド' at spot containing '新宿御苑'
+edo,江戸,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '江戸' at spot containing '造幣局'
+edo,江戸,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '江戸' at spot containing '造幣局'
+edo-zakura,江戸桜,walker-ar0313e25816,新宿御苑の桜,text_extraction,Keyword '新宿御苑' found in edo-zakura text
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar0311e382212,鉢形城の桜・エドヒガン(氏邦桜),one_tree,Pattern match: spot name contains 'エドヒガン' -> edohigan-ichifusa-beni
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar0420e60120,宇木のエドヒガン(千歳桜),one_tree,Pattern match: spot name contains 'エドヒガン' -> edohigan-ichifusa-beni
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar0420e60197,中曽根のエドヒガン,one_tree,Pattern match: spot name contains 'エドヒガン' -> edohigan-ichifusa-beni
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar0624e60354,春谷寺エドヒガンザクラ,one_tree,Pattern match: spot name contains 'エドヒガン' -> edohigan-ichifusa-beni
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar0936e60219,吉良のエドヒガンザクラ,one_tree,Pattern match: spot name contains 'エドヒガン' -> edohigan-ichifusa-beni
+edohigan-ichifusa-beni,江戸彼岸（市房紅）,walker-ar1043e26368,市房ダム湖周辺の桜,text_extraction,Keyword '熊本県球磨郡水上村' found in edohigan-ichifusa-beni text
+edohigan-mukaino,江戸彼岸（向野）,walker-ar0516e60131,安居寺公園の桜,text_extraction,Keyword '富山県南砺市' found in edohigan-mukaino text
+edohigan-mukaino,江戸彼岸（向野）,walker-ar0516e60164,小矢部川公園千本桜,text_extraction,Keyword '富山県南砺市' found in edohigan-mukaino text
+edohigan-yamataka-jindai-zakura,江戸彼岸（山高神代桜）,walker-ar0207e25692,三春滝桜,text_extraction,Keyword '三春滝桜' found in edohigan-yamataka-jindai-zakura text
+edohigan-yamataka-jindai-zakura,江戸彼岸（山高神代桜）,walker-ar0419e25961,身延山久遠寺の桜,text_extraction,Keyword '身延山久遠寺' found in edohigan-yamataka-jindai-zakura text
+edohigan-yamataka-jindai-zakura,江戸彼岸（山高神代桜）,walker-ar0419e25966,清春芸術村の桜,text_extraction,Keyword '山梨県北杜市' found in edohigan-yamataka-jindai-zakura text
+edohigan-yamataka-jindai-zakura,江戸彼岸（山高神代桜）,walker-ar0419e25973,山高神代桜,text_extraction,Keyword '山梨県北杜市' found in edohigan-yamataka-jindai-zakura text
+edohigan-yamataka-jindai-zakura,江戸彼岸（山高神代桜）,walker-ar0621e26027,根尾谷淡墨桜,text_extraction,Keyword '根尾谷淡墨桜' found in edohigan-yamataka-jindai-zakura text
+edohigan-zakura,江戸彼岸桜,isazawa-kubozakura,伊佐沢の久保桜,one_tree,One-tree/named spot: '伊佐沢の久保' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0206e60139,伊佐沢の久保ザクラ,one_tree,One-tree/named spot: '伊佐沢の久保' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0207e25692,三春滝桜,one_tree,One-tree/named spot: '三春滝桜' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0419e25973,山高神代桜,one_tree,One-tree/named spot: '山高神代桜' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0621e26027,根尾谷淡墨桜,one_tree,One-tree/named spot: '根尾谷淡墨桜' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0621e26033,荘川桜,one_tree,One-tree/named spot: '荘川桜' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0728e26162,樽見の大桜,one_tree,One-tree/named spot: '樽見の大' linked to edohigan-zakura
+edohigan-zakura,江戸彼岸桜,walker-ar0833e26234,醍醐桜,one_tree,One-tree/named spot: '醍醐桜' linked to edohigan-zakura
+eigenji,永源寺,walker-ar0725e60266,「国史跡」釈迦山 百済寺(湖東三山)の桜,text_extraction,Keyword '滋賀県東近江市' found in eigenji text
+eigenji,永源寺,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '永源寺' at spot containing '造幣局'
+eigenji,永源寺,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '永源寺' at spot containing '造幣局'
+entsuji-zakura,円通寺桜,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in entsuji-zakura text
+entsuji-zakura,円通寺桜,walker-ar0622e26054,冨士霊園の桜,text_extraction,Keyword '静岡県駿東郡小山町' found in entsuji-zakura text
+entsuji-zakura,円通寺桜,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in entsuji-zakura text
+ezo-nishiki,蝦夷錦,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ezo-nishiki text
+fudan-zakura,不断桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '不断桜' at spot containing '造幣局'
+fudan-zakura,不断桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '不断桜' at spot containing '造幣局'
+fugenzou,普賢象,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in fugenzou text
+fugenzou,普賢象,tama-forest-science,多摩森林科学園,web_search,Web search: '普賢象' at spot containing '多摩森林科学園'
+fugenzou,普賢象,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '普賢象' at spot containing '弘前公園'
+fugenzou,普賢象,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'フゲンゾウ' at spot containing '新宿御苑'
+fugenzou,普賢象,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in fugenzou text
+fugenzou,普賢象,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in fugenzou text
+fugenzou,普賢象,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '普賢象' at spot containing '造幣局'
+fugenzou,普賢象,walker-ar0834e221175,ひろしま遊学の森 広島県緑化センター さくら通りの桜,web_search,Web search: '普賢象' at spot containing '広島'
+fugenzou,普賢象,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '普賢象' at spot containing '造幣局'
+fugenzou,普賢象,walker-ar0834e60423,広島市植物公園の桜,web_search,Web search: '普賢象' at spot containing '広島'
+fuku-zakura,福桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '福桜' at spot containing '造幣局'
+fuku-zakura,福桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '福桜' at spot containing '造幣局'
+fukurokujyu,福禄寿,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in fukurokujyu text
+fukurokujyu,福禄寿,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '福禄寿' at spot containing '弘前公園'
+fukurokujyu,福禄寿,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in fukurokujyu text
+fukurokujyu,福禄寿,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in fukurokujyu text
+fukurokujyu,福禄寿,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '福禄寿' at spot containing '造幣局'
+fukurokujyu,福禄寿,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '福禄寿' at spot containing '造幣局'
+fukuzaura,福寿桜,walker-ar0517e25921,特別名勝兼六園の桜,text_extraction,Keyword '石川県金沢市' found in fukuzaura text
+fukuzaura,福寿桜,walker-ar0517e25930,卯辰山公園の桜,text_extraction,Keyword '石川県金沢市' found in fukuzaura text
+funabara-yoshino,船原吉野,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '船原吉野' at spot containing '弘前公園'
+futakami-zakura,二上山,walker-ar0516e25912,高岡古城公園の桜,text_extraction,Keyword '富山県高岡市' found in futakami-zakura text
+futakami-zakura,二上山,walker-ar0516e25914,岸渡川堤の桜,text_extraction,Keyword '富山県高岡市' found in futakami-zakura text
+fuyu-zakura,冬桜,sagamihara-park,相模原公園,web_search,Web search: '冬桜' at spot containing '相模'
+fuyu-zakura,冬桜,walker-ar0205e25636,日本国花苑の桜,web_search,Web search: '冬桜' at spot containing '国花苑'
+fuyu-zakura,冬桜,walker-ar0310e25754,桜山公園の桜(群馬県),text_extraction,Keyword '群馬県藤岡市' found in fuyu-zakura text
+fuyu-zakura,冬桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '冬桜' at spot containing '相模'
+fuyu-zakura,冬桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '冬桜' at spot containing '相模'
+fuyu-zakura,冬桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '冬桜' at spot containing '相模'
+fuyu-zakura,冬桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '冬桜' at spot containing '京都府立植物園'
+ganman-zakura,含満桜,walker-ar0309e216300,鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜,text_extraction,Keyword '栃木県日光市' found in ganman-zakura text
+gioji-gijo-zakura,祇王寺祇女桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '祇王寺祇女桜' at spot containing '造幣局'
+gioji-gijo-zakura,祇王寺祇女桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '祇王寺祇女桜' at spot containing '造幣局'
+goshinzakura,御信桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '御信桜' at spot containing '造幣局'
+goshinzakura,御信桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '御信桜' at spot containing '造幣局'
+gosyozakura,五所桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in gosyozakura text
+gosyozakura,五所桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '五所桜' (gosyozakura) origin matches '荒川'
+gosyozakura,五所桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '五所桜' (gosyozakura) origin matches '荒川'
+gosyozakura,五所桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ゴショザクラ' at spot containing '新宿御苑'
+gosyozakura,五所桜,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in gosyozakura text
+gosyozakura,五所桜,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in gosyozakura text
+goten-nioi,御殿匂,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '御殿匂' at spot containing '造幣局'
+goten-nioi,御殿匂,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '御殿匂' at spot containing '造幣局'
+gotenba-zakura,御殿場桜,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in gotenba-zakura text
+gotenba-zakura,御殿場桜,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in gotenba-zakura text
+gozanomanioi,御座の間匂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in gozanomanioi text
+gozanomanioi,御座の間匂,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '御座の間匂' (gozanomanioi) origin matches '荒川'
+gozanomanioi,御座の間匂,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in gozanomanioi text
+gozanomanioi,御座の間匂,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '御座の間匂' (gozanomanioi) origin matches '荒川'
+gozanomanioi,御座の間匂,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in gozanomanioi text
+gozanomanioi,御座の間匂,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in gozanomanioi text
+gozanomanioi,御座の間匂,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '御座の間匂' at spot containing '造幣局'
+gozanomanioi,御座の間匂,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '御座の間匂' at spot containing '造幣局'
+gyoikou,御衣黄,tama-forest-science,多摩森林科学園,web_search,Web search: '御衣黄' at spot containing '多摩森林科学園'
+gyoikou,御衣黄,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '御衣黄' at spot containing '弘前公園'
+gyoikou,御衣黄,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ギョイコウ' at spot containing '新宿御苑'
+gyoikou,御衣黄,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: '御衣黄' at spot containing '上野'
+gyoikou,御衣黄,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: '御衣黄' at spot containing '上野'
+gyoikou,御衣黄,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '御衣黄' at spot containing '京都府立植物園'
+gyoikou,御衣黄,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '御衣黄' at spot containing '造幣局'
+gyoikou,御衣黄,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '御衣黄' at spot containing '造幣局'
+gyosyo,暁鐘,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '暁鐘' (gyosyo) origin matches '松前公園'
+gyosyo,暁鐘,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '暁鐘' at spot containing '造幣局'
+gyosyo,暁鐘,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '暁鐘' at spot containing '造幣局'
+hakusan-hatazakura,白山旗桜,walker-ar0313e26443,六義園の桜,text_extraction,Keyword '東京都文京区' found in hakusan-hatazakura text
+hakusan-hatazakura,白山旗桜,walker-ar0313e26523,播磨坂さくら並木の桜,text_extraction,Keyword '東京都文京区' found in hakusan-hatazakura text
+hakusan-hatazakura,白山旗桜,walker-ar0313e377373,ホテル椿山荘東京の桜,text_extraction,Keyword '東京都文京区' found in hakusan-hatazakura text
+hakusan-hatazakura,白山旗桜,walker-ar0313e380522,江戸川公園・神田川沿いの桜,text_extraction,Keyword '東京都文京区' found in hakusan-hatazakura text
+hakusan-hatazakura,白山旗桜,walker-ar0313e60406,小石川後楽園の桜,text_extraction,Keyword '東京都文京区' found in hakusan-hatazakura text
+hanagasa,花笠,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in hanagasa text
+hanagasa,花笠,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '花笠' at spot containing '造幣局'
+hanagasa,花笠,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '花笠' at spot containing '造幣局'
+hanagatami-zakura,花筺桜,walker-ar0518e25943,花筐公園の桜,text_extraction,Keyword '福井県越前市' found in hanagatami-zakura text
+hanagatami-zakura,花筺桜,walker-ar0518e25948,味真野小学校の桜,text_extraction,Keyword '福井県越前市' found in hanagatami-zakura text
+hanagatami-zakura,花筺桜,walker-ar0518e60390,万葉の里 味真野苑の桜,text_extraction,Keyword '福井県越前市' found in hanagatami-zakura text
+hanakagami,華加賀美,walker-ar0517e25923,芦城公園の桜,text_extraction,Keyword '石川県小松市' found in hanakagami text
+haruka,はるか,tama-forest-science,多摩森林科学園,text_extraction,Keyword '多摩森林科学園' found in haruka text
+higan-zakura,彼岸桜,sagamihara-park,相模原公園,web_search,Web search: '彼岸桜' at spot containing '相模'
+higan-zakura,彼岸桜,walker-ar0207e25667,花見山の桜,web_search,Web search: 'ヒガンザクラ' at spot containing '花見山'
+higan-zakura,彼岸桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: '彼岸桜' at spot containing '新宿御苑'
+higan-zakura,彼岸桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '彼岸桜' at spot containing '相模'
+higan-zakura,彼岸桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '彼岸桜' at spot containing '相模'
+higan-zakura,彼岸桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '彼岸桜' at spot containing '相模'
+higan-zakura,彼岸桜,walker-ar0726e26129,平野神社の桜,web_search,Web search: '彼岸桜' at spot containing '平野神社'
+higan-zakura,彼岸桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '彼岸桜' at spot containing '京都府立植物園'
+higurashi,日暮,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in higurashi text
+higurashi,日暮,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '日暮' at spot containing '弘前公園'
+higurashi,日暮,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in higurashi text
+higurashi,日暮,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in higurashi text
+hinagikuzakura,雛菊桜（菊枝垂の別種）,walker-ar0415e25900,弥彦公園(早咲き)の桜,text_extraction,Keyword '新潟県西蒲原郡弥彦村' found in hinagikuzakura text
+hirano-tsukubane,突羽根（平野突羽根）,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in hirano-tsukubane text
+hirano-tsukubane,突羽根（平野突羽根）,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in hirano-tsukubane text
+hirano-tsukubane,突羽根（平野突羽根）,walker-ar0727e26135,造幣局　桜の通り抜け,origin_name,Origin name: variety '突羽根（平野突羽根）' (hirano-tsukubane) origin matches '造幣局'
+hirano-tsukubane,突羽根（平野突羽根）,walker-ar0834e26242,造幣局広島支局 花のまわりみち,origin_name,Origin name: variety '突羽根（平野突羽根）' (hirano-tsukubane) origin matches '造幣局'
+hiranojinja-imose,妹背（平野神社）,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '妹背（平野神社）' (hiranojinja-imose) origin matches '松前公園'
+hiranojinja-imose,妹背（平野神社）,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'イモセ' at spot containing '新宿御苑'
+hiranojinja-imose,妹背（平野神社）,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in hiranojinja-imose text
+hiranojinja-imose,妹背（平野神社）,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '妹背' at spot containing '造幣局'
+hiranojinja-imose,妹背（平野神社）,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '妹背' at spot containing '造幣局'
+hirosaki-sandanzaki,弘前三段咲,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,text_extraction,Keyword '青森県弘前市' found in hirosaki-sandanzaki text
+hirosaki-yukiakari,弘前雪明かり,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '弘前雪明かり' at spot containing '弘前公園'
+hitachi-miyabi,常陸乙女,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '常陸乙女' (hitachi-miyabi) origin matches '松前公園'
+hitachi-miyabi-zakura,ひたち雅,walker-ar0308e25707,かみね公園の桜,text_extraction,Keyword '茨城県日立市' found in hitachi-miyabi-zakura text
+hitachi-miyabi-zakura,ひたち雅,walker-ar0308e60189,十王パノラマ公園の桜,text_extraction,Keyword '茨城県日立市' found in hitachi-miyabi-zakura text
+hitachi-miyabi-zakura,ひたち雅,walker-ar0308e60509,平和通りの桜,text_extraction,Keyword '茨城県日立市' found in hitachi-miyabi-zakura text
+hitachi-miyabi-zakura,ひたち雅,walker-ar0308e60548,城跡歴史公園の桜,text_extraction,Keyword '茨城県結城市' found in hitachi-miyabi-zakura text
+hitachi-miyabi-zakura,ひたち雅,yuki-sakura-farm,日本花の会 結城農場 桜見本園,text_extraction,Keyword '茨城県結城市' found in hitachi-miyabi-zakura text
+hiyodorizakura,鵯桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '鵯桜' at spot containing '弘前公園'
+hiyodorizakura,鵯桜,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: '鵯桜' at spot containing '林業試験場'
+hiyoshizakura,日吉桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ヒヨシザクラ' at spot containing '新宿御苑'
+hiyoshizakura,日吉桜,walker-ar0725e26098,石山寺の桜,text_extraction,Keyword '滋賀県大津市' found in hiyoshizakura text
+hiyoshizakura,日吉桜,walker-ar0725e26099,三井寺(園城寺)の桜,text_extraction,Keyword '滋賀県大津市' found in hiyoshizakura text
+hiyoshizakura,日吉桜,walker-ar0725e26100,琵琶湖疏水の桜,text_extraction,Keyword '滋賀県大津市' found in hiyoshizakura text
+hiyoshizakura,日吉桜,walker-ar0725e26109,奥比叡・延暦寺境内の桜,text_extraction,Keyword '滋賀県大津市' found in hiyoshizakura text
+hiyoshizakura,日吉桜,walker-ar0725e60614,南郷水産センターの桜,text_extraction,Keyword '滋賀県大津市' found in hiyoshizakura text
+hoki-zakura,伯耆桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in hoki-zakura text
+hoki-zakura,伯耆桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '伯耆桜' (hoki-zakura) origin matches '荒川'
+hoki-zakura,伯耆桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '伯耆桜' (hoki-zakura) origin matches '荒川'
+honseijishidare,本誓寺枝垂,walker-ar0101e25532,円山公園の桜(北海道),text_extraction,Keyword '円山公園' found in honseijishidare text
+honseijishidare,本誓寺枝垂,walker-ar0203e100218,盛岡市動物公園ZOOMOの桜,text_extraction,Keyword '岩手県盛岡市' found in honseijishidare text
+honseijishidare,本誓寺枝垂,walker-ar0203e25579,盛岡城跡公園(岩手公園)の桜,text_extraction,Keyword '岩手県盛岡市' found in honseijishidare text
+honseijishidare,本誓寺枝垂,walker-ar0203e25580,高松公園の桜,text_extraction,Keyword '岩手県盛岡市' found in honseijishidare text
+honseijishidare,本誓寺枝垂,walker-ar0203e25581,石割桜,text_extraction,Keyword '岩手県盛岡市' found in honseijishidare text
+honseijishidare,本誓寺枝垂,walker-ar0203e25600,米内浄水場の桜,text_extraction,Keyword '岩手県盛岡市' found in honseijishidare text
+hoshu-zakura,宝珠桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ホウシュザクラ' at spot containing '新宿御苑'
+hosokawa-nioi,細川匂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in hosokawa-nioi text
+hosokawa-nioi,細川匂,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '細川匂' (hosokawa-nioi) origin matches '荒川'
+hosokawa-nioi,細川匂,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '細川匂' (hosokawa-nioi) origin matches '荒川'
+houraizakura,蓬莱桜,jindai-botanical,神代植物公園,text_extraction,Keyword '神代植物公園' found in houraizakura text
+hozaki-higan-yaezakura,穂咲彼岸八重桜,walker-ar0415e25899,村松公園の桜,text_extraction,Keyword '新潟県五泉市' found in hozaki-higan-yaezakura text
+ichiharatoranoo,市原虎の尾,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'イチハラトラノオ' at spot containing '新宿御苑'
+ichiharatoranoo,市原虎の尾,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '市原虎の尾' at spot containing '造幣局'
+ichiharatoranoo,市原虎の尾,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '市原虎の尾' at spot containing '造幣局'
+ichiyou,一葉,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ichiyou text
+ichiyou,一葉,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '一葉' (ichiyou) origin matches '荒川'
+ichiyou,一葉,tama-forest-science,多摩森林科学園,web_search,Web search: '一葉' at spot containing '多摩森林科学園'
+ichiyou,一葉,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '一葉' at spot containing '弘前公園'
+ichiyou,一葉,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '一葉' (ichiyou) origin matches '荒川'
+ichiyou,一葉,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'イチヨウ' at spot containing '新宿御苑'
+ichiyou,一葉,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in ichiyou text
+ichiyou,一葉,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in ichiyou text
+ichiyou,一葉,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '一葉' at spot containing '造幣局'
+ichiyou,一葉,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '一葉' at spot containing '造幣局'
+ichiyou,一葉,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '一葉' at spot containing '結城農場'
+ito-zakura,伊東桜,walker-ar0622e26047,伊豆高原桜並木,text_extraction,Keyword '静岡県伊東市' found in ito-zakura text
+ito-zakura,伊東桜,walker-ar0622e26048,さくらの里の桜,text_extraction,Keyword '静岡県伊東市' found in ito-zakura text
+ito-zakura,伊東桜,walker-ar0622e376062,伊東温泉の桜,text_extraction,Keyword '静岡県伊東市' found in ito-zakura text
+itokukuri,糸括,walker-ar0101e25542,松前公園の桜,web_search,Web search: '糸括' at spot containing '松前公園'
+itokukuri,糸括,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '糸括' at spot containing '造幣局'
+itokukuri,糸括,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '糸括' at spot containing '造幣局'
+itozakura,糸桜,walker-ar0101e25532,円山公園の桜(北海道),text_extraction,Keyword '円山公園' found in itozakura text
+itsukayama,早晩山,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in itsukayama text
+itsukayama,早晩山,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '早晩山' (itsukayama) origin matches '荒川'
+itsukayama,早晩山,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '早晩山' (itsukayama) origin matches '荒川'
+itsukayama,早晩山,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in itsukayama text
+itsukayama,早晩山,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in itsukayama text
+itsukayama,早晩山,walker-ar0727e26144,五月山緑地の桜,text_extraction,Keyword '大阪府池田市' found in itsukayama text
+iyo-usuzumi,伊予薄墨,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '伊予薄墨' at spot containing '造幣局'
+iyo-usuzumi,伊予薄墨,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '伊予薄墨' at spot containing '造幣局'
+iyo-usuzumi,伊予薄墨,walker-ar0938e26307,松山城(城山公園)の桜,text_extraction,Keyword '愛媛県松山市' found in iyo-usuzumi text
+iyo-usuzumi,伊予薄墨,walker-ar0938e26308,道後公園の桜,text_extraction,Keyword '愛媛県松山市' found in iyo-usuzumi text
+iyokumagai,伊予熊谷,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '伊予熊谷' at spot containing '造幣局'
+iyokumagai,伊予熊谷,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '伊予熊谷' at spot containing '造幣局'
+izu-saifukuji-shidare,伊豆最福寺枝垂,walker-ar0207e25670,紅枝垂地蔵ザクラ,one_tree,Pattern match: spot name contains '枝垂' -> izu-saifukuji-shidare
+izu-saifukuji-shidare,伊豆最福寺枝垂,walker-ar0622e213882,松原公園の桜,text_extraction,Keyword '静岡県伊豆市' found in izu-saifukuji-shidare text
+izu-saifukuji-shidare,伊豆最福寺枝垂,walker-ar0726e382553,鴨川公園(半木の道)の八重紅枝垂桜,one_tree,Pattern match: spot name contains '枝垂' -> izu-saifukuji-shidare
+izu-saifukuji-shidare,伊豆最福寺枝垂,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '伊豆最福寺枝垂' at spot containing '造幣局'
+izu-saifukuji-shidare,伊豆最福寺枝垂,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '伊豆最福寺枝垂' at spot containing '造幣局'
+izu-yoshino,伊豆吉野,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'イズヨシノ' at spot containing '新宿御苑'
+izu-yoshino,伊豆吉野,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in izu-yoshino text
+jindai-akebono,神代曙,jindai-botanical,神代植物公園,text_extraction,Keyword '神代植物公園' found in jindai-akebono text
+jindai-akebono,神代曙,sagamihara-park,相模原公園,web_search,Web search: '神代曙' at spot containing '相模'
+jindai-akebono,神代曙,walker-ar0313e25846,都立神代植物公園の桜,text_extraction,Keyword '東京都調布市' found in jindai-akebono text
+jindai-akebono,神代曙,walker-ar0313e380523,国立劇場の桜,web_search,Web search: '神代曙' at spot containing '国立劇場'
+jindai-akebono,神代曙,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '神代曙' at spot containing '相模'
+jindai-akebono,神代曙,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '神代曙' at spot containing '相模'
+jindai-akebono,神代曙,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '神代曙' at spot containing '相模'
+jogasaki-zakura,城ヶ崎桜,walker-ar0622e26047,伊豆高原桜並木,text_extraction,Keyword '静岡県伊東市' found in jogasaki-zakura text
+jogasaki-zakura,城ヶ崎桜,walker-ar0622e26048,さくらの里の桜,text_extraction,Keyword '静岡県伊東市' found in jogasaki-zakura text
+jogasaki-zakura,城ヶ崎桜,walker-ar0622e376062,伊東温泉の桜,text_extraction,Keyword '静岡県伊東市' found in jogasaki-zakura text
+jugatsu-zakura,十月桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '十月桜' at spot containing '弘前公園'
+jugatsu-zakura,十月桜,walker-ar0207e25667,花見山の桜,web_search,Web search: '十月桜' at spot containing '花見山'
+jugatsu-zakura,十月桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ジュウガツザクラ' at spot containing '新宿御苑'
+jurokunichi-zakura,十六日桜,walker-ar0938e26307,松山城(城山公園)の桜,text_extraction,Keyword '愛媛県松山市' found in jurokunichi-zakura text
+jurokunichi-zakura,十六日桜,walker-ar0938e26308,道後公園の桜,text_extraction,Keyword '愛媛県松山市' found in jurokunichi-zakura text
+jyonioi,上匂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in jyonioi text
+jyonioi,上匂,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '上匂' (jyonioi) origin matches '荒川'
+jyonioi,上匂,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '上匂' (jyonioi) origin matches '荒川'
+kaba-sakura,蒲桜,walker-ar0311e25768,石戸蒲ザクラ,text_extraction,Keyword '石戸蒲ザクラ' found in kaba-sakura text
+kaba-sakura,蒲桜,walker-ar0311e381777,あかぎ公園の桜,text_extraction,Keyword '埼玉県鴻巣市' found in kaba-sakura text
+kaba-sakura,蒲桜,walker-ar0311e60428,鴻巣公園の桜,text_extraction,Keyword '埼玉県鴻巣市' found in kaba-sakura text
+kaba-sakura,蒲桜,walker-ar0311e60429,元荒川の桜並木の桜,text_extraction,Keyword '埼玉県鴻巣市' found in kaba-sakura text
+kakegawa-zakura,掛川桜,walker-ar0622e219695,つま恋リゾート彩の郷(さいのさと)の桜,text_extraction,Keyword '静岡県掛川市' found in kakegawa-zakura text
+kakegawa-zakura,掛川桜,walker-ar0622e60238,粟ヶ岳の桜,text_extraction,Keyword '静岡県掛川市' found in kakegawa-zakura text
+kamatari-zakura,鎌足桜,walker-ar0312e60553,太田山公園の桜,text_extraction,Keyword '千葉県木更津市' found in kamatari-zakura text
+kamatari-zakura,鎌足桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '鎌足桜' at spot containing '造幣局'
+kamatari-zakura,鎌足桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '鎌足桜' at spot containing '造幣局'
+kamiiso-ushiozakura,上磯海潮桜,walker-ar0101e216009,清川千本桜,text_extraction,Keyword '北海道北斗市' found in kamiiso-ushiozakura text
+kamiiso-ushiozakura,上磯海潮桜,walker-ar0101e60101,五稜郭公園の桜,text_extraction,Keyword '北海道函館市' found in kamiiso-ushiozakura text
+kamiiso-ushiozakura,上磯海潮桜,walker-ar0101e60117,松前藩戸切地(へきりち)陣屋跡桜並木トンネル,text_extraction,Keyword '北海道北斗市' found in kamiiso-ushiozakura text
+kamiiso-ushiozakura,上磯海潮桜,walker-ar0101e60118,函館公園の桜,text_extraction,Keyword '北海道函館市' found in kamiiso-ushiozakura text
+kamiyama-shidare-zakura,神山枝垂桜,walker-ar0936e580706,神山森林公園イルローザの森の桜,text_extraction,Keyword '徳島県名西郡神山町' found in kamiyama-shidare-zakura text
+kanhizakura,カンヒザクラ,sagamihara-park,相模原公園,web_search,Web search: '寒緋桜' at spot containing '相模'
+kanhizakura,カンヒザクラ,tama-forest-science,多摩森林科学園,web_search,Web search: '寒緋桜' at spot containing '多摩森林科学園'
+kanhizakura,カンヒザクラ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '寒緋桜' at spot containing '弘前公園'
+kanhizakura,カンヒザクラ,walker-ar0207e25667,花見山の桜,web_search,Web search: 'カンヒザクラ' at spot containing '花見山'
+kanhizakura,カンヒザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'カンヒザクラ' at spot containing '新宿御苑'
+kanhizakura,カンヒザクラ,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: '寒緋桜' at spot containing '上野'
+kanhizakura,カンヒザクラ,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '寒緋桜' at spot containing '相模'
+kanhizakura,カンヒザクラ,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '寒緋桜' at spot containing '相模'
+kanhizakura,カンヒザクラ,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '寒緋桜' at spot containing '相模'
+kanhizakura,カンヒザクラ,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: '寒緋桜' at spot containing '上野'
+kanhizakura,カンヒザクラ,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'カンヒザクラ' at spot containing '二条城'
+kanhizakura,カンヒザクラ,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '寒緋桜' at spot containing '京都府立植物園'
+kanzakura,寒桜,sagamihara-park,相模原公園,web_search,Web search: '寒桜' at spot containing '相模'
+kanzakura,寒桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: '寒桜' at spot containing '新宿御苑'
+kanzakura,寒桜,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: '寒桜' at spot containing '上野'
+kanzakura,寒桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '寒桜' at spot containing '相模'
+kanzakura,寒桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '寒桜' at spot containing '相模'
+kanzakura,寒桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '寒桜' at spot containing '相模'
+kanzakura,寒桜,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: '寒桜' at spot containing '上野'
+kanzakura,寒桜,walker-ar0726e26129,平野神社の桜,web_search,Web search: '寒桜' at spot containing '平野神社'
+kanzakura,寒桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '寒桜' at spot containing '京都府立植物園'
+kanzakura,寒桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '寒桜' at spot containing '造幣局'
+kanzakura,寒桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '寒桜' at spot containing '造幣局'
+kanzan,関山,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in kanzan text
+kanzan,関山,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '関山' (kanzan) origin matches '荒川'
+kanzan,関山,tama-forest-science,多摩森林科学園,web_search,Web search: '関山' at spot containing '多摩森林科学園'
+kanzan,関山,walker-ar0101e25542,松前公園の桜,web_search,Web search: '関山' at spot containing '松前公園'
+kanzan,関山,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '関山' at spot containing '弘前公園'
+kanzan,関山,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '関山' (kanzan) origin matches '荒川'
+kanzan,関山,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'カンザン' at spot containing '新宿御苑'
+kanzan,関山,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: '関山' at spot containing '上野'
+kanzan,関山,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: '関山' at spot containing '上野'
+kanzan,関山,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '関山' at spot containing '造幣局'
+kanzan,関山,walker-ar0834e221175,ひろしま遊学の森 広島県緑化センター さくら通りの桜,web_search,Web search: '関山' at spot containing '広島'
+kanzan,関山,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '関山' at spot containing '造幣局'
+kanzan,関山,walker-ar0834e60423,広島市植物公園の桜,web_search,Web search: '関山' at spot containing '広島'
+kanzan,関山,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '関山' at spot containing '結城農場'
+kanzashi-zakura,簪桜,walker-ar0204e25604,榴岡公園の桜,text_extraction,Keyword '宮城県仙台市宮城' found in kanzashi-zakura text
+kanzashi-zakura,簪桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '簪桜' at spot containing '造幣局'
+kanzashi-zakura,簪桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '簪桜' at spot containing '造幣局'
+kasugai,春日井,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '春日井' at spot containing '造幣局'
+kasugai,春日井,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '春日井' at spot containing '造幣局'
+kasumizakura,カスミザクラ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'カスミザクラ' at spot containing '弘前公園'
+kasumizakura,カスミザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'カスミザクラ' at spot containing '新宿御苑'
+kawaduzakura,河津桜,kawazu-matsuri,河津桜まつり会場,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,sagamihara-park,相模原公園,web_search,Web search: '河津桜' at spot containing '相模'
+kawaduzakura,河津桜,walker-ar0312e495404,養老川五井大橋付近の河津桜,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0312e496001,松戸宿坂川の河津桜,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0312e496159,西志津スポーツ等多目的広場の河津桜,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'カワヅザクラ' at spot containing '新宿御苑'
+kawaduzakura,河津桜,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: '河津桜' at spot containing '上野'
+kawaduzakura,河津桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '河津桜' at spot containing '相模'
+kawaduzakura,河津桜,walker-ar0314e381588,三浦海岸の河津桜,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '河津桜' at spot containing '相模'
+kawaduzakura,河津桜,walker-ar0314e495002,小出川沿いの河津桜,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '河津桜' at spot containing '相模'
+kawaduzakura,河津桜,walker-ar0415e25901,大河津分水桜並木,one_tree,Pattern match: spot name contains '河津' -> kawaduzakura
+kawaduzakura,河津桜,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: '河津桜' at spot containing '林業試験場'
+kawaduzakura,河津桜,walker-ar0622e26058,河津川沿桜並木の桜,text_extraction,Keyword '静岡県賀茂郡河津町' found in kawaduzakura text
+kawaduzakura,河津桜,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: '河津桜' at spot containing '上野'
+kawaduzakura,河津桜,walker-ar0726e26129,平野神社の桜,web_search,Web search: '河津桜' at spot containing '平野神社'
+kawaduzakura,河津桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '河津桜' at spot containing '京都府立植物園'
+kawadzushogatu,河津正月,kawazu-matsuri,河津桜まつり会場,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0312e495404,養老川五井大橋付近の河津桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0312e496001,松戸宿坂川の河津桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0312e496159,西志津スポーツ等多目的広場の河津桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0314e381588,三浦海岸の河津桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0314e495002,小出川沿いの河津桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0415e25901,大河津分水桜並木,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kawadzushogatu,河津正月,walker-ar0622e26058,河津川沿桜並木の桜,origin_name,Origin name: variety '河津正月' (kawadzushogatu) origin matches '河津'
+kechimyakuzakura,血脈桜原木,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in kechimyakuzakura text
+keio-zakura,啓翁桜,sagamihara-park,相模原公園,web_search,Web search: '啓翁桜' at spot containing '相模'
+keio-zakura,啓翁桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '啓翁桜' at spot containing '相模'
+keio-zakura,啓翁桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '啓翁桜' at spot containing '相模'
+keio-zakura,啓翁桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '啓翁桜' at spot containing '相模'
+keio-zakura,啓翁桜,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'ケイオウザクラ' at spot containing '二条城'
+kemuriyama-beni-yamazakura,煙山紅山桜,walker-ar0101e60093,天都山桜公園の桜,one_tree,Pattern match: spot name contains '山桜' -> kemuriyama-beni-yamazakura
+kemuriyama-beni-yamazakura,煙山紅山桜,walker-ar0311e60436,伊奈町無線山桜並木の桜,one_tree,Pattern match: spot name contains '山桜' -> kemuriyama-beni-yamazakura
+kemuriyama-beni-yamazakura,煙山紅山桜,walker-ar0518e60371,神子の山桜,one_tree,Pattern match: spot name contains '山桜' -> kemuriyama-beni-yamazakura
+kemuriyama-beni-yamazakura,煙山紅山桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in kemuriyama-beni-yamazakura text
+kemuriyama-beni-yamazakura,煙山紅山桜,walker-ar1041e26347,馬場の山桜,one_tree,Pattern match: spot name contains '山桜' -> kemuriyama-beni-yamazakura
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '兼六園菊桜' at spot containing '弘前公園'
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ケンロクエンキクザクラ' at spot containing '新宿御苑'
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0420e60453,御所桜,text_extraction,Keyword '御所桜' found in kenrokuen-kikuzakura text
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0517e25921,特別名勝兼六園の桜,text_extraction,Keyword '石川県金沢市' found in kenrokuen-kikuzakura text
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0517e25930,卯辰山公園の桜,text_extraction,Keyword '石川県金沢市' found in kenrokuen-kikuzakura text
+kenrokuen-kikuzakura,兼六園菊桜,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: '兼六園菊桜' at spot containing '林業試験場'
+kenrokuen-kumagai,兼六園熊谷,walker-ar0517e25921,特別名勝兼六園の桜,text_extraction,Keyword '石川県金沢市' found in kenrokuen-kumagai text
+kenrokuen-kumagai,兼六園熊谷,walker-ar0517e25930,卯辰山公園の桜,text_extraction,Keyword '石川県金沢市' found in kenrokuen-kumagai text
+kibune-uzu,貴船雲珠,walker-ar0726e382423,鞍馬寺の桜,text_extraction,Keyword '鞍馬寺' found in kibune-uzu text
+kibune-uzu,貴船雲珠,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '貴船雲珠桜' at spot containing '造幣局'
+kibune-uzu,貴船雲珠,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '貴船雲珠桜' at spot containing '造幣局'
+kiccho,吉兆,walker-ar0314e25858,元住吉渋川沿い・中原平和公園の桜(住吉ざくら),text_extraction,Keyword '神奈川県川' found in kiccho text
+kiccho,吉兆,walker-ar0314e25887,二ヶ領用水宿河原堀の桜,text_extraction,Keyword '神奈川県川' found in kiccho text
+kiccho,吉兆,walker-ar0314e380417,夢見ヶ崎動物公園の桜,text_extraction,Keyword '神奈川県川' found in kiccho text
+kiccho,吉兆,walker-ar0314e381578,生田緑地の桜,text_extraction,Keyword '神奈川県川' found in kiccho text
+kiccho,吉兆,walker-ar0314e381929,麻生川の桜並木,text_extraction,Keyword '神奈川県川' found in kiccho text
+kichijoji,吉祥寺,walker-ar0313e25825,井の頭恩賜公園の桜,text_extraction,Keyword '東京都武蔵野市' found in kichijoji text
+kichijoji,吉祥寺,walker-ar0313e381078,中央通りの桜,text_extraction,Keyword '東京都武蔵野市' found in kichijoji text
+kikuzakura,菊桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '菊桜' at spot containing '造幣局'
+kikuzakura,菊桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '菊桜' at spot containing '造幣局'
+kinashichigozakura,鬼無稚児桜,walker-ar0937e26294,特別名勝 栗林公園の桜,text_extraction,Keyword '香川県高松市' found in kinashichigozakura text
+kinashichigozakura,鬼無稚児桜,walker-ar0937e26295,史跡高松城跡玉藻公園の桜,text_extraction,Keyword '香川県高松市' found in kinashichigozakura text
+kinashichigozakura,鬼無稚児桜,walker-ar0937e26296,公渕森林公園の桜,text_extraction,Keyword '香川県高松市' found in kinashichigozakura text
+kinashichigozakura,鬼無稚児桜,walker-ar0937e26297,女木島の桜,text_extraction,Keyword '香川県高松市' found in kinashichigozakura text
+kinryu-zakura,金龍桜,walker-ar0624e26094,九華公園の桜,text_extraction,Keyword '三重県桑名市' found in kinryu-zakura text
+kirigaya,桐ヶ谷,walker-ar0313e460683,御殿山トラストシティの桜,text_extraction,Keyword '東京都品川区' found in kirigaya text
+kirigaya,桐ヶ谷,walker-ar0313e495664,鮫洲入江広場の桜,text_extraction,Keyword '東京都品川区' found in kirigaya text
+kirigaya,桐ヶ谷,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '桐ヶ谷' at spot containing '造幣局'
+kirigaya,桐ヶ谷,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '桐ヶ谷' at spot containing '造幣局'
+kirin,麒麟,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in kirin text
+kirin,麒麟,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '麒麟' (kirin) origin matches '荒川'
+kirin,麒麟,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '麒麟' (kirin) origin matches '荒川'
+kirin,麒麟,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in kirin text
+kirin,麒麟,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in kirin text
+kirin,麒麟,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '麒麟' at spot containing '造幣局'
+kirin,麒麟,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '麒麟' at spot containing '造幣局'
+kiyosumishidare,清澄枝垂,walker-ar0312e381583,内浦山県民の森の桜,text_extraction,Keyword '千葉県鴨川市' found in kiyosumishidare text
+koba-zakura,小葉桜,walker-ar0310e25754,桜山公園の桜(群馬県),text_extraction,Keyword '群馬県藤岡市' found in koba-zakura text
+kobuku-zakura,子福桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '子福桜' at spot containing '弘前公園'
+kobuku-zakura,子福桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'コブクザクラ' at spot containing '新宿御苑'
+kocho,胡蝶,walker-ar0726e26129,平野神社の桜,web_search,Web search: '胡蝶' at spot containing '平野神社'
+kocho,胡蝶,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '胡蝶' at spot containing '造幣局'
+kocho,胡蝶,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '胡蝶' at spot containing '造幣局'
+koenji-shiro-yae-zakura,高円寺白八重桜,walker-ar0313e25840,善福寺川緑地・和田堀公園の桜,text_extraction,Keyword '東京都杉並区' found in koenji-shiro-yae-zakura text
+koenji-shiro-yae-zakura,高円寺白八重桜,walker-ar0313e382077,大宮八幡宮の桜,text_extraction,Keyword '東京都杉並区' found in koenji-shiro-yae-zakura text
+kofuku,幸福,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in kofuku text
+kofuku,幸福,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '幸福' at spot containing '造幣局'
+kofuku,幸福,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '幸福' at spot containing '造幣局'
+kohigan,小彼岸,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'コヒガン' at spot containing '弘前公園'
+kohigan,小彼岸,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'コヒガン' at spot containing '新宿御苑'
+kohigan,小彼岸,walker-ar0420e25997,高遠城址公園の桜,web_search,Web search: 'コヒガン' at spot containing '高遠'
+koka,紅華,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '紅華' at spot containing '造幣局'
+koka,紅華,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '紅華' at spot containing '造幣局'
+koka,紅華,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '紅華' at spot containing '結城農場'
+kokeshimizu,苔清水,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in kokeshimizu text
+kokeshimizu,苔清水,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '苔清水' (kokeshimizu) origin matches '荒川'
+kokeshimizu,苔清水,sagamihara-park,相模原公園,web_search,Web search: '苔清水' at spot containing '相模'
+kokeshimizu,苔清水,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '苔清水' (kokeshimizu) origin matches '荒川'
+kokeshimizu,苔清水,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in kokeshimizu text
+kokeshimizu,苔清水,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in kokeshimizu text
+kokeshimizu,苔清水,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '苔清水' at spot containing '相模'
+kokeshimizu,苔清水,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '苔清水' at spot containing '相模'
+kokeshimizu,苔清水,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '苔清水' at spot containing '相模'
+kokonoe,九重,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in kokonoe text
+kokonoe,九重,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '九重' (kokonoe) origin matches '荒川'
+kokonoe,九重,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in kokonoe text
+kokonoe,九重,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in kokonoe text
+kokonoe,九重,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '九重' (kokonoe) origin matches '荒川'
+kokonoe,九重,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in kokonoe text
+kokonoe,九重,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in kokonoe text
+kokonoe,九重,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '九重' at spot containing '造幣局'
+kokonoe,九重,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '九重' at spot containing '造幣局'
+komame-zakura,小豆桜,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in komame-zakura text
+komame-zakura,小豆桜,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in komame-zakura text
+komatsu-otome,小松乙女,sagamihara-park,相模原公園,web_search,Web search: '小松乙女' at spot containing '相模'
+komatsu-otome,小松乙女,walker-ar0313e25817,上野恩賜公園の桜,text_extraction,Keyword '東京都台東区' found in komatsu-otome text
+komatsu-otome,小松乙女,walker-ar0313e380423,浅草寺の桜,text_extraction,Keyword '東京都台東区' found in komatsu-otome text
+komatsu-otome,小松乙女,walker-ar0313e380523,国立劇場の桜,web_search,Web search: '小松乙女' at spot containing '国立劇場'
+komatsu-otome,小松乙女,walker-ar0313e60407,旧岩崎邸庭園の桜,text_extraction,Keyword '東京都台東区' found in komatsu-otome text
+komatsu-otome,小松乙女,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '小松乙女' at spot containing '相模'
+komatsu-otome,小松乙女,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '小松乙女' at spot containing '相模'
+komatsu-otome,小松乙女,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '小松乙女' at spot containing '相模'
+komatsu-otome,小松乙女,walker-ar0624e26091,上野公園の桜(三重県),text_extraction,Keyword '上野公園' found in komatsu-otome text
+komatsunagi,駒繋,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'コマツナギ' at spot containing '新宿御苑'
+komatsunagi,駒繋,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '駒繋' at spot containing '造幣局'
+komatsunagi,駒繋,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '駒繋' at spot containing '造幣局'
+konohana-zakura,木の花桜,walker-ar0726e26130,七谷川・和らぎの道の桜,text_extraction,Keyword '京都府亀岡市' found in konohana-zakura text
+konohana-zakura,木の花桜,walker-ar0726e382335,亀岡運動公園の桜,text_extraction,Keyword '京都府亀岡市' found in konohana-zakura text
+konohana-zakura,木の花桜,walker-ar0726e60470,保津峡の桜,text_extraction,Keyword '京都府亀岡市' found in konohana-zakura text
+koshi-no-higan,越の彼岸,walker-ar0516e60131,安居寺公園の桜,text_extraction,Keyword '富山県南砺市' found in koshi-no-higan text
+koshi-no-higan,越の彼岸,walker-ar0516e60164,小矢部川公園千本桜,text_extraction,Keyword '富山県南砺市' found in koshi-no-higan text
+koshino-kamozakura,越の加茂桜,walker-ar0516e25912,高岡古城公園の桜,text_extraction,Keyword '高岡古城公園' found in koshino-kamozakura text
+koshino-kamozakura,越の加茂桜,walker-ar0516e25914,岸渡川堤の桜,text_extraction,Keyword '富山県高岡市' found in koshino-kamozakura text
+koshinohigan-kimurakabu,越の彼岸（木村株）,walker-ar0516e60131,安居寺公園の桜,text_extraction,Keyword '富山県南砺市' found in koshinohigan-kimurakabu text
+koshinohigan-kimurakabu,越の彼岸（木村株）,walker-ar0516e60164,小矢部川公園千本桜,text_extraction,Keyword '富山県南砺市' found in koshinohigan-kimurakabu text
+koshinohigan_koshimuragenboku,越の彼岸（越村原木）,walker-ar0516e60131,安居寺公園の桜,text_extraction,Keyword '富山県南砺市' found in koshinohigan_koshimuragenboku text
+koshinohigan_koshimuragenboku,越の彼岸（越村原木）,walker-ar0516e60164,小矢部川公園千本桜,text_extraction,Keyword '富山県南砺市' found in koshinohigan_koshimuragenboku text
+koshioyama,小汐山（小塩山）,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'コシオヤマ' at spot containing '新宿御苑'
+kotohira,琴平,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '琴平' at spot containing '弘前公園'
+kotohira,琴平,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'コトヒラ' at spot containing '新宿御苑'
+kotohira,琴平,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '琴平' at spot containing '造幣局'
+kotohira,琴平,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '琴平' at spot containing '造幣局'
+kotohira,琴平,walker-ar0937e26301,金刀比羅宮の桜,text_extraction,Keyword '金刀比羅宮' found in kotohira text
+kujootome,九条乙女,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in kujootome text
+kurama-uzu,鞍馬雲珠,walker-ar0726e382423,鞍馬寺の桜,text_extraction,Keyword '鞍馬寺' found in kurama-uzu text
+kuramakauzan,鞍馬寒山,walker-ar0726e382423,鞍馬寺の桜,text_extraction,Keyword '鞍馬寺' found in kuramakauzan text
+kuramanibana,鞍馬二花,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in kuramanibana text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e25911,呉羽山公園の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e25916,城ケ山公園の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e60422,富山市民俗民芸村の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e60599,常西用水 プロムナード公園の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e60602,松川公園の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kureha-otome-shidare,呉羽おとめ枝垂,walker-ar0516e60604,富山県中央植物園の桜,text_extraction,Keyword '富山県富山市' found in kureha-otome-shidare text
+kushima-zakura,玖島桜,walker-ar1042e60517,大村公園(大村神社)の桜,text_extraction,Keyword '長崎県大村市' found in kushima-zakura text
+kushiro-yae,釧路八重,walker-ar0101e60114,春採公園の桜,text_extraction,Keyword '北海道釧路市' found in kushiro-yae text
+maihime,舞姫,walker-ar0313e25833,千鳥ヶ淵緑道の桜,text_extraction,Keyword '千鳥ヶ淵緑道' found in maihime text
+maihime,舞姫,walker-ar0624e26091,上野公園の桜(三重県),text_extraction,Keyword '上野公園' found in maihime text
+maihime,舞姫,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '舞姫' at spot containing '造幣局'
+maihime,舞姫,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '舞姫' at spot containing '造幣局'
+mamezakura,マメザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'マメザクラ' at spot containing '新宿御苑'
+manoga,マノガ,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in manoga text
+manoga,マノガ,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in manoga text
+matsumae,松前,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae text
+matsumae,松前,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前' at spot containing '造幣局'
+matsumae,松前,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前' at spot containing '造幣局'
+matsumae-aizen,松前愛染,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園の桜' found in matsumae-aizen text
+matsumae-beni-botan,松前紅牡丹,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-beni-botan text
+matsumae-beni-kosode,松前紅小袖,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-beni-kosode text
+matsumae-beni-usome,松前紅染,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園の桜' found in matsumae-beni-usome text
+matsumae-benigasa,松前紅笠,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-benigasa text
+matsumae-benihigoromo,松前紅緋衣,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前紅緋衣' (matsumae-benihigoromo) origin matches '松前公園'
+matsumae-benimurasaki,松前紅紫,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前紅紫' (matsumae-benimurasaki) origin matches '松前公園'
+matsumae-benimurasaki,松前紅紫,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前紅紫' at spot containing '造幣局'
+matsumae-benimurasaki,松前紅紫,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前紅紫' at spot containing '造幣局'
+matsumae-benitamae,松前紅珠恵,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前紅珠恵' (matsumae-benitamae) origin matches '松前公園'
+matsumae-fuki,松前風杏,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園の桜' found in matsumae-fuki text
+matsumae-fukujuzakura,松前福寿桜,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前福寿桜' (matsumae-fukujuzakura) origin matches '松前公園'
+matsumae-fukujuzakura,松前福寿桜,walker-ar0420e25997,高遠城址公園の桜,origin_name,Origin name: variety '松前福寿桜' (matsumae-fukujuzakura) origin matches '高遠'
+matsumae-hanamiyako,松前花都,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in matsumae-hanamiyako text
+matsumae-hanamiyako,松前花都,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in matsumae-hanamiyako text
+matsumae-hanamiyako,松前花都,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前花都' at spot containing '造幣局'
+matsumae-hanamiyako,松前花都,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前花都' at spot containing '造幣局'
+matsumae-hanazomei,松前花染衣,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前花染衣' (matsumae-hanazomei) origin matches '松前公園'
+matsumae-hanazomei,松前花染衣,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '花染衣' at spot containing '造幣局'
+matsumae-hanazomei,松前花染衣,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '花染衣' at spot containing '造幣局'
+matsumae-hayazaki,松前早咲,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in matsumae-hayazaki text
+matsumae-hayazaki,松前早咲,walker-ar0420e25997,高遠城址公園の桜,origin_name,Origin name: variety '松前早咲' (matsumae-hayazaki) origin matches '高遠'
+matsumae-kazanin,松前花山院,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-kazanin text
+matsumae-oshima,松前大島,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-oshima text
+matsumae-osio,松前大潮,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前大潮' (matsumae-osio) origin matches '松前公園'
+matsumae-shiraginu,松前白絹,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前白絹' (matsumae-shiraginu) origin matches '松前公園'
+matsumae-usbenikokonoe,松前薄紅小重,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-usbenikokonoe text
+matsumae-usubeni-kokonoe,松前薄紅九重,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in matsumae-usubeni-kokonoe text
+matsumae-usubeni-kokonoe,松前薄紅九重,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前薄紅九重' at spot containing '造幣局'
+matsumae-usubeni-kokonoe,松前薄紅九重,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前薄紅九重' at spot containing '造幣局'
+matsumae-usugasanesomei,松前薄重染井,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前薄重染井' (matsumae-usugasanesomei) origin matches '松前公園'
+matsumae-yae-goromo,松前八重衣,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園の桜' found in matsumae-yae-goromo text
+matsumae-yaekotobuki,松前八重寿,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-yaekotobuki text
+matsumae-yaekotobuki,松前八重寿,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前八重寿' at spot containing '造幣局'
+matsumae-yaekotobuki,松前八重寿,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前八重寿' at spot containing '造幣局'
+matsumae-yuen,松前幽艶,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumae-yuen text
+matsumaeakane,松前茜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaeakane text
+matsumaearatama,松前新玉,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaearatama text
+matsumaeavanishiki,松前綾錦,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaeavanishiki text
+matsumaefuki,松前深紅,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaefuki text
+matsumaefukuzakura,松前福桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in matsumaefukuzakura text
+matsumaekoitozakura,松前琴糸桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaekoitozakura text
+matsumaekoitozakura,松前琴糸桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '松前琴糸桜' at spot containing '造幣局'
+matsumaekoitozakura,松前琴糸桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '松前琴糸桜' at spot containing '造幣局'
+matsumaekorin,松前紅鱗,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaekorin text
+matsumaeokoyuki,松前小雪,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaeokoyuki text
+matsumaeoshizuka,松前静,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in matsumaeoshizuka text
+matsumaesarasa,松前更紗,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaesarasa text
+matsumaesasameyuki,松前笹目雪,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaesasameyuki text
+matsumaesekimori,松前関守,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaesekimori text
+matsumaeshirasagi,松前白鷺,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaeshirasagi text
+matsumaeshirobotan,松前白牡丹,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in matsumaeshirobotan text
+meigetsu,明月,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in meigetsu text
+meigetsu,明月,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '明月' (meigetsu) origin matches '荒川'
+meigetsu,明月,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '明月' (meigetsu) origin matches '荒川'
+meigetsu,明月,walker-ar0313e25821,飛鳥山公園の桜,text_extraction,Keyword '東京都北区' found in meigetsu text
+meigetsu,明月,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '東京都北区' found in meigetsu text
+meigetsu,明月,walker-ar0313e382083,西ケ原みんなの公園の桜,text_extraction,Keyword '東京都北区' found in meigetsu text
+meigetsu,明月,walker-ar0313e60410,旧古河庭園の桜,text_extraction,Keyword '東京都北区' found in meigetsu text
+meigetsu,明月,walker-ar0313e60439,音無親水公園の桜,text_extraction,Keyword '東京都北区' found in meigetsu text
+midorizakura,緑桜,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in midorizakura text
+midorizakura,緑桜,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in midorizakura text
+mikado-yoshino,御帝吉野,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in mikado-yoshino text
+mikurumagaeshi,御車返し,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in mikurumagaeshi text
+mikurumagaeshi,御車返し,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '御車返し' (mikurumagaeshi) origin matches '荒川'
+mikurumagaeshi,御車返し,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '御車返し' at spot containing '弘前公園'
+mikurumagaeshi,御車返し,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '御車返し' (mikurumagaeshi) origin matches '荒川'
+mikurumagaeshi,御車返し,walker-ar0313e25821,飛鳥山公園の桜,text_extraction,Keyword '東京都北区' found in mikurumagaeshi text
+mikurumagaeshi,御車返し,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '東京都北区' found in mikurumagaeshi text
+mikurumagaeshi,御車返し,walker-ar0313e382083,西ケ原みんなの公園の桜,text_extraction,Keyword '東京都北区' found in mikurumagaeshi text
+mikurumagaeshi,御車返し,walker-ar0313e60410,旧古河庭園の桜,text_extraction,Keyword '東京都北区' found in mikurumagaeshi text
+mikurumagaeshi,御車返し,walker-ar0313e60439,音無親水公園の桜,text_extraction,Keyword '東京都北区' found in mikurumagaeshi text
+minobu-zakura,身延桜,walker-ar0419e25961,身延山久遠寺の桜,text_extraction,Keyword '身延山久遠寺' found in minobu-zakura text
+mishima-fujizakura,三島藤桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in mishima-fujizakura text
+mishima-taki-nioi,三島滝匂,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in mishima-taki-nioi text
+mishima-zakura,三島桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in mishima-zakura text
+miyama-zakura,深山桜,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: '深山桜' at spot containing '林業試験場'
+morioka-shidare,盛岡しだれ,walker-ar0203e100218,盛岡市動物公園ZOOMOの桜,text_extraction,Keyword '岩手県盛岡市' found in morioka-shidare text
+morioka-shidare,盛岡しだれ,walker-ar0203e25579,盛岡城跡公園(岩手公園)の桜,text_extraction,Keyword '岩手県盛岡市' found in morioka-shidare text
+morioka-shidare,盛岡しだれ,walker-ar0203e25580,高松公園の桜,text_extraction,Keyword '岩手県盛岡市' found in morioka-shidare text
+morioka-shidare,盛岡しだれ,walker-ar0203e25581,石割桜,text_extraction,Keyword '岩手県盛岡市' found in morioka-shidare text
+morioka-shidare,盛岡しだれ,walker-ar0203e25600,米内浄水場の桜,text_extraction,Keyword '岩手県盛岡市' found in morioka-shidare text
+murasakizakura,紫桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in murasakizakura text
+murasakizakura,紫桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '紫桜' (murasakizakura) origin matches '荒川'
+murasakizakura,紫桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '紫桜' (murasakizakura) origin matches '荒川'
+murasakizakura,紫桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ムラサキザクラ' at spot containing '新宿御苑'
+murasakizakura,紫桜,walker-ar0313e25821,飛鳥山公園の桜,text_extraction,Keyword '東京都北区' found in murasakizakura text
+murasakizakura,紫桜,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '東京都北区' found in murasakizakura text
+murasakizakura,紫桜,walker-ar0313e382083,西ケ原みんなの公園の桜,text_extraction,Keyword '東京都北区' found in murasakizakura text
+murasakizakura,紫桜,walker-ar0313e60410,旧古河庭園の桜,text_extraction,Keyword '東京都北区' found in murasakizakura text
+murasakizakura,紫桜,walker-ar0313e60439,音無親水公園の桜,text_extraction,Keyword '東京都北区' found in murasakizakura text
+myoshoji,明正寺,walker-ar0938e60485,滝の宮公園の桜,text_extraction,Keyword '愛媛県新居浜市' found in myoshoji text
+nadeshiko-zakura,撫子桜,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in nadeshiko-zakura text
+najimazakura,名島桜,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '中央公園' found in najimazakura text
+najimazakura,名島桜,walker-ar0517e25921,特別名勝兼六園の桜,text_extraction,Keyword '石川県金沢市' found in najimazakura text
+najimazakura,名島桜,walker-ar0517e25930,卯辰山公園の桜,text_extraction,Keyword '石川県金沢市' found in najimazakura text
+nidozakura,二度桜,walker-ar0621e60356,イビデン東横山発電所の桜並木,text_extraction,Keyword '岐阜県揖斐郡揖斐川町' found in nidozakura text
+nidozakura,二度桜,walker-ar0621e60589,谷汲山華厳寺の桜,text_extraction,Keyword '岐阜県揖斐郡揖斐川町' found in nidozakura text
+nidozakura,二度桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '二度桜' at spot containing '造幣局'
+nidozakura,二度桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '二度桜' at spot containing '造幣局'
+nodano-osakura,野田の大桜,walker-ar0517e25921,特別名勝兼六園の桜,text_extraction,Keyword '石川県金沢市' found in nodano-osakura text
+nodano-osakura,野田の大桜,walker-ar0517e25930,卯辰山公園の桜,text_extraction,Keyword '石川県金沢市' found in nodano-osakura text
+o-kanzakura,大寒桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '大寒桜' at spot containing '弘前公園'
+o-kanzakura,大寒桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'オオカンザクラ' at spot containing '新宿御苑'
+ohara-nagisa,大原渚,walker-ar0726e459734,寂光院の桜,text_extraction,Keyword '寂光院' found in ohara-nagisa text
+ohara-nagisa,大原渚,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in ohara-nagisa text
+ojochin,大提灯,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ojochin text
+ojochin,大提灯,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '大提灯' (ojochin) origin matches '荒川'
+ojochin,大提灯,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '大提灯' at spot containing '弘前公園'
+ojochin,大提灯,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '大提灯' (ojochin) origin matches '荒川'
+ojochin,大提灯,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '大提灯' at spot containing '造幣局'
+ojochin,大提灯,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '大提灯' at spot containing '造幣局'
+okame,オカメ,sagamihara-park,相模原公園,web_search,Web search: 'オカメ' at spot containing '相模'
+okame,オカメ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'オカメ' at spot containing '弘前公園'
+okame,オカメ,walker-ar0207e25667,花見山の桜,web_search,Web search: 'オカメ' at spot containing '花見山'
+okame,オカメ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'オカメ' at spot containing '新宿御苑'
+okame,オカメ,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: 'オカメ' at spot containing '相模'
+okame,オカメ,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: 'オカメ' at spot containing '相模'
+okame,オカメ,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: 'オカメ' at spot containing '相模'
+ominosato-buraizakura,麻績の里舞台桜,walker-ar0420e25983,飯田市大宮通り桜並木,text_extraction,Keyword '長野県飯田市' found in ominosato-buraizakura text
+ominosato-buraizakura,麻績の里舞台桜,walker-ar0420e65094,名勝天龍峡の桜,text_extraction,Keyword '長野県飯田市' found in ominosato-buraizakura text
+omoigawa,思川,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '思川' at spot containing '弘前公園'
+omoigawa,思川,walker-ar0309e25731,千手山公園の桜,text_extraction,Keyword '栃木県鹿沼市' found in omoigawa text
+omoigawa,思川,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '思川' at spot containing '造幣局'
+omoigawa,思川,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '思川' at spot containing '造幣局'
+omuro-ariake,御室有明,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '御室有明' at spot containing '造幣局'
+omuro-ariake,御室有明,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '御室有明' at spot containing '造幣局'
+onaden,大南殿,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in onaden text
+onaden,大南殿,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '大南殿' (onaden) origin matches '荒川'
+onaden,大南殿,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '大南殿' (onaden) origin matches '荒川'
+onaden,大南殿,walker-ar0313e25821,飛鳥山公園の桜,text_extraction,Keyword '東京都北区' found in onaden text
+onaden,大南殿,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '東京都北区' found in onaden text
+onaden,大南殿,walker-ar0313e382083,西ケ原みんなの公園の桜,text_extraction,Keyword '東京都北区' found in onaden text
+onaden,大南殿,walker-ar0313e60410,旧古河庭園の桜,text_extraction,Keyword '東京都北区' found in onaden text
+onaden,大南殿,walker-ar0313e60439,音無親水公園の桜,text_extraction,Keyword '東京都北区' found in onaden text
+ooyamazakura,オオヤマザクラ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'オオヤマザクラ' at spot containing '弘前公園'
+ooyamazakura,オオヤマザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'オオヤマザクラ' at spot containing '新宿御苑'
+osawazakura,大沢桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '大沢桜' at spot containing '造幣局'
+osawazakura,大沢桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '大沢桜' at spot containing '造幣局'
+oshidorizakura,鴛鴦桜,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in oshidorizakura text
+oshidorizakura,鴛鴦桜,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in oshidorizakura text
+oshimazakura,オオシマザクラ,takao-mountain,高尾山,variety_note,Variety name 'オオシマザクラ' found in spot '高尾山' varietyNote
+oshimazakura,オオシマザクラ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'オオシマザクラ' at spot containing '弘前公園'
+oshimazakura,オオシマザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'オオシマザクラ' at spot containing '新宿御苑'
+osomei,オオソメイ,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,text_extraction,Keyword '東京都豊島区' found in osomei text
+osomei,オオソメイ,walker-ar0313e382209,南大塚三丁目桜並木通りの桜,text_extraction,Keyword '東京都豊島区' found in osomei text
+osomei,オオソメイ,walker-ar0313e60565,法明寺の桜,text_extraction,Keyword '東京都豊島区' found in osomei text
+ota-zakura,太田桜,walker-ar0314e382345,本覚寺の桜,text_extraction,Keyword '本覚寺' found in ota-zakura text
+otani-yae,オタニヤエ,walker-ar0309e25727,八幡山公園の桜,text_extraction,Keyword '栃木県宇都宮市' found in otani-yae text
+otani-yae,オタニヤエ,walker-ar0309e25728,日光街道桜並木の桜,text_extraction,Keyword '栃木県宇都宮市' found in otani-yae text
+ouchi-zakura,大内桜,walker-ar0835e26263,一の坂川の桜,text_extraction,Keyword '山口県山口市' found in ouchi-zakura text
+ouchi-zakura,大内桜,walker-ar0835e26264,香山公園の桜,text_extraction,Keyword '山口県山口市' found in ouchi-zakura text
+ouchi-zakura,大内桜,walker-ar0835e26271,徳佐八幡宮の桜,text_extraction,Keyword '山口県山口市' found in ouchi-zakura text
+ouchi-zakura,大内桜,walker-ar0835e60481,大原湖(佐波川ダム)の桜,text_extraction,Keyword '山口県山口市' found in ouchi-zakura text
+raikoji-kiku-zakura,頼光寺菊桜,walker-ar0727e60392,勝ち運の寺 勝尾寺の桜,text_extraction,Keyword '大阪府箕面市' found in raikoji-kiku-zakura text
+ranran,蘭蘭,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '蘭蘭' (ranran) origin matches '松前公園'
+ranran,蘭蘭,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '蘭蘭' at spot containing '造幣局'
+ranran,蘭蘭,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '蘭蘭' at spot containing '造幣局'
+rokkoukikuzakura,六高菊桜,walker-ar0833e26219,岡山後楽園の桜,text_extraction,Keyword '岡山後楽園' found in rokkoukikuzakura text
+ryuunin-beniyaezakura,龍雲院紅八重桜,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '龍雲院紅八重桜' (ryuunin-beniyaezakura) origin matches '松前公園'
+sakuyahime,咲耶姫,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '咲耶姫' at spot containing '弘前公園'
+sakuyahime,咲耶姫,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in sakuyahime text
+sanoki-kuzakura,佐野菊桜,walker-ar0309e60193,嘉多山公園の桜,text_extraction,Keyword '栃木県佐野市' found in sanoki-kuzakura text
+sanoki-kuzakura,佐野菊桜,walker-ar0309e60198,関場のしだれ桜,text_extraction,Keyword '栃木県佐野市' found in sanoki-kuzakura text
+sanozakura,佐野桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '佐野桜' at spot containing '弘前公園'
+sanozakura,佐野桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '佐野桜' at spot containing '造幣局'
+sanozakura,佐野桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '佐野桜' at spot containing '造幣局'
+sasabe-zakura,笹部桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '笹部桜' at spot containing '造幣局'
+sasabe-zakura,笹部桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '笹部桜' at spot containing '造幣局'
+sasaga-oshidori,笹賀鴛鴦桜,walker-ar0420e25978,国宝 松本城の桜,text_extraction,Keyword '長野県松本市' found in sasaga-oshidori text
+sasaga-oshidori,笹賀鴛鴦桜,walker-ar0420e60569,松本市城山公園の桜,text_extraction,Keyword '長野県松本市' found in sasaga-oshidori text
+sasaga-oshidori,笹賀鴛鴦桜,walker-ar0420e60571,弘法山古墳の桜,text_extraction,Keyword '長野県松本市' found in sasaga-oshidori text
+sasaga-oshidori,笹賀鴛鴦桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '笹賀鴛鴦桜' at spot containing '造幣局'
+sasaga-oshidori,笹賀鴛鴦桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '笹賀鴛鴦桜' at spot containing '造幣局'
+satohara,里原,walker-ar0420e25983,飯田市大宮通り桜並木,text_extraction,Keyword '長野県飯田市' found in satohara text
+satohara,里原,walker-ar0420e65094,名勝天龍峡の桜,text_extraction,Keyword '長野県飯田市' found in satohara text
+sendai-shidare,仙台枝垂,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '仙台枝垂' at spot containing '弘前公園'
+sendaiya,仙台屋,sagamihara-park,相模原公園,web_search,Web search: '仙台屋' at spot containing '相模'
+sendaiya,仙台屋,walker-ar0313e380523,国立劇場の桜,web_search,Web search: '仙台屋' at spot containing '国立劇場'
+sendaiya,仙台屋,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '仙台屋' at spot containing '相模'
+sendaiya,仙台屋,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '仙台屋' at spot containing '相模'
+sendaiya,仙台屋,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '仙台屋' at spot containing '相模'
+senriko,千里香,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '千里香' at spot containing '弘前公園'
+shibayama,芝山,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in shibayama text
+shibayama,芝山,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '芝山' (shibayama) origin matches '荒川'
+shibayama,芝山,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '芝山' (shibayama) origin matches '荒川'
+shibayama,芝山,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in shibayama text
+shibayama,芝山,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in shibayama text
+shibuya-konno-uzakura,渋谷金王桜,walker-ar0313e25837,代々木公園の桜,text_extraction,Keyword '東京都渋谷区' found in shibuya-konno-uzakura text
+shibuya-konno-uzakura,渋谷金王桜,walker-ar0313e381062,渋谷桜丘 さくら坂の桜,text_extraction,Keyword '東京都渋谷区' found in shibuya-konno-uzakura text
+shidarezakura,枝垂桜,sagamihara-park,相模原公園,web_search,Web search: '枝垂桜' at spot containing '相模'
+shidarezakura,枝垂桜,tama-forest-science,多摩森林科学園,web_search,Web search: '枝垂桜' at spot containing '多摩森林科学園'
+shidarezakura,枝垂桜,walker-ar0101e25532,円山公園の桜(北海道),text_extraction,Keyword '円山公園' found in shidarezakura text
+shidarezakura,枝垂桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'シダレザクラ' at spot containing '弘前公園'
+shidarezakura,枝垂桜,walker-ar0205e25636,日本国花苑の桜,web_search,Web search: '枝垂桜' at spot containing '国花苑'
+shidarezakura,枝垂桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: '枝垂桜' at spot containing '新宿御苑'
+shidarezakura,枝垂桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '枝垂桜' at spot containing '相模'
+shidarezakura,枝垂桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '枝垂桜' at spot containing '相模'
+shidarezakura,枝垂桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '枝垂桜' at spot containing '相模'
+shidarezakura,枝垂桜,walker-ar0726e26129,平野神社の桜,web_search,Web search: '枝垂桜' at spot containing '平野神社'
+shidarezakura,枝垂桜,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'シダレザクラ' at spot containing '二条城'
+shidarezakura,枝垂桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '枝垂桜' at spot containing '京都府立植物園'
+shidarezakura,枝垂桜,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '枝垂桜' at spot containing '結城農場'
+shidarezakura-daisenshiro,枝垂桜（大仙白）,walker-ar0727e60637,大仙公園の桜,text_extraction,Keyword '大仙公園' found in shidarezakura-daisenshiro text
+shikizaki-banshi,四季咲伴氏,walker-ar0309e60367,龍城公園(大田原市)の桜,text_extraction,Keyword '栃木県大田原市' found in shikizaki-banshi text
+shikizakura,四季桜,walker-ar0623e26463,瑞龍寺のしだれ桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shikizakura,四季桜,walker-ar0623e381772,金剛寺のしだれ桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shikizakura,四季桜,walker-ar0623e381927,鞍ケ池公園の桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shikizakura,四季桜,walker-ar0623e428588,大安寺のしだれ桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shikizakura,四季桜,walker-ar0623e60357,水源公園の桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shikizakura,四季桜,walker-ar0623e60442,愛知県緑化センターの桜,text_extraction,Keyword '愛知県豊田市' found in shikizakura text
+shinranshonin-juzukake-zakura,親鸞上人数珠掛桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in shinranshonin-juzukake-zakura text
+shinranshonin-juzukake-zakura,親鸞上人数珠掛桜,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in shinranshonin-juzukake-zakura text
+shiogama,塩竈,walker-ar0204e25606,志波彦神社 鹽竈神社の桜,text_extraction,Keyword '宮城県塩竈市' found in shiogama text
+shirayuki,白雪,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in shirayuki text
+shirayuki,白雪,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '白雪' (shirayuki) origin matches '荒川'
+shirayuki,白雪,sagamihara-park,相模原公園,web_search,Web search: '白雪' at spot containing '相模'
+shirayuki,白雪,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '白雪' (shirayuki) origin matches '荒川'
+shirayuki,白雪,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '白雪' at spot containing '相模'
+shirayuki,白雪,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '白雪' at spot containing '相模'
+shirayuki,白雪,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '白雪' at spot containing '相模'
+shirayukihime,白雪姫,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in shirayukihime text
+shirotae,白妙,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in shirotae text
+shirotae,白妙,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '白妙' (shirotae) origin matches '荒川'
+shirotae,白妙,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '白妙' at spot containing '弘前公園'
+shirotae,白妙,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '白妙' (shirotae) origin matches '荒川'
+shirotae,白妙,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'シロタエ' at spot containing '新宿御苑'
+shizuka-nioi,静匂,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in shizuka-nioi text
+shizuka-zakura,静桜,walker-ar0309e25727,八幡山公園の桜,text_extraction,Keyword '栃木県宇都宮市' found in shizuka-zakura text
+shizuka-zakura,静桜,walker-ar0309e25728,日光街道桜並木の桜,text_extraction,Keyword '栃木県宇都宮市' found in shizuka-zakura text
+shodo-higan,勝道彼岸,walker-ar0309e216300,鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜,text_extraction,Keyword '栃木県日光市' found in shodo-higan text
+shodo-zakura,勝道桜,walker-ar0309e216300,鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜,text_extraction,Keyword '栃木県日光市' found in shodo-zakura text
+shofukuji-shidare,正福寺枝垂,walker-ar0419e25950,舞鶴城公園の桜,text_extraction,Keyword '山梨県甲府市' found in shofukuji-shidare text
+shofukuji-shidare,正福寺枝垂,walker-ar0419e25951,武田神社の桜,text_extraction,Keyword '山梨県甲府市' found in shofukuji-shidare text
+shogetsu,松月,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in shogetsu text
+shogetsu,松月,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '松月' (shogetsu) origin matches '荒川'
+shogetsu,松月,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '松月' at spot containing '弘前公園'
+shogetsu,松月,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '松月' (shogetsu) origin matches '荒川'
+shogetsu,松月,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ショウゲツ' at spot containing '新宿御苑'
+shogetsu,松月,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: 'ショウゲツ' at spot containing '造幣局'
+shogetsu,松月,walker-ar0834e221175,ひろしま遊学の森 広島県緑化センター さくら通りの桜,web_search,Web search: '松月' at spot containing '広島'
+shogetsu,松月,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: 'ショウゲツ' at spot containing '造幣局'
+shogetsu,松月,walker-ar0834e60423,広島市植物公園の桜,web_search,Web search: '松月' at spot containing '広島'
+shogetsu-isyu,松月異種,walker-ar0101e60116,オニウシ公園の桜,text_extraction,Keyword 'オニウシ公園' found in shogetsu-isyu text
+shohoji-kikuzakura,正法寺菊桜,walker-ar0203e25585,北上展勝地の桜,text_extraction,Keyword '岩手県北上市' found in shohoji-kikuzakura text
+shohoji-kikuzakura,正法寺菊桜,walker-ar0726e380416,正法寺の桜,text_extraction,Keyword '正法寺' found in shohoji-kikuzakura text
+showa-zakura,昭和桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '昭和桜' at spot containing '弘前公園'
+showa-zakura,昭和桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in showa-zakura text
+shukugawa-maizakura,夙川舞桜,walker-ar0728e26150,夙川河川敷緑地(夙川公園)の桜,text_extraction,Keyword '兵庫県西宮市' found in shukugawa-maizakura text
+shuzenji-zakura,修禅寺桜,walker-ar0622e213882,松原公園の桜,text_extraction,Keyword '静岡県伊豆市' found in shuzenji-zakura text
+somei-beni,染井紅,walker-ar0204e60532,国営みちのく杜の湖畔公園の桜(ソメイヨシノ),one_tree,Pattern match: spot name contains 'ソメイヨシノ' -> somei-beni
+somei-beni,染井紅,walker-ar0310e60542,伊香保グリーン牧場のソメイヨシノ,one_tree,Pattern match: spot name contains 'ソメイヨシノ' -> somei-beni
+somei-beni,染井紅,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in somei-beni text
+someiyoshino,染井吉野,sagamihara-park,相模原公園,web_search,Web search: 'ソメイヨシノ' at spot containing '相模'
+someiyoshino,染井吉野,tama-forest-science,多摩森林科学園,web_search,Web search: 'ソメイヨシノ' at spot containing '多摩森林科学園'
+someiyoshino,染井吉野,walker-ar0101e25542,松前公園の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '松前公園'
+someiyoshino,染井吉野,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '弘前公園'
+someiyoshino,染井吉野,walker-ar0205e25636,日本国花苑の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '国花苑'
+someiyoshino,染井吉野,walker-ar0207e25667,花見山の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '花見山'
+someiyoshino,染井吉野,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '新宿御苑'
+someiyoshino,染井吉野,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '上野'
+someiyoshino,染井吉野,walker-ar0313e25833,千鳥ヶ淵緑道の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '千鳥ヶ淵'
+someiyoshino,染井吉野,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,text_extraction,Keyword '東京都豊島区' found in someiyoshino text
+someiyoshino,染井吉野,walker-ar0313e382209,南大塚三丁目桜並木通りの桜,text_extraction,Keyword '東京都豊島区' found in someiyoshino text
+someiyoshino,染井吉野,walker-ar0313e60565,法明寺の桜,text_extraction,Keyword '東京都豊島区' found in someiyoshino text
+someiyoshino,染井吉野,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '相模'
+someiyoshino,染井吉野,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '相模'
+someiyoshino,染井吉野,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '相模'
+someiyoshino,染井吉野,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '林業試験場'
+someiyoshino,染井吉野,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: 'ソメイヨシノ' at spot containing '上野'
+someiyoshino,染井吉野,walker-ar0726e26129,平野神社の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '平野神社'
+someiyoshino,染井吉野,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '二条城'
+someiyoshino,染井吉野,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: 'ソメイヨシノ' at spot containing '京都府立植物園'
+someiyoshino,染井吉野,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: 'ソメイヨシノ' at spot containing '結城農場'
+sotoorihime,衣通姫,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '衣通姫' at spot containing '弘前公園'
+sotoorihime,衣通姫,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in sotoorihime text
+suisho,水晶,walker-ar0203e100218,盛岡市動物公園ZOOMOの桜,text_extraction,Keyword '岩手県盛岡市' found in suisho text
+suisho,水晶,walker-ar0203e25579,盛岡城跡公園(岩手公園)の桜,text_extraction,Keyword '岩手県盛岡市' found in suisho text
+suisho,水晶,walker-ar0203e25580,高松公園の桜,text_extraction,Keyword '岩手県盛岡市' found in suisho text
+suisho,水晶,walker-ar0203e25581,石割桜,text_extraction,Keyword '岩手県盛岡市' found in suisho text
+suisho,水晶,walker-ar0203e25600,米内浄水場の桜,text_extraction,Keyword '岩手県盛岡市' found in suisho text
+sumaura-fugenzo,須磨浦普賢象,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '須磨浦普賢象' at spot containing '弘前公園'
+sumizome-nioi,墨染匂,walker-ar0726e381922,墨染寺の桜,text_extraction,Keyword '墨染寺' found in sumizome-nioi text
+surugadai-nioi,駿河台匂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in surugadai-nioi text
+surugadai-nioi,駿河台匂,sagamihara-park,相模原公園,web_search,Web search: '駿河台匂' at spot containing '相模'
+surugadai-nioi,駿河台匂,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'スルガダイニオイ' at spot containing '新宿御苑'
+surugadai-nioi,駿河台匂,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in surugadai-nioi text
+surugadai-nioi,駿河台匂,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in surugadai-nioi text
+surugadai-nioi,駿河台匂,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '駿河台匂' at spot containing '相模'
+surugadai-nioi,駿河台匂,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '駿河台匂' at spot containing '相模'
+surugadai-nioi,駿河台匂,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '駿河台匂' at spot containing '相模'
+syuzenjikanzakura,修善寺寒桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'シュゼンジカンザクラ' at spot containing '新宿御苑'
+syuzenjikanzakura,修善寺寒桜,walker-ar0313e25833,千鳥ヶ淵緑道の桜,web_search,Web search: '修善寺寒桜' at spot containing '千鳥ヶ淵'
+tachihigan,立彼岸,walker-ar0419e25973,山高神代桜,text_extraction,Keyword '山高神代桜' found in tachihigan text
+taguiarashi,類嵐,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in taguiarashi text
+taguiarashi,類嵐,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '類嵐' (taguiarashi) origin matches '荒川'
+taguiarashi,類嵐,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '類嵐' (taguiarashi) origin matches '荒川'
+taguiarashi,類嵐,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'タグイアラシ' at spot containing '新宿御苑'
+taguiarashi,類嵐,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in taguiarashi text
+taguiarashi,類嵐,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in taguiarashi text
+taguiarashi,類嵐,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '類嵐' at spot containing '造幣局'
+taguiarashi,類嵐,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '類嵐' at spot containing '造幣局'
+taihaku,太白,sagamihara-park,相模原公園,web_search,Web search: '太白' at spot containing '相模'
+taihaku,太白,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '太白' at spot containing '弘前公園'
+taihaku,太白,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'タイハク' at spot containing '新宿御苑'
+taihaku,太白,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '太白' at spot containing '相模'
+taihaku,太白,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '太白' at spot containing '相模'
+taihaku,太白,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '太白' at spot containing '相模'
+taihaku,太白,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '太白' at spot containing '京都府立植物園'
+taihaku,太白,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '太白' at spot containing '造幣局'
+taihaku,太白,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '太白' at spot containing '造幣局'
+tairyo-zakura,大漁桜,sagamihara-park,相模原公園,web_search,Web search: '大漁桜' at spot containing '相模'
+tairyo-zakura,大漁桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '大漁桜' at spot containing '相模'
+tairyo-zakura,大漁桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '大漁桜' at spot containing '相模'
+tairyo-zakura,大漁桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '大漁桜' at spot containing '相模'
+tairyo-zakura,大漁桜,walker-ar0622e209285,糸川遊歩道の桜,text_extraction,Keyword '静岡県熱海市' found in tairyo-zakura text
+tairyo-zakura,大漁桜,walker-ar0622e218294,熱海城の桜,text_extraction,Keyword '静岡県熱海市' found in tairyo-zakura text
+tairyo-zakura,大漁桜,walker-ar0622e60511,千歳川沿いの桜,text_extraction,Keyword '静岡県熱海市' found in tairyo-zakura text
+tairyo-zakura,大漁桜,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '大漁桜' at spot containing '結城農場'
+taizanfukun,泰山府君,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in taizanfukun text
+taizanfukun,泰山府君,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '泰山府君' (taizanfukun) origin matches '荒川'
+taizanfukun,泰山府君,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '泰山府君' (taizanfukun) origin matches '荒川'
+taizanfukun,泰山府君,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in taizanfukun text
+taizanfukun,泰山府君,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in taizanfukun text
+taizanfukun,泰山府君,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '泰山府君' at spot containing '造幣局'
+taizanfukun,泰山府君,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '泰山府君' at spot containing '造幣局'
+takamatsu-chigo,高松稚児,walker-ar0937e26294,特別名勝 栗林公園の桜,text_extraction,Keyword '香川県高松市' found in takamatsu-chigo text
+takamatsu-chigo,高松稚児,walker-ar0937e26295,史跡高松城跡玉藻公園の桜,text_extraction,Keyword '香川県高松市' found in takamatsu-chigo text
+takamatsu-chigo,高松稚児,walker-ar0937e26296,公渕森林公園の桜,text_extraction,Keyword '香川県高松市' found in takamatsu-chigo text
+takamatsu-chigo,高松稚児,walker-ar0937e26297,女木島の桜,text_extraction,Keyword '香川県高松市' found in takamatsu-chigo text
+takaoka-koshino-higan,高岡越の彼岸,walker-ar0516e25912,高岡古城公園の桜,text_extraction,Keyword '富山県高岡市' found in takaoka-koshino-higan text
+takaoka-koshino-higan,高岡越の彼岸,walker-ar0516e25914,岸渡川堤の桜,text_extraction,Keyword '富山県高岡市' found in takaoka-koshino-higan text
+takasago,高砂,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in takasago text
+takasago,高砂,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '高砂' (takasago) origin matches '荒川'
+takasago,高砂,walker-ar0101e25542,松前公園の桜,web_search,Web search: '南殿桜' at spot containing '松前公園'
+takasago,高砂,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '高砂' (takasago) origin matches '荒川'
+takasago,高砂,walker-ar0728e26157,鹿島・扇平自然公園の桜,text_extraction,Keyword '兵庫県高砂市' found in takasago text
+takasago,高砂,walker-ar0728e381576,日笠山の桜,text_extraction,Keyword '兵庫県高砂市' found in takasago text
+takato-kohigan,高遠小彼岸桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'タカトオコヒガン' at spot containing '新宿御苑'
+takato-kohigan,高遠小彼岸桜,walker-ar0420e25997,高遠城址公園の桜,text_extraction,Keyword '高遠城址公園' found in takato-kohigan text
+takato-kohigan,高遠小彼岸桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '高遠小彼岸桜' at spot containing '造幣局'
+takato-kohigan,高遠小彼岸桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '高遠小彼岸桜' at spot containing '造幣局'
+taki-no-sakura,滝の桜,walker-ar0207e25692,三春滝桜,text_extraction,Keyword '三春滝桜' found in taki-no-sakura text
+tamagaki,松前玉垣,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in tamagaki text
+tamanawa-zakura,玉縄桜,walker-ar0314e25862,鶴岡八幡宮の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e25863,源氏山公園の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e377268,長谷寺の桜(神奈川県),text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e377374,日比谷花壇大船フラワーセンターの桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382074,光明寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382205,鎌倉大仏殿高徳院の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382333,建長寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382345,本覚寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382420,宝戒寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+tamanawa-zakura,玉縄桜,walker-ar0314e382959,妙本寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in tamanawa-zakura text
+taoyame,手弱女,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in taoyame text
+taoyame,手弱女,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '手弱女' at spot containing '造幣局'
+taoyame,手弱女,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '手弱女' at spot containing '造幣局'
+tegara-zakura,手柄桜,walker-ar0313e25822,中央公園の桜,text_extraction,Keyword '中央公園' found in tegara-zakura text
+tegara-zakura,手柄桜,walker-ar0728e26148,姫路城の桜,text_extraction,Keyword '兵庫県姫路市' found in tegara-zakura text
+temari,手毬,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '手毬' at spot containing '弘前公園'
+togen,桃源,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in togen text
+togen,桃源,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in togen text
+tokyo-zakura,東京桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in tokyo-zakura text
+torano-o,虎の尾,tama-forest-science,多摩森林科学園,text_extraction,Keyword '多摩森林科学園' found in torano-o text
+toukaizakura,東海桜,walker-ar0207e25667,花見山の桜,web_search,Web search: 'トウカイザクラ' at spot containing '花見山'
+toukaizakura,東海桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'トウカイザクラ' at spot containing '新宿御苑'
+tsubakikanzakura,椿寒桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ツバキカンザクラ' at spot containing '新宿御苑'
+tsubakikanzakura,椿寒桜,walker-ar0938e26307,松山城(城山公園)の桜,text_extraction,Keyword '愛媛県松山市' found in tsubakikanzakura text
+tsubakikanzakura,椿寒桜,walker-ar0938e26308,道後公園の桜,text_extraction,Keyword '愛媛県松山市' found in tsubakikanzakura text
+tsukihashi-kikuzakura,月橋菊桜,walker-ar0726e26119,醍醐寺の桜,text_extraction,Keyword '醍醐寺' found in tsukihashi-kikuzakura text
+tyoujizakura,チョウジザクラ,tama-forest-science,多摩森林科学園,text_extraction,Keyword '多摩森林科学園' found in tyoujizakura text
+tyoujizakura,チョウジザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'チョウジザクラ' at spot containing '新宿御苑'
+ueno-shirayuki-shidare,上野白雪枝垂,walker-ar0313e25817,上野恩賜公園の桜,text_extraction,Keyword '上野恩賜公園' found in ueno-shirayuki-shidare text
+ueno-shirayuki-shidare,上野白雪枝垂,walker-ar0313e380423,浅草寺の桜,text_extraction,Keyword '東京都台東区' found in ueno-shirayuki-shidare text
+ueno-shirayuki-shidare,上野白雪枝垂,walker-ar0313e60407,旧岩崎邸庭園の桜,text_extraction,Keyword '東京都台東区' found in ueno-shirayuki-shidare text
+ueno-shirayuki-shidare,上野白雪枝垂,walker-ar0624e26091,上野公園の桜(三重県),text_extraction,Keyword '上野公園' found in ueno-shirayuki-shidare text
+ujo-shidare,雨情枝垂,walker-ar0309e25727,八幡山公園の桜,text_extraction,Keyword '栃木県宇都宮市' found in ujo-shidare text
+ujo-shidare,雨情枝垂,walker-ar0309e25728,日光街道桜並木の桜,text_extraction,Keyword '栃木県宇都宮市' found in ujo-shidare text
+ujo-shidare,雨情枝垂,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '雨情枝垂' at spot containing '造幣局'
+ujo-shidare,雨情枝垂,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '雨情枝垂' at spot containing '造幣局'
+ujo-shidare,雨情枝垂,walker-ar1043e60320,岡岳公園の桜,text_extraction,Keyword '熊本県宇城市' found in ujo-shidare text
+ukon,鬱金,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ukon text
+ukon,鬱金,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '鬱金' (ukon) origin matches '荒川'
+ukon,鬱金,tama-forest-science,多摩森林科学園,web_search,Web search: '鬱金' at spot containing '多摩森林科学園'
+ukon,鬱金,walker-ar0101e25542,松前公園の桜,web_search,Web search: '鬱金' at spot containing '松前公園'
+ukon,鬱金,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '鬱金' at spot containing '弘前公園'
+ukon,鬱金,walker-ar0207e25667,花見山の桜,web_search,Web search: '鬱金桜' at spot containing '花見山'
+ukon,鬱金,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '鬱金' (ukon) origin matches '荒川'
+ukon,鬱金,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ウコン' at spot containing '新宿御苑'
+ukon,鬱金,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '鬱金' at spot containing '京都府立植物園'
+ukon,鬱金,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '鬱金' at spot containing '造幣局'
+ukon,鬱金,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '鬱金' at spot containing '造幣局'
+urawa,ウラワ,walker-ar0311e25759,大宮公園の桜,text_extraction,Keyword '大宮公園' found in urawa text
+usubeni-miyama,薄紅深山桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前公園' found in usubeni-miyama text
+usuzumi,薄墨,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in usuzumi text
+usuzumi,薄墨,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '薄墨' (usuzumi) origin matches '荒川'
+usuzumi,薄墨,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '薄墨' (usuzumi) origin matches '荒川'
+usuzumi,薄墨,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ウスズミ' at spot containing '新宿御苑'
+uzuzakura,渦桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in uzuzakura text
+uzuzakura,渦桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '渦桜' (uzuzakura) origin matches '荒川'
+uzuzakura,渦桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '渦桜' (uzuzakura) origin matches '荒川'
+uzuzakura,渦桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '渦桜' at spot containing '造幣局'
+uzuzakura,渦桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '渦桜' at spot containing '造幣局'
+wabihito,ワビヒト,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in wabihito text
+wabihito,ワビヒト,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in wabihito text
+wakakinosakura,稚木の桜,walker-ar0939e403142,牧野公園の桜,text_extraction,Keyword '高知県高岡郡佐川町' found in wakakinosakura text
+washinoo,鷲の尾,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in washinoo text
+washinoo,鷲の尾,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '鷲の尾' (washinoo) origin matches '荒川'
+washinoo,鷲の尾,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '鷲の尾' (washinoo) origin matches '荒川'
+washinoo,鷲の尾,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ワシノオ' at spot containing '新宿御苑'
+washinoo,鷲の尾,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in washinoo text
+washinoo,鷲の尾,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in washinoo text
+yae-no-sakon,八重の左近,walker-ar0313e25816,新宿御苑の桜,text_extraction,Keyword '新宿御苑' found in yae-no-sakon text
+yaeakebono,八重曙,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in yaeakebono text
+yaeakebono,八重曙,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '八重曙' (yaeakebono) origin matches '荒川'
+yaeakebono,八重曙,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '八重曙' (yaeakebono) origin matches '荒川'
+yaeakebono,八重曙,walker-ar0313e26530,舎人公園の桜,text_extraction,Keyword '東京都足立区' found in yaeakebono text
+yaeakebono,八重曙,walker-ar0313e60170,西新井大師の桜,text_extraction,Keyword '東京都足立区' found in yaeakebono text
+yaeakebono,八重曙,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '八重曙' at spot containing '造幣局'
+yaeakebono,八重曙,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '八重曙' at spot containing '造幣局'
+yaebeni-ohshima,八重紅大島,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '八重紅大島' at spot containing '弘前公園'
+yaebeni-ohshima,八重紅大島,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '八重紅大島' at spot containing '造幣局'
+yaebeni-ohshima,八重紅大島,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '八重紅大島' at spot containing '造幣局'
+yaebeni-toranoo,八重紅虎の尾,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '八重紅虎の尾' at spot containing '造幣局'
+yaebeni-toranoo,八重紅虎の尾,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '八重紅虎の尾' at spot containing '造幣局'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0101e25542,松前公園の桜,web_search,Web search: '八重紅枝垂' at spot containing '松前公園'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '八重紅枝垂' at spot containing '弘前公園'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0309e25727,八幡山公園の桜,text_extraction,Keyword '栃木県宇都宮市' found in yaebenishidare-sanokei text
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0309e25728,日光街道桜並木の桜,text_extraction,Keyword '栃木県宇都宮市' found in yaebenishidare-sanokei text
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ヤエベニシダレ' at spot containing '新宿御苑'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,web_search,Web search: '八重紅枝垂' at spot containing '林業試験場'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'ヤエベニシダレ' at spot containing '二条城'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: 'ヤエベニシダレ' at spot containing '京都府立植物園'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '八重紅枝垂' at spot containing '造幣局'
+yaebenishidare-sanokei,八重紅枝垂(佐野系）,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '八重紅枝垂' at spot containing '造幣局'
+yaemiyamazakura,八重深山桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in yaemiyamazakura text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,koishikawa-botanical,小石川植物園,text_extraction,Keyword '小石川植物園' found in yaemurasakizakura-koshimizukei text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,walker-ar0313e26443,六義園の桜,text_extraction,Keyword '東京都文京区' found in yaemurasakizakura-koshimizukei text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,walker-ar0313e26523,播磨坂さくら並木の桜,text_extraction,Keyword '東京都文京区' found in yaemurasakizakura-koshimizukei text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,walker-ar0313e377373,ホテル椿山荘東京の桜,text_extraction,Keyword '東京都文京区' found in yaemurasakizakura-koshimizukei text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,walker-ar0313e380522,江戸川公園・神田川沿いの桜,text_extraction,Keyword '東京都文京区' found in yaemurasakizakura-koshimizukei text
+yaemurasakizakura-koshimizukei,八重紫桜（小清水系）,walker-ar0313e60406,小石川後楽園の桜,text_extraction,Keyword '東京都文京区' found in yaemurasakizakura-koshimizukei text
+yamagoshi-murasaki,山越紫,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '山越紫' at spot containing '造幣局'
+yamagoshi-murasaki,山越紫,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '山越紫' at spot containing '造幣局'
+yamazakura,ヤマザクラ,mitake-okutagawa,奥多摩・御岳山,variety_note,Variety name 'ヤマザクラ' found in spot '奥多摩・御岳山' varietyNote
+yamazakura,ヤマザクラ,myogisan-sakura,妙義山さくらの里,variety_note,Variety name 'ヤマザクラ' found in spot '妙義山さくらの里' varietyNote
+yamazakura,ヤマザクラ,takao-mountain,高尾山,variety_note,Variety name 'ヤマザクラ' found in spot '高尾山' varietyNote
+yamazakura,ヤマザクラ,tenranzan,天覧山・多峯主山,variety_note,Variety name 'ヤマザクラ' found in spot '天覧山・多峯主山' varietyNote
+yamazakura,ヤマザクラ,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'ヤマザクラ' at spot containing '弘前公園'
+yamazakura,ヤマザクラ,walker-ar0308e60192,吉野公園の桜,web_search,Web search: 'ヤマザクラ' at spot containing '吉野'
+yamazakura,ヤマザクラ,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ヤマザクラ' at spot containing '新宿御苑'
+yamazakura,ヤマザクラ,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,web_search,Web search: 'ヤマザクラ' at spot containing '吉野'
+yamazakura,ヤマザクラ,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: 'ヤマザクラ' at spot containing '二条城'
+yamazakura,ヤマザクラ,walker-ar0729e60635,吉野山(上千本)の桜,web_search,Web search: 'ヤマザクラ' at spot containing '吉野'
+yatsubusazakura,八房桜,walker-ar0308e25715,磯部桜川公園の桜,text_extraction,Keyword '茨城県桜川市' found in yatsubusazakura text
+yatsubusazakura,八房桜,walker-ar0308e25718,雨引観音の桜,text_extraction,Keyword '茨城県桜川市' found in yatsubusazakura text
+yoko,陽光,sagamihara-park,相模原公園,web_search,Web search: '陽光' at spot containing '相模'
+yoko,陽光,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '陽光' at spot containing '弘前公園'
+yoko,陽光,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ヨウコウ' at spot containing '新宿御苑'
+yoko,陽光,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: 'ヨウコウ' at spot containing '上野'
+yoko,陽光,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '陽光' at spot containing '相模'
+yoko,陽光,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '陽光' at spot containing '相模'
+yoko,陽光,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '陽光' at spot containing '相模'
+yoko,陽光,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: 'ヨウコウ' at spot containing '上野'
+yokohamahizakura,横浜緋桜,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '横浜緋桜' at spot containing '弘前公園'
+yokohamahizakura,横浜緋桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ヨコハマヒザクラ' at spot containing '新宿御苑'
+yokowazakura,横輪桜,walker-ar0624e26085,五十鈴川堤の桜,text_extraction,Keyword '三重県伊勢市' found in yokowazakura text
+yokowazakura,横輪桜,walker-ar0624e26086,宮川堤の桜,text_extraction,Keyword '三重県伊勢市' found in yokowazakura text
+yonono-yaezakura,予野の八重桜,walker-ar0624e26091,上野公園の桜(三重県),text_extraction,Keyword '三重県伊賀市' found in yonono-yaezakura text
+yoro-zakura,養老桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '養老桜' at spot containing '造幣局'
+yoro-zakura,養老桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '養老桜' at spot containing '造幣局'
+youkihi,楊貴妃,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in youkihi text
+youkihi,楊貴妃,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '楊貴妃' (youkihi) origin matches '荒川'
+youkihi,楊貴妃,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '楊貴妃' (youkihi) origin matches '荒川'
+youkihi,楊貴妃,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '楊貴妃' at spot containing '造幣局'
+youkihi,楊貴妃,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '楊貴妃' at spot containing '造幣局'
+yousyun,陽春,walker-ar0938e60302,西山興隆寺の桜,text_extraction,Keyword '愛媛県西条市' found in yousyun text
+yousyun,陽春,walker-ar0938e60510,武丈公園の桜,text_extraction,Keyword '愛媛県西条市' found in yousyun text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e25862,鶴岡八幡宮の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e25863,源氏山公園の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e377268,長谷寺の桜(神奈川県),text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e377374,日比谷花壇大船フラワーセンターの桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382074,光明寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382205,鎌倉大仏殿高徳院の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382333,建長寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382345,本覚寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382420,宝戒寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+zuisenji-fuyuzakura,瑞泉寺冬桜,walker-ar0314e382959,妙本寺の桜,text_extraction,Keyword '神奈川県鎌倉市' found in zuisenji-fuyuzakura text
+キヌガサ,衣笠,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in キヌガサ text
+キヌガサ,衣笠,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '衣笠' at spot containing '造幣局'
+キヌガサ,衣笠,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '衣笠' at spot containing '造幣局'
+クラマカンザン,鞍馬関山,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in クラマカンザン text
+クラマニバナ,鞍馬似花,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in クラマニバナ text
+クワジマザクラ,桑島桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in クワジマザクラ text
+ゲバザクラ,下馬桜,walker-ar0622e26057,狩宿の下馬ザクラ,text_extraction,Keyword '静岡県富士宮市' found in ゲバザクラ text
+ゲバザクラ,下馬桜,walker-ar0622e60244,大石寺の桜,text_extraction,Keyword '静岡県富士宮市' found in ゲバザクラ text
+コウゼンジシロヤエザクラ,光善寺白八重桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in コウゼンジシロヤエザクラ text
+コウダイジ,高台寺,walker-ar0726e26475,高台寺の桜,text_extraction,Keyword '高台寺' found in コウダイジ text
+コウダイジ,高台寺,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '高台寺' at spot containing '造幣局'
+コウダイジ,高台寺,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '高台寺' at spot containing '造幣局'
+コウヨウ,松前紅陽,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in コウヨウ text
+コウラン,紅蘭,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in コウラン text
+コウリン,松前香輪,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前香輪' (コウリン) origin matches '松前公園'
+コガネイウスベニザクラ,小金井薄紅桜,walker-ar0313e25826,小金井公園の桜,text_extraction,Keyword '小金井公園' found in コガネイウスベニザクラ text
+コシミズハヤザキ,越水早咲き,walker-ar0728e26150,夙川河川敷緑地(夙川公園)の桜,text_extraction,Keyword '兵庫県西宮市' found in コシミズハヤザキ text
+ゴショミクルマガエシ,御所御車返し,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'ゴショミクルマガエシ' at spot containing '新宿御苑'
+シラクモ,白雲,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in シラクモ text
+シラツユ,白露,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in シラツユ text
+シロヒガン,江戸彼岸,sagamihara-park,相模原公園,web_search,Web search: 'エドヒガン' at spot containing '相模'
+シロヒガン,江戸彼岸,tama-forest-science,多摩森林科学園,web_search,Web search: 'エドヒガン' at spot containing '多摩森林科学園'
+シロヒガン,江戸彼岸,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: 'エドヒガン' at spot containing '弘前公園'
+シロヒガン,江戸彼岸,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'エドヒガン' at spot containing '新宿御苑'
+シロヒガン,江戸彼岸,walker-ar0313e25817,上野恩賜公園の桜,web_search,Web search: 'エドヒガン' at spot containing '上野'
+シロヒガン,江戸彼岸,walker-ar0313e25833,千鳥ヶ淵緑道の桜,web_search,Web search: 'エドヒガン' at spot containing '千鳥ヶ淵'
+シロヒガン,江戸彼岸,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: 'エドヒガン' at spot containing '相模'
+シロヒガン,江戸彼岸,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: 'エドヒガン' at spot containing '相模'
+シロヒガン,江戸彼岸,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: 'エドヒガン' at spot containing '相模'
+シロヒガン,江戸彼岸,walker-ar0624e26091,上野公園の桜(三重県),web_search,Web search: 'エドヒガン' at spot containing '上野'
+シロヒガン,江戸彼岸,walker-ar0726e26129,平野神社の桜,web_search,Web search: 'エドヒガン' at spot containing '平野神社'
+シロヒガン,江戸彼岸,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: 'エドヒガン' at spot containing '京都府立植物園'
+シロヒガン,江戸彼岸,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: 'エドヒガン' at spot containing '結城農場'
+シロヤマザクラ,白山桜,sagamihara-park,相模原公園,web_search,Web search: '山桜' at spot containing '相模'
+シロヤマザクラ,白山桜,tama-forest-science,多摩森林科学園,web_search,Web search: '山桜' at spot containing '多摩森林科学園'
+シロヤマザクラ,白山桜,walker-ar0205e25636,日本国花苑の桜,web_search,Web search: '山桜' at spot containing '国花苑'
+シロヤマザクラ,白山桜,walker-ar0308e60192,吉野公園の桜,web_search,Web search: '山桜' at spot containing '吉野'
+シロヤマザクラ,白山桜,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: '山桜' at spot containing '新宿御苑'
+シロヤマザクラ,白山桜,walker-ar0313e382201,染井吉野桜記念公園(駒込駅前)の桜,web_search,Web search: '山桜' at spot containing '吉野'
+シロヤマザクラ,白山桜,walker-ar0314e381406,相模湖湖畔の桜,web_search,Web search: '山桜' at spot containing '相模'
+シロヤマザクラ,白山桜,walker-ar0314e461924,出雲大社相模分祠の桜,web_search,Web search: '山桜' at spot containing '相模'
+シロヤマザクラ,白山桜,walker-ar0314e60151,相模が丘仲よし小道 さくら百華の道の桜,web_search,Web search: '山桜' at spot containing '相模'
+シロヤマザクラ,白山桜,walker-ar0726e26129,平野神社の桜,web_search,Web search: '山桜' at spot containing '平野神社'
+シロヤマザクラ,白山桜,walker-ar0726e401387,元離宮二条城の桜,web_search,Web search: '山桜' at spot containing '二条城'
+シロヤマザクラ,白山桜,walker-ar0726e60606,京都府立植物園の桜,web_search,Web search: '山桜' at spot containing '京都府立植物園'
+シロヤマザクラ,白山桜,walker-ar0729e60635,吉野山(上千本)の桜,web_search,Web search: '山桜' at spot containing '吉野'
+シロヤマザクラ,白山桜,yuki-sakura-farm,日本花の会 結城農場 桜見本園,web_search,Web search: '山桜' at spot containing '結城農場'
+シンエイザクラ,信英桜,walker-ar0206e25651,御幸公園の桜,text_extraction,Keyword '山形県上山市' found in シンエイザクラ text
+シンエイザクラ,信英桜,walker-ar0206e25652,上山城･月岡公園の桜,text_extraction,Keyword '山形県上山市' found in シンエイザクラ text
+シンデン,心田,walker-ar0726e26482,天龍寺の桜,text_extraction,Keyword '天龍寺' found in シンデン text
+ジョウキョウジテマリザクラ,浄教寺手鞠桜,walker-ar0516e60604,富山県中央植物園の桜,text_extraction,Keyword '富山県中央植物園' found in ジョウキョウジテマリザクラ text
+スザク,朱雀,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in スザク text
+スザク,朱雀,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '朱雀' (スザク) origin matches '荒川'
+スザク,朱雀,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '朱雀' (スザク) origin matches '荒川'
+スザク,朱雀,walker-ar0313e25816,新宿御苑の桜,web_search,Web search: 'スザク' at spot containing '新宿御苑'
+スミゾメ,墨染,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in スミゾメ text
+スミゾメ,墨染,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '墨染' (スミゾメ) origin matches '荒川'
+スミゾメ,墨染,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '墨染' (スミゾメ) origin matches '荒川'
+ツキハシキクザクラ,槻橋菊桜,walker-ar0517e60127,石川県農林総合研究センター林業試験場樹木公園の桜,text_extraction,Keyword '石川県白山市' found in ツキハシキクザクラ text
+ツクバネ,突羽根,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社の桜' found in ツクバネ text
+ナガエヤエ,長柄八重,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in ナガエヤエ text
+ナガエヤエ,長柄八重,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in ナガエヤエ text
+ナラノココノエザクラ,奈良の九重桜,walker-ar0729e26163,奈良公園の桜,text_extraction,Keyword '奈良公園' found in ナラノココノエザクラ text
+ニシノミヤゴンゲンタイラザクラ,西宮権現平桜,walker-ar0728e26150,夙川河川敷緑地(夙川公園)の桜,text_extraction,Keyword '兵庫県西宮市' found in ニシノミヤゴンゲンタイラザクラ text
+ニソンインフケンゾウ,二尊院普賢象,walker-ar0726e26484,二尊院の桜,text_extraction,Keyword '二尊院' found in ニソンインフケンゾウ text
+ニソンインフケンゾウ,二尊院普賢象,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '二尊院普賢象' at spot containing '造幣局'
+ニソンインフケンゾウ,二尊院普賢象,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '二尊院普賢象' at spot containing '造幣局'
+ニュウゼンオトメキクザクラ,入善乙女キクザクラ,walker-ar0516e60604,富山県中央植物園の桜,text_extraction,Keyword '富山県中央植物園' found in ニュウゼンオトメキクザクラ text
+ハクサン1ゴウ,白山１号,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in ハクサン1ゴウ text
+ハクサンオオデマリ,白山大手毬,tama-forest-science,多摩森林科学園,text_extraction,Keyword '多摩森林科学園' found in ハクサンオオデマリ text
+ハクホウ,白峰,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ハクホウ text
+ハクホウザクラ,白鳳桜,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ハクホウザクラ text
+ハシタテキクザクラ,橋立菊桜,walker-ar0517e60596,熊坂川河畔の桜,text_extraction,Keyword '石川県加賀市' found in ハシタテキクザクラ text
+ハシタテキクザクラ,橋立菊桜,walker-ar0517e60597,大堰宮公園の桜,text_extraction,Keyword '石川県加賀市' found in ハシタテキクザクラ text
+ハタザクラ,旗桜,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ハタザクラ text
+ハタザクラ,旗桜,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '旗桜' (ハタザクラ) origin matches '荒川'
+ハタザクラ,旗桜,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '旗桜' (ハタザクラ) origin matches '荒川'
+ハッテンザクラ,八天桜,walker-ar1042e26353,西海橋公園の桜,text_extraction,Keyword '長崎県佐世保市' found in ハッテンザクラ text
+ハナカゴト,花香琴,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in ハナカゴト text
+ハナカゴト,花香琴,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in ハナカゴト text
+ハナシホウ,花司峰,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ハナシホウ text
+ハヤシ1ゴウ,林１号,walker-ar0727e26135,造幣局　桜の通り抜け,origin_name,Origin name: variety '林１号' (ハヤシ1ゴウ) origin matches '造幣局'
+ハヤシ1ゴウ,林１号,walker-ar0834e26242,造幣局広島支局 花のまわりみち,origin_name,Origin name: variety '林１号' (ハヤシ1ゴウ) origin matches '造幣局'
+ハヤシ2ゴウ,林２号,walker-ar0727e26135,造幣局　桜の通り抜け,origin_name,Origin name: variety '林２号' (ハヤシ2ゴウ) origin matches '造幣局'
+ハヤシ2ゴウ,林２号,walker-ar0834e26242,造幣局広島支局 花のまわりみち,origin_name,Origin name: variety '林２号' (ハヤシ2ゴウ) origin matches '造幣局'
+ハンベイシロベニザクラ,半兵衛白紅桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ハンベイシロベニザクラ text
+ヒマラヤヒザクラ,ヒマラヤ緋桜,walker-ar0313e25816,新宿御苑の桜,text_extraction,Keyword '新宿御苑' found in ヒマラヤヒザクラ text
+ヒミクヅロキクザクラ,氷見久津呂菊桜,walker-ar0516e25913,朝日山公園の桜,text_extraction,Keyword '富山県氷見市' found in ヒミクヅロキクザクラ text
+ヒミクヅロキクザクラ,氷見久津呂菊桜,walker-ar0516e60604,富山県中央植物園の桜,text_extraction,Keyword '富山県中央植物園' found in ヒミクヅロキクザクラ text
+ヒメタカサゴ,姫高砂,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in ヒメタカサゴ text
+ヒメタカサゴ,姫高砂,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in ヒメタカサゴ text
+ヒュペヘンシス,ヒュペヘンシス,walker-ar0308e60548,城跡歴史公園の桜,text_extraction,Keyword '茨城県結城市' found in ヒュペヘンシス text
+ヒュペヘンシス,ヒュペヘンシス,yuki-sakura-farm,日本花の会 結城農場 桜見本園,text_extraction,Keyword '茨城県結城市' found in ヒュペヘンシス text
+ヒラノニオイ,平野匂,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社の桜' found in ヒラノニオイ text
+ヒラノニオイ,平野匂,walker-ar0727e26135,造幣局　桜の通り抜け,origin_name,Origin name: variety '平野匂' (ヒラノニオイ) origin matches '造幣局'
+ヒラノニオイ,平野匂,walker-ar0834e26242,造幣局広島支局 花のまわりみち,origin_name,Origin name: variety '平野匂' (ヒラノニオイ) origin matches '造幣局'
+ヒラノネザメ,平野寝覚,walker-ar0726e26129,平野神社の桜,text_extraction,Keyword '平野神社' found in ヒラノネザメ text
+ヒロシマエバヤマザクラ,広島江波山桜,walker-ar0834e26238,江波山公園の桜,text_extraction,Keyword '江波山公園' found in ヒロシマエバヤマザクラ text
+マンゲツ,満月,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in マンゲツ text
+マンゲツ,満月,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '満月' (マンゲツ) origin matches '荒川'
+マンゲツ,満月,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in マンゲツ text
+マンゲツ,満月,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '満月' (マンゲツ) origin matches '荒川'
+ミダレユキ,乱雪,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ミダレユキ text
+ミドノヤエ,水土野八重,walker-ar0622e217110,秩父宮記念公園の桜,text_extraction,Keyword '静岡県御殿場市' found in ミドノヤエ text
+ミドノヤエ,水土野八重,walker-ar0622e60579,富士仏舎利塔平和公園の桜,text_extraction,Keyword '静岡県御殿場市' found in ミドノヤエ text
+ミナカミ,水上,arakawa-tsutsumi,荒川堤（荒川自然公園）,text_extraction,Keyword '荒川堤' found in ミナカミ text
+ミナカミ,水上,kitakoshigaya-motoarakawa,元荒川桜堤（北越谷）,origin_name,Origin name: variety '水上' (ミナカミ) origin matches '荒川'
+ミナカミ,水上,walker-ar0202e25563,弘前公園(鷹揚公園)の桜,web_search,Web search: '水上' at spot containing '弘前公園'
+ミナカミ,水上,walker-ar0311e60429,元荒川の桜並木の桜,origin_name,Origin name: variety '水上' (ミナカミ) origin matches '荒川'
+ミヤコニシキ,都錦,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '都錦' at spot containing '造幣局'
+ミヤコニシキ,都錦,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '都錦' at spot containing '造幣局'
+ミヤノヒナザクラ,宮の雛桜,walker-ar0728e26150,夙川河川敷緑地(夙川公園)の桜,text_extraction,Keyword '兵庫県西宮市' found in ミヤノヒナザクラ text
+ムシャザクライデンケン,ムシャザクラ（遺伝研の株）,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ムシャザクライデンケン text
+メグザクラ,萌紅桜,walker-ar0726e60606,京都府立植物園の桜,text_extraction,Keyword '京都府立植物園' found in メグザクラ text
+ヤエムラサキザクラ,八重紫桜,walker-ar0727e26135,造幣局　桜の通り抜け,web_search,Web search: '八重紫桜' at spot containing '造幣局'
+ヤエムラサキザクラ,八重紫桜,walker-ar0834e26242,造幣局広島支局 花のまわりみち,web_search,Web search: '八重紫桜' at spot containing '造幣局'
+ヤエヤマコシ,八重山古志,walker-ar0415e25890,悠久山公園の桜,text_extraction,Keyword '新潟県長岡市' found in ヤエヤマコシ text
+ヤチヨ,八千代,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '北海道松前郡松前町' found in ヤチヨ text
+ヤチヨ,八千代,walker-ar0101e60112,光善寺(血脈桜)の桜,text_extraction,Keyword '北海道松前郡松前町' found in ヤチヨ text
+ヤツセニオイ,八瀬匂,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ヤツセニオイ text
+ヤヨイタカサゴ,弥生高砂,walker-ar0516e60604,富山県中央植物園の桜,text_extraction,Keyword '富山県中央植物園' found in ヤヨイタカサゴ text
+ユウエン,松前優艶,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in ユウエン text
+ユウガ,松前優雅,walker-ar0101e25542,松前公園の桜,origin_name,Origin name: variety '松前優雅' (ユウガ) origin matches '松前公園'
+ユウグレ,夕暮,walker-ar0727e26135,造幣局　桜の通り抜け,origin_name,Origin name: variety '夕暮' (ユウグレ) origin matches '造幣局'
+ユウグレ,夕暮,walker-ar0834e26242,造幣局広島支局 花のまわりみち,origin_name,Origin name: variety '夕暮' (ユウグレ) origin matches '造幣局'
+ヨサノアキコ,与謝野晶子,walker-ar0727e60637,大仙公園の桜,text_extraction,Keyword '大仙公園' found in ヨサノアキコ text
+リュウウンインベニヤエ,龍雲院紅八重,walker-ar0101e25542,松前公園の桜,text_extraction,Keyword '松前町' found in リュウウンインベニヤエ text
+ワカナニッコウザクラ,若名日光桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ワカナニッコウザクラ text
+ワセヤマザクラ,早生山桜,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ワセヤマザクラ text
+ワセヨシノ,早生吉野,walker-ar0622e60574,三嶋大社の桜,text_extraction,Keyword '静岡県三島市' found in ワセヨシノ text
