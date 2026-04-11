@@ -2872,7 +2872,10 @@
     "trivia": "この中で多少、色の濃い美しい株があって有名になり、この桜にこの名が付けられたといわれます。",
     "wikiTitleJa": "小塩山 (桜)",
     "wikiTitleEn": "Cerasus serrulata",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "小塩山"
+    ]
   },
   {
     "id": "koshino-kamozakura",
@@ -2942,29 +2945,6 @@
     "trivia": "同名品種と区別するため原木所在地（越村家）を名称に冠した珍しい命名例。選抜個体のアイデンティティを保護する工夫。",
     "wikiTitleJa": "エドヒガン",
     "wikiTitleEn": "Cerasus spachiana",
-    "emoji": "🌸"
-  },
-  {
-    "id": "koshi-no-fuku-kasane",
-    "no": "127",
-    "name": "越の福重",
-    "reading": "こしのふくかさね",
-    "bloomSeason": "4月上旬、秋",
-    "color": "白",
-    "colorCode": "#FFFFFF",
-    "flowerShape": "一重・八重咲",
-    "tags": [
-      "二季咲き",
-      "富山県",
-      "入善町・朝日町"
-    ],
-    "summary": "富山県で発見された春秋二季咲き、一重と半八重が混在する珍品種",
-    "features": "とやまさくら守の会の調査により富山県内の入善町と朝日町で発見された春と秋に開花する二季咲き品種。傘状の亜高木で大輪の白色の花を咲かせ、一樹中に一重咲と半八重咲が混在し花が散り難い特性を持つ。北陸地方の古称「越の国」と「福重（ふくかさね）」を組み合わせて命名された。",
-    "history": "とやまさくら守の会の調査で富山県入善町・朝日町にて発見。大原隆明が新品種として発表し、北陸古称「越の国」と「福重」から命名。",
-    "background": "富山県に古くから伝わる二季咲き桜を保護・記録した「とやまさくら守の会」の活動が生んだ品種。地域の自然遺産を守る草の根活動の成果。",
-    "trivia": "一本の木に一重咲と半八重咲が混在するという特性は、桜の中でも非常に珍しい現象として植物学的にも注目される。",
-    "wikiTitleJa": "サクラ",
-    "wikiTitleEn": "Cerasus 'Koshi-no-fuku-kasane'",
     "emoji": "🌸"
   },
   {
@@ -3356,7 +3336,10 @@
     "trivia": "「一ヶ所から5本の花柄が出る」という特性は、複数の花が一か所に密集して咲くことを意味し、実際に見ると非常に印象的な咲き方をする。",
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Cerasus serrulata 'Gosiozakura'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "御所桜"
+    ]
   },
   {
     "id": "goshinzakura",
@@ -3861,29 +3844,6 @@
     "trivia": "荒川堤に伝わる古来からの里桜品種で、地名由来の名前を持つと考えられる。",
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Prunus serrulata 'Shibayama'",
-    "emoji": "🌸",
-    "colorCode": "#FFB7C5"
-  },
-  {
-    "id": "shujaku",
-    "no": "167",
-    "name": "朱雀",
-    "reading": "しゅじゃく",
-    "bloomSeason": "4月中旬",
-    "color": "淡紅",
-    "flowerShape": "八重咲",
-    "tags": [
-      "里桜",
-      "荒川堤",
-      "八重咲き"
-    ],
-    "summary": "花柄が細長く花が垂れ下がるのが特徴の荒川堤由来の八重桜",
-    "features": "東京府江北村（現・足立区）の荒川堤で栽培されていた品種。花色は淡紅色の八重咲き大輪。花柄と小花柄が非常に細く長いため花が下垂するのが特徴。樹形は盃状の亜高木。4月中旬開花。",
-    "history": "学名はCerasus serrulata 'Shujaku'。昔、京都の朱雀にあったためこの名が付いたといわれる。荒川堤の代表的な品種のひとつで東京の花見文化を支えた。",
-    "background": "京都の朱雀大路に由来する命名とされ、平安文化の雅を偲ばせる品種名。花柄が特に長く細いため花が垂れ下がる独特の姿が特徴的で、他の八重桜と区別しやすい。",
-    "trivia": "花柄と小花柄が非常に細く長いため、八重の大輪花が垂れ下がる独特の姿を見せる。",
-    "wikiTitleJa": "サトザクラ",
-    "wikiTitleEn": "Prunus serrulata 'Shujaku'",
     "emoji": "🌸",
     "colorCode": "#FFB7C5"
   },
@@ -5364,7 +5324,10 @@
     "trivia": "平安時代の和歌「いにしへの奈良の都の八重桜」に詠まれたとされる桜で、千年以上の歴史を誇る文化的名桜。",
     "wikiTitleJa": "奈良の八重桜",
     "wikiTitleEn": "Cerasus leveilleana 'Antiqua'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "奈良八重桜"
+    ]
   },
   {
     "id": "nioizakura",
@@ -8963,7 +8926,10 @@
     "trivia": "カスミザクラは霞がかかったような白い花が特徴で、雨玉桜はその中でも特に透明感のある花弁を持つとされる。",
     "wikiTitleJa": "カスミザクラ",
     "wikiTitleEn": "Cerasus leveilleana 'Amedama-zakura'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "飴玉桜"
+    ]
   },
   {
     "id": "ayanishiki",
@@ -10698,7 +10664,10 @@
     "trivia": "雲ヶ畑は北山杉の産地としても有名で、清流と杉林の山里に春を告げる桜として地域に根付いている。",
     "wikiTitleJa": "サクラの一覧",
     "wikiTitleEn": "Cerasus 'Kumogabata'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "雲ケ畑"
+    ]
   },
   {
     "id": "kumonoe",
@@ -10816,28 +10785,6 @@
     "wikiTitleJa": "霧立山桜",
     "wikiTitleEn": "Cerasus sargentii",
     "emoji": "💜"
-  },
-  {
-    "id": "クモガバタ",
-    "no": "481",
-    "name": "雲ケ畑",
-    "reading": "くもがばた",
-    "bloomSeason": "５月上旬　北海道松前町基準",
-    "color": "白色「9501」",
-    "colorCode": "#FFFFFF",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "北海道"
-    ],
-    "summary": "松前町オリジナルの品種です。",
-    "features": "松前町オリジナルの品種です。 花弁は縦方向にしわがあり、先は不規則に切れ込みがあります。名の由来は不明です。",
-    "history": "名の由来は不明です。",
-    "background": "名の由来は不明です。",
-    "trivia": "名の由来は不明です。",
-    "wikiTitleJa": "雲ケ畑",
-    "wikiTitleEn": "Cerasus",
-    "emoji": "🌸"
   },
   {
     "id": "クモノエ",
@@ -11203,7 +11150,10 @@
     "trivia": "平成２３年に、「二季咲きの特徴や、半八重、一重咲が見られるなど、重ね重ねの喜びが感じられる。",
     "wikiTitleJa": "越の福かさね",
     "wikiTitleEn": "Cerasus",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "越の福重"
+    ]
   },
   {
     "id": "コシミズハヤザキ",
@@ -11630,7 +11580,10 @@
     "trivia": "伊豆修善寺は温泉地としても有名で、春の桜シーズンには多くの観光客が訪れる。修禅寺の境内にはシュゼンジカンザクラなど複数の品種が保存される。",
     "wikiTitleJa": "ソメイヨシノ",
     "wikiTitleEn": "Cerasus × yedoensis 'Syuzenji-zakura'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "修善寺桜"
+    ]
   },
   {
     "id": "juniyae",
@@ -11922,28 +11875,6 @@
     "trivia": "正法寺は天台宗の古刹で、鬼柳の地は北上市（旧和賀郡）に位置する。岩手県には菊咲き桜の希少品種が比較的多く保存されている。",
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Cerasus 'Shouhoujikiku'",
-    "emoji": "🌸"
-  },
-  {
-    "id": "シュゼンジザクラ",
-    "no": "540",
-    "name": "修善寺桜",
-    "reading": "しゅぜんじざくら",
-    "bloomSeason": "４月上旬",
-    "color": "白色「9501」",
-    "colorCode": "#FFFFFF",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "京都"
-    ],
-    "summary": "（♀エドヒガン × ♂オオシマザクラ） 竹中要氏が東京都…",
-    "features": "（♀エドヒガン × ♂オオシマザクラ） 竹中要氏が東京都小石川植物園にあったエドヒガンの実生から選抜したサクラです。",
-    "history": "（♀エドヒガン × ♂オオシマザクラ） 竹中要氏が東京都小石川植物園にあったエドヒガンの実生から選抜したサクラです。",
-    "background": "修善寺桜の原産地や栽培背景。",
-    "trivia": "（♀エドヒガン × ♂オオシマザクラ） 竹中要氏が東京都小石川植物園にあったエドヒガンの実生から選抜したサクラです。",
-    "wikiTitleJa": "修善寺桜",
-    "wikiTitleEn": "Cerasus",
     "emoji": "🌸"
   },
   {
@@ -12306,7 +12237,10 @@
     "trivia": "オオシマザクラ系の桜は香りが強いことで知られ、花びらは桜餅の葉として利用されることもある。",
     "wikiTitleJa": "オオシマザクラ",
     "wikiTitleEn": "Cerasus speciosa",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "瀧匂"
+    ]
   },
   {
     "id": "takeshima",
@@ -12713,31 +12647,6 @@
     "emoji": "🌸"
   },
   {
-    "id": "tsurugiori-tokiku-zakura",
-    "no": "589",
-    "name": "剣折時菊桜",
-    "reading": "つるぎおりときくざくら",
-    "bloomSeason": "4月下旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "菊咲き（多弁）",
-    "tags": [
-      "淡紅",
-      "菊咲き",
-      "多弁",
-      "大輪",
-      "山地"
-    ],
-    "summary": "山地で発見された大輪の菊咲き品種",
-    "features": "学名 Cerasus 'Tsurugioritokiku-zakura'。花色は淡紅色（色番号9501）で菊咲き。多弁性で花弁数が多く、大輪の豪華な花。開花時期は4月下旬と比較的遅い。",
-    "history": "山地で発見された品種で、「剣折（つるぎおり）」という名称は発見地または樹の特徴に由来するとみられる。サトザクラの変異型として記録されている。",
-    "background": "山地の自然条件下で選抜された珍しい菊咲き品種。自然界で菊咲きの突然変異が生じたものを栽培化したとみられる。",
-    "trivia": "菊咲き桜は花弁の分化が進んだ珍しい形質で、通常の八重咲きよりもさらに多くの花弁を持ち、見た目が菊の花に似ることから名付けられた。",
-    "wikiTitleJa": "サトザクラ",
-    "wikiTitleEn": "Cerasus 'Tsurugioritokiku-zakura'",
-    "emoji": "🌸"
-  },
-  {
     "id": "tegara-zakura",
     "no": "590",
     "name": "手柄桜",
@@ -12786,30 +12695,6 @@
     "trivia": "「天人（てんにん）」は仏教で天界に住む神的存在を指し、「羽衣伝説」の主人公でもある。桜の儚さと天人の美しさを重ねた命名。",
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Cerasus 'Ten-ninfuji'",
-    "emoji": "🌸"
-  },
-  {
-    "id": "toin-yaeyamazakura",
-    "no": "592",
-    "name": "東院八重山桜",
-    "reading": "とういんやえやまざくら",
-    "bloomSeason": "4月中旬〜下旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "八重咲き",
-    "tags": [
-      "淡紅",
-      "八重",
-      "天然記念物",
-      "紀伊"
-    ],
-    "summary": "紀伊国で発見・天然記念物指定の八重山桜",
-    "features": "学名 Cerasus jamasakura（八重咲き変異型）。花色は淡紅色（色番号9201）で八重咲き。花弁は密生する。紀伊（和歌山）地方で発見された在来ヤマザクラの八重咲き変異株。",
-    "history": "1994年4月16日に国の天然記念物指定候補として記録され、1996年4月17日に正式指定された。紀伊半島で発見されたヤマザクラ系の八重咲き変異として重要な記録を持つ。",
-    "background": "紀伊（和歌山県）の東院（とういん）ゆかりの地に生育する品種。天然記念物として保護されており、地域の生物文化遺産として重要な位置を占める。",
-    "trivia": "天然記念物に指定された桜は日本全国に多数あるが、八重咲きのヤマザクラ系変異株はとりわけ稀少で、学術的にも価値が高い。",
-    "wikiTitleJa": "ヤマザクラ",
-    "wikiTitleEn": "Cerasus jamasakura",
     "emoji": "🌸"
   },
   {
@@ -12981,7 +12866,10 @@
     "trivia": "大阪の古称「難波（なにわ）」は万葉集にも多数登場する歴史ある地名。「葦が生えた難波の地」が語源とも言われる。",
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Cerasus × yedoensis 'Naniwa-zakura'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "浪速桜"
+    ]
   },
   {
     "id": "チョウリョウ",
@@ -13071,7 +12959,10 @@
     "trivia": "近年、富山県において報告されている他の菊桜も同様です。",
     "wikiTitleJa": "剱折戸菊桜",
     "wikiTitleEn": "Cerasus",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "剣折時菊桜"
+    ]
   },
   {
     "id": "テンニンフジ",
@@ -13114,7 +13005,10 @@
     "trivia": "中輪白色で花はやや上向きにつく、美しい桜です。",
     "wikiTitleJa": "東員八重山桜",
     "wikiTitleEn": "Cerasus jamasakura",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "東院八重山桜"
+    ]
   },
   {
     "id": "ドウバカンザン",
@@ -13206,28 +13100,6 @@
     "wikiTitleJa": "七盛桜",
     "wikiTitleEn": "Cerasus",
     "emoji": "💜"
-  },
-  {
-    "id": "ナニワザクラ",
-    "no": "617",
-    "name": "浪速桜",
-    "reading": "なにわざくら",
-    "bloomSeason": "４月上旬",
-    "color": "白色「9501」",
-    "colorCode": "#FFFFFF",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "大輪"
-    ],
-    "summary": "（♀ソメイヨシノ × ♂オオシマザクラ） 伊豆大島の大島…",
-    "features": "（♀ソメイヨシノ × ♂オオシマザクラ） 伊豆大島の大島公園のソメイヨシノの実生から選抜された品種です。白色大輪で旗弁も多く見られます。散り際、花全体が赤く染まります。名の由来は不明。",
-    "history": "名の由来は不明。",
-    "background": "（♀ソメイヨシノ × ♂オオシマザクラ） 伊豆大島の大島公園のソメイヨシノの実生から選抜された品種です。名の由来は不明。",
-    "trivia": "名の由来は不明。",
-    "wikiTitleJa": "浪速桜",
-    "wikiTitleEn": "Cerasus",
-    "emoji": "🌸"
   },
   {
     "id": "ナルサワザクラ",
@@ -15304,29 +15176,6 @@
     ]
   },
   {
-    "id": "miyama-choji-zakura",
-    "no": "720",
-    "name": "深山丁字桜",
-    "reading": "みやまちょうじざくら",
-    "bloomSeason": "4月下旬〜5月中旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "野生種",
-      "高山性",
-      "チョウジ系"
-    ],
-    "summary": "山地に自生するチョウジザクラの高山型",
-    "features": "チョウジザクラの高山型変種で、山岳地帯の厳しい環境に適応した野生種。花弁は淡紅色から白色の一重咲きで、花柄が長く垂れ下がるように咲く。Cerasus apetala var. montica として分類されることもある。",
-    "history": "チョウジザクラ（丁字桜）の高山型変種として植物学的に記録されている。御嶽山や深山帯での記録が1920年代から知られる。",
-    "background": "本州中部以北の高山帯に分布し、亜高山性植生の一構成種として生態系に組み込まれている。",
-    "trivia": "「丁字」とは丁字（クローブ）の香に似た芳香に由来するとも、花形が丁字形に見えることに由来するとも言われる。",
-    "wikiTitleJa": "チョウジザクラ",
-    "wikiTitleEn": "Cerasus apetala var. montica",
-    "emoji": "🌸"
-  },
-  {
     "id": "meg-zakura",
     "no": "721",
     "name": "目具桜",
@@ -15439,7 +15288,10 @@
     "trivia": "オオヤマザクラは北日本の代表的な野生桜で、その八重咲き品種は特に観賞用として珍重される。",
     "wikiTitleJa": "オオヤマザクラ",
     "wikiTitleEn": "Cerasus sargentii 'Yaeno-ohyamazakura'",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "八重大山桜"
+    ]
   },
   {
     "id": "yae-no-sakon",
@@ -15727,7 +15579,10 @@
     "trivia": "葉が重鋸歯であることや、花床筒や葉柄の毛がまばら、花床筒の基部がふくれ、花がオクチョウジザクラと比べ小さいのが特徴です。",
     "wikiTitleJa": "深山丁子桜",
     "wikiTitleEn": "Cerasus apetala",
-    "emoji": "🌸"
+    "emoji": "🌸",
+    "aliases": [
+      "深山丁字桜"
+    ]
   },
   {
     "id": "ムシャザクライデンケン",
@@ -15771,28 +15626,6 @@
     "wikiTitleJa": "萌紅桜",
     "wikiTitleEn": "Cerasus",
     "emoji": "🌸"
-  },
-  {
-    "id": "ヤエノオオヤマザクラ",
-    "no": "752",
-    "name": "八重大山桜",
-    "reading": "やえのおおやまざくら",
-    "bloomSeason": "４月上旬〜中旬",
-    "color": "淡紅紫色「9202」",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "紫系"
-    ],
-    "summary": "オオヤマザクラの重弁化したものとされていますが、各部の特…",
-    "features": "オオヤマザクラの重弁化したものとされていますが、各部の特徴からオクチョウジザクラの関与も考えられます。 ヤマトニシキに似ると言われているが、違う点も多いです。",
-    "history": "オオヤマザクラの重弁化したものとされていますが、各部の特徴からオクチョウジザクラの関与も考えられます。",
-    "background": "ヤマトニシキに似ると言われているが、違う点も多いです。",
-    "trivia": "オオヤマザクラの重弁化したものとされていますが、各部の特徴からオクチョウジザクラの関与も考えられます。",
-    "wikiTitleJa": "八重大山桜",
-    "wikiTitleEn": "Cerasus sargentii",
-    "emoji": "💜"
   },
   {
     "id": "ヤエムラサキザクラ",
@@ -16220,29 +16053,6 @@
     "emoji": "💜"
   },
   {
-    "id": "リュウキュウカンヒザクラ",
-    "no": "778",
-    "name": "琉球緋桜",
-    "reading": "りゅうきゅうかんひざくら",
-    "bloomSeason": "３月上旬〜中旬",
-    "color": "濃紅色〜淡紅色「9706〜9701」",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "濃紅",
-      "野生種"
-    ],
-    "summary": "カンヒザクラが自生する台湾には、様々な形質のカンヒザクラ…",
-    "features": "カンヒザクラが自生する台湾には、様々な形質のカンヒザクラがあります。 本品種は、中でも花が平開し、花色が白色に近いものが混じるものです。",
-    "history": "カンヒザクラが自生する台湾には、様々な形質のカンヒザクラがあります。",
-    "background": "本品種は、中でも花が平開し、花色が白色に近いものが混じるものです。",
-    "trivia": "本品種は、中でも花が平開し、花色が白色に近いものが混じるものです。",
-    "wikiTitleJa": "琉球緋桜",
-    "wikiTitleEn": "Cerasus campanulata",
-    "emoji": "🌺"
-  },
-  {
     "id": "リンポウザクラ",
     "no": "780",
     "name": "林宝桜",
@@ -16596,7 +16406,10 @@
     "trivia": "カンヒザクラが鐘形に閉じた花をつけるのに対し、琉球寒緋桜は開きが大きく平開する。",
     "wikiTitleJa": "琉球寒緋桜",
     "wikiTitleEn": "Cerasus campanulata",
-    "emoji": "💜"
+    "emoji": "💜",
+    "aliases": [
+      "琉球緋桜"
+    ]
   },
   {
     "id": "koba-zakura",
@@ -16861,49 +16674,6 @@
     "trivia": "純白の大輪八重咲きが美しく、地域の名木として知られる。",
     "wikiTitleJa": "高円寺白八重桜",
     "wikiTitleEn": "Cerasus serrulata 'Koenji-shiro-yae-zakura'",
-    "emoji": "🌸"
-  },
-  {
-    "id": "koshio-yama",
-    "no": "819",
-    "name": "小塩山",
-    "reading": "こしおやま",
-    "bloomSeason": "4月中旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "八重咲き",
-    "tags": [
-      "八重"
-    ],
-    "summary": "京都市西部の小塩山（おしおやま）に由来するサトザクラ系品…",
-    "features": "京都市西部の小塩山（おしおやま）に由来するサトザクラ系品種。淡紅色の八重咲き中輪で、京都の花の名所と結びつく雅な品種。",
-    "history": "京都市西部の小塩山（おしおやま）に由来するサトザクラ系品種。",
-    "background": "淡紅色の八重咲き中輪で、京都の花の名所と結びつく雅な品種。",
-    "trivia": "淡紅色の八重咲き中輪で、京都の花の名所と結びつく雅な品種。",
-    "wikiTitleJa": "小塩山",
-    "wikiTitleEn": "Cerasus serrulata 'Koshio-yama'",
-    "emoji": "🌸"
-  },
-  {
-    "id": "gosho-zakura",
-    "no": "820",
-    "name": "御所桜",
-    "reading": "ごしょざくら",
-    "bloomSeason": "4月中旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "八重咲き",
-    "tags": [
-      "八重",
-      "大輪"
-    ],
-    "summary": "京都御所に伝わるサトザクラ系品種。",
-    "features": "京都御所に伝わるサトザクラ系品種。淡紅色の八重咲き大輪で、宮廷文化と深く結びついた格調ある品種。各地の植物園に保存される。",
-    "history": "京都御所に伝わるサトザクラ系品種。",
-    "background": "各地の植物園に保存される。",
-    "trivia": "淡紅色の八重咲き大輪で、宮廷文化と深く結びついた格調ある品種。",
-    "wikiTitleJa": "御所桜",
-    "wikiTitleEn": "Cerasus serrulata 'Gosho-zakura'",
     "emoji": "🌸"
   },
   {
@@ -17603,27 +17373,6 @@
     "emoji": "🌸"
   },
   {
-    "id": "amedama-zakura",
-    "no": "862",
-    "name": "飴玉桜",
-    "reading": "あめだまざくら",
-    "bloomSeason": "4月上旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重"
-    ],
-    "summary": "丸くかわいらしい飴玉のような花をつけるマメザクラ系品種。",
-    "features": "丸くかわいらしい飴玉のような花をつけるマメザクラ系品種。淡紅色の一重咲き小輪で、コンパクトな樹形と可憐な花が特徴。",
-    "history": "丸くかわいらしい飴玉のような花をつけるマメザクラ系品種。",
-    "background": "淡紅色の一重咲き小輪で、コンパクトな樹形と可憐な花が特徴。",
-    "trivia": "淡紅色の一重咲き小輪で、コンパクトな樹形と可憐な花が特徴。",
-    "wikiTitleJa": "飴玉桜",
-    "wikiTitleEn": "Cerasus incisa",
-    "emoji": "🌸"
-  },
-  {
     "id": "buko-mame-zakura",
     "no": "866",
     "name": "武甲豆桜",
@@ -17834,50 +17583,6 @@
     "background": "淡紅色の一重咲きで、各地の桜保存園に収蔵される品種のひとつ。",
     "trivia": "淡紅色の一重咲きで、各地の桜保存園に収蔵される品種のひとつ。",
     "wikiTitleJa": "若木の桜",
-    "wikiTitleEn": "Cerasus serrulata",
-    "emoji": "🌸"
-  },
-  {
-    "id": "nara-no-yae-zakura",
-    "no": "878",
-    "name": "奈良八重桜",
-    "reading": "ならのやえざくら",
-    "bloomSeason": "4月下旬",
-    "color": "淡紅",
-    "colorCode": "#FFB7C5",
-    "flowerShape": "八重咲き",
-    "tags": [
-      "八重",
-      "天然記念物"
-    ],
-    "summary": "奈良に伝わる日本最古の八重桜品種のひとつ。",
-    "features": "奈良に伝わる日本最古の八重桜品種のひとつ。「いにしへの奈良の都の八重桜」と詠まれた平安歌枕の桜。淡紅色の多弁八重咲きで、国の天然記念物に指定された木もある。",
-    "history": "奈良に伝わる日本最古の八重桜品種のひとつ。",
-    "background": "淡紅色の多弁八重咲きで、国の天然記念物に指定された木もある。",
-    "trivia": "「いにしへの奈良の都の八重桜」と詠まれた平安歌枕の桜。",
-    "wikiTitleJa": "奈良八重桜",
-    "wikiTitleEn": "Cerasus serrulata",
-    "emoji": "🌸"
-  },
-  {
-    "id": "taki-nioi",
-    "no": "880",
-    "name": "瀧匂",
-    "reading": "たきにおい",
-    "bloomSeason": "4月下旬",
-    "color": "白",
-    "colorCode": "#FFFFFF",
-    "flowerShape": "一重咲き",
-    "tags": [
-      "一重",
-      "香り"
-    ],
-    "summary": "滝のように流れ落ちる花と甘い香りを持つサトザクラ系の匂い…",
-    "features": "滝のように流れ落ちる花と甘い香りを持つサトザクラ系の匂い桜。白色の一重咲きで強い芳香が特徴。匂い桜シリーズの中でも際立つ香りを持つ。",
-    "history": "滝のように流れ落ちる花と甘い香りを持つサトザクラ系の匂い桜。",
-    "background": "匂い桜シリーズの中でも際立つ香りを持つ。",
-    "trivia": "白色の一重咲きで強い芳香が特徴。",
-    "wikiTitleJa": "瀧匂",
     "wikiTitleEn": "Cerasus serrulata",
     "emoji": "🌸"
   },
