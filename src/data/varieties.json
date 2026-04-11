@@ -8888,7 +8888,7 @@
   {
     "id": "ashigarazakura",
     "no": "389",
-    "name": "足柄桜",
+    "name": "春めき",
     "reading": "あしがらざくら",
     "bloomSeason": "4月中旬",
     "color": "淡紅",
@@ -8908,13 +8908,13 @@
     "wikiTitleEn": "Cerasus jamasakura 'Ashigara-zakura'",
     "emoji": "🌸",
     "aliases": [
-      "春めき"
+      "足柄桜"
     ]
   },
   {
     "id": "ashizurizakura",
     "no": "390",
-    "name": "足摺桜",
+    "name": "月光",
     "reading": "あしずりざくら",
     "bloomSeason": "2月下旬〜3月",
     "color": "淡紅",
@@ -8934,7 +8934,7 @@
     "wikiTitleEn": "Cerasus campanulata 'Ashizuri-zakura'",
     "emoji": "🌸",
     "aliases": [
-      "月光",
+      "足摺桜",
       "月光桜",
       "西幡多桜"
     ]
@@ -10445,9 +10445,7 @@
     "wikiTitleJa": "サトザクラ",
     "wikiTitleEn": "Cerasus serrulata 'Sphaerantha'",
     "emoji": "🌸",
-    "aliases": [
-      "六高菊桜"
-    ]
+    "aliases": []
   },
   {
     "id": "kitanozakura",
@@ -15481,9 +15479,7 @@
     "wikiTitleJa": "ミヤマザクラ",
     "wikiTitleEn": "Cerasus maximowiczii",
     "emoji": "🌸",
-    "aliases": [
-      "白桜"
-    ]
+    "aliases": []
   },
   {
     "id": "miyama-choji-zakura",
@@ -15552,9 +15548,7 @@
     "wikiTitleJa": "メジロザクラ",
     "wikiTitleEn": "Cerasus apetala var. tetsuyae",
     "emoji": "🌸",
-    "aliases": [
-      "丁子桜"
-    ]
+    "aliases": []
   },
   {
     "id": "moniwa-zakura",
