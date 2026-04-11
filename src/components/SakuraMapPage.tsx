@@ -5,6 +5,7 @@ import spotsData from '../data/spots.json'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
 import { bloomOrd, periodsOverlap } from '../utils/bloomFilter'
+import { getOffsetDaysForLocation, isInBloomAdjusted, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
 
 // ── 型 ───────────────────────────────────────────────────────────
 type RawSpot = typeof spotsData[number]
@@ -39,10 +40,21 @@ const TODAY_PERIOD = getCurrentPeriod()
 const TODAY_ORD    = bloomOrd(TODAY_PERIOD)
 
 function varietyBloomStatus(
-  bp: { start?: string; end?: string; secondary: { start: string; end: string } | null } | null | undefined
+  bp: { start?: string; end?: string; secondary: { start: string; end: string } | null } | null | undefined,
+  offsetDays = 0
 ): BloomStatus {
   if (!bp?.start || !bp?.end) return 'off_season'
 
+  // Use offset-adjusted date comparison if offset provided and should adjust
+  if (offsetDays !== 0) {
+    const today = new Date()
+    if (isInBloomAdjusted({ start: bp.start, end: bp.end }, offsetDays, today)) return 'in_bloom'
+    if (bp.secondary && isInBloomAdjusted(
+      { start: bp.secondary.start, end: bp.secondary.end }, offsetDays, today
+    )) return 'in_bloom'
+  }
+
+  // Original period-based logic as fallback
   if (periodsOverlap(TODAY_PERIOD, TODAY_PERIOD, bp.start, bp.end)) return 'in_bloom'
   if (bp.secondary && periodsOverlap(TODAY_PERIOD, TODAY_PERIOD, bp.secondary.start, bp.secondary.end)) return 'in_bloom'
 
@@ -82,7 +94,32 @@ const varietiesById = new Map(allVarieties.map(v => [v.id, v]))
 function computeSpotStatus(spot: MapSpot): BloomStatus {
   const ids = spot.varieties ?? []
   if (!ids.length) return estimateFromPeakMonth(spot.peakMonth ?? '')
-  const statuses = ids.map(id => varietyBloomStatus(varietiesById.get(id)?.bloomPeriod))
+
+  // Get offset for this spot's location
+  const offset = (spot.lat && spot.lng && hasOffsetData())
+    ? getOffsetDaysForLocation(spot.lat, spot.lng)
+    : 0
+
+  const statuses = ids.map(id => {
+    const v = varietiesById.get(id)
+    if (!v?.bloomPeriod?.start || !v?.bloomPeriod?.end) return 'off_season' as BloomStatus
+
+    // Use offset-adjusted date comparison for spring varieties
+    if (offset !== 0) {
+      const today = new Date()
+      if (isInBloomAdjusted(v.bloomPeriod, offset, today)) return 'in_bloom' as BloomStatus
+
+      // Check secondary
+      if (v.bloomPeriod.secondary && isInBloomAdjusted(
+        { start: v.bloomPeriod.secondary.start, end: v.bloomPeriod.secondary.end },
+        offset, today
+      )) return 'in_bloom' as BloomStatus
+    }
+
+    // Fall back to original period-based calculation
+    return varietyBloomStatus(v.bloomPeriod)
+  })
+
   for (const s of ['in_bloom', 'budding', 'upcoming', 'past_bloom'] as BloomStatus[]) {
     if (statuses.includes(s)) return s
   }
@@ -716,6 +753,13 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
 
       {/* 凡例：スポット選択中は非表示 */}
       {!selectedSpot && <MapLegend />}
+
+      {/* オフセット情報バッジ（凡例の下） */}
+      {!selectedSpot && hasOffsetData() && (
+        <div className="map-offset-badge">
+          🌡️ {OFFSET_UPDATED_AT} 更新
+        </div>
+      )}
 
       {/* 現在地ボタン */}
       <button
