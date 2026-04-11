@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import spotsData from '../data/spots.json'
@@ -8,7 +8,11 @@ import { bloomOrd, periodsOverlap } from '../utils/bloomFilter'
 
 // ── 型 ───────────────────────────────────────────────────────────
 type RawSpot = typeof spotsData[number]
-type MapSpot = Omit<RawSpot, 'varieties'> & { varieties?: string[] }
+type MapSpot = Omit<RawSpot, 'varieties'> & {
+  varieties?: string[]
+  features?: string[]
+  category?: string
+}
 const allSpots = spotsData as unknown as MapSpot[]
 const allVarieties = varietiesData as unknown as Variety[]
 
@@ -90,6 +94,44 @@ const spotStatusMap = new Map<string, BloomStatus>(
   allSpots.map(s => [s.id, computeSpotStatus(s)])
 )
 
+// ── フィルタ事前計算 ──────────────────────────────────────────────
+// Build rareSpotsSet: spotIds that have at least one variety with rarity.score >= 3
+const rareSpotsSet = new Set<string>()
+allSpots.forEach(spot => {
+  if ((spot.varieties ?? []).some(id => (varietiesById.get(id)?.rarity?.score ?? 0) >= 3)) {
+    rareSpotsSet.add(spot.id)
+  }
+})
+
+// Pre-compute which filter keys each spot matches
+function computeSpotFilterKeys(spot: MapSpot): Set<string> {
+  const keys = new Set<string>()
+  if (spotStatusMap.get(spot.id) === 'in_bloom') keys.add('in_bloom')
+  if (rareSpotsSet.has(spot.id)) keys.add('rare')
+  const cnt = spot.varieties?.length ?? (spot as any).varietyCount ?? 0
+  if (cnt >= 10) keys.add('many')
+  if (spot.features?.includes('一本桜') || (spot as any).category === 'one_tree') keys.add('one_tree')
+  if (spot.features?.includes('駅近')) keys.add('near_station')
+  if (spot.features?.includes('無料') || !spot.features?.includes('有料')) keys.add('free')
+  return keys
+}
+const spotFilterKeysMap = new Map<string, Set<string>>(allSpots.map(s => [s.id, computeSpotFilterKeys(s)]))
+
+// Count per filter key
+const filterCounts: Record<string, number> = { in_bloom: 0, rare: 0, many: 0, one_tree: 0, near_station: 0, free: 0 }
+allSpots.forEach(spot => {
+  spotFilterKeysMap.get(spot.id)?.forEach(k => { if (k in filterCounts) filterCounts[k]++ })
+})
+
+const CHIPS = [
+  { key: 'in_bloom',     label: '🌸 今見頃' },
+  { key: 'rare',         label: '★★★+ 珍しい' },
+  { key: 'many',         label: '🌳 多品種' },
+  { key: 'one_tree',     label: '🌲 一本桜' },
+  { key: 'near_station', label: '🚶 駅近' },
+  { key: 'free',         label: '🆓 無料' },
+]
+
 // ── ズームレベル → 最小 popularity ─────────────────────────────
 function minPopForZoom(zoom: number): number {
   if (zoom >= 11) return 2
@@ -100,6 +142,17 @@ function minPopForZoom(zoom: number): number {
 function pinRadius(pop: number, inBloom: boolean): number {
   const base = pop === 5 ? 9 : pop === 4 ? 7 : pop === 3 ? 6 : 5
   return inBloom ? base + 2 : base
+}
+
+// ── Haversine distance ───────────────────────────────────────────
+function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a = Math.sin(dLat / 2) ** 2 +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
 // ── BottomSheet 内の品種カード ────────────────────────────────────
@@ -214,11 +267,35 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety }: SheetPro
           {peakShort && (
             <div className="spot-sheet__peak">見頃: {peakShort}</div>
           )}
+          {/* Feature 3a: 特徴タグ */}
+          {spot.features && spot.features.length > 0 && (
+            <div className="spot-sheet__features">
+              {spot.features.slice(0, 6).map(f => (
+                <span key={f} className="spot-sheet__feature-tag">{f}</span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* 品種リスト（expanded時のみ） */}
         {expanded && (
           <div className="spot-sheet__body">
+            {/* Feature 3b: レア品種セクション */}
+            {(() => {
+              const rareVariants = variants.filter(x => (x.variety.rarity?.score ?? 0) >= 3)
+              if (!rareVariants.length) return null
+              return (
+                <section className="spot-sheet__section">
+                  <div className="spot-sheet__section-title">✨ レア品種</div>
+                  <div className="spot-sheet__cards">
+                    {rareVariants.map(({ variety, status }) => (
+                      <VarietyMiniCard key={variety.id} variety={variety} status={status} onTap={() => onSelectVariety(variety.id)} />
+                    ))}
+                  </div>
+                </section>
+              )
+            })()}
+
             {inBloom.length > 0 && (
               <section className="spot-sheet__section">
                 <div className="spot-sheet__section-title">🌸 今見頃の品種</div>
@@ -291,6 +368,56 @@ function MapLegend() {
   )
 }
 
+// ── NearbySpotCard ───────────────────────────────────────────────
+function NearbySpotCard({ spot, distance, status, onTap }: {
+  spot: MapSpot, distance: number, status: BloomStatus, onTap: () => void
+}) {
+  const rarities = (spot.varieties ?? [])
+    .map(id => varietiesById.get(id)?.rarity)
+    .filter(Boolean)
+  const maxRarity = rarities.reduce((max, r) => Math.max(max, r!.score), 0)
+  const rareCount = rarities.filter(r => r!.score >= 3).length
+  const varCount = (spot as any).varietyCount ?? spot.varieties?.length ?? 0
+
+  return (
+    <div className="nearby-card" onClick={onTap}>
+      <div className="nearby-card__dot" style={{ background: BLOOM_COLOR[status] }} />
+      <div className="nearby-card__name">{spot.name}</div>
+      <div className="nearby-card__dist">{distance.toFixed(1)} km</div>
+      {varCount > 0 && <div className="nearby-card__count">{varCount}品種</div>}
+      {rareCount > 0 && (
+        <div className="nearby-card__rare">
+          {'★'.repeat(Math.min(maxRarity, 5))}{rareCount}種
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ── NearbyCarousel ───────────────────────────────────────────────
+function NearbyCarousel({ spots, onSpotTap }: {
+  spots: { spot: MapSpot; distance: number; status: BloomStatus }[]
+  onSpotTap: (spot: MapSpot) => void
+}) {
+  if (!spots.length) return null
+  return (
+    <div className="nearby-carousel">
+      <div className="nearby-carousel__title">📍 近くの見頃スポット</div>
+      <div className="nearby-carousel__track">
+        {spots.map(({ spot, distance, status }) => (
+          <NearbySpotCard
+            key={spot.id}
+            spot={spot}
+            distance={distance}
+            status={status}
+            onTap={() => onSpotTap(spot)}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
 // ── Props ────────────────────────────────────────────────────────
 interface Props {
   onViewVarieties:   (spotName: string, varietyIds: string[]) => void
@@ -305,20 +432,37 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
 
   // React state
   const [selectedSpot, setSelectedSpot] = useState<MapSpot | null>(null)
-  const [onlyInBloom,  setOnlyInBloom]  = useState(false)
+  const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set())
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
 
   // Refs for Leaflet callbacks (avoid stale closures)
   const onSelectSpotRef  = useRef<(s: MapSpot) => void>(() => {})
-  const onlyInBloomRef   = useRef(false)
+  const activeFiltersRef = useRef<Set<string>>(new Set())
   const updateMarkersRef = useRef<(() => void) | null>(null)
 
   useEffect(() => { onSelectSpotRef.current = setSelectedSpot }, [])
 
-  // onlyInBloom 変化時にマーカーを再描画
+  // activeFilters 変化時にマーカーを再描画
   useEffect(() => {
-    onlyInBloomRef.current = onlyInBloom
+    activeFiltersRef.current = activeFilters
     updateMarkersRef.current?.()
-  }, [onlyInBloom])
+  }, [activeFilters])
+
+  // ── nearbySpots ──────────────────────────────────────────────
+  const nearbySpots = useMemo(() => {
+    if (!userLocation) return []
+    const PRIORITY: Record<BloomStatus, number> = { in_bloom: 0, budding: 1, upcoming: 2, past_bloom: 99, off_season: 99 }
+    return allSpots
+      .filter(s => s.lat && s.lng)
+      .map(s => ({
+        spot: s,
+        status: spotStatusMap.get(s.id) ?? ('off_season' as BloomStatus),
+        distance: getDistance(userLocation.lat, userLocation.lng, s.lat!, s.lng!),
+      }))
+      .filter(x => PRIORITY[x.status] < 99)
+      .sort((a, b) => PRIORITY[a.status] - PRIORITY[b.status] || a.distance - b.distance)
+      .slice(0, 10)
+  }, [userLocation])
 
   // ── 地図初期化（1回のみ） ──────────────────────────────────────
   useEffect(() => {
@@ -330,9 +474,11 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
       zoomControl: true,
     })
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    L.tileLayer('https://tile.openstreetmap.jp/styles/osm-bright/512/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
+      tileSize: 512,
+      zoomOffset: -1,
     }).addTo(map)
 
     const layer = L.layerGroup().addTo(map)
@@ -340,34 +486,43 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
 
     function updateMarkers() {
       layer.clearLayers()
-      const zoom      = map.getZoom()
-      const minPop    = minPopForZoom(zoom)
-      const inBloomOnly = onlyInBloomRef.current
-      const seen      = new Set<string>()
+      const zoom   = map.getZoom()
+      const minPop = minPopForZoom(zoom)
+      const filters = activeFiltersRef.current
+      const seen   = new Set<string>()
 
       allSpots.forEach(spot => {
         const lat = spot.lat, lng = spot.lng
         if (!lat || !lng) return
 
-        const pop    = spot.popularity ?? 2
+        const pop = spot.popularity ?? 2
         if (pop < minPop) return
-
-        const status = spotStatusMap.get(spot.id) ?? 'off_season'
-        if (inBloomOnly && status !== 'in_bloom') return
 
         const key = `${lat.toFixed(4)},${lng.toFixed(4)}`
         if (seen.has(key)) return
         seen.add(key)
 
+        const status = spotStatusMap.get(spot.id) ?? 'off_season'
         const color  = BLOOM_COLOR[status]
         const radius = pinRadius(pop, status === 'in_bloom')
+
+        // Determine if spot matches active filters
+        let dimmed = false
+        if (filters.size > 0) {
+          const spotKeys = spotFilterKeysMap.get(spot.id) ?? new Set<string>()
+          // ALL active filters must match
+          for (const fk of filters) {
+            if (!spotKeys.has(fk)) { dimmed = true; break }
+          }
+        }
 
         const marker = L.circleMarker([lat, lng], {
           radius,
           fillColor:   color,
           color:       status === 'in_bloom' ? 'rgba(220,0,80,0.4)' : 'rgba(0,0,0,0.18)',
           weight:      status === 'in_bloom' ? 2 : 1,
-          fillOpacity: 0.85,
+          fillOpacity: dimmed ? 0.12 : 0.85,
+          opacity:     dimmed ? 0.3  : 1,
         }).addTo(layer)
 
         marker.on('click', () => onSelectSpotRef.current(spot))
@@ -389,23 +544,52 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
   function handleLocate() {
     if (!mapRef.current) return
     navigator.geolocation.getCurrentPosition(
-      ({ coords }) => mapRef.current?.setView([coords.latitude, coords.longitude], 12),
+      ({ coords }) => {
+        const { latitude, longitude } = coords
+        mapRef.current?.setView([latitude, longitude], 12)
+        setUserLocation({ lat: latitude, lng: longitude })
+      },
       () => {}
     )
   }
+
+  // ── チップ トグル ─────────────────────────────────────────────
+  function toggleChip(key: string) {
+    setActiveFilters(prev => {
+      const next = new Set(prev)
+      if (next.has(key)) next.delete(key)
+      else next.add(key)
+      return next
+    })
+  }
+
+  function clearFilters() {
+    setActiveFilters(new Set())
+  }
+
+  const showCarousel = !selectedSpot && !!userLocation && nearbySpots.length > 0
 
   return (
     <div className="sakura-map-page">
       <div ref={containerRef} className="sakura-map-container" />
 
-      {/* 「今見頃」フィルタチップ */}
-      <div className="map-filter-bar">
-        <button
-          className={`map-filter-chip${onlyInBloom ? ' active' : ''}`}
-          onClick={() => setOnlyInBloom(v => !v)}
-        >
-          🌸 今見頃だけ表示
-        </button>
+      {/* Feature 1: フィルタチップバー */}
+      <div className="map-chip-bar">
+        {CHIPS.map(({ key, label }) => (
+          <button
+            key={key}
+            className={`map-chip${activeFilters.has(key) ? ' active' : ''}`}
+            onClick={() => toggleChip(key)}
+          >
+            {label}
+            <span className="map-chip__count">({filterCounts[key]})</span>
+          </button>
+        ))}
+        {activeFilters.size > 0 && (
+          <button className="map-chip map-chip--clear" onClick={clearFilters}>
+            ✕ クリア
+          </button>
+        )}
       </div>
 
       {/* 凡例：スポット選択中は非表示 */}
@@ -420,6 +604,17 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety }: Props) {
       >
         📍
       </button>
+
+      {/* Feature 2: 近くのスポットカルーセル */}
+      {showCarousel && (
+        <NearbyCarousel
+          spots={nearbySpots}
+          onSpotTap={(spot) => {
+            setSelectedSpot(spot)
+            mapRef.current?.setView([spot.lat!, spot.lng!], Math.max(mapRef.current.getZoom(), 12))
+          }}
+        />
+      )}
 
       {/* ボトムシート */}
       {selectedSpot && (
