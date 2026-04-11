@@ -1,77 +1,113 @@
-import { useState } from 'react'
+import {
+  Routes, Route, Navigate,
+  Outlet, NavLink,
+  useNavigate, useParams, useLocation,
+} from 'react-router-dom'
 import varietiesData from './data/varieties.json'
-import { VarietyList } from './components/VarietyList'
+import { VarietyList }   from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { SakuraMapPage } from './components/SakuraMapPage'
 import type { Variety } from './types'
 
 const varieties = varietiesData as Variety[]
 
-type Page = 'zukan' | 'map'
+// ── スポットフィルタの型（location.state で受け渡し） ──────────
+interface SpotFilter { name: string; ids: string[] }
 
-export default function App() {
-  const [page, setPage]                       = useState<Page>('zukan')
-  const [selectedId, setSelectedId]           = useState<string | null>(null)
-  const [spotFilter, setSpotFilter]           = useState<{ name: string; ids: string[] } | null>(null)
+// ── タブ付きレイアウト（図鑑 / 地図） ────────────────────────
+function TabLayout() {
+  const location = useLocation()
+  const isMap    = location.pathname === '/map'
 
-  const selected = selectedId ? varieties.find(v => v.id === selectedId) ?? null : null
+  return (
+    <div className={`app${isMap ? ' app--map' : ''}`}>
+      <Outlet />
 
-  const displayedVarieties = spotFilter
+      <nav className="tab-bar">
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
+        >
+          <span className="tab-icon">🌸</span>
+          <span className="tab-label">図鑑</span>
+        </NavLink>
+        <NavLink
+          to="/map"
+          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
+        >
+          <span className="tab-icon">🗺️</span>
+          <span className="tab-label">地図</span>
+        </NavLink>
+      </nav>
+    </div>
+  )
+}
+
+// ── 図鑑タブ ─────────────────────────────────────────────────
+function ZukanRoute() {
+  const navigate = useNavigate()
+  const location = useLocation()
+  const spotFilter = (location.state as { spotFilter?: SpotFilter } | null)?.spotFilter ?? null
+
+  const displayed = spotFilter
     ? varieties.filter(v => spotFilter.ids.includes(v.id))
     : varieties
 
-  function handleViewVarieties(spotName: string, ids: string[]) {
-    setSpotFilter({ name: spotName, ids })
-    setPage('zukan')
-  }
+  return (
+    <VarietyList
+      varieties={displayed}
+      onSelect={(id) => navigate(`/variety/${id}`)}
+      spotFilter={spotFilter}
+      onClearSpotFilter={() => navigate('/', { replace: true, state: null })}
+    />
+  )
+}
 
-  function handleSelectVariety(id: string) {
-    setSelectedId(id)
-    setPage('zukan')
-  }
-
-  function handleBack() {
-    setSelectedId(null)
-  }
+// ── 地図タブ ─────────────────────────────────────────────────
+function MapRoute() {
+  const navigate = useNavigate()
 
   return (
-    <div className={`app${page === 'map' && !selected ? ' app--map' : ''}`}>
-      {/* ── メインコンテンツ ── */}
-      {selected ? (
-        <VarietyDetail variety={selected} onBack={handleBack} />
-      ) : page === 'map' ? (
-        <SakuraMapPage
-          onViewVarieties={handleViewVarieties}
-          onSelectVariety={handleSelectVariety}
-        />
-      ) : (
-        <VarietyList
-          varieties={displayedVarieties}
-          onSelect={setSelectedId}
-          spotFilter={spotFilter}
-          onClearSpotFilter={() => setSpotFilter(null)}
-        />
-      )}
+    <SakuraMapPage
+      onViewVarieties={(name, ids) =>
+        navigate('/', { state: { spotFilter: { name, ids } } })
+      }
+      onSelectVariety={(id) => navigate(`/variety/${id}`)}
+    />
+  )
+}
 
-      {/* ── タブバー（詳細表示中は非表示） ── */}
-      {!selected && (
-        <nav className="tab-bar">
-          <button
-            className={`tab-btn${page === 'zukan' ? ' active' : ''}`}
-            onClick={() => setPage('zukan')}
-          >
-            <span className="tab-icon">🌸</span>
-            <span className="tab-label">図鑑</span>
-          </button>
-          <button
-            className={`tab-btn${page === 'map' ? ' active' : ''}`}
-            onClick={() => setPage('map')}
-          >
-            <span className="tab-icon">🗺️</span>
-            <span className="tab-label">地図</span>
-          </button>
-        </nav>
-      )}
+// ── 品種詳細（タブバーなし） ──────────────────────────────────
+function VarietyDetailRoute() {
+  const { id }   = useParams<{ id: string }>()
+  const navigate = useNavigate()
+  const variety  = varieties.find(v => v.id === id)
+
+  if (!variety) return <Navigate to="/" replace />
+
+  return (
+    <div className="app">
+      <VarietyDetail variety={variety} onBack={() => navigate(-1)} />
     </div>
+  )
+}
+
+// ── ルート定義 ────────────────────────────────────────────────
+export default function App() {
+  return (
+    <Routes>
+      {/* タブバーあり */}
+      <Route element={<TabLayout />}>
+        <Route index        element={<ZukanRoute />} />
+        <Route path="map"   element={<MapRoute />} />
+      </Route>
+
+      {/* タブバーなし */}
+      <Route path="variety/:id" element={<VarietyDetailRoute />} />
+
+      {/* 不明パスは図鑑へ */}
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   )
 }
