@@ -193,11 +193,12 @@ html, body {
   flex-shrink: 0;
 }
 
-/* ── オフセットバッジ ── */
+/* ── オフセットバッジ（凡例の下・左側） ── */
 .map-offset-badge {
   position: absolute;
-  top: 148px;  /* below legend */
-  left: 10px;
+  top: 88px;
+  right: 10px;
+  left: auto;
   z-index: 999;
   background: rgba(255,255,255,0.88);
   border-radius: 8px;

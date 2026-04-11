@@ -577,8 +577,9 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
     const map = L.map(containerRef.current, {
       center: [36.5, 137.5],
       zoom: 5,
-      zoomControl: true,
+      zoomControl: false,   // 検索バーと被らないよう topright に移動
     })
+    L.control.zoom({ position: 'topright' }).addTo(map)
 
     L.tileLayer('https://tile.openstreetmap.jp/styles/osm-bright/512/{z}/{x}/{y}.png', {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
