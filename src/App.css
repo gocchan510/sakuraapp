@@ -1242,6 +1242,16 @@ html, body {
 }
 .map-search-result-name { font-size: 13px; font-weight: 600; color: #333; flex: 1; }
 .map-search-result-pref { font-size: 11px; color: #999; }
+.map-search-result-reading { font-size: 11px; color: #b09ab0; margin-left: auto; flex-shrink: 0; }
+.map-search-results-group {
+  padding: 5px 14px 3px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #e91e8c;
+  background: #fff8fb;
+  border-bottom: 1px solid #f0d0da;
+  letter-spacing: 0.04em;
+}
 
 /* ── フィルタチップバーを検索バーの下に移動 ── */
 .map-chip-bar { top: 58px !important; }

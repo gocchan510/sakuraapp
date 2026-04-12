@@ -192,65 +192,94 @@ function getDistance(lat1: number, lng1: number, lat2: number, lng2: number): nu
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
-// ── 検索インデックス（正規化済み） ───────────────────────────────
-import { normalize, queryVariants, romajiToHiragana } from '../utils/searchNormalize'
+// ── 検索インデックス（インクリメンタルサーチ対応） ─────────────────
+import { normalize, romajiToHiragana } from '../utils/searchNormalize'
 
-// スポット: 正規化済み名前・都道府県をキャッシュ
+// スポット: 正規化済み名前をキャッシュ
 const spotNormIndex = allSpots.map(s => ({
   id:       s.id,
   nameNorm: normalize(s.name),
-  prefNorm: normalize(s.prefecture ?? ''),
 }))
 
-// 品種→スポットID インデックス
-// キー: 正規化済み品種名 / ローマ字ID / ひらがな読み（IDをローマ字変換）
-const varietyNormIndex = new Map<string, Set<string>>()
-function addVarietyKey(key: string, spotId: string) {
-  if (!key) return
-  if (!varietyNormIndex.has(key)) varietyNormIndex.set(key, new Set())
-  varietyNormIndex.get(key)!.add(spotId)
-}
-allVarieties.forEach(v => {
-  const spots = (v as any).spots ?? []
-  if (!spots.length) return
-  const nameNorm = normalize(v.name)         // 御衣黄 → 御衣黄（漢字はそのまま）
-  const idRomaji = v.id.toLowerCase()        // gyoikou（ローマ字検索用）
-  const idHira   = romajiToHiragana(v.id)    // ぎょいこう（ひらがな検索用）
-  spots.forEach((s: { spotId: string }) => {
-    addVarietyKey(nameNorm, s.spotId)
-    addVarietyKey(idRomaji, s.spotId)
-    if (idHira !== idRomaji) addVarietyKey(idHira, s.spotId)
-  })
-})
-
-interface SearchResult {
-  results:   MapSpot[]
-  pinFilter: Set<string> | null  // 品種検索ヒット分のスポットID集合（なければ null）
+// 品種: name / reading(ひらがな) / id(ローマ字) / id(ひらがな) / aliases の全キーを保持
+interface VarietySearchEntry {
+  variety:     Variety
+  nameNorm:    string    // 御衣黄（漢字そのまま）
+  readingHira: string    // ぎょいこう（カタカナ→ひらがな変換済み）
+  idRomaji:    string    // gyoikou
+  idHira:      string    // ぎょいこう（IDのローマ字変換）
+  aliasNorms:  string[]  // aliases 正規化済み
+  spotIds:     Set<string>
 }
 
-function searchSpots(query: string): SearchResult {
-  if (query.length < 2) return { results: [], pinFilter: null }
-  const variants = queryVariants(query)
-  if (!variants.length) return { results: [], pinFilter: null }
+const varietySearchIndex: VarietySearchEntry[] = allVarieties.map(v => ({
+  variety:     v,
+  nameNorm:    normalize(v.name),
+  readingHira: normalize(v.reading),   // normalize がカタカナ→ひらがな変換を含む
+  idRomaji:    v.id.toLowerCase(),
+  idHira:      romajiToHiragana(v.id),
+  aliasNorms:  (v.aliases ?? []).map(a => normalize(a)),
+  spotIds:     new Set((v.spots ?? []).map(s => s.spotId)),
+}))
 
-  const bySpot    = new Set<string>()  // スポット名・都道府県マッチ
-  const byVariety = new Set<string>()  // 品種名マッチ（全件、10件制限なし）
+// ── インクリメンタルサーチ ────────────────────────────────────────
+function searchAll(query: string): {
+  varietyMatches: Variety[]
+  spotMatches:    MapSpot[]
+  pinFilter:      Set<string> | null
+} {
+  const q = query.trim()
+  if (!q) return { varietyMatches: [], spotMatches: [], pinFilter: null }
 
-  for (const q of variants) {
-    spotNormIndex.forEach(e => {
-      if (e.nameNorm.includes(q)) bySpot.add(e.id)
-      if (e.prefNorm.startsWith(q)) bySpot.add(e.id)
-    })
-    varietyNormIndex.forEach((spotIds, normName) => {
-      if (normName.includes(q)) spotIds.forEach(id => byVariety.add(id))
-    })
+  const norm     = normalize(q)  // カタカナ→ひらがな, 全角→半角, 小文字
+  const isRomaji = /^[a-z]+$/.test(norm)          // 正規化後がASCIIのみ → ローマ字入力
+  const hasKanji = /[\u4E00-\u9FFF]/.test(norm)   // 漢字を含む
+
+  // 品種マッチ
+  const pinFilterSet = new Set<string>()
+  const varietyHits: Variety[] = []
+
+  for (const entry of varietySearchIndex) {
+    let matched = false
+    if (isRomaji) {
+      // ローマ字 → id前方一致
+      matched = entry.idRomaji.startsWith(norm)
+    } else if (hasKanji) {
+      // 漢字 → name / aliases インクルード
+      matched = entry.nameNorm.includes(norm)
+        || entry.aliasNorms.some(a => a.includes(norm))
+    } else {
+      // ひらがな（カタカナ入力も正規化でひらがな化） → 全キーでインクルード
+      matched = entry.readingHira.includes(norm)
+        || entry.idHira.includes(norm)
+        || entry.nameNorm.includes(norm)
+        || entry.aliasNorms.some(a => a.includes(norm))
+    }
+
+    if (matched) {
+      varietyHits.push(entry.variety)
+      entry.spotIds.forEach(id => pinFilterSet.add(id))
+      if (varietyHits.length >= 8) break
+    }
   }
 
-  const allMatched = new Set([...bySpot, ...byVariety])
-  const results = allSpots.filter(s => allMatched.has(s.id)).slice(0, 10)
-  // 品種ヒットがある場合のみピンフィルタを有効化
-  const pinFilter = byVariety.size > 0 ? byVariety : null
-  return { results, pinFilter }
+  // スポット名マッチ
+  const spotHits: MapSpot[] = []
+  for (const e of spotNormIndex) {
+    if (e.nameNorm.includes(norm)) {
+      const spot = allSpots.find(s => s.id === e.id)
+      if (spot) {
+        spotHits.push(spot)
+        if (spotHits.length >= 6) break
+      }
+    }
+  }
+
+  return {
+    varietyMatches: varietyHits,
+    spotMatches:    spotHits,
+    pinFilter:      pinFilterSet.size > 0 ? pinFilterSet : null,
+  }
 }
 
 // ── BottomSheet 内の品種カード ────────────────────────────────────
@@ -560,7 +589,8 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
 
   // 検索状態
   const [searchQuery, setSearchQuery] = useState('')
-  const [searchResults, setSearchResults] = useState<MapSpot[]>([])
+  const [varietyResults, setVarietyResults] = useState<Variety[]>([])
+  const [spotResults,    setSpotResults]    = useState<MapSpot[]>([])
   const [searchActive, setSearchActive] = useState(false)
   const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -719,7 +749,8 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
   // ── 検索 ─────────────────────────────────────────────────────
   function clearSearch() {
     setSearchQuery('')
-    setSearchResults([])
+    setVarietyResults([])
+    setSpotResults([])
     setSearchActive(false)
     searchPinFilterRef.current = null
     updateMarkersRef.current?.()
@@ -728,18 +759,42 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
   function handleSearchChange(val: string) {
     setSearchQuery(val)
     if (searchTimerRef.current) clearTimeout(searchTimerRef.current)
-    if (!val || val.length < 2) {
-      setSearchResults([])
+    if (!val.trim()) {
+      setVarietyResults([])
+      setSpotResults([])
       searchPinFilterRef.current = null
       updateMarkersRef.current?.()
       return
     }
+    // 100ms debounce でインクリメンタルサーチ（1文字から）
     searchTimerRef.current = setTimeout(() => {
-      const { results, pinFilter } = searchSpots(val)
-      setSearchResults(results)
+      const { varietyMatches, spotMatches, pinFilter } = searchAll(val)
+      setVarietyResults(varietyMatches)
+      setSpotResults(spotMatches)
       searchPinFilterRef.current = pinFilter
       updateMarkersRef.current?.()
-    }, 300)
+    }, 100)
+  }
+
+  function handleVarietySelect(variety: Variety) {
+    const entry = varietySearchIndex.find(e => e.variety.id === variety.id)
+    if (entry && entry.spotIds.size > 0) {
+      searchPinFilterRef.current = new Set(entry.spotIds)
+      updateMarkersRef.current?.()
+      // スポットが1つのみなら自動でフォーカス＋ボトムシート
+      if (entry.spotIds.size === 1) {
+        const spotId = [...entry.spotIds][0]
+        const spot = allSpots.find(s => s.id === spotId)
+        if (spot?.lat && spot?.lng) {
+          mapRef.current?.setView([spot.lat, spot.lng], 14)
+          setSelectedSpot(spot)
+        }
+      }
+    }
+    setSearchQuery(variety.name)
+    setVarietyResults([])
+    setSpotResults([])
+    setSearchActive(false)
   }
 
   const showCarousel = !selectedSpot && !!userLocation && nearbySpots.length > 0
@@ -762,24 +817,47 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
         {searchQuery && (
           <button className="map-search-clear" onClick={clearSearch}>✕</button>
         )}
-        {/* Search results dropdown */}
-        {searchActive && searchResults.length > 0 && (
+        {/* 検索候補ドロップダウン（品種 / スポット グループ表示） */}
+        {searchActive && (varietyResults.length > 0 || spotResults.length > 0) && (
           <div className="map-search-results">
-            {searchResults.map(spot => (
-              <div
-                key={spot.id}
-                className="map-search-result-item"
-                onClick={() => {
-                  setSelectedSpot(spot)
-                  if (spot.lat && spot.lng) mapRef.current?.setView([spot.lat, spot.lng], 14)
-                  clearSearch()
-                }}
-              >
-                <span className="map-search-result-dot" style={{ background: BLOOM_COLOR[spotStatusMap.get(spot.id) ?? 'off_season'] }} />
-                <span className="map-search-result-name">{spot.name}</span>
-                {spot.prefecture && <span className="map-search-result-pref">{spot.prefecture}</span>}
-              </div>
-            ))}
+            {/* 🌸 品種グループ */}
+            {varietyResults.length > 0 && (
+              <>
+                <div className="map-search-results-group">🌸 品種</div>
+                {varietyResults.map(v => (
+                  <div
+                    key={v.id}
+                    className="map-search-result-item"
+                    onClick={() => handleVarietySelect(v)}
+                  >
+                    <span className="map-search-result-dot" style={{ background: v.colorCode }} />
+                    <span className="map-search-result-name">{v.name}</span>
+                    <span className="map-search-result-reading">{v.reading}</span>
+                  </div>
+                ))}
+              </>
+            )}
+            {/* 🗺️ スポットグループ */}
+            {spotResults.length > 0 && (
+              <>
+                <div className="map-search-results-group">🗺️ スポット</div>
+                {spotResults.map(spot => (
+                  <div
+                    key={spot.id}
+                    className="map-search-result-item"
+                    onClick={() => {
+                      setSelectedSpot(spot)
+                      if (spot.lat && spot.lng) mapRef.current?.setView([spot.lat, spot.lng], 14)
+                      clearSearch()
+                    }}
+                  >
+                    <span className="map-search-result-dot" style={{ background: BLOOM_COLOR[spotStatusMap.get(spot.id) ?? 'off_season'] }} />
+                    <span className="map-search-result-name">{spot.name}</span>
+                    {spot.prefecture && <span className="map-search-result-pref">{spot.prefecture}</span>}
+                  </div>
+                ))}
+              </>
+            )}
           </div>
         )}
       </div>
