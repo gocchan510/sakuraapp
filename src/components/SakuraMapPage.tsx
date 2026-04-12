@@ -223,22 +223,34 @@ allVarieties.forEach(v => {
   })
 })
 
-function searchSpots(query: string): MapSpot[] {
-  if (query.length < 2) return []
-  const variants = queryVariants(query)
-  if (!variants.length) return []
+interface SearchResult {
+  results:   MapSpot[]
+  pinFilter: Set<string> | null  // 品種検索ヒット分のスポットID集合（なければ null）
+}
 
-  const matched = new Set<string>()
+function searchSpots(query: string): SearchResult {
+  if (query.length < 2) return { results: [], pinFilter: null }
+  const variants = queryVariants(query)
+  if (!variants.length) return { results: [], pinFilter: null }
+
+  const bySpot    = new Set<string>()  // スポット名・都道府県マッチ
+  const byVariety = new Set<string>()  // 品種名マッチ（全件、10件制限なし）
+
   for (const q of variants) {
     spotNormIndex.forEach(e => {
-      if (e.nameNorm.includes(q)) matched.add(e.id)
-      if (e.prefNorm.startsWith(q)) matched.add(e.id)
+      if (e.nameNorm.includes(q)) bySpot.add(e.id)
+      if (e.prefNorm.startsWith(q)) bySpot.add(e.id)
     })
     varietyNormIndex.forEach((spotIds, normName) => {
-      if (normName.includes(q)) spotIds.forEach(id => matched.add(id))
+      if (normName.includes(q)) spotIds.forEach(id => byVariety.add(id))
     })
   }
-  return allSpots.filter(s => matched.has(s.id)).slice(0, 10)
+
+  const allMatched = new Set([...bySpot, ...byVariety])
+  const results = allSpots.filter(s => allMatched.has(s.id)).slice(0, 10)
+  // 品種ヒットがある場合のみピンフィルタを有効化
+  const pinFilter = byVariety.size > 0 ? byVariety : null
+  return { results, pinFilter }
 }
 
 // ── BottomSheet 内の品種カード ────────────────────────────────────
@@ -553,9 +565,10 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
   const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   // Refs for Leaflet callbacks (avoid stale closures)
-  const onSelectSpotRef  = useRef<(s: MapSpot) => void>(() => {})
-  const activeFiltersRef = useRef<Set<string>>(new Set())
-  const updateMarkersRef = useRef<(() => void) | null>(null)
+  const onSelectSpotRef    = useRef<(s: MapSpot) => void>(() => {})
+  const activeFiltersRef   = useRef<Set<string>>(new Set())
+  const searchPinFilterRef = useRef<Set<string> | null>(null)  // 品種検索ピンフィルタ
+  const updateMarkersRef   = useRef<(() => void) | null>(null)
 
   useEffect(() => { onSelectSpotRef.current = setSelectedSpot }, [])
 
@@ -638,14 +651,18 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
         const color  = BLOOM_COLOR[status]
         const radius = pinRadius(pop, status === 'in_bloom')
 
-        // Determine if spot matches active filters
+        // チップフィルタ
         let dimmed = false
         if (filters.size > 0) {
           const spotKeys = spotFilterKeysMap.get(spot.id) ?? new Set<string>()
-          // ALL active filters must match
           for (const fk of filters) {
             if (!spotKeys.has(fk)) { dimmed = true; break }
           }
+        }
+        // 品種検索ピンフィルタ
+        const pinFilter = searchPinFilterRef.current
+        if (!dimmed && pinFilter !== null && !pinFilter.has(spot.id)) {
+          dimmed = true
         }
 
         const marker = L.circleMarker([lat, lng], {
@@ -700,11 +717,28 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
   }
 
   // ── 検索 ─────────────────────────────────────────────────────
+  function clearSearch() {
+    setSearchQuery('')
+    setSearchResults([])
+    setSearchActive(false)
+    searchPinFilterRef.current = null
+    updateMarkersRef.current?.()
+  }
+
   function handleSearchChange(val: string) {
     setSearchQuery(val)
     if (searchTimerRef.current) clearTimeout(searchTimerRef.current)
+    if (!val || val.length < 2) {
+      setSearchResults([])
+      searchPinFilterRef.current = null
+      updateMarkersRef.current?.()
+      return
+    }
     searchTimerRef.current = setTimeout(() => {
-      setSearchResults(val.length >= 2 ? searchSpots(val) : [])
+      const { results, pinFilter } = searchSpots(val)
+      setSearchResults(results)
+      searchPinFilterRef.current = pinFilter
+      updateMarkersRef.current?.()
     }, 300)
   }
 
@@ -726,11 +760,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
           onFocus={() => setSearchActive(true)}
         />
         {searchQuery && (
-          <button className="map-search-clear" onClick={() => {
-            setSearchQuery('')
-            setSearchResults([])
-            setSearchActive(false)
-          }}>✕</button>
+          <button className="map-search-clear" onClick={clearSearch}>✕</button>
         )}
         {/* Search results dropdown */}
         {searchActive && searchResults.length > 0 && (
@@ -741,12 +771,8 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
                 className="map-search-result-item"
                 onClick={() => {
                   setSelectedSpot(spot)
-                  if (spot.lat && spot.lng) {
-                    mapRef.current?.setView([spot.lat, spot.lng], 14)
-                  }
-                  setSearchQuery('')
-                  setSearchResults([])
-                  setSearchActive(false)
+                  if (spot.lat && spot.lng) mapRef.current?.setView([spot.lat, spot.lng], 14)
+                  clearSearch()
                 }}
               >
                 <span className="map-search-result-dot" style={{ background: BLOOM_COLOR[spotStatusMap.get(spot.id) ?? 'off_season'] }} />
