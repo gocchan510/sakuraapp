@@ -63,7 +63,13 @@
         "八重咲き",
         "二季咲き（春と秋に開花）"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "aizu-usuzumi",
@@ -124,6 +130,10 @@
         "spotId": "walker-ar0207e25702",
         "spotName": "米沢の千歳桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -173,7 +183,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "akatsuki-naden",
@@ -227,6 +243,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -280,6 +300,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -327,7 +351,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "agishi-kogiku-zakura",
@@ -377,7 +407,13 @@
         "国指定天然記念物",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "asahiyama",
@@ -428,7 +464,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "azumanishiki",
@@ -515,6 +557,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -583,6 +629,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -633,7 +683,13 @@
         "八重咲き",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "amagiyoshino",
@@ -695,6 +751,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -800,6 +860,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -893,6 +957,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -960,6 +1028,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1033,6 +1105,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1111,6 +1187,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1169,6 +1249,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1253,6 +1337,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1329,6 +1417,10 @@
         "spotId": "walker-ar0726e382553",
         "spotName": "鴨川公園(半木の道)の八重紅枝垂桜",
         "linkSource": "one_tree"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1376,7 +1468,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "izutaga-shiro",
@@ -1422,7 +1520,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "izu-yoshino",
@@ -1479,6 +1583,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1544,6 +1652,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1728,6 +1840,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1794,6 +1910,10 @@
         "spotId": "walker-ar0622e376062",
         "spotName": "伊東温泉の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1859,6 +1979,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -1899,7 +2023,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hiranojinja-imose",
@@ -2040,6 +2170,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2101,6 +2235,10 @@
         "spotId": "walker-ar0624e26091",
         "spotName": "上野公園の桜(三重県)",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2153,7 +2291,13 @@
         "八重咲き",
         "二季咲き（春と秋に開花）"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ukon",
@@ -2249,6 +2393,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2326,6 +2474,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2366,7 +2518,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "usuge-ohshima",
@@ -2403,7 +2561,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "usuzumi",
@@ -2461,6 +2625,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2505,6 +2673,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2577,6 +2749,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2615,7 +2791,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "umineko-isyu",
@@ -2652,7 +2834,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "unryu-ohshima",
@@ -2697,7 +2885,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "eigenji",
@@ -2760,6 +2954,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2807,6 +3005,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2876,6 +3078,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2945,6 +3151,10 @@
         "spotId": "walker-ar0936e60219",
         "spotName": "吉良のエドヒガンザクラ",
         "linkSource": "one_tree"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -2983,7 +3193,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "edohigan-mukaino",
@@ -3033,6 +3249,10 @@
         "spotId": "walker-ar0516e60164",
         "spotName": "小矢部川公園千本桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3100,6 +3320,10 @@
         "spotId": "walker-ar0207e25692",
         "spotName": "三春滝桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3146,7 +3370,13 @@
         "二季咲き（春と秋に開花）",
         "品種登録品"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "entsuji-zakura",
@@ -3201,6 +3431,10 @@
         "spotId": "walker-ar0622e217110",
         "spotName": "秩父宮記念公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3249,7 +3483,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ouchi-zakura",
@@ -3318,6 +3558,10 @@
         "spotId": "walker-ar0835e60481",
         "spotName": "大原湖(佐波川ダム)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3375,6 +3619,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3415,7 +3663,13 @@
       "reasons": [
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "osawazakura",
@@ -3466,6 +3720,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3522,6 +3780,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3577,6 +3839,10 @@
         "spotId": "walker-ar0314e382345",
         "spotName": "本覚寺の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3654,6 +3920,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3694,7 +3964,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "onaden",
@@ -3789,6 +4065,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3841,6 +4121,10 @@
         "spotId": "walker-ar0726e459734",
         "spotName": "寂光院の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -3881,7 +4165,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ominezakura",
@@ -3918,7 +4208,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "omurazakura",
@@ -3967,7 +4263,13 @@
         "国指定天然記念物",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "okame",
@@ -4042,6 +4344,10 @@
         "spotId": "walker-ar0207e25667",
         "spotName": "花見山の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4090,7 +4396,13 @@
       "reasons": [
         "野生種"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "oshidorizakura",
@@ -4140,6 +4452,10 @@
         "spotId": "walker-ar0622e217110",
         "spotName": "秩父宮記念公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4178,7 +4494,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ofusa-zakura",
@@ -4215,7 +4537,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ominosato-buraizakura",
@@ -4266,6 +4594,10 @@
         "spotId": "walker-ar0420e65094",
         "spotName": "名勝天龍峡の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4332,6 +4664,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4401,6 +4737,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4452,7 +4792,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kakegawa-zakura",
@@ -4500,6 +4846,10 @@
         "spotId": "walker-ar0622e219695",
         "spotName": "つま恋リゾート彩の郷(さいのさと)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4551,6 +4901,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4592,7 +4946,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "katsuura-hinazakura",
@@ -4629,7 +4989,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kaba-sakura",
@@ -4698,6 +5064,10 @@
         "spotId": "walker-ar0311e25768",
         "spotName": "石戸蒲ザクラ",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4763,6 +5133,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4825,6 +5199,10 @@
         "spotId": "walker-ar0101e216009",
         "spotName": "清川千本桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -4863,7 +5241,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kamiyama-shidare-zakura",
@@ -4908,6 +5292,10 @@
         "spotId": "walker-ar0936e580706",
         "spotName": "神山森林公園イルローザの森の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5037,6 +5425,10 @@
         "spotId": "kawazu-matsuri",
         "spotName": "河津桜まつり会場",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5083,7 +5475,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kanzashi-zakura",
@@ -5138,6 +5536,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5296,7 +5698,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kanhizakura",
@@ -5402,6 +5810,10 @@
         "spotId": "walker-ar0207e25667",
         "spotName": "花見山の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5450,7 +5862,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ganman-zakura",
@@ -5495,6 +5913,10 @@
         "spotId": "walker-ar0309e216300",
         "spotName": "鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5543,7 +5965,13 @@
       "reasons": [
         "菊咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kibune-uzu",
@@ -5610,6 +6038,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5697,6 +6129,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5739,7 +6175,13 @@
       "reasons": [
         "野生種"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kinryu-zakura",
@@ -5795,6 +6237,10 @@
         "spotId": "walker-ar0624e26094",
         "spotName": "九華公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5855,6 +6301,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -5946,6 +6396,10 @@
         "spotId": "tama-forest-science",
         "spotName": "多摩森林科学園",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6010,6 +6464,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6070,6 +6528,10 @@
         "spotId": "walker-ar1042e60517",
         "spotName": "大村公園(大村神社)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6130,6 +6592,10 @@
         "spotId": "walker-ar0101e60114",
         "spotName": "春採公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6170,7 +6636,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kumagaizakura",
@@ -6220,7 +6692,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kumanozakura",
@@ -6258,7 +6736,13 @@
       "reasons": [
         "新種・新発見"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kurama",
@@ -6304,7 +6788,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kurama-uzu",
@@ -6355,6 +6845,10 @@
         "spotId": "walker-ar0726e382423",
         "spotName": "鞍馬寺の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6402,7 +6896,13 @@
       "reasons": [
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kurusaru",
@@ -6439,7 +6939,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kureha-otome-shidare",
@@ -6512,6 +7018,10 @@
         "spotId": "walker-ar0516e60604",
         "spotName": "富山県中央植物園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6575,6 +7085,10 @@
         "spotId": "sagamihara-park",
         "spotName": "相模原公園",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6624,7 +7138,13 @@
         "国指定天然記念物",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kechimyakuzakura",
@@ -6685,6 +7205,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6756,6 +7280,10 @@
         "spotId": "walker-ar1041e26347",
         "spotName": "馬場の山桜",
         "linkSource": "one_tree"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6838,6 +7366,10 @@
         "spotId": "walker-ar0517e60127",
         "spotName": "石川県農林総合研究センター林業試験場樹木公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6896,6 +7428,10 @@
         "spotId": "walker-ar0517e25930",
         "spotName": "卯辰山公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -6940,7 +7476,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "koka",
@@ -7067,6 +7609,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7158,6 +7704,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7253,6 +7803,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7365,6 +7919,10 @@
         "spotId": "walker-ar0516e25914",
         "spotName": "岸渡川堤の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7434,6 +7992,10 @@
         "spotId": "walker-ar0516e60164",
         "spotName": "小矢部川公園千本桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7493,6 +8055,10 @@
         "spotId": "walker-ar0516e60164",
         "spotName": "小矢部川公園千本桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7536,7 +8102,13 @@
       "reasons": [
         "二季咲き（春と秋に開花）"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kojonomai",
@@ -7573,7 +8145,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kocho",
@@ -7636,6 +8214,10 @@
         "spotId": "walker-ar0726e26129",
         "spotName": "平野神社の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7703,6 +8285,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7760,6 +8346,10 @@
         "spotId": "walker-ar0726e382335",
         "spotName": "亀岡運動公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7800,7 +8390,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "kohigan",
@@ -7853,6 +8449,10 @@
         "spotId": "walker-ar0420e25997",
         "spotName": "高遠城址公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7908,6 +8508,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7994,6 +8598,10 @@
         "spotId": "walker-ar0313e380523",
         "spotName": "国立劇場の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8056,6 +8664,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8105,6 +8717,10 @@
         "spotId": "walker-ar0622e217110",
         "spotName": "秩父宮記念公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8143,7 +8759,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "conradinae-schmitii-semiplena",
@@ -8180,7 +8802,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "conradinae-semiplena",
@@ -8217,7 +8845,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "gokurakuji-zakura",
@@ -8256,7 +8890,13 @@
       "reasons": [
         "菊咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "gozanomanioi",
@@ -8342,6 +8982,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8424,6 +9068,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8475,6 +9123,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8524,6 +9176,10 @@
         "spotId": "walker-ar0622e217110",
         "spotName": "秩父宮記念公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8564,7 +9220,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "sakuyahime",
@@ -8614,6 +9276,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8681,6 +9347,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8733,6 +9403,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8784,6 +9458,10 @@
         "spotId": "walker-ar0420e65094",
         "spotName": "名勝天龍峡の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8848,6 +9526,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -8899,7 +9581,13 @@
       "reasons": [
         "二季咲き（春と秋に開花）"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shikizaki-banshi",
@@ -8948,6 +9636,10 @@
         "spotId": "walker-ar0309e60367",
         "spotName": "龍城公園(大田原市)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9022,6 +9714,10 @@
         "spotId": "walker-ar0623e428588",
         "spotName": "大安寺のしだれ桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9070,7 +9766,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shizuka-zakura",
@@ -9121,6 +9823,10 @@
         "spotId": "walker-ar0309e25728",
         "spotName": "日光街道桜並木の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9165,6 +9871,10 @@
         "spotId": "walker-ar0622e60574",
         "spotName": "三嶋大社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9205,7 +9915,13 @@
       "reasons": [
         "野生種"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shidarezakura",
@@ -9354,6 +10070,10 @@
         "spotId": "walker-ar0727e60637",
         "spotName": "大仙公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9392,7 +10112,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shidare-fujizakura",
@@ -9431,7 +10157,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shidare-yamazakura",
@@ -9468,7 +10200,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shinamizakura",
@@ -9520,7 +10258,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shibayama",
@@ -9583,6 +10327,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9635,6 +10383,10 @@
         "spotId": "walker-ar0313e25833",
         "spotName": "千鳥ヶ淵緑道の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9695,7 +10447,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shogetsu",
@@ -9778,6 +10536,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9824,6 +10586,10 @@
         "spotId": "walker-ar0101e60116",
         "spotName": "オニウシ公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9873,6 +10639,10 @@
         "spotId": "walker-ar0309e216300",
         "spotName": "鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9920,6 +10690,10 @@
         "spotId": "walker-ar0309e216300",
         "spotName": "鬼怒川温泉 藤原町護国神社・鬼怒川温泉神社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -9964,7 +10738,13 @@
         "八重咲き",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "showa-zakura",
@@ -10012,6 +10792,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10050,7 +10834,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shirayuki",
@@ -10131,6 +10921,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10185,6 +10979,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10257,6 +11055,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10368,7 +11170,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shinranshonin-juzukake-zakura",
@@ -10419,6 +11227,10 @@
         "spotId": "walker-ar0101e60112",
         "spotName": "光善寺(血脈桜)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10487,6 +11299,10 @@
         "spotId": "walker-ar0207e25667",
         "spotName": "花見山の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10549,6 +11365,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10625,6 +11445,10 @@
         "spotId": "walker-ar0313e380523",
         "spotName": "国立劇場の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10699,6 +11523,10 @@
         "spotId": "walker-ar0203e100218",
         "spotName": "盛岡市動物公園ZOOMOの桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10754,6 +11582,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10806,6 +11638,10 @@
         "spotId": "walker-ar0726e381922",
         "spotName": "墨染寺の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10893,6 +11729,10 @@
         "spotId": "sagamihara-park",
         "spotName": "相模原公園",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -10941,7 +11781,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "zuisenji-fuyuzakura",
@@ -11049,6 +11895,10 @@
         "spotId": "walker-ar0314e382959",
         "spotName": "妙本寺の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11089,7 +11939,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "sendaiya",
@@ -11162,6 +12018,10 @@
         "spotId": "walker-ar0313e380523",
         "spotName": "国立劇場の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11210,7 +12070,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "sennenji-hizakura",
@@ -11250,7 +12116,13 @@
         "緋色の花",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "senriko",
@@ -11301,6 +12173,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11357,7 +12233,13 @@
         "菊咲き",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "sotoorihime",
@@ -11413,6 +12295,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11462,7 +12348,13 @@
         "黄緑・緑系の珍しい花色",
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "sonosato-ryokuryu",
@@ -11510,7 +12402,13 @@
         "黄緑・緑系の珍しい花色",
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "somei-beni",
@@ -11578,6 +12476,10 @@
         "spotId": "walker-ar0310e60542",
         "spotName": "伊香保グリーン牧場のソメイヨシノ",
         "linkSource": "one_tree"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11811,6 +12713,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11915,6 +12821,10 @@
         "spotId": "sagamihara-park",
         "spotName": "相模原公園",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11963,7 +12873,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "tairyo-zakura",
@@ -12108,6 +13024,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12157,6 +13077,10 @@
         "spotId": "walker-ar0516e25914",
         "spotName": "岸渡川堤の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12234,6 +13158,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12296,6 +13224,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12365,6 +13297,10 @@
         "spotId": "walker-ar0937e26297",
         "spotName": "女木島の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12452,6 +13388,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12492,7 +13432,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "cheju-zakura",
@@ -12537,7 +13483,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "chichibuzakura",
@@ -12590,6 +13542,10 @@
         "spotId": "walker-ar0311e582193",
         "spotName": "清雲寺のしだれ桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12639,7 +13595,13 @@
         "八重咲き",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "chosyuhizakura",
@@ -12708,6 +13670,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12784,6 +13750,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12830,7 +13800,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hirano-tsukubane",
@@ -12912,6 +13888,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -12968,6 +13948,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13017,7 +14001,13 @@
         "濃紅色の花",
         "菊咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "temari",
@@ -13070,6 +14060,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13118,7 +14112,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "toukaizakura",
@@ -13174,6 +14174,10 @@
         "spotId": "walker-ar0207e25667",
         "spotName": "花見山の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13236,6 +14240,10 @@
         "spotId": "walker-ar0622e60574",
         "spotName": "三嶋大社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13287,6 +14295,10 @@
         "spotId": "walker-ar0622e217110",
         "spotName": "秩父宮記念公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13335,7 +14347,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "najimazakura",
@@ -13399,6 +14417,10 @@
         "spotId": "walker-ar0313e25822",
         "spotName": "中央公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13451,7 +14473,13 @@
         "八重咲き",
         "国指定天然記念物"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "nioizakura",
@@ -13498,7 +14526,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "nikko-zakura",
@@ -13535,7 +14569,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "nidozakura",
@@ -13605,6 +14645,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13656,6 +14700,10 @@
         "spotId": "walker-ar0517e25930",
         "spotName": "卯辰山公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13731,6 +14779,10 @@
         "spotId": "walker-ar0313e380522",
         "spotName": "江戸川公園・神田川沿いの桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13779,7 +14831,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hachisuka-zakura",
@@ -13816,7 +14874,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hatsumiyozakura",
@@ -13853,7 +14917,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hanakagami",
@@ -13901,6 +14971,10 @@
         "spotId": "walker-ar0517e25923",
         "spotName": "芦城公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -13965,6 +15039,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14021,6 +15099,10 @@
         "spotId": "walker-ar0518e60390",
         "spotName": "万葉の里 味真野苑の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14100,7 +15182,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "baigoji-juzukakezakura",
@@ -14183,6 +15271,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14262,6 +15354,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14312,7 +15408,13 @@
         "国指定天然記念物",
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "higurashi",
@@ -14381,6 +15483,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14541,7 +15647,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hiyoshizakura",
@@ -14614,6 +15726,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14670,6 +15786,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -14710,7 +15830,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "pink-cloud",
@@ -14751,7 +15877,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "pink-perfection",
@@ -14804,7 +15936,13 @@
         "濃紅色の花",
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "first-lady",
@@ -14845,7 +15983,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "fuiri-zakura-b",
@@ -14884,7 +16028,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "fukuzaura",
@@ -15027,6 +16177,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15128,6 +16282,10 @@
         "spotId": "walker-ar0834e60423",
         "spotName": "広島市植物公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15180,7 +16338,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "futakami-zakura",
@@ -15286,7 +16450,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "funadu-3go",
@@ -15335,7 +16505,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "funabara-yoshino",
@@ -15389,6 +16565,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15470,6 +16650,10 @@
         "spotId": "walker-ar0205e25636",
         "spotName": "日本国花苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15518,7 +16702,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "heishichi-zakura",
@@ -15559,7 +16749,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "benigasa",
@@ -15662,6 +16858,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15713,6 +16913,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15767,6 +16971,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15814,6 +17022,10 @@
         "spotId": "walker-ar0622e60574",
         "spotName": "三嶋大社の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15858,6 +17070,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15927,6 +17143,10 @@
         "spotId": "walker-ar0834e60423",
         "spotName": "広島市植物公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -15984,6 +17204,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -16051,6 +17275,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -17862,6 +19090,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -18195,7 +19427,13 @@
         "紫紅色の花",
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "yaeno-ohshima",
@@ -18348,6 +19586,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -18554,7 +19796,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "yaemiyamazakura",
@@ -18885,6 +20133,10 @@
         "spotId": "walker-ar0313e382201",
         "spotName": "染井吉野桜記念公園(駒込駅前)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -19265,6 +20517,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -27297,6 +28553,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -37519,6 +38779,10 @@
         "spotId": "walker-ar0834e26242",
         "spotName": "造幣局広島支局 花のまわりみち",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -37620,7 +38884,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hokuhо",
@@ -37904,7 +39174,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "yadake-murasaki",
@@ -40441,7 +41717,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hiyodorizakura",
@@ -40492,6 +41774,10 @@
         "spotId": "walker-ar0517e60127",
         "spotName": "石川県農林総合研究センター林業試験場樹木公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -40539,6 +41825,10 @@
         "spotId": "walker-ar0202e25563",
         "spotName": "弘前公園(鷹揚公園)の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -40578,7 +41868,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "fujizakura-ohaku-chirifu",
@@ -40619,7 +41915,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "pusilliflora-yunnanensis",
@@ -40658,7 +41960,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "benibana-koubon-outou",
@@ -40750,6 +42058,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -40791,7 +42103,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hokusai-isyu",
@@ -40830,7 +42148,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hokuho",
@@ -40871,7 +42195,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hosokawa-beni",
@@ -40909,7 +42239,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "masuyama",
@@ -40949,7 +42285,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "matsumae-osio",
@@ -40996,6 +42338,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -41057,6 +42403,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -41104,6 +42454,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -41145,7 +42499,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "mishoumumei-imose730",
@@ -41185,7 +42545,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "mishoumumei-oushusatozakura1224",
@@ -41226,7 +42592,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "mishoumumei-matsumaeyaekotobuki869",
@@ -41266,7 +42638,13 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "mishoumumei-mikurumagaeshi270",
@@ -41304,7 +42682,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "myoshoji",
@@ -41350,6 +42734,10 @@
         "spotId": "walker-ar0938e60485",
         "spotName": "滝の宮公園の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -41390,7 +42778,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "mushazakura",
@@ -41429,7 +42823,13 @@
       "stars": "★",
       "label": "よく見る",
       "reasons": []
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "morikomachi",
@@ -41469,6 +42869,12 @@
       "reasons": [
         "半八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   }
 ]

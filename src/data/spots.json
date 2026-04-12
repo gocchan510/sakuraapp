@@ -34993,8 +34993,8 @@
     "prefecture": "茨城県",
     "city": "結城市",
     "address": "茨城県結城市田間2217",
-    "lat": 36.302,
-    "lng": 139.892,
+    "lat": 36.2942,
+    "lng": 139.8769,
     "varieties": [
       "yamazakura",
       "ooyamazakura",
@@ -35019,7 +35019,8 @@
     "popularity": 4,
     "category": "garden",
     "features": [
-      "多品種"
+      "多品種",
+      "無料"
     ],
     "sources": [
       "added"
