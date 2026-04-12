@@ -5,7 +5,7 @@ import spotsData from '../data/spots.json'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
 import { bloomOrd, periodsOverlap } from '../utils/bloomFilter'
-import { getTotalOffset, isInBloomAdjusted, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
+import { getTotalOffset, isInBloomAdjusted, adjustBloomPeriod, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
 
 // ── 型 ───────────────────────────────────────────────────────────
 type RawSpot = typeof spotsData[number]
@@ -75,6 +75,30 @@ function varietyBloomStatus(
   }
 }
 
+// ── オフセット込みのブルームステータス（地域差＋今年のズレを全ステータスに適用） ──
+// 旧: isInBloomAdjusted で in_bloom だけ補正 → budding/upcoming/past_bloom は期間ベース（バグ）
+// 新: adjustBloomPeriod で補正済み日付を取得し、全ステータスを実日付で判定
+function varietyBloomStatusWithOffset(
+  bp: { start?: string; end?: string; secondary: { start: string; end: string } | null } | null | undefined,
+  totalOffset: number,
+  today = new Date()
+): BloomStatus {
+  if (!bp?.start || !bp?.end) return 'off_season'
+  // offset なし → 既存の期間ベースロジックに委譲
+  if (totalOffset === 0) return varietyBloomStatus(bp)
+
+  // in_bloom チェック（補正済み実日付）
+  if (isInBloomAdjusted({ start: bp.start, end: bp.end }, totalOffset, today)) return 'in_bloom'
+  if (bp.secondary && isInBloomAdjusted(bp.secondary, totalOffset, today)) return 'in_bloom'
+
+  // 補正済み start/end 日付で past_bloom / budding / upcoming を判定
+  const { startDate, endDate } = adjustBloomPeriod({ start: bp.start, end: bp.end }, totalOffset)
+  if (today > endDate) return 'past_bloom'
+  const daysUntil = (startDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
+  if (daysUntil <= 20) return 'budding'   // 20日以内 ≈ 2期分
+  return 'upcoming'
+}
+
 function estimateFromPeakMonth(text: string): BloomStatus {
   const months = [...(text ?? '').matchAll(/(\d+)月/g)].map(m => +m[1])
   if (!months.length) return 'off_season'
@@ -103,21 +127,8 @@ function computeSpotStatus(spot: MapSpot): BloomStatus {
   const statuses = ids.map(id => {
     const v = varietiesById.get(id)
     if (!v?.bloomPeriod?.start || !v?.bloomPeriod?.end) return 'off_season' as BloomStatus
-
-    // Use offset-adjusted date comparison for spring varieties
-    if (offset !== 0) {
-      const today = new Date()
-      if (isInBloomAdjusted(v.bloomPeriod, offset, today)) return 'in_bloom' as BloomStatus
-
-      // Check secondary
-      if (v.bloomPeriod.secondary && isInBloomAdjusted(
-        { start: v.bloomPeriod.secondary.start, end: v.bloomPeriod.secondary.end },
-        offset, today
-      )) return 'in_bloom' as BloomStatus
-    }
-
-    // Fall back to original period-based calculation
-    return varietyBloomStatus(v.bloomPeriod)
+    // 地域差＋今年のズレを全ステータス（in_bloom/budding/upcoming/past_bloom）に適用
+    return varietyBloomStatusWithOffset(v.bloomPeriod, offset)
   })
 
   for (const s of ['in_bloom', 'budding', 'upcoming', 'past_bloom'] as BloomStatus[]) {
@@ -328,12 +339,16 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety }: SheetPro
   const [expanded, setExpanded] = useState(false)
   const touchStartY = useRef(0)
 
-  const ids      = spot.varieties ?? []
+  const ids = spot.varieties ?? []
+  // スポット位置の合計オフセット（地域差＋今年のズレ）を計算
+  const spotOffset = (spot.lat && spot.lng && hasOffsetData())
+    ? getTotalOffset(spot.lat, spot.lng).totalOffset
+    : 0
   const variants: { variety: Variety; status: BloomStatus }[] = ids
     .map(id => {
       const v = varietiesById.get(id)
       if (!v) return null
-      return { variety: v, status: varietyBloomStatus(v.bloomPeriod) }
+      return { variety: v, status: varietyBloomStatusWithOffset(v.bloomPeriod, spotOffset) }
     })
     .filter(Boolean) as { variety: Variety; status: BloomStatus }[]
 

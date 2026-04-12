@@ -1580,4 +1580,23 @@ html, body {
   font-size: 9px;
   color: #c87820;
 }
+/* 今見頃バッジ */
+.calendar-variety-card--bloom .calendar-variety-card__color {
+  box-shadow: 0 0 0 2px #FF69B4;
+}
+.calendar-variety-card__now {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FF69B4;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.calendar-variety-card__color { position: relative; }
 .calendar-empty { text-align: center; color: #aaa; font-size: 13px; padding: 32px 0; }
