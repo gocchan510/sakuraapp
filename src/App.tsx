@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import {
   Routes, Route, Navigate,
   Outlet, NavLink,
@@ -108,8 +109,31 @@ function VarietyDetailRoute() {
   )
 }
 
+// ── トップページで戻るボタンをアプリ終了させないフック ──────────────
+// HashRouter では hash が "#/" のときが「トップ」
+// popstate 発火時に hash が "#/" なら履歴スタックに再プッシュして留まる
+function usePreventBackOnRoot() {
+  useEffect(() => {
+    // 初回: スタックに sentinel エントリを積む（戻る余地を作る）
+    if (window.location.hash === '#/') {
+      window.history.pushState(null, '', window.location.href)
+    }
+
+    function handlePopState() {
+      if (window.location.hash === '#/' || window.location.hash === '') {
+        // トップに戻ってきた → 再プッシュして留まる
+        window.history.pushState(null, '', window.location.href)
+      }
+    }
+
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+}
+
 // ── ルート定義 ────────────────────────────────────────────────────
 export default function App() {
+  usePreventBackOnRoot()
   return (
     <Routes>
       {/* タブバーあり */}
