@@ -2107,6 +2107,10 @@
         "spotId": "walker-ar0101e25542",
         "spotName": "松前公園の桜",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -7861,6 +7865,10 @@
         "spotId": "walker-ar0313e25816",
         "spotName": "新宿御苑の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -11125,7 +11133,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "shin-sumizome",
@@ -12743,6 +12757,7 @@
     "wikiTitleEn": "Cerasus serrulata 'Taihaku'",
     "emoji": "🌸",
     "aliases": [
+      "タイハク",
       "タイハク（別系）"
     ],
     "bloomPeriod": {
@@ -15143,7 +15158,13 @@
       "reasons": [
         "紫紅色の花"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hayazaki-yae-ohshima",
@@ -16400,6 +16421,10 @@
         "spotId": "walker-ar0516e25914",
         "spotName": "岸渡川堤の桜",
         "linkSource": "text_extraction"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -17338,6 +17363,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -19183,6 +19212,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -19687,6 +19720,10 @@
         "spotId": "walker-ar0517e60127",
         "spotName": "石川県農林総合研究センター林業試験場樹木公園の桜",
         "linkSource": "web_search"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -26414,7 +26451,13 @@
       "reasons": [
         "二季咲き（春と秋に開花）"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "コシミズハヤザキ",
@@ -35750,6 +35793,10 @@
         "spotId": "kitakoshigaya-motoarakawa",
         "spotName": "元荒川桜堤（北越谷）",
         "linkSource": "origin_name"
+      },
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
       }
     ]
   },
@@ -36388,7 +36435,13 @@
       "reasons": [
         "一本桜・原木"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "ヤブザクラ",
@@ -40159,7 +40212,13 @@
       "reasons": [
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "yaeno-kasumi-zakura",
@@ -42012,7 +42071,13 @@
         "紫紅色の花",
         "八重咲き"
       ]
-    }
+    },
+    "spots": [
+      {
+        "spotId": "yuki-sakura-farm",
+        "spotName": "日本花の会 結城農場 桜見本園"
+      }
+    ]
   },
   {
     "id": "hoshu-zakura",
