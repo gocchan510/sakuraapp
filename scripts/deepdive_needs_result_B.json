@@ -1,0 +1,162 @@
+[
+  {
+    "spot_id": "walker-ar0313e377373",
+    "spot_name": "ホテル椿山荘東京の桜",
+    "prefecture": "東京都",
+    "status": "improved",
+    "new_variety_ids": [
+      "miyabi-zakura",
+      "toukaizakura",
+      "yaebenishidare-sanokei"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://hotel-chinzanso-tokyo.jp/garden/seasons/",
+    "note": "公式サイト「庭園の四季の彩り（春）」から品種を確認。河津桜・寒緋桜・修善寺寒桜・おかめ・陽光・ソメイヨシノは既存登録済み。雅桜(miyabi-zakura)・東海桜(toukaizakura)・八重紅枝垂(yaebenishidare-sanokei)が新規として追加。"
+  },
+  {
+    "spot_id": "walker-ar0314e25856",
+    "spot_name": "県立三ツ池公園の桜",
+    "prefecture": "神奈川県",
+    "status": "improved",
+    "new_variety_ids": [
+      "tsubakikanzakura",
+      "o-kanzakura",
+      "syuzenjikanzakura",
+      "okame",
+      "edohigan-ichifusa-beni",
+      "beni-shidare",
+      "yokohamahizakura",
+      "sotoorihime",
+      "kohigan",
+      "ushugasane-ohshima",
+      "yaenomamezakura",
+      "jugatsu-zakura",
+      "shirotae",
+      "beniyutaka",
+      "banrikou",
+      "yaebeni-ohshima",
+      "kokeshimizu",
+      "ukon",
+      "gyoikou",
+      "kenrokuen-kikuzakura",
+      "baigoji-juzukakezakura",
+      "surugadai-nioi",
+      "amanogawa",
+      "koka",
+      "ooyamazakura",
+      "kasumizakura"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://www.kanagawaparks.com/parks/mitsuike/sakurazukan/",
+    "note": "公式「三ツ池さくら図鑑」ページから36品種を確認。既存12品種(someiyoshino, kawaduzakura, kanzakura, oshimazakura, kanhizakura, fuyu-zakura, yamazakura, shidarezakura, kanzan, ichiyou, fugenzou)を除いた26品種を新規追加。"
+  },
+  {
+    "spot_id": "walker-ar0728e60627",
+    "spot_name": "かみかわ桜の山 桜華園の桜",
+    "prefecture": "兵庫県",
+    "status": "improved",
+    "new_variety_ids": [
+      "yamazakura",
+      "gyoikou",
+      "higan-zakura",
+      "kanzakura",
+      "fuyu-zakura",
+      "ooyamazakura",
+      "edohigan-zakura"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://hanami.walkerplus.com/detail/ar0728e60627/data.html",
+    "note": "ウォーカープラス詳細ページおよびウェザーニュースから品種を確認。240種の詳細一覧は非公開。既存6品種(someiyoshino, omoigawa, komatsu-otome, kawaduzakura, shogetsu, america)を除いた山桜・彼岸桜・御衣黄・寒桜・冬桜・大山桜・江戸彼岸を新規追加。"
+  },
+  {
+    "spot_id": "walker-ar0834e60423",
+    "spot_name": "広島市植物公園の桜",
+    "prefecture": "広島県",
+    "status": "improved",
+    "new_variety_ids": [
+      "yaeakebono",
+      "kumagaizakura",
+      "ichiyou",
+      "showa-zakura",
+      "yaebeni-higan",
+      "amanogawa",
+      "koshinohigan-kimurakabu",
+      "itokukuri",
+      "oshimazakura",
+      "jyonioi",
+      "kenrokuen-kikuzakura",
+      "rokkoukikuzakura",
+      "shidarezakura",
+      "yamazakura",
+      "sendaiya"
+    ],
+    "unmatched_names": [
+      {
+        "name": "広島江波山桜",
+        "context": "広島市の天然記念物。山桜の一種で5〜13枚の花びらをつける。alias_mapではID=ヒロシマエバヤマザクラ（カタカナ）として登録"
+      },
+      {
+        "name": "春月花",
+        "context": "八重咲きの啓翁桜の一品種。広島市植物公園の開花情報に掲載"
+      },
+      {
+        "name": "乙女東彼岸",
+        "context": "エドヒガンに似るが花弁の切り込みが深い品種。alias_mapに未登録"
+      }
+    ],
+    "source_url": "http://www.hiroshima-bot.jp/plants/sakura/",
+    "note": "公式サイトはECONNREFUSED。WebSearch結果から約70品種の構成を推定。八重曙・熊谷桜・一葉・昭和桜・八重紅彼岸・天の川・越の彼岸桜・糸括り・大島桜・上匂・兼六園菊桜・六高菊桜・枝垂桜・山桜・仙台屋など既存10品種以外を新規追加。広島江波山桜はIDがカタカナのためunmatched扱い。"
+  },
+  {
+    "spot_id": "walker-ar0834e60674",
+    "spot_name": "バンブー・ジョイ・ハイランドの桜",
+    "prefecture": "広島県",
+    "status": "improved",
+    "new_variety_ids": [
+      "someiyoshino"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://hanami.walkerplus.com/detail/ar0834e60674/",
+    "note": "ウォーカープラスおよびNAVITIMEから品種を確認。ソメイヨシノ約900本・大村桜・御衣黄・ヨコハマザクラの4品種が明記。既存3品種(gyoikou, omurazakura, yokohamahizakura)を除いたソメイヨシノを新規追加。"
+  },
+  {
+    "spot_id": "walker-ar1042e60517",
+    "spot_name": "大村公園(大村神社)の桜",
+    "prefecture": "長崎県",
+    "status": "improved",
+    "new_variety_ids": [
+      "kanzan",
+      "shogetsu",
+      "ukon",
+      "gyoikou",
+      "fugenzou",
+      "takato-kohigan",
+      "shinamizakura",
+      "yaebenishidare-sanokei",
+      "yamazakura"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://www.city.omura.nagasaki.jp/kankou/kanko/omuranohana/hanashokai/sakura.html",
+    "note": "大村市公式サイトのサクラページから13品種を確認。既存8品種(someiyoshino, kawaduzakura, kanhizakura, omurazakura, kushima-zakura, shidarezakura, oshimazakura + someiyoshino重複)を除いた関山・松月・鬱金・御衣黄・普賢象・高遠小彼岸桜・シナミザクラ・八重紅枝垂桜・山桜を新規追加。"
+  },
+  {
+    "spot_id": "walker-ar0727e381780",
+    "spot_name": "うるし堤公園の桜",
+    "prefecture": "大阪府",
+    "status": "give_up",
+    "new_variety_ids": [],
+    "unmatched_names": [],
+    "source_url": "https://hanami.walkerplus.com/detail/ar0727e381780/",
+    "note": "ウォーカープラス・じゃらん等を調査。品種情報は「樹齢70年以上のソメイヨシノ」のみ確認。既存にsomeiyoshinoが登録済みのため新規品種なし。地元の花見名所として知られるが品種多様性は低い。"
+  },
+  {
+    "spot_id": "walker-ar1042e179256",
+    "spot_name": "不老山の桜",
+    "prefecture": "長崎県",
+    "status": "give_up",
+    "new_variety_ids": [],
+    "unmatched_names": [],
+    "source_url": "https://hanami.walkerplus.com/detail/ar1042e179256/",
+    "note": "不老山総合公園（松浦市）を調査。主な特徴は11万株のツツジであり、桜は花木園にある一般的な種のみ。3月下旬〜4月上旬に桜が咲くが品種名は公開されておらず、既存のsomeiyoshinoのみ。2019年の土砂崩れ後2026年3月22日に再開した。"
+  }
+]

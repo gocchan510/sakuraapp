@@ -1,0 +1,233 @@
+alias_map 生成完了
+総エントリ数: 3779
+対象品種ID数: 806
+衝突件数: 175
+
+=== 衝突ログ ===
+  key=江戸彼岸 raw=江戸彼岸 既存=edohigan-ichifusa-beni 新規=edohigan-ozakura
+  key=江戸彼岸 raw=江戸彼岸 既存=edohigan-ichifusa-beni 新規=edohigan-mukaino
+  key=江戸彼岸 raw=江戸彼岸 既存=edohigan-ichifusa-beni 新規=edohigan-yamataka-jindai-zakura
+  key=かんひざくら raw=カンヒザクラ 既存=kanhizakura 新規=kanhizakura-taiwan
+  key=越の彼岸 raw=越の彼岸 既存=koshinohigan-kimurakabu 新規=koshinohigan_koshimuragenboku
+  key=枝垂桜 raw=枝垂桜 既存=shidarezakura 新規=shidarezakura-daisenshiro
+  key=あかつきなでん raw=あかつきなでん 既存=akatsuki-naden 新規=akatsunaden
+  key=あかつきなでん raw=アカツキナデン 既存=akatsuki-naden 新規=akatsunaden
+  key=itozakura raw=itozakura 既存=ito-zakura 新規=itozakura
+  key=itozakura raw=itozakura 既存=ito-zakura 新規=itozakura
+  key=itozakura raw=itozakura 既存=ito-zakura 新規=itozakura
+  key=きりたちやまざくら raw=きりたちやまざくら 既存=kiritachiyamazakura 新規=キリタチヤマザクラ
+  key=きりたちやまざくら raw=キリタチヤマザクラ 既存=kiritachiyamazakura 新規=キリタチヤマザクラ
+  key=きりたちやまざくら raw=キリタチヤマザクラ 既存=kiritachiyamazakura 新規=キリタチヤマザクラ
+  key=きりたちやまざくら raw=キリタチヤマザクラ 既存=kiritachiyamazakura 新規=キリタチヤマザクラ
+  key=きりたちやまざくら raw=キリタチヤマザクラ 既存=kiritachiyamazakura 新規=キリタチヤマザクラ
+  key=くものえ raw=くものえ 既存=kumonoe 新規=クモノエ
+  key=くものえ raw=クモノエ 既存=kumonoe 新規=クモノエ
+  key=くものえ raw=クモノエ 既存=kumonoe 新規=クモノエ
+  key=くものえ raw=クモノエ 既存=kumonoe 新規=クモノエ
+  key=くものえ raw=クモノエ 既存=kumonoe 新規=クモノエ
+  key=くらまかんざん raw=くらまかんざん 既存=kuramakauzan 新規=クラマカンザン
+  key=くらまかんざん raw=クラマカンザン 既存=kuramakauzan 新規=クラマカンザン
+  key=くらまかんざん raw=クラマカンザン 既存=kuramakauzan 新規=クラマカンザン
+  key=くらまかんざん raw=クラマカンザン 既存=kuramakauzan 新規=クラマカンザン
+  key=くらまかんざん raw=クラマカンザン 既存=kuramakauzan 新規=クラマカンザン
+  key=くらまにばな raw=くらまにばな 既存=kuramanibana 新規=クラマニバナ
+  key=くらまにばな raw=クラマニバナ 既存=kuramanibana 新規=クラマニバナ
+  key=くらまにばな raw=クラマニバナ 既存=kuramanibana 新規=クラマニバナ
+  key=くらまにばな raw=クラマニバナ 既存=kuramanibana 新規=クラマニバナ
+  key=くらまにばな raw=クラマニバナ 既存=kuramanibana 新規=クラマニバナ
+  key=じょうきょうじてまりざくら raw=じょうきょうじてまりざくら 既存=jokyoji-temari-zakura 新規=ジョウキョウジテマリザクラ
+  key=じょうきょうじてまりざくら raw=ジョウキョウジテマリザクラ 既存=jokyoji-temari-zakura 新規=ジョウキョウジテマリザクラ
+  key=じょうきょうじてまりざくら raw=ジョウキョウジテマリザクラ 既存=jokyoji-temari-zakura 新規=ジョウキョウジテマリザクラ
+  key=じょうきょうじてまりざくら raw=ジョウキョウジテマリザクラ 既存=jokyoji-temari-zakura 新規=ジョウキョウジテマリザクラ
+  key=じょうきょうじてまりざくら raw=ジョウキョウジテマリザクラ 既存=jokyoji-temari-zakura 新規=ジョウキョウジテマリザクラ
+  key=江戸彼岸 raw=江戸彼岸 既存=edohigan-ichifusa-beni 新規=シロヒガン
+  key=東彼岸 raw=東彼岸 既存=azumahigan 新規=シロヒガン
+  key=立彼岸 raw=立彼岸 既存=シロヒガン 新規=tachihigan
+  key=立桜 raw=立桜 既存=シロヒガン 新規=tatsuzakura
+  key=ちょうりょう raw=ちょうりょう 既存=choryo 新規=チョウリョウ
+  key=ちょうりょう raw=チョウリョウ 既存=choryo 新規=チョウリョウ
+  key=ちょうりょう raw=チョウリョウ 既存=choryo 新規=チョウリョウ
+  key=ちょうりょう raw=チョウリョウ 既存=choryo 新規=チョウリョウ
+  key=ちょうりょう raw=チョウリョウ 既存=choryo 新規=チョウリョウ
+  key=つきはしきくざくら raw=つきはしきくざくら 既存=tsukihashi-kikuzakura 新規=ツキハシキクザクラ
+  key=つきはしきくざくら raw=ツキハシキクザクラ 既存=tsukihashi-kikuzakura 新規=ツキハシキクザクラ
+  key=つきはしきくざくら raw=ツキハシキクザクラ 既存=tsukihashi-kikuzakura 新規=ツキハシキクザクラ
+  key=つきはしきくざくら raw=ツキハシキクザクラ 既存=tsukihashi-kikuzakura 新規=ツキハシキクザクラ
+  key=つきはしきくざくら raw=ツキハシキクザクラ 既存=tsukihashi-kikuzakura 新規=ツキハシキクザクラ
+  key=突羽根 raw=突羽根 既存=hirano-tsukubane 新規=ツクバネ
+  key=てんにんふじ raw=てんにんふじ 既存=tennin-fuji 新規=テンニンフジ
+  key=てんにんふじ raw=テンニンフジ 既存=tennin-fuji 新規=テンニンフジ
+  key=てんにんふじ raw=テンニンフジ 既存=tennin-fuji 新規=テンニンフジ
+  key=てんにんふじ raw=テンニンフジ 既存=tennin-fuji 新規=テンニンフジ
+  key=てんにんふじ raw=テンニンフジ 既存=tennin-fuji 新規=テンニンフジ
+  key=どうばかんざん raw=どうばかんざん 既存=dobakanza 新規=ドウバカンザン
+  key=どうばかんざん raw=ドウバカンザン 既存=dobakanza 新規=ドウバカンザン
+  key=どうばかんざん raw=ドウバカンザン 既存=dobakanza 新規=ドウバカンザン
+  key=どうばかんざん raw=ドウバカンザン 既存=dobakanza 新規=ドウバカンザン
+  key=どうばかんざん raw=ドウバカンザン 既存=dobakanza 新規=ドウバカンザン
+  key=ながえやえ raw=ながえやえ 既存=nagae-yae 新規=ナガエヤエ
+  key=ながえやえ raw=ナガエヤエ 既存=nagae-yae 新規=ナガエヤエ
+  key=ながえやえ raw=ナガエヤエ 既存=nagae-yae 新規=ナガエヤエ
+  key=ながえやえ raw=ナガエヤエ 既存=nagae-yae 新規=ナガエヤエ
+  key=ながえやえ raw=ナガエヤエ 既存=nagae-yae 新規=ナガエヤエ
+  key=ながさきざくら raw=ながさきざくら 既存=nagasaki-zakura 新規=ナガサキザクラ
+  key=ながさきざくら raw=ナガサキザクラ 既存=nagasaki-zakura 新規=ナガサキザクラ
+  key=ながさきざくら raw=ナガサキザクラ 既存=nagasaki-zakura 新規=ナガサキザクラ
+  key=ながさきざくら raw=ナガサキザクラ 既存=nagasaki-zakura 新規=ナガサキザクラ
+  key=ながさきざくら raw=ナガサキザクラ 既存=nagasaki-zakura 新規=ナガサキザクラ
+  key=ななもりざくら raw=ななもりざくら 既存=nanamori-zakura 新規=ナナモリザクラ
+  key=ななもりざくら raw=ナナモリザクラ 既存=nanamori-zakura 新規=ナナモリザクラ
+  key=ななもりざくら raw=ナナモリザクラ 既存=nanamori-zakura 新規=ナナモリザクラ
+  key=ななもりざくら raw=ナナモリザクラ 既存=nanamori-zakura 新規=ナナモリザクラ
+  key=ななもりざくら raw=ナナモリザクラ 既存=nanamori-zakura 新規=ナナモリザクラ
+  key=婆彼岸 raw=婆彼岸 既存=シロヒガン 新規=ハコネザクラ
+  key=鞍馬桜 raw=鞍馬桜 既存=kurama-zakura 新規=ヒゴヨシノ
+  key=めじろざくら raw=めじろざくら 既存=tyoujizakura 新規=mejiro-zakura
+  key=めじろざくら raw=メジロザクラ 既存=tyoujizakura 新規=mejiro-zakura
+  key=みすみおおひらざくら raw=みすみおおひらざくら 既存=misumi-ohira-zakura 新規=ミスミオオヒラザクラ
+  key=みすみおおひらざくら raw=ミスミオオヒラザクラ 既存=misumi-ohira-zakura 新規=ミスミオオヒラザクラ
+  key=みすみおおひらざくら raw=ミスミオオヒラザクラ 既存=misumi-ohira-zakura 新規=ミスミオオヒラザクラ
+  key=みすみおおひらざくら raw=ミスミオオヒラザクラ 既存=misumi-ohira-zakura 新規=ミスミオオヒラザクラ
+  key=みすみおおひらざくら raw=ミスミオオヒラザクラ 既存=misumi-ohira-zakura 新規=ミスミオオヒラザクラ
+  key=みどのやえ raw=みどのやえ 既存=midono-yae 新規=ミドノヤエ
+  key=みどのやえ raw=ミドノヤエ 既存=midono-yae 新規=ミドノヤエ
+  key=みどのやえ raw=ミドノヤエ 既存=midono-yae 新規=ミドノヤエ
+  key=みどのやえ raw=ミドノヤエ 既存=midono-yae 新規=ミドノヤエ
+  key=みどのやえ raw=ミドノヤエ 既存=midono-yae 新規=ミドノヤエ
+  key=みやのひなざくら raw=みやのひなざくら 既存=miyano-hina-zakura 新規=ミヤノヒナザクラ
+  key=みやのひなざくら raw=ミヤノヒナザクラ 既存=miyano-hina-zakura 新規=ミヤノヒナザクラ
+  key=みやのひなざくら raw=ミヤノヒナザクラ 既存=miyano-hina-zakura 新規=ミヤノヒナザクラ
+  key=みやのひなざくら raw=ミヤノヒナザクラ 既存=miyano-hina-zakura 新規=ミヤノヒナザクラ
+  key=みやのひなざくら raw=ミヤノヒナザクラ 既存=miyano-hina-zakura 新規=ミヤノヒナザクラ
+  key=めぐざくら raw=めぐざくら 既存=meg-zakura 新規=メグザクラ
+  key=めぐざくら raw=メグザクラ 既存=meg-zakura 新規=メグザクラ
+  key=めぐざくら raw=メグザクラ 既存=meg-zakura 新規=メグザクラ
+  key=めぐざくら raw=メグザクラ 既存=meg-zakura 新規=メグザクラ
+  key=めぐざくら raw=メグザクラ 既存=meg-zakura 新規=メグザクラ
+  key=八重紫桜 raw=八重紫桜 既存=yaemurasakizakura-koshimizukei 新規=ヤエムラサキザクラ
+  key=やえやまこし raw=やえやまこし 既存=yae-yamakoshi 新規=ヤエヤマコシ
+  key=やえやまこし raw=ヤエヤマコシ 既存=yae-yamakoshi 新規=ヤエヤマコシ
+  key=やえやまこし raw=ヤエヤマコシ 既存=yae-yamakoshi 新規=ヤエヤマコシ
+  key=やえやまこし raw=ヤエヤマコシ 既存=yae-yamakoshi 新規=ヤエヤマコシ
+  key=やえやまこし raw=ヤエヤマコシ 既存=yae-yamakoshi 新規=ヤエヤマコシ
+  key=雛菊桜 raw=雛菊桜 既存=hinagikuzakura 新規=ヤヒコ
+  key=越の彼岸 raw=越の彼岸 既存=koshinohigan-kimurakabu 新規=koshi-no-higan
+  key=しんえいざくら raw=しんえいざくら 既存=シンエイザクラ 新規=shinei-zakura
+  key=しんえいざくら raw=シンエイザクラ 既存=シンエイザクラ 新規=shinei-zakura
+  key=くるまどめ raw=くるまどめ 既存=クルマドメ 新規=kuruma-dome
+  key=くるまどめ raw=クルマドメ 既存=クルマドメ 新規=kuruma-dome
+  key=べにがさ raw=べにがさ 既存=benigasa 新規=beni-gasa
+  key=べにがさ raw=ベニガサ 既存=benigasa 新規=beni-gasa
+  key=benigasa raw=beni-gasa 既存=benigasa 新規=beni-gasa
+  key=benigasa raw=beni gasa 既存=benigasa 新規=beni-gasa
+  key=benigasa raw=benigasa 既存=benigasa 新規=beni-gasa
+  key=まざくら raw=まざくら 既存=mazakura 新規=ma-zakura
+  key=まざくら raw=マザクラ 既存=mazakura 新規=ma-zakura
+  key=mazakura raw=ma-zakura 既存=mazakura 新規=ma-zakura
+  key=mazakura raw=ma zakura 既存=mazakura 新規=ma-zakura
+  key=mazakura raw=mazakura 既存=mazakura 新規=ma-zakura
+  key=matsumaefuki raw=matsumae-fuki 既存=matsumaefuki 新規=matsumae-fuki
+  key=matsumaefuki raw=matsumae fuki 既存=matsumaefuki 新規=matsumae-fuki
+  key=matsumaefuki raw=matsumaefuki 既存=matsumaefuki 新規=matsumae-fuki
+  key=やだけむらさき raw=やだけむらさき 既存=ヤダケムラサキ 新規=yadake-murasaki
+  key=やだけむらさき raw=ヤダケムラサキ 既存=ヤダケムラサキ 新規=yadake-murasaki
+  key=らいこうじきくざくら raw=らいこうじきくざくら 既存=raikoji-kikuzakura 新規=raikoji-kiku-zakura
+  key=らいこうじきくざくら raw=ライコウジキクザクラ 既存=raikoji-kikuzakura 新規=raikoji-kiku-zakura
+  key=raikojikikuzakura raw=raikoji-kiku-zakura 既存=raikoji-kikuzakura 新規=raikoji-kiku-zakura
+  key=raikojikikuzakura raw=raikoji kiku zakura 既存=raikoji-kikuzakura 新規=raikoji-kiku-zakura
+  key=raikojikikuzakura raw=raikojikikuzakura 既存=raikoji-kikuzakura 新規=raikoji-kiku-zakura
+  key=まなづるざくら raw=まなづるざくら 既存=manaduruzakura 新規=manazuru-zakura
+  key=まなづるざくら raw=マナヅルザクラ 既存=manaduruzakura 新規=manazuru-zakura
+  key=はつみよざくら raw=はつみよざくら 既存=hatsumiyozakura 新規=hatsumiyo-zakura
+  key=はつみよざくら raw=ハツミヨザクラ 既存=hatsumiyozakura 新規=hatsumiyo-zakura
+  key=hatsumiyozakura raw=hatsumiyo-zakura 既存=hatsumiyozakura 新規=hatsumiyo-zakura
+  key=hatsumiyozakura raw=hatsumiyo zakura 既存=hatsumiyozakura 新規=hatsumiyo-zakura
+  key=hatsumiyozakura raw=hatsumiyozakura 既存=hatsumiyozakura 新規=hatsumiyo-zakura
+  key=わかきのさくら raw=わかきのさくら 既存=wakakinosakura 新規=wakaki-no-sakura
+  key=わかきのさくら raw=ワカキノサクラ 既存=wakakinosakura 新規=wakaki-no-sakura
+  key=wakakinosakura raw=wakaki-no-sakura 既存=wakakinosakura 新規=wakaki-no-sakura
+  key=wakakinosakura raw=wakaki no sakura 既存=wakakinosakura 新規=wakaki-no-sakura
+  key=wakakinosakura raw=wakakinosakura 既存=wakakinosakura 新規=wakaki-no-sakura
+  key=かばざくら raw=かばざくら 既存=kaba-sakura 新規=kaba-zakura
+  key=かばざくら raw=カバザクラ 既存=kaba-sakura 新規=kaba-zakura
+  key=ぜんしょうじきくざくら raw=ぜんしょうじきくざくら 既存=zenshoji-kikuzakura 新規=zenshoji-kiku-zakura
+  key=ぜんしょうじきくざくら raw=ゼンショウジキクザクラ 既存=zenshoji-kikuzakura 新規=zenshoji-kiku-zakura
+  key=zenshojikikuzakura raw=zenshoji-kiku-zakura 既存=zenshoji-kikuzakura 新規=zenshoji-kiku-zakura
+  key=zenshojikikuzakura raw=zenshoji kiku zakura 既存=zenshoji-kikuzakura 新規=zenshoji-kiku-zakura
+  key=zenshojikikuzakura raw=zenshojikikuzakura 既存=zenshoji-kikuzakura 新規=zenshoji-kiku-zakura
+  key=こじょうのまい raw=こじょうのまい 既存=kojonomai 新規=kojo-no-mai
+  key=こじょうのまい raw=コジョウノマイ 既存=kojonomai 新規=kojo-no-mai
+  key=kojonomai raw=kojo-no-mai 既存=kojonomai 新規=kojo-no-mai
+  key=kojonomai raw=kojo no mai 既存=kojonomai 新規=kojo-no-mai
+  key=kojonomai raw=kojonomai 既存=kojonomai 新規=kojo-no-mai
+  key=ほくほう raw=ホクホウ 既存=hokuhо 新規=hokuho
+  key=ほくほう raw=ホクホウ 既存=hokuhо 新規=hokuho
+  key=まつまえおおしお raw=マツマエオオシオ 既存=matsumae-oshima 新規=matsumae-osio
+  key=まつまえおおしお raw=マツマエオオシオ 既存=matsumae-oshima 新規=matsumae-osio
+  key=実生無名 raw=実生無名 既存=mishoumumei-imose729 新規=mishoumumei-imose730
+  key=実生無名 raw=実生無名 既存=mishoumumei-imose729 新規=mishoumumei-oushusatozakura1224
+  key=実生無名 raw=実生無名 既存=mishoumumei-imose729 新規=mishoumumei-matsumaeyaekotobuki869
+  key=実生無名 raw=実生無名 既存=mishoumumei-imose729 新規=mishoumumei-mikurumagaeshi270
+  key=むしゃざくら raw=ムシャザクラ 既存=ムシャザクライデンケン 新規=mushazakura
+  key=むしゃざくら raw=ムシャザクラ 既存=ムシャザクライデンケン 新規=mushazakura
+  key=山桜 raw=山桜 既存=シロヤマザクラ 新規=yamazakura-bandai
+  key=山桜 raw=山桜 既存=シロヤマザクラ 新規=yamazakura-nachi
+  key=山桜 raw=山桜 既存=シロヤマザクラ 新規=yamazakura-nikko
+  key=八重咲やまざくら raw=八重咲ヤマザクラ 既存=yae-yamazakura-yoshino 新規=yae-yamazakura-unknown
+  key=八重咲大島 raw=八重咲大島 既存=yae-ohshima-ko 新規=yae-ohshima-nami
+  key=山桜 raw=山桜 既存=シロヤマザクラ 新規=yamazakura
+  key=糸桜 raw=糸桜 既存=itozakura 新規=shidarezakura
+  key=霞桜 raw=霞桜 既存=ケヤマザクラ 新規=kasumizakura
+  key=江戸彼岸 raw=江戸彼岸 既存=edohigan-ichifusa-beni 新規=edohigan-zakura
+
+=== サンプル（先頭50件）===
+  'アーコレード' → accolade
+  'あーこれーど' → accolade
+  'accolade' → accolade
+  '会津薄墨' → aizu-usuzumi
+  'あいづうすずみ' → aizu-usuzumi
+  'アイヅウスズミ' → aizu-usuzumi
+  'aizu-usuzumi' → aizu-usuzumi
+  'aizu usuzumi' → aizu-usuzumi
+  'aizuusuzumi' → aizu-usuzumi
+  '赤真珠' → akashinju
+  'あかしんじゅ' → akashinju
+  'アカシンジュ' → akashinju
+  'akashinju' → akashinju
+  '暁南殿' → akatsuki-naden
+  'あかつきなでん' → akatsuki-naden
+  'アカツキナデン' → akatsuki-naden
+  'akatsuki-naden' → akatsuki-naden
+  'akatsuki naden' → akatsuki-naden
+  'akatsukinaden' → akatsuki-naden
+  '赤花真桜' → akabana-mazakura
+  'あかばなまざくら' → akabana-mazakura
+  'アカバナマザクラ' → akabana-mazakura
+  'akabana-mazakura' → akabana-mazakura
+  'akabana mazakura' → akabana-mazakura
+  'akabanamazakura' → akabana-mazakura
+  '赤実大島' → akami-ohshima
+  'あかみおおしま' → akami-ohshima
+  'アカミオオシマ' → akami-ohshima
+  'akami-ohshima' → akami-ohshima
+  'akami ohshima' → akami-ohshima
+  'akamiohshima' → akami-ohshima
+  '阿岸小菊桜' → agishi-kogiku-zakura
+  'あぎしこぎくざくら' → agishi-kogiku-zakura
+  'アギシコギクザクラ' → agishi-kogiku-zakura
+  'agishi-kogiku-zakura' → agishi-kogiku-zakura
+  'agishi kogiku zakura' → agishi-kogiku-zakura
+  'agishikogikuzakura' → agishi-kogiku-zakura
+  '旭山' → asahiyama
+  'あさひやま' → asahiyama
+  'アサヒヤマ' → asahiyama
+  '朝日山' → asahiyama
+  'asahiyama' → asahiyama
+  '東錦' → azumanishiki
+  'あずまにしき' → azumanishiki
+  'アズマニシキ' → azumanishiki
+  'azumanishiki' → azumanishiki
+  '熱海桜' → atamizakura
+  'あたみざくら' → atamizakura
+  'アタミザクラ' → atamizakura
+  'atamizakura' → atamizakura

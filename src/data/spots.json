@@ -8,9 +8,11 @@
     "lat": 43.05598,
     "lng": 141.312661,
     "varieties": [
-      "honseijishidare",
       "shidarezakura",
-      "itozakura"
+      "honseijishidare",
+      "itozakura",
+      "someiyoshino",
+      "ezoyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約120本",
@@ -59,7 +61,10 @@
     "lat": 43.044082,
     "lng": 141.355068,
     "varieties": [
-      "ezoyamazakura"
+      "ezoyamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "chishima-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約400本",
@@ -157,8 +162,10 @@
     "lat": 41.797053,
     "lng": 140.755712,
     "varieties": [
+      "kamiiso-ushiozakura",
       "yamazakura",
-      "kamiiso-ushiozakura"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -183,7 +190,10 @@
     "lng": 140.715652,
     "varieties": [
       "シロヤマザクラ",
-      "kamiiso-ushiozakura"
+      "kamiiso-ushiozakura",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約360本",
@@ -208,7 +218,9 @@
     "lng": 140.992636,
     "varieties": [
       "シロヤマザクラ",
-      "ezoyamazakura"
+      "ezoyamazakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約650本",
@@ -539,8 +551,9 @@
     "lng": 135.870228,
     "varieties": [
       "シロヤマザクラ",
+      "kasumizakura",
       "yamazakura",
-      "kasumizakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -566,27 +579,34 @@
     "lat": 35.715379,
     "lng": 139.774023,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
       "higan-zakura",
-      "kanhizakura",
-      "kanzakura",
-      "jugatsu-zakura",
-      "yamazakura",
       "oshimazakura",
-      "shogetsu",
-      "gyoikou",
-      "kanzan",
-      "ichiyou",
-      "amanogawa",
-      "fugenzou",
-      "ukon",
       "fukurokujyu",
-      "ueno-shirayuki-shidare",
-      "yoko",
+      "sonosato-kizakura",
+      "gyoikou",
       "someiyoshino",
+      "ukon",
+      "シロヤマザクラ",
+      "yoko",
+      "kanzan",
+      "komatsu-otome",
+      "jugatsu-zakura",
+      "baigoji-juzukakezakura",
       "シロヒガン",
-      "komatsu-otome"
+      "fugenzou",
+      "yamazakura",
+      "ichiyou",
+      "kanzakura",
+      "hiranojinja-imose",
+      "omoigawa",
+      "amanogawa",
+      "shogetsu",
+      "kanhizakura",
+      "ueno-shirayuki-shidare",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 55,
     "varietyNote": "約800本",
@@ -715,7 +735,10 @@
     "lat": 39.599048,
     "lng": 140.561834,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約162本",
@@ -889,7 +912,10 @@
     "lat": 43.518769,
     "lng": 142.202225,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -913,7 +939,8 @@
     "lat": 44.340996,
     "lng": 142.380324,
     "varieties": [
-      "ezoyamazakura"
+      "ezoyamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -982,9 +1009,12 @@
     "lat": 42.522493,
     "lng": 140.781072,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
-      "oshimazakura"
+      "higan-zakura",
+      "oshimazakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -1007,8 +1037,9 @@
     "lng": 140.621853,
     "varieties": [
       "gyoikou",
+      "jugatsu-zakura",
       "kamiiso-ushiozakura",
-      "jugatsu-zakura"
+      "someiyoshino"
     ],
     "varietyCount": 3,
     "varietyNote": "約300本",
@@ -1034,8 +1065,9 @@
     "lat": 41.844111,
     "lng": 140.63654,
     "varieties": [
+      "ooyamazakura",
       "kamiiso-ushiozakura",
-      "ooyamazakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -1091,7 +1123,9 @@
     "lng": 140.575596,
     "varieties": [
       "gyoikou",
-      "ukon"
+      "ukon",
+      "someiyoshino",
+      "morikomachi"
     ],
     "varietyCount": 1,
     "varietyNote": "約800本",
@@ -1117,7 +1151,10 @@
     "lng": 140.568959,
     "varieties": [
       "chishima-zakura",
-      "shogetsu-isyu"
+      "shogetsu-isyu",
+      "someiyoshino",
+      "ooyamazakura",
+      "horiihizakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約400本",
@@ -1334,7 +1371,10 @@
     "lat": 42.044362,
     "lng": 143.292159,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約800本",
@@ -1359,7 +1399,8 @@
     "lat": 42.994462,
     "lng": 144.458514,
     "varieties": [
-      "chishima-zakura"
+      "chishima-zakura",
+      "kushiro-yae"
     ],
     "varietyCount": 1,
     "varietyNote": "約700本",
@@ -1383,9 +1424,12 @@
     "lat": 40.829842,
     "lng": 140.778526,
     "varieties": [
+      "ukon",
       "kanhizakura",
       "kanzan",
-      "ukon"
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約633本",
@@ -1410,57 +1454,59 @@
     "lat": 40.607023,
     "lng": 140.464504,
     "varieties": [
-      "シロヤマザクラ",
-      "kanhizakura",
-      "kasumizakura",
-      "yamazakura",
-      "ooyamazakura",
-      "oshimazakura",
-      "ukon",
-      "shogetsu",
-      "kanzan",
-      "fugenzou",
-      "gyoikou",
-      "ichiyou",
-      "azumanishiki",
-      "mikurumagaeshi",
       "ojochin",
-      "beniyutaka",
-      "kobuku-zakura",
-      "hirosaki-yukiakari",
-      "yoko",
-      "kotohira",
-      "shirotae",
-      "showa-zakura",
-      "baigoji-juzukakezakura",
-      "kohigan",
       "sotoorihime",
-      "hiyodorizakura",
-      "higurashi",
-      "sendai-shidare",
-      "ミナカミ",
-      "kenrokuen-kikuzakura",
-      "amanogawa",
-      "someiyoshino",
-      "senriko",
-      "o-kanzakura",
-      "shidarezakura",
-      "yaebenishidare-sanokei",
-      "sakuyahime",
-      "sumaura-fugenzo",
+      "oshimazakura",
       "beni-shidare",
-      "シロヒガン",
-      "sanozakura",
-      "temari",
-      "funabara-yoshino",
-      "okame",
+      "fukurokujyu",
+      "gyoikou",
+      "shidarezakura",
+      "shirotae",
+      "hirosaki-sandanzaki",
+      "someiyoshino",
+      "mikurumagaeshi",
+      "taihaku",
+      "o-kanzakura",
+      "ukon",
+      "シロヤマザクラ",
+      "yoko",
+      "kanzan",
+      "kotohira",
+      "kobuku-zakura",
       "jugatsu-zakura",
       "yokohamahizakura",
+      "sanozakura",
+      "beniyutaka",
+      "showa-zakura",
+      "baigoji-juzukakezakura",
+      "kenrokuen-kikuzakura",
+      "hiyodorizakura",
+      "ooyamazakura",
+      "sumaura-fugenzo",
+      "fugenzou",
+      "シロヒガン",
+      "yamazakura",
+      "higurashi",
+      "ichiyou",
+      "first-lady",
+      "sakuyahime",
+      "senriko",
+      "kohigan",
+      "temari",
       "omoigawa",
-      "taihaku",
+      "okame",
+      "amanogawa",
+      "hirosaki-yukiakari",
+      "ミナカミ",
+      "sendai-shidare",
       "yaebeni-ohshima",
-      "fukurokujyu",
-      "hirosaki-sandanzaki"
+      "shogetsu",
+      "kanhizakura",
+      "azumanishiki",
+      "funabara-yoshino",
+      "kasumizakura",
+      "yaebenishidare-sanokei",
+      "edohigan-zakura"
     ],
     "varietyCount": 52,
     "varietyNote": "約400本",
@@ -1489,7 +1535,10 @@
     "lat": 40.514462,
     "lng": 141.487547,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -1511,8 +1560,14 @@
     "lat": 40.475664,
     "lng": 141.512985,
     "varieties": [
+      "oshidorizakura",
       "シロヤマザクラ",
-      "oshidorizakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "ukon"
     ],
     "varietyCount": 2,
     "varietyNote": "約2000本",
@@ -1535,7 +1590,11 @@
     "lng": 140.610455,
     "varieties": [
       "シロヤマザクラ",
-      "higan-zakura"
+      "higan-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約700本",
@@ -1584,10 +1643,13 @@
     "lat": 40.612422,
     "lng": 141.206271,
     "varieties": [
+      "beni-shidare",
       "シロヤマザクラ",
       "jindai-akebono",
       "kanzan",
-      "beni-shidare"
+      "someiyoshino",
+      "yamazakura",
+      "mine-zakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約156本",
@@ -1666,13 +1728,17 @@
     "lat": 40.609349,
     "lng": 141.438142,
     "varieties": [
-      "シロヤマザクラ",
-      "fuyu-zakura",
       "omurazakura",
+      "シロヤマザクラ",
       "yoko",
-      "jugatsu-zakura",
       "uwamizu-zakura",
-      "miyama-zakura"
+      "jugatsu-zakura",
+      "fuyu-zakura",
+      "miyama-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 7,
     "varietyNote": null,
@@ -1783,8 +1849,11 @@
     "lat": 40.382073,
     "lng": 141.265347,
     "varieties": [
+      "gyoikou",
       "シロヤマザクラ",
-      "gyoikou"
+      "someiyoshino",
+      "yamazakura",
+      "yaebenishidare-sanokei"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -1808,13 +1877,15 @@
     "lat": 39.699875,
     "lng": 141.15073,
     "varieties": [
+      "suisho",
+      "ukon",
+      "edohigan",
       "morioka-shidare",
       "honseijishidare",
-      "ukon",
-      "suisho",
-      "edohigan",
+      "someiyoshino",
       "ooyamazakura",
-      "someiyoshino"
+      "edohigan-zakura",
+      "niwa-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -1838,9 +1909,12 @@
     "lat": 39.723612,
     "lng": 141.14309,
     "varieties": [
-      "honseijishidare",
       "suisho",
-      "morioka-shidare"
+      "honseijishidare",
+      "morioka-shidare",
+      "someiyoshino",
+      "shidarezakura",
+      "ooyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1300本",
@@ -1867,9 +1941,10 @@
     "lng": 141.151235,
     "varieties": [
       "morioka-shidare",
-      "honseijishidare",
       "suisho",
-      "edohigan"
+      "edohigan",
+      "honseijishidare",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -1892,9 +1967,10 @@
     "lng": 141.202372,
     "varieties": [
       "morioka-shidare",
-      "honseijishidare",
       "suisho",
-      "yaebenishidare-sanokei"
+      "honseijishidare",
+      "yaebenishidare-sanokei",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約34本",
@@ -1970,8 +2046,10 @@
     "lat": 39.452759,
     "lng": 141.069548,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
-      "shidarezakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -1997,7 +2075,14 @@
     "lng": 141.126657,
     "varieties": [
       "ケヤマザクラ",
-      "shohoji-kikuzakura"
+      "shohoji-kikuzakura",
+      "ooyamazakura",
+      "kasumizakura",
+      "edohigan-zakura",
+      "uwamizu-zakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -2022,7 +2107,8 @@
     "lat": 39.373732,
     "lng": 141.563653,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -2124,7 +2210,10 @@
     "lat": 38.914972,
     "lng": 141.335881,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約100本",
@@ -2359,7 +2448,9 @@
     "varieties": [
       "kawaduzakura",
       "edohigan",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -2383,11 +2474,12 @@
     "lat": 39.003698,
     "lng": 141.155124,
     "varieties": [
-      "ooyamazakura",
-      "someiyoshino",
+      "edohigan",
       "edohigan-zakura",
+      "someiyoshino",
+      "ooyamazakura",
       "yamazakura",
-      "edohigan"
+      "oshimazakura"
     ],
     "varietyCount": 100,
     "varietyNote": "約3000本（ソメイヨシノ・エドヒガン・オオヤマザクラなど約100種）",
@@ -2409,7 +2501,8 @@
     "lat": 39.001435,
     "lng": 141.102615,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -2431,7 +2524,8 @@
     "lat": 38.987204,
     "lng": 141.107458,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -2503,7 +2597,10 @@
     "varieties": [
       "シロヤマザクラ",
       "edohigan",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -2554,9 +2651,10 @@
     "lat": 38.279997,
     "lng": 140.885097,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "yamazakura",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約80本",
@@ -2604,18 +2702,20 @@
     "lng": 140.896723,
     "varieties": [
       "kanzashi-zakura",
-      "edohigan-zakura",
-      "yamazakura",
-      "kanzan",
       "oshimazakura",
+      "omurazakura",
+      "ukon",
+      "kanzan",
+      "edohigan-zakura",
       "jugatsu-zakura",
-      "kasumizakura",
       "gyoikou",
       "yaebenishidare-sanokei",
-      "ukon",
+      "edo",
       "ooyamazakura",
-      "omurazakura",
-      "edo"
+      "kasumizakura",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -2667,10 +2767,11 @@
     "lat": 38.488407,
     "lng": 141.181115,
     "varieties": [
+      "shidarezakura",
+      "ooyamazakura",
       "asahiyama",
       "yamazakura",
-      "ooyamazakura",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -2694,10 +2795,12 @@
     "lat": 38.423292,
     "lng": 141.307362,
     "varieties": [
-      "higan-zakura",
-      "シロヤマザクラ",
       "shidarezakura",
-      "yamazakura"
+      "シロヤマザクラ",
+      "higan-zakura",
+      "yamazakura",
+      "someiyoshino",
+      "shikizakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -2748,11 +2851,16 @@
     "lat": 38.318943,
     "lng": 141.012645,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
       "higan-zakura",
+      "シロヤマザクラ",
       "kanhizakura",
-      "shiogama"
+      "shiogama",
+      "kawaduzakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約27本",
@@ -2947,7 +3055,9 @@
     "lng": 141.131096,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -2976,7 +3086,9 @@
     "lng": 140.123334,
     "varieties": [
       "jindai-akebono",
-      "omurazakura"
+      "omurazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約630本",
@@ -3024,7 +3136,9 @@
     "lat": 40.22146,
     "lng": 140.25622,
     "varieties": [
-      "beniyamazakura"
+      "beniyamazakura",
+      "someiyoshino",
+      "botan"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -3173,7 +3287,8 @@
     "varieties": [
       "gyoikou",
       "ukon",
-      "kanzan"
+      "kanzan",
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": "約900本",
@@ -3195,7 +3310,8 @@
     "lat": 39.428362,
     "lng": 140.189034,
     "varieties": [
-      "シロヒガン"
+      "シロヒガン",
+      "ケヤマザクラ"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -3292,7 +3408,10 @@
     "lat": 39.595622,
     "lng": 140.560206,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -3319,7 +3438,8 @@
     "lat": 40.388676,
     "lng": 139.985163,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約800本",
@@ -3343,11 +3463,12 @@
     "lat": 39.903493,
     "lng": 140.093694,
     "varieties": [
-      "someiyoshino",
+      "oshimazakura",
       "シロヤマザクラ",
       "shidarezakura",
       "fuyu-zakura",
-      "oshimazakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約2000本",
@@ -3559,10 +3680,12 @@
     "lat": 38.710999,
     "lng": 139.940317,
     "varieties": [
-      "シロヤマザクラ",
       "shidarezakura",
+      "シロヤマザクラ",
       "kasumizakura",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "higan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約10本",
@@ -3638,7 +3761,8 @@
     "lat": 38.1722,
     "lng": 140.299193,
     "varieties": [
-      "シンエイザクラ"
+      "シンエイザクラ",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -3662,7 +3786,8 @@
     "lat": 38.157941,
     "lng": 140.276318,
     "varieties": [
-      "シンエイザクラ"
+      "シンエイザクラ",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -3881,8 +4006,11 @@
     "lat": 38.050692,
     "lng": 140.164953,
     "varieties": [
+      "ooyamazakura",
       "kikuzakura",
-      "ooyamazakura"
+      "someiyoshino",
+      "edohigan-zakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -3959,7 +4087,9 @@
     "lng": 140.036417,
     "varieties": [
       "edohigan-zakura",
-      "edohigan"
+      "edohigan",
+      "someiyoshino",
+      "gyoikou"
     ],
     "varietyCount": 1,
     "varietyNote": "樹齢約1200年のエドヒガン6本",
@@ -4266,8 +4396,9 @@
     "lng": 140.78108,
     "varieties": [
       "シロヤマザクラ",
+      "someiyoshino",
       "yamazakura",
-      "someiyoshino"
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約600本",
@@ -4366,7 +4497,8 @@
     "lat": 37.055155,
     "lng": 140.233816,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "ハコネザクラ"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -4661,10 +4793,11 @@
     "lat": 37.513783,
     "lng": 140.375383,
     "varieties": [
-      "シロヤマザクラ",
-      "someiyoshino",
       "edohigan-zakura",
-      "shidarezakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -4688,7 +4821,8 @@
     "lat": 37.876319,
     "lng": 140.542031,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -4714,7 +4848,8 @@
     "lat": 37.2495,
     "lng": 140.35388,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -5163,7 +5298,9 @@
     "lat": 36.376001,
     "lng": 140.447626,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約370本",
@@ -5294,9 +5431,10 @@
     "lat": 36.207094,
     "lng": 140.240234,
     "varieties": [
-      "someiyoshino",
       "shidarezakura",
-      "kikuzakura"
+      "kikuzakura",
+      "someiyoshino",
+      "yaezakura-akita"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -5322,10 +5460,13 @@
     "lat": 36.307951,
     "lng": 139.885383,
     "varieties": [
-      "hitachi-miyabi-zakura",
-      "シロヤマザクラ",
       "ヒュペヘンシス",
-      "someiyoshino"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "hitachi-miyabi-zakura",
+      "yamazakura",
+      "shidarezakura",
+      "jindai-akebono"
     ],
     "varietyCount": 1,
     "varietyNote": "約100本",
@@ -5347,7 +5488,8 @@
     "lat": 35.911694,
     "lng": 140.188419,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1本",
@@ -5373,7 +5515,9 @@
     "lat": 36.044082,
     "lng": 139.975981,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "kanhizakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -5451,11 +5595,18 @@
     "lat": 36.056087,
     "lng": 139.113743,
     "varieties": [
-      "gyoikou",
       "シロヤマザクラ",
-      "chichibuzakura",
       "someiyoshino",
-      "yamazakura"
+      "gyoikou",
+      "chichibuzakura",
+      "yamazakura",
+      "ukon",
+      "shidarezakura",
+      "kanzan",
+      "fugenzou",
+      "taihaku",
+      "omoigawa",
+      "amanogawa"
     ],
     "varietyCount": 2,
     "varietyNote": "約8000本",
@@ -5556,13 +5707,15 @@
     "lat": 36.290177,
     "lng": 140.251803,
     "varieties": [
-      "beniyamazakura",
+      "oshimazakura",
       "botan",
       "シロヤマザクラ",
       "yoko",
+      "beniyamazakura",
+      "edohigan-zakura",
       "someiyoshino",
-      "oshimazakura",
-      "edohigan-zakura"
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約2000本",
@@ -5659,7 +5812,8 @@
     "lat": 36.591664,
     "lng": 140.420486,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "sendaiya"
     ],
     "varietyCount": null,
     "varietyNote": "約130本",
@@ -5685,13 +5839,15 @@
     "lat": 36.501076,
     "lng": 140.420139,
     "varieties": [
-      "kanhizakura",
-      "fuyu-zakura",
-      "kanzan",
       "ichiyou",
-      "shogetsu",
       "ukon",
-      "gyoikou"
+      "kanzan",
+      "gyoikou",
+      "shogetsu",
+      "fuyu-zakura",
+      "kanhizakura",
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約2000本",
@@ -5744,12 +5900,14 @@
     "lat": 36.331154,
     "lng": 140.119928,
     "varieties": [
-      "yatsubusazakura",
+      "higan-zakura",
       "シロヤマザクラ",
-      "kawaduzakura",
-      "someiyoshino",
       "shidarezakura",
-      "higan-zakura"
+      "yatsubusazakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約3000本",
@@ -5775,7 +5933,9 @@
     "lng": 140.66223,
     "varieties": [
       "シロヤマザクラ",
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -5982,7 +6142,8 @@
     "varieties": [
       "シロヤマザクラ",
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -6009,7 +6170,8 @@
     "lat": 36.361317,
     "lng": 139.697808,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6082,7 +6244,8 @@
     "lat": 36.573007,
     "lng": 139.744498,
     "varieties": [
-      "omoigawa"
+      "omoigawa",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6262,7 +6425,8 @@
     "lat": 36.88681,
     "lng": 140.001785,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "ooyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6385,7 +6549,9 @@
     "lng": 140.075314,
     "varieties": [
       "シロヤマザクラ",
-      "kanzan"
+      "kanzan",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -6407,7 +6573,8 @@
     "lat": 36.46147,
     "lng": 139.8099,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約50本",
@@ -6534,7 +6701,8 @@
     "lat": 36.310947,
     "lng": 138.981054,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6687,15 +6855,19 @@
     "lat": 36.499811,
     "lng": 138.945459,
     "varieties": [
+      "sendaiya",
+      "beni-shidare",
+      "ichiyou",
       "シロヤマザクラ",
       "america",
       "kanzan",
-      "ichiyou",
       "gyoikou",
-      "sendaiya",
-      "beni-shidare",
+      "edohigan-zakura",
       "fugenzou",
-      "edohigan-zakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 19,
     "varietyNote": "約1500本",
@@ -6720,7 +6892,8 @@
     "lng": 138.76239,
     "varieties": [
       "shidarezakura",
-      "ukon"
+      "ukon",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6795,17 +6968,20 @@
     "lat": 36.282665,
     "lng": 138.743496,
     "varieties": [
-      "シロヤマザクラ",
-      "fuyu-zakura",
-      "someiyoshino",
-      "kanzan",
-      "fugenzou",
-      "youkihi",
-      "ooyamazakura",
-      "edohigan-zakura",
       "yamazakura",
+      "シロヤマザクラ",
+      "kotohira",
+      "kanzan",
+      "edohigan-zakura",
+      "youkihi",
+      "fuyu-zakura",
+      "sanozakura",
+      "someiyoshino",
+      "taihaku",
+      "ooyamazakura",
+      "fugenzou",
       "mishima-zakura",
-      "kotohira"
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約4000本",
@@ -6851,7 +7027,8 @@
     "lat": 36.763844,
     "lng": 138.968937,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -6875,7 +7052,8 @@
     "lat": 36.261962,
     "lng": 139.414163,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -7017,12 +7195,14 @@
     "lat": 35.913838,
     "lng": 139.691349,
     "varieties": [
-      "kanhizakura",
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "someiyoshino",
       "miyabi-zakura",
-      "edohigan-zakura"
+      "シロヤマザクラ",
+      "edohigan-zakura",
+      "kanhizakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "miyabi"
     ],
     "varietyCount": 3,
     "varietyNote": "約2000本",
@@ -7131,7 +7311,8 @@
     "lat": 35.919017,
     "lng": 139.483155,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -7229,7 +7410,8 @@
     "lat": 35.923823,
     "lng": 139.42561,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -7605,7 +7787,8 @@
     "lat": 35.787686,
     "lng": 139.39645,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -7631,7 +7814,8 @@
     "lng": 139.16789,
     "varieties": [
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "jugatsu-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約50本",
@@ -7822,7 +8006,8 @@
     "lat": 35.999354,
     "lng": 139.375002,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -7869,11 +8054,12 @@
     "lng": 139.389423,
     "varieties": [
       "oshimazakura",
-      "someiyoshino",
       "jugatsu-zakura",
       "edohigan-zakura",
+      "someiyoshino",
+      "kasumizakura",
       "yamazakura",
-      "kasumizakura"
+      "ケヤマザクラ"
     ],
     "varietyCount": 3,
     "varietyNote": "約200本",
@@ -7939,7 +8125,8 @@
     "lat": 35.858546,
     "lng": 139.389065,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2本",
@@ -7983,8 +8170,11 @@
     "lat": 36.173183,
     "lng": 139.597814,
     "varieties": [
+      "shidarezakura",
       "someiyoshino",
-      "shidarezakura"
+      "yamazakura",
+      "oshimazakura",
+      "jugatsu-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -8015,7 +8205,8 @@
     "lat": 36.054535,
     "lng": 139.515121,
     "varieties": [
-      "kaba-sakura"
+      "kaba-sakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -8039,52 +8230,53 @@
     "lat": 36.106419,
     "lng": 139.454043,
     "varieties": [
-      "botan",
-      "mikurumagaeshi",
+      "taguiarashi",
       "ojochin",
-      "youkihi",
-      "shirotae",
-      "スミゾメ",
-      "kokeshimizu",
-      "arakawanioi",
-      "ハタザクラ",
-      "hoki-zakura",
-      "スザク",
-      "itsukayama",
-      "taizanfukun",
-      "bendono",
-      "chosyuhizakura",
-      "ミナカミ",
-      "amanogawa",
       "banrikou",
-      "amayadori",
+      "mikurumagaeshi",
+      "shirotae",
+      "arakawanioi",
+      "スザク",
+      "meigetsu",
+      "edo",
       "uzuzakura",
-      "ukon",
-      "gozanomanioi",
-      "kanzan",
-      "kirin",
-      "shirayuki",
-      "takasago",
-      "jyonioi",
       "hosokawa-nioi",
+      "shibayama",
+      "kokonoe",
+      "ukon",
+      "kanzan",
       "yaeakebono",
-      "onaden",
+      "gozanomanioi",
+      "chosyuhizakura",
+      "shirayuki",
+      "washinoo",
+      "ariake",
       "gosyozakura",
+      "botan",
       "ichiyou",
       "murasakizakura",
-      "washinoo",
+      "youkihi",
+      "kokeshimizu",
+      "hoki-zakura",
       "kaba-sakura",
-      "taguiarashi",
-      "shogetsu",
-      "ariake",
-      "shibayama",
-      "meigetsu",
+      "onaden",
+      "taizanfukun",
+      "amanogawa",
+      "takasago",
+      "itsukayama",
+      "jyonioi",
+      "ハタザクラ",
+      "bendono",
+      "ミナカミ",
+      "kirin",
       "arashiyama",
-      "kokonoe",
+      "スミゾメ",
       "usuzumi",
+      "shogetsu",
       "azumanishiki",
+      "amayadori",
       "マンゲツ",
-      "edo"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8109,7 +8301,8 @@
     "lat": 36.117401,
     "lng": 139.511418,
     "varieties": [
-      "kaba-sakura"
+      "kaba-sakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約80本",
@@ -8304,7 +8497,9 @@
     "lat": 36.022548,
     "lng": 139.507519,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "kaba-sakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8353,7 +8548,8 @@
     "lat": 36.025559,
     "lng": 139.506903,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8429,7 +8625,8 @@
     "lat": 35.971779,
     "lng": 139.3542,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "kanzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -8486,7 +8683,8 @@
     "lat": 35.922698,
     "lng": 139.399125,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8559,8 +8757,9 @@
     "lat": 35.986683,
     "lng": 139.617993,
     "varieties": [
+      "kemuriyama-beni-yamazakura",
       "yamazakura",
-      "kemuriyama-beni-yamazakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8746,11 +8945,12 @@
     "lat": 36.010388,
     "lng": 139.232446,
     "varieties": [
-      "ichiyou",
-      "gyoikou",
-      "fugenzou",
       "surugadai-nioi",
-      "someiyoshino"
+      "fugenzou",
+      "someiyoshino",
+      "gyoikou",
+      "ichiyou",
+      "kawaduzakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約270本",
@@ -8828,7 +9028,8 @@
     "lat": 36.019998,
     "lng": 139.7199,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -9044,10 +9245,11 @@
     "lat": 35.578038,
     "lng": 140.224823,
     "varieties": [
-      "yamazakura",
-      "someiyoshino",
+      "shidarezakura",
       "oshimazakura",
-      "shidarezakura"
+      "someiyoshino",
+      "yamazakura",
+      "uwamizu-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -9080,17 +9282,18 @@
     "lat": 35.642929,
     "lng": 140.126719,
     "varieties": [
-      "kanzan",
-      "kawaduzakura",
-      "beni-shidare",
-      "gyoikou",
       "oshimazakura",
+      "beni-shidare",
       "chiharazakura",
-      "someiyoshino",
-      "yamazakura",
       "yoko",
+      "kanzan",
+      "gyoikou",
       "jindai-akebono",
-      "ichiharatoranoo"
+      "someiyoshino",
+      "ichiharatoranoo",
+      "kawaduzakura",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約580本",
@@ -9224,7 +9427,9 @@
     "lat": 35.719937,
     "lng": 139.935016,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura",
+      "kanzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約400本",
@@ -9440,10 +9645,14 @@
     "lng": 139.854001,
     "varieties": [
       "yaebenishidare-sanokei",
-      "yokohamahizakura",
       "yoko",
+      "oshimazakura",
+      "yokohamahizakura",
       "someiyoshino",
-      "oshimazakura"
+      "kanhizakura",
+      "edohigan-zakura",
+      "shidarezakura",
+      "kanzan"
     ],
     "varietyCount": 3,
     "varietyNote": "約2000本",
@@ -9533,9 +9742,10 @@
     "lat": 35.760992,
     "lng": 140.279552,
     "varieties": [
+      "kawaduzakura",
       "someiyoshino",
       "yamazakura",
-      "kawaduzakura"
+      "botan"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -9586,7 +9796,8 @@
     "lat": 35.869382,
     "lng": 140.396669,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -9744,7 +9955,8 @@
     "lat": 35.143055,
     "lng": 140.323611,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -9790,9 +10002,10 @@
     "lat": 35.519306,
     "lng": 140.080444,
     "varieties": [
-      "kawadzushogatu",
+      "kawazu-zakura",
       "kawaduzakura",
-      "kawazu-zakura"
+      "kawadzushogatu",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -9817,7 +10030,8 @@
     "lat": 35.160025,
     "lng": 140.197542,
     "varieties": [
-      "kiyosumishidare"
+      "kiyosumishidare",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -9839,7 +10053,8 @@
     "lat": 35.782182,
     "lng": 140.008129,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "botan"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -9953,7 +10168,8 @@
     "lat": 35.038946,
     "lng": 139.81275,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -9977,7 +10193,8 @@
     "lat": 35.74832,
     "lng": 140.534455,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -10003,7 +10220,9 @@
     "lng": 140.547822,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura",
+      "kanzan"
     ],
     "varietyCount": null,
     "varietyNote": "約300本",
@@ -10027,7 +10246,10 @@
     "lat": 35.886065,
     "lng": 140.528696,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -10124,7 +10346,8 @@
     "lat": 35.515773,
     "lng": 140.2872,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -10146,7 +10369,10 @@
     "lat": 35.824674,
     "lng": 140.271208,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -10221,12 +10447,13 @@
     "lat": 35.126243,
     "lng": 139.898773,
     "varieties": [
-      "kanhizakura",
-      "kawaduzakura",
-      "someiyoshino",
+      "tairyo-zakura",
       "shidarezakura",
       "jindai-akebono",
-      "tairyo-zakura"
+      "kanhizakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約2200本",
@@ -10251,7 +10478,9 @@
     "lat": 35.141579,
     "lng": 139.862405,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約5000本",
@@ -10276,14 +10505,16 @@
     "lng": 139.743848,
     "varieties": [
       "higan-zakura",
-      "kawaduzakura",
+      "oshimazakura",
+      "ukon",
       "kanzakura",
       "yoko",
-      "ukon",
       "kanhizakura",
       "someiyoshino",
+      "kawaduzakura",
       "yamazakura",
-      "oshimazakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 7,
     "varietyNote": null,
@@ -10370,7 +10601,8 @@
     "lat": 35.701989,
     "lng": 139.767797,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -10394,7 +10626,12 @@
     "varieties": [
       "kawaduzakura",
       "シロヤマザクラ",
-      "kanhizakura"
+      "kanhizakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "kanzakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -10419,12 +10656,13 @@
     "lng": 139.743308,
     "varieties": [
       "sendaiya",
-      "wakakinosakura",
-      "jindai-akebono",
-      "yaebenishidare-sanokei",
       "komatsu-otome",
       "kanzan",
-      "shogetsu"
+      "wakakinosakura",
+      "jindai-akebono",
+      "shogetsu",
+      "yaebenishidare-sanokei",
+      "kumagaizakura"
     ],
     "varietyCount": 6,
     "varietyNote": "約20本",
@@ -10446,9 +10684,12 @@
     "lat": 35.681032,
     "lng": 139.734067,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
-      "keio-zakura"
+      "シロヤマザクラ",
+      "keio-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約58本",
@@ -10473,13 +10714,17 @@
     "lat": 35.660199,
     "lng": 139.763528,
     "varieties": [
-      "kanhizakura",
-      "シロヤマザクラ",
-      "fuyu-zakura",
-      "yamazakura",
-      "ichiyou",
       "surugadai-nioi",
-      "yaebeni-toranoo"
+      "ichiyou",
+      "シロヤマザクラ",
+      "yaebeni-toranoo",
+      "fuyu-zakura",
+      "kanhizakura",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "ukon"
     ],
     "varietyCount": 3,
     "varietyNote": "約80本",
@@ -10538,7 +10783,8 @@
     "lat": 35.688915,
     "lng": 139.786736,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30本",
@@ -10564,10 +10810,11 @@
     "lat": 35.660516,
     "lng": 139.73072,
     "varieties": [
+      "maihime",
       "シロヤマザクラ",
-      "yoko",
       "someiyoshino",
-      "maihime"
+      "yoko",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約75本",
@@ -10616,14 +10863,15 @@
     "lat": 35.665679,
     "lng": 139.731014,
     "varieties": [
-      "yaebenishidare-sanokei",
-      "シロヤマザクラ",
-      "kanzan",
-      "someiyoshino",
-      "yamazakura",
       "oshimazakura",
+      "シロヤマザクラ",
+      "shidare-yamazakura",
+      "kanzan",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
       "ooyamazakura",
-      "shidare-yamazakura"
+      "yamazakura",
+      "sendai-shidare"
     ],
     "varietyCount": 3,
     "varietyNote": "約40本",
@@ -10648,10 +10896,12 @@
     "lat": 35.654938,
     "lng": 139.747983,
     "varieties": [
-      "kanhizakura",
       "kawaduzakura",
+      "shidarezakura",
+      "kanhizakura",
       "someiyoshino",
-      "shidarezakura"
+      "oshimazakura",
+      "jugatsu-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約60本",
@@ -10673,11 +10923,14 @@
     "lat": 35.65452,
     "lng": 139.758528,
     "varieties": [
-      "fugenzou",
-      "gyoikou",
+      "ichiyou",
       "シロヤマザクラ",
       "kanzan",
-      "ichiyou"
+      "gyoikou",
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -10709,19 +10962,23 @@
     "lat": 35.631834,
     "lng": 139.734662,
     "varieties": [
-      "fugenzou",
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "jindai-akebono",
-      "gyoikou",
+      "gotenba-zakura",
       "ケヤマザクラ",
+      "シロヤマザクラ",
+      "kohigan",
+      "kanzan",
+      "gyoikou",
       "mikurumagaeshi",
+      "jindai-akebono",
       "kanhizakura",
       "shogetsu",
-      "kohigan",
+      "kawaduzakura",
       "スザク",
-      "kanzan",
-      "gotenba-zakura"
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 12,
     "varietyNote": null,
@@ -10774,15 +11031,18 @@
     "lat": 35.672862,
     "lng": 139.735608,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
-      "kanhizakura",
-      "beni-shidare",
-      "omoigawa",
-      "accolade",
       "amanogawa",
+      "beni-shidare",
+      "シロヤマザクラ",
+      "accolade",
       "kanzan",
-      "fugenzou"
+      "kanhizakura",
+      "kawaduzakura",
+      "fugenzou",
+      "omoigawa",
+      "someiyoshino",
+      "yamazakura",
+      "kenrokuen-kikuzakura"
     ],
     "varietyCount": 9,
     "varietyNote": "約100本",
@@ -10807,7 +11067,9 @@
     "lng": 139.748207,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura",
+      "koshinohigan-kimurakabu"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -10833,8 +11095,9 @@
     "varieties": [
       "gyoikou",
       "kawaduzakura",
+      "ukon",
       "someiyoshino",
-      "ukon"
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約90本",
@@ -10860,72 +11123,73 @@
     "lat": 35.686605,
     "lng": 139.708635,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
-      "kanhizakura",
-      "ichiyou",
-      "kanzan",
-      "hiranojinja-imose",
-      "beniyutaka",
-      "ゴショミクルマガエシ",
-      "ooyamazakura",
-      "kobuku-zakura",
-      "yoko",
-      "kotohira",
-      "yamazakura",
-      "shirotae",
+      "taguiarashi",
       "oshimazakura",
-      "syuzenjikanzakura",
+      "higan-zakura",
+      "beni-shidare",
+      "tyoujizakura",
       "edo-zakura",
-      "スザク",
-      "baigoji-juzukakezakura",
-      "kohigan",
-      "takato-kohigan",
-      "bendono",
+      "america",
       "gyoikou",
-      "kanzakura",
+      "komatsunagi",
+      "shirotae",
+      "shidarezakura",
+      "someiyoshino",
+      "ichiharatoranoo",
+      "taihaku",
+      "スザク",
+      "ヒマラヤヒザクラ",
+      "o-kanzakura",
+      "edo",
+      "syuzenjikanzakura",
+      "ukon",
+      "シロヤマザクラ",
+      "yoko",
+      "kanzan",
+      "kotohira",
+      "kobuku-zakura",
+      "tsubakikanzakura",
+      "jugatsu-zakura",
+      "yokohamahizakura",
+      "toukaizakura",
+      "baigoji-juzukakezakura",
       "chosyuhizakura",
       "kenrokuen-kikuzakura",
-      "amanogawa",
-      "benizuruzakura",
-      "komatsunagi",
-      "someiyoshino",
-      "tsubakikanzakura",
-      "ichiharatoranoo",
-      "o-kanzakura",
-      "amayadori",
-      "kasumizakura",
-      "hiyoshizakura",
-      "shidarezakura",
-      "hoshu-zakura",
-      "ukon",
-      "atamizakura",
-      "ヒマラヤヒザクラ",
-      "yaebenishidare-sanokei",
-      "toukaizakura",
-      "mamezakura",
-      "america",
-      "gosyozakura",
-      "シロヒガン",
-      "izu-yoshino",
-      "surugadai-nioi",
-      "beni-shidare",
-      "murasakizakura",
-      "washinoo",
-      "taguiarashi",
-      "okame",
-      "jugatsu-zakura",
-      "shogetsu",
-      "yokohamahizakura",
-      "yae-no-sakon",
+      "ooyamazakura",
       "koshioyama",
-      "taihaku",
-      "arashiyama",
+      "シロヒガン",
       "fugenzou",
-      "higan-zakura",
+      "yamazakura",
+      "izu-yoshino",
+      "washinoo",
+      "gosyozakura",
+      "ichiyou",
+      "murasakizakura",
+      "kanzakura",
+      "atamizakura",
+      "hiranojinja-imose",
+      "hoshu-zakura",
+      "kohigan",
+      "takato-kohigan",
+      "hiyoshizakura",
+      "okame",
+      "benizuruzakura",
+      "amanogawa",
+      "surugadai-nioi",
+      "yae-no-sakon",
+      "ゴショミクルマガエシ",
+      "mamezakura",
       "usuzumi",
-      "tyoujizakura",
-      "edo"
+      "bendono",
+      "arashiyama",
+      "yaebenishidare-sanokei",
+      "shogetsu",
+      "kanhizakura",
+      "kawaduzakura",
+      "kasumizakura",
+      "amayadori",
+      "beniyutaka",
+      "edohigan-zakura"
     ],
     "varietyCount": 65,
     "varietyNote": "約900本",
@@ -10964,7 +11228,8 @@
     "lat": 35.678662,
     "lng": 139.717665,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -10988,7 +11253,12 @@
     "lat": 35.703698,
     "lng": 139.713511,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -11010,9 +11280,11 @@
     "lat": 35.689116,
     "lng": 139.689719,
     "varieties": [
-      "kawaduzakura",
       "takato-kohigan",
-      "someiyoshino"
+      "kawaduzakura",
+      "someiyoshino",
+      "shidarezakura",
+      "higan-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -11060,9 +11332,14 @@
     "lat": 35.732488,
     "lng": 139.748376,
     "varieties": [
-      "シロヤマザクラ",
       "hakusan-hatazakura",
-      "yaemurasakizakura-koshimizukei"
+      "yaemurasakizakura-koshimizukei",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -11123,14 +11400,16 @@
     "lat": 35.705069,
     "lng": 139.748785,
     "varieties": [
-      "yaemurasakizakura-koshimizukei",
       "hakusan-hatazakura",
       "シロヤマザクラ",
-      "o-kanzakura",
+      "shidarezakura",
       "kanhizakura",
       "someiyoshino",
+      "yaemurasakizakura-koshimizukei",
+      "o-kanzakura",
       "yamazakura",
-      "shidarezakura"
+      "kanzakura",
+      "ukon"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -11161,15 +11440,21 @@
     "lat": 35.71217,
     "lng": 139.725631,
     "varieties": [
-      "yaemurasakizakura-koshimizukei",
-      "シロヤマザクラ",
-      "hakusan-hatazakura",
-      "kawaduzakura",
-      "kanhizakura",
-      "fuyu-zakura",
-      "syuzenjikanzakura",
       "okame",
-      "yoko"
+      "miyabi-zakura",
+      "syuzenjikanzakura",
+      "hakusan-hatazakura",
+      "シロヤマザクラ",
+      "yoko",
+      "fuyu-zakura",
+      "kanhizakura",
+      "toukaizakura",
+      "yaemurasakizakura-koshimizukei",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約100本",
@@ -11197,7 +11482,8 @@
     "lng": 139.728229,
     "varieties": [
       "hakusan-hatazakura",
-      "yaemurasakizakura-koshimizukei"
+      "yaemurasakizakura-koshimizukei",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -11245,7 +11531,9 @@
     "lng": 139.796771,
     "varieties": [
       "ueno-shirayuki-shidare",
-      "komatsu-otome"
+      "komatsu-otome",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約50本",
@@ -11304,12 +11592,16 @@
     "lat": 35.724333,
     "lng": 139.81503,
     "varieties": [
-      "シロヤマザクラ",
-      "gyoikou",
       "ukon",
-      "kanhizakura",
+      "シロヤマザクラ",
       "kanzan",
-      "fugenzou"
+      "gyoikou",
+      "kanhizakura",
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約360本",
@@ -11340,14 +11632,16 @@
     "lat": 35.709163,
     "lng": 139.838415,
     "varieties": [
-      "omoigawa",
-      "fugenzou",
-      "kawaduzakura",
-      "yoko",
       "ichiyou",
-      "kanzan",
       "shidare-yamazakura",
-      "ooyamazakura"
+      "yoko",
+      "kanzan",
+      "kawaduzakura",
+      "ooyamazakura",
+      "fugenzou",
+      "omoigawa",
+      "someiyoshino",
+      "sendai-shidare"
     ],
     "varietyCount": 6,
     "varietyNote": "約260本",
@@ -11372,7 +11666,9 @@
     "lat": 35.698625,
     "lng": 139.815986,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -11445,7 +11741,8 @@
     "lat": 35.645202,
     "lng": 139.810676,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -11494,12 +11791,16 @@
     "lat": 35.691653,
     "lng": 139.846947,
     "varieties": [
-      "keio-zakura",
-      "gyoikou",
       "ukon",
+      "keio-zakura",
       "kanzan",
+      "gyoikou",
+      "shidarezakura",
       "someiyoshino",
-      "shidarezakura"
+      "oshimazakura",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "yaebenishidare-sanokei"
     ],
     "varietyCount": 4,
     "varietyNote": "約340本",
@@ -11523,7 +11824,10 @@
     "lat": 35.676767,
     "lng": 139.80756,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -11547,7 +11851,8 @@
     "lat": 35.650574,
     "lng": 139.835786,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -11620,7 +11925,11 @@
     "lng": 139.695465,
     "varieties": [
       "kawaduzakura",
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "kanhizakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約44本",
@@ -11647,7 +11956,8 @@
     "varieties": [
       "シロヤマザクラ",
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -11704,10 +12014,11 @@
     "lat": 35.57894,
     "lng": 139.705193,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "someiyoshino",
-      "shidarezakura",
-      "sasabe-zakura"
+      "sasabe-zakura",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -11793,7 +12104,8 @@
     "lat": 35.624356,
     "lng": 139.659928,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -11868,12 +12180,13 @@
     "lat": 35.671736,
     "lng": 139.694944,
     "varieties": [
+      "oshimazakura",
       "シロヤマザクラ",
-      "kawaduzakura",
       "shibuya-konno-uzakura",
       "someiyoshino",
+      "kawaduzakura",
       "yamazakura",
-      "oshimazakura"
+      "kanzakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約500本",
@@ -11931,7 +12244,8 @@
     "lng": 139.674298,
     "varieties": [
       "kawaduzakura",
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -11959,7 +12273,12 @@
       "kawaduzakura",
       "シロヤマザクラ",
       "kanhizakura",
-      "koenji-shiro-yae-zakura"
+      "koenji-shiro-yae-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約700本",
@@ -11983,8 +12302,11 @@
     "lat": 35.682502,
     "lng": 139.639635,
     "varieties": [
+      "koenji-shiro-yae-zakura",
       "fuyu-zakura",
-      "koenji-shiro-yae-zakura"
+      "someiyoshino",
+      "shidarezakura",
+      "gyoikou"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -12091,13 +12413,14 @@
     "lat": 35.750466,
     "lng": 139.738887,
     "varieties": [
-      "onaden",
-      "シロヤマザクラ",
       "murasakizakura",
+      "シロヤマザクラ",
+      "shidarezakura",
       "mikurumagaeshi",
-      "meigetsu",
       "someiyoshino",
-      "shidarezakura"
+      "meigetsu",
+      "onaden",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -12230,12 +12553,13 @@
     "lat": 35.741786,
     "lng": 139.736595,
     "varieties": [
-      "onaden",
-      "kawaduzakura",
       "murasakizakura",
       "mikurumagaeshi",
+      "someiyoshino",
       "meigetsu",
-      "someiyoshino"
+      "kawaduzakura",
+      "onaden",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -12306,7 +12630,8 @@
     "lat": 35.786624,
     "lng": 139.664204,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約300本",
@@ -12382,7 +12707,8 @@
     "varieties": [
       "シロヤマザクラ",
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "kanzakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約170本",
@@ -12415,32 +12741,36 @@
     "lat": 35.796247,
     "lng": 139.767381,
     "varieties": [
-      "kawaduzakura",
-      "kanhizakura",
-      "wabihito",
-      "manoga",
-      "kokeshimizu",
-      "arakawanioi",
-      "itsukayama",
-      "taizanfukun",
-      "higurashi",
-      "amanogawa",
-      "amayadori",
-      "gozanomanioi",
-      "kirin",
-      "yaeakebono",
-      "gosyozakura",
-      "surugadai-nioi",
-      "ichiyou",
-      "washinoo",
       "taguiarashi",
-      "ariake",
-      "shibayama",
-      "arashiyama",
-      "kokonoe",
-      "fugenzou",
       "fukurokujyu",
-      "azumanishiki"
+      "arakawanioi",
+      "shibayama",
+      "kokonoe",
+      "yaeakebono",
+      "gozanomanioi",
+      "fugenzou",
+      "higurashi",
+      "washinoo",
+      "ariake",
+      "gosyozakura",
+      "ichiyou",
+      "wabihito",
+      "kokeshimizu",
+      "manoga",
+      "surugadai-nioi",
+      "taizanfukun",
+      "amanogawa",
+      "azumanishiki",
+      "itsukayama",
+      "kirin",
+      "arashiyama",
+      "kanhizakura",
+      "kawaduzakura",
+      "amayadori",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "kanzakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -12476,33 +12806,37 @@
     "lat": 35.78016,
     "lng": 139.779987,
     "varieties": [
-      "kawaduzakura",
-      "higan-zakura",
-      "kanzakura",
-      "wabihito",
-      "manoga",
-      "kokeshimizu",
-      "arakawanioi",
-      "itsukayama",
-      "taizanfukun",
-      "higurashi",
-      "amanogawa",
-      "amayadori",
-      "gozanomanioi",
-      "kirin",
-      "yaeakebono",
-      "gosyozakura",
-      "surugadai-nioi",
-      "ichiyou",
-      "washinoo",
       "taguiarashi",
-      "ariake",
-      "shibayama",
-      "arashiyama",
-      "kokonoe",
-      "fugenzou",
+      "higan-zakura",
       "fukurokujyu",
-      "azumanishiki"
+      "arakawanioi",
+      "shibayama",
+      "kokonoe",
+      "yaeakebono",
+      "gozanomanioi",
+      "fugenzou",
+      "higurashi",
+      "washinoo",
+      "ariake",
+      "gosyozakura",
+      "ichiyou",
+      "wabihito",
+      "kanzakura",
+      "kokeshimizu",
+      "manoga",
+      "surugadai-nioi",
+      "taizanfukun",
+      "amanogawa",
+      "azumanishiki",
+      "itsukayama",
+      "kirin",
+      "arashiyama",
+      "kawaduzakura",
+      "amayadori",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "angyo-zakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -12527,10 +12861,11 @@
     "lat": 35.787144,
     "lng": 139.869308,
     "varieties": [
-      "yamazakura",
-      "someiyoshino",
+      "o-kanzakura",
       "oshimazakura",
-      "o-kanzakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約388本",
@@ -12579,14 +12914,17 @@
     "lat": 35.696018,
     "lng": 139.853781,
     "varieties": [
+      "okame",
       "higan-zakura",
-      "kawaduzakura",
-      "kanzakura",
-      "kanhizakura",
-      "yoko",
       "oshimazakura",
+      "kanzakura",
+      "yoko",
+      "kanhizakura",
+      "kawaduzakura",
       "ooyamazakura",
-      "okame"
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約1000本",
@@ -12610,7 +12948,8 @@
     "lat": 35.64225,
     "lng": 139.860295,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約700本",
@@ -12712,11 +13051,16 @@
     "lat": 35.710765,
     "lng": 139.397322,
     "varieties": [
-      "kanhizakura",
       "syuzenjikanzakura",
-      "kawaduzakura",
       "yoko",
-      "yaebenishidare-sanokei"
+      "kanhizakura",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "kanzakura"
     ],
     "varietyCount": 31,
     "varietyNote": "約1500本",
@@ -12751,15 +13095,19 @@
     "lng": 139.574389,
     "varieties": [
       "higan-zakura",
+      "oshimazakura",
       "シロヤマザクラ",
-      "kawaduzakura",
       "kanzakura",
       "kichijoji",
+      "kanzan",
       "gyoikou",
       "kanhizakura",
-      "kanzan",
+      "kawaduzakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura",
+      "fugenzou"
     ],
     "varietyCount": 7,
     "varietyNote": "約400本",
@@ -12794,7 +13142,8 @@
     "lat": 35.717704,
     "lng": 139.566017,
     "varieties": [
-      "kichijoji"
+      "kichijoji",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約150本",
@@ -12896,13 +13245,18 @@
     "lat": 35.687905,
     "lng": 139.520479,
     "varieties": [
-      "シロヤマザクラ",
-      "kanhizakura",
-      "kanzakura",
-      "kanzan",
-      "shirayuki",
       "ichiyou",
-      "yaebenishidare-sanokei"
+      "kanzakura",
+      "シロヤマザクラ",
+      "kanzan",
+      "kanhizakura",
+      "shirayuki",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "o-kanzakura"
     ],
     "varietyCount": 7,
     "varietyNote": "約600本",
@@ -12934,19 +13288,24 @@
     "lng": 139.545927,
     "varieties": [
       "higan-zakura",
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "kanzakura",
-      "jindai-akebono",
-      "gyoikou",
+      "fukurokujyu",
       "ukon",
+      "シロヤマザクラ",
+      "kanzakura",
+      "kanzan",
+      "gyoikou",
+      "mikurumagaeshi",
+      "jindai-akebono",
       "kanhizakura",
       "shogetsu",
       "shirotae",
-      "kanzan",
-      "fukurokujyu",
-      "mikurumagaeshi",
-      "edo"
+      "kawaduzakura",
+      "edo",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 7,
     "varietyNote": "約750本",
@@ -12970,14 +13329,19 @@
     "lat": 35.586113,
     "lng": 139.403414,
     "varieties": [
-      "kanhizakura",
-      "シロヤマザクラ",
-      "shirotae",
       "surugadai-nioi",
+      "シロヤマザクラ",
+      "yaebeni-higan",
       "kanzan",
-      "fugenzou",
       "youkihi",
-      "yaebeni-higan"
+      "shirotae",
+      "kanhizakura",
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "kawaduzakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約360本",
@@ -13023,21 +13387,25 @@
     "lat": 35.714831,
     "lng": 139.512797,
     "varieties": [
-      "youkihi",
-      "kanzan",
-      "シロヤマザクラ",
-      "kawaduzakura",
+      "surugadai-nioi",
+      "ichiyou",
       "kanzakura",
+      "シロヤマザクラ",
+      "kanzan",
+      "uwamizu-zakura",
       "komatsunagi",
-      "ケヤマザクラ",
-      "yamazakura",
+      "youkihi",
+      "fuyu-zakura",
       "kanhizakura",
       "コガネイウスベニザクラ",
-      "ichiyou",
-      "uwamizu-zakura",
-      "surugadai-nioi",
-      "fuyu-zakura",
-      "shirotae"
+      "shirotae",
+      "kawaduzakura",
+      "ケヤマザクラ",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 13,
     "varietyNote": "約1400本",
@@ -13071,16 +13439,17 @@
     "lat": 35.763222,
     "lng": 139.442603,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "someiyoshino",
-      "yamazakura",
-      "shidarezakura",
       "oshimazakura",
+      "シロヤマザクラ",
       "yoko",
       "kanzan",
+      "shidarezakura",
       "jindai-akebono",
-      "kasumizakura"
+      "someiyoshino",
+      "kawaduzakura",
+      "kasumizakura",
+      "yamazakura",
+      "uwamizu-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約140本",
@@ -13102,14 +13471,19 @@
     "lat": 35.690257,
     "lng": 139.446936,
     "varieties": [
-      "シロヤマザクラ",
-      "jindai-akebono",
       "ukon",
-      "maihime",
-      "meigetsu",
+      "シロヤマザクラ",
       "kanzan",
+      "maihime",
+      "jindai-akebono",
       "someiyoshino",
-      "o-kanzakura"
+      "meigetsu",
+      "o-kanzakura",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "kanzakura"
     ],
     "varietyCount": 6,
     "varietyNote": "約360本",
@@ -13160,7 +13534,8 @@
     "lat": 35.795132,
     "lng": 139.5306,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約150本",
@@ -13234,9 +13609,10 @@
     "lat": 35.625395,
     "lng": 139.518899,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "someiyoshino",
-      "shidarezakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約800本",
@@ -13310,11 +13686,17 @@
     "lat": 35.740683,
     "lng": 139.539752,
     "varieties": [
+      "kanzakura",
+      "yoko",
       "jugatsu-zakura",
       "kawaduzakura",
-      "kanzakura",
       "o-kanzakura",
-      "yoko"
+      "someiyoshino",
+      "shidarezakura",
+      "hanagasa",
+      "ichiyou",
+      "taoyame",
+      "omoigawa"
     ],
     "varietyCount": 3,
     "varietyNote": "約150本",
@@ -13337,9 +13719,10 @@
     "lng": 139.348049,
     "varieties": [
       "koshi-no-higan",
-      "kanzan",
       "ukon",
-      "shirotae"
+      "shirotae",
+      "kanzan",
+      "someiyoshino"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -13391,9 +13774,10 @@
     "lng": 139.047995,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura",
       "oshimazakura",
-      "ooyamazakura"
+      "ooyamazakura",
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約3000本",
@@ -13417,18 +13801,45 @@
     "lat": 35.522417,
     "lng": 139.661019,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "kanzakura",
       "oshimazakura",
-      "kanhizakura",
-      "fuyu-zakura",
-      "someiyoshino",
-      "yamazakura",
+      "sotoorihime",
+      "beni-shidare",
+      "banrikou",
       "shidarezakura",
+      "yaenomamezakura",
+      "shirotae",
+      "gyoikou",
+      "someiyoshino",
+      "edohigan-ichifusa-beni",
+      "o-kanzakura",
+      "syuzenjikanzakura",
+      "ukon",
+      "シロヤマザクラ",
       "kanzan",
+      "tsubakikanzakura",
+      "jugatsu-zakura",
+      "yokohamahizakura",
+      "fuyu-zakura",
+      "baigoji-juzukakezakura",
+      "kenrokuen-kikuzakura",
+      "ooyamazakura",
+      "fugenzou",
+      "yamazakura",
+      "ushugasane-ohshima",
       "ichiyou",
-      "fugenzou"
+      "koka",
+      "kanzakura",
+      "kokeshimizu",
+      "kohigan",
+      "okame",
+      "surugadai-nioi",
+      "amanogawa",
+      "yaebeni-ohshima",
+      "kanhizakura",
+      "kawaduzakura",
+      "kasumizakura",
+      "beniyutaka",
+      "edohigan-zakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約1000本",
@@ -13508,7 +13919,10 @@
     "lat": 35.45051,
     "lng": 139.626366,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -13555,7 +13969,10 @@
     "lng": 139.625383,
     "varieties": [
       "gyoikou",
-      "fugenzou"
+      "fugenzou",
+      "someiyoshino",
+      "shidarezakura",
+      "kanzan"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -13577,7 +13994,12 @@
     "lat": 35.417943,
     "lng": 139.661309,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "o-kanzakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -13612,14 +14034,16 @@
     "lat": 35.424051,
     "lng": 139.638093,
     "varieties": [
-      "gyoikou",
-      "jindai-akebono",
-      "youkihi",
       "ariake",
       "sendaiya",
-      "ichiyou",
       "fukurokujyu",
-      "fugenzou"
+      "ichiyou",
+      "gyoikou",
+      "youkihi",
+      "jindai-akebono",
+      "fugenzou",
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": 8,
     "varietyNote": "約400本",
@@ -13775,8 +14199,9 @@
     "lng": 139.648736,
     "varieties": [
       "シロヤマザクラ",
+      "oshimazakura",
       "someiyoshino",
-      "oshimazakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -13799,7 +14224,8 @@
     "lng": 139.64055,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "yokohamahizakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -13877,7 +14303,8 @@
     "lat": 35.423355,
     "lng": 139.60035,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": null,
     "varietyNote": "約350本",
@@ -13944,7 +14371,8 @@
     "lat": 35.349648,
     "lng": 139.597635,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1800本",
@@ -13992,11 +14420,12 @@
     "lat": 35.362801,
     "lng": 139.635187,
     "varieties": [
+      "oshimazakura",
       "シロヤマザクラ",
-      "someiyoshino",
       "shidarezakura",
       "yokohamahizakura",
-      "oshimazakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約150本",
@@ -14020,7 +14449,8 @@
     "lat": 35.376461,
     "lng": 139.63182,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -14045,8 +14475,10 @@
     "lng": 139.645896,
     "varieties": [
       "シロヤマザクラ",
+      "oshimazakura",
       "someiyoshino",
-      "oshimazakura"
+      "yamazakura",
+      "okame"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -14068,8 +14500,10 @@
     "lat": 35.494418,
     "lng": 139.614627,
     "varieties": [
+      "yokohamahizakura",
       "someiyoshino",
-      "yokohamahizakura"
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -14116,12 +14550,14 @@
     "lat": 35.360301,
     "lng": 139.492413,
     "varieties": [
-      "kawaduzakura",
-      "gyoikou",
-      "ukon",
-      "kanhizakura",
       "okame",
-      "kanzan"
+      "ukon",
+      "kanzan",
+      "gyoikou",
+      "kanhizakura",
+      "kawaduzakura",
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約53本",
@@ -14194,7 +14630,10 @@
     "lat": 35.502496,
     "lng": 139.535632,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約400本",
@@ -14455,7 +14894,8 @@
     "lat": 35.604007,
     "lng": 139.215186,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約2500本",
@@ -14480,26 +14920,27 @@
     "lat": 35.612555,
     "lng": 139.191052,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "sendaiya",
-      "yoko",
-      "kanhizakura",
-      "kokeshimizu",
-      "kanzakura",
-      "someiyoshino",
-      "keio-zakura",
+      "higan-zakura",
       "shidarezakura",
+      "someiyoshino",
+      "taihaku",
+      "シロヤマザクラ",
       "tairyo-zakura",
+      "yoko",
+      "keio-zakura",
+      "komatsu-otome",
       "fuyu-zakura",
+      "jindai-akebono",
       "shirayuki",
       "シロヒガン",
-      "surugadai-nioi",
-      "komatsu-otome",
+      "kanzakura",
+      "kokeshimizu",
       "okame",
-      "jindai-akebono",
-      "taihaku",
-      "higan-zakura"
+      "sendaiya",
+      "surugadai-nioi",
+      "kanhizakura",
+      "kawaduzakura",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -14521,7 +14962,10 @@
     "lat": 35.249194,
     "lng": 139.658638,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -14632,11 +15076,14 @@
     "lng": 139.739702,
     "varieties": [
       "シロヤマザクラ",
-      "kawaduzakura",
       "yoko",
       "jindai-akebono",
+      "kanhizakura",
       "ashigarazakura",
-      "kanhizakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約120本",
@@ -14710,9 +15157,11 @@
     "lat": 35.325803,
     "lng": 139.556294,
     "varieties": [
+      "tamanawa-zakura",
       "kanhizakura",
       "zuisenji-fuyuzakura",
-      "tamanawa-zakura"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約180本",
@@ -14770,14 +15219,16 @@
     "lat": 35.312464,
     "lng": 139.533063,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "zuisenji-fuyuzakura",
-      "beni-shidare",
-      "gyoikou",
       "tamanawa-zakura",
+      "beni-shidare",
+      "シロヤマザクラ",
+      "zuisenji-fuyuzakura",
+      "gyoikou",
       "kanhizakura",
-      "someiyoshino"
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -14802,13 +15253,14 @@
     "lat": 35.34797,
     "lng": 139.520653,
     "varieties": [
-      "kawaduzakura",
-      "zuisenji-fuyuzakura",
-      "kanzakura",
       "tamanawa-zakura",
-      "kanhizakura",
+      "oshimazakura",
+      "kanzakura",
+      "zuisenji-fuyuzakura",
       "fuyu-zakura",
-      "oshimazakura"
+      "kanhizakura",
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -14832,11 +15284,14 @@
     "lat": 35.303815,
     "lng": 139.55437,
     "varieties": [
-      "kawaduzakura",
+      "tamanawa-zakura",
       "シロヤマザクラ",
-      "kanhizakura",
       "zuisenji-fuyuzakura",
-      "tamanawa-zakura"
+      "kanhizakura",
+      "kawaduzakura",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約27本",
@@ -14860,9 +15315,11 @@
     "varieties": [
       "tamanawa-zakura",
       "シロヤマザクラ",
-      "zuisenji-fuyuzakura",
       "yoko",
-      "someiyoshino"
+      "zuisenji-fuyuzakura",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -14884,10 +15341,13 @@
     "lat": 35.330828,
     "lng": 139.553842,
     "varieties": [
-      "シロヤマザクラ",
       "okame",
+      "シロヤマザクラ",
+      "tamanawa-zakura",
       "zuisenji-fuyuzakura",
-      "tamanawa-zakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -14965,10 +15425,11 @@
     "lat": 35.317311,
     "lng": 139.556596,
     "varieties": [
-      "tamanawa-zakura",
-      "zuisenji-fuyuzakura",
       "shidarezakura",
-      "ukon"
+      "tamanawa-zakura",
+      "ukon",
+      "zuisenji-fuyuzakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -14992,9 +15453,10 @@
     "lat": 35.332775,
     "lng": 139.466532,
     "varieties": [
-      "kanhizakura",
       "oshimazakura",
-      "yaebenishidare-sanokei"
+      "kanhizakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約80本",
@@ -15018,7 +15480,8 @@
     "lat": 35.361108,
     "lng": 139.45447,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -15224,7 +15687,8 @@
     "lat": 35.184164,
     "lng": 139.643094,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -15274,9 +15738,11 @@
     "lat": 35.372064,
     "lng": 139.242761,
     "varieties": [
-      "someiyoshino",
+      "シロヒガン",
       "omoigawa",
-      "シロヒガン"
+      "someiyoshino",
+      "higan-zakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1400本",
@@ -15460,27 +15926,29 @@
     "lng": 139.42382,
     "varieties": [
       "higan-zakura",
-      "kawaduzakura",
-      "kanzakura",
-      "shirayuki",
+      "oshimazakura",
+      "shidarezakura",
+      "narano-yaezakura",
+      "someiyoshino",
       "taihaku",
       "シロヤマザクラ",
-      "kanhizakura",
-      "someiyoshino",
-      "シロヒガン",
-      "surugadai-nioi",
-      "sendaiya",
+      "tairyo-zakura",
       "komatsu-otome",
       "yoko",
       "keio-zakura",
-      "okame",
-      "kokeshimizu",
       "fuyu-zakura",
       "jindai-akebono",
-      "tairyo-zakura",
-      "shidarezakura",
-      "narano-yaezakura",
-      "oshimazakura"
+      "shirayuki",
+      "シロヒガン",
+      "kanzakura",
+      "kokeshimizu",
+      "okame",
+      "surugadai-nioi",
+      "sendaiya",
+      "kanhizakura",
+      "kawaduzakura",
+      "yamazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 64,
     "varietyNote": "約218本",
@@ -15672,9 +16140,11 @@
     "lat": 35.312246,
     "lng": 139.291773,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
-      "ashigarazakura"
+      "シロヤマザクラ",
+      "ashigarazakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約52本",
@@ -15781,7 +16251,8 @@
     "lat": 35.351796,
     "lng": 139.136817,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約360本",
@@ -15860,12 +16331,15 @@
     "lat": 35.248576,
     "lng": 139.045138,
     "varieties": [
-      "jugatsu-zakura",
       "シロヤマザクラ",
+      "jugatsu-zakura",
+      "someiyoshino",
       "kawaduzakura",
       "ハコネザクラ",
-      "someiyoshino",
-      "kohigan"
+      "kohigan",
+      "yamazakura",
+      "higan-zakura",
+      "yaenomamezakura"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -15935,11 +16409,13 @@
     "lat": 35.19624,
     "lng": 139.026085,
     "varieties": [
-      "シロヤマザクラ",
-      "ハコネザクラ",
-      "oshimazakura",
       "gotenba-zakura",
-      "someiyoshino"
+      "oshimazakura",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "ハコネザクラ",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -15962,7 +16438,8 @@
     "lng": 139.104367,
     "varieties": [
       "kawazu-zakura",
-      "someiyoshino"
+      "someiyoshino",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -16011,7 +16488,8 @@
     "lat": 35.213107,
     "lng": 139.009437,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -16070,12 +16548,13 @@
     "lat": 37.879969,
     "lng": 139.043473,
     "varieties": [
+      "oshimazakura",
+      "kanzan",
+      "shidarezakura",
       "kanhizakura",
       "someiyoshino",
-      "shidarezakura",
-      "oshimazakura",
       "シロヒガン",
-      "kanzan"
+      "edohigan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -16195,7 +16674,9 @@
     "lat": 37.79078,
     "lng": 138.866463,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura",
+      "beniyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約450本",
@@ -16219,10 +16700,11 @@
     "lat": 37.430965,
     "lng": 138.881563,
     "varieties": [
-      "ヤエヤマコシ",
       "gyoikou",
+      "shidarezakura",
+      "ヤエヤマコシ",
       "ukon",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約2500本",
@@ -16354,8 +16836,9 @@
     "lat": 36.643198,
     "lng": 138.311699,
     "varieties": [
+      "シロヒガン",
       "someiyoshino",
-      "シロヒガン"
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約160本",
@@ -16407,7 +16890,8 @@
     "lat": 36.31844,
     "lng": 137.942516,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": null,
     "varietyNote": "約1500本",
@@ -16482,7 +16966,9 @@
     "lat": 38.018848,
     "lng": 139.395931,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -16504,8 +16990,9 @@
     "lat": 37.614346,
     "lng": 138.841053,
     "varieties": [
+      "kawaduzakura",
       "kawadzushogatu",
-      "kawaduzakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約6000本",
@@ -16733,7 +17220,8 @@
     "lat": 37.21944,
     "lng": 138.958281,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "ooyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約230本",
@@ -16757,7 +17245,8 @@
     "lat": 37.963732,
     "lng": 139.262891,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -16782,7 +17271,8 @@
     "lng": 138.829028,
     "varieties": [
       "hinagikuzakura",
-      "gyoikou"
+      "gyoikou",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -16809,7 +17299,8 @@
     "lng": 138.821822,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "beniyamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約280本",
@@ -16837,10 +17328,11 @@
     "varieties": [
       "shofukuji-shidare",
       "edohigan-zakura",
-      "kohigan",
       "shidarezakura",
+      "taihaku",
       "kawaduzakura",
-      "taihaku"
+      "kohigan",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約156本",
@@ -16864,7 +17356,8 @@
     "lat": 35.686607,
     "lng": 138.577739,
     "varieties": [
-      "shofukuji-shidare"
+      "shofukuji-shidare",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -16982,7 +17475,8 @@
     "lng": 138.438332,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30本",
@@ -17007,9 +17501,10 @@
     "lat": 35.822347,
     "lng": 138.353331,
     "varieties": [
+      "shidarezakura",
       "edohigan-yamataka-jindai-zakura",
       "someiyoshino",
-      "shidarezakura"
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -17204,7 +17699,8 @@
     "lng": 138.424982,
     "varieties": [
       "edohigan-yamataka-jindai-zakura",
-      "minobu-zakura"
+      "minobu-zakura",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2本",
@@ -17228,7 +17724,8 @@
     "lat": 35.303539,
     "lng": 138.434819,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -17408,7 +17905,8 @@
     "lat": 36.246995,
     "lng": 137.955019,
     "varieties": [
-      "sasaga-oshidori"
+      "sasaga-oshidori",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -17433,10 +17931,13 @@
     "lat": 36.40386,
     "lng": 138.244479,
     "varieties": [
-      "higan-zakura",
-      "シロヤマザクラ",
       "ukon",
-      "yamazakura"
+      "シロヤマザクラ",
+      "higan-zakura",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -17491,7 +17992,8 @@
       "satohara",
       "ominosato-buraizakura",
       "someiyoshino",
-      "ashigarazakura"
+      "ashigarazakura",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -17546,8 +18048,9 @@
     "lng": 138.419298,
     "varieties": [
       "higan-zakura",
+      "someiyoshino",
       "yaebenishidare-sanokei",
-      "someiyoshino"
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -17671,8 +18174,9 @@
     "lat": 36.196429,
     "lng": 138.502029,
     "varieties": [
+      "beniyamazakura",
       "yamazakura",
-      "beniyamazakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -17839,7 +18343,10 @@
     "varieties": [
       "kawaduzakura",
       "シロヤマザクラ",
-      "higan-zakura"
+      "higan-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約800本",
@@ -17992,7 +18499,8 @@
     "lat": 35.371319,
     "lng": 137.699312,
     "varieties": [
-      "kenrokuen-kikuzakura"
+      "kenrokuen-kikuzakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18017,9 +18525,10 @@
     "lat": 35.559922,
     "lng": 138.035047,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "yamazakura",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -18071,11 +18580,13 @@
     "lng": 137.90987,
     "varieties": [
       "higan-zakura",
-      "シロヤマザクラ",
+      "botan",
       "ukon",
+      "シロヤマザクラ",
       "fuyu-zakura",
       "yamazakura",
-      "botan"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -18097,7 +18608,8 @@
     "lat": 36.640063,
     "lng": 137.83959,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18147,9 +18659,10 @@
     "lat": 36.776205,
     "lng": 138.395339,
     "varieties": [
-      "edohigan-ichifusa-beni",
       "edohigan-zakura",
-      "edohigan"
+      "edohigan",
+      "edohigan-ichifusa-beni",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約5本",
@@ -18199,12 +18712,13 @@
     "lat": 36.57388,
     "lng": 137.133076,
     "varieties": [
-      "kureha-otome-shidare",
-      "gyoikou",
-      "シロヤマザクラ",
-      "someiyoshino",
       "oshimazakura",
-      "ukon"
+      "ukon",
+      "シロヤマザクラ",
+      "gyoikou",
+      "someiyoshino",
+      "kureha-otome-shidare",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -18250,7 +18764,8 @@
     "lat": 36.611735,
     "lng": 137.304493,
     "varieties": [
-      "kureha-otome-shidare"
+      "kureha-otome-shidare",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18337,10 +18852,11 @@
     "lng": 137.020832,
     "varieties": [
       "koshino-kamozakura",
-      "futakami-zakura",
+      "oshimazakura",
       "takaoka-koshino-higan",
+      "futakami-zakura",
       "someiyoshino",
-      "oshimazakura"
+      "koshinohigan-kimurakabu"
     ],
     "varietyCount": null,
     "varietyNote": "約1800本",
@@ -18467,15 +18983,16 @@
     "lat": 36.561945,
     "lng": 136.662489,
     "varieties": [
+      "najimazakura",
+      "ukon",
+      "kenrokuen-kumagai",
+      "youkihi",
+      "nodano-osakura",
+      "shiogama",
       "fukuzaura",
       "fugenzou",
-      "kenrokuen-kumagai",
-      "nodano-osakura",
-      "najimazakura",
       "kenrokuen-kikuzakura",
-      "ukon",
-      "youkihi",
-      "shiogama"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約400本",
@@ -18500,7 +19017,8 @@
     "lat": 36.573137,
     "lng": 136.995504,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18577,7 +19095,8 @@
       "koshi-no-higan",
       "koshinohigan-kimurakabu",
       "koshinohigan_koshimuragenboku",
-      "edohigan-mukaino"
+      "edohigan-mukaino",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18752,7 +19271,8 @@
     "lat": 37.046282,
     "lng": 136.959446,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18777,7 +19297,8 @@
     "lat": 37.030353,
     "lng": 136.990294,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -18853,7 +19374,8 @@
     "lat": 36.286169,
     "lng": 136.351812,
     "varieties": [
-      "ハシタテキクザクラ"
+      "ハシタテキクザクラ",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -18875,7 +19397,8 @@
     "lat": 36.713816,
     "lng": 136.724872,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19107,7 +19630,8 @@
     "lng": 136.749243,
     "varieties": [
       "シロヒガン",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19178,8 +19702,9 @@
     "lat": 35.918969,
     "lng": 136.238535,
     "varieties": [
+      "someiyoshino",
       "hanagatami-zakura",
-      "someiyoshino"
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -19203,7 +19728,8 @@
     "lat": 35.890007,
     "lng": 136.232804,
     "varieties": [
-      "hanagatami-zakura"
+      "hanagatami-zakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19228,7 +19754,10 @@
     "lat": 35.885356,
     "lng": 136.237636,
     "varieties": [
-      "hanagatami-zakura"
+      "hanagatami-zakura",
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19592,7 +20121,8 @@
     "lat": 35.301884,
     "lng": 138.58877,
     "varieties": [
-      "ゲバザクラ"
+      "ゲバザクラ",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19615,7 +20145,8 @@
     "lng": 136.608799,
     "varieties": [
       "edohigan-zakura",
-      "edohigan-yamataka-jindai-zakura"
+      "edohigan-yamataka-jindai-zakura",
+      "higan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19809,7 +20340,8 @@
     "lat": 35.306546,
     "lng": 137.503639,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -19910,8 +20442,11 @@
     "lat": 35.28324,
     "lng": 136.549476,
     "varieties": [
+      "edohigan-zakura",
       "シロヤマザクラ",
-      "edohigan-zakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約3000本",
@@ -19957,7 +20492,8 @@
     "lat": 35.374554,
     "lng": 136.4484,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30本",
@@ -19981,7 +20517,8 @@
     "lat": 35.577846,
     "lng": 136.463979,
     "varieties": [
-      "nidozakura"
+      "nidozakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20052,9 +20589,11 @@
     "lat": 35.431418,
     "lng": 136.552068,
     "varieties": [
-      "シロヤマザクラ",
       "edohigan-zakura",
-      "shidarezakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -20081,7 +20620,8 @@
     "lat": 35.420993,
     "lng": 137.127961,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20103,7 +20643,8 @@
     "lat": 35.410454,
     "lng": 137.196305,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20149,7 +20690,10 @@
     "lat": 34.97883,
     "lng": 138.38297,
     "varieties": [
-      "jindai-akebono"
+      "jindai-akebono",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約879本",
@@ -20275,9 +20819,11 @@
     "lng": 137.633398,
     "varieties": [
       "シロヤマザクラ",
+      "fugenzou",
       "someiyoshino",
       "kanzan",
-      "fugenzou"
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -20302,12 +20848,14 @@
     "lat": 34.715287,
     "lng": 137.688294,
     "varieties": [
-      "kanhizakura",
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "someiyoshino",
       "oshimazakura",
-      "shidarezakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "kanhizakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約90本",
@@ -20434,8 +20982,10 @@
     "lat": 35.140397,
     "lng": 139.091393,
     "varieties": [
+      "tairyo-zakura",
       "atamizakura",
-      "tairyo-zakura"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約40本",
@@ -20486,8 +21036,9 @@
     "lat": 35.086401,
     "lng": 139.078715,
     "varieties": [
+      "tairyo-zakura",
       "atamizakura",
-      "tairyo-zakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20652,7 +21203,8 @@
     "lng": 139.095637,
     "varieties": [
       "ito-zakura",
-      "jogasaki-zakura"
+      "jogasaki-zakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20703,7 +21255,8 @@
     "lng": 138.077096,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20729,7 +21282,9 @@
     "lat": 34.940753,
     "lng": 138.072311,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "shidarezakura",
+      "kanhizakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約110本",
@@ -20755,7 +21310,8 @@
     "lat": 34.953769,
     "lng": 138.050129,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -20829,7 +21385,8 @@
     "varieties": [
       "kakegawa-zakura",
       "シロヤマザクラ",
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -20853,11 +21410,13 @@
     "lat": 34.765407,
     "lng": 138.042594,
     "varieties": [
-      "kakegawa-zakura",
       "シロヤマザクラ",
-      "kawaduzakura",
+      "shidarezakura",
+      "kakegawa-zakura",
       "someiyoshino",
-      "shidarezakura"
+      "kawaduzakura",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1500本",
@@ -21048,7 +21607,8 @@
     "lat": 34.631151,
     "lng": 138.118411,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約230本",
@@ -21073,7 +21633,8 @@
     "lat": 34.678474,
     "lng": 138.142671,
     "varieties": [
-      "kanhizakura"
+      "kanhizakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約270本",
@@ -21097,7 +21658,8 @@
     "lat": 34.641341,
     "lng": 138.143807,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約100本",
@@ -21199,7 +21761,8 @@
     "lat": 34.649934,
     "lng": 138.865468,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約800本",
@@ -21250,7 +21813,8 @@
     "lat": 34.841809,
     "lng": 138.762947,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約250本",
@@ -21274,7 +21838,8 @@
     "lat": 35.085388,
     "lng": 138.966602,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -21301,7 +21866,8 @@
     "lat": 35.172403,
     "lng": 138.870071,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -21323,7 +21889,8 @@
     "lat": 34.845081,
     "lng": 137.9,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -21372,7 +21939,8 @@
     "lat": 34.911593,
     "lng": 137.936922,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -21395,15 +21963,18 @@
     "lng": 136.974014,
     "varieties": [
       "higan-zakura",
+      "oshimazakura",
       "シロヤマザクラ",
-      "kawaduzakura",
-      "kanhizakura",
-      "fuyu-zakura",
-      "someiyoshino",
-      "gyoikou",
       "kanzan",
+      "gyoikou",
+      "fuyu-zakura",
+      "kanhizakura",
+      "someiyoshino",
       "kenrokuen-kikuzakura",
-      "oshimazakura"
+      "kawaduzakura",
+      "yamazakura",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約1000本",
@@ -21427,9 +21998,11 @@
     "lat": 35.169691,
     "lng": 136.978904,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "someiyoshino",
-      "shidarezakura"
+      "yamazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1200本",
@@ -21509,7 +22082,8 @@
     "lng": 136.899014,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "gyoikou"
     ],
     "varietyCount": null,
     "varietyNote": "約900本",
@@ -21534,12 +22108,13 @@
     "lat": 35.155507,
     "lng": 136.919762,
     "varieties": [
-      "kanhizakura",
-      "gyoikou",
-      "someiyoshino",
-      "shidarezakura",
       "oshimazakura",
-      "edohigan-zakura"
+      "gyoikou",
+      "shidarezakura",
+      "edohigan-zakura",
+      "kanhizakura",
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": 2,
     "varietyNote": "約750本",
@@ -21636,12 +22211,13 @@
     "lat": 35.251615,
     "lng": 137.048366,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "gyoikou",
       "ujo-shidare",
       "ukon",
-      "someiyoshino"
+      "シロヤマザクラ",
+      "gyoikou",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura"
     ],
     "varietyCount": 5,
     "varietyNote": null,
@@ -21786,10 +22362,12 @@
     "lat": 35.356642,
     "lng": 136.806712,
     "varieties": [
-      "シロヤマザクラ",
       "edohigan-zakura",
+      "シロヤマザクラ",
       "shidarezakura",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "higan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約600本",
@@ -21850,12 +22428,14 @@
     "lng": 136.822918,
     "varieties": [
       "higan-zakura",
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "someiyoshino",
-      "shidarezakura",
       "oshimazakura",
-      "edohigan-zakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "edohigan-zakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "kohigan"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -22058,7 +22638,8 @@
     "lng": 136.983026,
     "varieties": [
       "kawaduzakura",
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": "約250本",
@@ -22188,9 +22769,10 @@
     "lat": 35.205366,
     "lng": 137.195951,
     "varieties": [
-      "shikizakura",
+      "higan-zakura",
       "shidarezakura",
-      "higan-zakura"
+      "shikizakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -22215,10 +22797,12 @@
     "lat": 35.098522,
     "lng": 137.216921,
     "varieties": [
-      "higan-zakura",
-      "kanzakura",
       "gyoikou",
-      "shikizakura"
+      "kanzakura",
+      "higan-zakura",
+      "shikizakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約1500本",
@@ -22291,9 +22875,12 @@
     "lat": 34.792364,
     "lng": 137.15872,
     "varieties": [
+      "gyoikou",
       "シロヤマザクラ",
       "kanhizakura",
-      "gyoikou"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約1000本",
@@ -22344,7 +22931,8 @@
     "lat": 35.388367,
     "lng": 136.939265,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shikizakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30本",
@@ -22440,7 +23028,8 @@
     "lat": 35.388022,
     "lng": 136.942216,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -22516,15 +23105,17 @@
     "lat": 35.205074,
     "lng": 136.740011,
     "varieties": [
-      "fugenzou",
-      "beni-nanden",
-      "kawaduzakura",
-      "kanzakura",
-      "gyoikou",
       "ichiyou",
-      "jugatsu-zakura",
+      "kanzakura",
       "kanzan",
-      "kenrokuen-kikuzakura"
+      "gyoikou",
+      "jugatsu-zakura",
+      "beni-nanden",
+      "kenrokuen-kikuzakura",
+      "kawaduzakura",
+      "fugenzou",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 7,
     "varietyNote": "約1400本",
@@ -22597,8 +23188,9 @@
     "lng": 136.905053,
     "varieties": [
       "シロヤマザクラ",
+      "oshimazakura",
       "someiyoshino",
-      "oshimazakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約700本",
@@ -22624,7 +23216,8 @@
     "lat": 35.220362,
     "lng": 137.027302,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": null,
     "varietyNote": "約336本",
@@ -22650,7 +23243,8 @@
     "varieties": [
       "シロヤマザクラ",
       "someiyoshino",
-      "usuzumi"
+      "usuzumi",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -22676,7 +23270,8 @@
     "lat": 35.278547,
     "lng": 136.877107,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "jindai-akebono"
     ],
     "varietyCount": null,
     "varietyNote": "約1200本",
@@ -22702,10 +23297,11 @@
     "lat": 34.669961,
     "lng": 137.244154,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
+      "シロヤマザクラ",
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "kanhizakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -22757,12 +23353,13 @@
     "lng": 137.087828,
     "varieties": [
       "higan-zakura",
+      "oshimazakura",
       "シロヤマザクラ",
-      "kawaduzakura",
+      "shidarezakura",
       "fuyu-zakura",
       "someiyoshino",
-      "shidarezakura",
-      "oshimazakura"
+      "kawaduzakura",
+      "yamazakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約2000本",
@@ -22787,10 +23384,11 @@
     "lng": 137.090598,
     "varieties": [
       "higan-zakura",
-      "kawaduzakura",
-      "someiyoshino",
+      "ukon",
       "edohigan-zakura",
-      "ukon"
+      "someiyoshino",
+      "kawaduzakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -22949,7 +23547,8 @@
     "lat": 34.465432,
     "lng": 136.72466,
     "varieties": [
-      "yokowazakura"
+      "yokowazakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -22976,7 +23575,8 @@
     "lng": 136.686125,
     "varieties": [
       "yokowazakura",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -23028,10 +23628,11 @@
     "lat": 35.063715,
     "lng": 136.697877,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "kinryu-zakura",
-      "shidarezakura",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約450本",
@@ -23056,7 +23657,8 @@
     "lat": 34.482446,
     "lng": 136.843779,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -23115,7 +23717,8 @@
     "lat": 35.015367,
     "lng": 136.446933,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -23213,11 +23816,13 @@
     "lat": 34.960489,
     "lng": 135.905829,
     "varieties": [
-      "hiyoshizakura",
-      "シロヤマザクラ",
-      "kanhizakura",
       "higan-zakura",
-      "shidarezakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "kanhizakura",
+      "hiyoshizakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約600本",
@@ -23241,9 +23846,11 @@
     "lat": 35.013339,
     "lng": 135.852859,
     "varieties": [
-      "hiyoshizakura",
+      "shidarezakura",
       "シロヤマザクラ",
-      "shidarezakura"
+      "hiyoshizakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -23297,7 +23904,11 @@
     "lng": 135.841104,
     "varieties": [
       "シロヤマザクラ",
-      "hiyoshizakura"
+      "hiyoshizakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -23319,7 +23930,8 @@
     "lat": 34.938827,
     "lng": 135.912178,
     "varieties": [
-      "hiyoshizakura"
+      "hiyoshizakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約100本",
@@ -23461,10 +24073,12 @@
     "lng": 135.713796,
     "varieties": [
       "higan-zakura",
-      "gyoikou",
       "シロヤマザクラ",
+      "shidarezakura",
+      "gyoikou",
       "omuro-ariake",
-      "shidarezakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -23539,9 +24153,11 @@
     "lat": 34.86567,
     "lng": 135.491289,
     "varieties": [
-      "kanhizakura",
       "raikoji-kiku-zakura",
-      "kanzan"
+      "kanhizakura",
+      "kanzan",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -23565,101 +24181,102 @@
     "lat": 34.693037,
     "lng": 135.520018,
     "varieties": [
-      "kanzan",
-      "shogetsu",
-      "fugenzou",
-      "youkihi",
-      "ichiyou",
+      "taguiarashi",
+      "kamatari-zakura",
+      "matsumae",
+      "oshimazakura",
       "fukurokujyu",
-      "beni-demari",
-      "ojochin",
+      "banrikou",
+      "yaebeni-toranoo",
+      "ハヤシ2ゴウ",
+      "kikuzakura",
+      "ichiharatoranoo",
+      "matsumae-hanamiyako",
+      "matsumae-benimurasaki",
+      "edo",
+      "kirigaya",
+      "matsumae-yaekotobuki",
       "ukon",
-      "gyoikou",
+      "eigenji",
+      "ヤエムラサキザクラ",
+      "kotohira",
+      "キヌガサ",
+      "osawazakura",
+      "kenrokuen-kikuzakura",
+      "fugenzou",
+      "goshinzakura",
+      "youkihi",
+      "taizanfukun",
+      "gioji-gijo-zakura",
+      "kirin",
       "azumanishiki",
+      "yoro-zakura",
+      "ujo-shidare",
+      "hanagasa",
+      "ミヤコニシキ",
+      "someiyoshino",
+      "taihaku",
+      "taoyame",
+      "uzuzakura",
+      "kanzan",
+      "yamazakura",
+      "ヒラノニオイ",
+      "nidozakura",
+      "matsumae-usubeni-kokonoe",
+      "ichiyou",
+      "takato-kohigan",
+      "コウダイジ",
+      "ayanishiki",
+      "kanzashi-zakura",
       "amagiyoshino",
       "amanogawa",
-      "amayadori",
-      "kikuzakura",
-      "キヌガサ",
-      "kenrokuen-kikuzakura",
-      "beniyutaka",
-      "sumaura-fugenzo",
-      "chiharazakura",
-      "chosyuhizakura",
-      "ranran",
-      "asahiyama",
-      "ujo-shidare",
-      "omoigawa",
-      "someiyoshino",
-      "oshimazakura",
-      "yamazakura",
-      "yoro-zakura",
-      "matsumae-yaekotobuki",
-      "kotohira",
-      "コウダイジ",
-      "eigenji",
-      "hanagasa",
-      "osawazakura",
-      "matsumae-usubeni-kokonoe",
-      "kirigaya",
-      "uzuzakura",
-      "ayanishiki",
-      "ヤエムラサキザクラ",
-      "ariake",
-      "taihaku",
-      "sasabe-zakura",
-      "fuku-zakura",
-      "kofuku",
-      "maihime",
-      "komatsunagi",
-      "banrikou",
-      "matsumae",
-      "ichiharatoranoo",
-      "kirin",
-      "ミヤコニシキ",
-      "yaeakebono",
-      "ユウグレ",
-      "taguiarashi",
-      "matsumae-hanazomei",
-      "kibune-uzu",
-      "yaebeni-toranoo",
-      "izu-saifukuji-shidare",
-      "edo",
-      "ニソンインフケンゾウ",
       "iyo-usuzumi",
+      "shogetsu",
+      "kibune-uzu",
+      "beniyutaka",
+      "yaebenishidare-sanokei",
+      "sasaga-oshidori",
       "iyokumagai",
-      "kasugai",
-      "hirano-tsukubane",
-      "taizanfukun",
-      "kocho",
-      "matsumaekoitozakura",
-      "goten-nioi",
-      "taoyame",
-      "gozanomanioi",
-      "matsumae-benimurasaki",
-      "gyosyo",
-      "koka",
+      "ojochin",
+      "izu-saifukuji-shidare",
+      "kofuku",
       "kokonoe",
-      "hiranojinja-imose",
-      "kamatari-zakura",
-      "gioji-gijo-zakura",
-      "matsumae-hanamiyako",
-      "takato-kohigan",
+      "beni-demari",
+      "sanozakura",
+      "itokukuri",
+      "chosyuhizakura",
+      "sumaura-fugenzo",
+      "ranran",
+      "hirano-tsukubane",
+      "gyosyo",
       "kanzakura",
       "yamagoshi-murasaki",
-      "itokukuri",
-      "fudan-zakura",
-      "ハヤシ2ゴウ",
-      "ヒラノニオイ",
-      "yaebenishidare-sanokei",
-      "goshinzakura",
-      "kanzashi-zakura",
-      "sanozakura",
-      "nidozakura",
-      "omuro-ariake",
-      "ハヤシ1ゴウ",
       "yaebeni-ohshima",
-      "sasaga-oshidori"
+      "maihime",
+      "asahiyama",
+      "sasabe-zakura",
+      "fuku-zakura",
+      "fudan-zakura",
+      "chiharazakura",
+      "gyoikou",
+      "komatsunagi",
+      "matsumae-hanazomei",
+      "goten-nioi",
+      "yaeakebono",
+      "gozanomanioi",
+      "ハヤシ1ゴウ",
+      "ariake",
+      "kasugai",
+      "kocho",
+      "koka",
+      "hiranojinja-imose",
+      "ユウグレ",
+      "omoigawa",
+      "matsumaekoitozakura",
+      "ニソンインフケンゾウ",
+      "amayadori",
+      "omuro-ariake",
+      "shidarezakura"
     ],
     "varietyCount": 140,
     "varietyNote": null,
@@ -23710,10 +24327,12 @@
     "lat": 35.053702,
     "lng": 136.043835,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
+      "シロヤマザクラ",
+      "shidarezakura",
       "kanhizakura",
-      "shidarezakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -23760,7 +24379,8 @@
     "lng": 136.059368,
     "varieties": [
       "kanzakura",
-      "beni-shidare"
+      "beni-shidare",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約150本",
@@ -23904,7 +24524,10 @@
     "lat": 35.16123,
     "lng": 136.282954,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -23926,10 +24549,12 @@
     "lat": 35.183791,
     "lng": 136.28407,
     "varieties": [
-      "kanhizakura",
-      "シロヤマザクラ",
       "fudan-zakura",
-      "shidarezakura"
+      "シロヤマザクラ",
+      "shidarezakura",
+      "kanhizakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -23953,30 +24578,31 @@
     "lat": 35.032514,
     "lng": 135.732963,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
-      "higan-zakura",
-      "kanzakura",
-      "ツクバネ",
-      "キヌガサ",
-      "kocho",
-      "ヒラノネザメ",
-      "taoyame",
-      "arashiyama",
-      "torano-o",
-      "shogetsu",
-      "gyoikou",
-      "yaebenishidare-sanokei",
-      "yamazakura",
-      "oshimazakura",
-      "hiranojinja-imose",
-      "ヒラノニオイ",
-      "someiyoshino",
-      "シロヒガン",
-      "shidarezakura",
       "シラクモ",
+      "ツクバネ",
+      "higan-zakura",
+      "oshimazakura",
       "nadeshiko-zakura",
-      "hirano-tsukubane"
+      "gyoikou",
+      "shidarezakura",
+      "someiyoshino",
+      "taoyame",
+      "ヒラノネザメ",
+      "シロヤマザクラ",
+      "キヌガサ",
+      "torano-o",
+      "シロヒガン",
+      "yamazakura",
+      "hirano-tsukubane",
+      "ヒラノニオイ",
+      "kocho",
+      "kanzakura",
+      "hiranojinja-imose",
+      "arashiyama",
+      "shogetsu",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "edohigan-zakura"
     ],
     "varietyCount": 60,
     "varietyNote": "約400本",
@@ -24001,10 +24627,14 @@
     "lat": 35.060221,
     "lng": 135.752739,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
+      "higan-zakura",
       "kanhizakura",
-      "yaebenishidare-sanokei"
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "yoko"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -24051,10 +24681,14 @@
     "lat": 35.055487,
     "lng": 135.732613,
     "varieties": [
-      "シロヤマザクラ",
       "taihaku",
       "ukon",
-      "beni-shidare"
+      "シロヤマザクラ",
+      "beni-shidare",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "gyoikou"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24079,17 +24713,19 @@
     "lat": 35.043974,
     "lng": 135.71471,
     "varieties": [
-      "youkihi",
-      "fugenzou",
-      "kanzan",
+      "oshimazakura",
       "シロヤマザクラ",
       "yoko",
+      "kanzan",
       "gyoikou",
+      "youkihi",
       "shirotae",
       "kikuzakura",
       "shogetsu",
       "shidarezakura",
-      "oshimazakura"
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 9,
     "varietyNote": "約450本",
@@ -24135,9 +24771,10 @@
     "lat": 35.034603,
     "lng": 135.750015,
     "varieties": [
-      "someiyoshino",
       "shidarezakura",
-      "jugatsu-zakura"
+      "jugatsu-zakura",
+      "someiyoshino",
+      "beni-shidare"
     ],
     "varietyCount": null,
     "varietyNote": "約6本",
@@ -24267,7 +24904,9 @@
       "mikurumagaeshi",
       "ichiharatoranoo",
       "kasumizakura",
-      "yamazakura"
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約60本",
@@ -24291,7 +24930,8 @@
     "lat": 35.02789,
     "lng": 135.751215,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24344,7 +24984,14 @@
     "varieties": [
       "シロヤマザクラ",
       "higan-zakura",
-      "yaebenishidare-sanokei"
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "ukon"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -24415,34 +25062,35 @@
     "lat": 35.049072,
     "lng": 135.761816,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
       "higan-zakura",
-      "fuyu-zakura",
-      "kanhizakura",
-      "kanzakura",
-      "gyoikou",
-      "ukon",
-      "ohara-nagisa",
-      "yamazakura",
       "oshimazakura",
-      "ooyamazakura",
-      "ichiyou",
-      "fugenzou",
-      "kanzan",
-      "shogetsu",
-      "youkihi",
-      "shirotae",
-      "kuramanibana",
-      "kujootome",
-      "someiyoshino",
+      "gyoikou",
       "shidarezakura",
-      "yaebenishidare-sanokei",
-      "メグザクラ",
-      "ハクサン1ゴウ",
-      "シロヒガン",
+      "shirotae",
+      "someiyoshino",
       "taihaku",
-      "クラマカンザン"
+      "クラマカンザン",
+      "メグザクラ",
+      "ukon",
+      "シロヤマザクラ",
+      "kanzan",
+      "fuyu-zakura",
+      "ohara-nagisa",
+      "ooyamazakura",
+      "fugenzou",
+      "シロヒガン",
+      "kuramanibana",
+      "yamazakura",
+      "ichiyou",
+      "kanzakura",
+      "youkihi",
+      "kujootome",
+      "ハクサン1ゴウ",
+      "shogetsu",
+      "kanhizakura",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "edohigan-zakura"
     ],
     "varietyCount": 180,
     "varietyNote": "約500本",
@@ -24468,7 +25116,8 @@
     "lat": 35.065813,
     "lng": 135.808518,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -24490,8 +25139,9 @@
     "lat": 35.119688,
     "lng": 135.834424,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
-      "shidarezakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24513,7 +25163,9 @@
     "lat": 35.061722,
     "lng": 135.78311,
     "varieties": [
-      "jindai-akebono"
+      "jindai-akebono",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24608,8 +25260,12 @@
     "lat": 35.029879,
     "lng": 135.780759,
     "varieties": [
+      "okame",
       "シロヤマザクラ",
-      "okame"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "ハコネザクラ"
     ],
     "varietyCount": 1,
     "varietyNote": "約20本",
@@ -24659,7 +25315,10 @@
     "lat": 35.078984,
     "lng": 135.78162,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "yamazakura",
+      "shidarezakura",
+      "keio-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24731,7 +25390,8 @@
     "lat": 35.021616,
     "lng": 135.796636,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -24753,11 +25413,16 @@
     "lat": 35.117938,
     "lng": 135.770838,
     "varieties": [
-      "kibune-uzu",
       "シロヤマザクラ",
       "kuramakauzan",
+      "kurama-zakura",
+      "kibune-uzu",
       "kurama-uzu",
-      "kurama-zakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "ooyamazakura",
+      "ukon"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24831,8 +25496,11 @@
     "lat": 35.124103,
     "lng": 135.821058,
     "varieties": [
+      "ohara-nagisa",
       "シロヤマザクラ",
-      "ohara-nagisa"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -24856,7 +25524,8 @@
     "lat": 35.022884,
     "lng": 135.785608,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -24988,7 +25657,10 @@
     "lng": 135.781109,
     "varieties": [
       "シロヤマザクラ",
-      "コウダイジ"
+      "コウダイジ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25015,7 +25687,9 @@
     "lng": 135.783108,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25043,7 +25717,8 @@
     "lng": 135.784702,
     "varieties": [
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1500本",
@@ -25067,9 +25742,10 @@
     "lat": 35.005469,
     "lng": 135.773712,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "yamazakura",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約43本",
@@ -25195,10 +25871,13 @@
     "lat": 34.984612,
     "lng": 135.745033,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
+      "シロヤマザクラ",
       "ukon",
-      "beni-shidare"
+      "beni-shidare",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -25250,11 +25929,17 @@
     "lat": 35.015806,
     "lng": 135.673752,
     "varieties": [
-      "シロヤマザクラ",
       "higan-zakura",
-      "kanhizakura",
+      "シロヤマザクラ",
       "keio-zakura",
-      "シンデン"
+      "kanhizakura",
+      "シンデン",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "ooyamazakura",
+      "youkihi"
     ],
     "varietyCount": 4,
     "varietyNote": "約200本",
@@ -25305,9 +25990,12 @@
     "lat": 35.021783,
     "lng": 135.669548,
     "varieties": [
-      "ニソンインフケンゾウ",
       "higan-zakura",
-      "fugenzou"
+      "fugenzou",
+      "ニソンインフケンゾウ",
+      "someiyoshino",
+      "shidarezakura",
+      "fudan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約100本",
@@ -25333,7 +26021,10 @@
     "lng": 135.678047,
     "varieties": [
       "シロヤマザクラ",
-      "osawazakura"
+      "osawazakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25406,7 +26097,8 @@
     "lat": 35.004129,
     "lng": 135.694895,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約80本",
@@ -25454,9 +26146,13 @@
     "lat": 35.034281,
     "lng": 135.718214,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
-      "beni-shidare"
+      "higan-zakura",
+      "beni-shidare",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -25506,7 +26202,10 @@
     "lat": 35.016714,
     "lng": 135.669922,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25529,7 +26228,9 @@
     "lng": 135.689281,
     "varieties": [
       "kawaduzakura",
-      "kanhizakura"
+      "kanhizakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約40本",
@@ -25601,7 +26302,8 @@
     "lat": 35.018157,
     "lng": 135.680484,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -25626,8 +26328,9 @@
     "lat": 35.20402,
     "lng": 135.720409,
     "varieties": [
+      "クロダヒャクネン",
       "someiyoshino",
-      "クロダヒャクネン"
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -25653,7 +26356,9 @@
     "lng": 135.610555,
     "varieties": [
       "シロヤマザクラ",
-      "sendaiya"
+      "sendaiya",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -25681,10 +26386,12 @@
     "varieties": [
       "tsukihashi-kikuzakura",
       "シロヤマザクラ",
+      "shidarezakura",
+      "kawaduzakura",
       "ooyamazakura",
       "yamazakura",
-      "kawaduzakura",
-      "shidarezakura"
+      "someiyoshino",
+      "higan-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25735,7 +26442,8 @@
     "lng": 135.717191,
     "varieties": [
       "kawazu-zakura",
-      "someiyoshino"
+      "someiyoshino",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2本",
@@ -25760,7 +26468,10 @@
     "lng": 135.767395,
     "varieties": [
       "シロヤマザクラ",
-      "beni-shidare"
+      "beni-shidare",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25808,8 +26519,9 @@
     "lat": 34.947666,
     "lng": 135.767093,
     "varieties": [
+      "sumizome-nioi",
       "gyoikou",
-      "sumizome-nioi"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約7本",
@@ -25855,10 +26567,13 @@
     "lat": 35.001277,
     "lng": 135.818832,
     "varieties": [
-      "higan-zakura",
       "gyoikou",
       "シロヤマザクラ",
-      "ukon"
+      "higan-zakura",
+      "ukon",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -25884,7 +26599,8 @@
     "lat": 34.961653,
     "lng": 135.807266,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -25933,7 +26649,11 @@
     "lat": 34.968895,
     "lng": 135.79606,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -25955,7 +26675,9 @@
     "lat": 35.002231,
     "lng": 135.787441,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -25977,7 +26699,9 @@
     "lat": 34.959241,
     "lng": 135.816106,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -26001,7 +26725,9 @@
     "lat": 34.960362,
     "lng": 135.656251,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -26024,7 +26750,10 @@
     "lng": 135.655549,
     "varieties": [
       "シロヤマザクラ",
-      "shohoji-kikuzakura"
+      "shohoji-kikuzakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約20本",
@@ -26073,9 +26802,11 @@
     "lat": 34.938066,
     "lng": 135.644566,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
-      "botan"
+      "higan-zakura",
+      "botan",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約100本",
@@ -26100,7 +26831,8 @@
     "lng": 134.9212,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "yaebenishidare-sanokei"
     ],
     "varietyCount": 73,
     "varietyNote": "約132本",
@@ -26127,7 +26859,9 @@
     "lat": 35.296779,
     "lng": 135.129484,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約20本",
@@ -26151,13 +26885,16 @@
     "lat": 35.312804,
     "lng": 135.136076,
     "varieties": [
-      "kawaduzakura",
-      "jindai-akebono",
       "ujo-shidare",
-      "ukon",
       "amanogawa",
+      "ukon",
+      "usuzumi",
+      "jindai-akebono",
       "kenrokuen-kikuzakura",
-      "usuzumi"
+      "kawaduzakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 6,
     "varietyNote": "約1000本",
@@ -26208,7 +26945,8 @@
     "lat": 35.475692,
     "lng": 135.364469,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約450本",
@@ -26232,7 +26970,8 @@
     "lat": 34.88909,
     "lng": 135.809545,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2000本",
@@ -26256,11 +26995,15 @@
     "lat": 34.871176,
     "lng": 135.796176,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "fuyu-zakura",
       "syuzenjikanzakura",
-      "koshi-no-higan"
+      "シロヤマザクラ",
+      "koshi-no-higan",
+      "fuyu-zakura",
+      "kawaduzakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約190本",
@@ -26288,7 +27031,8 @@
     "lat": 34.869799,
     "lng": 135.805068,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -26310,9 +27054,10 @@
     "lat": 34.889296,
     "lng": 135.807689,
     "varieties": [
-      "シロヤマザクラ",
       "shidarezakura",
-      "someiyoshino"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約40本",
@@ -26359,9 +27104,14 @@
     "lat": 35.045475,
     "lng": 135.583362,
     "varieties": [
-      "シロヤマザクラ",
       "kanzakura",
-      "konohana-zakura"
+      "シロヤマザクラ",
+      "konohana-zakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約1500本",
@@ -26386,7 +27136,9 @@
     "lat": 35.020985,
     "lng": 135.613464,
     "varieties": [
-      "konohana-zakura"
+      "konohana-zakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -26408,7 +27160,8 @@
     "lat": 35.013363,
     "lng": 135.550099,
     "varieties": [
-      "konohana-zakura"
+      "konohana-zakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -26572,7 +27325,10 @@
     "lat": 34.87964,
     "lng": 135.700046,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -26621,7 +27377,8 @@
     "lat": 35.690596,
     "lng": 135.039935,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約300本",
@@ -26645,7 +27402,8 @@
     "lat": 35.265086,
     "lng": 135.460872,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -26669,7 +27427,10 @@
     "varieties": [
       "シロヤマザクラ",
       "higan-zakura",
-      "botan"
+      "botan",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -26717,7 +27478,8 @@
     "lat": 34.849837,
     "lng": 135.92074,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -26743,7 +27505,8 @@
     "lat": 34.759055,
     "lng": 135.93615,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -26768,11 +27531,16 @@
     "lng": 135.776018,
     "varieties": [
       "シロヤマザクラ",
-      "ハコネザクラ",
-      "ケヤマザクラ",
+      "yoko",
       "uwamizu-zakura",
       "fuyu-zakura",
-      "yoko"
+      "ハコネザクラ",
+      "ケヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "jindai-akebono"
     ],
     "varietyCount": 5,
     "varietyNote": "約300本",
@@ -26800,9 +27568,12 @@
     "lat": 35.265613,
     "lng": 135.398053,
     "varieties": [
+      "ukon",
       "kinki-mamezakura",
       "シロヤマザクラ",
-      "ukon"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約50本",
@@ -26895,7 +27666,8 @@
     "varieties": [
       "gyoikou",
       "kawaduzakura",
-      "yoko"
+      "yoko",
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": "約200本",
@@ -26972,7 +27744,8 @@
     "lat": 34.620088,
     "lng": 135.502783,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -27016,10 +27789,13 @@
     "lat": 34.610139,
     "lng": 135.515094,
     "varieties": [
-      "シロヤマザクラ",
       "kawaduzakura",
+      "シロヤマザクラ",
       "yoko",
-      "yaebenishidare-sanokei"
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約400本",
@@ -27044,13 +27820,17 @@
     "lat": 34.712001,
     "lng": 135.577757,
     "varieties": [
-      "シロヤマザクラ",
-      "kawaduzakura",
-      "yoko",
-      "kanhizakura",
       "okame",
+      "シロヤマザクラ",
+      "yoko",
       "fuyu-zakura",
-      "someiyoshino"
+      "kanhizakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "jugatsu-zakura"
     ],
     "varietyCount": 6,
     "varietyNote": "約1100本",
@@ -27074,7 +27854,9 @@
     "lat": 34.714466,
     "lng": 135.565796,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "shuzenji-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -27096,7 +27878,9 @@
     "lat": 34.611889,
     "lng": 135.474223,
     "varieties": [
-      "kanhizakura"
+      "kanhizakura",
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -27120,10 +27904,12 @@
     "lat": 34.612388,
     "lng": 135.488406,
     "varieties": [
+      "amanogawa",
       "kawaduzakura",
       "ukon",
-      "amanogawa",
-      "jindai-akebono"
+      "jindai-akebono",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約100本",
@@ -27198,7 +27984,9 @@
     "lat": 34.691784,
     "lng": 135.514476,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -27244,12 +28032,14 @@
     "lat": 34.559069,
     "lng": 135.482423,
     "varieties": [
-      "kawaduzakura",
-      "shidarezakura-daisenshiro",
-      "ヨサノアキコ",
-      "yaebenishidare-sanokei",
       "beni-shidare",
-      "shidare-higan"
+      "shidarezakura-daisenshiro",
+      "shidare-higan",
+      "ヨサノアキコ",
+      "kawaduzakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -27295,7 +28085,9 @@
     "varieties": [
       "kawaduzakura",
       "oshimazakura",
-      "yoko"
+      "yoko",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -27341,10 +28133,11 @@
     "lat": 34.829246,
     "lng": 135.426639,
     "varieties": [
-      "シロヤマザクラ",
       "itsukayama",
+      "シロヤマザクラ",
+      "oshimazakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -27367,14 +28160,15 @@
     "lng": 135.532585,
     "varieties": [
       "higan-zakura",
+      "oshimazakura",
       "シロヤマザクラ",
+      "jugatsu-zakura",
+      "shidarezakura",
       "jindai-akebono",
       "kanhizakura",
-      "jugatsu-zakura",
       "someiyoshino",
       "yamazakura",
-      "oshimazakura",
-      "shidarezakura"
+      "edohigan-zakura"
     ],
     "varietyCount": 5,
     "varietyNote": "約5500本",
@@ -27399,7 +28193,8 @@
     "lat": 34.875602,
     "lng": 135.588316,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約3000本",
@@ -27423,7 +28218,8 @@
     "lat": 34.806799,
     "lng": 135.639995,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -27475,8 +28271,9 @@
     "lng": 135.569534,
     "varieties": [
       "シロヤマザクラ",
+      "oshimazakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約1100本",
@@ -27623,7 +28420,9 @@
     "lat": 34.730748,
     "lng": 135.627834,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -27649,7 +28448,8 @@
     "lat": 34.486629,
     "lng": 135.444745,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約940本",
@@ -27695,7 +28495,8 @@
     "lat": 34.668823,
     "lng": 135.627594,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -27741,7 +28542,8 @@
     "lat": 34.671352,
     "lng": 135.656508,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -27763,7 +28565,10 @@
     "lat": 34.764122,
     "lng": 135.674512,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "kanhizakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -27785,7 +28590,8 @@
     "lat": 34.326057,
     "lng": 135.269805,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -27810,7 +28616,8 @@
     "lat": 34.372366,
     "lng": 135.373029,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -27836,10 +28643,11 @@
     "lat": 34.474586,
     "lng": 135.652458,
     "varieties": [
-      "シロヤマザクラ",
-      "yamazakura",
       "shidarezakura",
-      "kasumizakura"
+      "シロヤマザクラ",
+      "kasumizakura",
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -28010,7 +28818,11 @@
     "lat": 34.797808,
     "lng": 135.247696,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約200本",
@@ -28088,7 +28900,9 @@
     "lng": 135.189591,
     "varieties": [
       "シロヤマザクラ",
-      "kitanozakura"
+      "kitanozakura",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -28216,8 +29030,9 @@
     "lng": 134.957699,
     "varieties": [
       "シロヤマザクラ",
+      "oshimazakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -28239,11 +29054,15 @@
     "lat": 34.739381,
     "lng": 135.328173,
     "varieties": [
-      "シロヤマザクラ",
-      "ミヤノヒナザクラ",
       "ニシノミヤゴンゲンタイラザクラ",
+      "ミヤノヒナザクラ",
       "shukugawa-maizakura",
-      "コシミズハヤザキ"
+      "シロヤマザクラ",
+      "コシミズハヤザキ",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura",
+      "kanzan"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -28268,10 +29087,11 @@
     "lat": 34.793615,
     "lng": 135.400358,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "oshimazakura",
       "yamazakura",
-      "shidarezakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約600本",
@@ -28392,10 +29212,11 @@
     "lat": 34.778865,
     "lng": 134.863352,
     "varieties": [
-      "kanhizakura",
       "シロヤマザクラ",
+      "oshimazakura",
+      "kanhizakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": "約1000本",
@@ -28489,7 +29310,8 @@
     "lat": 34.810417,
     "lng": 134.774993,
     "varieties": [
-      "takasago"
+      "takasago",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約2000本",
@@ -28511,8 +29333,9 @@
     "lat": 34.778336,
     "lng": 134.766941,
     "varieties": [
+      "takasago",
       "someiyoshino",
-      "takasago"
+      "yaezakura-akita"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -28635,7 +29458,8 @@
     "lat": 34.885122,
     "lng": 135.198149,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -28825,9 +29649,10 @@
     "lat": 35.162918,
     "lng": 135.043419,
     "varieties": [
+      "shidarezakura",
       "シロヤマザクラ",
       "someiyoshino",
-      "shidarezakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約80本",
@@ -28897,8 +29722,10 @@
     "lng": 134.828961,
     "varieties": [
       "シロヤマザクラ",
+      "kasumizakura",
       "someiyoshino",
-      "kasumizakura"
+      "yamazakura",
+      "ケヤマザクラ"
     ],
     "varietyCount": 1,
     "varietyNote": "約30本",
@@ -29091,7 +29918,10 @@
     "lat": 34.717737,
     "lng": 134.870222,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約50本",
@@ -29116,12 +29946,19 @@
     "lat": 35.062159,
     "lng": 134.762162,
     "varieties": [
+      "america",
       "someiyoshino",
-      "omoigawa",
-      "komatsu-otome",
       "kawaduzakura",
       "shogetsu",
-      "america"
+      "komatsu-otome",
+      "omoigawa",
+      "yamazakura",
+      "gyoikou",
+      "higan-zakura",
+      "kanzakura",
+      "fuyu-zakura",
+      "ooyamazakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -29397,9 +30234,10 @@
     "lat": 34.528744,
     "lng": 135.852681,
     "varieties": [
-      "someiyoshino",
       "shidarezakura",
-      "yamazakura"
+      "someiyoshino",
+      "yamazakura",
+      "kohigan"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -29546,7 +30384,9 @@
     "lng": 135.669706,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -29643,8 +30483,9 @@
     "lat": 34.368326,
     "lng": 135.858793,
     "varieties": [
+      "シロヤマザクラ",
       "someiyoshino",
-      "シロヤマザクラ"
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30000本",
@@ -29867,8 +30708,9 @@
     "lat": 33.914159,
     "lng": 135.174515,
     "varieties": [
+      "edohigan-zakura",
       "someiyoshino",
-      "edohigan-zakura"
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約250本",
@@ -30224,101 +31066,102 @@
     "lat": 34.378355,
     "lng": 132.359546,
     "varieties": [
-      "kanzan",
-      "shogetsu",
-      "fugenzou",
-      "youkihi",
-      "ichiyou",
+      "taguiarashi",
+      "kamatari-zakura",
+      "matsumae",
+      "oshimazakura",
       "fukurokujyu",
-      "beni-demari",
-      "ojochin",
+      "banrikou",
+      "yaebeni-toranoo",
+      "ハヤシ2ゴウ",
+      "kikuzakura",
+      "ichiharatoranoo",
+      "matsumae-hanamiyako",
+      "matsumae-benimurasaki",
+      "edo",
+      "kirigaya",
+      "matsumae-yaekotobuki",
       "ukon",
-      "gyoikou",
+      "eigenji",
+      "ヤエムラサキザクラ",
+      "kotohira",
+      "キヌガサ",
+      "osawazakura",
+      "kenrokuen-kikuzakura",
+      "fugenzou",
+      "goshinzakura",
+      "youkihi",
+      "taizanfukun",
+      "gioji-gijo-zakura",
+      "kirin",
       "azumanishiki",
+      "yoro-zakura",
+      "ujo-shidare",
+      "hanagasa",
+      "ミヤコニシキ",
+      "someiyoshino",
+      "taihaku",
+      "taoyame",
+      "uzuzakura",
+      "kanzan",
+      "yamazakura",
+      "ヒラノニオイ",
+      "nidozakura",
+      "matsumae-usubeni-kokonoe",
+      "ichiyou",
+      "takato-kohigan",
+      "コウダイジ",
+      "ayanishiki",
+      "kanzashi-zakura",
       "amagiyoshino",
       "amanogawa",
-      "amayadori",
-      "kikuzakura",
-      "キヌガサ",
-      "kenrokuen-kikuzakura",
-      "beniyutaka",
-      "sumaura-fugenzo",
-      "chiharazakura",
-      "chosyuhizakura",
-      "ranran",
-      "asahiyama",
-      "ujo-shidare",
-      "omoigawa",
-      "someiyoshino",
-      "oshimazakura",
-      "yamazakura",
-      "yoro-zakura",
-      "matsumae-yaekotobuki",
-      "kotohira",
-      "コウダイジ",
-      "eigenji",
-      "hanagasa",
-      "osawazakura",
-      "matsumae-usubeni-kokonoe",
-      "kirigaya",
-      "uzuzakura",
-      "ayanishiki",
-      "ヤエムラサキザクラ",
-      "ariake",
-      "taihaku",
-      "sasabe-zakura",
-      "fuku-zakura",
-      "kofuku",
-      "maihime",
-      "komatsunagi",
-      "banrikou",
-      "matsumae",
-      "ichiharatoranoo",
-      "kirin",
-      "ミヤコニシキ",
-      "yaeakebono",
-      "ユウグレ",
-      "taguiarashi",
-      "matsumae-hanazomei",
-      "kibune-uzu",
-      "yaebeni-toranoo",
-      "izu-saifukuji-shidare",
-      "edo",
-      "ニソンインフケンゾウ",
       "iyo-usuzumi",
+      "shogetsu",
+      "kibune-uzu",
+      "beniyutaka",
+      "yaebenishidare-sanokei",
+      "sasaga-oshidori",
       "iyokumagai",
-      "kasugai",
-      "hirano-tsukubane",
-      "taizanfukun",
-      "kocho",
-      "matsumaekoitozakura",
-      "goten-nioi",
-      "taoyame",
-      "gozanomanioi",
-      "matsumae-benimurasaki",
-      "gyosyo",
-      "koka",
+      "ojochin",
+      "izu-saifukuji-shidare",
+      "kofuku",
       "kokonoe",
-      "hiranojinja-imose",
-      "kamatari-zakura",
-      "gioji-gijo-zakura",
-      "matsumae-hanamiyako",
-      "takato-kohigan",
+      "beni-demari",
+      "sanozakura",
+      "itokukuri",
+      "chosyuhizakura",
+      "sumaura-fugenzo",
+      "ranran",
+      "hirano-tsukubane",
+      "gyosyo",
       "kanzakura",
       "yamagoshi-murasaki",
-      "itokukuri",
-      "fudan-zakura",
-      "ハヤシ2ゴウ",
-      "ヒラノニオイ",
-      "yaebenishidare-sanokei",
-      "goshinzakura",
-      "kanzashi-zakura",
-      "sanozakura",
-      "nidozakura",
-      "omuro-ariake",
-      "ハヤシ1ゴウ",
       "yaebeni-ohshima",
-      "sasaga-oshidori"
+      "maihime",
+      "asahiyama",
+      "sasabe-zakura",
+      "fuku-zakura",
+      "fudan-zakura",
+      "chiharazakura",
+      "gyoikou",
+      "komatsunagi",
+      "matsumae-hanazomei",
+      "goten-nioi",
+      "yaeakebono",
+      "gozanomanioi",
+      "ハヤシ1ゴウ",
+      "ariake",
+      "kasugai",
+      "kocho",
+      "koka",
+      "hiranojinja-imose",
+      "ユウグレ",
+      "omoigawa",
+      "matsumaekoitozakura",
+      "ニソンインフケンゾウ",
+      "amayadori",
+      "omuro-ariake",
+      "shidarezakura"
     ],
     "varietyCount": 140,
     "varietyNote": "約207本",
@@ -30370,12 +31213,16 @@
     "lat": 34.93737,
     "lng": 133.561984,
     "varieties": [
-      "gyoikou",
+      "ukon",
       "yoko",
-      "beniyutaka",
-      "fugenzou",
       "kanzan",
-      "ukon"
+      "gyoikou",
+      "fugenzou",
+      "beniyutaka",
+      "someiyoshino",
+      "oshimazakura",
+      "ooyamazakura",
+      "sakuyahime"
     ],
     "varietyCount": 6,
     "varietyNote": "約700本",
@@ -30531,7 +31378,8 @@
     "lng": 131.968708,
     "varieties": [
       "シロヤマザクラ",
-      "higan-zakura"
+      "higan-zakura",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -30671,7 +31519,8 @@
     "lat": 34.973388,
     "lng": 132.169766,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約500本",
@@ -30724,7 +31573,8 @@
     "lat": 35.292369,
     "lng": 132.87712,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "gyoikou"
     ],
     "varietyCount": null,
     "varietyNote": "約800本",
@@ -30823,9 +31673,10 @@
     "lat": 34.667333,
     "lng": 133.936169,
     "varieties": [
+      "yamazakura",
       "rokkoukikuzakura",
       "yaebenishidare-sanokei",
-      "yamazakura"
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約50本",
@@ -30873,7 +31724,9 @@
     "lat": 34.857169,
     "lng": 133.870951,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "kanhizakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -31062,7 +31915,8 @@
     "lat": 34.539949,
     "lng": 133.785982,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "higan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -31086,7 +31940,8 @@
     "lat": 35.243892,
     "lng": 134.10764,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -31162,11 +32017,14 @@
     "lat": 34.517583,
     "lng": 133.927964,
     "varieties": [
+      "oshimazakura",
       "higan-zakura",
       "シロヤマザクラ",
       "kanhizakura",
       "taihaku",
-      "oshimazakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約7000本",
@@ -31190,7 +32048,8 @@
     "lat": 34.501196,
     "lng": 133.50676,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約400本",
@@ -31336,7 +32195,8 @@
     "lat": 34.698541,
     "lng": 134.224428,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2500本",
@@ -31455,9 +32315,11 @@
     "lat": 34.818894,
     "lng": 134.174763,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
-      "yamazakura"
+      "higan-zakura",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約100本",
@@ -31481,7 +32343,8 @@
     "lat": 34.606455,
     "lng": 133.826057,
     "varieties": [
-      "ukon"
+      "ukon",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -31505,7 +32368,8 @@
     "lat": 34.972782,
     "lng": 133.823019,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約5000本",
@@ -31555,7 +32419,8 @@
     "lng": 132.433499,
     "varieties": [
       "シロヤマザクラ",
-      "ヒロシマエバヤマザクラ"
+      "ヒロシマエバヤマザクラ",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -31577,19 +32442,25 @@
     "lat": 34.434541,
     "lng": 132.565081,
     "varieties": [
-      "kawaduzakura",
+      "syuzenjikanzakura",
       "シロヤマザクラ",
+      "kanzakura",
+      "kanzan",
+      "beni-demari",
+      "kobuku-zakura",
       "fuyu-zakura",
       "kanhizakura",
-      "kanzakura",
-      "ハコネザクラ",
-      "kobuku-zakura",
-      "o-kanzakura",
-      "syuzenjikanzakura",
-      "kanzan",
       "shogetsu",
+      "kawaduzakura",
+      "ハコネザクラ",
       "fugenzou",
-      "beni-demari"
+      "o-kanzakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "jindai-akebono"
     ],
     "varietyCount": 60,
     "varietyNote": "約800本",
@@ -31663,16 +32534,33 @@
     "lat": 34.390364,
     "lng": 132.347015,
     "varieties": [
-      "kawaduzakura",
-      "シロヤマザクラ",
       "higan-zakura",
-      "fuyu-zakura",
-      "kanhizakura",
-      "kanzakura",
+      "oshimazakura",
+      "shidarezakura",
+      "kumagaizakura",
+      "シロヤマザクラ",
+      "yaebeni-higan",
+      "beni-demari",
       "kanzan",
-      "shogetsu",
+      "yaeakebono",
+      "fuyu-zakura",
+      "showa-zakura",
+      "itokukuri",
+      "kenrokuen-kikuzakura",
       "fugenzou",
-      "beni-demari"
+      "yamazakura",
+      "ichiyou",
+      "kanzakura",
+      "sendaiya",
+      "amanogawa",
+      "rokkoukikuzakura",
+      "jyonioi",
+      "shogetsu",
+      "kanhizakura",
+      "kawaduzakura",
+      "koshinohigan-kimurakabu",
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": 70,
     "varietyNote": "約250本",
@@ -31718,9 +32606,10 @@
     "lat": 34.337342,
     "lng": 132.930739,
     "varieties": [
-      "gyoikou",
       "omurazakura",
-      "yokohamahizakura"
+      "yokohamahizakura",
+      "gyoikou",
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": "約1300本",
@@ -31744,7 +32633,8 @@
     "lat": 34.37578,
     "lng": 133.081416,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2000本",
@@ -31768,7 +32658,10 @@
     "lat": 34.471227,
     "lng": 133.081053,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -31823,7 +32716,8 @@
     "lng": 133.361012,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -31847,10 +32741,11 @@
     "lat": 34.814225,
     "lng": 132.839998,
     "varieties": [
-      "kanzan",
       "edohigan-zakura",
       "shidarezakura",
-      "kasumizakura"
+      "kasumizakura",
+      "kanzan",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約600本",
@@ -31877,7 +32772,8 @@
     "lng": 132.912502,
     "varieties": [
       "shidarezakura",
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -31925,7 +32821,10 @@
     "lng": 132.320403,
     "varieties": [
       "シロヤマザクラ",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1900本",
@@ -32044,7 +32943,10 @@
     "lat": 33.972986,
     "lng": 130.959322,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -32067,7 +32969,9 @@
     "lng": 130.982235,
     "varieties": [
       "gyoikou",
-      "ukon"
+      "ukon",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -32115,7 +33019,11 @@
     "lat": 33.947367,
     "lng": 130.904152,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -32137,10 +33045,12 @@
     "lat": 33.94702,
     "lng": 131.289004,
     "varieties": [
+      "mamezakura",
       "gyoikou",
       "kawaduzakura",
-      "mamezakura",
-      "kanhizakura"
+      "kanhizakura",
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約3500本",
@@ -32190,7 +33100,8 @@
     "lat": 34.182729,
     "lng": 131.477036,
     "varieties": [
-      "ouchi-zakura"
+      "ouchi-zakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約200本",
@@ -32215,7 +33126,8 @@
     "lat": 34.189611,
     "lng": 131.472741,
     "varieties": [
-      "ouchi-zakura"
+      "ouchi-zakura",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": "約170本",
@@ -32240,7 +33152,8 @@
     "lat": 34.396279,
     "lng": 131.726229,
     "varieties": [
-      "ouchi-zakura"
+      "ouchi-zakura",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約104本",
@@ -32266,7 +33179,9 @@
     "lat": 34.297338,
     "lng": 131.680326,
     "varieties": [
-      "ouchi-zakura"
+      "ouchi-zakura",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約600本",
@@ -32363,7 +33278,9 @@
     "lat": 34.063258,
     "lng": 131.573976,
     "varieties": [
-      "kawaduzakura"
+      "kawaduzakura",
+      "someiyoshino",
+      "kanzakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約430本",
@@ -32385,7 +33302,8 @@
     "lat": 34.062803,
     "lng": 131.587336,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約160本",
@@ -32451,7 +33369,8 @@
     "lat": 33.973132,
     "lng": 131.852638,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約500本",
@@ -32502,7 +33421,8 @@
     "lat": 34.168021,
     "lng": 132.177256,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1500本",
@@ -32647,7 +33567,8 @@
     "lat": 34.231727,
     "lng": 131.29458,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約400本",
@@ -32672,7 +33593,8 @@
     "lat": 34.079304,
     "lng": 131.768785,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -32694,7 +33616,11 @@
     "lat": 33.956606,
     "lng": 131.167783,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -32716,7 +33642,8 @@
     "lat": 33.977985,
     "lng": 131.182782,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約300本",
@@ -32842,8 +33769,10 @@
     "lat": 34.179082,
     "lng": 134.619016,
     "varieties": [
+      "hachisuka-zakura",
       "シロヤマザクラ",
-      "hachisuka-zakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -32868,7 +33797,10 @@
     "lat": 33.894874,
     "lng": 134.644189,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "botan"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -32937,8 +33869,13 @@
     "lat": 34.022732,
     "lng": 134.423601,
     "varieties": [
+      "kamiyama-shidare-zakura",
       "シロヤマザクラ",
-      "kamiyama-shidare-zakura"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "hachisuka-zakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約3000本",
@@ -32989,7 +33926,8 @@
     "lat": 34.025841,
     "lng": 134.024932,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "usuzumi"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -33063,7 +34001,8 @@
     "varieties": [
       "シロヤマザクラ",
       "yoko",
-      "yamazakura"
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約1000本",
@@ -33085,7 +34024,8 @@
     "lat": 34.179984,
     "lng": 133.759982,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2000本",
@@ -33109,10 +34049,12 @@
     "lat": 34.329832,
     "lng": 134.044352,
     "varieties": [
+      "edohigan-zakura",
       "kinashichigozakura",
       "シロヤマザクラ",
       "takamatsu-chigo",
-      "edohigan-zakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約300本",
@@ -33136,8 +34078,10 @@
     "lat": 34.350321,
     "lng": 134.051555,
     "varieties": [
+      "kinashichigozakura",
       "takamatsu-chigo",
-      "kinashichigozakura"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -33162,13 +34106,14 @@
     "lat": 34.240597,
     "lng": 134.10789,
     "varieties": [
-      "kinashichigozakura",
+      "oshimazakura",
       "シロヤマザクラ",
+      "edohigan-zakura",
+      "kinashichigozakura",
+      "shidarezakura",
       "takamatsu-chigo",
       "someiyoshino",
-      "edohigan-zakura",
-      "oshimazakura",
-      "shidarezakura"
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約130本",
@@ -33192,11 +34137,12 @@
     "lat": 34.396936,
     "lng": 134.050724,
     "varieties": [
+      "oshimazakura",
+      "シロヤマザクラ",
       "kinashichigozakura",
       "takamatsu-chigo",
       "someiyoshino",
-      "シロヤマザクラ",
-      "oshimazakura"
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約2300本",
@@ -33342,12 +34288,13 @@
     "lat": 33.844356,
     "lng": 132.766433,
     "varieties": [
+      "jurokunichi-zakura",
+      "oshimazakura",
       "iyo-usuzumi",
       "tsubakikanzakura",
-      "jurokunichi-zakura",
       "someiyoshino",
-      "oshimazakura",
-      "shiogama"
+      "shiogama",
+      "kanzakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -33372,11 +34319,15 @@
     "lat": 33.848288,
     "lng": 132.786765,
     "varieties": [
+      "jurokunichi-zakura",
       "iyo-usuzumi",
       "シロヤマザクラ",
       "tsubakikanzakura",
-      "jurokunichi-zakura",
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "edohigan-zakura",
+      "kanzakura"
     ],
     "varietyCount": 2,
     "varietyNote": "約300本",
@@ -33400,7 +34351,8 @@
     "lat": 33.133314,
     "lng": 132.505212,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約80本",
@@ -33426,7 +34378,10 @@
     "lng": 133.279855,
     "varieties": [
       "シロヤマザクラ",
-      "myoshoji"
+      "myoshoji",
+      "someiyoshino",
+      "yamazakura",
+      "yoko"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -33572,7 +34527,8 @@
     "lat": 33.940567,
     "lng": 133.537526,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -33618,16 +34574,19 @@
     "lat": 34.25985,
     "lng": 133.148026,
     "varieties": [
-      "yoko",
-      "シロヤマザクラ",
       "yousyun",
-      "kanzan",
       "ukon",
+      "シロヤマザクラ",
+      "yoko",
+      "kanzan",
       "tsubakikanzakura",
-      "jindai-akebono",
       "jugatsu-zakura",
+      "jindai-akebono",
+      "someiyoshino",
       "kawaduzakura",
-      "someiyoshino"
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
     ],
     "varietyCount": 3,
     "varietyNote": "約3000本",
@@ -33653,7 +34612,8 @@
     "lat": 33.63049,
     "lng": 132.645363,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -33678,7 +34638,10 @@
     "lat": 33.561203,
     "lng": 133.531857,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約180本",
@@ -33703,8 +34666,9 @@
     "lat": 33.43442,
     "lng": 133.279652,
     "varieties": [
+      "tsubakikanzakura",
       "シロヒガン",
-      "tsubakikanzakura"
+      "kanzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -33846,7 +34810,8 @@
     "lat": 33.588118,
     "lng": 133.16966,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -33870,7 +34835,8 @@
     "lat": 33.530452,
     "lng": 133.054293,
     "varieties": [
-      "shidarezakura"
+      "shidarezakura",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -33916,11 +34882,12 @@
     "lat": 33.497542,
     "lng": 133.28936,
     "varieties": [
-      "wakakinosakura",
       "シロヤマザクラ",
-      "kawaduzakura",
+      "usuzumi",
+      "wakakinosakura",
       "someiyoshino",
-      "usuzumi"
+      "kawaduzakura",
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -33971,10 +34938,12 @@
     "lng": 131.003541,
     "varieties": [
       "シロヤマザクラ",
-      "kawaduzakura",
       "kanzakura",
       "gyoikou",
-      "someiyoshino"
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約700本",
@@ -34083,7 +35052,10 @@
     "lat": 33.516604,
     "lng": 130.375359,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約2000本",
@@ -34130,8 +35102,9 @@
     "lat": 33.313751,
     "lng": 130.636992,
     "varieties": [
+      "シロヤマザクラ",
       "someiyoshino",
-      "シロヤマザクラ"
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -34153,7 +35126,8 @@
     "lat": 33.307063,
     "lng": 130.610613,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -34181,8 +35155,9 @@
     "varieties": [
       "gyoikou",
       "シロヤマザクラ",
+      "yoko",
       "someiyoshino",
-      "yoko"
+      "yamazakura"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -34204,21 +35179,24 @@
     "lat": 33.163915,
     "lng": 131.554544,
     "varieties": [
-      "シロヤマザクラ",
-      "gyoikou",
-      "kanzan",
-      "fugenzou",
+      "amanogawa",
+      "ojochin",
       "ichiyou",
       "ukon",
+      "シロヤマザクラ",
+      "kanzan",
+      "gyoikou",
+      "jugatsu-zakura",
       "shogetsu",
-      "amanogawa",
-      "beniyutaka",
       "shirotae",
       "kenrokuen-kikuzakura",
-      "ojochin",
       "sumaura-fugenzo",
-      "jugatsu-zakura",
-      "asahiyama"
+      "asahiyama",
+      "fugenzou",
+      "beniyutaka",
+      "someiyoshino",
+      "yamazakura",
+      "beni-gasa"
     ],
     "varietyCount": 15,
     "varietyNote": null,
@@ -34272,12 +35250,13 @@
     "lat": 33.659007,
     "lng": 130.567795,
     "varieties": [
+      "gotenba-zakura",
       "シロヤマザクラ",
-      "someiyoshino",
       "shidarezakura",
       "maihime",
       "jindai-akebono",
-      "gotenba-zakura"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": null,
@@ -34304,13 +35283,22 @@
     "lng": 129.957635,
     "varieties": [
       "シロヤマザクラ",
-      "kawaduzakura",
       "kanhizakura",
+      "oshimazakura",
       "omurazakura",
-      "kushima-zakura",
       "someiyoshino",
+      "kawaduzakura",
+      "kushima-zakura",
       "shidarezakura",
-      "oshimazakura"
+      "kanzan",
+      "shogetsu",
+      "ukon",
+      "gyoikou",
+      "fugenzou",
+      "takato-kohigan",
+      "shinamizakura",
+      "yaebenishidare-sanokei",
+      "yamazakura"
     ],
     "varietyCount": 4,
     "varietyNote": null,
@@ -34606,7 +35594,8 @@
     "lat": 33.57269,
     "lng": 130.510231,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "kanhizakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -34704,7 +35693,8 @@
     "lat": 33.428995,
     "lng": 130.022204,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "gyoikou"
     ],
     "varietyCount": null,
     "varietyNote": "約5000本",
@@ -34726,7 +35716,8 @@
     "lat": 33.528849,
     "lng": 129.87042,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約400本",
@@ -34971,7 +35962,8 @@
     "lat": 32.579822,
     "lng": 129.739877,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約60本",
@@ -35212,15 +36204,16 @@
     "lat": 32.80612,
     "lng": 130.70586,
     "varieties": [
-      "シロヤマザクラ",
-      "gyoikou",
-      "ukon",
-      "yamazakura",
       "oshimazakura",
-      "kanzan",
-      "chiharazakura",
       "beni-shidare",
-      "yaebenishidare-sanokei"
+      "ukon",
+      "シロヤマザクラ",
+      "chiharazakura",
+      "kanzan",
+      "gyoikou",
+      "yaebenishidare-sanokei",
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約550本",
@@ -35365,7 +36358,9 @@
     "lat": 32.230323,
     "lng": 130.407013,
     "varieties": [
-      "シロヤマザクラ"
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -35391,7 +36386,8 @@
     "lat": 32.945668,
     "lng": 130.550075,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "oshimazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -35417,7 +36413,8 @@
     "lat": 32.985706,
     "lng": 130.818956,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約3000本",
@@ -35466,7 +36463,8 @@
     "lat": 32.658123,
     "lng": 130.679076,
     "varieties": [
-      "ujo-shidare"
+      "ujo-shidare",
+      "someiyoshino"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -35512,7 +36510,8 @@
     "lat": 32.835899,
     "lng": 131.05133,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -35680,7 +36679,8 @@
     "lat": 33.066814,
     "lng": 131.946072,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約5000本",
@@ -35779,7 +36779,9 @@
     "lat": 33.400296,
     "lng": 131.546843,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura",
+      "yoko"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -35801,9 +36803,10 @@
     "lat": 31.990368,
     "lng": 131.405531,
     "varieties": [
-      "higan-zakura",
       "シロヤマザクラ",
-      "yamazakura"
+      "higan-zakura",
+      "yamazakura",
+      "someiyoshino"
     ],
     "varietyCount": 2,
     "varietyNote": null,
@@ -35828,8 +36831,9 @@
     "lng": 131.460596,
     "varieties": [
       "kawaduzakura",
+      "oshimazakura",
       "yamazakura",
-      "oshimazakura"
+      "someiyoshino"
     ],
     "varietyCount": 1,
     "varietyNote": "約700本",
@@ -35851,7 +36855,8 @@
     "lat": 31.775566,
     "lng": 131.482479,
     "varieties": [
-      "kanhizakura"
+      "kanhizakura",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -35974,7 +36979,8 @@
     "lat": 32.583575,
     "lng": 131.652853,
     "varieties": [
-      "kawazu-zakura"
+      "kawazu-zakura",
+      "kawaduzakura"
     ],
     "varietyCount": null,
     "varietyNote": "約300本",
@@ -36000,7 +37006,8 @@
     "lat": 31.712849,
     "lng": 131.358833,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -36070,7 +37077,8 @@
     "lat": 32.48926,
     "lng": 131.706881,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "yamazakura"
     ],
     "varietyCount": null,
     "varietyNote": "約1000本",
@@ -36094,7 +37102,8 @@
     "lat": 32.725744,
     "lng": 131.345143,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "shidarezakura"
     ],
     "varietyCount": null,
     "varietyNote": "約30本",
@@ -36291,7 +37300,8 @@
     "lat": 32.049343,
     "lng": 130.614153,
     "varieties": [
-      "someiyoshino"
+      "someiyoshino",
+      "edohigan-zakura"
     ],
     "varietyCount": null,
     "varietyNote": "約700本",

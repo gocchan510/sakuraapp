@@ -1,0 +1,162 @@
+[
+  {
+    "spot_id": "walker-ar0313e25817",
+    "spot_name": "上野恩賜公園の桜",
+    "prefecture": "東京都",
+    "status": "improved",
+    "new_variety_ids": [
+      "sonosato-kizakura",
+      "hiranojinja-imose",
+      "baigoji-juzukakezakura",
+      "omoigawa",
+      "yaebenishidare-sanokei"
+    ],
+    "unmatched_names": [
+      { "name": "秋色桜", "context": "清水観音堂内のシダレザクラ（固有名木・品種名不明）" },
+      { "name": "輪王寺御車返し", "context": "上野桜守の会マップ記載の固有個体名" }
+    ],
+    "source_url": "https://ueno.sakuramori.jp/%E6%A1%9C%E3%83%9E%E3%83%83%E3%83%97/",
+    "note": "上野桜守の会の桜マップ（全55種）をWebFetch。既存登録: kawaduzakura・kanhizakura・higan-zakura・kanzakura・jugatsu-zakura・yamazakura・oshimazakura・shogetsu・gyoikou・kanzan・ichiyou・amanogawa・fugenzou・ukon・fukurokujyu・ueno-shirayuki-shidare・yoko・someiyoshino・komatsu-otome等。新規追加: sonosato-kizakura(園里黄桜)・hiranojinja-imose(妹背)・baigoji-juzukakezakura(梅護寺数珠掛桜)・omoigawa(思川)・yaebenishidare-sanokei(八重紅枝垂)。"
+  },
+  {
+    "spot_id": "walker-ar0202e25563",
+    "spot_name": "弘前公園(鷹揚公園)の桜",
+    "prefecture": "青森県",
+    "status": "improved",
+    "new_variety_ids": [
+      "first-lady",
+      "ooyamazakura",
+      "yaebenishidare-sanokei"
+    ],
+    "unmatched_names": [
+      { "name": "大枝垂れ（弘前枝垂れ）", "context": "弘前公園公式サイト掲載品種。シダレザクラの一品種" },
+      { "name": "白糸枝垂れ（シライトシダレ）", "context": "弘前公園公式サイト掲載品種" },
+      { "name": "船原吉野（フナバラヨシノ）", "context": "弘前公園公式品種一覧 ※alias_mapにはfunabara-yoshinoとして存在するが既存登録済みか要確認" },
+      { "name": "紅芳遊（ベニボウユ）", "context": "弘前公園公式品種一覧" },
+      { "name": "御車返し（ミクルマガエシ）", "context": "弘前公園公式品種一覧 ※mikurumagaeshiとして既存登録か要確認" },
+      { "name": "咲耶姫（サクヤヒメ）", "context": "弘前公園公式品種一覧 ※sakuyahimeとして既存登録済み" },
+      { "name": "衣縫（コロモツギ）", "context": "弘前公園公式品種一覧" },
+      { "name": "日暮（ヒグレ）", "context": "弘前公園公式品種一覧 ※alias_mapにhigurashiとして存在" },
+      { "name": "行仙（ギョイオ）", "context": "弘前公園公式品種一覧" },
+      { "name": "大東陳（ダイトウチン）", "context": "弘前公園公式品種一覧" },
+      { "name": "開六園菊桜（カイロクエンキクザクラ）", "context": "弘前公園公式品種一覧 ※kenrokuen-kikuzakuraとして既存登録済み" },
+      { "name": "千里香（センリカ）", "context": "弘前公園公式品種一覧 ※senrikoとして既存登録済み" },
+      { "name": "手まり（テマリ）", "context": "弘前公園公式品種一覧 ※temariとして既存登録済み" },
+      { "name": "松前あこや山錦（マツマエアコヤマニシキ）", "context": "弘前公園公式品種一覧" }
+    ],
+    "source_url": "https://www.hirosakipark.jp/sakura/hanami/kind/",
+    "note": "弘前公園公式サイトの品種一覧から全品種を確認。既存51品種と照合し、first-lady、ooyamazakura、yaebenishidare-sanokei（八重紅枝垂）が未登録と判断し追加。funabara-yoshino・mikurumagaeshi・sakuyahimeは既存登録済み。衣縫・行仙・大東陳・松前あこや山錦はalias_map未発見のためunmatched。"
+  },
+  {
+    "spot_id": "walker-ar0203e25585",
+    "spot_name": "北上展勝地の桜",
+    "prefecture": "岩手県",
+    "status": "improved",
+    "new_variety_ids": [
+      "ooyamazakura",
+      "kasumizakura",
+      "edohigan-zakura",
+      "uwamizu-zakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura"
+    ],
+    "unmatched_names": [],
+    "source_url": "https://kitakami-kanko.jp/sakura/",
+    "note": "北上展勝地は約150種という記載あり。公式サイト・観光サイトで確認できた品種: ソメイヨシノ(someiyoshino)、ヤマザクラ(yamazakura)、大山桜(ooyamazakura)、霞桜(kasumizakura)、エドヒガン(edohigan-zakura)、ウワミズザクラ(uwamizu-zakura)、ヤエベニシダレ(yaebenishidare-sanokei)。既存登録はshohoji-kikuzakuraのみのため7品種を新規追加。"
+  },
+  {
+    "spot_id": "walker-ar0206e25655",
+    "spot_name": "烏帽子山公園の桜",
+    "prefecture": "山形県",
+    "status": "improved",
+    "new_variety_ids": [
+      "someiyoshino",
+      "edohigan-zakura",
+      "shidarezakura"
+    ],
+    "unmatched_names": [
+      { "name": "西山エドヒガン", "context": "烏帽子山千本桜保存会散策マップに記載の固有個体名" },
+      { "name": "おとぎ桜（エドヒガンサクラ）", "context": "固有個体名・品種はエドヒガンサクラ" },
+      { "name": "康寿ざくら（エドヒガンサクラ）", "context": "固有個体名・品種はエドヒガンサクラ" },
+      { "name": "家昌桜（エドヒガンサクラ）", "context": "固有個体名・品種はエドヒガンサクラ" },
+      { "name": "見返り桜（シダレザクラ）", "context": "固有個体名・品種はシダレザクラ" },
+      { "name": "鳥居の桜（シダレザクラ）", "context": "固有個体名・品種はシダレザクラ" },
+      { "name": "烏帽子ざくら（シダレザクラ）", "context": "固有個体名・品種はシダレザクラ" },
+      { "name": "菊桜", "context": "Walker+情報では「菊桜」の記載あり。全国桜名木二代目園に金沢菊桜の接ぎ木がある。kikuzakuraは既存登録済み" }
+    ],
+    "source_url": "https://eboshiyama.com/map/",
+    "note": "烏帽子山千本桜保存会の散策マップから品種を確認。約25種の記載。エドヒガンの群生地として有名。既存登録はkikuzakura・ooyamazakura。ソメイヨシノ・エドヒガン・シダレザクラを追加。固有個体名は多いが品種としてはこの3種+ooyamazakura+kikuzakuraが主。"
+  },
+  {
+    "spot_id": "walker-ar0311e25764",
+    "spot_name": "美の山公園の桜",
+    "prefecture": "埼玉県",
+    "status": "improved",
+    "new_variety_ids": [
+      "ukon",
+      "shidarezakura",
+      "kanzan",
+      "fugenzou",
+      "taihaku",
+      "omoigawa",
+      "amanogawa"
+    ],
+    "unmatched_names": [
+      { "name": "サトザクラ類（70種以上の園芸品種）", "context": "花の森に約50種以上190本のサトザクラ園芸品種があるが、個別品種名は公開PDF参照" }
+    ],
+    "source_url": "https://www.pref.saitama.lg.jp/b0504/minoyamakouen-top/sakura/sakurajouhou.html",
+    "note": "埼玉県公式サイトで確認。花の森には50種以上の園芸品種あり。具体名が確認できた品種: 鬱金(ukon)、枝垂桜(shidarezakura)、関山(kanzan)、普賢象(fugenzou)、御衣黄(gyoikou:既存)、大白桃花(taihaku)、思川(omoigawa)、天の川(amanogawa)。既存登録はgyoikou・someiyoshino・yamazakura等。"
+  },
+  {
+    "spot_id": "walker-ar0310e25755",
+    "spot_name": "妙義山県立森林公園さくらの里の桜",
+    "prefecture": "群馬県",
+    "status": "improved",
+    "new_variety_ids": [
+      "sanozakura",
+      "taihaku"
+    ],
+    "unmatched_names": [
+      { "name": "ヨウキヒ（楊貴妃）", "context": "妙義山さくらの里記載品種 ※youkihiとして既存登録済み" },
+      { "name": "ミシマザクラ（三島桜）", "context": "妙義山さくらの里記載の珍しい品種 ※mishima-zakuraとして既存登録済み" }
+    ],
+    "source_url": "https://www.pref.gunma.jp/page/18975.html",
+    "note": "群馬県ホームページから妙義山さくらの里の品種を確認。45種約4000本。既存登録: someiyoshino・fuyu-zakura・kanzan・fugenzou・youkihi・ooyamazakura・edohigan-zakura・yamazakura・mishima-zakura・kotohira。新規追加はsanozakura・taihaku（ooyamazakuraは既存登録済みのため除外）。"
+  },
+  {
+    "spot_id": "walker-ar0311e60438",
+    "spot_name": "慈光山歴史公苑の桜",
+    "prefecture": "埼玉県",
+    "status": "improved",
+    "new_variety_ids": [
+      "kawaduzakura"
+    ],
+    "unmatched_names": [
+      { "name": "駿河台匂（スルガダイニオイ）", "context": "既存登録済み(surugadai-nioi)" },
+      { "name": "御衣黄（ギョイコウ）", "context": "既存登録済み(gyoikou)" },
+      { "name": "里ざくらコレクション約50種の詳細品種", "context": "ときがわ町公式PDFに品種地図あるが取得不能。一葉・普賢象は既存登録済み" }
+    ],
+    "source_url": "https://www.town.tokigawa.lg.jp/info/1125",
+    "note": "ときがわ町公式サイトで確認。里ざくらコレクションとして約50種・約300本。既存登録: ichiyou・gyoikou・fugenzou・surugadai-nioi・someiyoshino。新規追加はkawaduzakuraのみ。PDFに詳細品種リストありだが取得不可のためGive_upに近いが1件確認。"
+  },
+  {
+    "spot_id": "walker-ar0312e25777",
+    "spot_name": "清水公園の桜(千葉県)",
+    "prefecture": "千葉県",
+    "status": "improved",
+    "new_variety_ids": [
+      "kanhizakura",
+      "edohigan-zakura",
+      "shidarezakura",
+      "kanzan"
+    ],
+    "unmatched_names": [
+      { "name": "劫初の桜（コウジョノサクラ）", "context": "樹齢100年超の名木。品種はエドヒガン系と推定" },
+      { "name": "笹目桜（ササメザクラ）", "context": "清水公園さくらまつり情報に記載の品種名" },
+      { "name": "笹目桜（ヨウヘイザクラ）", "context": "清水公園さくらまつりページの記載品種" }
+    ],
+    "source_url": "https://www.shimizu-kouen.com/archives/18860",
+    "note": "清水公園公式サイト・ウェザーニュースから品種確認。50種約2000本。主要確認品種: ソメイヨシノ(既存)・大島桜(既存)・横浜緋桜(既存)・陽光(既存)・八重紅枝垂(既存)・寒緋桜(kanhizakura)・エドヒガン(edohigan-zakura)・シダレザクラ・関山(kanzan)。新規4品種を追加。"
+  }
+]

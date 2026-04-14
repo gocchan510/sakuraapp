@@ -1,0 +1,550 @@
+[
+  {
+    "spot_id": "walker-ar0101e25532",
+    "spot_name": "円山公園の桜(北海道)",
+    "prefecture": "北海道",
+    "status": "improved",
+    "raw_variety_text": "ソメイヨシノ、蝦夷山桜(エゾヤマザクラ)",
+    "total_count": null,
+    "has_etc_flag": false,
+    "variety_names_raw": [
+      "ソメイヨシノ",
+      "蝦夷山桜(エゾヤマザクラ)"
+    ],
+    "matched": [
+      {
+        "name": "ソメイヨシノ",
+        "id": "someiyoshino",
+        "source": "slug"
+      },
+      {
+        "name": "蝦夷山桜(エゾヤマザクラ)",
+        "id": "ezoyamazakura",
+        "source": "text"
+      }
+    ],
+    "unmatched": [],
+    "existing_varieties": [
+      "itozakura",
+      "shidarezakura",
+      "honseijishidare"
+    ],
+    "new_variety_ids": [
+      "someiyoshino",
+      "ezoyamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0202e25563",
+    "spot_name": "弘前公園(鷹揚公園)の桜",
+    "prefecture": "青森県",
+    "status": "improved+etc",
+    "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、エドヒガン、カスミザクラ、弘前雪明かり(弘前発祥の八重桜)、など全52品種",
+    "total_count": 52,
+    "has_etc_flag": true,
+    "variety_names_raw": [
+      "八重桜",
+      "ソメイヨシノ",
+      "山桜",
+      "しだれ桜",
+      "寒緋桜",
+      "大島桜",
+      "エドヒガン",
+      "カスミザクラ",
+      "弘前雪明かり(弘前発祥の八重桜)"
+    ],
+    "matched": [
+      {
+        "name": "八重桜",
+        "id": "kanzan",
+        "source": "slug"
+      },
+      {
+        "name": "ソメイヨシノ",
+        "id": "someiyoshino",
+        "source": "slug"
+      },
+      {
+        "name": "山桜",
+        "id": "yamazakura",
+        "source": "slug"
+      },
+      {
+        "name": "しだれ桜",
+        "id": "shidarezakura",
+        "source": "slug"
+      },
+      {
+        "name": "寒緋桜",
+        "id": "kanhizakura",
+        "source": "slug"
+      },
+      {
+        "name": "大島桜",
+        "id": "oshimazakura",
+        "source": "slug"
+      },
+      {
+        "name": "エドヒガン",
+        "id": "edohigan-zakura",
+        "source": "slug"
+      },
+      {
+        "name": "カスミザクラ",
+        "id": "kasumizakura",
+        "source": "text"
+      },
+      {
+        "name": "弘前雪明かり(弘前発祥の八重桜)",
+        "id": "hirosaki-yukiakari",
+        "source": "text"
+      }
+    ],
+    "unmatched": [],
+    "existing_varieties": [
+      "shogetsu",
+      "hiyodorizakura",
+      "omoigawa",
+      "ooyamazakura",
+      "kasumizakura",
+      "kotohira",
+      "someiyoshino",
+      "fukurokujyu",
+      "ojochin",
+      "yokohamahizakura",
+      "senriko",
+      "jugatsu-zakura",
+      "amanogawa",
+      "higurashi",
+      "ミナカミ",
+      "baigoji-juzukakezakura",
+      "シロヒガン",
+      "azumanishiki",
+      "o-kanzakura",
+      "kanzan",
+      "mikurumagaeshi",
+      "hirosaki-sandanzaki",
+      "hirosaki-yukiakari",
+      "okame",
+      "yamazakura",
+      "shirotae",
+      "fugenzou",
+      "shidarezakura",
+      "sumaura-fugenzo",
+      "kenrokuen-kikuzakura",
+      "temari",
+      "yaebenishidare-sanokei",
+      "ichiyou",
+      "showa-zakura",
+      "kohigan",
+      "beniyutaka",
+      "シロヤマザクラ",
+      "sanozakura",
+      "taihaku",
+      "oshimazakura",
+      "yoko",
+      "sotoorihime",
+      "gyoikou",
+      "funabara-yoshino",
+      "beni-shidare",
+      "sakuyahime",
+      "ukon",
+      "kanhizakura",
+      "sendai-shidare",
+      "yaebeni-ohshima",
+      "kobuku-zakura"
+    ],
+    "new_variety_ids": [
+      "edohigan-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e25816",
+    "spot_name": "新宿御苑の桜",
+    "prefecture": "東京都",
+    "status": "improved",
+    "raw_variety_text": "河津桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、エドヒガン、カンザクラ類、一葉、関山、普賢象",
+    "total_count": null,
+    "has_etc_flag": false,
+    "variety_names_raw": [
+      "河津桜",
+      "ソメイヨシノ",
+      "山桜",
+      "しだれ桜",
+      "寒緋桜",
+      "大島桜",
+      "エドヒガン",
+      "カンザクラ類",
+      "一葉",
+      "関山",
+      "普賢象"
+    ],
+    "matched": [
+      {
+        "name": "河津桜",
+        "id": "kawaduzakura",
+        "source": "text"
+      },
+      {
+        "name": "ソメイヨシノ",
+        "id": "someiyoshino",
+        "source": "slug"
+      },
+      {
+        "name": "山桜",
+        "id": "yamazakura",
+        "source": "slug"
+      },
+      {
+        "name": "しだれ桜",
+        "id": "shidarezakura",
+        "source": "slug"
+      },
+      {
+        "name": "寒緋桜",
+        "id": "kanhizakura",
+        "source": "slug"
+      },
+      {
+        "name": "大島桜",
+        "id": "oshimazakura",
+        "source": "slug"
+      },
+      {
+        "name": "エドヒガン",
+        "id": "edohigan-zakura",
+        "source": "slug"
+      },
+      {
+        "name": "一葉",
+        "id": "ichiyou",
+        "source": "text"
+      },
+      {
+        "name": "関山",
+        "id": "kanzan",
+        "source": "text"
+      },
+      {
+        "name": "普賢象",
+        "id": "fugenzou",
+        "source": "text"
+      }
+    ],
+    "unmatched": [
+      "カンザクラ類"
+    ],
+    "existing_varieties": [
+      "shogetsu",
+      "usuzumi",
+      "ooyamazakura",
+      "ichiharatoranoo",
+      "kotohira",
+      "kasumizakura",
+      "izu-yoshino",
+      "edo",
+      "someiyoshino",
+      "ヒマラヤヒザクラ",
+      "スザク",
+      "takato-kohigan",
+      "tsubakikanzakura",
+      "hiranojinja-imose",
+      "yokohamahizakura",
+      "gosyozakura",
+      "ゴショミクルマガエシ",
+      "jugatsu-zakura",
+      "yae-no-sakon",
+      "tyoujizakura",
+      "benizuruzakura",
+      "hoshu-zakura",
+      "amanogawa",
+      "mamezakura",
+      "murasakizakura",
+      "kawaduzakura",
+      "arashiyama",
+      "kanzakura",
+      "baigoji-juzukakezakura",
+      "toukaizakura",
+      "シロヒガン",
+      "higan-zakura",
+      "o-kanzakura",
+      "kanzan",
+      "koshioyama",
+      "taguiarashi",
+      "surugadai-nioi",
+      "chosyuhizakura",
+      "yamazakura",
+      "shirotae",
+      "shidarezakura",
+      "syuzenjikanzakura",
+      "okame",
+      "fugenzou",
+      "kenrokuen-kikuzakura",
+      "edo-zakura",
+      "atamizakura",
+      "yaebenishidare-sanokei",
+      "ichiyou",
+      "amayadori",
+      "kohigan",
+      "hiyoshizakura",
+      "beniyutaka",
+      "washinoo",
+      "シロヤマザクラ",
+      "komatsunagi",
+      "oshimazakura",
+      "taihaku",
+      "yoko",
+      "bendono",
+      "gyoikou",
+      "beni-shidare",
+      "america",
+      "ukon",
+      "kanhizakura",
+      "kobuku-zakura"
+    ],
+    "new_variety_ids": [
+      "edohigan-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0101e25542",
+    "spot_name": "松前公園の桜",
+    "prefecture": "北海道",
+    "status": "matched",
+    "raw_variety_text": "ソメイヨシノ、蝦夷霞桜、糸括、関山、雨宿、鬱金、南殿桜",
+    "total_count": null,
+    "has_etc_flag": false,
+    "variety_names_raw": [
+      "ソメイヨシノ",
+      "蝦夷霞桜",
+      "糸括",
+      "関山",
+      "雨宿",
+      "鬱金",
+      "南殿桜"
+    ],
+    "matched": [
+      {
+        "name": "ソメイヨシノ",
+        "id": "someiyoshino",
+        "source": "slug"
+      },
+      {
+        "name": "糸括",
+        "id": "itokukuri",
+        "source": "text"
+      },
+      {
+        "name": "関山",
+        "id": "kanzan",
+        "source": "text"
+      },
+      {
+        "name": "雨宿",
+        "id": "amayadori",
+        "source": "text"
+      },
+      {
+        "name": "鬱金",
+        "id": "ukon",
+        "source": "text"
+      }
+    ],
+    "unmatched": [
+      "蝦夷霞桜",
+      "南殿桜"
+    ],
+    "existing_varieties": [
+      "matsumae-beni-usome",
+      "aratama",
+      "matsumae-yae-goromo",
+      "akatsuki-naden",
+      "kokonoe",
+      "hiranojinja-imose",
+      "matsumae-beni-botan",
+      "matsumae-osio",
+      "ヒメタカサゴ",
+      "matsumae-hayazaki",
+      "コウリン",
+      "matsumae-benitamae",
+      "yoro-zakura",
+      "kofuku",
+      "ハナカゴト",
+      "hirano-tsukubane",
+      "ミダレユキ",
+      "matsumaefukuzakura",
+      "beniyutaka",
+      "ハナシホウ",
+      "matsumaeshirasagi",
+      "gozanomanioi",
+      "ooyamazakura",
+      "banrikou",
+      "matsumaeakane",
+      "ハクホウ",
+      "matsumae-beni-kosode",
+      "matsumae-usugasanesomei",
+      "matsumae-yaekotobuki",
+      "ヤマトニシキ",
+      "マンゲツ",
+      "gyosyo",
+      "itokukuri",
+      "hanagasa",
+      "beni-tamanishiki",
+      "hitachi-miyabi",
+      "matsumaekoitozakura",
+      "matsumaesasameyuki",
+      "oshimazakura",
+      "tamagaki",
+      "matsumaekorin",
+      "matsumaeavanishiki",
+      "matsumae-kazanin",
+      "matsumae-usbenikokonoe",
+      "shinranshonin-juzukake-zakura",
+      "ヤチヨ",
+      "matsumaesekimori",
+      "コウヨウ",
+      "matsumae-benimurasaki",
+      "ezo-nishiki",
+      "matsumae-fukujuzakura",
+      "matsumae-fuki",
+      "kechimyakuzakura",
+      "matsumae-yuen",
+      "yaemiyamazakura",
+      "matsumae-hanazomei",
+      "matsumae-shiraginu",
+      "ryuunin-beniyaezakura",
+      "クワジマザクラ",
+      "matsumae",
+      "matsumaefuki",
+      "matsumaeshirobotan",
+      "ユウガ",
+      "beni-shigure",
+      "コウゼンジシロヤエザクラ",
+      "ハクホウザクラ",
+      "amayadori",
+      "matsumaeokoyuki",
+      "コウラン",
+      "usubeni-miyama",
+      "matsumaearatama",
+      "someiyoshino",
+      "リュウウンインベニヤエ",
+      "matsumae-oshima",
+      "ezoyamazakura",
+      "matsumaesarasa",
+      "matsumaeoshizuka",
+      "kanzan",
+      "matsumae-aizen",
+      "ユウエン",
+      "matsumae-benigasa",
+      "akabana-mazakura",
+      "matsumae-usubeni-kokonoe",
+      "yaebenishidare-sanokei",
+      "ranran",
+      "ukon",
+      "takasago",
+      "shirayukihime",
+      "matsumae-benihigoromo",
+      "シラツユ",
+      "matsumae-hanamiyako"
+    ],
+    "new_variety_ids": []
+  },
+  {
+    "spot_id": "walker-ar0313e60170",
+    "spot_name": "西新井大師の桜",
+    "prefecture": "東京都",
+    "status": "improved",
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、しだれ桜、彼岸桜、大島桜、寒桜、安行桜",
+    "total_count": null,
+    "has_etc_flag": false,
+    "variety_names_raw": [
+      "河津桜",
+      "八重桜",
+      "ソメイヨシノ",
+      "しだれ桜",
+      "彼岸桜",
+      "大島桜",
+      "寒桜",
+      "安行桜"
+    ],
+    "matched": [
+      {
+        "name": "河津桜",
+        "id": "kawaduzakura",
+        "source": "text"
+      },
+      {
+        "name": "八重桜",
+        "id": "kanzan",
+        "source": "slug"
+      },
+      {
+        "name": "ソメイヨシノ",
+        "id": "someiyoshino",
+        "source": "slug"
+      },
+      {
+        "name": "しだれ桜",
+        "id": "shidarezakura",
+        "source": "slug"
+      },
+      {
+        "name": "彼岸桜",
+        "id": "higan-zakura",
+        "source": "slug"
+      },
+      {
+        "name": "大島桜",
+        "id": "oshimazakura",
+        "source": "slug"
+      },
+      {
+        "name": "寒桜",
+        "id": "kanzakura",
+        "source": "slug"
+      },
+      {
+        "name": "安行桜",
+        "id": "angyo-zakura",
+        "source": "text"
+      }
+    ],
+    "unmatched": [],
+    "existing_varieties": [
+      "gozanomanioi",
+      "kirin",
+      "yaeakebono",
+      "fukurokujyu",
+      "arakawanioi",
+      "kokonoe",
+      "itsukayama",
+      "gosyozakura",
+      "ariake",
+      "amanogawa",
+      "higurashi",
+      "wabihito",
+      "kawaduzakura",
+      "arashiyama",
+      "kanzakura",
+      "higan-zakura",
+      "kokeshimizu",
+      "azumanishiki",
+      "manoga",
+      "taguiarashi",
+      "surugadai-nioi",
+      "fugenzou",
+      "shibayama",
+      "ichiyou",
+      "washinoo",
+      "taizanfukun",
+      "amayadori"
+    ],
+    "new_variety_ids": [
+      "kanzan",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura",
+      "angyo-zakura"
+    ]
+  }
+]

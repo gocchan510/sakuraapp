@@ -1,0 +1,146 @@
+[
+  {
+    "spot_id": "walker-ar0313e25817",
+    "spot_name": "上野恩賜公園の桜",
+    "prefecture": "東京都",
+    "total_count": 50,
+    "matched_count": 10,
+    "existing_count": 21,
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、彼岸桜、寒緋桜、大島桜、寒桜、エドヒガン、十月桜、ほか約50種"
+  },
+  {
+    "spot_id": "walker-ar0202e25563",
+    "spot_name": "弘前公園(鷹揚公園)の桜",
+    "prefecture": "青森県",
+    "total_count": 52,
+    "matched_count": 8,
+    "existing_count": 51,
+    "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、エドヒガン、カスミザクラ、弘前雪明かり(弘前発祥の八重桜)、など全52品種"
+  },
+  {
+    "spot_id": "walker-ar0203e25585",
+    "spot_name": "北上展勝地の桜",
+    "prefecture": "岩手県",
+    "total_count": 150,
+    "matched_count": 3,
+    "existing_count": 2,
+    "raw_variety_text": "ソメイヨシノ、大山桜、霞桜、など約150種"
+  },
+  {
+    "spot_id": "walker-ar0206e25655",
+    "spot_name": "烏帽子山公園の桜",
+    "prefecture": "山形県",
+    "total_count": 25,
+    "matched_count": 5,
+    "existing_count": 2,
+    "raw_variety_text": "八重桜、ソメイヨシノ、しだれ桜、エドヒガン、大山桜、菊桜、など約25種"
+  },
+  {
+    "spot_id": "walker-ar0311e25764",
+    "spot_name": "美の山(みのやま)公園の桜",
+    "prefecture": "埼玉県",
+    "total_count": 70,
+    "matched_count": 4,
+    "existing_count": 5,
+    "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、御衣黄、など園芸品種70種以上"
+  },
+  {
+    "spot_id": "walker-ar0310e25755",
+    "spot_name": "妙義山県立森林公園さくらの里の桜",
+    "prefecture": "群馬県",
+    "total_count": 45,
+    "matched_count": 4,
+    "existing_count": 11,
+    "raw_variety_text": "八重桜、ソメイヨシノ、山桜、冬桜、大島桜、ほか約45種"
+  },
+  {
+    "spot_id": "walker-ar0311e60438",
+    "spot_name": "慈光山歴史公苑の桜",
+    "prefecture": "埼玉県",
+    "total_count": 50,
+    "matched_count": 5,
+    "existing_count": 5,
+    "raw_variety_text": "ソメイヨシノ、御衣黄、一葉、普賢象、駿河台匂、など約50種"
+  },
+  {
+    "spot_id": "walker-ar0312e25777",
+    "spot_name": "清水公園の桜(千葉県)",
+    "prefecture": "千葉県",
+    "total_count": 50,
+    "matched_count": 5,
+    "existing_count": 5,
+    "raw_variety_text": "ソメイヨシノ、大島桜、横浜緋桜、陽光、八重紅枝垂、など50種類"
+  },
+  {
+    "spot_id": "walker-ar0313e377373",
+    "spot_name": "ホテル椿山荘東京の桜",
+    "prefecture": "東京都",
+    "total_count": 20,
+    "matched_count": 6,
+    "existing_count": 9,
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、冬桜、寒緋桜、など20種類"
+  },
+  {
+    "spot_id": "walker-ar0314e25856",
+    "spot_name": "県立三ツ池公園の桜",
+    "prefecture": "神奈川県",
+    "total_count": 70,
+    "matched_count": 9,
+    "existing_count": 12,
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、冬桜、寒緋桜、大島桜、寒桜、エドヒガン、ほか。上記含めて約70品種"
+  },
+  {
+    "spot_id": "walker-ar0728e60627",
+    "spot_name": "かみかわ桜の山 桜華園の桜",
+    "prefecture": "兵庫県",
+    "total_count": 240,
+    "matched_count": 1,
+    "existing_count": 6,
+    "raw_variety_text": "ソメイヨシノ、など240種"
+  },
+  {
+    "spot_id": "walker-ar0834e60423",
+    "spot_name": "広島市植物公園の桜",
+    "prefecture": "広島県",
+    "total_count": 70,
+    "matched_count": 10,
+    "existing_count": 10,
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、彼岸桜、冬桜、寒緋桜、大島桜、寒桜、エドヒガン、ほか(約70種)"
+  },
+  {
+    "spot_id": "walker-ar0834e60674",
+    "spot_name": "バンブー・ジョイ・ハイランドの桜",
+    "prefecture": "広島県",
+    "total_count": 23,
+    "matched_count": 3,
+    "existing_count": 3,
+    "raw_variety_text": "ソメイヨシノ、御衣黄、大村桜、など23種類"
+  },
+  {
+    "spot_id": "walker-ar1042e60517",
+    "spot_name": "大村公園(大村神社)の桜",
+    "prefecture": "長崎県",
+    "total_count": 20,
+    "matched_count": 7,
+    "existing_count": 8,
+    "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、大村桜、玖島桜など20種類以上"
+  },
+  {
+    "spot_id": "walker-ar0727e381780",
+    "spot_name": "うるし堤公園の桜",
+    "prefecture": "大阪府",
+    "total_count": null,
+    "matched_count": 0,
+    "existing_count": 0,
+    "raw_variety_text": "（桜の種類フィールドなし）"
+  },
+  {
+    "spot_id": "walker-ar1042e179256",
+    "spot_name": "不老山の桜",
+    "prefecture": "長崎県",
+    "total_count": null,
+    "matched_count": 0,
+    "existing_count": 0,
+    "raw_variety_text": "（桜の種類フィールドなし）"
+  }
+]
