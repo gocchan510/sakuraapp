@@ -1,0 +1,636 @@
+[
+  {
+    "id": "walker-ar0622e26043",
+    "name": "浜松城公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26044",
+    "name": "はままつフラワーパークの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e377506",
+    "name": "佐鳴湖公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kanhizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e493736",
+    "name": "東大山の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60580",
+    "name": "奥山公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26055",
+    "name": "秋葉ダム千本桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60578",
+    "name": "鳥羽山公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e60511",
+    "name": "千歳川沿いの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "atamizakura",
+      "tairyo-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e209285",
+    "name": "糸川遊歩道の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "atamizakura",
+      "tairyo-zakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0622e218294",
+    "name": "熱海城の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "atamizakura",
+      "tairyo-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e60574",
+    "name": "三嶋大社の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "ワセヤマザクラ",
+      "tokyo-zakura",
+      "クラマニバナ",
+      "kemuriyama-beni-yamazakura",
+      "mishima-fujizakura",
+      "showa-zakura",
+      "sotoorihime",
+      "beni-chochin",
+      "ムシャザクライデンケン",
+      "somei-beni",
+      "mishima-zakura",
+      "mishima-taki-nioi",
+      "sakuyahime",
+      "amagiyoshino",
+      "izu-yoshino",
+      "mikado-yoshino",
+      "ヤツセニオイ",
+      "ハンベイシロベニザクラ",
+      "shizuka-nioi",
+      "ワセヨシノ",
+      "ワカナニッコウザクラ"
+    ],
+    "features": [
+      "夜桜",
+      "枝垂れ桜",
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60244",
+    "name": "大石寺の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "ゲバザクラ"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26047",
+    "name": "伊豆高原桜並木",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "ito-zakura",
+      "jogasaki-zakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26048",
+    "name": "さくらの里の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kanzakura",
+      "ito-zakura",
+      "o-kanzakura",
+      "ichiyou",
+      "shogetsu",
+      "jogasaki-zakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e376062",
+    "name": "伊東温泉の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "ito-zakura",
+      "jogasaki-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26052",
+    "name": "河原町旧堤防の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26061",
+    "name": "家山の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60458",
+    "name": "野守の池の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e585383",
+    "name": "牛代の水目桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60243",
+    "name": "木屋川堤の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e461751",
+    "name": "坂本高草川沿いの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60238",
+    "name": "粟ヶ岳の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kakegawa-zakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0622e219695",
+    "name": "つま恋リゾート彩の郷(さいのさと)の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kakegawa-zakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60262",
+    "name": "蓮華寺池公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60577",
+    "name": "藤枝金比羅山・瀬戸川堤防の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60579",
+    "name": "富士仏舎利塔平和公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "entsuji-zakura",
+      "ミドノヤエ",
+      "ナガエヤエ",
+      "togen",
+      "oshidorizakura",
+      "midorizakura",
+      "komame-zakura",
+      "gotenba-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e217110",
+    "name": "秩父宮記念公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "entsuji-zakura",
+      "ミドノヤエ",
+      "ナガエヤエ",
+      "togen",
+      "oshidorizakura",
+      "midorizakura",
+      "komame-zakura",
+      "gotenba-zakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e213882",
+    "name": "松原公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "shuzenji-zakura",
+      "izu-saifukuji-shidare"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60459",
+    "name": "高松神社の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e584894",
+    "name": "浜岡砂丘白砂公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e584902",
+    "name": "あらさわふる里公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e584903",
+    "name": "池宮神社桜ヶ池の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60212",
+    "name": "狩野川さくら公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "無料",
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60460",
+    "name": "勝間田川沿いの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0622e26058",
+    "name": "河津川沿桜並木の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e214217",
+    "name": "下賀茂温泉の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60461",
+    "name": "松崎町 那賀川沿いの桜並木",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜並木",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60216",
+    "name": "黄金崎公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0622e582177",
+    "name": "かんなみの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "駐車場あり",
+      "河津桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60237",
+    "name": "駿河平自然公園の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e60228",
+    "name": "小国神社の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "無料",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0622e60229",
+    "name": "太田川桜堤の桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0622e60462",
+    "name": "戦国夢街道ハイキングコースの桜",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26064",
+    "name": "名古屋市東山動植物園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "higan-zakura",
+      "fuyu-zakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381919",
+    "name": "平和公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e380301",
+    "name": "徳川園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "無料",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381928",
+    "name": "庄内緑地の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26063",
+    "name": "名古屋城の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26065",
+    "name": "鶴舞公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kanhizakura",
+      "gyoikou"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e428591",
+    "name": "八事山興正寺の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  }
+]

@@ -1,0 +1,619 @@
+[
+  {
+    "id": "walker-ar0312e582004",
+    "name": "六高台さくら通りの桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25777",
+    "name": "清水公園の桜(千葉県)",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "yokohamahizakura",
+      "yoko",
+      "yaebenishidare-sanokei"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25780",
+    "name": "茂原公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "fuyu-zakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25781",
+    "name": "成田山公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25782",
+    "name": "宗吾霊堂(境内)の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "kawaduzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e25807",
+    "name": "成田市さくらの山の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "kawaduzakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e60507",
+    "name": "成田ゆめ牧場の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e60550",
+    "name": "佐倉城址公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "kawaduzakura",
+      "edohigan-zakura",
+      "beniyamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e382682",
+    "name": "佐倉ふるさと広場の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e496159",
+    "name": "西志津スポーツ等多目的広場の河津桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25783",
+    "name": "八鶴湖畔の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25800",
+    "name": "あけぼの山公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "jindai-akebono",
+      "accolade"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e377372",
+    "name": "官軍塚の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25802",
+    "name": "千葉こどもの国KidsDom(キッズダム)の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e495404",
+    "name": "養老川五井大橋付近の河津桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e381583",
+    "name": "内浦山県民の森の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kiyosumishidare"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e60156",
+    "name": "市制記念公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e61306",
+    "name": "森と湖のリゾート ロマンの森共和国の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e380667",
+    "name": "福星寺のしだれ桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e60202",
+    "name": "南房総市千倉総合運動公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e376439",
+    "name": "抱湖園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e429893",
+    "name": "大房岬自然公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25786",
+    "name": "黄門桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "無料",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0312e340824",
+    "name": "天神山公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25778",
+    "name": "香取神宮の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0312e60552",
+    "name": "小見川城山公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e380830",
+    "name": "長光寺のしだれ桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e382192",
+    "name": "さんぶの森公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e60157",
+    "name": "小中池公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0312e381917",
+    "name": "千葉県立房総のむらの桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e377379",
+    "name": "白子温泉の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e382337",
+    "name": "笠森観音(笠森寺)の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "gyoikou"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0312e25794",
+    "name": "佐久間ダム公園の桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0312e495007",
+    "name": "保田川の頼朝桜",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25834",
+    "name": "靖國神社の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "kanhizakura",
+      "kanzakura",
+      "ukon",
+      "yoko"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25855",
+    "name": "日比谷公園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino",
+      "shidarezakura",
+      "kanhizakura",
+      "yoko"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0313e60566",
+    "name": "外濠公園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0313e380430",
+    "name": "江戸総鎮守 神田明神の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0313e380520",
+    "name": "北の丸公園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kanhizakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "ukon",
+      "gyoikou"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0313e380523",
+    "name": "国立劇場の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "komatsu-otome",
+      "jindai-akebono",
+      "yaebenishidare-sanokei",
+      "sendaiya",
+      "kanzan",
+      "wakakinosakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0313e382206",
+    "name": "ホテルニューオータニ 日本庭園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "beni-shidare"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0313e30652",
+    "name": "浜離宮恩賜庭園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "shidarezakura",
+      "kanhizakura",
+      "oshimazakura",
+      "gyoikou",
+      "ukon",
+      "fuyu-zakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0313e380304",
+    "name": "江戸桜通りの桜 (SAKURA FES NIHONBASHI 2025)",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "屋台あり"
+    ]
+  },
+  {
+    "id": "walker-ar0313e381570",
+    "name": "浜町川緑道の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "無料",
+      "桜並木",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25848",
+    "name": "六本木ヒルズ　毛利庭園・六本木さくら坂の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "yoko"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0313e26461",
+    "name": "アークヒルズの桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0313e26520",
+    "name": "東京ミッドタウンの桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kanzan",
+      "yaebenishidare-sanokei"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0313e60404",
+    "name": "都立芝公園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0313e60405",
+    "name": "旧芝離宮恩賜庭園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "gyoikou",
+      "fugenzou"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0313e377509",
+    "name": "グランドプリンスホテル高輪の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kanhizakura",
+      "gyoikou",
+      "kohigan",
+      "jindai-akebono",
+      "mikurumagaeshi",
+      "kanzan",
+      "shogetsu",
+      "ケヤマザクラ",
+      "スザク",
+      "fugenzou"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜",
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  }
+]

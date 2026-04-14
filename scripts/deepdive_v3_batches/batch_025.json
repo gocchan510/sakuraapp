@@ -1,0 +1,593 @@
+[
+  {
+    "id": "walker-ar0937e26296",
+    "name": "公渕森林公園の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "takamatsu-chigo",
+      "kinashichigozakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0937e26297",
+    "name": "女木島の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "takamatsu-chigo",
+      "kinashichigozakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0937e26298",
+    "name": "丸亀城の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0937e60394",
+    "name": "不動の滝カントリーパークの桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0937e60395",
+    "name": "たからだの里さいた(戸川ダム)の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0937e26301",
+    "name": "金刀比羅宮の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "kotohira"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0937e26303",
+    "name": "県立桃陵公園の桜",
+    "prefecture": "香川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0938e26307",
+    "name": "松山城(城山公園)の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "tsubakikanzakura",
+      "jurokunichi-zakura",
+      "iyo-usuzumi"
+    ],
+    "features": [
+      "さくら名所100選",
+      "有料"
+    ]
+  },
+  {
+    "id": "walker-ar0938e26308",
+    "name": "道後公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "tsubakikanzakura",
+      "jurokunichi-zakura",
+      "iyo-usuzumi"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60515",
+    "name": "南楽園(外堀)の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60485",
+    "name": "滝の宮公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "myoshoji"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0938e60302",
+    "name": "西山興隆寺の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "yousyun"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60510",
+    "name": "武丈公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "kanhizakura",
+      "kanzakura",
+      "yousyun"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e26312",
+    "name": "祇園公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60261",
+    "name": "冨士山公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0938e60279",
+    "name": "三島公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60280",
+    "name": "翠波高原の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0938e60355",
+    "name": "すすきヶ原入野公園の桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e26314",
+    "name": "積善山三千本桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "yousyun",
+      "yoko"
+    ],
+    "features": [
+      "駐車場あり",
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0938e60299",
+    "name": "石畳東のしだれ桜",
+    "prefecture": "愛媛県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0939e26317",
+    "name": "高知公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0939e582587",
+    "name": "桑田山の雪割桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "シロヒガン"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0939e60487",
+    "name": "宿毛天満宮の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0939e26322",
+    "name": "為松公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0939e26319",
+    "name": "鏡野公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "屋台あり"
+    ]
+  },
+  {
+    "id": "walker-ar0939e60272",
+    "name": "鮎乃瀬公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0939e60270",
+    "name": "早明浦ダム周辺の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0939e26324",
+    "name": "ひょうたん桜公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar0939e60301",
+    "name": "中越家のしだれ桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0939e26320",
+    "name": "久礼大坂谷川沿いの桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0939e403142",
+    "name": "牧野公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "wakakinosakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0939e60488",
+    "name": "家地川公園の桜",
+    "prefecture": "高知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60305",
+    "name": "白野江植物公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "gyoikou",
+      "kanzakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar1040e26325",
+    "name": "勝山公園(小倉城)の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "yoko"
+    ],
+    "features": [
+      "ライトアップ",
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1040e26326",
+    "name": "昭和池公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60381",
+    "name": "舞鶴公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "yoko",
+      "kanzan",
+      "ichiyou",
+      "beniyutaka",
+      "usuzumi",
+      "fugenzou"
+    ],
+    "features": [
+      "ライトアップ",
+      "無料",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60306",
+    "name": "福岡市油山市民の森の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60450",
+    "name": "甘木公園の桜(福岡県大牟田市)",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e26328",
+    "name": "発心公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e26332",
+    "name": "浅井の一本桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜",
+      "駐車場あり",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60380",
+    "name": "久留米城跡の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "gyoikou"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1044e60312",
+    "name": "不動尊一心寺の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "gyoikou",
+      "kanzan",
+      "fugenzou",
+      "ichiyou",
+      "ukon",
+      "shogetsu",
+      "amanogawa",
+      "beniyutaka",
+      "shirotae",
+      "kenrokuen-kikuzakura",
+      "ojochin",
+      "sumaura-fugenzo",
+      "jugatsu-zakura",
+      "asahiyama"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1044e425457",
+    "name": "長湯温泉 しだれ桜の里の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "shidarezakura",
+      "tairyo-zakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e459760",
+    "name": "呑山観音寺の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "桜祭り",
+      "屋台あり"
+    ]
+  },
+  {
+    "id": "walker-ar1042e60517",
+    "name": "大村公園(大村神社)の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kanhizakura",
+      "omurazakura",
+      "kushima-zakura"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "さくら名所100選",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar1040e63787",
+    "name": "久留米サイクルファミリーパークの桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e497473",
+    "name": "石橋文化センターの桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60304",
+    "name": "大将陣公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60307",
+    "name": "勝盛公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60308",
+    "name": "日向神ダムの千本桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "id": "walker-ar1044e377269",
+    "name": "四浦半島の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "駐車場あり",
+      "河津桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1044e26387",
+    "name": "岡城跡の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "さくら名所100選"
+    ]
+  },
+  {
+    "id": "walker-ar1044e216306",
+    "name": "由布院・大分川沿いの桜並木",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1044e60311",
+    "name": "日出城址・城下公園の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1044e62930",
+    "name": "ハーモニーランドの桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1045e26400",
+    "name": "垂水公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60327",
+    "name": "久峰総合公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1045e60492",
+    "name": "堀切峠の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1045e61196",
+    "name": "天ヶ城公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "無料",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1045e26401",
+    "name": "母智丘公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60349",
+    "name": "観音池公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1045e26402",
+    "name": "延岡城跡・城山公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1045e584098",
+    "name": "五ヶ瀬川堤防沿いの桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1045e27975",
+    "name": "花立公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1045e26406",
+    "name": "西都原古墳群の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60345",
+    "name": "綾の照葉大吊橋の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1045e26405",
+    "name": "遠見山森林公園の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60346",
+    "name": "天岩戸の湯の桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60313",
+    "name": "浄専寺のしだれ桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1045e60332",
+    "name": "原田家のしだれ桜",
+    "prefecture": "宮崎県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1046e60314",
+    "name": "国指定名勝 仙巌園の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1046e60495",
+    "name": "魚見岳の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1046e60341",
+    "name": "寺山いこいの広場の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1046e26419",
+    "name": "霧島神宮の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1046e60342",
+    "name": "霧島神話の里公園の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1046e26413",
+    "name": "忠元公園の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "夜桜",
+      "桜並木",
+      "桜祭り",
+      "屋台あり"
+    ]
+  },
+  {
+    "id": "walker-ar1046e60340",
+    "name": "高岡公園の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1046e60326",
+    "name": "花瀬自然公園の桜",
+    "prefecture": "鹿児島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1047e93158",
+    "name": "名護城(なんぐすく)公園の桜",
+    "prefecture": "沖縄県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "さくら名所100選"
+    ]
+  },
+  {
+    "id": "walker-ar1047e134893",
+    "name": "今帰仁城跡の桜",
+    "prefecture": "沖縄県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1047e55296",
+    "name": "もとぶ八重岳一帯の桜",
+    "prefecture": "沖縄県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1047e335960",
+    "name": "八重瀬公園の桜",
+    "prefecture": "沖縄県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "kokyo-higashigyoen",
+    "name": "皇居東御苑",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "jugatsu-zakura",
+      "fuyu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "nanasawa-forest",
+    "name": "県立七沢森林公園",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "jugatsu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "atami-itogawa",
+    "name": "熱海糸川",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "kawazu-matsuri",
+    "name": "河津桜まつり会場",
+    "prefecture": "静岡県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "miura-kaigan",
+    "name": "三浦海岸",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "matsudayama-herb",
+    "name": "松田山ハーブガーデン",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "ofuna-flower-center",
+    "name": "大船フラワーセンター",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "tamanawa-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "zama-seriyuze",
+    "name": "座間市芹沢公園",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "yumenoshima-park",
+    "name": "夢の島公園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "hakkeijima",
+    "name": "八景島シーパラダイス周辺",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "koishikawa-botanical",
+    "name": "小石川植物園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "yaemurasakizakura-koshimizukei"
+    ],
+    "features": []
+  },
+  {
+    "id": "sagamihara-park",
+    "name": "相模原公園",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "sendaiya",
+      "yoko",
+      "kanhizakura",
+      "kokeshimizu",
+      "kanzakura",
+      "someiyoshino",
+      "keio-zakura",
+      "shidarezakura",
+      "tairyo-zakura",
+      "シロヤマザクラ",
+      "fuyu-zakura",
+      "shirayuki",
+      "シロヒガン",
+      "surugadai-nioi",
+      "komatsu-otome",
+      "okame",
+      "jindai-akebono",
+      "taihaku",
+      "higan-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "yokohama-park-nihon-odori",
+    "name": "横浜公園・日本大通り",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "kodomo-shizen-park",
+    "name": "横浜市こども自然公園",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "somei-cemetery",
+    "name": "染井霊園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "harimabashi-promenade",
+    "name": "播磨坂桜並木",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "kiba-park",
+    "name": "木場公園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "todoroki-ravine",
+    "name": "等々力渓谷",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  }
+]

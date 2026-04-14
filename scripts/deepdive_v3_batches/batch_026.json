@@ -1,0 +1,544 @@
+[
+  {
+    "id": "walker-ar1040e60489",
+    "name": "垣生公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60336",
+    "name": "大宰府政庁跡の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60338",
+    "name": "太宰府市民の森の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60339",
+    "name": "宝満宮竈門神社の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e26330",
+    "name": "秋月杉の馬場通りの桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60490",
+    "name": "清水公園(清水山周辺)の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e60330",
+    "name": "宇美公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1040e136979",
+    "name": "猪野公園の桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1040e60444",
+    "name": "虎尾桜",
+    "prefecture": "福岡県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26333",
+    "name": "唐津城(舞鶴公園)の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26334",
+    "name": "鏡山の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1041e60329",
+    "name": "名護屋城跡の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1041e26345",
+    "name": "西渓公園の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1041e26338",
+    "name": "御船山楽園の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26347",
+    "name": "馬場の山桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "yamazakura",
+      "kemuriyama-beni-yamazakura"
+    ],
+    "features": [
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26339",
+    "name": "旭ヶ岡公園の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26340",
+    "name": "小城公園の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1041e26346",
+    "name": "宝珠寺の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar1041e60319",
+    "name": "脊振桜街道の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar1041e60491",
+    "name": "日の隈公園の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1041e26341",
+    "name": "陶山神社の桜",
+    "prefecture": "佐賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e60322",
+    "name": "権現山展望公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1042e26353",
+    "name": "西海橋公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "ハッテンザクラ"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e26357",
+    "name": "島原城の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e26360",
+    "name": "亀岡公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e178583",
+    "name": "長崎県立田平公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar1042e179256",
+    "name": "不老山の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1042e60323",
+    "name": "橘公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e60333",
+    "name": "とけん山公園の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1042e60324",
+    "name": "原城跡の桜",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1042e60325",
+    "name": "田ノ頭郷のしだれ桜(波佐見町)",
+    "prefecture": "長崎県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26363",
+    "name": "熊本城の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "yamazakura",
+      "kanzan",
+      "gyoikou",
+      "ukon",
+      "oshimazakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26377",
+    "name": "水前寺成趣園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1043e60321",
+    "name": "健軍自衛隊通りの桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1043e63542",
+    "name": "本妙寺の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1043e60335",
+    "name": "田原坂公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1043e26364",
+    "name": "人吉城跡の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1043e60309",
+    "name": "湯の児チェリーラインの桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26370",
+    "name": "蛇ヶ谷公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1043e60310",
+    "name": "菊池公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26366",
+    "name": "立岡自然公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1043e60320",
+    "name": "岡岳公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "ujo-shidare"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1043e60331",
+    "name": "大津山公園の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26372",
+    "name": "一心行の大桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1043e60334",
+    "name": "桜ヶ丘グラウンドの桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar1043e26368",
+    "name": "市房ダム湖周辺の桜",
+    "prefecture": "熊本県",
+    "existing_varieties": [
+      "edohigan-ichifusa-beni"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar1044e26378",
+    "name": "大分縣護國神社の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar1044e26380",
+    "name": "平和市民公園の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1044e26381",
+    "name": "大分城址公園の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar1044e26393",
+    "name": "臼杵城址の桜",
+    "prefecture": "大分県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  }
+]

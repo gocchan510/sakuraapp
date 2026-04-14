@@ -1,0 +1,21 @@
+=== 桜スポット品種深掘り検索 v2 サマリー ===
+
+Total spots processed: 1424
+Pages fetched: 4100 (failures: 775)
+
+Before: avg 2.5 varieties/spot
+After:  avg 9.5 varieties/spot
+
+Spots improved: 1314
+
+Top improvements (added varieties):
+  天都山桜公園の桜: 2 → 407品種
+  樽見の大桜: 1 → 75品種
+  東福寺塔頭 光明院の桜: 1 → 48品種
+  こうべアグリパーク(旧 農業公園)の桜: 1 → 48品種
+  城南宮 神苑 楽水苑の桜: 2 → 47品種
+  慈光山歴史公苑の桜: 4 → 35品種
+  大仙公園の桜: 3 → 32品種
+  長浜公園の桜: 1 → 25品種
+  薬師ザクラ: 2 → 22品種
+  原間のイトザクラ: 1 → 20品種

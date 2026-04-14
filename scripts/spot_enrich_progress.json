@@ -1,0 +1,45 @@
+{
+  "last_updated": "2026-04-13",
+  "status": "complete",
+  "total_spots": 1433,
+  "spots_scanned": 1433,
+  "spots_skipped": 8,
+  "skipped_spot_ids": [
+    "zoheijo-osaka",
+    "zoheijo-hiroshima",
+    "shinjuku-gyoen",
+    "hirosaki-park",
+    "hirano-jinja",
+    "nijo-castle",
+    "matsumae-park",
+    "yuki-sakura-farm"
+  ],
+  "spots_enriched": 7,
+  "enriched_spot_ids": [
+    "walker-ar0313e459178",
+    "walker-ar0313e25845",
+    "walker-ar0314e25857",
+    "walker-ar0314e382418",
+    "walker-ar0314e382334",
+    "walker-ar0314e60447",
+    "walker-ar0314e25859",
+    "walker-ar0314e25865"
+  ],
+  "restored_variety_ids": [
+    "walker-ar0313e30652",
+    "walker-ar0313e382206",
+    "walker-ar0313e380520",
+    "walker-ar0313e381584",
+    "walker-ar0313e25816",
+    "walker-ar0313e60564",
+    "walker-ar0313e26443"
+  ],
+  "notes": [
+    "Scan complete: all 1433 spots reviewed across multiple sessions",
+    "Only add-only policy applied: no existing varieties removed",
+    "Japanese-text variety IDs in varieties.json confirmed valid and preserved",
+    "スザク corrected from invalid 'suzaku-zakura' back to valid 'スザク'",
+    "Most spots had adequate variety data or single someiyoshino entries not enrichable without explicit source evidence",
+    "Log file: scripts/spot_variety_enrichment_log.csv (1432 spot entries, excluding yuki-sakura-farm skip)"
+  ]
+}

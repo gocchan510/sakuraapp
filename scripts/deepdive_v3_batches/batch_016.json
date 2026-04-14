@@ -1,0 +1,600 @@
+[
+  {
+    "id": "walker-ar0623e26062",
+    "name": "山崎川四季の道の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60348",
+    "name": "荒子川公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26066",
+    "name": "東谷山フルーツパークの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "gyoikou",
+      "ukon",
+      "ujo-shidare"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e382069",
+    "name": "向山緑地の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e382072",
+    "name": "豊橋公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e382075",
+    "name": "岩屋緑地の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26068",
+    "name": "岡崎城公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26069",
+    "name": "大江川緑道の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26070",
+    "name": "木曽川堤の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "一本桜",
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e380519",
+    "name": "138タワーパークの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kasumizakura",
+      "kohigan"
+    ],
+    "features": [
+      "多品種",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e380665",
+    "name": "大野極楽寺公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "higan-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "河津桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e535601",
+    "name": "光明寺公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "多品種",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60582",
+    "name": "定光寺公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26083",
+    "name": "佐奈川堤の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60240",
+    "name": "とよかわ桜トンネル",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60374",
+    "name": "音羽川堤の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e219206",
+    "name": "御津山園地の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381208",
+    "name": "天王川公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60463",
+    "name": "明石公園(愛知県)の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "さくら名所100選",
+      "屋台あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e380425",
+    "name": "洲原公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26463",
+    "name": "瑞龍寺のしだれ桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "shikizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60357",
+    "name": "水源公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shikizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60442",
+    "name": "愛知県緑化センターの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shikizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e381772",
+    "name": "金剛寺のしだれ桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "shikizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381927",
+    "name": "鞍ケ池公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "higan-zakura",
+      "kanzakura",
+      "gyoikou",
+      "shikizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e428588",
+    "name": "大安寺のしだれ桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "shidarezakura",
+      "shikizakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381399",
+    "name": "安城公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e62095",
+    "name": "愛知こどもの国の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kanhizakura",
+      "gyoikou"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26073",
+    "name": "博物館 明治村の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26074",
+    "name": "犬山城の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26076",
+    "name": "犬山市木曽川河畔一帯の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "有料"
+    ]
+  },
+  {
+    "id": "walker-ar0623e380659",
+    "name": "日本モンキーパークの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381063",
+    "name": "桃太郎公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e460820",
+    "name": "日本庭園 有楽苑の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e26082",
+    "name": "史跡小牧山の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60230",
+    "name": "尾張大國霊神社(国府宮)の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "beni-nanden"
+    ],
+    "features": [
+      "無料",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60386",
+    "name": "桜ネックレスの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kanzakura",
+      "gyoikou",
+      "ichiyou",
+      "fugenzou",
+      "kanzan",
+      "jugatsu-zakura",
+      "beni-nanden"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26077",
+    "name": "桜淵公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26080",
+    "name": "愛知県民の森の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e381207",
+    "name": "大池公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e380518",
+    "name": "城山公園(愛知)の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60239",
+    "name": "大山緑地の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e26078",
+    "name": "岩倉五条川の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381931",
+    "name": "滝頭公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0623e60247",
+    "name": "清洲城周辺の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381923",
+    "name": "三好公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "higan-zakura",
+      "fuyu-zakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381916",
+    "name": "愛・地球博記念公園(モリコロパーク)の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "higan-zakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0623e60241",
+    "name": "大口町 五条川の桜並木",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0623e382208",
+    "name": "於大のみちの桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "gyoikou",
+      "ukon",
+      "yaebenishidare-sanokei",
+      "kanzan",
+      "fugenzou",
+      "shogetsu",
+      "kikuzakura",
+      "shirotae"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0623e381574",
+    "name": "幸田文化公園の桜",
+    "prefecture": "愛知県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  }
+]

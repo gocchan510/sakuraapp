@@ -1,0 +1,675 @@
+[
+  {
+    "spot_id": "walker-ar0726e536449",
+    "spot_name": "嵯峨野トロッコ列車の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://rurubu.jp/andmore/spot/80027250/sakura",
+      "https://tabi-siyo.com/sagano-season-sakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e582577",
+    "spot_name": "黒田の百年桜",
+    "prefecture": "京都府",
+    "high_confidence": ["クロダヒャクネン"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://kyoto-keihoku.jp/howto/see/1226/",
+      "https://totteoki.kyoto.travel/48362/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e588995",
+    "spot_name": "金花山宝泉寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["sendaiya"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": ["観音桜", "平安しだれ桜"],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/48329/",
+      "http://www.kyoto-hosenji.jp/sakura.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e26119",
+    "spot_name": "醍醐寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["kawaduzakura", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.daigoji.or.jp/flowers/flowers_detail1.html",
+      "https://weathernews.jp/sakura/spot/307/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60621",
+    "spot_name": "城南宮 神苑 楽水苑の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["beni-shidare"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/46948/",
+      "https://sp.jorudan.co.jp/hanami/spot_790.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e377750",
+    "spot_name": "淀水路の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/28467/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e380660",
+    "spot_name": "御香宮神社の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["beni-shidare"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/46948/",
+      "http://www.imamiya.jp/haruhanakyoko/info/goko.htm"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e381577",
+    "spot_name": "伏見桃山城の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e381922",
+    "spot_name": "墨染寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/46962/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e588802",
+    "spot_name": "伏見十石舟の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e26120",
+    "spot_name": "毘沙門堂の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["ukon"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kyoto-hana.net/sakura1102.html",
+      "https://totteoki.kyoto.travel/47063/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60605",
+    "spot_name": "勧修寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e380655",
+    "spot_name": "大石神社の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kyoto-hana.net/sakura1101.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e381775",
+    "spot_name": "岩屋寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e459562",
+    "spot_name": "将軍塚青龍殿の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0726e459562/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e459580",
+    "spot_name": "隨心院の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/49086/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e380415",
+    "spot_name": "大原野神社の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": ["千眼桜"],
+    "source_urls": [
+      "https://oharano-jinja.jp/senganzakura/",
+      "https://totteoki.kyoto.travel/47352/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e380416",
+    "spot_name": "正法寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e460228",
+    "spot_name": "勝持寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/47349/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e461337",
+    "spot_name": "善峯寺の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["botan"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://totteoki.kyoto.travel/47408/",
+      "http://www.yoshiminedera.com/seasons/spring/index.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60469",
+    "spot_name": "京都府・緑化センターの桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.fukuchiyama.lg.jp/soshiki/64/8257.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60643",
+    "spot_name": "福知山城の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e428584",
+    "spot_name": "三段池公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["usuzumi"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0726e428584/",
+      "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%AE%B5%E6%B1%A0%E5%85%AC%E5%9C%92"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60225",
+    "spot_name": "引揚記念公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.maizuru.kyoto.jp/kurashi/0000009013.html",
+      "https://maizuru-kanko.net/archives/pickup/3427"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60226",
+    "spot_name": "共楽公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e26122",
+    "spot_name": "宇治橋上流の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60514",
+    "spot_name": "宇治市植物公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["syuzenjikanzakura", "koshi-no-higan"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0726e60514/",
+      "https://uji-citypark.jp/botanical/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60624",
+    "spot_name": "山城総合運動公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e220488",
+    "spot_name": "平等院の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["shidarezakura", "someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kyoto-hana.net/sakura1301.html",
+      "https://www.keihan.co.jp/sakura/kyoto/spot/byodoin.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e26133",
+    "spot_name": "傘松公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0726e26133/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e26130",
+    "spot_name": "七谷川・和らぎの道の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://morinokyoto.jp/event/sakura1/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60470",
+    "spot_name": "保津峡の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e382335",
+    "spot_name": "亀岡運動公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60471",
+    "spot_name": "鴻ノ巣山の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60358",
+    "spot_name": "向日神社の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e382211",
+    "spot_name": "桜の径・噴水公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60260",
+    "spot_name": "長岡天満宮八条ヶ池の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/61023/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e401216",
+    "spot_name": "勝竜寺城公園(勝龍寺城)の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e26124",
+    "spot_name": "淀川河川公園背割堤地区の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60609",
+    "spot_name": "石清水八幡宮の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/311/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e428072",
+    "spot_name": "馬坂川の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e381082",
+    "spot_name": "離湖公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e381934",
+    "spot_name": "大野ダム公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60218",
+    "spot_name": "地蔵禅院の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://narasen.mi-ktt.ne.jp/place/jizoin/",
+      "https://www.town.ide.kyoto.jp/soshiki/sangyoukankyou/kankou_meisyo/1394518093220.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60221",
+    "spot_name": "玉川の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e382409",
+    "spot_name": "正寿院の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://sp.jorudan.co.jp/hanami/spot_1589.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60473",
+    "spot_name": "笠置キャンプ場(木津川畔)の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0726e60389",
+    "spot_name": "けいはんな記念公園(京都府立関西文化学術研究都市記念公園)の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["yoko"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://keihanna-park.net/blog/%E5%85%AC%E5%9C%92%E3%81%AE%E6%A1%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+      "https://weathernews.jp/sakura/spot/61022/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60361",
+    "spot_name": "わち山野草の森の桜",
+    "prefecture": "京都府",
+    "high_confidence": ["ukon"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0726e60361/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e60474",
+    "spot_name": "大内峠一字観公園の桜",
+    "prefecture": "京都府",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/61031/"
+    ]
+  }
+]

@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "walker-ar0101e25532",
+    "name": "円山公園の桜(北海道)",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "honseijishidare",
+      "itozakura",
+      "shidarezakura",
+      "ezoyamazakura",
+      "yamazakura",
+      "yoshino-yamazakura",
+      "maruyama",
+      "someiyoshino",
+      "mazakura",
+      "kurama"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e536782",
+    "name": "旭山記念公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "asahiyama",
+      "yamazakura",
+      "jugatsu-zakura",
+      "mazakura",
+      "ハコネザクラ",
+      "gotenba-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e537845",
+    "name": "中島公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "botan",
+      "yamazakura",
+      "kawaduzakura",
+      "mazakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura",
+      "chishima-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e537272",
+    "name": "新川さくら並木の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "yamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e25533",
+    "name": "モエレ沼公園サクラの森の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ケヤマザクラ",
+      "chishima-zakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60097",
+    "name": "北海道立真駒内公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "yamazakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "botan",
+      "mazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60101",
+    "name": "五稜郭公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "kamiiso-ushiozakura",
+      "yamazakura",
+      "botan",
+      "kawaduzakura",
+      "mazakura",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60118",
+    "name": "函館公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "kamiiso-ushiozakura",
+      "シロヤマザクラ",
+      "ezoyamazakura",
+      "kanzan",
+      "fugenzou",
+      "yamazakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "mazakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60098",
+    "name": "小樽公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "botan",
+      "kawaduzakura",
+      "kurama",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60090",
+    "name": "旭山公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "kasumizakura",
+      "yamazakura",
+      "asahiyama",
+      "chishima-zakura",
+      "botan",
+      "ukon",
+      "america",
+      "mazakura",
+      "gotenba-zakura",
+      "gyoikou",
+      "oshimazakura",
+      "uwamizu-zakura",
+      "ハコネザクラ",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "jugatsu-zakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e100948",
+    "name": "うらかわ千本桜　優駿さくらロード",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "botan",
+      "yamazakura",
+      "kawaduzakura",
+      "mazakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e23376",
+    "name": "二十間道路桜並木の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "kasumizakura",
+      "miyamazakura",
+      "yamazakura",
+      "haruka",
+      "miyama-zakura",
+      "someiyoshino",
+      "mazakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0207e25692",
+    "name": "三春滝桜",
+    "prefecture": "福島県",
+    "existing_varieties": [
+      "edohigan-zakura",
+      "azumahigan",
+      "edohigan-yamataka-jindai-zakura",
+      "taki-no-sakura",
+      "beni-shidare",
+      "edohigan",
+      "shidarezakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25833",
+    "name": "千鳥ヶ淵緑道の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "yamazakura",
+      "maihime",
+      "oshimazakura",
+      "シロヒガン",
+      "syuzenjikanzakura",
+      "someiyoshino",
+      "kanhizakura",
+      "kurama",
+      "botan",
+      "mazakura",
+      "yoshino-yamazakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25849",
+    "name": "目黒川の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "oshima-zakura",
+      "someiyoshino",
+      "oshimazakura",
+      "kanzan",
+      "yoshino-yamazakura",
+      "kawaduzakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60635",
+    "name": "吉野山(上千本)の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "kasumizakura",
+      "シロヤマザクラ",
+      "yamazakura",
+      "botan",
+      "kawaduzakura",
+      "mazakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "多品種"
+    ]
+  },
+  {
+    "id": "walker-ar0313e25817",
+    "name": "上野恩賜公園の桜",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "yamazakura",
+      "kawaduzakura",
+      "amanogawa",
+      "ichiyou",
+      "shogetsu",
+      "kanzakura",
+      "oshimazakura",
+      "シロヒガン",
+      "ukon",
+      "jugatsu-zakura",
+      "kanhizakura",
+      "kanzan",
+      "ueno-shirayuki-shidare",
+      "yoko",
+      "komatsu-otome",
+      "シロヤマザクラ",
+      "fugenzou",
+      "fukurokujyu",
+      "higan-zakura",
+      "someiyoshino",
+      "gyoikou",
+      "botan",
+      "o-kanzakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "mazakura",
+      "kurama"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0727e26137",
+    "name": "大阪城公園の桜",
+    "prefecture": "大阪府",
+    "existing_varieties": [
+      "kanzan",
+      "yamazakura",
+      "someiyoshino",
+      "oshimazakura",
+      "shidarezakura",
+      "oshima-zakura",
+      "omurazakura",
+      "botan",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "mazakura",
+      "kurama"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0420e25997",
+    "name": "高遠城址公園の桜",
+    "prefecture": "長野県",
+    "existing_varieties": [
+      "kohigan",
+      "takato-kohigan",
+      "yamazakura",
+      "matsumae-hayazaki",
+      "mamezakura",
+      "matsumae-fukujuzakura",
+      "botan",
+      "america",
+      "kawaduzakura",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "一本桜",
+      "ライトアップ",
+      "駐車場あり",
+      "有料",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0204e25611",
+    "name": "柴田町船岡城址公園の桜",
+    "prefecture": "宮城県",
+    "existing_varieties": [
+      "kanzan",
+      "yamazakura",
+      "kawaduzakura",
+      "shidarezakura",
+      "someiyoshino",
+      "kanhizakura",
+      "higan-zakura",
+      "botan",
+      "kitanozakura",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kurama"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0205e60527",
+    "name": "角館武家屋敷通りの桜",
+    "prefecture": "秋田県",
+    "existing_varieties": [
+      "someiyoshino",
+      "edohigan",
+      "シロヤマザクラ",
+      "shidarezakura",
+      "yoshino-yamazakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0833e26234",
+    "name": "醍醐桜",
+    "prefecture": "岡山県",
+    "existing_varieties": [
+      "edohigan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "botan",
+      "azumahigan"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60114",
+    "name": "春採公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ケヤマザクラ",
+      "akihimezakura",
+      "kushiro-yae",
+      "miyama-zakura",
+      "chishima-zakura",
+      "higan-zakura",
+      "botan",
+      "uwamizu-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60096",
+    "name": "帯広市緑ケ丘公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "yamazakura",
+      "botan",
+      "yoshino-yamazakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "shidarezakura",
+      "kurama",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60103",
+    "name": "苫小牧市緑ヶ丘公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "yamazakura",
+      "botan",
+      "mazakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e25556",
+    "name": "美唄市東明公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "yamazakura",
+      "chishima-zakura",
+      "botan",
+      "mazakura",
+      "kurama",
+      "kawaduzakura",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60100",
+    "name": "芦別市旭ケ丘公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60115",
+    "name": "弥生公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e25540",
+    "name": "清隆寺の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "chishima-zakura",
+      "ezoyamazakura",
+      "botan",
+      "yamazakura",
+      "ooyamazakura",
+      "mazakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60104",
+    "name": "登別桜並木の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "botan",
+      "yamazakura",
+      "kawaduzakura",
+      "kurama",
+      "mazakura",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0101e25553",
+    "name": "有珠善光寺自然公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "higan-zakura",
+      "シロヤマザクラ",
+      "ezoyamazakura",
+      "botan",
+      "yamazakura",
+      "yoshino-yamazakura",
+      "kawaduzakura",
+      "mazakura",
+      "shidarezakura",
+      "kurama",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60117",
+    "name": "松前藩戸切地(へきりち)陣屋跡桜並木トンネル",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "kamiiso-ushiozakura",
+      "jugatsu-zakura",
+      "gyoikou",
+      "horiihizakura",
+      "botan",
+      "kawaduzakura",
+      "aoba",
+      "kurama",
+      "morikomachi",
+      "ヒザクラ",
+      "higan-zakura",
+      "matsumae-hayazaki",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "ukon",
+      "kanhizakura"
+    ],
+    "features": [
+      "一本桜",
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e216009",
+    "name": "清川千本桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "kamiiso-ushiozakura",
+      "higan-zakura",
+      "botan",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60112",
+    "name": "光善寺(血脈桜)の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ヤチヨ",
+      "matsumae-hanamiyako",
+      "kokonoe",
+      "ハナカゴト",
+      "ヒメタカサゴ",
+      "shinranshonin-juzukake-zakura",
+      "kurama"
+    ],
+    "features": [
+      "ライトアップ",
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60102",
+    "name": "青葉ヶ丘公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "gyoikou",
+      "ukon",
+      "horiihizakura",
+      "kanzan",
+      "yamazakura",
+      "mazakura",
+      "morikomachi",
+      "ヒザクラ",
+      "shidarezakura",
+      "kurama",
+      "chishima-zakura",
+      "ooyamazakura",
+      "hotate",
+      "aoba",
+      "oshimazakura",
+      "beni-shidare",
+      "yoshino-yamazakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60116",
+    "name": "オニウシ公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "shogetsu-isyu",
+      "chishima-zakura",
+      "horiihizakura",
+      "botan",
+      "mazakura",
+      "kurama",
+      "kawaduzakura",
+      "ヒザクラ",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60110",
+    "name": "さらんべ公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "botan",
+      "yamazakura",
+      "kawaduzakura",
+      "kurama",
+      "mazakura",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "無料"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60106",
+    "name": "奈井江町にわ山森林自然公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "yamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60099",
+    "name": "栗山公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "yamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "無料",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60113",
+    "name": "北竜町金比羅公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e180120",
+    "name": "パレットヒルズの桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "yamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60108",
+    "name": "洞爺湖畔の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "someiyoshino",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60109",
+    "name": "安平町鹿公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0101e60111",
+    "name": "神楽岡公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "ezoyamazakura",
+      "yamazakura",
+      "higan-zakura",
+      "botan",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0101e60105",
+    "name": "えりも町庶野さくら公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "ezoyamazakura",
+      "botan",
+      "yamazakura",
+      "kawaduzakura",
+      "mazakura",
+      "kurama",
+      "higan-zakura",
+      "shidarezakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0101e25549",
+    "name": "別保公園の桜",
+    "prefecture": "北海道",
+    "existing_varieties": [
+      "chishima-zakura",
+      "botan",
+      "kushiro-yae",
+      "yamazakura",
+      "ooyamazakura",
+      "kawaduzakura",
+      "mazakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0202e25561",
+    "name": "合浦公園の桜",
+    "prefecture": "青森県",
+    "existing_varieties": [
+      "kanzan",
+      "kanhizakura",
+      "yoshino-yamazakura",
+      "kitanozakura",
+      "shidarezakura",
+      "kurama",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0202e25564",
+    "name": "三八城公園の桜",
+    "prefecture": "青森県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "botan",
+      "kitanozakura",
+      "yoshino-yamazakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "shidarezakura",
+      "kurama",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0202e25565",
+    "name": "八戸公園の桜",
+    "prefecture": "青森県",
+    "existing_varieties": [
+      "oshidorizakura",
+      "シロヤマザクラ",
+      "botan",
+      "kitanozakura",
+      "kawaduzakura",
+      "higan-zakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0202e60351",
+    "name": "東公園さくら山の桜",
+    "prefecture": "青森県",
+    "existing_varieties": [
+      "higan-zakura",
+      "シロヤマザクラ",
+      "botan",
+      "kurama",
+      "kitanozakura",
+      "yoshino-yamazakura",
+      "someiyoshino",
+      "gyoikou",
+      "kawaduzakura",
+      "kanhizakura"
+    ],
+    "features": []
+  }
+]

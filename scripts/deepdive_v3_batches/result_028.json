@@ -1,0 +1,329 @@
+[
+  {
+    "spot_id": "zenpukujigawa-ryokuchi",
+    "spot_name": "善福寺川緑地",
+    "prefecture": "東京都",
+    "high_confidence": ["yamazakura", "oshimazakura", "shidarezakura", "edohigan-zakura", "kanhizakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.chuosen-rr.com/lookwalk/zempukujigawa-ryokuchi/",
+      "https://hanami.walkerplus.com/detail/ar0313e25840/"
+    ]
+  },
+  {
+    "spot_id": "tama-reien",
+    "spot_name": "多磨霊園",
+    "prefecture": "東京都",
+    "high_confidence": ["shidarezakura", "yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://tekesuke.com/tamareien-sakura/",
+      "https://www.koganeya-148.com/koganeyablog/2019/03/28/%E5%A4%9A%E7%A3%A8%E9%9C%8A%E5%9C%92%E3%81%97%E3%81%A0%E3%82%8C%E6%A1%9C/"
+    ]
+  },
+  {
+    "spot_id": "hikarigaoka-park",
+    "spot_name": "光が丘公園",
+    "prefecture": "東京都",
+    "high_confidence": ["oshimazakura", "yamazakura", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.tokyo-park.or.jp/announcement/023/files/5fa4bb039aa3e9dcb4dd41df51922bce.pdf",
+      "https://iwalkedblog.com/?p=52788"
+    ]
+  },
+  {
+    "spot_id": "hikawa-sando",
+    "spot_name": "武蔵一宮氷川神社参道",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "sakitama-kofun-park",
+    "spot_name": "さきたま古墳公園",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.gyoda-kankoukyoukai.jp/gyodasakura.html"
+    ]
+  },
+  {
+    "spot_id": "gongendo-sakuratsutsumi",
+    "spot_name": "幸手権現堂桜堤",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.satte-k.com/event/sakura/"
+    ]
+  },
+  {
+    "spot_id": "musashikyuryo",
+    "spot_name": "武蔵丘陵森林公園",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "kawagoe-kitain",
+    "spot_name": "川越・喜多院",
+    "prefecture": "埼玉県",
+    "high_confidence": ["kohigan"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "shidarezakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kawagoe-kankou.net/sakura/"
+    ]
+  },
+  {
+    "spot_id": "inage-seaside-park",
+    "spot_name": "稲毛海浜公園",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "naritasan-sakura",
+    "spot_name": "成田さくらの山",
+    "prefecture": "千葉県",
+    "high_confidence": ["yamazakura", "shidarezakura", "higan-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "kawaduzakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://maruchiba.jp/spot/detail_10149.html",
+      "https://hanami.walkerplus.com/detail/ar0312e25807/"
+    ]
+  },
+  {
+    "spot_id": "inba-numa-cycling-road",
+    "spot_name": "印旛沼サイクリングロード桜並木",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "funabashi-ebigawa",
+    "spot_name": "海老川ジョギングロード",
+    "prefecture": "千葉県",
+    "high_confidence": ["jindai-akebono"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://funabashi.mypl.net/article/sakura_chibapref/9715",
+      "https://chiicomi.com/press/2042809/"
+    ]
+  },
+  {
+    "spot_id": "mitake-okutagawa",
+    "spot_name": "奥多摩・御岳山",
+    "prefecture": "東京都",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yamahack.com/2889"
+    ]
+  },
+  {
+    "spot_id": "takao-mountain",
+    "spot_name": "高尾山",
+    "prefecture": "東京都",
+    "high_confidence": ["shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["oshimazakura", "yamazakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://takao-fumoto.com/takaosan-navi/cherry-blossoms-at-mount-takao/"
+    ]
+  },
+  {
+    "spot_id": "jindai-botanical",
+    "spot_name": "神代植物公園",
+    "prefecture": "東京都",
+    "high_confidence": [
+      "someiyoshino", "oshimazakura", "yamazakura", "shidarezakura",
+      "edohigan-zakura", "o-kanzakura", "kanzakura", "kawaduzakura",
+      "kanhizakura", "edo", "shogetsu", "murasakizakura",
+      "スザク", "arashiyama", "mikurumagaeshi", "shirotae",
+      "kanzan", "fukurokujyu"
+    ],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["ukon", "jindai-akebono", "gyoikou", "houraizakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.tokyo-park.or.jp/announcement/045/20230316-5.pdf",
+      "https://www.tbt.gr.jp/jindai-botanical-garden-cherry-blossoms-complete-guide/",
+      "https://salonkinoe.com/shindai-sakura2025/"
+    ]
+  },
+  {
+    "spot_id": "hadano-tokawa-park",
+    "spot_name": "秦野戸川公園",
+    "prefecture": "神奈川県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kanzan"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kanagawa-park.or.jp/hadanotokawa/kaika.html"
+    ]
+  },
+  {
+    "spot_id": "tenranzan",
+    "spot_name": "天覧山・多峯主山",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "nagatoro-sakura",
+    "spot_name": "長瀞・北桜通り",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.nagatoro.gr.jp/spot/sakura/"
+    ]
+  },
+  {
+    "spot_id": "hodosan",
+    "spot_name": "宝登山",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hodosan-ropeway.co.jp/tourism/sakura/"
+    ]
+  },
+  {
+    "spot_id": "shimine-park",
+    "spot_name": "城峯公園",
+    "prefecture": "埼玉県",
+    "high_confidence": ["someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["fuyu-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://chocotabi-saitama.jp/spot/34454/",
+      "https://sp.jorudan.co.jp/hanami/spot_97.html"
+    ]
+  },
+  {
+    "spot_id": "myogisan-sakura",
+    "spot_name": "妙義山さくらの里",
+    "prefecture": "群馬県",
+    "high_confidence": ["someiyoshino", "ooyamazakura", "edohigan-zakura", "kanzan", "fugenzou", "sanozakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["yamazakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.pref.gunma.jp/page/18975.html",
+      "https://yamahack.com/2082"
+    ]
+  },
+  {
+    "spot_id": "tama-forest-science",
+    "spot_name": "多摩森林科学園",
+    "prefecture": "東京都",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.ffpri.affrc.go.jp/tmk/cherry/cherry.html"
+    ]
+  },
+  {
+    "spot_id": "isazawa-kubozakura",
+    "spot_name": "伊佐沢の久保桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["edohigan-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E4%BC%8A%E4%BD%90%E6%B2%A2%E3%81%AE%E4%B9%85%E4%BF%9D%E3%82%B6%E3%82%AF%E3%83%A9"
+    ]
+  }
+]

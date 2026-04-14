@@ -1,0 +1,614 @@
+[
+  {
+    "id": "walker-ar0624e26084",
+    "name": "津偕楽公園の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0624e26096",
+    "name": "君ヶ野ダム公園の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0624e26085",
+    "name": "五十鈴川堤の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "yokowazakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0624e26086",
+    "name": "宮川堤の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "yokowazakura"
+    ],
+    "features": [
+      "さくら名所100選"
+    ]
+  },
+  {
+    "id": "walker-ar0624e60354",
+    "name": "春谷寺エドヒガンザクラ",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "edohigan-ichifusa-beni",
+      "higan-zakura",
+      "edohigan-zakura",
+      "edohigan"
+    ],
+    "features": [
+      "ライトアップ",
+      "一本桜"
+    ]
+  },
+  {
+    "id": "walker-ar0624e26094",
+    "name": "九華公園の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kinryu-zakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0624e60513",
+    "name": "鳥羽城跡 城山公園の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0624e26091",
+    "name": "上野公園の桜(三重県)",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "yonono-yaezakura",
+      "ueno-shirayuki-shidare",
+      "gyoikou",
+      "kawaduzakura",
+      "kanzakura",
+      "kanzan",
+      "yoko",
+      "someiyoshino",
+      "maihime",
+      "シロヒガン",
+      "kanhizakura",
+      "komatsu-otome"
+    ],
+    "features": [
+      "ライトアップ",
+      "さくら名所100選",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0624e60586",
+    "name": "湯の山温泉の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0624e60592",
+    "name": "田丸城跡の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり",
+      "桜祭り",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0624e64678",
+    "name": "宮リバー度会パークの桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "河津桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0624e60215",
+    "name": "大滝峡自然公園の桜",
+    "prefecture": "三重県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26098",
+    "name": "石山寺の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "hiyoshizakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26099",
+    "name": "三井寺(園城寺)の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "hiyoshizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26100",
+    "name": "琵琶湖疏水の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "hiyoshizakura"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26109",
+    "name": "奥比叡・延暦寺境内の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "hiyoshizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60614",
+    "name": "南郷水産センターの桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "hiyoshizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e26101",
+    "name": "国宝・彦根城の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26102",
+    "name": "豊公園(長浜城)の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0725e60288",
+    "name": "虎御前山の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60465",
+    "name": "水口岡山城跡の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60466",
+    "name": "水口スポーツの森周辺の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0726e26118",
+    "name": "御室(仁和寺)の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura",
+      "gyoikou",
+      "omuro-ariake"
+    ],
+    "features": [
+      "さくら名所100選"
+    ]
+  },
+  {
+    "id": "walker-ar0729e584440",
+    "name": "高見の郷の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26147",
+    "name": "須磨浦山上遊園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0727e60392",
+    "name": "勝ち運の寺 勝尾寺の桜",
+    "prefecture": "大阪府",
+    "existing_varieties": [
+      "kanhizakura",
+      "raikoji-kiku-zakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0725e62922",
+    "name": "甲南町下野川の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0725e60293",
+    "name": "滋賀県立近江富士花緑公園の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0725e60468",
+    "name": "雨山文化運動公園の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e427946",
+    "name": "じゅらくの里の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "kanzakura"
+    ],
+    "features": [
+      "有料"
+    ]
+  },
+  {
+    "id": "walker-ar0725e26108",
+    "name": "海津大崎の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60376",
+    "name": "清水(しょうず)の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60266",
+    "name": "「国史跡」釈迦山 百済寺(湖東三山)の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "eigenji"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60278",
+    "name": "清瀧寺徳源院の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0725e60591",
+    "name": "滋賀県醒井養鱒場の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0725e60264",
+    "name": "金剛輪寺の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0725e60265",
+    "name": "湖東三山西明寺の桜",
+    "prefecture": "滋賀県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kanhizakura",
+      "fudan-zakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0726e26129",
+    "name": "平野神社の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "higan-zakura",
+      "kanzakura",
+      "ツクバネ",
+      "キヌガサ",
+      "kocho",
+      "ヒラノネザメ",
+      "taoyame",
+      "arashiyama",
+      "torano-o",
+      "shogetsu",
+      "gyoikou",
+      "yaebenishidare-sanokei",
+      "yamazakura",
+      "oshimazakura",
+      "hiranojinja-imose",
+      "ヒラノニオイ",
+      "someiyoshino",
+      "シロヒガン",
+      "shidarezakura",
+      "シラクモ",
+      "nadeshiko-zakura",
+      "hirano-tsukubane"
+    ],
+    "features": [
+      "夜桜",
+      "多品種"
+    ]
+  },
+  {
+    "id": "walker-ar0726e31233",
+    "name": "上賀茂神社の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura",
+      "kanhizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0726e381571",
+    "name": "上品蓮台寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0726e382076",
+    "name": "常照寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0726e461160",
+    "name": "原谷苑の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "gyoikou",
+      "kikuzakura",
+      "youkihi",
+      "shogetsu",
+      "shirotae",
+      "yoko",
+      "fugenzou",
+      "kanzan"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0726e461428",
+    "name": "等持院の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0726e380664",
+    "name": "大本山 妙蓮寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0726e380829",
+    "name": "立本寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0726e381061",
+    "name": "妙顕寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "一本桜",
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0726e381769",
+    "name": "本法寺の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0726e382421",
+    "name": "日蓮宗本山 本満寺のしだれ桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0726e458786",
+    "name": "京都御苑の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "gyoikou",
+      "mikurumagaeshi",
+      "hiranojinja-imose",
+      "ichiharatoranoo"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0726e459920",
+    "name": "晴明神社の桜",
+    "prefecture": "京都府",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "河津桜",
+      "駐車場あり"
+    ]
+  }
+]

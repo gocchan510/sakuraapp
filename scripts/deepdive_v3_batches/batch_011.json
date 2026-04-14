@@ -1,0 +1,638 @@
+[
+  {
+    "id": "walker-ar0314e25881",
+    "name": "長興山紹太寺のしだれ桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60454",
+    "name": "アネスト岩田 ターンパイク箱根 御所の入駐車場付近の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "ハコネザクラ"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e377382",
+    "name": "小田原フラワーガーデンの桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "higan-zakura",
+      "gyoikou",
+      "kanzan",
+      "okame",
+      "jindai-akebono",
+      "yaebeni-ohshima",
+      "ukon",
+      "gotenba-zakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e495002",
+    "name": "小出川沿いの河津桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0314e377275",
+    "name": "小松ヶ池公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e381588",
+    "name": "三浦海岸の河津桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawadzushogatu",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e25866",
+    "name": "弘法山公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e461924",
+    "name": "出雲大社相模分祠の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "sendaiya",
+      "yoko",
+      "kanhizakura",
+      "kokeshimizu",
+      "kanzakura",
+      "someiyoshino",
+      "keio-zakura",
+      "shidarezakura",
+      "tairyo-zakura",
+      "シロヤマザクラ",
+      "fuyu-zakura",
+      "shirayuki",
+      "シロヒガン",
+      "surugadai-nioi",
+      "komatsu-otome",
+      "okame",
+      "jindai-akebono",
+      "taihaku",
+      "higan-zakura"
+    ],
+    "features": [
+      "桜並木",
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e582195",
+    "name": "秦野市カルチャーパークの桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e582375",
+    "name": "はだの桜みち",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0314e25868",
+    "name": "飯山白山森林公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0314e381785",
+    "name": "大山新道のおかめ桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "okame"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60151",
+    "name": "相模が丘仲よし小道 さくら百華の道の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "higan-zakura",
+      "fuyu-zakura",
+      "kanhizakura",
+      "kanzakura",
+      "okame",
+      "keio-zakura",
+      "kokeshimizu",
+      "komatsu-otome",
+      "shirayuki",
+      "jindai-akebono",
+      "surugadai-nioi",
+      "sendaiya",
+      "taihaku",
+      "tairyo-zakura",
+      "yoko",
+      "someiyoshino",
+      "shidarezakura",
+      "シロヒガン"
+    ],
+    "features": [
+      "多品種",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60152",
+    "name": "東原桜並木の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e582869",
+    "name": "春木径・幸せ道の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "ashigarazakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60209",
+    "name": "綾西緑地の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60368",
+    "name": "寒川神社の表参道と境内の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e380428",
+    "name": "大磯駅及び坂田山斜面の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e461927",
+    "name": "大磯プリンスホテル前(葛川沿い)の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e461933",
+    "name": "馬場公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e586607",
+    "name": "大磯運動公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e537267",
+    "name": "吾妻山公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e402794",
+    "name": "BIOTOPIA(ビオトピア)の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "gyoikou",
+      "ukon"
+    ],
+    "features": [
+      "河津桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e495847",
+    "name": "おおいゆめの里の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e377380",
+    "name": "西平畑公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawazu-zakura"
+    ],
+    "features": [
+      "河津桜",
+      "桜祭り",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0314e495185",
+    "name": "あぐりパーク嵯峨山苑の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "kanhizakura",
+      "okame"
+    ],
+    "features": [
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60581",
+    "name": "山北鉄道公園(御殿場線沿い桜並木の通り)の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e25874",
+    "name": "箱根強羅公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "jugatsu-zakura",
+      "ハコネザクラ"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e25875",
+    "name": "宮城野早川堤の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0314e60506",
+    "name": "恩賜箱根公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "ハコネザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e381932",
+    "name": "箱根湯本の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kawazu-zakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "河津桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e381936",
+    "name": "大平台のしだれ桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0314e382070",
+    "name": "箱根 芦ノ湖の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0314e60573",
+    "name": "荒井城址公園の桜",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25888",
+    "name": "鳥屋野潟(鳥屋野潟公園女池・鐘木地区)の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25889",
+    "name": "信濃川やすらぎ堤緑地の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0415e60538",
+    "name": "白山公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25893",
+    "name": "秋葉公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0415e25896",
+    "name": "桜遊歩道公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0415e582371",
+    "name": "上堰潟公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25890",
+    "name": "悠久山公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "gyoikou",
+      "ヤエヤマコシ"
+    ],
+    "features": [
+      "有料",
+      "無料",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25891",
+    "name": "赤坂山公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25892",
+    "name": "新発田城址公園の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0415e25908",
+    "name": "加治川堤の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0420e60571",
+    "name": "弘法山古墳の桜",
+    "prefecture": "長野県",
+    "existing_varieties": [
+      "sasaga-oshidori"
+    ],
+    "features": [
+      "さくら名所100選"
+    ]
+  },
+  {
+    "id": "walker-ar0420e25986",
+    "name": "臥竜公園の桜",
+    "prefecture": "長野県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0420e60180",
+    "name": "光前寺のしだれ桜",
+    "prefecture": "長野県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "一本桜",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0420e60570",
+    "name": "光城山の桜",
+    "prefecture": "長野県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0419e25968",
+    "name": "河口湖畔(北岸)の桜",
+    "prefecture": "山梨県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0415e60122",
+    "name": "橡平サクラ樹林の桜",
+    "prefecture": "新潟県",
+    "existing_varieties": [
+      "yamazakura"
+    ],
+    "features": []
+  }
+]

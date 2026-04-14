@@ -1,0 +1,717 @@
+[
+  {
+    "spot_id": "walker-ar0834e60284",
+    "spot_name": "住吉堤防敷の桜",
+    "prefecture": "広島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0834e60284/",
+      "https://www.jalan.net/kankou/spt_34213ac2100134222/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0834e60285",
+    "spot_name": "桂公園の桜",
+    "prefecture": "広島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0834/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0834e60673",
+    "spot_name": "八千代湖周辺の桜",
+    "prefecture": "広島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0834e60673/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0834e60292",
+    "spot_name": "真道山の桜",
+    "prefecture": "広島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": ["約20品種・1300本以上の桜があると記述されるが具体的品種名の明記なし"],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://sp.jorudan.co.jp/hanami/spot_638.html",
+      "https://weathernews.jp/sakura/spot/67006/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26260",
+    "spot_name": "火の山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0835e26260/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26261",
+    "spot_name": "功山寺の桜",
+    "prefecture": "山口県",
+    "high_confidence": ["ukon"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["gyoikou"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0835e26261/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26277",
+    "spot_name": "戦場ヶ原公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0835e26277/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26278",
+    "spot_name": "老の山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yama.minato-yamaguchi.co.jp/tabishika/kudamatsu_sakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26262",
+    "spot_name": "ときわ公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": ["kanhizakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawaduzakura", "gyoikou", "mamezakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.tokiwapark.jp/green/sakura.html",
+      "https://hanami.walkerplus.com/detail/ar0835e26262/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e27972",
+    "spot_name": "今富ダム公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26263",
+    "spot_name": "一の坂川の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0835e26263/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26264",
+    "spot_name": "香山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0835e26264/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26271",
+    "spot_name": "徳佐八幡宮の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": ["「ヒガンザクラとシダレザクラの混植」と記述されるが、shidarezaakuraはexisting。ヒガンザクラは間接的記述のみ"],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ouchi-culture.com/spot/spot-367/",
+      "https://yamaguchi-tourism.jp/spot/detail_10165.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60481",
+    "spot_name": "大原湖(佐波川ダム)の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26265",
+    "spot_name": "萩城跡指月公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": ["midori-yoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.yamaguchi-ch.com/sakura/hagijo/",
+      "https://sp.jorudan.co.jp/hanami/spot_401.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60671",
+    "spot_name": "橋本川沿いの桜並木",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60672",
+    "spot_name": "笠山の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26272",
+    "spot_name": "防府天満宮の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": ["シダレザクラ1本・八重桜・寒桜の記述あるが、kawaduzakuraはexisting、具体品種名不明確"],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawaduzakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://visit-hofu.jp/flower/sakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26273",
+    "spot_name": "毛利氏庭園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26266",
+    "spot_name": "切戸川の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60482",
+    "spot_name": "花岡八幡宮の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e377377",
+    "spot_name": "笠戸島の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawazu-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e401827",
+    "spot_name": "下松スポーツ公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura", "someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26267",
+    "spot_name": "錦帯橋の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": ["カンザン・オオシマザクラ・ヤマザクラの記述あるが情報源が不明確（検索AIの要約）"],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://kankou.iwakuni-city.net/kintaikyo-sakura.html",
+      "https://hanami.walkerplus.com/detail/ar0835e26267/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60350",
+    "spot_name": "吉香公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26279",
+    "spot_name": "大寧寺の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura", "someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.yamaguchi-ch.com/sakura/taineiji/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e26280",
+    "spot_name": "王子山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60397",
+    "spot_name": "柳井ウェルネスパークの桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60275",
+    "spot_name": "厚狭川河畔の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60276",
+    "spot_name": "秋吉台家族旅行村の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60297",
+    "spot_name": "TOSOH PARK永源山(永源山公園)の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60298",
+    "spot_name": "竜王山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60483",
+    "spot_name": "若山公園の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0835e60668",
+    "spot_name": "田布施川の桜",
+    "prefecture": "山口県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0835/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26284",
+    "spot_name": "眉山公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": ["hachisuka-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.awanavi.jp/archives/spot/2694",
+      "https://funfun-tokushima.jp/enjoy/special/sakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26285",
+    "spot_name": "西部公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.awanavi.jp/archives/spot/2706",
+      "https://hanami.walkerplus.com/detail/ar0936e26285/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e535962",
+    "spot_name": "徳島中央公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": ["hachisuka-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura", "someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.travel.co.jp/guide/article/37280/",
+      "https://hanami.walkerplus.com/detail/ar0936e535962/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26286",
+    "spot_name": "妙見山公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": ["hachisuka-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["シロヤマザクラ"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0936e26286/",
+      "https://tokushima.mypl.net/article/sakura_tokushima/95782"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26289",
+    "spot_name": "津峯公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0936/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26291",
+    "spot_name": "岩脇さくらづつみ公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0936/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e26287",
+    "spot_name": "諏訪公園の桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0936/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e580706",
+    "spot_name": "神山森林公園イルローザの森の桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["シロヤマザクラ", "kamiyama-shidare-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.awanavi.jp/archives/spot/2745",
+      "https://kamiyama-forestpark.jp/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e60219",
+    "spot_name": "吉良のエドヒガンザクラ",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["edohigan-ichifusa-beni", "higan-zakura", "edohigan-zakura", "edohigan"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.awanavi.jp/archives/spot/2695"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0936e60220",
+    "spot_name": "於安パークの桜",
+    "prefecture": "徳島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0936/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0937e26299",
+    "spot_name": "県立琴弾公園の桜",
+    "prefecture": "香川県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0937/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0938e26310",
+    "spot_name": "開山公園の桜",
+    "prefecture": "愛媛県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0938e26310/",
+      "https://shimanami-cycle.or.jp/touch/experience/2132/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0937e26306",
+    "spot_name": "紫雲出山の桜",
+    "prefecture": "香川県",
+    "high_confidence": ["yoko", "yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["シロヤマザクラ"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.mitoyo-kanko.com/mt-shiude/",
+      "https://hanami.walkerplus.com/detail/ar0937e26306/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0937e26302",
+    "spot_name": "朝日山森林公園の桜",
+    "prefecture": "香川県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/list/ar0937/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0937e26294",
+    "spot_name": "特別名勝 栗林公園の桜",
+    "prefecture": "香川県",
+    "high_confidence": ["edohigan-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["シロヤマザクラ", "takamatsu-chigo", "kinashichigozakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ritsuringarden.com/2024sakura_kaika_info_map/",
+      "https://www.my-kagawa.jp/ritsuringarden/news/2300"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0937e26295",
+    "spot_name": "史跡高松城跡玉藻公園の桜",
+    "prefecture": "香川県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["takamatsu-chigo", "kinashichigozakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0937e26295/",
+      "https://www.art-takamatsu.com/jp/travel/sightseeing/entry-381.html"
+    ]
+  }
+]

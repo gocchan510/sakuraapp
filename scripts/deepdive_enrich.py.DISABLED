@@ -1,0 +1,361 @@
+#!/usr/bin/env python3
+"""
+桜スポット品種深掘り検索 v2
+- DuckDuckGo検索 + ページ全文取得 → 品種名抽出 → spots.json 更新
+"""
+
+import json, re, time, os, sys, csv, unicodedata
+from pathlib import Path
+import requests
+from ddgs import DDGS
+
+# ── パス設定 ──────────────────────────────────────────────────────
+BASE = Path("C:/Users/pcyus/Documents/sakura-app")
+SPOTS_JSON    = BASE / "src/data/spots.json"
+VARIETIES_JSON= BASE / "src/data/varieties.json"
+SCRIPTS_DIR   = BASE / "scripts"
+PROGRESS_FILE = SCRIPTS_DIR / "spot_deepdive_progress.json"
+LOG_FILE      = SCRIPTS_DIR / "spot_deepdive_log.csv"
+UNMATCHED_FILE= SCRIPTS_DIR / "unmatched_varieties_log.csv"
+SUMMARY_FILE  = SCRIPTS_DIR / "spot_deepdive_summary.txt"
+
+# ── ユーティリティ ─────────────────────────────────────────────────
+
+def kata_to_hira(s):
+    """カタカナ → ひらがな"""
+    return "".join(
+        chr(ord(c) - 0x60) if 'ァ' <= c <= 'ン' else c
+        for c in s
+    )
+
+def hira_to_kata(s):
+    """ひらがな → カタカナ"""
+    return "".join(
+        chr(ord(c) + 0x60) if 'ぁ' <= c <= 'ん' else c
+        for c in s
+    )
+
+def normalize(s):
+    return unicodedata.normalize("NFKC", s).lower()
+
+# ── 品種インデックス構築 ───────────────────────────────────────────
+
+def build_variety_index(varieties):
+    """
+    Returns:
+      keyword_map: {keyword_normalized -> variety_id}
+      sorted_keywords: キーワードを長い順にソートしたリスト（長い優先マッチ用）
+    """
+    kw_map = {}
+    skip_generic = {"桜", "さくら", "サクラ", "cherry", "cherry blossom"}
+
+    for v in varieties:
+        vid = v["id"]
+        candidates = []
+
+        name = v.get("name", "")
+        if name: candidates.append(name)
+
+        reading = v.get("reading", "")
+        if reading:
+            candidates.append(reading)
+            candidates.append(kata_to_hira(reading))
+            candidates.append(hira_to_kata(reading))
+
+        for alias in v.get("aliases", []):
+            candidates.append(alias)
+
+        for c in candidates:
+            n = normalize(c)
+            if n and n not in skip_generic and len(n) >= 3:
+                if n not in kw_map:
+                    kw_map[n] = vid
+
+    # 長い順にソート（誤マッチ防止）
+    sorted_kws = sorted(kw_map.keys(), key=len, reverse=True)
+    return kw_map, sorted_kws
+
+
+# ── ページテキストから品種抽出 ────────────────────────────────────
+
+# 品種名らしきパターン（未マッチ候補検出用）
+SAKURA_NAME_PAT = re.compile(
+    r'[ぁ-ん]{3,}[ざざ桜]|'        # ひらがな+桜
+    r'[ァ-ン]{3,}[ザ桜]|'         # カタカナ+桜
+    r'[\u4e00-\u9fff]{2,4}[桜ざ]'  # 漢字+桜
+)
+
+def extract_varieties(text, kw_map, sorted_kws, existing_ids, spot_name):
+    """
+    テキストからそのスポットに植わっている品種IDセットを返す。
+    スポット名と同じ段落・近傍（前後300文字）でのみマッチ。
+    """
+    found = set()
+    norm_spot = normalize(spot_name)
+
+    # 段落（改行2つ以上または<p>相当で区切る）
+    paragraphs = re.split(r'\n{2,}|。\s*\n|\.\s*\n', text)
+
+    for para in paragraphs:
+        norm_para = normalize(para)
+        # この段落にスポット名が含まれるか、またはスポット名の近傍（300文字以内）か確認
+        if norm_spot not in norm_para:
+            # スポット名がなくても、テキスト全体でのスポット名の出現位置と近いか確認
+            continue
+
+        # 段落内で品種マッチ
+        for kw in sorted_kws:
+            if kw in norm_para:
+                vid = kw_map[kw]
+                if vid not in existing_ids:
+                    found.add(vid)
+
+    # 段落マッチで見つからない場合は、スポット名前後300文字のウィンドウでも試みる
+    if not found:
+        norm_text = normalize(text)
+        idx = norm_text.find(norm_spot)
+        while idx != -1:
+            window = norm_text[max(0, idx-50):idx+len(norm_spot)+300]
+            for kw in sorted_kws:
+                if kw in window:
+                    vid = kw_map[kw]
+                    if vid not in existing_ids:
+                        found.add(vid)
+            idx = norm_text.find(norm_spot, idx+1)
+
+    return found
+
+def extract_unmatched(text, kw_map, sorted_kws):
+    """品種名らしいがマッチしなかったものを返す"""
+    norm_text = normalize(text)
+    # 既存マッチを除いたテキスト候補
+    candidates = SAKURA_NAME_PAT.findall(text)
+    unmatched = []
+    for c in candidates:
+        n = normalize(c)
+        if n and n not in kw_map and len(n) >= 3:
+            # 前後50文字のコンテキスト
+            idx = text.find(c)
+            ctx = text[max(0,idx-25):idx+len(c)+25].replace("\n"," ")
+            unmatched.append((c, ctx))
+    return unmatched
+
+
+# ── HTTPフェッチ ──────────────────────────────────────────────────
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/120.0.0.0 Safari/537.36"
+}
+SKIP_DOMAINS = [
+    "tenki.jp", "weather.com", "suumo.jp", "noaa.gov",
+    "yahoo.co.jp/weather", "weathernews.jp", "jma.go.jp",
+    "ads.", "doubleclick", "amazon.co.jp", "rakuten.co.jp",
+    "homes.co.jp", "athome.co.jp", "lohaco", "shopping",
+]
+
+def should_skip_url(url):
+    return any(d in url for d in SKIP_DOMAINS)
+
+def fetch_page(url, timeout=10):
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        if r.status_code == 200:
+            # HTMLタグを簡易除去
+            text = re.sub(r'<[^>]+>', ' ', r.text)
+            text = re.sub(r'\s+', ' ', text)
+            return text[:50000]  # 最大50KB
+    except Exception:
+        pass
+    return ""
+
+
+# ── DuckDuckGo検索 ─────────────────────────────────────────────────
+
+def search_spot(spot_name, max_results=5):
+    query = f'"{spot_name}" 桜 品種 種類'
+    urls = []
+    try:
+        with DDGS() as ddgs:
+            for r in ddgs.text(query, region="jp-jp", max_results=max_results):
+                url = r.get("href", "")
+                if url and not should_skip_url(url) and url not in urls:
+                    urls.append(url)
+    except Exception as e:
+        pass
+    return urls[:3]
+
+
+# ── 進捗管理 ──────────────────────────────────────────────────────
+
+def load_progress():
+    if PROGRESS_FILE.exists():
+        try:
+            return json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
+        except:
+            pass
+    return {"processed_ids": [], "stats": {}}
+
+def save_progress(progress):
+    PROGRESS_FILE.write_text(json.dumps(progress, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ── メイン処理 ────────────────────────────────────────────────────
+
+def main():
+    print("=== 桜スポット品種深掘り検索 v2 ===")
+    print(f"Loading varieties...")
+    varieties = json.loads(VARIETIES_JSON.read_text(encoding="utf-8"))
+    kw_map, sorted_kws = build_variety_index(varieties)
+    print(f"  {len(varieties)} varieties, {len(kw_map)} keywords")
+
+    print(f"Loading spots...")
+    spots = json.loads(SPOTS_JSON.read_text(encoding="utf-8"))
+    print(f"  {len(spots)} spots")
+
+    progress = load_progress()
+    processed_ids = set(progress.get("processed_ids", []))
+    print(f"  Already processed: {len(processed_ids)}")
+
+    # 対象: varieties < 30 かつ未処理
+    targets = [s for s in spots if len(s.get("varieties", [])) < 30 and s["id"] not in processed_ids]
+    print(f"  Targets: {len(targets)}")
+
+    # ログ初期化
+    log_rows = []
+    unmatched_rows = []
+
+    # 統計
+    total_before = sum(len(s.get("varieties",[])) for s in spots)
+    improved_count = 0
+    fetch_count = 0
+    fetch_fail = 0
+
+    # spots を id → index マップ
+    spot_map = {s["id"]: i for i, s in enumerate(spots)}
+
+    batch_size = 20
+    save_interval = 20
+
+    try:
+        for batch_start in range(0, len(targets), 1):
+            spot = targets[batch_start]
+            sid = spot["id"]
+            name = spot.get("name", sid)
+            existing = set(spot.get("varieties", []))
+            before_count = len(existing)
+
+            print(f"\n[{batch_start+1}/{len(targets)}] {name} ({before_count}品種)", flush=True)
+
+            # 検索
+            urls = search_spot(name)
+            time.sleep(1)
+
+            new_ids = set()
+            fetched_urls = []
+
+            for url in urls:
+                text = fetch_page(url)
+                fetch_count += 1
+                if not text:
+                    fetch_fail += 1
+                    continue
+                fetched_urls.append(url)
+
+                # 品種抽出（スポット名近傍のみ）
+                found = extract_varieties(text, kw_map, sorted_kws, existing | new_ids, name)
+                new_ids |= found
+
+                # 未マッチ候補
+                for uname, ctx in extract_unmatched(text, kw_map, sorted_kws):
+                    unmatched_rows.append({
+                        "spot_id": sid,
+                        "spot_name": name,
+                        "unmatched_name": uname,
+                        "source_url": url,
+                        "context": ctx,
+                    })
+
+                time.sleep(1.5)
+
+            # 更新
+            if new_ids:
+                updated_varieties = list(existing) + list(new_ids)
+                spots[spot_map[sid]]["varieties"] = updated_varieties
+                improved_count += 1
+                added_names = [next((v["name"] for v in varieties if v["id"]==vid), vid) for vid in new_ids]
+                print(f"  → +{len(new_ids)}: {', '.join(added_names[:5])}", flush=True)
+            else:
+                print(f"  → 変化なし", flush=True)
+
+            log_rows.append({
+                "spot_id": sid,
+                "spot_name": name,
+                "varieties_before": before_count,
+                "varieties_after": before_count + len(new_ids),
+                "varieties_added_names": "|".join(
+                    next((v["name"] for v in varieties if v["id"]==vid), vid)
+                    for vid in new_ids
+                ),
+            })
+
+            processed_ids.add(sid)
+
+            # 定期保存
+            if (batch_start + 1) % save_interval == 0:
+                print(f"  [保存中... {batch_start+1}件処理済み]", flush=True)
+                save_progress({"processed_ids": list(processed_ids)})
+                SPOTS_JSON.write_text(json.dumps(spots, ensure_ascii=False, indent=2), encoding="utf-8")
+
+                # ログ書き出し
+                with open(LOG_FILE, "w", newline="", encoding="utf-8") as f:
+                    w = csv.DictWriter(f, fieldnames=["spot_id","spot_name","varieties_before","varieties_after","varieties_added_names"])
+                    w.writeheader(); w.writerows(log_rows)
+
+                with open(UNMATCHED_FILE, "w", newline="", encoding="utf-8") as f:
+                    w = csv.DictWriter(f, fieldnames=["spot_id","spot_name","unmatched_name","source_url","context"])
+                    w.writeheader(); w.writerows(unmatched_rows)
+
+    except KeyboardInterrupt:
+        print("\n[中断] 進捗を保存中...")
+
+    # 最終保存
+    print("\n[最終保存中...]", flush=True)
+    save_progress({"processed_ids": list(processed_ids)})
+    SPOTS_JSON.write_text(json.dumps(spots, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    with open(LOG_FILE, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["spot_id","spot_name","varieties_before","varieties_after","varieties_added_names"])
+        w.writeheader(); w.writerows(log_rows)
+
+    with open(UNMATCHED_FILE, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["spot_id","spot_name","unmatched_name","source_url","context"])
+        w.writeheader(); w.writerows(unmatched_rows)
+
+    # サマリー
+    total_after = sum(len(s.get("varieties",[])) for s in spots)
+    processed_total = len(processed_ids)
+    summary = f"""=== 桜スポット品種深掘り検索 v2 サマリー ===
+
+Total spots processed: {processed_total}
+Pages fetched: {fetch_count} (failures: {fetch_fail})
+
+Before: avg {total_before/len(spots):.1f} varieties/spot
+After:  avg {total_after/len(spots):.1f} varieties/spot
+
+Spots improved: {improved_count}
+
+Top improvements (added varieties):
+"""
+    top = sorted(log_rows, key=lambda r: r["varieties_after"]-r["varieties_before"], reverse=True)[:10]
+    for r in top:
+        summary += f"  {r['spot_name']}: {r['varieties_before']} → {r['varieties_after']}品種\n"
+
+    SUMMARY_FILE.write_text(summary, encoding="utf-8")
+    print(summary)
+    print("完了!")
+
+
+if __name__ == "__main__":
+    main()

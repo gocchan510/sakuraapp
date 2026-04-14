@@ -1,0 +1,671 @@
+[
+  {
+    "spot_id": "walker-ar0518e25935",
+    "spot_name": "金崎宮(金ヶ崎公園)の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://wakasabay.jp/list/detail?genre=spot&id=5d6f6dad7765619cb2ba0400"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e25936",
+    "spot_name": "小浜公園の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/271/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60414",
+    "spot_name": "妙祐寺のしだれ桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.fuku-e.com/spot/detail_1551.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60176",
+    "spot_name": "九頭竜湖の桜",
+    "prefecture": "福井県",
+    "high_confidence": ["yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.ono-kankou.jp/tourism/detail.php?cd=45"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60595",
+    "spot_name": "亀山公園の桜(福井県)",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/279/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60594",
+    "spot_name": "勝山弁天桜(九頭竜河畔の桜)",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.fuku-e.com/spot/detail_1525.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e25943",
+    "spot_name": "花筐公園の桜",
+    "prefecture": "福井県",
+    "high_confidence": ["someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://tannan.mypl.net/article/sakura_tannan/36424"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e25948",
+    "spot_name": "味真野小学校の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0518e60390",
+    "spot_name": "万葉の里 味真野苑の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0518e25942",
+    "spot_name": "丸岡城(霞ヶ城公園)の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/277/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60130",
+    "spot_name": "越前陶芸村の桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://echizentougeimura.wixsite.com/shidare"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0518e60371",
+    "spot_name": "神子の山桜",
+    "prefecture": "福井県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://satoyama.pref.fukui.lg.jp/gallery/archives/7"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26015",
+    "spot_name": "水道山の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/5202/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60588",
+    "spot_name": "岐阜公園長良川堤の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["edohigan-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_3361.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60175",
+    "spot_name": "墨俣一夜城址公園・犀川堤の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e26033",
+    "spot_name": "荘川桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["edohigan-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E8%8D%98%E5%B7%9D%E6%A1%9C"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26034",
+    "spot_name": "臥龍桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["edohigan-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_1239.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26036",
+    "spot_name": "中橋周辺の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://gifu.mediajapan.jp/takayamamatsuri1-sakuraspot/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26037",
+    "spot_name": "宮川緑地公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e26040",
+    "spot_name": "江名子川沿いの桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60231",
+    "spot_name": "寺尾ヶ原千本桜公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_1181.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26054",
+    "spot_name": "冨士霊園の桜",
+    "prefecture": "静岡県",
+    "high_confidence": ["yamazakura", "someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.fujireien.or.jp/landscape/cherry.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0624e26088",
+    "spot_name": "三多気の桜",
+    "prefecture": "三重県",
+    "high_confidence": ["yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankomie.or.jp/spot/4811"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26057",
+    "spot_name": "狩宿の下馬ザクラ",
+    "prefecture": "静岡県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E7%8B%A9%E5%AE%BF%E3%81%AE%E4%B8%8B%E9%A6%AC%E3%82%B6%E3%82%AF%E3%83%A9"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26027",
+    "spot_name": "根尾谷淡墨桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["edohigan-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E6%B7%A1%E5%A2%A8%E6%A1%9C"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60233",
+    "spot_name": "関川の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60234",
+    "spot_name": "吉田川の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60235",
+    "spot_name": "関善光寺の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60583",
+    "spot_name": "本町公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60584",
+    "spot_name": "苗木さくら公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e26019",
+    "spot_name": "恵那峡の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_7078.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60150",
+    "spot_name": "奥矢作湖畔桜並木",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60372",
+    "spot_name": "新田の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e26022",
+    "spot_name": "新境川堤の桜並木",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_3362.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60587",
+    "spot_name": "苗代桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["edohigan-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E8%8B%97%E4%BB%A3%E6%A1%9C",
+      "https://www.pref.gifu.lg.jp/page/7507.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60232",
+    "spot_name": "平田公園と大榑川の桜並木(平田靱負ロード)",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e26025",
+    "spot_name": "養老公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": ["edohigan-zakura"],
+    "medium_details": ["「ヒガンザクラ」が植えられているとの記述あり（複数情報源）だが、シロヤマザクラとの区別が不明確"],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_3366.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60590",
+    "spot_name": "相川水辺公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60391",
+    "spot_name": "伊吹山ドライブウェイの桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60356",
+    "spot_name": "イビデン東横山発電所の桜並木",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kankou-gifu.jp/spot/detail_6607.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60589",
+    "spot_name": "谷汲山華厳寺の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/218/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60246",
+    "spot_name": "揖斐二度ザクラ公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["nidozakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.town-ono.jp/0000000842.html",
+      "https://ja.wikipedia.org/wiki/%E6%8F%96%E6%96%90%E4%BA%8C%E5%BA%A6%E6%A1%9C"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e26026",
+    "spot_name": "霞間ヶ渓の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": ["edohigan-zakura", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.pref.gifu.lg.jp/page/366472.html",
+      "https://ja.wikipedia.org/wiki/%E9%9C%9E%E9%96%93%E3%83%B6%E6%B8%93"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60249",
+    "spot_name": "生活環境保全林「みたけの森」の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0621e60250",
+    "spot_name": "鬼岩公園の桜",
+    "prefecture": "岐阜県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0622e26042",
+    "spot_name": "静岡浅間神社の桜",
+    "prefecture": "静岡県",
+    "high_confidence": ["yamazakura", "oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.pref.shizuoka.jp/kurashikankyo/shizenkankyo/sakura/1057743/1058352/1058354.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26056",
+    "spot_name": "駿府城公園の桜",
+    "prefecture": "静岡県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/189/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26045",
+    "spot_name": "日本平の桜",
+    "prefecture": "静岡県",
+    "high_confidence": ["yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hana.web-pallet.com/9474/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26046",
+    "spot_name": "清水船越堤公園の桜",
+    "prefecture": "静岡県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/50007/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e60576",
+    "spot_name": "御殿山の桜",
+    "prefecture": "静岡県",
+    "high_confidence": ["oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://shifu-dsuki.com/gotenyamasakura.html"
+    ]
+  }
+]

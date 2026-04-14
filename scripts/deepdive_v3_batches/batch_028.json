@@ -1,0 +1,243 @@
+[
+  {
+    "id": "zenpukujigawa-ryokuchi",
+    "name": "善福寺川緑地",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "tama-reien",
+    "name": "多磨霊園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "hikarigaoka-park",
+    "name": "光が丘公園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "hikawa-sando",
+    "name": "武蔵一宮氷川神社参道",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "sakitama-kofun-park",
+    "name": "さきたま古墳公園",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "gongendo-sakuratsutsumi",
+    "name": "幸手権現堂桜堤",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "musashikyuryo",
+    "name": "武蔵丘陵森林公園",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "kanzan"
+    ],
+    "features": []
+  },
+  {
+    "id": "kawagoe-kitain",
+    "name": "川越・喜多院",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "inage-seaside-park",
+    "name": "稲毛海浜公園",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "naritasan-sakura",
+    "name": "成田さくらの山",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "kawaduzakura",
+      "kawazu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "inba-numa-cycling-road",
+    "name": "印旛沼サイクリングロード桜並木",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "funabashi-ebigawa",
+    "name": "海老川ジョギングロード",
+    "prefecture": "千葉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "mitake-okutagawa",
+    "name": "奥多摩・御岳山",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "yamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "takao-mountain",
+    "name": "高尾山",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "oshima-zakura",
+      "oshimazakura",
+      "yamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "jindai-botanical",
+    "name": "神代植物公園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "ukon",
+      "jindai-akebono",
+      "gyoikou",
+      "houraizakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "hadano-tokawa-park",
+    "name": "秦野戸川公園",
+    "prefecture": "神奈川県",
+    "existing_varieties": [
+      "kanzan"
+    ],
+    "features": []
+  },
+  {
+    "id": "tenranzan",
+    "name": "天覧山・多峯主山",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "nagatoro-sakura",
+    "name": "長瀞・北桜通り",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "hodosan",
+    "name": "宝登山",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "fuyu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "shimine-park",
+    "name": "城峯公園",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "fuyu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "myogisan-sakura",
+    "name": "妙義山さくらの里",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "yamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "tama-forest-science",
+    "name": "多摩森林科学園",
+    "prefecture": "東京都",
+    "existing_varieties": [
+      "yamazakura",
+      "ooyamazakura",
+      "oshimazakura",
+      "kasumizakura",
+      "mamezakura",
+      "tyoujizakura",
+      "ukon",
+      "kanzan",
+      "gyoikou",
+      "haruka",
+      "ハクサンオオデマリ",
+      "fugenzou",
+      "torano-o",
+      "someiyoshino",
+      "シロヒガン",
+      "shidarezakura",
+      "kanhizakura",
+      "ichiyou",
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "多品種",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "isazawa-kubozakura",
+    "name": "伊佐沢の久保桜",
+    "prefecture": "山形県",
+    "existing_varieties": [
+      "edohigan-zakura"
+    ],
+    "features": [
+      "天然記念物",
+      "一本桜"
+    ]
+  }
+]

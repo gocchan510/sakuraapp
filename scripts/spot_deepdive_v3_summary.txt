@@ -1,0 +1,31 @@
+=== 桜スポット品種深掘り v3 マージ結果 ===
+
+Result files merged: 29 batches
+Spots processed:     1423
+Spots improved:      505
+
+Added HIGH:          971 links
+Added MEDIUM:        60 links (メジャー品種 or 上限内)
+Rejected MEDIUM:     0 links → variety_candidates_v3.csv
+
+Before: avg 2.49 varieties/spot
+After:  avg 3.21 varieties/spot
+
+4品種以上スポット: 321/1433 (22.4%)
+
+Top improved spots:
+  神代植物公園: 4 → 22 (+18)
+  榴岡公園の桜: 1 → 13 (+12)
+  妙義山県立森林公園さくらの里の桜: 2 → 11 (+9)
+  狭山公園の桜: 2 → 10 (+8)
+  伊香保グリーン牧場の八重桜: 2 → 9 (+7)
+  さくらの里の桜: 7 → 14 (+7)
+  138タワーパークの桜: 3 → 10 (+7)
+  積善山三千本桜: 3 → 10 (+7)
+  大宮公園の桜: 1 → 7 (+6)
+  都立神代植物公園の桜: 8 → 14 (+6)
+  尾根緑道の桜: 2 → 8 (+6)
+  県立三ツ池公園の桜: 6 → 12 (+6)
+  富山県中央植物園の桜: 5 → 11 (+6)
+  幸田文化公園の桜: 1 → 7 (+6)
+  妙義山さくらの里: 1 → 7 (+6)

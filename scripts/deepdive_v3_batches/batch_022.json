@@ -1,0 +1,589 @@
+[
+  {
+    "id": "walker-ar0729e60632",
+    "name": "高田千本桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0729e26164",
+    "name": "郡山城跡の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e26173",
+    "name": "談山神社の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60625",
+    "name": "大神神社の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60638",
+    "name": "安倍文殊院の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e60251",
+    "name": "葛城山麓公園の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e26170",
+    "name": "大野寺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60295",
+    "name": "佛隆寺千年桜(佛隆寺の古桜)",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60449",
+    "name": "又兵衛桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60631",
+    "name": "信貴山 朝護孫子寺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e26167",
+    "name": "法隆寺境内の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0729e26169",
+    "name": "三室山の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e425646",
+    "name": "壷阪寺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60269",
+    "name": "金峯山寺蔵王堂の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60512",
+    "name": "下北山スポーツ公園の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "駐車場あり",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26176",
+    "name": "紀三井寺の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26177",
+    "name": "和歌山城の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e60628",
+    "name": "和歌の浦(高津子山)の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0730e60476",
+    "name": "亀池公園の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26178",
+    "name": "動鳴気峡の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e60633",
+    "name": "粉河寺の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0730e26179",
+    "name": "根來寺の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26182",
+    "name": "道成寺の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "有料"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26183",
+    "name": "平草原公園の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0730e26184",
+    "name": "七川ダム湖畔の桜",
+    "prefecture": "和歌山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26187",
+    "name": "鳥取城跡・久松公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26193",
+    "name": "袋川堤防の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26196",
+    "name": "鹿野城跡公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26188",
+    "name": "湊山公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "屋台あり",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26189",
+    "name": "打吹公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26198",
+    "name": "境台場公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e60652",
+    "name": "智頭河畔 桜土手",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26191",
+    "name": "名和公園の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e60477",
+    "name": "萩原桜並木の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0831e60478",
+    "name": "木ノ根神社の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0833e26235",
+    "name": "がいせん桜",
+    "prefecture": "岡山県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0834e60659",
+    "name": "世羅 甲山ふれあいの里の桜",
+    "prefecture": "広島県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0833e496314",
+    "name": "羅生門さくら公園の桜",
+    "prefecture": "岡山県",
+    "existing_varieties": [
+      "gyoikou",
+      "yoko",
+      "beniyutaka",
+      "fugenzou",
+      "kanzan",
+      "ukon"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0834e60667",
+    "name": "正福寺山公園の桜",
+    "prefecture": "広島県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0831e26207",
+    "name": "城山公園・法勝寺川土手の桜",
+    "prefecture": "鳥取県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0832e26208",
+    "name": "松江城山公園の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ",
+      "夜桜",
+      "枝垂れ桜",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0832e26211",
+    "name": "玉湯川堤の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0832e60287",
+    "name": "チェリーロードの桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0832e26213",
+    "name": "三隅大平桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0832e60516",
+    "name": "野坂桜並木",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "夜桜",
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0832e26209",
+    "name": "一の谷公園の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0832e60648",
+    "name": "愛宕山公園の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0832e60649",
+    "name": "出雲大社神苑の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0832e60646",
+    "name": "安来公園の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0832e537269",
+    "name": "敬川河川敷の桜",
+    "prefecture": "島根県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "桜祭り",
+      "ライトアップ"
+    ]
+  }
+]

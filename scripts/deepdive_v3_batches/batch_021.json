@@ -1,0 +1,544 @@
+[
+  {
+    "id": "walker-ar0728e538994",
+    "name": "北野天満神社の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "無料",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381572",
+    "name": "こうべアグリパーク(旧 農業公園)の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "有料"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26148",
+    "name": "姫路城の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "yamazakura",
+      "tegara-zakura"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木",
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381408",
+    "name": "人丸山公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e381409",
+    "name": "上ケ池公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381410",
+    "name": "石ケ谷公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e26150",
+    "name": "夙川河川敷緑地(夙川公園)の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "ミヤノヒナザクラ",
+      "ニシノミヤゴンゲンタイラザクラ",
+      "shukugawa-maizakura",
+      "コシミズハヤザキ"
+    ],
+    "features": [
+      "さくら名所100選",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60615",
+    "name": "伊丹瑞ケ池公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26161",
+    "name": "出石城跡の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60259",
+    "name": "清滝小学校の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "一本桜",
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60360",
+    "name": "神武山公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e60644",
+    "name": "城崎温泉の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26151",
+    "name": "日岡山公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "kanhizakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382193",
+    "name": "平荘湖の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e26153",
+    "name": "赤穂東御崎公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60213",
+    "name": "花のみち(宝塚)の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26157",
+    "name": "鹿島・扇平自然公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "takasago"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e381576",
+    "name": "日笠山の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino",
+      "takasago"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e382194",
+    "name": "おの桜づつみ回廊の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "omoigawa"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382198",
+    "name": "やなせ苑桜づつみの桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e493723",
+    "name": "武庫川桜づつみ回廊の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e493724",
+    "name": "センチュリー大橋の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e493725",
+    "name": "深田公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e381933",
+    "name": "いこいの村はりまの桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382078",
+    "name": "古法華自然公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26158",
+    "name": "篠山城跡・王地山公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26162",
+    "name": "樽見の大桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "edohigan-zakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60257",
+    "name": "川代公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60359",
+    "name": "水分れ公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e381069",
+    "name": "柏原川の桜堤の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381074",
+    "name": "氷上さくら公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381913",
+    "name": "鐘ヶ坂公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e60248",
+    "name": "立雲峡の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e381938",
+    "name": "竹田城跡の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e60256",
+    "name": "音水湖(引原ダム)周辺の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0728e380426",
+    "name": "西深の桜並木",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60620",
+    "name": "播磨中央公園 桜の園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382683",
+    "name": "千鳥川桜堤公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e26152",
+    "name": "龍野公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382195",
+    "name": "揖保川せせらぎ公園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0728e382389",
+    "name": "い～な!! さくら通りの桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0728e381935",
+    "name": "喜瀬川緑道の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0728e60627",
+    "name": "かみかわ桜の山 桜華園の桜",
+    "prefecture": "兵庫県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e26163",
+    "name": "奈良公園の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "ナラノココノエザクラ"
+    ],
+    "features": [
+      "さくら名所100選",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0729e26166",
+    "name": "月ヶ瀬湖畔の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e60255",
+    "name": "平城宮跡資料館周辺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0729e60268",
+    "name": "帯解寺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "シロヤマザクラ"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e60641",
+    "name": "柳生芳徳禅寺周辺の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e402784",
+    "name": "旧柳生藩陣屋跡の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0729e585888",
+    "name": "佐保川の桜",
+    "prefecture": "奈良県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  }
+]

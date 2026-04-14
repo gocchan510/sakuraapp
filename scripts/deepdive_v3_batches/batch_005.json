@@ -1,0 +1,573 @@
+[
+  {
+    "id": "walker-ar0310e62918",
+    "name": "伊香保グリーン牧場の八重桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "america"
+    ],
+    "features": [
+      "多品種"
+    ]
+  },
+  {
+    "id": "walker-ar0310e60119",
+    "name": "妙義神社しだれ桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0310e64378",
+    "name": "富岡製糸場の桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0310e64246",
+    "name": "鹿の川沼の桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0310e25755",
+    "name": "妙義山県立森林公園さくらの里の桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "シロヤマザクラ",
+      "fuyu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0310e584524",
+    "name": "針山の天王桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "ooyamazakura"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0310e60544",
+    "name": "水上温泉(諏訪峡付近)の桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0310e60181",
+    "name": "城之内公園の桜",
+    "prefecture": "群馬県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0311e25759",
+    "name": "大宮公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "urawa"
+    ],
+    "features": [
+      "さくら名所100選",
+      "一本桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e138597",
+    "name": "大宮第二公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60556",
+    "name": "与野公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0311e138594",
+    "name": "埼玉スタジアム2002公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura",
+      "kawaduzakura"
+    ],
+    "features": [
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0311e496006",
+    "name": "見沼田んぼの桜回廊の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60430",
+    "name": "岩槻城址公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "oshimazakura",
+      "ukon",
+      "kanzan"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0311e138596",
+    "name": "ホットスタッフ川越パーク(川越水上公園)の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "oshimazakura",
+      "yamazakura",
+      "kanzan",
+      "ichiyou"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e381924",
+    "name": "喜多院の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382341",
+    "name": "川越 熊野神社の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e382344",
+    "name": "蓮馨寺の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "無料"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382391",
+    "name": "中院の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "shidarezakura",
+      "edohigan-zakura",
+      "kanhizakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382552",
+    "name": "伊佐沼公園・伊佐沼の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382555",
+    "name": "御伊勢塚公園(おいせ橋通り)の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e382557",
+    "name": "新河岸川の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382558",
+    "name": "小畔水鳥の郷公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60539",
+    "name": "熊谷桜堤の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "さくら名所100選",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e403608",
+    "name": "忍城址の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "oshimazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e403609",
+    "name": "丸墓山古墳の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e403610",
+    "name": "古代蓮の里の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "edohigan-zakura"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60431",
+    "name": "羊山公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "beni-shidare",
+      "chichibuzakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e582193",
+    "name": "清雲寺のしだれ桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "shidarezakura",
+      "chichibuzakura"
+    ],
+    "features": [
+      "枝垂れ桜",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60432",
+    "name": "所沢航空記念公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "kawaduzakura",
+      "シロヤマザクラ",
+      "gyoikou",
+      "shidarezakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e301789",
+    "name": "西武園ゆうえんちの桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "higan-zakura"
+    ],
+    "features": [
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382560",
+    "name": "狭山湖周辺の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e382561",
+    "name": "東川(あずまがわ)の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "kanhizakura"
+    ],
+    "features": [
+      "桜並木",
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382691",
+    "name": "砂川堀のしだれ桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0311e382692",
+    "name": "金仙寺(こんせんじ)のしだれ桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "shidarezakura"
+    ],
+    "features": [
+      "ライトアップ",
+      "枝垂れ桜"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60195",
+    "name": "飯能市名栗湖の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e60433",
+    "name": "天覧山・中央公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e138389",
+    "name": "キサイフーズはなさきふれあいパーク(加須はなさき公園)の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e25766",
+    "name": "こだま千本桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜祭り",
+      "ライトアップ",
+      "駐車場あり"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60434",
+    "name": "若泉公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60440",
+    "name": "城山稲荷神社の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ"
+    ]
+  },
+  {
+    "id": "walker-ar0311e60541",
+    "name": "雉岡城跡の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e25760",
+    "name": "上沼公園･下沼公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "ライトアップ",
+      "夜桜",
+      "桜祭り"
+    ]
+  },
+  {
+    "id": "walker-ar0311e138386",
+    "name": "埼玉県こども動物自然公園の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e60196",
+    "name": "エミパーク狭山稲荷山の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": [
+      "桜並木"
+    ]
+  },
+  {
+    "id": "walker-ar0311e138599",
+    "name": "智光山公園「桜の園」の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "jugatsu-zakura"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e340825",
+    "name": "入間川にこにこテラス(入間川河川敷中央公園)の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e382703",
+    "name": "狭山八幡神社の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e382779",
+    "name": "廣瀬神社の桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  },
+  {
+    "id": "walker-ar0311e460968",
+    "name": "入間川サイクリングロードの桜",
+    "prefecture": "埼玉県",
+    "existing_varieties": [
+      "someiyoshino"
+    ],
+    "features": []
+  }
+]

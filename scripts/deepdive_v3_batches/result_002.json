@@ -1,0 +1,722 @@
+[
+  {
+    "spot_id": "walker-ar0204e60135",
+    "spot_name": "大衡城跡公園の桜",
+    "prefecture": "宮城県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0204e60135/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0204e60136",
+    "spot_name": "大衡中央公園の桜",
+    "prefecture": "宮城県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0204e60136/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0204e25613",
+    "spot_name": "薬莱山の桜",
+    "prefecture": "宮城県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0204e25613/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0204e25617",
+    "spot_name": "城山公園の桜(宮城県)",
+    "prefecture": "宮城県",
+    "high_confidence": ["yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0204e25617/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25625",
+    "spot_name": "千秋公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.acvb.or.jp/sightseeing/sakura.html",
+      "https://hanami.walkerplus.com/detail/ar0205e25625/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25626",
+    "spot_name": "能代公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25626/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25633",
+    "spot_name": "きみまち阪県立自然公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25633/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25627",
+    "spot_name": "横手公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25627/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25642",
+    "spot_name": "真人公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.tohokukanko.jp/attractions/detail_1007250.html",
+      "https://hanami.walkerplus.com/detail/ar0205e25642/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e60142",
+    "spot_name": "大館市ベニヤマ自然パークの桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e60142/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25631",
+    "spot_name": "前森公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25631/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25630",
+    "spot_name": "本荘公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25630/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e60177",
+    "spot_name": "八塩いこいの森の桜",
+    "prefecture": "秋田県",
+    "high_confidence": ["kanzan"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://akita-fun.jp/spots/80",
+      "https://hanami.walkerplus.com/detail/ar0205e60177/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e60185",
+    "spot_name": "かすみ温泉のかすみ桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e60185/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e461612",
+    "spot_name": "なかせん千本桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e461612/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25641",
+    "spot_name": "鷹巣中央公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e25641/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e587394",
+    "spot_name": "南極公園の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e587394/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e60526",
+    "spot_name": "桧木内川堤の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://akita-fun.jp/spots/191",
+      "https://hanami.walkerplus.com/detail/ar0205e60526/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e60183",
+    "spot_name": "御所の台ふれあいパークの桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0205e60183/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25636",
+    "spot_name": "日本国花苑の桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": ["oshimazakura"],
+    "medium_details": ["200種2000本植栽との記述あり。オオシマザクラ含む可能性が高いが個別明記なし"],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%8A%B1%E8%8B%91",
+      "https://hanami.walkerplus.com/detail/ar0205e25636/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0205e25637",
+    "spot_name": "桜・菜の花ロードの桜",
+    "prefecture": "秋田県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.vill.ogata.akita.jp/archive/contents-54",
+      "https://hanami.walkerplus.com/detail/ar0205e25637/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60363",
+    "spot_name": "馬見ヶ崎さくらラインの桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yamagatakanko.com/attractions/detail_407.html",
+      "https://hanami.walkerplus.com/detail/ar0206e60363/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60534",
+    "spot_name": "霞城公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/003/682/sakura.pdf",
+      "https://hanami.walkerplus.com/detail/ar0206e60534/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25645",
+    "spot_name": "松が岬公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25645/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25646",
+    "spot_name": "鶴岡公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.tsuruokakanko.com/course/4056",
+      "https://hanami.walkerplus.com/detail/ar0206e25646/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25647",
+    "spot_name": "大山公園の桜(山形県)",
+    "prefecture": "山形県",
+    "high_confidence": ["someiyoshino", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://mokkedano.net/spot/30272",
+      "https://hanami.walkerplus.com/detail/ar0206e25647/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25661",
+    "spot_name": "あつみ温泉 温海川河畔の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25661/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60168",
+    "spot_name": "玉川寺の桜",
+    "prefecture": "山形県",
+    "high_confidence": ["shidarezakura", "kasumizakura", "yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://thegate12.com/jp/article/743",
+      "https://hanami.walkerplus.com/detail/ar0206e60168/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25649",
+    "spot_name": "最上公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25649/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25650",
+    "spot_name": "寒河江公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": ["someiyoshino", "yamazakura", "oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yamagatakanko.com/attractions/detail_414.html",
+      "https://hanami.walkerplus.com/detail/ar0206e25650/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25651",
+    "spot_name": "御幸公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25651/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25652",
+    "spot_name": "上山城･月岡公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25652/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25653",
+    "spot_name": "東沢バラ公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25653/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60139",
+    "spot_name": "伊佐沢の久保ザクラ",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E4%BC%8A%E4%BD%90%E6%B2%A2%E3%81%AE%E4%B9%85%E4%BF%9D%E3%82%B6%E3%82%AF%E3%83%A9"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60383",
+    "spot_name": "最上川堤防千本桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e60383/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60413",
+    "spot_name": "草岡の大明神ザクラ",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%98%8E%E7%A5%9E%E6%A1%9C"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25654",
+    "spot_name": "天童公園(舞鶴山)の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25654/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25665",
+    "spot_name": "倉津川しだれ桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E5%80%89%E6%B4%A5%E5%B7%9D%E6%9E%9D%E5%9E%82%E6%A1%9C"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60137",
+    "spot_name": "白水川堤防桜並木",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e60137/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60138",
+    "spot_name": "堂ノ前公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E5%A0%82%E3%83%8E%E5%89%8D%E5%85%AC%E5%9C%92",
+      "https://hanami.walkerplus.com/detail/ar0206e60138/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25655",
+    "spot_name": "烏帽子山公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": ["ooyamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://eboshiyama.com/",
+      "https://hanami.walkerplus.com/detail/ar0206e25655/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e60167",
+    "spot_name": "双松公園の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yamagatakanko.com/attractions/detail_4154.html",
+      "https://hanami.walkerplus.com/detail/ar0206e60167/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25664",
+    "spot_name": "まほろばの緑道の桜",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://hanami.walkerplus.com/detail/ar0206e25664/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0206e25658",
+    "spot_name": "薬師ザクラ",
+    "prefecture": "山形県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://yamagatakanko.com/attractions/detail_10290.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25666",
+    "spot_name": "信夫山公園の桜",
+    "prefecture": "福島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.hanamiyama.jp/hanakairo/shinobuyamakouen/",
+      "https://hanami.walkerplus.com/detail/ar0207e25666/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25667",
+    "spot_name": "花見山の桜",
+    "prefecture": "福島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.hanamiyama.jp/type/",
+      "https://hanami.walkerplus.com/detail/ar0207e25667/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25695",
+    "spot_name": "石部桜",
+    "prefecture": "福島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.aizukanko.com/spot/628"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25669",
+    "spot_name": "開成山公園・開成山大神宮の桜",
+    "prefecture": "福島県",
+    "high_confidence": ["someiyoshino", "kanzan", "yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.koriyama.lg.jp/soshiki/23/68036.html",
+      "https://hanami.walkerplus.com/detail/ar0207e25669/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25670",
+    "spot_name": "紅枝垂地蔵ザクラ",
+    "prefecture": "福島県",
+    "high_confidence": [],
+    "medium_confidence": ["edohigan-zakura"],
+    "medium_details": ["エドヒガン系のベニシダレと複数情報源で記述あり。edohigan-zakuraとして追加が適切だが、beni-shidareがexistingにあり同一木のため直接確認は間接的"],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E7%B4%85%E6%9E%9D%E5%9E%82%E5%9C%B0%E8%94%B5%E6%A1%9C",
+      "https://www.kanko-koriyama.gr.jp/tourism/detail5-1-417.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e60366",
+    "spot_name": "笹原川千本桜",
+    "prefecture": "福島県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kanko-koriyama.gr.jp/tourism/detail5-1-431.html",
+      "https://hanami.walkerplus.com/detail/ar0207e60366/"
+    ]
+  }
+]

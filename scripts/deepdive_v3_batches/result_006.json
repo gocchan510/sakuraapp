@@ -1,0 +1,662 @@
+[
+  {
+    "spot_id": "walker-ar0311e138388",
+    "spot_name": "羽生水郷公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.parks.or.jp/suizokukan/news_special/detail/007378.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e60428",
+    "spot_name": "鴻巣公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "shidarezakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.kounosu.saitama.jp/page/1450.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e381777",
+    "spot_name": "あかぎ公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e138381",
+    "spot_name": "上尾運動公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.parks.or.jp/saitamasuijo/guide/002/002017.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e138390",
+    "spot_name": "埼玉県県民健康福祉村の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e538039",
+    "spot_name": "普門寺の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.pixpot.net/view_spots/spot/1677/fumonji-shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25768",
+    "spot_name": "石戸蒲ザクラ",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kaba-sakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E7%9F%B3%E6%88%B8%E8%92%B2%E3%82%B6%E3%82%AF%E3%83%A9"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e60426",
+    "spot_name": "高尾さくら公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "edohigan-zakura", "shidarezakura", "yamazakura", "ukon", "kaba-sakura", "yoko", "kobuku-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.kitamoto-sogokoen.com/koen2/takaosakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e60427",
+    "spot_name": "城ヶ谷堤の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e380658",
+    "spot_name": "北本市子供公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e428339",
+    "spot_name": "サンアメニティ北本キャンプフィールドの桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e428702",
+    "spot_name": "放光寺の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e428706",
+    "spot_name": "阿弥陀堂の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60441",
+    "spot_name": "みさと公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": ["jugatsu-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "kawaduzakura", "yamazakura", "oshimazakura", "kanzakura", "gyoikou"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://sp.jorudan.co.jp/hanami/spot_1126.html",
+      "https://www.go2park.net/photo/misato_sakura.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25769",
+    "spot_name": "慈眼寺の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://tabi-mag.jp/sa0190/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e338485",
+    "spot_name": "北浅羽桜堤公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e25762",
+    "spot_name": "森田鉄工所 権現堂桜堤 Mirai Parkの桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60522",
+    "spot_name": "鶴ヶ島市運動公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60555",
+    "spot_name": "さくら通りの桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e340124",
+    "spot_name": "福岡中央公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60436",
+    "spot_name": "伊奈町無線山桜並木の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e25763",
+    "spot_name": "鎌北湖の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60437",
+    "spot_name": "さくらの山公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60415",
+    "spot_name": "国営武蔵丘陵森林公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": ["satozakura"],
+    "medium_details": ["サトザクラ群の複数品種が植栽されているとの記載あるが具体品種名不明"],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "yamazakura", "oshimazakura"],
+    "unmatched_names": ["サトザクラ（品種名不特定）"],
+    "source_urls": [
+      "https://www.shinrinkoen.jp/hana-ikimono/sakura.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25771",
+    "spot_name": "都幾川桜堤の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60158",
+    "spot_name": "さくら堤公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60159",
+    "spot_name": "吉見百穴周辺の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60438",
+    "spot_name": "慈光山歴史公苑の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": ["someiyoshino"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["gyoikou", "ichiyou", "fugenzou", "surugadai-nioi"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.town.tokigawa.lg.jp/info/1123",
+      "https://blog.goo.ne.jp/aurora2014/e/d5e694de0e25d69a1a0f0fc494da339f"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25765",
+    "spot_name": "長瀞の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": ["edohigan-zakura", "yamazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura", "someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.nagatoro.gr.jp/category/flower_topics/flower_sakura/",
+      "https://chocotabi-saitama.jp/spot/34448/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e382212",
+    "spot_name": "鉢形城の桜・エドヒガン(氏邦桜)",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["edohigan-ichifusa-beni", "edohigan-zakura", "edohigan"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://chocotabi-saitama.jp/spot/40906/",
+      "https://www.town.yorii.saitama.jp/site/rekishikan/edohigan2026.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25770",
+    "spot_name": "東武動物公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e60203",
+    "spot_name": "杉戸西近隣公園の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0311e382339",
+    "spot_name": "古利根川堤の桜",
+    "prefecture": "埼玉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0312e25773",
+    "spot_name": "千葉公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["someiyoshino", "shidarezakura", "yamazakura", "oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawaduzakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.chiba.jp/toshi/koenryokuchi/kanri/chuo-mihama/sakura2014.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e60173",
+    "spot_name": "亥鼻公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/130/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e381580",
+    "spot_name": "青葉の森公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["someiyoshino", "oshimazakura", "yamazakura", "omoigawa", "syuzenjikanzakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawaduzakura", "ichiyou", "kanzan", "fugenzou", "pink-cloud"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.pref.chiba.lg.jp/kouen/landscape/aoba-kaika.html",
+      "https://weathernews.jp/sakura/spot/45019/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e382413",
+    "spot_name": "千葉ポートパークの桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["someiyoshino", "oshimazakura", "kobuku-zakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kawaduzakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://chiba-portpark.com/article.php?id=22"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25772",
+    "spot_name": "泉自然公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["someiyoshino", "oshimazakura", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["yamazakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://izumi-park.city.chiba.jp/guide.php",
+      "https://weathernews.jp/sakura/spot/137/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25796",
+    "spot_name": "千葉市動物公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["yoko", "jindai-akebono", "ichiharatoranoo"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "kawaduzakura", "oshimazakura", "yamazakura", "gyoikou", "kanzan", "chiharazakura", "beni-shidare"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.city.chiba.jp/zoo/volunteer/sakuraguide.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e382570",
+    "spot_name": "千葉市昭和の森の桜",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0312e25774",
+    "spot_name": "文学の道の桜",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0312e25775",
+    "spot_name": "里見公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://rurubu.jp/andmore/spot/80009278/sakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25776",
+    "spot_name": "真間山弘法寺の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["edohigan-zakura", "yoko", "gyoikou"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["shidarezakura", "someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.travel.smileandhappiness.net/mamasan-guhoji-sakura.html",
+      "https://ichikawalife.com/guhouji-sakura/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e381773",
+    "spot_name": "真間川沿いの桜並木",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": []
+  },
+  {
+    "spot_id": "walker-ar0312e25798",
+    "spot_name": "ふなばしアンデルセン公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["ukon", "yoko"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "kawaduzakura", "oshimazakura", "yamazakura", "shidarezakura", "kanhizakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.park-funabashi.or.jp/and/topics/topic_sakura.html"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e60553",
+    "spot_name": "太田山公園の桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["someiyoshino", "oshimazakura", "shidarezakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["kamatari-zakura"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E5%A4%AA%E7%94%B0%E5%B1%B1%E5%85%AC%E5%9C%92",
+      "https://weathernews.jp/sakura/spot/125/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25799",
+    "spot_name": "常盤平さくら通りの桜",
+    "prefecture": "千葉県",
+    "high_confidence": ["oshimazakura"],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://ja.wikipedia.org/wiki/%E5%B8%B8%E7%9B%A4%E5%B9%B3%E3%81%95%E3%81%8F%E3%82%89%E9%80%9A%E3%82%8A"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e60169",
+    "spot_name": "本土寺の桜",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://weathernews.jp/sakura/spot/45002/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e382203",
+    "spot_name": "戸定邸の桜",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": ["someiyoshino", "edohigan-zakura", "yamazakura", "oshimazakura", "kanhizakura", "beni-shidare"],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://www.matsudo-kankou.jp/sightseeing/%E6%88%B8%E5%AE%9A%E9%82%B8/"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e496001",
+    "spot_name": "松戸宿坂川の河津桜",
+    "prefecture": "千葉県",
+    "high_confidence": [],
+    "medium_confidence": [],
+    "medium_details": [],
+    "ecological_rejected": [],
+    "limit_rejected": [],
+    "unmatched_names": [],
+    "source_urls": [
+      "https://matsudosyuku.net/"
+    ]
+  }
+]
