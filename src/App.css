@@ -1600,3 +1600,55 @@ html, body {
 }
 .calendar-variety-card__color { position: relative; }
 .calendar-empty { text-align: center; color: #aaa; font-size: 13px; padding: 32px 0; }
+
+
+/* ── PWA インストールバナー ───────────────────────────────── */
+.install-banner {
+  position: fixed;
+  bottom: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1.5px solid var(--pink);
+  border-radius: 24px;
+  padding: 10px 16px;
+  box-shadow: 0 4px 16px rgba(244,135,177,0.3);
+  z-index: 9999;
+  max-width: calc(100vw - 32px);
+}
+.install-banner--manual .install-banner__text {
+  font-size: 0.78rem;
+  white-space: normal;
+}
+.install-banner__text {
+  font-size: 0.85rem;
+  color: var(--cherry-dark, #8b2252);
+  white-space: nowrap;
+}
+.install-banner__btn {
+  background: var(--pink);
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.install-banner__btn:hover {
+  background: var(--pink-dark, #e91e8c);
+}
+.install-banner__close {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  flex-shrink: 0;
+  line-height: 1;
+}

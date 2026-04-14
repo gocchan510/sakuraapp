@@ -135,6 +135,7 @@ function usePreventBackOnRoot() {
 export default function App() {
   usePreventBackOnRoot()
   return (
+    <>
     <Routes>
       {/* タブバーあり */}
       <Route element={<TabLayout />}>
@@ -149,5 +150,6 @@ export default function App() {
       {/* 不明パスは図鑑へ */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
+    </>
   )
 }
