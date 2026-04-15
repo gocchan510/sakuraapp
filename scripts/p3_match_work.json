@@ -1,0 +1,2582 @@
+[
+  {
+    "variety_name": "里桜",
+    "count": 49,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e60100",
+        "spot_name": "芦別市旭ケ丘公園の桜",
+        "prefecture": "北海道"
+      },
+      {
+        "spot_id": "walker-ar0202e25561",
+        "spot_name": "合浦公園の桜",
+        "prefecture": "青森県"
+      },
+      {
+        "spot_id": "walker-ar0202e25565",
+        "spot_name": "八戸公園の桜",
+        "prefecture": "青森県"
+      },
+      {
+        "spot_id": "walker-ar0202e25571",
+        "spot_name": "県立芦野公園の桜",
+        "prefecture": "青森県"
+      },
+      {
+        "spot_id": "walker-ar0206e25654",
+        "spot_name": "天童公園(舞鶴山)の桜",
+        "prefecture": "山形県"
+      },
+      {
+        "spot_id": "walker-ar0308e25707",
+        "spot_name": "かみね公園の桜",
+        "prefecture": "茨城県"
+      },
+      {
+        "spot_id": "walker-ar0312e25772",
+        "spot_name": "泉自然公園の桜",
+        "prefecture": "千葉県"
+      },
+      {
+        "spot_id": "walker-ar0312e25796",
+        "spot_name": "千葉市動物公園の桜",
+        "prefecture": "千葉県"
+      },
+      {
+        "spot_id": "walker-ar0312e382570",
+        "spot_name": "千葉市昭和の森の桜",
+        "prefecture": "千葉県"
+      },
+      {
+        "spot_id": "walker-ar0312e25780",
+        "spot_name": "茂原公園の桜",
+        "prefecture": "千葉県"
+      },
+      {
+        "spot_id": "walker-ar0313e60404",
+        "spot_name": "都立芝公園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e60405",
+        "spot_name": "旧芝離宮恩賜庭園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e60409",
+        "spot_name": "清澄庭園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e380154",
+        "spot_name": "大島小松川公園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e460683",
+        "spot_name": "御殿山トラストシティの桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e60557",
+        "spot_name": "駒沢オリンピック公園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0313e25820",
+        "spot_name": "浮間公園の桜",
+        "prefecture": "東京都"
+      },
+      {
+        "spot_id": "walker-ar0314e459044",
+        "spot_name": "よこはま動物園ズーラシアの桜",
+        "prefecture": "神奈川県"
+      },
+      {
+        "spot_id": "walker-ar0314e381578",
+        "spot_name": "生田緑地の桜",
+        "prefecture": "神奈川県"
+      },
+      {
+        "spot_id": "walker-ar0314e382205",
+        "spot_name": "鎌倉大仏殿高徳院の桜",
+        "prefecture": "神奈川県"
+      },
+      {
+        "spot_id": "walker-ar0415e60125",
+        "spot_name": "魚野川桜づつみの桜",
+        "prefecture": "新潟県"
+      },
+      {
+        "spot_id": "walker-ar0420e60593",
+        "spot_name": "千人塚公園の桜",
+        "prefecture": "長野県"
+      },
+      {
+        "spot_id": "walker-ar0516e60604",
+        "spot_name": "富山県中央植物園の桜",
+        "prefecture": "富山県"
+      },
+      {
+        "spot_id": "walker-ar0516e60164",
+        "spot_name": "小矢部川公園千本桜",
+        "prefecture": "富山県"
+      },
+      {
+        "spot_id": "walker-ar0517e60412",
+        "spot_name": "能登町柳田植物公園の桜",
+        "prefecture": "石川県"
+      },
+      {
+        "spot_id": "walker-ar0621e60232",
+        "spot_name": "平田公園と大榑川の桜並木(平田靱負ロード)",
+        "prefecture": "岐阜県"
+      },
+      {
+        "spot_id": "walker-ar0622e26044",
+        "spot_name": "はままつフラワーパークの桜",
+        "prefecture": "静岡県"
+      },
+      {
+        "spot_id": "walker-ar0622e60238",
+        "spot_name": "粟ヶ岳の桜",
+        "prefecture": "静岡県"
+      },
+      {
+        "spot_id": "walker-ar0622e219695",
+        "spot_name": "つま恋リゾート彩の郷(さいのさと)の桜",
+        "prefecture": "静岡県"
+      },
+      {
+        "spot_id": "walker-ar0622e60262",
+        "spot_name": "蓮華寺池公園の桜",
+        "prefecture": "静岡県"
+      },
+      {
+        "spot_id": "walker-ar0623e381919",
+        "spot_name": "平和公園の桜",
+        "prefecture": "愛知県"
+      },
+      {
+        "spot_id": "walker-ar0623e381928",
+        "spot_name": "庄内緑地の桜",
+        "prefecture": "愛知県"
+      },
+      {
+        "spot_id": "walker-ar0623e380519",
+        "spot_name": "138タワーパークの桜",
+        "prefecture": "愛知県"
+      },
+      {
+        "spot_id": "walker-ar0623e62095",
+        "spot_name": "愛知こどもの国の桜",
+        "prefecture": "愛知県"
+      },
+      {
+        "spot_id": "walker-ar0726e458786",
+        "spot_name": "京都御苑の桜",
+        "prefecture": "京都府"
+      },
+      {
+        "spot_id": "walker-ar0726e26116",
+        "spot_name": "平安神宮 神苑の桜",
+        "prefecture": "京都府"
+      },
+      {
+        "spot_id": "walker-ar0726e380418",
+        "spot_name": "国立京都国際会館の桜",
+        "prefecture": "京都府"
+      },
+      {
+        "spot_id": "walker-ar0726e401387",
+        "spot_name": "元離宮二条城の桜",
+        "prefecture": "京都府"
+      },
+      {
+        "spot_id": "walker-ar0726e428584",
+        "spot_name": "三段池公園の桜",
+        "prefecture": "京都府"
+      },
+      {
+        "spot_id": "walker-ar0727e26136",
+        "spot_name": "毛馬桜之宮公園の桜",
+        "prefecture": "大阪府"
+      },
+      {
+        "spot_id": "walker-ar0727e381585",
+        "spot_name": "南天満公園の桜",
+        "prefecture": "大阪府"
+      },
+      {
+        "spot_id": "walker-ar0727e26138",
+        "spot_name": "万博記念公園の桜",
+        "prefecture": "大阪府"
+      },
+      {
+        "spot_id": "walker-ar0728e381579",
+        "spot_name": "神戸総合運動公園の桜",
+        "prefecture": "兵庫県"
+      },
+      {
+        "spot_id": "walker-ar0728e494862",
+        "spot_name": "しあわせの村の桜",
+        "prefecture": "兵庫県"
+      },
+      {
+        "spot_id": "walker-ar0730e26177",
+        "spot_name": "和歌山城の桜",
+        "prefecture": "和歌山県"
+      },
+      {
+        "spot_id": "walker-ar0834e26246",
+        "spot_name": "福山城公園の桜",
+        "prefecture": "広島県"
+      },
+      {
+        "spot_id": "walker-ar0938e26308",
+        "spot_name": "道後公園の桜",
+        "prefecture": "愛媛県"
+      },
+      {
+        "spot_id": "walker-ar1043e60309",
+        "spot_name": "湯の児チェリーラインの桜",
+        "prefecture": "熊本県"
+      },
+      {
+        "spot_id": "walker-ar1046e60314",
+        "spot_name": "国指定名勝 仙巌園の桜",
+        "prefecture": "鹿児島県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "oushusatozakura",
+        "奥州里桜"
+      ],
+      [
+        "tatsugo-satozakura",
+        "たつご里桜"
+      ],
+      [
+        "furusatozakura-isyu",
+        "古里桜異種"
+      ],
+      [
+        "mishoumumei-oushusatozakura1224",
+        "実生無名（奥州里桜1224実生）"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "サトザクラ",
+    "count": 2,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「実生無名（奥州里桜1224実生）」(mishoumumei-oushusatozakura1224)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0727e26137",
+        "spot_name": "大阪城公園の桜",
+        "prefecture": "大阪府"
+      },
+      {
+        "spot_id": "walker-ar0313e25836",
+        "spot_name": "水元公園の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "oushusatozakura",
+        "奥州里桜"
+      ],
+      [
+        "ominosato-buraizakura",
+        "麻績の里舞台桜"
+      ],
+      [
+        "satohara",
+        "里原"
+      ],
+      [
+        "sonosato-kizakura",
+        "園里黄桜"
+      ],
+      [
+        "sonosato-ryokuryu",
+        "園里緑龍"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "シウリザクラ",
+    "count": 2,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e60114",
+        "spot_name": "春採公園の桜",
+        "prefecture": "北海道"
+      },
+      {
+        "spot_id": "walker-ar0202e25578",
+        "spot_name": "いちょう公園の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "魯桃桜",
+    "count": 2,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0420e25979",
+        "spot_name": "上田城跡公園の桜",
+        "prefecture": "長野県"
+      },
+      {
+        "spot_id": "walker-ar0420e25987",
+        "spot_name": "小諸城址 懐古園の桜",
+        "prefecture": "長野県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "南殿桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「暁南殿」(akatsuki-naden)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e25542",
+        "spot_name": "松前公園の桜",
+        "prefecture": "北海道"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "akatsuki-naden",
+        "暁南殿"
+      ],
+      [
+        "onaden",
+        "大南殿"
+      ],
+      [
+        "takasago",
+        "高砂"
+      ],
+      [
+        "sho-nanden",
+        "正南殿"
+      ],
+      [
+        "beni-nanden",
+        "紅南殿"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "エドヒガン系ベニシダレザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0207e25692",
+        "spot_name": "三春滝桜",
+        "prefecture": "福島県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ],
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ],
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "蝦夷の上溝桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e60114",
+        "spot_name": "春採公園の桜",
+        "prefecture": "北海道"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "uwamizu-zakura",
+        "上溝桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "青葉枝垂",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e60102",
+        "spot_name": "青葉ヶ丘公園の桜",
+        "prefecture": "北海道"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "aoba",
+        "青葉"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "駒見桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0101e60116",
+        "spot_name": "オニウシ公園の桜",
+        "prefecture": "北海道"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ノムラベニヤマザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25578",
+        "spot_name": "いちょう公園の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "mazakura",
+        "磨桜"
+      ],
+      [
+        "yamazakura",
+        "ヤマザクラ"
+      ],
+      [
+        "beniyamazakura",
+        "紅山桜"
+      ],
+      [
+        "ma-zakura",
+        "真桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "大河原紅桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0204e25610",
+        "spot_name": "白石川堤一目千本桜",
+        "prefecture": "宮城県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "おおがわら千年桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0204e25610",
+        "spot_name": "白石川堤一目千本桜",
+        "prefecture": "宮城県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ヤエベニシダレヒガンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0203e25600",
+        "spot_name": "米内浄水場の桜",
+        "prefecture": "岩手県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidare-higan",
+        "しだれ彼岸"
+      ],
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ],
+      [
+        "higan-zakura",
+        "彼岸桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "鹽竈桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0204e25606",
+        "spot_name": "志波彦神社 鹽竈神社の桜",
+        "prefecture": "宮城県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "里桜 (八重桜小菊桜)",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0207e25684",
+        "spot_name": "磐椅神社 大鹿桜",
+        "prefecture": "福島県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kikuzakura",
+        "菊桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "神代桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「江戸彼岸（山高神代桜）」(edohigan-yamataka-jindai-zakura)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0207e25691",
+        "spot_name": "宮川千本桜",
+        "prefecture": "福島県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edohigan-yamataka-jindai-zakura",
+        "江戸彼岸（山高神代桜）"
+      ],
+      [
+        "jindai-akebono",
+        "神代曙"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "知恵桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0207e25691",
+        "spot_name": "宮川千本桜",
+        "prefecture": "福島県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "など園芸品種70種以上",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e25764",
+        "spot_name": "美の山(みのやま)公園の桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "しだれ桜 (詳細名不明)",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e382691",
+        "spot_name": "砂川堀のしだれ桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ベニシダレの近縁",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e428702",
+        "spot_name": "放光寺の桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "安行寒桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e338485",
+        "spot_name": "北浅羽桜堤公園の桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kanzakura",
+        "寒桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "大漁ザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「大漁桜」(tairyo-zakura)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e25800",
+        "spot_name": "あけぼの山公園の桜",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "tairyo-zakura",
+        "大漁桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "元朝桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e376439",
+        "spot_name": "抱湖園の桜",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ウバヒガンシダレザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e380830",
+        "spot_name": "長光寺のしだれ桜",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ],
+      [
+        "ubahigan",
+        "ウバヒガン"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "カンザン桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e25855",
+        "spot_name": "日比谷公園の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kanzan",
+        "関山"
+      ],
+      [
+        "kuramakauzan",
+        "鞍馬寒山"
+      ],
+      [
+        "クラマカンザン",
+        "鞍馬関山"
+      ],
+      [
+        "dobakanza",
+        "道場勘山"
+      ],
+      [
+        "ドウバカンザン",
+        "銅葉関山"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "駿河桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「駿河台匂」(surugadai-nioi)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e380523",
+        "spot_name": "国立劇場の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "surugadai-nioi",
+        "駿河台匂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "駿河小町",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e380523",
+        "spot_name": "国立劇場の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "駿河桜の実生",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e380523",
+        "spot_name": "国立劇場の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ワシントンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e380313",
+        "spot_name": "東京都庭園美術館の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "祐天桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e382414",
+        "spot_name": "大本山 増上寺の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "カンザクラ類",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e25816",
+        "spot_name": "新宿御苑の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kanzakura",
+        "寒桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "エドコヒガンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e402459",
+        "spot_name": "新宿中央公園の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ],
+      [
+        "kohigan",
+        "小彼岸"
+      ],
+      [
+        "higan-zakura",
+        "彼岸桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "など。小山内裏公園内では",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e60174",
+        "spot_name": "尾根緑道の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "河津桜や希少種のヤブザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e60174",
+        "spot_name": "尾根緑道の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kawaduzakura",
+        "河津桜"
+      ],
+      [
+        "ヤブザクラ",
+        "藪桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "タマノホシザクラなども観桜可",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e60174",
+        "spot_name": "尾根緑道の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "tamanohoshi-zakura",
+        "玉の星桜"
+      ],
+      [
+        "hoshizakura",
+        "星桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ほか。上記含めて約",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e25856",
+        "spot_name": "県立三ツ池公園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "伊勢山桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e380653",
+        "spot_name": "伊勢山皇大神宮の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "シロヤマザクラ",
+        "白山桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "シドモア桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e380653",
+        "spot_name": "伊勢山皇大神宮の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ウスズミザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e25857",
+        "spot_name": "三溪園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "aizu-usuzumi",
+        "会津薄墨"
+      ],
+      [
+        "iyo-usuzumi",
+        "伊予薄墨"
+      ],
+      [
+        "usuzumi",
+        "薄墨"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ショウカワザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e25857",
+        "spot_name": "三溪園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ヤナイヅタカクワホシザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e25857",
+        "spot_name": "三溪園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "hoshizakura",
+        "星桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "思川桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「思川」(omoigawa)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e25866",
+        "spot_name": "弘法山公園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "omoigawa",
+        "思川"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "大磯小桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0314e586607",
+        "spot_name": "大磯運動公園の桜",
+        "prefecture": "神奈川県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "穂咲彼岸八重桜 ※約9割がソメイヨシノ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0415e25899",
+        "spot_name": "村松公園の桜",
+        "prefecture": "新潟県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "someiyoshino",
+        "染井吉野"
+      ],
+      [
+        "hozaki-higan-yaezakura",
+        "穂咲彼岸八重桜"
+      ],
+      [
+        "yoshino-yamazakura",
+        "ヨシノ"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "希少品種の穂咲彼岸八重桜も観賞できる",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0415e25899",
+        "spot_name": "村松公園の桜",
+        "prefecture": "新潟県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "hozaki-higan-yaezakura",
+        "穂咲彼岸八重桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "結桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0415e60126",
+        "spot_name": "瓢湖水きん公園の桜",
+        "prefecture": "新潟県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "霞桜。※しだれ桜の正式名称はイトザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0420e25978",
+        "spot_name": "国宝 松本城の桜",
+        "prefecture": "長野県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "itozakura",
+        "糸桜"
+      ],
+      [
+        "ケヤマザクラ",
+        "霞桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "誓願桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0420e25983",
+        "spot_name": "飯田市大宮通り桜並木",
+        "prefecture": "長野県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "小諸八重紅しだれ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0420e25987",
+        "spot_name": "小諸城址 懐古園の桜",
+        "prefecture": "長野県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "蝦夷桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「蝦夷錦」(ezo-nishiki)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0420e25987",
+        "spot_name": "小諸城址 懐古園の桜",
+        "prefecture": "長野県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "ezo-nishiki",
+        "蝦夷錦"
+      ],
+      [
+        "kasumiezoyamazakura",
+        "霞蝦夷山桜"
+      ],
+      [
+        "ke-ezo-yamazakura",
+        "毛蝦夷山桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "あたみ桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「熱海桜」(atamizakura)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0622e209285",
+        "spot_name": "糸川遊歩道の桜",
+        "prefecture": "静岡県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "atamizakura",
+        "熱海桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "城ケ崎桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0622e26048",
+        "spot_name": "さくらの里の桜",
+        "prefecture": "静岡県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "フジザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「富士桜 黄白散斑」(fujizakura-ohaku-chirifu)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0622e217110",
+        "spot_name": "秩父宮記念公園の桜",
+        "prefecture": "静岡県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidare-fujizakura",
+        "枝垂富士桜"
+      ],
+      [
+        "mishima-fujizakura",
+        "三島藤桜"
+      ],
+      [
+        "tennin-fuji",
+        "天人藤"
+      ],
+      [
+        "テンニンフジ",
+        "天人富士"
+      ],
+      [
+        "ミシマフジミザクラ",
+        "三島富士見桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "土肥桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0622e213882",
+        "spot_name": "松原公園の桜",
+        "prefecture": "静岡県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "あらさわ紅桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0622e584902",
+        "spot_name": "あらさわふる里公園の桜",
+        "prefecture": "静岡県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "おおぐち観鋭桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0623e60241",
+        "spot_name": "大口町 五条川の桜並木",
+        "prefecture": "愛知県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "エゾヒガンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0725e60278",
+        "spot_name": "清瀧寺徳源院の桜",
+        "prefecture": "滋賀県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "higan-zakura",
+        "彼岸桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "オカメフジザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0725e60265",
+        "spot_name": "湖東三山西明寺の桜",
+        "prefecture": "滋賀県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "okame",
+        "オカメ"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "寝覚桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「平野寝覚」(ヒラノネザメ)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e26129",
+        "spot_name": "平野神社の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "ヒラノネザメ",
+        "平野寝覚"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "平野妹背",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e26129",
+        "spot_name": "平野神社の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "hiranojinja-imose",
+        "妹背（平野神社）"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "魁桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e26129",
+        "spot_name": "平野神社の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "黄桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e461160",
+        "spot_name": "原谷苑の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "sonosato-kizakura",
+        "園里黄桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "御会式桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e380664",
+        "spot_name": "大本山 妙蓮寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "八重紅枝垂桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「八重紅枝垂(佐野系）」(yaebenishidare-sanokei)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e382553",
+        "spot_name": "鴨川公園(半木の道)の八重紅枝垂桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ],
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ],
+      [
+        "yaebenishidare-sanokei",
+        "八重紅枝垂(佐野系）"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "紅枝垂れ桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e382553",
+        "spot_name": "鴨川公園(半木の道)の八重紅枝垂桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ヒガンシダレザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e26483",
+        "spot_name": "常寂光寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "紅しだれ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e60618",
+        "spot_name": "退蔵院(妙心寺山内)の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "渓仙桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e458428",
+        "spot_name": "車折神社の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "御室桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「御室有明」(omuro-ariake)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e588995",
+        "spot_name": "金花山宝泉寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "omuro-ariake",
+        "御室有明"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "観音桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e588995",
+        "spot_name": "金花山宝泉寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "金剛桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「金剛山」(kongo-zan)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e588995",
+        "spot_name": "金花山宝泉寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kongo-zan",
+        "金剛山"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "紅枝垂桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「紅枝垂」(beni-shidare)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e60621",
+        "spot_name": "城南宮 神苑 楽水苑の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ],
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ],
+      [
+        "yaebenishidare-sanokei",
+        "八重紅枝垂(佐野系）"
+      ],
+      [
+        "chichibu-benishidare",
+        "秩父紅枝垂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "墨染桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「新墨染」(shin-sumizome)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e381922",
+        "spot_name": "墨染寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shin-sumizome",
+        "新墨染"
+      ],
+      [
+        "sumizome-nioi",
+        "墨染匂"
+      ],
+      [
+        "スミゾメ",
+        "墨染"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "千眼桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e380415",
+        "spot_name": "大原野神社の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "紅枝垂れ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e460228",
+        "spot_name": "勝持寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "beni-shidare",
+        "紅枝垂"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ぼたん桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに「牡丹」(botan)が近い可能性",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e461337",
+        "spot_name": "善峯寺の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "botan",
+        "牡丹"
+      ],
+      [
+        "matsumaeshirobotan",
+        "松前白牡丹"
+      ],
+      [
+        "matsumae-beni-botan",
+        "松前紅牡丹"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ギオンシダレ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e60643",
+        "spot_name": "福知山城の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ヒョウタンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0726e60218",
+        "spot_name": "地蔵禅院の桜",
+        "prefecture": "京都府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "テルテモモ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0727e381771",
+        "spot_name": "八幡屋公園の桜",
+        "prefecture": "大阪府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "多数の種類が咲く",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0727e60637",
+        "spot_name": "大仙公園の桜",
+        "prefecture": "大阪府"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "紅八重枝垂桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0728e382683",
+        "spot_name": "千鳥川桜堤公園の桜",
+        "prefecture": "兵庫県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ナラココノエザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0729e26163",
+        "spot_name": "奈良公園の桜",
+        "prefecture": "奈良県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kokonoe",
+        "九重"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "コイトシダレザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0729e26170",
+        "spot_name": "大野寺の桜",
+        "prefecture": "奈良県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "江戸彼岸大島",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0832e26212",
+        "spot_name": "斐伊川堤防桜並木",
+        "prefecture": "島根県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ],
+      [
+        "シロヒガン",
+        "江戸彼岸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ミョウヨウジザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0832e60274",
+        "spot_name": "妙用寺の桜(ミョウヨウジザクラ)",
+        "prefecture": "島根県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "タイハクザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0833e26229",
+        "spot_name": "みやま公園の桜",
+        "prefecture": "岡山県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "taihaku",
+        "太白"
+      ],
+      [
+        "minakami-taihaku",
+        "水上太白"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ほか(約70種)",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0834e60423",
+        "spot_name": "広島市植物公園の桜",
+        "prefecture": "広島県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "(エドヒガンの変種)",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0938e60299",
+        "spot_name": "石畳東のしだれ桜",
+        "prefecture": "愛媛県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "センダイヤザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0939e26317",
+        "spot_name": "高知公園の桜",
+        "prefecture": "高知県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "sendaiya",
+        "仙台屋"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ほか数十",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1040e60305",
+        "spot_name": "白野江植物公園の桜",
+        "prefecture": "福岡県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "オモイカワザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1044e425457",
+        "spot_name": "長湯温泉 しだれ桜の里の桜",
+        "prefecture": "大分県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "福聚桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1040e459760",
+        "spot_name": "呑山観音寺の桜",
+        "prefecture": "福岡県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "玖島桜など20種類以上",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1042e60517",
+        "spot_name": "大村公園(大村神社)の桜",
+        "prefecture": "長崎県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kushima-zakura",
+        "玖島桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ヒメシダレザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1041e26346",
+        "spot_name": "宝珠寺の桜",
+        "prefecture": "佐賀県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "shidarezakura",
+        "枝垂桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "ニドザキザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1042e26360",
+        "spot_name": "亀岡公園の桜",
+        "prefecture": "長崎県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "ガンタンザクラ",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar1046e60314",
+        "spot_name": "国指定名勝 仙巌園の桜",
+        "prefecture": "鹿児島県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "秋色桜",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e25817",
+        "spot_name": "上野恩賜公園の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "輪王寺御車返し",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0313e25817",
+        "spot_name": "上野恩賜公園の桜",
+        "prefecture": "東京都"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "mikurumagaeshi",
+        "御車返し"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "大枝垂れ（弘前枝垂れ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "白糸枝垂れ（シライトシダレ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "紅芳遊（ベニボウユ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "衣縫（コロモツギ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "行仙（ギョイオ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "大東陳（ダイトウチン）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "開六園菊桜（カイロクエンキクザクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "kikuzakura",
+        "菊桜"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "松前あこや山錦（マツマエアコヤマニシキ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0202e25563",
+        "spot_name": "弘前公園(鷹揚公園)の桜",
+        "prefecture": "青森県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "matsumae",
+        "松前"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "西山エドヒガン",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0206e25655",
+        "spot_name": "烏帽子山公園の桜",
+        "prefecture": "山形県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "おとぎ桜（エドヒガンサクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0206e25655",
+        "spot_name": "烏帽子山公園の桜",
+        "prefecture": "山形県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "康寿ざくら（エドヒガンサクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0206e25655",
+        "spot_name": "烏帽子山公園の桜",
+        "prefecture": "山形県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "家昌桜（エドヒガンサクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0206e25655",
+        "spot_name": "烏帽子山公園の桜",
+        "prefecture": "山形県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "edo",
+        "江戸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  },
+  {
+    "variety_name": "サトザクラ類（70種以上の園芸品種）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e25764",
+        "spot_name": "美の山公園の桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "里ざくらコレクション約50種の詳細品種",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0311e60438",
+        "spot_name": "慈光山歴史公苑の桜",
+        "prefecture": "埼玉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "劫初の桜（コウジョノサクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e25777",
+        "spot_name": "清水公園の桜(千葉県)",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "笹目桜（ササメザクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e25777",
+        "spot_name": "清水公園の桜(千葉県)",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "笹目桜（ヨウヘイザクラ）",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0312e25777",
+        "spot_name": "清水公園の桜(千葉県)",
+        "prefecture": "千葉県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "春月花",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0834e60423",
+        "spot_name": "広島市植物公園の桜",
+        "prefecture": "広島県"
+      }
+    ],
+    "match": "該当なし",
+    "match_method": "none"
+  },
+  {
+    "variety_name": "乙女東彼岸",
+    "count": 1,
+    "reason": "alias_map・varieties.json双方に未登録",
+    "hint": "varieties.jsonに該当なし（新規登録候補 or 総称）",
+    "spots": [
+      {
+        "spot_id": "walker-ar0834e60423",
+        "spot_name": "広島市植物公園の桜",
+        "prefecture": "広島県"
+      }
+    ],
+    "match": "?",
+    "match_candidates": [
+      [
+        "azumahigan",
+        "東彼岸"
+      ],
+      [
+        "シロヒガン",
+        "江戸彼岸"
+      ]
+    ],
+    "match_method": "fuzzy"
+  }
+]
