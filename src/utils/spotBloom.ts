@@ -49,8 +49,9 @@ export function getVarietyBloomStatus(
   if (isInBloomAdjusted({ start: bp.start, end: bp.end }, totalOffset, today)) return 'in_bloom'
   if (bp.secondary && isInBloomAdjusted({ start: bp.secondary.start, end: bp.secondary.end }, totalOffset, today)) return 'in_bloom'
   const { startDate, endDate } = adjustBloomPeriod({ start: bp.start, end: bp.end }, totalOffset)
-  if (today > endDate) return 'past_bloom'
-  const daysUntil = (startDate.getTime() - today.getTime()) / 86400000
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (todayDate > endDate) return 'past_bloom'
+  const daysUntil = (startDate.getTime() - todayDate.getTime()) / 86400000
   return daysUntil <= 20 ? 'budding' : 'upcoming'
 }
 
@@ -61,9 +62,10 @@ function getDaysScore(
   today: Date
 ): number {
   const { startDate, endDate } = adjustBloomPeriod(bp, totalOffset)
-  if (today >= startDate && today <= endDate) return 0
-  if (today > endDate) return 1000 + (today.getTime() - endDate.getTime()) / 86400000
-  return (startDate.getTime() - today.getTime()) / 86400000
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (todayDate >= startDate && todayDate <= endDate) return 0
+  if (todayDate > endDate) return 1000 + (todayDate.getTime() - endDate.getTime()) / 86400000
+  return (startDate.getTime() - todayDate.getTime()) / 86400000
 }
 
 function estimateFromPeakMonth(text: string): BloomStatus {
