@@ -334,8 +334,9 @@ interface SheetProps {
   onClose:           () => void
   onViewAll:         () => void
   onSelectVariety:   (id: string) => void
+  onViewSpotList?:   (spotId: string) => void
 }
-function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety }: SheetProps) {
+function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpotList }: SheetProps) {
   const [expanded, setExpanded] = useState(false)
   const touchStartY = useRef(0)
 
@@ -499,11 +500,21 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety }: SheetPro
               </section>
             )}
 
-            {ids.length > 0 && (
-              <button className="spot-sheet__view-all" onClick={onViewAll}>
-                全品種を図鑑で見る →
-              </button>
-            )}
+            <div className="spot-sheet__action-row">
+              {ids.length > 0 && (
+                <button className="spot-sheet__view-all" onClick={onViewAll}>
+                  🌸 図鑑で見る
+                </button>
+              )}
+              {onViewSpotList && (
+                <button
+                  className="spot-sheet__view-spot-list"
+                  onClick={() => { onClose(); onViewSpotList(spot.id) }}
+                >
+                  📋 スポット一覧で見る
+                </button>
+              )}
+            </div>
           </div>
         )}
       </div>
@@ -588,11 +599,12 @@ function NearbyCarousel({ spots, onSpotTap }: {
 interface Props {
   onViewVarieties:   (spotName: string, varietyIds: string[]) => void
   onSelectVariety:   (id: string) => void
+  onViewSpotList?:   (spotId: string) => void
   focusSpotId?:      string
 }
 
 // ── メインコンポーネント ─────────────────────────────────────────
-export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }: Props) {
+export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList, focusSpotId }: Props) {
   const containerRef      = useRef<HTMLDivElement>(null)
   const mapRef            = useRef<L.Map | null>(null)
   const markerLayerRef    = useRef<L.LayerGroup | null>(null)
@@ -940,6 +952,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, focusSpotId }:
             onSelectVariety(id)
             setSelectedSpot(null)
           }}
+          onViewSpotList={onViewSpotList}
         />
       )}
     </div>

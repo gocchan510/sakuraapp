@@ -350,19 +350,23 @@ html, body {
 .spot-sheet__cards::-webkit-scrollbar { display: none; }
 
 .spot-sheet__view-all {
-  width: 100%;
-  margin-top: 8px;
+  flex: 1;
+  min-width: 120px;
+  padding: 10px 14px;
+  border-radius: 20px;
   background: var(--pink-deep);
   color: white;
   border: none;
-  border-radius: 12px;
-  padding: 12px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
+  text-align: center;
   -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s;
 }
+
+.spot-sheet__view-all:active { opacity: 0.8; }
 
 /* ── 品種ミニカード ── */
 .map-mini-card {

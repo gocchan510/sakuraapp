@@ -9,6 +9,7 @@ import { VarietyList }   from './components/VarietyList'
 import { VarietyDetail } from './components/VarietyDetail'
 import { SakuraMapPage } from './components/SakuraMapPage'
 import { SakuraCalendar } from './components/SakuraCalendar'
+import { SpotListPage }  from './components/SpotListPage'
 import type { Variety } from './types'
 
 const varieties = varietiesData as Variety[]
@@ -16,7 +17,7 @@ const varieties = varietiesData as Variety[]
 // ── スポットフィルタの型（location.state で受け渡し） ──────────
 interface SpotFilter { name: string; ids: string[] }
 
-// ── タブ付きレイアウト（図鑑 / 地図 / カレンダー） ────────────────────────
+// ── タブ付きレイアウト（地図 / スポット / カレンダー / 図鑑） ─────────────
 function TabLayout() {
   const location = useLocation()
   const isMap    = location.pathname === '/map'
@@ -27,14 +28,6 @@ function TabLayout() {
 
       <nav className="tab-bar">
         <NavLink
-          to="/"
-          end
-          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
-        >
-          <span className="tab-icon">🌸</span>
-          <span className="tab-label">図鑑</span>
-        </NavLink>
-        <NavLink
           to="/map"
           className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
         >
@@ -42,11 +35,26 @@ function TabLayout() {
           <span className="tab-label">地図</span>
         </NavLink>
         <NavLink
+          to="/spots"
+          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
+        >
+          <span className="tab-icon">📍</span>
+          <span className="tab-label">スポット</span>
+        </NavLink>
+        <NavLink
           to="/calendar"
           className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
         >
           <span className="tab-icon">🗓️</span>
           <span className="tab-label">カレンダー</span>
+        </NavLink>
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) => `tab-btn${isActive ? ' active' : ''}`}
+        >
+          <span className="tab-icon">🌸</span>
+          <span className="tab-label">図鑑</span>
         </NavLink>
       </nav>
     </div>
@@ -85,6 +93,7 @@ function MapRoute() {
         navigate('/', { state: { spotFilter: { name, ids } } })
       }
       onSelectVariety={(id) => navigate(`/variety/${id}`)}
+      onViewSpotList={(spotId) => navigate('/spots', { state: { highlightSpotId: spotId } })}
       focusSpotId={focusSpotId}
     />
   )
@@ -141,14 +150,15 @@ export default function App() {
       <Route element={<TabLayout />}>
         <Route index           element={<ZukanRoute />} />
         <Route path="map"      element={<MapRoute />} />
+        <Route path="spots"    element={<SpotListPage />} />
         <Route path="calendar" element={<SakuraCalendar />} />
       </Route>
 
       {/* タブバーなし */}
       <Route path="variety/:id" element={<VarietyDetailRoute />} />
 
-      {/* 不明パスは図鑑へ */}
-      <Route path="*" element={<Navigate to="/" replace />} />
+      {/* 不明パスは地図へ */}
+      <Route path="*" element={<Navigate to="/map" replace />} />
     </Routes>
     </>
   )
