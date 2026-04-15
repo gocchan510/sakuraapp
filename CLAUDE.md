@@ -176,6 +176,8 @@ sakura-app/
 
 ## 5. ルート構成
 
+### 現状（実装済み）
+
 | パス | コンポーネント | タブバー |
 |------|--------------|--------|
 | `/` | ZukanRoute → VarietyList | あり |
@@ -186,6 +188,20 @@ sakura-app/
 
 - **HashRouter使用**（GitHub Pages静的配信のため）
 - `usePreventBackOnRoot()`：トップで戻るボタンを押してもアプリが閉じない
+
+### B-10実装後（スポットタブ追加）
+
+| パス | コンポーネント | タブバー |
+|------|--------------|--------|
+| `/map` | MapRoute → SakuraMapPage | あり |
+| `/spots` | SpotListPage（新規） | あり |
+| `/calendar` | SakuraCalendar | あり |
+| `/` | ZukanRoute → VarietyList | あり |
+| `/variety/:id` | VarietyDetailRoute → VarietyDetail | なし |
+| `*` | Navigate to `/map` | - |
+
+**タブ順**: 地図 → スポット → カレンダー → 図鑑（左から右）  
+**デフォルト表示**: `/map`（アプリ起動時は地図タブ）
 
 ---
 
@@ -261,6 +277,7 @@ npm run deploy  # gh-pages -d dist → gocchan510.github.io/sakuraapp/
 | ~~B-01~~ | ~~unmatched品種の新規追加検討~~ | **完了（2026-04）** 56品種追加、varieties.json 806→862件 |
 | B-02 | variety_candidates_v3.csvの人間レビュー | MEDIUM却下ログの内容確認（現状0件だが将来用） |
 | B-03 | PWAインストールバナー実装 | App.cssにスタイルは追加済み。JSロジック（beforeinstallpromptイベント等）が未実装の可能性あり |
+| **B-10** | **スポットタブ新規実装** | **仕様確定済み（下記参照）。実装待ち** |
 
 ### 中優先度
 
@@ -280,7 +297,73 @@ npm run deploy  # gh-pages -d dist → gocchan510.github.io/sakuraapp/
 
 ---
 
-## 11. 既知の問題・注意事項
+---
+
+## 11. B-10 スポットタブ 仕様書（確定）
+
+### 概要
+スポット一覧を閲覧できる新タブ `/spots`。図鑑タブと似たUXで、地図・図鑑との連携を重視。
+
+### カード表示
+```
+┌─────────────────────────────────┐
+│ [画像]  🌸 弘前公園          🗺 │  ← 🗺 で地図タブへ（/map?spot=xxx）
+│         青森県弘前市            │
+│                                  │
+│  ████████░░░░  見頃 🟢          │  ← 見頃バー（後述）
+│                                  │
+│  [染井吉野] [枝垂桜] +5種       │  ← 品種バッジ → タップで図鑑へ
+└─────────────────────────────────┘
+```
+- 画像: `spot.imageUrl` がある場合は表示（精度不問）
+- 品種バッジ: 見頃が近い順 → レア度高い順、超過分は `+N種`
+- 🗺ボタン: `/map` に `location.state = { focusSpotId }` で遷移
+
+### 見頃表示ロジック
+- **計算ベース**: スポットの `varieties[]` → 各品種の `bloomPeriod` を参照
+- **代表値**: 最も見頃に近い品種の状態をスポット全体の状態とする
+- **4段階ラベル**: 🟢 見頃 / 🟡 もうすぐ / 🔴 散り頃 / ⚪ 時期外
+- 地域オフセットは `bloomOffset.ts` の `getTotalOffset(lat, lng)` を使用
+
+### フィルタ・ソート
+| 機能 | 仕様 |
+|------|------|
+| 見頃フィルタ | 🟢見頃 / 🟡もうすぐ / 🔴散り頃 / ⚪時期外 の横スクロールチップス |
+| 都道府県 | ドロップダウン（47都道府県） |
+| ソート | 見頃が近い順 → 人気順（デフォルト）/ 人気順 / 距離順 |
+| 検索 | スポット名 + 都道府県名 + 市区町村名を対象 |
+| 状態保持 | タブを離れて戻っても絞り込み状態を維持 |
+
+### 表示パフォーマンス
+- 初期50件表示 + 無限スクロール（Intersection Observer）
+
+### 距離順ソート
+- 選択時に自前Geolocationダイアログを表示して位置情報を取得
+- 拒否・失敗時は人気順にフォールバック
+
+### 地図連携（SakuraMapPage改修も必要）
+- スポットカードの 🗺 → `navigate('/map', { state: { focusSpotId: spot.id } })`
+- SakuraMapPage のポップアップに「📋 スポット一覧で見る」ボタンを追加
+  - クリックで `navigate('/spots', { state: { highlightSpotId: spot.id } })`
+
+### 図鑑連携
+- 品種バッジタップ → `navigate('/variety/:id')`
+
+### スポット詳細ページ
+- **今回は実装しない**（将来 `/spots/:id` として追加予定）
+
+### 新規作成ファイル
+- `src/components/SpotListPage.tsx` — スポットタブのメインコンポーネント
+- `src/components/SpotListCard.tsx` — スポット一覧用カード（既存SpotCardとは別）
+
+### 既存ファイルの改修
+- `src/App.tsx` — タブ順変更、`/spots` ルート追加、デフォルト `*` を `/map` に変更
+- `src/components/SakuraMapPage.tsx` — ポップアップに「スポット一覧で見る」追加
+- `src/App.css` — スポットタブ用スタイル追加
+
+---
+
+## 12. 既知の問題・注意事項
 
 - `src/App.tsx` の `<Routes>` が `<>...</>` で囲まれているが、現状機能上の問題なし
 - `scripts/deepdive_enrich.py.DISABLED` は v2の失敗スクリプト。絶対に実行しないこと
