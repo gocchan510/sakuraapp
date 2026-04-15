@@ -4883,7 +4883,8 @@
     "lat": 37.57105,
     "lng": 140.104785,
     "varieties": [
-      "ichiyou"
+      "ichiyou",
+      "kikuzakura"
     ],
     "varietyCount": null,
     "varietyNote": null,
@@ -8962,7 +8963,40 @@
       "someiyoshino",
       "gyoikou",
       "ichiyou",
-      "kawaduzakura"
+      "kawaduzakura",
+      "kanzan",
+      "shogetsu",
+      "amanogawa",
+      "shirotae",
+      "mikurumagaeshi",
+      "omoigawa",
+      "ariake",
+      "ukon",
+      "agishi-kogiku-zakura",
+      "oshidorizakura",
+      "yaebeni-ohshima",
+      "hanagasa",
+      "takasago",
+      "maihime",
+      "hiuchidani-kikuzakura",
+      "ojochin",
+      "hiyodorizakura",
+      "sumaura-fugenzo",
+      "ハタザクラ",
+      "itokukuri",
+      "kurama-uzu",
+      "ranran",
+      "matsumae-hayazaki",
+      "keio-zakura",
+      "amayadori",
+      "eigenji",
+      "beni-shigure",
+      "スザク",
+      "sendaiya",
+      "wakakinosakura",
+      "beniyutaka",
+      "omurazakura",
+      "baigoji-juzukakezakura"
     ],
     "varietyCount": 4,
     "varietyNote": "約270本",
@@ -9261,7 +9295,10 @@
       "oshimazakura",
       "someiyoshino",
       "yamazakura",
-      "uwamizu-zakura"
+      "uwamizu-zakura",
+      "kanzan",
+      "fugenzou",
+      "yaebenishidare-sanokei"
     ],
     "varietyCount": 1,
     "varietyNote": "約1500本",
@@ -9305,7 +9342,8 @@
       "ichiharatoranoo",
       "kawaduzakura",
       "yamazakura",
-      "shidarezakura"
+      "shidarezakura",
+      "fugenzou"
     ],
     "varietyCount": 5,
     "varietyNote": "約580本",
@@ -9331,7 +9369,13 @@
     "lng": 140.28253,
     "varieties": [
       "someiyoshino",
-      "yamazakura"
+      "yamazakura",
+      "kanzan",
+      "taihaku",
+      "fugenzou",
+      "itokukuri",
+      "shirayuki",
+      "yaebenishidare-sanokei"
     ],
     "varietyCount": 1,
     "varietyNote": "約500本",
@@ -11813,7 +11857,8 @@
       "oshimazakura",
       "edohigan-zakura",
       "ooyamazakura",
-      "yaebenishidare-sanokei"
+      "yaebenishidare-sanokei",
+      "shogetsu"
     ],
     "varietyCount": 4,
     "varietyNote": "約340本",
@@ -24929,7 +24974,10 @@
       "kasumizakura",
       "yamazakura",
       "shidarezakura",
-      "oshimazakura"
+      "oshimazakura",
+      "kanzan",
+      "fugenzou",
+      "shogetsu"
     ],
     "varietyCount": 5,
     "varietyNote": "約60本",
@@ -25014,7 +25062,9 @@
       "oshimazakura",
       "edohigan-zakura",
       "ooyamazakura",
-      "ukon"
+      "ukon",
+      "kanzan",
+      "shogetsu"
     ],
     "varietyCount": 3,
     "varietyNote": null,
@@ -25627,7 +25677,10 @@
       "yaebenishidare-sanokei",
       "shidarezakura",
       "yamazakura",
-      "fugenzou"
+      "fugenzou",
+      "ichiyou",
+      "shirotae",
+      "ukon"
     ],
     "varietyCount": 50,
     "varietyNote": "約300本",
