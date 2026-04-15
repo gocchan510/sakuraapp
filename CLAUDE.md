@@ -71,7 +71,12 @@ sakura-app/
 │   ├── spot_variety_enrichment_log.csv  # v1ベースライン（復元用）
 │   ├── deepdive_v3_merge.py            # v3マージスクリプト
 │   ├── deepdive_v3_batches/            # バッチ入出力JSON
-│   └── variety_candidates_v3.csv      # 要人間レビューの品種候補
+│   ├── variety_candidates_v3.csv      # 要人間レビューの品種候補
+│   ├── unmatched_classified.json      # pattern3の117品種マッチング結果
+│   ├── p3_result.json                 # pattern3のmatched/unmatched分割ビュー
+│   ├── extracted_batch_results.json   # Batch1-4,6-7のWeb調査結果（抽出済み）
+│   ├── new_varieties_kanto.json       # Batch5（関東10品種）の調査結果
+│   └── add_new_varieties.py           # varieties.jsonへの56品種一括追加スクリプト
 ├── docs/
 │   ├── DECISIONS.md
 │   └── REVIEW_LOG.md
@@ -114,7 +119,7 @@ sakura-app/
 - 3品種: 158件
 - 4品種以上: 321件（22.4%）
 
-### varieties.json（806品種・読み取り専用）
+### varieties.json（862品種・読み取り専用）
 
 ```ts
 {
@@ -144,6 +149,28 @@ sakura-app/
 ```
 
 > **重要**: varieties.jsonは原則読み取り専用。新品種追加は慎重に（ユーザー承認必須）。
+
+### varieties.json 品種追加履歴
+
+| バージョン | 件数 | 内容 |
+|-----------|------|------|
+| 初期 | 806 | オリジナルデータ |
+| v3エンリッチ後 | 806 | spots.json品種付与のみ（varieties.json変更なし） |
+| **B-01完了（2026-04）** | **862** | **Walker+アンマッチ品種56種を追加（no.960〜1015）** |
+
+**B-01で追加した品種（56種）:**
+- 野生種・亜種: シウリザクラ, ヤブザクラ, マメザクラ, カスミザクラ, ノムラベニヤマザクラ
+- 松前・弘前系: 南殿桜, 青葉枝垂, 魁桜, 金剛桜, 松前あこや山錦, 大枝垂れ, 白糸枝垂れ
+- 弘前公園・山形固有: 紅芳遊, 衣縫, 西山エドヒガン, おとぎ桜, 康寿ざくら, 家昌桜
+- 東北固有: 大河原紅桜, おおがわら千年桜, 鹽竈桜, 駒見桜, 神代桜（会津美里）
+- 関東固有: 元朝桜, 駿河桜, 駿河小町, ワシントンザクラ, 祐天桜, シドモア桜, ショウカワザクラ, ヤナイヅタカクワホシザクラ, 大磯小桜, タマノホシザクラ
+- 中部・東海: 誓願桜, 小諸八重紅しだれ, 土肥桜, あらさわ紅桜, おおぐち観鋭桜, 江戸彼岸大島, 劫初の桜, 笹目桜（ササメザクラ）, 笹目桜（ヨウヘイ）, 春月花
+- 京都・九州他: 御会式桜, 渓仙桜, 観音桜, 千眼桜, ギオンシダレ, ヒョウタンザクラ, 紅八重枝垂桜, ミョウヨウジザクラ, オモイカワザクラ, 福聚桜, ニドザキザクラ, 秋色桜, 知恵桜
+
+**除外・統合した品種:**
+- 非桜: テルテモモ（花桃）, 魯桃桜（Prunus davidiana）
+- 既存IDへ統合: 行仙→gyoikou, 大東陳→ojochin, エゾヒガンザクラ→edohigan-zakura, 蝦夷桜（懐古園）→ezoyamazakura
+- エイリアス追加のみ: ガンタンザクラ→kanhizakura の aliases[] に追加済み
 
 ---
 
@@ -231,7 +258,7 @@ npm run deploy  # gh-pages -d dist → gocchan510.github.io/sakuraapp/
 
 | # | タスク | 詳細 |
 |---|--------|------|
-| B-01 | unmatched品種の新規追加検討 | `scripts/unmatched_varieties_v3.csv` を確認し、varieties.jsonに追加すべき品種を洗い出す |
+| ~~B-01~~ | ~~unmatched品種の新規追加検討~~ | **完了（2026-04）** 56品種追加、varieties.json 806→862件 |
 | B-02 | variety_candidates_v3.csvの人間レビュー | MEDIUM却下ログの内容確認（現状0件だが将来用） |
 | B-03 | PWAインストールバナー実装 | App.cssにスタイルは追加済み。JSロジック（beforeinstallpromptイベント等）が未実装の可能性あり |
 
