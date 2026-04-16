@@ -95,6 +95,18 @@ export function getOffsetDaysForLocation(lat: number, lng: number): number {
   return findNearestObserved(lat, lng)?.offsetDays ?? 0
 }
 
+// 最寄りの観測済み地点までの距離（km）を返す。観測データなしの場合は null
+export function getNearestObservedDistanceKm(lat: number, lng: number): number | null {
+  const observed = ALL_STATIONS.filter(o => o.status === 'observed' && o.offsetDays !== null)
+  if (!observed.length) return null
+  let minDist = Infinity
+  for (const o of observed) {
+    const d = haversine(lat, lng, o.lat, o.lng)
+    if (d < minDist) minDist = d
+  }
+  return minDist === Infinity ? null : minDist
+}
+
 // ── MMDD 整数 ↔ Date 変換 ───────────────────────────────────
 function mmddToDate(mmdd: number, year = new Date().getFullYear()): Date {
   const month = Math.floor(mmdd / 100)
@@ -170,7 +182,9 @@ export function isInBloomAdjusted(
 ): boolean {
   if (!bloomPeriod?.start || !bloomPeriod?.end) return false
   const { startDate, endDate } = adjustBloomPeriod(bloomPeriod, totalOffset)
-  return today >= startDate && today <= endDate
+  // 時刻を除いた日付のみで比較（例: 4/16 10:00 <= 4/16 00:00 のバグを防ぐ）
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  return todayDate >= startDate && todayDate <= endDate
 }
 
 // ── 補正後の見頃時期を日本語ラベルで返す ──────────────────────

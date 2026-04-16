@@ -1,0 +1,396 @@
+/* ════════════════════════════════════════════
+   おすすめウィザード（RecommendWizard）
+   ════════════════════════════════════════════ */
+
+/* ── オーバーレイ ── */
+.wizard-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3000;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ── モーダル本体（ボトムシート） ── */
+.wizard-modal {
+  width: 100%;
+  max-height: 90dvh;
+  background: var(--white);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: wizardSlideUp 0.28s cubic-bezier(0.34, 1.36, 0.64, 1);
+}
+
+@keyframes wizardSlideUp {
+  from { transform: translateY(100%); opacity: 0.6; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* ── ヘッダー ── */
+.wizard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 12px;
+  border-bottom: 1px solid rgba(244, 143, 177, 0.2);
+  flex-shrink: 0;
+}
+
+.wizard-header__left {
+  width: 36px;
+}
+
+.wizard-header__title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.wizard-back {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: var(--text-mid);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wizard-close {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: var(--text-light);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── ステップドット ── */
+.wizard-steps {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 0 4px;
+  flex-shrink: 0;
+}
+
+.wizard-step-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--pink-mid);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.wizard-step-dot.active {
+  background: var(--pink-deep);
+  transform: scale(1.25);
+}
+
+/* ── ボディ ── */
+.wizard-body {
+  flex: 1;
+  padding: 20px 16px 24px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Q1・Q3 大きいボタン ── */
+.wizard-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.wizard-option-btn {
+  width: 100%;
+  padding: 18px 16px;
+  border-radius: 16px;
+  border: 2px solid var(--pink-mid);
+  background: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.wizard-option-btn:active {
+  background: var(--pink-light);
+  border-color: var(--pink-deep);
+  transform: scale(0.97);
+}
+
+/* ── Q2 チップ ── */
+.wizard-hint {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.wizard-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.wizard-chip {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--pink-mid);
+  background: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text-mid);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.wizard-chip.active {
+  background: var(--pink-deep);
+  border-color: var(--pink-deep);
+  color: #fff;
+}
+
+/* ── 次へボタン ── */
+.wizard-next-btn {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: 26px;
+  background: var(--pink-deep);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s;
+}
+
+.wizard-next-btn:active { opacity: 0.8; }
+
+/* ── ローディング・エラー ── */
+.wizard-loading {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.wizard-geo-error {
+  font-size: 12px;
+  color: #c62828;
+  background: #ffebee;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+/* ── 結果エリア ── */
+.wizard-results {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wizard-reliability-note {
+  font-size: 11px;
+  color: var(--text-light);
+  text-align: center;
+  padding: 8px 16px 4px;
+  flex-shrink: 0;
+}
+
+.wizard-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 4px 0 24px;
+}
+
+/* ── 結果カード ── */
+.wizard-result-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(244, 143, 177, 0.15);
+}
+
+.wizard-result-card__img {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.wizard-result-card__img-placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: var(--pink-mid);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.wizard-result-card__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.wizard-result-card__pref {
+  font-size: 10px;
+  color: var(--text-light);
+}
+
+.wizard-result-card__name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wizard-result-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.wizard-result-card__bloom {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.wizard-result-card__reliability {
+  font-size: 11px;
+  color: #f9a825;
+  letter-spacing: -0.5px;
+}
+
+.wizard-result-card__features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.wizard-result-card__feature-tag {
+  font-size: 10px;
+  color: var(--text-light);
+  background: var(--pink-light);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+.wizard-result-card__map-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid var(--pink-mid);
+  border-radius: 50%;
+  background: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s;
+}
+
+.wizard-result-card__map-btn:active { background: var(--pink-light); }
+
+/* ── 空状態 ── */
+.wizard-empty {
+  text-align: center;
+  padding: 48px 16px 24px;
+}
+
+.wizard-empty__icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.wizard-empty__text {
+  font-size: 14px;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.wizard-retry-btn {
+  background: var(--pink-deep);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ── フローティングボタン（地図タブ） ── */
+.map-wizard-fab {
+  position: absolute;
+  bottom: 96px;
+  right: 16px;
+  z-index: 900;
+  background: var(--pink-deep);
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  height: 48px;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 16px rgba(194, 24, 91, 0.35);
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.map-wizard-fab:active {
+  opacity: 0.85;
+  transform: scale(0.96);
+}

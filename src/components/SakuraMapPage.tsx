@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { RecommendWizard } from './RecommendWizard'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import spotsData from '../data/spots.json'
@@ -92,9 +93,11 @@ function varietyBloomStatusWithOffset(
   if (bp.secondary && isInBloomAdjusted(bp.secondary, totalOffset, today)) return 'in_bloom'
 
   // 補正済み start/end 日付で past_bloom / budding / upcoming を判定
+  // 時刻を除いた日付のみで比較（当日23:59まで「散り頃」になるバグを防ぐ）
   const { startDate, endDate } = adjustBloomPeriod({ start: bp.start, end: bp.end }, totalOffset)
-  if (today > endDate) return 'past_bloom'
-  const daysUntil = (startDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (todayDate > endDate) return 'past_bloom'
+  const daysUntil = (startDate.getTime() - todayDate.getTime()) / (1000 * 60 * 60 * 24)
   if (daysUntil <= 20) return 'budding'   // 20日以内 ≈ 2期分
   return 'upcoming'
 }
@@ -613,6 +616,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
   const [selectedSpot, setSelectedSpot] = useState<MapSpot | null>(null)
   const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set())
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+  const [showWizard, setShowWizard] = useState(false)
 
   // 検索状態
   const [searchQuery, setSearchQuery] = useState('')
@@ -927,6 +931,30 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
       >
         📍
       </button>
+
+      {/* おすすめウィザード フローティングボタン */}
+      <button
+        className="map-wizard-fab"
+        onClick={() => setShowWizard(true)}
+        aria-label="おすすめスポットを探す"
+      >
+        ✨ おすすめ
+      </button>
+
+      {/* おすすめウィザード */}
+      {showWizard && (
+        <RecommendWizard
+          onClose={() => setShowWizard(false)}
+          onNavigateToMap={(spotId) => {
+            setShowWizard(false)
+            const spot = allSpots.find(s => s.id === spotId)
+            if (spot?.lat && spot?.lng) {
+              mapRef.current?.setView([spot.lat, spot.lng], 14)
+              setSelectedSpot(spot)
+            }
+          }}
+        />
+      )}
 
       {/* Feature 2: 近くのスポットカルーセル */}
       {showCarousel && (
