@@ -513,6 +513,49 @@ getVarietyBloomWindow(bloomGroup, someiyoshinoOffset, someiyoshinoDate): { start
 
 ---
 
+## 15. B-13 カレンダー都道府県フィルタ 仕様書（確定）
+
+### 概要
+カレンダータブに都道府県フィルタを追加。選択した都道府県の開花タイミングと品種一覧を表示する。
+
+### UI
+- ドロップダウン（`<select>`）で都道府県選択
+- 初期値: 現在地から自動検出（後述）
+- 「全国（東京基準）」オプションを先頭に追加（フォールバック兼リセット用）
+
+### 動作
+| 変更内容 | 詳細 |
+|---------|------|
+| ソメイヨシノ基準日 | 選択都道府県の代表座標で `getSomeiyoshinoDate(lat, lng)` を再計算 |
+| 表示品種 | `prefectureVarieties.json` で該当都道府県に登録されている品種のみ |
+| カレンダーの旬マッピング | 上記2つで `buildPeriodMap()` を再計算 |
+
+### 位置情報からの都道府県特定
+1. Geolocation API で lat/lng 取得
+2. `bloom-offset.json` の `prefecture` フィールドで最寄り地点の都道府県名を特定
+3. その都道府県をドロップダウンの初期値にセット
+4. 位置情報 → `sakura_wizard_geo` キャッシュを流用（有効期限1ヶ月）
+5. 取得失敗時は「全国（東京基準）」にフォールバック
+
+### prefectureVarieties.json の生成方法
+- `scripts/generate_prefecture_varieties.py` で自動生成
+- spots.json の品種×都道府県を集計してベース作成
+- ソメイヨシノ・ヤエザクラ（関山・普賢象）・シダレザクラなど主要品種は全47都道府県に必ず含める
+- 将来手動で追加・修正していく想定
+
+### 代表座標（都道府県 → lat/lng）
+bloom-offset.json の地点データから都道府県ごとに最初に見つかった地点の座標を使用。
+なければ都道府県庁の座標をハードコードしたフォールバックを用意。
+
+### 新規作成ファイル
+- `src/data/prefectureVarieties.json` — 都道府県×品種IDリスト
+- `scripts/generate_prefecture_varieties.py` — 生成スクリプト
+
+### 既存ファイルの改修
+- `src/components/SakuraCalendar.tsx` — ドロップダウン追加・`buildPeriodMap` をuseMemoに変換
+
+---
+
 ## 12. 既知の問題・注意事項
 
 - `src/App.tsx` の `<Routes>` が `<>...</>` で囲まれているが、現状機能上の問題なし

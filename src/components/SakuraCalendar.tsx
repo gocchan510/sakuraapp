@@ -1,14 +1,16 @@
 import { useState, useMemo, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import varietiesData from '../data/varieties.json'
+import prefectureVarietiesData from '../data/prefectureVarieties.json'
 import type { Variety } from '../types'
 import { bloomOrd } from '../utils/bloomFilter'
-import { getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
+import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom } from '../utils/bloomOffset'
 import { statusFromWindow } from '../utils/spotBloom'
+import offsetData from '../data/bloom-offset.json'
 
 const varieties = varietiesData as unknown as Variety[]
 
-// 月旬 definitions
+// ── 月旬 definitions ──────────────────────────────────────────
 const PERIODS: { key: string; label: string; month: number; jun: 'early' | 'mid' | 'late' }[] = []
 for (let m = 1; m <= 12; m++) {
   for (const jun of ['early', 'mid', 'late'] as const) {
@@ -33,51 +35,108 @@ function getCurrentPeriodKey(): string {
 function periodOrd(key: string): number {
   return bloomOrd(key)
 }
+// periodOrd is used implicitly through bloomOrd for consistency
+void periodOrd
 
-// 東京のソメイヨシノ日（カレンダーは地点非依存なのでTokyo基準）
-const TOKYO_LAT = 35.6895, TOKYO_LNG = 139.6917
-const CALENDAR_SOMEIYOSHINO_DATE = getSomeiyoshinoDate(TOKYO_LAT, TOKYO_LNG)
 const CALENDAR_TODAY = new Date()
 
-// Build period → varieties mapping
-function buildPeriodMap() {
-  const map = new Map<string, Variety[]>()
-  PERIODS.forEach(p => map.set(p.key, []))
+// ── 47都道府県リスト（北から南） ─────────────────────────────
+const PREFS_LIST: string[] = [
+  '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
+  '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
+  '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県',
+  '岐阜県', '静岡県', '愛知県', '三重県',
+  '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県',
+  '鳥取県', '島根県', '岡山県', '広島県', '山口県',
+  '徳島県', '香川県', '愛媛県', '高知県',
+  '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県',
+  '沖縄県',
+]
 
-  varieties.forEach(v => {
-    const window = getVarietyBloomWindow(
-      v.bloomGroup,
-      v.someiyoshinoOffset ?? null,
-      CALENDAR_SOMEIYOSHINO_DATE
-    )
-    if (!window) return
+// ── 都道府県 → 代表座標（bloom-offset.jsonの最初の地点を使用） ─
+interface PrefCoords { lat: number; lng: number }
 
-    // 二季咲きの秋側も登録
-    const isFuyu = v.bloomGroup === 'fuyu'
+const PREF_COORDS: Record<string, PrefCoords> = (() => {
+  const coords: Record<string, PrefCoords> = {}
+  for (const entry of (offsetData.offsets as Array<{ prefecture: string; lat: number; lng: number }>)) {
+    if (!coords[entry.prefecture]) {
+      coords[entry.prefecture] = { lat: entry.lat, lng: entry.lng }
+    }
+  }
+  // 沖縄は bloom-offset.json にないのでハードコード
+  coords['沖縄県'] = { lat: 26.2124, lng: 127.6809 }
+  return coords
+})()
 
-    PERIODS.forEach(p => {
-      // 旬の中日でチェック（中旬なら15日）
-      const [mStr, jun] = p.key.split('-')
-      const m = parseInt(mStr)
-      const day = jun === 'early' ? 5 : jun === 'mid' ? 15 : 25
-      const periodDate = new Date(CALENDAR_SOMEIYOSHINO_DATE.getFullYear(), m - 1, day)
-      const inSpringBloom = periodDate >= window.start && periodDate <= window.end
-      const inAutumnBloom = isFuyu && m >= 10 && m <= 11
-      if (inSpringBloom || inAutumnBloom) map.get(p.key)!.push(v)
-    })
-  })
-  return map
+// ── Haversine距離 ─────────────────────────────────────────────
+function haversine(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
-const PERIOD_MAP = buildPeriodMap()
-const MAX_COUNT = Math.max(...PERIODS.map(p => PERIOD_MAP.get(p.key)!.length))
+// ── 座標から最寄り都道府県を特定（Haversine） ──────────────────
+function detectPrefecture(lat: number, lng: number): string {
+  const stations = offsetData.offsets as Array<{ prefecture: string; lat: number; lng: number }>
+  if (!stations.length) return '全国'
+  let bestDist = Infinity
+  let bestPref = '全国'
+  for (const s of stations) {
+    const d = haversine(lat, lng, s.lat, s.lng)
+    if (d < bestDist) {
+      bestDist = d
+      bestPref = s.prefecture
+    }
+  }
+  return bestPref
+}
 
 export function SakuraCalendar() {
   const navigate = useNavigate()
   const todayKey = getCurrentPeriodKey()
   const [selectedKey, setSelectedKey] = useState(todayKey)
+  const [selectedPref, setSelectedPref] = useState<string>('全国')
+  const [geoLoading, setGeoLoading] = useState(false)
 
-  // Scroll today marker into view on mount
+  // ── 位置情報から都道府県を自動検出（初回のみ） ────────────────
+  useEffect(() => {
+    const GEO_KEY = 'sakura_wizard_geo'
+    const GEO_EXPIRY = 30 * 24 * 60 * 60 * 1000
+
+    const cached = localStorage.getItem(GEO_KEY)
+    if (cached) {
+      try {
+        const { lat, lng, ts } = JSON.parse(cached)
+        if (Date.now() - ts < GEO_EXPIRY) {
+          setSelectedPref(detectPrefecture(lat, lng))
+          return
+        }
+      } catch {
+        // キャッシュ破損時は無視
+      }
+    }
+
+    if (!navigator.geolocation) return
+    setGeoLoading(true)
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        localStorage.setItem(
+          GEO_KEY,
+          JSON.stringify({ lat: coords.latitude, lng: coords.longitude, ts: Date.now() })
+        )
+        setSelectedPref(detectPrefecture(coords.latitude, coords.longitude))
+        setGeoLoading(false)
+      },
+      () => setGeoLoading(false),
+      { timeout: 8000, maximumAge: 300000 }
+    )
+  }, [])
+
+  // ── Scroll today marker into view on mount ───────────────────
   useEffect(() => {
     document.querySelector('.calendar-cell.today')?.scrollIntoView({
       inline: 'center',
@@ -86,12 +145,53 @@ export function SakuraCalendar() {
     })
   }, [])
 
-  const selectedVarieties = useMemo(() => {
-    const arr = PERIOD_MAP.get(selectedKey) ?? []
-    return [...arr].sort((a, b) => (b.rarity?.score ?? 0) - (a.rarity?.score ?? 0))
-  }, [selectedKey])
+  // ── buildPeriodMap（都道府県別） ─────────────────────────────
+  const { periodMap, someiyoshinoDate } = useMemo(() => {
+    // 選択都道府県の代表座標でソメイヨシノ基準日を計算
+    const coords = PREF_COORDS[selectedPref] ?? { lat: 35.6895, lng: 139.6917 }
+    const soDate = getSomeiyoshinoDate(coords.lat, coords.lng)
 
-  // Group by rarity score
+    // 表示対象の品種を絞り込む
+    const prefData = prefectureVarietiesData as Record<string, string[]>
+    const allowedIds = new Set<string>(
+      prefData[selectedPref] ?? prefData['全国'] ?? []
+    )
+    const filteredVarieties = varieties.filter(v => allowedIds.has(v.id))
+
+    // buildPeriodMap
+    const map = new Map<string, Variety[]>()
+    PERIODS.forEach(p => map.set(p.key, []))
+
+    filteredVarieties.forEach(v => {
+      const window = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, soDate)
+      if (!window) return
+      const isFuyu = v.bloomGroup === 'fuyu'
+
+      PERIODS.forEach(p => {
+        const [mStr, jun] = p.key.split('-')
+        const m = parseInt(mStr)
+        const day = jun === 'early' ? 5 : jun === 'mid' ? 15 : 25
+        const pDate = new Date(soDate.getFullYear(), m - 1, day)
+        const inSpring = pDate >= window.start && pDate <= window.end
+        const inAutumn = isFuyu && m >= 10 && m <= 11
+        if (inSpring || inAutumn) map.get(p.key)!.push(v)
+      })
+    })
+
+    return { periodMap: map, someiyoshinoDate: soDate }
+  }, [selectedPref])
+
+  // ── MAX_COUNT（periodMapから計算） ──────────────────────────
+  const maxCount = useMemo(() => {
+    return Math.max(...PERIODS.map(p => periodMap.get(p.key)!.length), 1)
+  }, [periodMap])
+
+  const selectedVarieties = useMemo(() => {
+    const arr = periodMap.get(selectedKey) ?? []
+    return [...arr].sort((a, b) => (b.rarity?.score ?? 0) - (a.rarity?.score ?? 0))
+  }, [selectedKey, periodMap])
+
+  // ── Group by rarity score ─────────────────────────────────
   const grouped = useMemo(() => {
     const groups = new Map<number, Variety[]>()
     selectedVarieties.forEach(v => {
@@ -119,12 +219,27 @@ export function SakuraCalendar() {
         <p className="calendar-subtitle">月旬をタップして品種を確認</p>
       </div>
 
+      {/* 都道府県フィルタ */}
+      <div className="calendar-pref-row">
+        <select
+          className="calendar-pref-select"
+          value={selectedPref}
+          onChange={e => setSelectedPref(e.target.value)}
+        >
+          <option value="全国">🌸 全国（東京基準）</option>
+          {PREFS_LIST.map(p => (
+            <option key={p} value={p}>{p}</option>
+          ))}
+        </select>
+        {geoLoading && <span className="calendar-pref-loading">📍 検出中...</span>}
+      </div>
+
       {/* Heatmap timeline */}
       <div className="calendar-heatmap-wrap">
         <div className="calendar-heatmap">
           {PERIODS.map(p => {
-            const count = PERIOD_MAP.get(p.key)!.length
-            const intensity = MAX_COUNT > 0 ? count / MAX_COUNT : 0
+            const count = periodMap.get(p.key)!.length
+            const intensity = maxCount > 0 ? count / maxCount : 0
             const isSelected = p.key === selectedKey
             const isToday = p.key === todayKey
             return (
@@ -164,8 +279,9 @@ export function SakuraCalendar() {
               {vars.map(v => {
                 const nowInBloom = (() => {
                   if (!v.bloomGroup) return false
-                  const w = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, CALENDAR_SOMEIYOSHINO_DATE)
+                  const w = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, someiyoshinoDate)
                   return statusFromWindow(w, CALENDAR_TODAY) === 'in_bloom'
+                    || isFuyuAutumnBloom(v.bloomGroup, CALENDAR_TODAY)
                 })()
                 return (
                   <div
