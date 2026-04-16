@@ -28,7 +28,7 @@ interface Props {
 }
 
 export function SpotListCard({ spot, highlighted, onMapClick, onVarietyClick }: Props) {
-  const bloom = spotBloomCache.get(spot.id) ?? { status: 'off_season' as BloomStatus, daysScore: 99999 }
+  const bloom = spotBloomCache.get(spot.id) ?? { status: 'off_season' as BloomStatus, daysScore: 99999, someiyoshinoStatus: 'off_season' as BloomStatus }
   const bd = BLOOM_DISPLAY[bloom.status]
 
   const sortedVarieties = getSortedVarieties(spot as Parameters<typeof getSortedVarieties>[0])
@@ -70,6 +70,16 @@ export function SpotListCard({ spot, highlighted, onMapClick, onVarietyClick }: 
         >
           {bd.emoji} {bd.label}
         </span>
+
+        {/* ソメイヨシノ指標 */}
+        {bloom.someiyoshinoStatus !== 'off_season' && (() => {
+          const SO_LABEL: Record<string, string> = {
+            in_bloom: '🟢 見頃', budding: '🟡 もうすぐ', past_bloom: '🔴 散り頃', upcoming: '⏳ これから',
+          }
+          const soLabel = SO_LABEL[bloom.someiyoshinoStatus as string]
+          if (!soLabel) return null
+          return <div className="spot-someiyoshino-ref">🌸 ソメイヨシノ: {soLabel}</div>
+        })()}
 
         {/* 品種バッジ */}
         {visible.length > 0 && (

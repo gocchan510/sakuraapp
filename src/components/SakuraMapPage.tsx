@@ -305,6 +305,16 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
               {STATUS_LABEL[spotStatus]}
             </span>
           </div>
+          {/* ソメイヨシノ指標 */}
+          {(() => {
+            const soStatus = spotBloomCache.get(spot.id)?.someiyoshinoStatus
+            const SO_LABEL: Record<string, string> = {
+              in_bloom: '🟢 見頃', budding: '🟡 もうすぐ', past_bloom: '🔴 散り頃', upcoming: '⏳ これから',
+            }
+            const soLabel = soStatus ? SO_LABEL[soStatus as string] : null
+            if (!soLabel) return null
+            return <div className="spot-sheet__someiyoshino-ref">🌸 ソメイヨシノ: {soLabel}</div>
+          })()}
           {peakShort && (
             <div className="spot-sheet__peak">見頃: {peakShort}</div>
           )}

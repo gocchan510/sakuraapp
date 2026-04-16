@@ -79,18 +79,23 @@ type SpotLike = {
 export function computeSpotBloom(
   spot: SpotLike,
   today = new Date()
-): { status: BloomStatus; daysScore: number } {
+): { status: BloomStatus; daysScore: number; someiyoshinoStatus: BloomStatus } {
   const ids = spot.varieties ?? []
+
+  // ソメイヨシノ基準日・ステータスは座標があれば常に計算
+  const someiyoshinoDate = (spot.lat && spot.lng && hasOffsetData())
+    ? getSomeiyoshinoDate(spot.lat, spot.lng)
+    : getSomeiyoshinoDate(35.6895, 139.6917)  // Tokyo fallback
+  const soWin = getVarietyBloomWindow('someiyoshino', 0, someiyoshinoDate)
+  const someiyoshinoStatus: BloomStatus = (spot.lat && spot.lng)
+    ? statusFromWindow(soWin, today)
+    : 'off_season'
 
   if (!ids.length) {
     const status = estimateFromPeakMonth(String(spot.peakMonth ?? ''))
     const daysScore = { in_bloom: 0, budding: 10, upcoming: 500, past_bloom: 1100, off_season: 9999 }[status]
-    return { status, daysScore }
+    return { status, daysScore, someiyoshinoStatus }
   }
-
-  const someiyoshinoDate = (spot.lat && spot.lng && hasOffsetData())
-    ? getSomeiyoshinoDate(spot.lat, spot.lng)
-    : getSomeiyoshinoDate(35.6895, 139.6917)  // Tokyo fallback
 
   let bestStatus: BloomStatus = 'off_season'
   let bestDaysScore = 99999
@@ -104,14 +109,14 @@ export function computeSpotBloom(
     if (Math.abs(daysScore) < Math.abs(bestDaysScore)) bestDaysScore = daysScore
   }
 
-  return { status: bestStatus, daysScore: bestDaysScore }
+  return { status: bestStatus, daysScore: bestDaysScore, someiyoshinoStatus }
 }
 
 // ── モジュールロード時に全スポット分を一括計算（キャッシュ） ─────
 const allSpots = spotsData as unknown as SpotLike[]
 const TODAY = new Date()
 
-export const spotBloomCache = new Map<string, { status: BloomStatus; daysScore: number }>(
+export const spotBloomCache = new Map(
   allSpots.map(s => [s.id, computeSpotBloom(s, TODAY)])
 )
 
