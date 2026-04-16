@@ -1332,6 +1332,51 @@ html, body {
 }
 .detail-spot-bloom { color: #c0547a; font-weight: 600; }
 .detail-spot-card__actions { display: flex; gap: 6px; flex-shrink: 0; }
+
+.detail-spots-pref-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 0 10px;
+}
+
+.detail-spots-pref-select {
+  flex: 1;
+  height: 36px;
+  border: 1.5px solid var(--pink-mid, #f48fb1);
+  border-radius: 18px;
+  background: var(--white, #fff);
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text, #333);
+  padding: 0 12px;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c2185b' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+}
+
+.detail-spots-count {
+  font-size: 12px;
+  color: var(--text-light, #888);
+  white-space: nowrap;
+}
+
+.detail-spot-bloom-badge {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.detail-spot-bloom-badge--in_bloom   { background: #e8f5e9; color: #2e7d32; }
+.detail-spot-bloom-badge--budding    { background: #fff9c4; color: #f57f17; }
+.detail-spot-bloom-badge--past_bloom { background: #fce4ec; color: #c62828; }
+.detail-spot-bloom-badge--upcoming   { background: #e3f2fd; color: #1565c0; }
 .detail-spot-btn {
   background: none;
   border: 1.5px solid #e0a0b8;

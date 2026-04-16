@@ -6,7 +6,7 @@ import type { Variety } from '../types'
 import { bloomOrd } from '../utils/bloomFilter'
 import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom } from '../utils/bloomOffset'
 import { statusFromWindow } from '../utils/spotBloom'
-import offsetData from '../data/bloom-offset.json'
+import { PREFS_LIST, PREF_COORDS, detectPrefecture, getCachedPrefecture } from '../utils/prefectureUtils'
 
 const varieties = varietiesData as unknown as Variety[]
 
@@ -40,60 +40,6 @@ void periodOrd
 
 const CALENDAR_TODAY = new Date()
 
-// ── 47都道府県リスト（北から南） ─────────────────────────────
-const PREFS_LIST: string[] = [
-  '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
-  '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
-  '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県',
-  '岐阜県', '静岡県', '愛知県', '三重県',
-  '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県',
-  '鳥取県', '島根県', '岡山県', '広島県', '山口県',
-  '徳島県', '香川県', '愛媛県', '高知県',
-  '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県',
-  '沖縄県',
-]
-
-// ── 都道府県 → 代表座標（bloom-offset.jsonの最初の地点を使用） ─
-interface PrefCoords { lat: number; lng: number }
-
-const PREF_COORDS: Record<string, PrefCoords> = (() => {
-  const coords: Record<string, PrefCoords> = {}
-  for (const entry of (offsetData.offsets as Array<{ prefecture: string; lat: number; lng: number }>)) {
-    if (!coords[entry.prefecture]) {
-      coords[entry.prefecture] = { lat: entry.lat, lng: entry.lng }
-    }
-  }
-  // 沖縄は bloom-offset.json にないのでハードコード
-  coords['沖縄県'] = { lat: 26.2124, lng: 127.6809 }
-  return coords
-})()
-
-// ── Haversine距離 ─────────────────────────────────────────────
-function haversine(lat1: number, lng1: number, lat2: number, lng2: number): number {
-  const R = 6371
-  const dLat = (lat2 - lat1) * Math.PI / 180
-  const dLng = (lng2 - lng1) * Math.PI / 180
-  const a =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLng / 2) ** 2
-  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-}
-
-// ── 座標から最寄り都道府県を特定（Haversine） ──────────────────
-function detectPrefecture(lat: number, lng: number): string {
-  const stations = offsetData.offsets as Array<{ prefecture: string; lat: number; lng: number }>
-  if (!stations.length) return '全国'
-  let bestDist = Infinity
-  let bestPref = '全国'
-  for (const s of stations) {
-    const d = haversine(lat, lng, s.lat, s.lng)
-    if (d < bestDist) {
-      bestDist = d
-      bestPref = s.prefecture
-    }
-  }
-  return bestPref
-}
 
 export function SakuraCalendar() {
   const navigate = useNavigate()
@@ -104,30 +50,13 @@ export function SakuraCalendar() {
 
   // ── 位置情報から都道府県を自動検出（初回のみ） ────────────────
   useEffect(() => {
-    const GEO_KEY = 'sakura_wizard_geo'
-    const GEO_EXPIRY = 30 * 24 * 60 * 60 * 1000
-
-    const cached = localStorage.getItem(GEO_KEY)
-    if (cached) {
-      try {
-        const { lat, lng, ts } = JSON.parse(cached)
-        if (Date.now() - ts < GEO_EXPIRY) {
-          setSelectedPref(detectPrefecture(lat, lng))
-          return
-        }
-      } catch {
-        // キャッシュ破損時は無視
-      }
-    }
-
+    const cached = getCachedPrefecture()
+    if (cached) { setSelectedPref(cached); return }
     if (!navigator.geolocation) return
     setGeoLoading(true)
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
-        localStorage.setItem(
-          GEO_KEY,
-          JSON.stringify({ lat: coords.latitude, lng: coords.longitude, ts: Date.now() })
-        )
+        localStorage.setItem('sakura_wizard_geo', JSON.stringify({ lat: coords.latitude, lng: coords.longitude, ts: Date.now() }))
         setSelectedPref(detectPrefecture(coords.latitude, coords.longitude))
         setGeoLoading(false)
       },
@@ -287,7 +216,7 @@ export function SakuraCalendar() {
                   <div
                     key={v.id}
                     className={`calendar-variety-card${nowInBloom ? ' calendar-variety-card--bloom' : ''}`}
-                    onClick={() => navigate(`/variety/${v.id}`)}
+                    onClick={() => navigate(`/variety/${v.id}`, { state: { fromPref: selectedPref } })}
                   >
                     <div
                       className="calendar-variety-card__color"

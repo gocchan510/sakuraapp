@@ -1,9 +1,13 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
+import { useLocation } from 'react-router-dom'
 import type { Variety } from '../types'
 import { useWikiImage } from '../hooks/useWikiImage'
 import spotsData from '../data/spots.json'
 import { Discovery, getDiscoveries, addDiscovery } from '../utils/discoveries'
-import { getTotalOffset, getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
+import { getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
+import { statusFromWindow } from '../utils/spotBloom'
+import type { BloomStatus } from '../utils/spotBloom'
+import { PREFS_LIST, getCachedPrefecture } from '../utils/prefectureUtils'
 
 type DetailTab = 'basic' | 'detail'
 
@@ -37,7 +41,14 @@ interface Props {
 }
 
 export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Props) {
+  const location = useLocation()
+  const fromPref = (location.state as { fromPref?: string } | null)?.fromPref ?? null
+
   const [tab, setTab] = useState<DetailTab>('basic')
+  const [selectedPref, setSelectedPref] = useState<string>(() => {
+    if (fromPref) return fromPref
+    return getCachedPrefecture() ?? '全国'
+  })
   const imageUrl = useWikiImage(variety.wikiTitleJa, variety.wikiTitleEn)
 
   // ── Discovery state ───────────────────────────────────────────
@@ -93,17 +104,34 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
     background: `linear-gradient(160deg, ${variety.colorCode}44 0%, ${variety.colorCode}bb 100%)`,
   }
 
-  // ── Sort spots by distance or popularity ──────────────────────
-  const sortedSpots = [...(variety.spots ?? [])].sort((a, b) => {
-    const sa = spotsById.get(a.spotId)
-    const sb = spotsById.get(b.spotId)
-    if (userLocation && sa?.lat && sa?.lng && sb?.lat && sb?.lng) {
-      const da = getDistance(userLocation.lat, userLocation.lng, sa.lat, sa.lng)
-      const db = getDistance(userLocation.lat, userLocation.lng, sb.lat, sb.lng)
-      return da - db
-    }
-    return (sb?.popularity ?? 0) - (sa?.popularity ?? 0)
-  })
+  const TODAY_VD = new Date()
+
+  const spotsWithBloom = useMemo(() => {
+    return (variety.spots ?? []).map(s => {
+      const spotData = spotsById.get(s.spotId)
+      let daysScore = 99999
+      let bloomStatus: BloomStatus = 'off_season'
+      if (spotData?.lat && spotData?.lng && variety.bloomGroup) {
+        const soDate = getSomeiyoshinoDate(spotData.lat, spotData.lng)
+        const win = getVarietyBloomWindow(variety.bloomGroup, variety.someiyoshinoOffset ?? null, soDate)
+        bloomStatus = statusFromWindow(win, TODAY_VD)
+        if (win) {
+          const t = new Date(TODAY_VD.getFullYear(), TODAY_VD.getMonth(), TODAY_VD.getDate())
+          if (t >= win.start && t <= win.end) daysScore = 0
+          else if (t > win.end) daysScore = 1000 + (t.getTime() - win.end.getTime()) / 86400000
+          else daysScore = (win.start.getTime() - t.getTime()) / 86400000
+        }
+      }
+      return { ...s, spotData, daysScore, bloomStatus }
+    })
+  }, [variety])
+
+  const filteredSortedSpots = useMemo(() => {
+    const filtered = selectedPref === '全国'
+      ? spotsWithBloom
+      : spotsWithBloom.filter(x => x.spotData?.prefecture === selectedPref)
+    return [...filtered].sort((a, b) => a.daysScore - b.daysScore)
+  }, [spotsWithBloom, selectedPref])
 
   return (
     <div className="detail-page">
@@ -241,34 +269,55 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
       {/* ── スポットリスト ── */}
       <div className="detail-spots-section">
         <h3 className="detail-spots-title">🗺️ この品種が見られるスポット</h3>
-        {sortedSpots.length === 0 ? (
-          <p className="detail-spots-empty">この品種の観賞スポット情報はまだありません</p>
+
+        {/* 都道府県フィルタ */}
+        <div className="detail-spots-pref-row">
+          <select
+            className="detail-spots-pref-select"
+            value={selectedPref}
+            onChange={e => setSelectedPref(e.target.value)}
+          >
+            <option value="全国">🌸 全国</option>
+            {PREFS_LIST.map(p => (
+              <option key={p} value={p}>{p}</option>
+            ))}
+          </select>
+          <span className="detail-spots-count">{filteredSortedSpots.length}件</span>
+        </div>
+
+        {filteredSortedSpots.length === 0 ? (
+          <p className="detail-spots-empty">
+            {selectedPref !== '全国'
+              ? `${selectedPref}にはこの品種の観賞スポット情報がありません`
+              : 'この品種の観賞スポット情報はまだありません'}
+          </p>
         ) : (
           <div className="detail-spots-list">
-            {sortedSpots.map(s => {
-              const spotData = spotsById.get(s.spotId)
-              const dist = userLocation && spotData?.lat && spotData?.lng
-                ? getDistance(userLocation.lat, userLocation.lng, spotData.lat, spotData.lng)
+            {filteredSortedSpots.map(s => {
+              const dist = userLocation && s.spotData?.lat && s.spotData?.lng
+                ? getDistance(userLocation.lat, userLocation.lng, s.spotData.lat, s.spotData.lng)
                 : null
+              const bloomLabel: Record<BloomStatus, { text: string; emoji: string } | null> = {
+                in_bloom:   { text: '見頃', emoji: '🟢' },
+                budding:    { text: 'もうすぐ', emoji: '🟡' },
+                past_bloom: { text: '散り頃', emoji: '🔴' },
+                upcoming:   { text: 'これから', emoji: '⏳' },
+                off_season: null,
+              }
+              const label = bloomLabel[s.bloomStatus]
               return (
                 <div key={s.spotId} className="detail-spot-card">
                   <div className="detail-spot-card__info">
                     <div className="detail-spot-card__name">📍 {s.spotName}</div>
                     <div className="detail-spot-card__meta">
-                      {spotData?.prefecture && <span>{spotData.prefecture}</span>}
-                      {(spotData?.varietyCount ?? 0) > 0 && <span>{spotData!.varietyCount}品種</span>}
+                      {s.spotData?.prefecture && <span>{s.spotData.prefecture}</span>}
+                      {(s.spotData?.varietyCount ?? 0) > 0 && <span>{s.spotData!.varietyCount}品種</span>}
                       {dist != null && <span>{dist.toFixed(1)} km</span>}
-                      {spotData?.lat && spotData?.lng && variety.bloomGroup && (() => {
-                        const someiyoshinoDate = getSomeiyoshinoDate(spotData.lat!, spotData.lng!)
-                        const win = getVarietyBloomWindow(variety.bloomGroup, variety.someiyoshinoOffset ?? null, someiyoshinoDate)
-                        if (!win) return null
-                        const m1 = win.start.getMonth() + 1
-                        const d1 = win.start.getDate()
-                        const m2 = win.end.getMonth() + 1
-                        const d2 = win.end.getDate()
-                        const label = `${m1}/${d1}〜${m2}/${d2}`
-                        return <span className="detail-spot-bloom">🌸 {label}</span>
-                      })()}
+                      {label && (
+                        <span className={`detail-spot-bloom-badge detail-spot-bloom-badge--${s.bloomStatus}`}>
+                          {label.emoji} {label.text}
+                        </span>
+                      )}
                     </div>
                   </div>
                   <div className="detail-spot-card__actions">
@@ -277,11 +326,11 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
                         地図で見る
                       </button>
                     )}
-                    {spotData?.lat && spotData?.lng && (
+                    {s.spotData?.lat && s.spotData?.lng && (
                       <button
                         className="detail-spot-btn detail-spot-btn--route"
                         onClick={() => window.open(
-                          `https://www.google.com/maps/dir/?api=1&destination=${spotData.lat},${spotData.lng}&travelmode=transit`,
+                          `https://www.google.com/maps/dir/?api=1&destination=${s.spotData!.lat},${s.spotData!.lng}&travelmode=transit`,
                           '_blank'
                         )}
                       >
