@@ -106,25 +106,34 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
 
   const TODAY_VD = new Date()
 
+  const showSomeiyoshinoRef = variety.id !== 'someiyoshino' && variety.bloomGroup !== 'someiyoshino'
+
   const spotsWithBloom = useMemo(() => {
     return (variety.spots ?? []).map(s => {
       const spotData = spotsById.get(s.spotId)
       let daysScore = 99999
       let bloomStatus: BloomStatus = 'off_season'
-      if (spotData?.lat && spotData?.lng && variety.bloomGroup) {
+      let someiyoshinoStatus: BloomStatus | null = null
+      if (spotData?.lat && spotData?.lng) {
         const soDate = getSomeiyoshinoDate(spotData.lat, spotData.lng)
-        const win = getVarietyBloomWindow(variety.bloomGroup, variety.someiyoshinoOffset ?? null, soDate)
-        bloomStatus = statusFromWindow(win, TODAY_VD)
-        if (win) {
-          const t = new Date(TODAY_VD.getFullYear(), TODAY_VD.getMonth(), TODAY_VD.getDate())
-          if (t >= win.start && t <= win.end) daysScore = 0
-          else if (t > win.end) daysScore = 1000 + (t.getTime() - win.end.getTime()) / 86400000
-          else daysScore = (win.start.getTime() - t.getTime()) / 86400000
+        if (variety.bloomGroup) {
+          const win = getVarietyBloomWindow(variety.bloomGroup, variety.someiyoshinoOffset ?? null, soDate)
+          bloomStatus = statusFromWindow(win, TODAY_VD)
+          if (win) {
+            const t = new Date(TODAY_VD.getFullYear(), TODAY_VD.getMonth(), TODAY_VD.getDate())
+            if (t >= win.start && t <= win.end) daysScore = 0
+            else if (t > win.end) daysScore = 1000 + (t.getTime() - win.end.getTime()) / 86400000
+            else daysScore = (win.start.getTime() - t.getTime()) / 86400000
+          }
+        }
+        if (showSomeiyoshinoRef) {
+          const soWin = getVarietyBloomWindow('someiyoshino', 0, soDate)
+          someiyoshinoStatus = statusFromWindow(soWin, TODAY_VD)
         }
       }
-      return { ...s, spotData, daysScore, bloomStatus }
+      return { ...s, spotData, daysScore, bloomStatus, someiyoshinoStatus }
     })
-  }, [variety])
+  }, [variety, showSomeiyoshinoRef])
 
   const filteredSortedSpots = useMemo(() => {
     const filtered = selectedPref === '全国'
@@ -305,10 +314,16 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
                 off_season: null,
               }
               const label = bloomLabel[s.bloomStatus]
+              const soLabel = s.someiyoshinoStatus ? bloomLabel[s.someiyoshinoStatus] : null
               return (
                 <div key={s.spotId} className="detail-spot-card">
                   <div className="detail-spot-card__info">
                     <div className="detail-spot-card__name">📍 {s.spotName}</div>
+                    {soLabel && (
+                      <div className="detail-spot-someiyoshino-ref">
+                        🌸 ソメイヨシノ: {soLabel.emoji} {soLabel.text}
+                      </div>
+                    )}
                     <div className="detail-spot-card__meta">
                       {s.spotData?.prefecture && <span>{s.spotData.prefecture}</span>}
                       {(s.spotData?.varietyCount ?? 0) > 0 && <span>{s.spotData!.varietyCount}品種</span>}
