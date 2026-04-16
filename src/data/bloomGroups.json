@@ -1,0 +1,73 @@
+{
+  "kanhizakura": {
+    "label": "カンヒザクラ・早咲き系",
+    "offset": -28,
+    "offsetMin": -35,
+    "offsetMax": -20,
+    "bloomDurationDays": 25
+  },
+  "edohigan": {
+    "label": "エドヒガン・シダレ系",
+    "offset": -6,
+    "offsetMin": -9,
+    "offsetMax": -3,
+    "bloomDurationDays": 14
+  },
+  "someiyoshino": {
+    "label": "ソメイヨシノ",
+    "offset": 0,
+    "offsetMin": -2,
+    "offsetMax": 2,
+    "bloomDurationDays": 14
+  },
+  "yamazakura": {
+    "label": "ヤマザクラ・オオシマ系",
+    "offset": 10,
+    "offsetMin": 5,
+    "offsetMax": 15,
+    "bloomDurationDays": 14
+  },
+  "kasumizakura": {
+    "label": "カスミザクラ・遅咲き野生種",
+    "offset": 18,
+    "offsetMin": 12,
+    "offsetMax": 24,
+    "bloomDurationDays": 14
+  },
+  "sato-early": {
+    "label": "サトザクラ（早咲き）",
+    "offset": 22,
+    "offsetMin": 18,
+    "offsetMax": 26,
+    "bloomDurationDays": 18
+  },
+  "sato-mid": {
+    "label": "サトザクラ（標準）",
+    "offset": 32,
+    "offsetMin": 27,
+    "offsetMax": 37,
+    "bloomDurationDays": 18
+  },
+  "sato-late": {
+    "label": "サトザクラ（遅咲き）",
+    "offset": 44,
+    "offsetMin": 39,
+    "offsetMax": 49,
+    "bloomDurationDays": 18
+  },
+  "fuyu": {
+    "label": "二季咲き",
+    "offset": -2,
+    "offsetMin": -5,
+    "offsetMax": 2,
+    "bloomDurationDays": 21,
+    "secondaryBloom": { "startMonth": 10, "endMonth": 11 }
+  },
+  "unknown": {
+    "label": "分類不明",
+    "offset": 0,
+    "offsetMin": 0,
+    "offsetMax": 0,
+    "bloomDurationDays": 0
+  }
+}

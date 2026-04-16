@@ -2,12 +2,58 @@ import { useState, useMemo } from 'react'
 import type { Variety } from '../types'
 import { useWikiImage } from '../hooks/useWikiImage'
 import {
-  varietyMatchesFilter,
+  bloomOrd,
   ALL_PERIODS,
   BLOOM_PRESETS,
   type BloomPreset,
 } from '../utils/bloomFilter'
+import { getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
 import { getDiscoveredVarietyIds } from '../utils/discoveries'
+
+// カレンダーと同じ東京基準のソメイヨシノ開花日
+const LIST_SOMEIYOSHINO_DATE = getSomeiyoshinoDate(35.6895, 139.6917)
+
+/** bloomGroup ベースのフィルタ: 品種の開花ウィンドウが filter 期間と重なるか */
+function varietyMatchesFilterByGroup(
+  variety: Variety,
+  filterStart: string,
+  filterEnd: string,
+): boolean {
+  const win = getVarietyBloomWindow(
+    variety.bloomGroup,
+    variety.someiyoshinoOffset ?? null,
+    LIST_SOMEIYOSHINO_DATE,
+  )
+  if (!win) {
+    // unknown は常に除外（bloomDurationDays===0）
+    return false
+  }
+
+  // filter 期間の中日を開始・終了の代表日とする
+  function periodMidDate(p: string): Date {
+    const [mStr, jun] = p.split('-')
+    const m = parseInt(mStr)
+    const day = jun === 'early' ? 5 : jun === 'mid' ? 15 : 25
+    return new Date(LIST_SOMEIYOSHINO_DATE.getFullYear(), m - 1, day)
+  }
+
+  const fs = periodMidDate(filterStart)
+  const fe = periodMidDate(filterEnd)
+
+  // wrap-around (e.g. 09〜02 のような秋冬フィルタ)
+  const filterWraps = bloomOrd(filterEnd) < bloomOrd(filterStart)
+
+  if (!filterWraps) {
+    // 通常: [fs, fe] と [win.start, win.end] が重なるか
+    return win.start <= fe && win.end >= fs
+  } else {
+    // ラップアラウンド: [fs,年末] OR [年始,fe] と重なるか
+    const yearEnd = new Date(LIST_SOMEIYOSHINO_DATE.getFullYear(), 11, 31)
+    const yearStart = new Date(LIST_SOMEIYOSHINO_DATE.getFullYear(), 0, 1)
+    return (win.start <= yearEnd && win.end >= fs) ||
+           (win.start <= fe    && win.end >= yearStart)
+  }
+}
 
 // ── Card ────────────────────────────────────────────────────────────────────
 
@@ -50,7 +96,7 @@ function VarietyCard({ variety, onClick, discovered }: CardProps) {
           {variety.emoji}
         </div>
         <span className="variety-card-no">No.{variety.no}</span>
-        {variety.bloomPeriod?.secondary && (
+        {variety.bloomGroup === 'fuyu' && (
           <span className="variety-card-seasonal">🔄</span>
         )}
       </div>
@@ -189,7 +235,7 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
   const filtered = useMemo(() => {
     if (!filter.start || !filter.end) return varieties
     return varieties.filter(v =>
-      varietyMatchesFilter(v.bloomPeriod, filter.start!, filter.end!)
+      varietyMatchesFilterByGroup(v, filter.start!, filter.end!)
     )
   }, [varieties, filter])
 

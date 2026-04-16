@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
 import { bloomOrd } from '../utils/bloomFilter'
-import { getTotalOffset, isInBloomAdjusted } from '../utils/bloomOffset'
+import { getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
+import { statusFromWindow } from '../utils/spotBloom'
 
 const varieties = varietiesData as unknown as Variety[]
 
@@ -33,54 +34,43 @@ function periodOrd(key: string): number {
   return bloomOrd(key)
 }
 
+// 東京のソメイヨシノ日（カレンダーは地点非依存なのでTokyo基準）
+const TOKYO_LAT = 35.6895, TOKYO_LNG = 139.6917
+const CALENDAR_SOMEIYOSHINO_DATE = getSomeiyoshinoDate(TOKYO_LAT, TOKYO_LNG)
+const CALENDAR_TODAY = new Date()
+
 // Build period → varieties mapping
 function buildPeriodMap() {
   const map = new Map<string, Variety[]>()
   PERIODS.forEach(p => map.set(p.key, []))
 
   varieties.forEach(v => {
-    const bp = v.bloomPeriod
-    if (!bp?.start || !bp?.end) return
+    const window = getVarietyBloomWindow(
+      v.bloomGroup,
+      v.someiyoshinoOffset ?? null,
+      CALENDAR_SOMEIYOSHINO_DATE
+    )
+    if (!window) return
 
-    const startOrd = periodOrd(bp.start)
-    const endOrd   = periodOrd(bp.end)
+    // 二季咲きの秋側も登録
+    const isFuyu = v.bloomGroup === 'fuyu'
 
     PERIODS.forEach(p => {
-      const ord = periodOrd(p.key)
-      let inRange = false
-      if (startOrd <= endOrd) {
-        inRange = ord >= startOrd && ord <= endOrd
-      } else {
-        // wrap-around (e.g. Oct-Feb)
-        inRange = ord >= startOrd || ord <= endOrd
-      }
-      if (inRange) map.get(p.key)!.push(v)
+      // 旬の中日でチェック（中旬なら15日）
+      const [mStr, jun] = p.key.split('-')
+      const m = parseInt(mStr)
+      const day = jun === 'early' ? 5 : jun === 'mid' ? 15 : 25
+      const periodDate = new Date(CALENDAR_SOMEIYOSHINO_DATE.getFullYear(), m - 1, day)
+      const inSpringBloom = periodDate >= window.start && periodDate <= window.end
+      const inAutumnBloom = isFuyu && m >= 10 && m <= 11
+      if (inSpringBloom || inAutumnBloom) map.get(p.key)!.push(v)
     })
-
-    // secondary bloom period
-    if (bp.secondary) {
-      const s2 = periodOrd(bp.secondary.start)
-      const e2 = periodOrd(bp.secondary.end)
-      PERIODS.forEach(p => {
-        const ord = periodOrd(p.key)
-        if (ord >= s2 && ord <= e2) {
-          const arr = map.get(p.key)!
-          if (!arr.find(x => x.id === v.id)) arr.push(v)
-        }
-      })
-    }
   })
   return map
 }
 
 const PERIOD_MAP = buildPeriodMap()
 const MAX_COUNT = Math.max(...PERIODS.map(p => PERIOD_MAP.get(p.key)!.length))
-
-// カレンダーの「今見頃」判定 — 東京の今年のズレを参照値として使用
-// （カレンダーは場所非依存のため、地域差は含めず yearlyOffset のみ適用）
-const _tokyoResult = getTotalOffset(35.6895, 139.6917)
-const CALENDAR_OFFSET = _tokyoResult.yearlyOffset   // 今年の全国的なズレ（東京基準）
-const CALENDAR_TODAY  = new Date()
 
 export function SakuraCalendar() {
   const navigate = useNavigate()
@@ -172,9 +162,11 @@ export function SakuraCalendar() {
             <div className="calendar-rarity-label">{RARITY_LABELS[score] ?? `★${score}`}</div>
             <div className="calendar-variety-cards">
               {vars.map(v => {
-                // 東京オフセット（今年のズレ）で今見頃かを判定
-                const nowInBloom = !!v.bloomPeriod
-                  && isInBloomAdjusted(v.bloomPeriod, CALENDAR_OFFSET, CALENDAR_TODAY)
+                const nowInBloom = (() => {
+                  if (!v.bloomGroup) return false
+                  const w = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, CALENDAR_SOMEIYOSHINO_DATE)
+                  return statusFromWindow(w, CALENDAR_TODAY) === 'in_bloom'
+                })()
                 return (
                   <div
                     key={v.id}

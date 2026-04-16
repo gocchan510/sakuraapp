@@ -2,70 +2,52 @@
 import spotsData from '../data/spots.json'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
-import { getTotalOffset, adjustBloomPeriod, isInBloomAdjusted, hasOffsetData } from './bloomOffset'
-import { bloomOrd, periodsOverlap } from './bloomFilter'
+import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom, hasOffsetData } from './bloomOffset'
 
 export type BloomStatus = 'in_bloom' | 'budding' | 'past_bloom' | 'upcoming' | 'off_season'
 
 const allVarieties = varietiesData as unknown as Variety[]
 export const varietiesById = new Map(allVarieties.map(v => [v.id, v]))
 
-// ── 期間ベースのフォールバック（オフセットなし） ─────────────────
-function getCurrentPeriod(): string {
-  const d = new Date()
-  const m = d.getMonth() + 1
-  const day = d.getDate()
-  const jun = day <= 10 ? 'early' : day <= 20 ? 'mid' : 'late'
-  return `${String(m).padStart(2, '0')}-${jun}`
-}
-
-const TODAY_PERIOD = getCurrentPeriod()
-const TODAY_ORD = bloomOrd(TODAY_PERIOD)
-
-function varietyBloomStatusFallback(
-  bp: { start?: string; end?: string; secondary?: { start: string; end: string } | null }
+// ── 開花ウィンドウとtodayからステータスを計算 ──────────────────
+export function statusFromWindow(
+  window: { start: Date; end: Date } | null,
+  today: Date = new Date()
 ): BloomStatus {
-  if (!bp?.start || !bp?.end) return 'off_season'
-  if (periodsOverlap(TODAY_PERIOD, TODAY_PERIOD, bp.start, bp.end)) return 'in_bloom'
-  if (bp.secondary && periodsOverlap(TODAY_PERIOD, TODAY_PERIOD, bp.secondary.start, bp.secondary.end)) return 'in_bloom'
-  const startOrd = bloomOrd(bp.start)
-  const endOrd = bloomOrd(bp.end)
-  const wraps = endOrd < startOrd
-  if (!wraps) {
-    if (endOrd < TODAY_ORD) return 'past_bloom'
-    return (startOrd - TODAY_ORD) <= 2 ? 'budding' : 'upcoming'
-  }
-  return 'off_season'
-}
-
-// ── オフセット込みの開花ステータス ───────────────────────────────
-export function getVarietyBloomStatus(
-  bp: { start?: string; end?: string; secondary?: { start: string; end: string } | null } | null | undefined,
-  totalOffset: number,
-  today = new Date()
-): BloomStatus {
-  if (!bp?.start || !bp?.end) return 'off_season'
-  if (totalOffset === 0) return varietyBloomStatusFallback(bp)
-  if (isInBloomAdjusted({ start: bp.start, end: bp.end }, totalOffset, today)) return 'in_bloom'
-  if (bp.secondary && isInBloomAdjusted({ start: bp.secondary.start, end: bp.secondary.end }, totalOffset, today)) return 'in_bloom'
-  const { startDate, endDate } = adjustBloomPeriod({ start: bp.start, end: bp.end }, totalOffset)
-  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
-  if (todayDate > endDate) return 'past_bloom'
-  const daysUntil = (startDate.getTime() - todayDate.getTime()) / 86400000
+  if (!window) return 'off_season'
+  const t = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (t >= window.start && t <= window.end) return 'in_bloom'
+  if (t > window.end) return 'past_bloom'
+  const daysUntil = (window.start.getTime() - t.getTime()) / 86400000
   return daysUntil <= 20 ? 'budding' : 'upcoming'
 }
 
-// ── ソート用スコア（0=見頃中・正値=これから・1000+=散った） ──────
+// ── 品種の開花ステータス（地点座標を使う） ────────────────────
+export function getVarietyBloomStatus(
+  bloomGroup: string | null | undefined,
+  someiyoshinoOffset: number | null | undefined,
+  someiyoshinoDate: Date,
+  today = new Date()
+): BloomStatus {
+  // 二季咲き：秋の開花チェック
+  if (isFuyuAutumnBloom(bloomGroup, today)) return 'in_bloom'
+  const win = getVarietyBloomWindow(bloomGroup, someiyoshinoOffset, someiyoshinoDate)
+  return statusFromWindow(win, today)
+}
+
+// ── ソート用スコア（0=見頃中, 正=これから(日数), 1000+=散り終わり） ──
 function getDaysScore(
-  bp: { start: string; end: string },
-  totalOffset: number,
+  bloomGroup: string | null | undefined,
+  someiyoshinoOffset: number | null | undefined,
+  someiyoshinoDate: Date,
   today: Date
 ): number {
-  const { startDate, endDate } = adjustBloomPeriod(bp, totalOffset)
-  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate())
-  if (todayDate >= startDate && todayDate <= endDate) return 0
-  if (todayDate > endDate) return 1000 + (todayDate.getTime() - endDate.getTime()) / 86400000
-  return (startDate.getTime() - todayDate.getTime()) / 86400000
+  const win = getVarietyBloomWindow(bloomGroup, someiyoshinoOffset, someiyoshinoDate)
+  if (!win) return 99999
+  const t = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (t >= win.start && t <= win.end) return 0
+  if (t > win.end) return 1000 + (t.getTime() - win.end.getTime()) / 86400000
+  return (win.start.getTime() - t.getTime()) / 86400000
 }
 
 function estimateFromPeakMonth(text: string): BloomStatus {
@@ -106,18 +88,18 @@ export function computeSpotBloom(
     return { status, daysScore }
   }
 
-  const offset = (spot.lat && spot.lng && hasOffsetData())
-    ? getTotalOffset(spot.lat, spot.lng).totalOffset
-    : 0
+  const someiyoshinoDate = (spot.lat && spot.lng && hasOffsetData())
+    ? getSomeiyoshinoDate(spot.lat, spot.lng)
+    : getSomeiyoshinoDate(35.6895, 139.6917)  // Tokyo fallback
 
   let bestStatus: BloomStatus = 'off_season'
   let bestDaysScore = 99999
 
   for (const id of ids) {
     const v = varietiesById.get(id)
-    if (!v?.bloomPeriod?.start || !v?.bloomPeriod?.end) continue
-    const status = getVarietyBloomStatus(v.bloomPeriod, offset, today)
-    const daysScore = getDaysScore({ start: v.bloomPeriod.start, end: v.bloomPeriod.end }, offset, today)
+    if (!v) continue
+    const status = getVarietyBloomStatus(v.bloomGroup, v.someiyoshinoOffset ?? null, someiyoshinoDate, today)
+    const daysScore = getDaysScore(v.bloomGroup, v.someiyoshinoOffset ?? null, someiyoshinoDate, today)
     if (STATUS_PRIORITY[status] < STATUS_PRIORITY[bestStatus]) bestStatus = status
     if (Math.abs(daysScore) < Math.abs(bestDaysScore)) bestDaysScore = daysScore
   }
@@ -138,15 +120,15 @@ export function getSortedVarieties(
   spot: SpotLike,
   today = TODAY
 ): Array<{ id: string; variety: Variety; status: BloomStatus }> {
-  const offset = (spot.lat && spot.lng && hasOffsetData())
-    ? getTotalOffset(spot.lat, spot.lng).totalOffset
-    : 0
+  const someiyoshinoDate = (spot.lat && spot.lng && hasOffsetData())
+    ? getSomeiyoshinoDate(spot.lat, spot.lng)
+    : getSomeiyoshinoDate(35.6895, 139.6917)
 
   return (spot.varieties ?? [])
     .map(id => {
       const v = varietiesById.get(id)
       if (!v) return null
-      const status = getVarietyBloomStatus(v.bloomPeriod, offset, today)
+      const status = getVarietyBloomStatus(v.bloomGroup, v.someiyoshinoOffset ?? null, someiyoshinoDate, today)
       return { id, variety: v, status }
     })
     .filter((x): x is { id: string; variety: Variety; status: BloomStatus } => x !== null)

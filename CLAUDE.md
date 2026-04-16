@@ -278,7 +278,8 @@ npm run deploy  # gh-pages -d dist → gocchan510.github.io/sakuraapp/
 | B-02 | variety_candidates_v3.csvの人間レビュー | MEDIUM却下ログの内容確認（現状0件だが将来用） |
 | B-03 | PWAインストールバナー実装 | App.cssにスタイルは追加済み。JSロジック（beforeinstallpromptイベント等）が未実装の可能性あり |
 | ~~B-10~~ | ~~スポットタブ新規実装~~ | **完了（2026-04）** SpotListPage・SpotListCard実装、bloomキャッシュ・時刻バグ修正済み |
-| **B-11** | **3タップおすすめウィザード** | **仕様確定済み（下記参照）。実装中** |
+| ~~B-11~~ | ~~3タップおすすめウィザード~~ | **完了（2026-04）** RecommendWizard実装、地図タブFABから起動 |
+| **B-12** | **bloomGroup全体リファクタリング** | **仕様確定済み（下記参照）。実装中** |
 
 ### 中優先度
 
@@ -425,6 +426,90 @@ bloom-offset.jsonのデータ品質に基づく：
 
 ### 既存ファイルの改修
 - `src/components/SakuraMapPage.tsx` — フローティングボタン追加・ウィザード組み込み
+
+---
+
+## 14. B-12 bloomGroup全体リファクタリング 仕様書（確定）
+
+### 背景・目的
+現行の `bloomPeriod: { start: "04-mid", end: "05-early" }` は旬（10日）単位で粗すぎ、AI推定精度も低い。
+**ソメイヨシノ基準の相対オフセット**に一本化することで、bloom-offset.jsonの実測データを最大限に活用する。
+
+### 基本設計
+
+```
+品種の開花日 = ソメイヨシノ開花日(地点) + bloomGroup.offset日
+```
+
+- ソメイヨシノ開花日(地点) = 東京平年値(3/24) + getTotalOffset(lat,lng).totalOffset
+- これにより地域差・今年のズレを自動適用
+- `bloomPeriod` フィールドは **完全廃止**（types.tsから削除）
+
+### bloomGroups定義（src/data/bloomGroups.json）
+
+| グループキー | 系統 | ソメイヨシノ比（開花開始） | 開花期間 |
+|------------|------|------------------------|--------|
+| `kanhizakura` | カンヒザクラ系・河津桜 | −55日（min-60, max-50） | 21日 |
+| `edohigan` | エドヒガン・シダレ系 | −8日（min-10, max-7） | 14日 |
+| `someiyoshino` | ソメイヨシノ | 0日（min-2, max+2） | 14日 |
+| `yamazakura` | ヤマザクラ・オオシマ系 | +5日（min+3, max+7） | 14日 |
+| `kasumizakura` | カスミザクラ・遅咲き野生種 | +12日（min+10, max+15） | 14日 |
+| `sato-early` | サトザクラ早咲き（ウコン・御衣黄） | +9日（min+7, max+12） | 18日 |
+| `sato-mid` | サトザクラ標準（関山・普賢象） | +15日（min+13, max+18） | 18日 |
+| `sato-late` | サトザクラ遅咲き（松月・楊貴妃） | +22日（min+19, max+25） | 18日 |
+| `fuyu` | 二季咲き（十月桜・不断桜）| 春:0〜−5日 | 例外処理 |
+| `unknown` | 分類不明 | フォールバック → off_season | - |
+
+### varieties.jsonの変更
+
+```diff
+- "bloomPeriod": { "start": "04-mid", "end": "05-early" }
++ "bloomGroup": "sato-mid"
++ "someiyoshinoOffset": null   // 個別研究済みの場合のみ数値（任意フィールド）
+```
+
+- `bloomGroup` : 全862品種に必須
+- `someiyoshinoOffset` : 個別に実測値がある場合のみ設定。nullならグループ中央値を使用
+
+### 分類方法
+
+Python スクリプト `scripts/assign_bloom_groups.py` で半自動化：
+1. tags・name・既存bloomPeriod を元にルールベースで分類
+2. サトザクラ系の早/中/遅 細分類は既存bloomPeriod.startを利用（移行後に削除）
+3. 分類不明は `unknown` → 手動確認推奨
+
+### 二季咲き（fuyu）の例外処理
+
+- **春の開花**：通常計算（ソメイヨシノ±0〜−5日）
+- **秋の開花**：bloomGroupsに `secondaryBloom: { startMonth, startDay, endMonth, endDay }` で固定定義
+- 10月〜11月の期間は別途ハードコード判定
+
+### 計算エンジンの変更（bloomOffset.ts）
+
+新規エクスポート：
+```ts
+getSomeiyoshinoDate(lat, lng, year): Date
+// 東京平年値(3/24) + totalOffset → その地点の今年のソメイヨシノ開花日
+
+getVarietyBloomWindow(bloomGroup, someiyoshinoOffset, someiyoshinoDate): { start: Date, end: Date } | null
+// start = someiyoshinoDate + offset - duration/2
+// end   = someiyoshinoDate + offset + duration/2
+```
+
+旧関数（`adjustBloomPeriod`, `isInBloomAdjusted`）は削除。
+
+### 変更対象ファイル
+
+| ファイル | 変更内容 |
+|---------|---------|
+| `src/data/bloomGroups.json` | **新規作成** |
+| `src/data/varieties.json` | bloomGroup追加・bloomPeriod削除 |
+| `src/types.ts` | Variety型の bloomPeriod削除・bloomGroup追加 |
+| `src/utils/bloomOffset.ts` | 新計算関数追加・旧関数削除 |
+| `src/utils/spotBloom.ts` | 新エンジン対応 |
+| `src/components/SakuraCalendar.tsx` | buildPeriodMap を新エンジンで書き直し |
+| `src/components/SakuraMapPage.tsx` | bloom計算を新エンジンに切り替え |
+| `scripts/assign_bloom_groups.py` | **新規作成**（分類スクリプト） |
 
 ---
 

@@ -1,20 +1,11 @@
-export interface BloomPeriod {
-  start: string   // "MM-jun" 例: "04-mid"
-  end: string
-  secondary: {
-    start: string
-    end: string
-  } | null
-  regionNote: string | null
-}
-
 export interface Variety {
   id: string
   no: string
   name: string
   reading: string
   bloomSeason: string
-  bloomPeriod?: BloomPeriod
+  bloomGroup?: string | null
+  someiyoshinoOffset?: number | null
   color: string
   colorCode: string
   flowerShape: string

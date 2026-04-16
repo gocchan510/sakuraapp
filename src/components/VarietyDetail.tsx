@@ -3,7 +3,7 @@ import type { Variety } from '../types'
 import { useWikiImage } from '../hooks/useWikiImage'
 import spotsData from '../data/spots.json'
 import { Discovery, getDiscoveries, addDiscovery } from '../utils/discoveries'
-import { getTotalOffset, adjustedBloomLabel } from '../utils/bloomOffset'
+import { getTotalOffset, getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
 
 type DetailTab = 'basic' | 'detail'
 
@@ -167,12 +167,8 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
             <span className="detail-info-label">開花時期</span>
             <span className="detail-info-value">
               {variety.bloomSeason}
-              {variety.bloomPeriod?.secondary && (
+              {variety.bloomGroup === 'fuyu' && (
                 <span className="bloom-secondary-badge" title="二季咲き">🔄</span>
-              )}
-              {variety.bloomPeriod?.regionNote &&
-                !variety.bloomPeriod.regionNote.startsWith('PARSE_ERROR') && (
-                <span className="bloom-region-note">📍 {variety.bloomPeriod.regionNote}</span>
               )}
             </span>
           </div>
@@ -262,10 +258,16 @@ export function VarietyDetail({ variety, onBack, userLocation, onShowOnMap }: Pr
                       {spotData?.prefecture && <span>{spotData.prefecture}</span>}
                       {(spotData?.varietyCount ?? 0) > 0 && <span>{spotData!.varietyCount}品種</span>}
                       {dist != null && <span>{dist.toFixed(1)} km</span>}
-                      {spotData?.lat && spotData?.lng && variety.bloomPeriod?.start && (() => {
-                        const { totalOffset } = getTotalOffset(spotData.lat!, spotData.lng!)
-                        const label = adjustedBloomLabel(variety.bloomPeriod as { start: string; end: string }, totalOffset)
-                        return label ? <span className="detail-spot-bloom">🌸 {label}</span> : null
+                      {spotData?.lat && spotData?.lng && variety.bloomGroup && (() => {
+                        const someiyoshinoDate = getSomeiyoshinoDate(spotData.lat!, spotData.lng!)
+                        const win = getVarietyBloomWindow(variety.bloomGroup, variety.someiyoshinoOffset ?? null, someiyoshinoDate)
+                        if (!win) return null
+                        const m1 = win.start.getMonth() + 1
+                        const d1 = win.start.getDate()
+                        const m2 = win.end.getMonth() + 1
+                        const d2 = win.end.getDate()
+                        const label = `${m1}/${d1}〜${m2}/${d2}`
+                        return <span className="detail-spot-bloom">🌸 {label}</span>
                       })()}
                     </div>
                   </div>
