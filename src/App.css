@@ -1568,76 +1568,167 @@ html, body {
   white-space: nowrap;
 }
 
-.calendar-heatmap-wrap {
+/* ── 月タブ ── */
+.calendar-month-tabs-wrap {
   overflow-x: auto;
-  padding: 12px 8px 6px;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid #f0d0da;
+  background: #fff;
+}
+.calendar-month-tabs-wrap::-webkit-scrollbar { display: none; }
+
+.calendar-month-tabs {
+  display: flex;
+  gap: 0;
+  min-width: max-content;
+  padding: 0 4px;
+}
+
+.calendar-month-tab {
+  flex-shrink: 0;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-light, #888);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.calendar-month-tab.active {
+  color: #c0547a;
+  border-bottom-color: #c0547a;
+  font-weight: 700;
+}
+
+/* ── 日単位ヒートマップ ── */
+.calendar-heatmap-wrap {
+  overflow-x: auto;
+  padding: 10px 8px 4px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  background: #fff8fb;
+  border-bottom: 1px solid #f0d0da;
 }
 .calendar-heatmap-wrap::-webkit-scrollbar { display: none; }
+
 .calendar-heatmap {
   display: flex;
-  gap: 2px;
+  gap: 1px;
   align-items: flex-end;
   min-width: max-content;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
   position: relative;
 }
-.calendar-cell {
-  width: 22px;
+
+/* 日付セル */
+.cal-day-cell {
+  width: 11px;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
   position: relative;
-  padding-bottom: 18px;
+  padding-bottom: 12px;
   -webkit-tap-highlight-color: transparent;
 }
-.calendar-cell__bar {
-  width: 18px;
+
+.cal-day-cell__bar {
+  width: 9px;
   background: #FF85A1;
-  border-radius: 3px 3px 0 0;
-  transition: height 0.2s;
-}
-.calendar-cell.selected .calendar-cell__bar {
-  background: #c0547a;
-  outline: 2px solid #c0547a;
-  outline-offset: 1px;
-}
-.calendar-cell.today .calendar-cell__bar { background: #FF4488; }
-.calendar-cell__month {
-  position: absolute;
-  bottom: 0;
-  font-size: 9px;
-  color: #888;
-  white-space: nowrap;
-}
-.calendar-cell__today-marker {
-  position: absolute;
-  top: -16px;
-  font-size: 9px;
-  color: #FF4488;
-  white-space: nowrap;
+  border-radius: 2px 2px 0 0;
 }
 
-.calendar-period-header {
+/* 曜日別バー色 */
+.cal-day-cell.day-type-sat .cal-day-cell__bar { background: #64b5f6; }
+.cal-day-cell.day-type-sun .cal-day-cell__bar { background: #ef9a9a; }
+.cal-day-cell.day-type-holiday .cal-day-cell__bar { background: #ef9a9a; }
+
+/* 選択中 */
+.cal-day-cell.selected .cal-day-cell__bar {
+  background: #c0547a;
+  outline: 1.5px solid #c0547a;
+  outline-offset: 1px;
+}
+.cal-day-cell.selected.day-type-sat .cal-day-cell__bar { background: #1976d2; outline-color: #1976d2; }
+.cal-day-cell.selected.day-type-sun .cal-day-cell__bar { background: #c62828; outline-color: #c62828; }
+.cal-day-cell.selected.day-type-holiday .cal-day-cell__bar { background: #c62828; outline-color: #c62828; }
+
+/* 今日 */
+.cal-day-cell.today {
+  outline: 1.5px solid #FF4488;
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+.cal-day-cell.today .cal-day-cell__bar { background: #FF4488; }
+
+/* 日数字 */
+.cal-day-cell__day {
+  position: absolute;
+  bottom: 0;
+  font-size: 7px;
+  color: #aaa;
+  line-height: 1;
+  text-align: center;
+}
+.cal-day-cell.day-type-sat .cal-day-cell__day { color: #1976d2; }
+.cal-day-cell.day-type-sun .cal-day-cell__day { color: #c62828; }
+.cal-day-cell.day-type-holiday .cal-day-cell__day { color: #c62828; }
+.cal-day-cell.selected .cal-day-cell__day { color: #c0547a; font-weight: 700; }
+.cal-day-cell.today .cal-day-cell__day { color: #FF4488; font-weight: 700; }
+
+/* 月ラベル（月初のみ） */
+.cal-day-cell__month-label {
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7px;
+  color: #999;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+/* 今日ドット */
+.cal-day-cell__today-dot {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #FF4488;
+}
+
+/* ── 選択日ヘッダー ── */
+.calendar-date-header {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
   background: #fff;
   border-bottom: 1px solid #f0d0da;
+  margin-top: 10px;
 }
-.calendar-period-label { font-size: 16px; font-weight: 700; color: #333; }
-.calendar-period-count {
+.calendar-date-label { font-size: 16px; font-weight: 700; color: #333; }
+.calendar-date-count {
   font-size: 13px;
   color: #c0547a;
   background: #fce4ec;
   padding: 2px 8px;
   border-radius: 10px;
 }
-.calendar-period-now { font-size: 12px; color: #FF4488; font-weight: 600; }
+.calendar-date-now { font-size: 12px; color: #FF4488; font-weight: 600; }
 
+/* ── 品種リスト ── */
 .calendar-variety-list { padding: 8px 12px 16px; }
 .calendar-rarity-group { margin-bottom: 16px; }
 .calendar-rarity-label {
@@ -1659,6 +1750,7 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 .calendar-variety-card__color {
+  position: relative;
   width: 72px;
   height: 72px;
   border-radius: 12px;
@@ -1710,7 +1802,6 @@ html, body {
   white-space: nowrap;
   pointer-events: none;
 }
-.calendar-variety-card__color { position: relative; }
 .calendar-empty { text-align: center; color: #aaa; font-size: 13px; padding: 32px 0; }
 
 

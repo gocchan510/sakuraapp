@@ -1,54 +1,99 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import varietiesData from '../data/varieties.json'
 import prefectureVarietiesData from '../data/prefectureVarieties.json'
 import type { Variety } from '../types'
-import { bloomOrd } from '../utils/bloomFilter'
 import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom } from '../utils/bloomOffset'
 import { statusFromWindow } from '../utils/spotBloom'
 import { PREFS_LIST, PREF_COORDS, detectPrefecture, getCachedPrefecture } from '../utils/prefectureUtils'
 
 const varieties = varietiesData as unknown as Variety[]
 
-// ── 月旬 definitions ──────────────────────────────────────────
-const PERIODS: { key: string; label: string; month: number; jun: 'early' | 'mid' | 'late' }[] = []
-for (let m = 1; m <= 12; m++) {
-  for (const jun of ['early', 'mid', 'late'] as const) {
-    const mm = String(m).padStart(2, '0')
-    PERIODS.push({
-      key: `${mm}-${jun}`,
-      label: `${m}月${jun === 'early' ? '上' : jun === 'mid' ? '中' : '下'}旬`,
-      month: m,
-      jun,
-    })
+// ── 2026年 日本の祝日 ──────────────────────────────────────────
+const JAPAN_HOLIDAYS_2026 = new Set<string>([
+  '2026-01-01', // 元日
+  '2026-01-12', // 成人の日
+  '2026-02-11', // 建国記念日
+  '2026-02-23', // 天皇誕生日
+  '2026-03-20', // 春分の日
+  '2026-04-29', // 昭和の日
+  '2026-05-03', // 憲法記念日
+  '2026-05-04', // みどりの日
+  '2026-05-05', // こどもの日
+  '2026-05-06', // 振替休日
+  '2026-07-20', // 海の日
+  '2026-08-11', // 山の日
+  '2026-09-21', // 敬老の日
+  '2026-09-23', // 秋分の日
+  '2026-10-12', // スポーツの日
+  '2026-11-03', // 文化の日
+  '2026-11-23', // 勤労感謝の日
+])
+
+// ── 365日の日付配列（2026年） ──────────────────────────────────
+const YEAR = 2026
+const DAYS: Date[] = []
+for (let m = 0; m < 12; m++) {
+  const daysInMonth = new Date(YEAR, m + 1, 0).getDate()
+  for (let d = 1; d <= daysInMonth; d++) {
+    DAYS.push(new Date(YEAR, m, d))
   }
 }
 
-function getCurrentPeriodKey(): string {
-  const d = new Date()
-  const m = d.getMonth() + 1
-  const day = d.getDate()
-  const jun = day <= 10 ? 'early' : day <= 20 ? 'mid' : 'late'
-  return `${String(m).padStart(2, '0')}-${jun}`
+// ── ユーティリティ ─────────────────────────────────────────────
+function toDateKey(d: Date): string {
+  const mm = String(d.getMonth() + 1).padStart(2, '0')
+  const dd = String(d.getDate()).padStart(2, '0')
+  return `${YEAR}-${mm}-${dd}`
 }
 
-function periodOrd(key: string): number {
-  return bloomOrd(key)
+function getTodayKey(): string {
+  const t = new Date()
+  if (t.getFullYear() !== YEAR) return `${YEAR}-04-01`
+  return toDateKey(t)
 }
-// periodOrd is used implicitly through bloomOrd for consistency
-void periodOrd
+
+const DAY_NAMES = ['日', '月', '火', '水', '木', '金', '土']
+
+function isHoliday(key: string): boolean {
+  return JAPAN_HOLIDAYS_2026.has(key)
+}
+
+function getDayType(d: Date, key: string): 'sun' | 'sat' | 'holiday' | 'weekday' {
+  if (isHoliday(key)) return 'holiday'
+  const dow = d.getDay()
+  if (dow === 0) return 'sun'
+  if (dow === 6) return 'sat'
+  return 'weekday'
+}
+
+function formatDateLabel(d: Date): string {
+  const m = d.getMonth() + 1
+  const day = d.getDate()
+  const dow = DAY_NAMES[d.getDay()]
+  return `${m}月${day}日（${dow}）`
+}
+
+const RARITY_LABELS: Record<number, string> = {
+  5: '★★★★★ 超レア',
+  4: '★★★★ とても珍しい',
+  3: '★★★ 珍しい',
+  2: '★★ やや珍しい',
+  1: '★ よく見る',
+}
 
 const CALENDAR_TODAY = new Date()
 
-
 export function SakuraCalendar() {
   const navigate = useNavigate()
-  const todayKey = getCurrentPeriodKey()
+  const todayKey = getTodayKey()
   const [selectedKey, setSelectedKey] = useState(todayKey)
   const [selectedPref, setSelectedPref] = useState<string>('全国')
   const [geoLoading, setGeoLoading] = useState(false)
 
-  // ── 位置情報から都道府県を自動検出（初回のみ） ────────────────
+  const heatmapRef = useRef<HTMLDivElement>(null)
+
+  // ── 位置情報から都道府県を自動検出（初回のみ） ─────────────
   useEffect(() => {
     const cached = getCachedPrefecture()
     if (cached) { setSelectedPref(cached); return }
@@ -65,62 +110,69 @@ export function SakuraCalendar() {
     )
   }, [])
 
-  // ── Scroll today marker into view on mount ───────────────────
+  // ── 今日のセルを初期スクロール ────────────────────────────
   useEffect(() => {
-    document.querySelector('.calendar-cell.today')?.scrollIntoView({
-      inline: 'center',
-      behavior: 'smooth',
-      block: 'nearest',
-    })
-  }, [])
+    const el = document.querySelector<HTMLElement>(`[data-date="${todayKey}"]`)
+    el?.scrollIntoView({ inline: 'center', behavior: 'smooth', block: 'nearest' })
+  }, [todayKey])
 
-  // ── buildPeriodMap（都道府県別） ─────────────────────────────
-  const { periodMap, someiyoshinoDate } = useMemo(() => {
-    // 選択都道府県の代表座標でソメイヨシノ基準日を計算
+  // ── 日付→品種マップ（都道府県別） ─────────────────────────
+  const { dayMap, someiyoshinoDate } = useMemo(() => {
     const coords = PREF_COORDS[selectedPref] ?? { lat: 35.6895, lng: 139.6917 }
     const soDate = getSomeiyoshinoDate(coords.lat, coords.lng)
 
-    // 表示対象の品種を絞り込む
     const prefData = prefectureVarietiesData as Record<string, string[]>
     const allowedIds = new Set<string>(
       prefData[selectedPref] ?? prefData['全国'] ?? []
     )
     const filteredVarieties = varieties.filter(v => allowedIds.has(v.id))
 
-    // buildPeriodMap
     const map = new Map<string, Variety[]>()
-    PERIODS.forEach(p => map.set(p.key, []))
 
     filteredVarieties.forEach(v => {
-      const window = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, soDate)
-      if (!window) return
-      const isFuyu = v.bloomGroup === 'fuyu'
-
-      PERIODS.forEach(p => {
-        const [mStr, jun] = p.key.split('-')
-        const m = parseInt(mStr)
-        const day = jun === 'early' ? 5 : jun === 'mid' ? 15 : 25
-        const pDate = new Date(soDate.getFullYear(), m - 1, day)
-        const inSpring = pDate >= window.start && pDate <= window.end
-        const inAutumn = isFuyu && m >= 10 && m <= 11
-        if (inSpring || inAutumn) map.get(p.key)!.push(v)
+      const win = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, soDate)
+      if (!win) {
+        // fuyu 品種の秋の開花（10〜11月）
+        if (v.bloomGroup === 'fuyu') {
+          DAYS.forEach(d => {
+            const m = d.getMonth() + 1
+            if (m >= 10 && m <= 11) {
+              const key = toDateKey(d)
+              if (!map.has(key)) map.set(key, [])
+              map.get(key)!.push(v)
+            }
+          })
+        }
+        return
+      }
+      DAYS.forEach(d => {
+        if (d >= win.start && d <= win.end) {
+          const key = toDateKey(d)
+          if (!map.has(key)) map.set(key, [])
+          map.get(key)!.push(v)
+        }
       })
     })
 
-    return { periodMap: map, someiyoshinoDate: soDate }
+    return { dayMap: map, someiyoshinoDate: soDate }
   }, [selectedPref])
 
-  // ── MAX_COUNT（periodMapから計算） ──────────────────────────
+  // ── 最大品種数（ヒートマップ強度計算用） ─────────────────────
   const maxCount = useMemo(() => {
-    return Math.max(...PERIODS.map(p => periodMap.get(p.key)!.length), 1)
-  }, [periodMap])
+    let max = 1
+    for (const arr of dayMap.values()) {
+      if (arr.length > max) max = arr.length
+    }
+    return max
+  }, [dayMap])
 
+  // ── 選択日の品種リスト ────────────────────────────────────
   const selectedVarieties = useMemo(() => {
-    const arr = periodMap.get(selectedKey) ?? []
+    const arr = dayMap.get(selectedKey) ?? []
     return [...arr].sort((a, b) => (b.rarity?.score ?? 0) - (a.rarity?.score ?? 0))
-  }, [selectedKey, periodMap])
+  }, [selectedKey, dayMap])
 
-  // ── Group by rarity score ─────────────────────────────────
+  // ── レア度グループ ────────────────────────────────────────
   const grouped = useMemo(() => {
     const groups = new Map<number, Variety[]>()
     selectedVarieties.forEach(v => {
@@ -131,21 +183,33 @@ export function SakuraCalendar() {
     return [...groups.entries()].sort((a, b) => b[0] - a[0])
   }, [selectedVarieties])
 
-  const RARITY_LABELS: Record<number, string> = {
-    5: '★★★★★ 超レア',
-    4: '★★★★ とても珍しい',
-    3: '★★★ 珍しい',
-    2: '★★ やや珍しい',
-    1: '★ よく見る',
+  // ── 月タブ: 月をクリックしたときにスクロール ────────────────
+  function handleMonthClick(month: number) {
+    // その月の1日に対応するセルにスクロール
+    const mm = String(month).padStart(2, '0')
+    const key = `${YEAR}-${mm}-01`
+    const el = document.querySelector<HTMLElement>(`[data-date="${key}"]`)
+    if (el) {
+      el.scrollIntoView({ inline: 'start', behavior: 'smooth', block: 'nearest' })
+    }
+    // 選択日もその月1日に変更
+    setSelectedKey(key)
   }
 
-  const selectedPeriod = PERIODS.find(p => p.key === selectedKey)!
+  // 選択中の月（表示用）
+  const selectedMonth = parseInt(selectedKey.split('-')[1])
+
+  // 選択日のDateオブジェクト
+  const selectedDate = useMemo(() => {
+    const [, mm, dd] = selectedKey.split('-').map(Number)
+    return new Date(YEAR, mm - 1, dd)
+  }, [selectedKey])
 
   return (
     <div className="calendar-page">
       <div className="calendar-header">
         <h1 className="calendar-title">🗓️ 桜カレンダー</h1>
-        <p className="calendar-subtitle">月旬をタップして品種を確認</p>
+        <p className="calendar-subtitle">日付をタップして品種を確認</p>
       </div>
 
       {/* 都道府県フィルタ */}
@@ -163,43 +227,76 @@ export function SakuraCalendar() {
         {geoLoading && <span className="calendar-pref-loading">📍 検出中...</span>}
       </div>
 
-      {/* Heatmap timeline */}
-      <div className="calendar-heatmap-wrap">
+      {/* 月タブ */}
+      <div className="calendar-month-tabs-wrap">
+        <div className="calendar-month-tabs">
+          {Array.from({ length: 12 }, (_, i) => i + 1).map(m => (
+            <button
+              key={m}
+              className={`calendar-month-tab${selectedMonth === m ? ' active' : ''}`}
+              onClick={() => handleMonthClick(m)}
+            >
+              {m}月
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* 日単位ヒートマップ */}
+      <div className="calendar-heatmap-wrap" ref={heatmapRef}>
         <div className="calendar-heatmap">
-          {PERIODS.map(p => {
-            const count = periodMap.get(p.key)!.length
+          {DAYS.map(d => {
+            const key = toDateKey(d)
+            const count = dayMap.get(key)?.length ?? 0
             const intensity = maxCount > 0 ? count / maxCount : 0
-            const isSelected = p.key === selectedKey
-            const isToday = p.key === todayKey
+            const isSelected = key === selectedKey
+            const isToday = key === todayKey
+            const dayType = getDayType(d, key)
+            const isMonthFirst = d.getDate() === 1
+
             return (
               <div
-                key={p.key}
-                className={`calendar-cell${isSelected ? ' selected' : ''}${isToday ? ' today' : ''}`}
-                onClick={() => setSelectedKey(p.key)}
-                title={`${p.label}: ${count}品種`}
+                key={key}
+                data-date={key}
+                className={[
+                  'cal-day-cell',
+                  isSelected ? 'selected' : '',
+                  isToday ? 'today' : '',
+                  `day-type-${dayType}`,
+                ].filter(Boolean).join(' ')}
+                onClick={() => setSelectedKey(key)}
+                title={`${formatDateLabel(d)}: ${count}品種`}
               >
+                {/* バー */}
                 <div
-                  className="calendar-cell__bar"
-                  style={{ height: `${Math.max(4, intensity * 48)}px`, opacity: 0.3 + intensity * 0.7 }}
+                  className="cal-day-cell__bar"
+                  style={{
+                    height: `${Math.max(2, intensity * 44)}px`,
+                    opacity: count === 0 ? 0.08 : 0.25 + intensity * 0.75,
+                  }}
                 />
-                {p.jun === 'early' && (
-                  <div className="calendar-cell__month">{p.month}月</div>
+                {/* 日付数字 */}
+                <div className="cal-day-cell__day">{d.getDate()}</div>
+                {/* 曜日ラベル（月初のみ） */}
+                {isMonthFirst && (
+                  <div className="cal-day-cell__month-label">{d.getMonth() + 1}月</div>
                 )}
-                {isToday && <div className="calendar-cell__today-marker">▼</div>}
+                {/* 今日マーカー */}
+                {isToday && <div className="cal-day-cell__today-dot" />}
               </div>
             )
           })}
         </div>
       </div>
 
-      {/* Selected period info */}
-      <div className="calendar-period-header">
-        <span className="calendar-period-label">{selectedPeriod.label}</span>
-        <span className="calendar-period-count">{selectedVarieties.length}品種</span>
-        {selectedKey === todayKey && <span className="calendar-period-now">← 今ここ</span>}
+      {/* 選択日ヘッダー */}
+      <div className="calendar-date-header">
+        <span className="calendar-date-label">{formatDateLabel(selectedDate)}</span>
+        <span className="calendar-date-count">{selectedVarieties.length}品種</span>
+        {selectedKey === todayKey && <span className="calendar-date-now">← 今ここ</span>}
       </div>
 
-      {/* Variety list grouped by rarity */}
+      {/* 品種リスト */}
       <div className="calendar-variety-list">
         {grouped.map(([score, vars]) => (
           <div key={score} className="calendar-rarity-group">
@@ -212,10 +309,12 @@ export function SakuraCalendar() {
                   return statusFromWindow(w, CALENDAR_TODAY) === 'in_bloom'
                     || isFuyuAutumnBloom(v.bloomGroup, CALENDAR_TODAY)
                 })()
+                // 「今見頃」バッジ: 選択日が今日 OR 今日が bloom window 内
+                const showNowBadge = nowInBloom || selectedKey === todayKey && nowInBloom
                 return (
                   <div
                     key={v.id}
-                    className={`calendar-variety-card${nowInBloom ? ' calendar-variety-card--bloom' : ''}`}
+                    className={`calendar-variety-card${showNowBadge ? ' calendar-variety-card--bloom' : ''}`}
                     onClick={() => navigate(`/variety/${v.id}`, { state: { fromPref: selectedPref } })}
                   >
                     <div
@@ -242,7 +341,7 @@ export function SakuraCalendar() {
           </div>
         ))}
         {selectedVarieties.length === 0 && (
-          <p className="calendar-empty">この時期は開花データがありません</p>
+          <p className="calendar-empty">この日は開花データがありません</p>
         )}
       </div>
     </div>
