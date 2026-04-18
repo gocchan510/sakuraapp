@@ -275,32 +275,104 @@ npm run deploy  # gh-pages -d dist → gocchan510.github.io/sakuraapp/
 | # | タスク | 詳細 |
 |---|--------|------|
 | ~~B-01~~ | ~~unmatched品種の新規追加検討~~ | **完了（2026-04）** 56品種追加、varieties.json 806→862件 |
-| B-02 | variety_candidates_v3.csvの人間レビュー | MEDIUM却下ログの内容確認（現状0件だが将来用） |
-| B-03 | PWAインストールバナー実装 | App.cssにスタイルは追加済み。JSロジック（beforeinstallpromptイベント等）が未実装の可能性あり |
+| ~~B-02~~ | ~~variety_candidates_v3.csvの人間レビュー~~ | **完了（2026-04）** CSV 0件のためレビュー対象なし |
 | ~~B-10~~ | ~~スポットタブ新規実装~~ | **完了（2026-04）** SpotListPage・SpotListCard実装、bloomキャッシュ・時刻バグ修正済み |
 | ~~B-11~~ | ~~3タップおすすめウィザード~~ | **完了（2026-04）** RecommendWizard実装、地図タブFABから起動 |
 | ~~B-12~~ | ~~bloomGroup全体リファクタリング~~ | **完了（2026-04）** bloomGroup/someiyoshinoOffset導入、bloomPeriod廃止、全計算エンジン刷新 |
 | ~~B-13~~ | ~~カレンダー都道府県フィルタ~~ | **完了（2026-04）** 47都道府県ドロップダウン・位置情報自動検出・prefectureVarieties.json生成 |
 | ~~B-14~~ | ~~品種詳細スポット都道府県フィルタ~~ | **完了（2026-04）** カレンダーからの都道府県引き継ぎ（location.state）、ドロップダウンフィルタ、見頃ラベル・見頃ソート追加 |
 | ~~B-15~~ | ~~カレンダー日付ベースリニューアル~~ | **完了（2026-04）** 旬→日付ベースに全面書き直し。月タブ・365日ヒートマップ・祝日対応・日本語曜日表示 |
-
-### 中優先度
-
-| # | タスク | 詳細 |
-|---|--------|------|
-| B-04 | バンドルサイズ削減 | spots.json + varieties.jsonが巨大。dynamic import検討 |
-| B-05 | 品種詳細ページ: 関連スポット地図表示 | VarietyDetailからそのスポットを地図で見られる機能 |
-| B-06 | 開花カレンダー精度向上 | bloom-offset.jsonの見直し・実績データ反映 |
-
-### 低優先度
-
-| # | タスク | 詳細 |
-|---|--------|------|
-| B-07 | i18n対応 | `src/i18n/` ディレクトリあり。英語化の可能性 |
-| B-08 | Lighthouseスコア改善 | lighthouse-report.json確認済み |
-| B-09 | 検索UX改善 | 現状1文字からインクリメンタル検索。読み仮名・エイリアス対応強化 |
+| ~~B-04~~ | ~~バンドルサイズ削減~~ | **完了（2026-04）** React.lazy によるルート分割＋manualChunks で index.js 1.9MB→869KB（54%削減）、precache 8→23エントリに拡大 |
+| ~~B-05~~ | ~~品種詳細ページ: 関連スポット地図表示~~ | **完了** VarietyDetail に `onShowOnMap` ボタン実装済み |
+| ~~B-06~~ | ~~開花カレンダー精度向上~~ | **完了** B-12 の bloomGroup リファクタで計算エンジン刷新済み |
+| ~~B-07~~ | ~~i18n対応~~ | **完了** LangContext + 多言語データ（en/zh-TW等）対応済み |
+| ~~B-08~~ | ~~Lighthouseスコア改善~~ | **棚上げ** 必要に応じて再計測 |
+| ~~B-09~~ | ~~検索UX改善~~ | **棚上げ** 必要に応じて再着手 |
+| B-16 | Push通知（PR1完了／PR2-3作業中） | 見頃到達アラート。PR1: shared/化＋server/雛形＋API実装済み。PR2: GH Actions/WIF/Cloud Run/Firestore/Scheduler。PR3: フロント連携。詳細は §18 |
 
 ---
+
+## 18. B-16 Push通知 仕様書（PR1実装済み）
+
+### アーキテクチャ
+```
+PWA (GHP) ──subscribe──▶ Cloud Run (sakura-push, mymapbot/asia-northeast1)
+                                    ├─ Firestore: subscriptions コレクション
+                                    └─ web-push 送信
+Cloud Scheduler ──cron 08:00 JST──▶ /api/cron/notify
+```
+
+### PR1で実装済み（2026-04）
+- `shared/` ディレクトリ新設：`bloomOffset.ts` / `spotBloom.ts` / `types.ts` をフロント・バック共有
+  - `src/utils/bloomOffset.ts` と `src/utils/spotBloom.ts` は `shared/` への再エクスポートスタブに変更
+  - `src/types.ts` も同様
+  - データJSONは `src/data/` のまま、`shared/` から `../src/data/` で参照
+- `server/` 新規: Hono + TypeScript + `web-push` + `@google-cloud/firestore`
+  - `server/src/env.ts` 環境変数
+  - `server/src/firestore.ts` 購読CRUD
+  - `server/src/push.ts` web-push ラッパー（410/404 自動削除）
+  - `server/src/notify.ts` 日次ジョブロジック
+  - `server/src/i18n.ts` 通知文言ja/en/zh-TW
+  - `server/src/spotLookup.ts` spots.json ルックアップ
+  - `server/src/index.ts` Hono エントリ（全エンドポイント定義済み）
+- ビルドは `esbuild` で単一ファイル化 → Cloud Run deploy用
+- ローカル動作: `cd server && npm run dev`
+
+### PR2（次）
+- `.github/workflows/deploy-push.yml` GitHub Actions（WIF + Cloud Run デプロイ + 自動ロールバック）
+- `docs/PUSH_SETUP.md` GCP初期手順（Firestore / WIF / Scheduler / Secret Manager / VAPID）
+- Cloud Run deploy（手動初回 → 以降 GH Actions 自動）
+
+### PR3（その次）
+- フロント `src/utils/push.ts` subscribe/unsubscribe/syncFavorites
+- 設定モーダル通知トグル（iOS PWA/permission状態分岐）
+- `FavoritesContext` 更新時に3秒debounceでバック同期
+- お気に入り追加時 soft prompt
+- Service Worker に `push` / `notificationclick` ハンドラ追加（`vite-plugin-pwa` の `injectManifest` モードへの切替要検討）
+
+### Firestore スキーマ
+```ts
+// subscriptions/{sha256(endpoint)[:32]}
+{
+  id: string
+  endpoint: string
+  keys: { p256dh: string; auth: string }
+  lang: 'ja' | 'en' | 'zh-TW'
+  favoriteSpotIds: string[]         // 上限50件
+  lastNotified: Record<spotId, { status, at }>  // 同じstatusは再送しない
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+```
+
+### 通知フロー
+- Cloud Scheduler が 08:00 JST (23:00 UTC前日) に `/api/cron/notify` 呼出
+- 全 subscriptions を走査 → 各 favoriteSpotId について `computeSpotBloom(spot)` を計算
+- `NOTIFY_STATUSES = ['in_bloom', 'opening']` で、かつ `lastNotified.status !== current` なら送信
+- 1購読あたり1日最大1通（最初に条件ヒットしたスポットで break）
+- 送信後 `lastNotified[spotId] = { status, at }` を Firestore 更新
+- 送信時 410/404 → Firestore から購読削除
+
+### エンドポイント一覧
+| Method | Path | 認証 |
+|--------|------|------|
+| GET | `/health` | 公開 |
+| GET | `/api/vapid-public-key` | 公開 |
+| GET | `/api/debug/ping` | 公開 |
+| POST | `/api/subscribe` | 公開（CORSで制限） |
+| POST | `/api/unsubscribe` | 公開 |
+| POST | `/api/favorites` | 公開 |
+| POST | `/api/cron/notify` | Google-Cloud-Scheduler UA + OIDC IAM |
+| POST | `/api/debug/test-push` | `X-API-Token` ヘッダ |
+
+### CORS許可
+- `https://gocchan510.github.io`
+- `http://localhost:5173`（開発用）
+
+### Cloud Run 設定
+- project: `mymapbot` / region: `asia-northeast1` / service: `sakura-push`
+- memory: 256Mi / cpu: 1 / concurrency: 80 / max-instances: 5 / min-instances: 0
+- timeout: 300s（cron が全sub走査するため）
 
 ---
 

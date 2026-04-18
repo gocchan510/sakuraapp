@@ -1,0 +1,13 @@
+# Cloud Build に送らないファイル
+# dist/index.js と Dockerfile だけ送れば十分
+node_modules/
+src/
+README.md
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.build.json
+.gitignore
+.env
+.env.local
+*.log

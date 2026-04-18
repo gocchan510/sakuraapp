@@ -1,0 +1,133 @@
+name: Deploy sakura-push
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'server/**'
+      - 'shared/**'
+      - 'src/data/**'
+      - '.github/workflows/deploy-push.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write   # Workload Identity Federation
+
+env:
+  REGION: asia-northeast1
+  SERVICE: sakura-push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: server/package-lock.json
+
+      - name: Install & typecheck & build
+        working-directory: server
+        run: |
+          npm ci
+          npm run typecheck
+          npm run build
+          ls -lh dist/
+
+      - name: Auth to GCP (Workload Identity)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WIF_PROVIDER }}
+          service_account: ${{ secrets.GCP_SA_EMAIL }}
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Deploy candidate revision (no traffic)
+        id: deploy_candidate
+        run: |
+          gcloud run deploy ${{ env.SERVICE }} \
+            --source server \
+            --region ${{ env.REGION }} \
+            --project ${{ secrets.GCP_PROJECT_ID }} \
+            --tag candidate \
+            --no-traffic \
+            --quiet
+
+          CANDIDATE_URL=$(gcloud run services describe ${{ env.SERVICE }} \
+            --region ${{ env.REGION }} \
+            --project ${{ secrets.GCP_PROJECT_ID }} \
+            --format=json \
+            | jq -r '.status.traffic[] | select(.tag=="candidate") | .url')
+          echo "candidate_url=${CANDIDATE_URL}" >> $GITHUB_OUTPUT
+          echo "Candidate URL: ${CANDIDATE_URL}"
+
+          LATEST_REV=$(gcloud run services describe ${{ env.SERVICE }} \
+            --region ${{ env.REGION }} \
+            --project ${{ secrets.GCP_PROJECT_ID }} \
+            --format='value(status.latestCreatedRevisionName)')
+          echo "latest_revision=${LATEST_REV}" >> $GITHUB_OUTPUT
+
+      - name: Smoke test candidate
+        id: smoke
+        run: |
+          URL="${{ steps.deploy_candidate.outputs.candidate_url }}"
+          echo "Testing: ${URL}"
+
+          # /health: Firestore疎通含む
+          curl -f --max-time 30 -sS "${URL}/health" | tee /tmp/health.json
+          HEALTH_OK=$(jq -r '.ok' /tmp/health.json)
+          if [ "${HEALTH_OK}" != "true" ]; then
+            echo "::error::Health check failed"
+            exit 1
+          fi
+
+          # /api/debug/ping: VAPID鍵セット済み確認
+          curl -f --max-time 15 -sS "${URL}/api/debug/ping" | tee /tmp/ping.json
+          HAS_VAPID=$(jq -r '.hasVapid' /tmp/ping.json)
+          if [ "${HAS_VAPID}" != "true" ]; then
+            echo "::error::VAPID keys not configured"
+            exit 1
+          fi
+
+          echo "Smoke test passed ✅"
+
+      - name: Promote candidate to 100% traffic
+        if: success()
+        run: |
+          gcloud run services update-traffic ${{ env.SERVICE }} \
+            --region ${{ env.REGION }} \
+            --project ${{ secrets.GCP_PROJECT_ID }} \
+            --to-latest \
+            --clear-tags \
+            --quiet
+          echo "Promoted to 100% traffic ✅"
+
+      - name: Rollback on failure
+        if: failure() && steps.deploy_candidate.outcome == 'success'
+        run: |
+          echo "::warning::Deploy failed. Removing candidate revision."
+          BAD_REV="${{ steps.deploy_candidate.outputs.latest_revision }}"
+          if [ -n "${BAD_REV}" ]; then
+            gcloud run revisions delete "${BAD_REV}" \
+              --region ${{ env.REGION }} \
+              --project ${{ secrets.GCP_PROJECT_ID }} \
+              --quiet || echo "Revision cleanup failed, manual intervention may be needed"
+          fi
+          echo "Previous revision remains active (traffic untouched)"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Service: ${{ env.SERVICE }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Region: ${{ env.REGION }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Candidate URL: ${{ steps.deploy_candidate.outputs.candidate_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Latest Revision: ${{ steps.deploy_candidate.outputs.latest_revision }}" >> $GITHUB_STEP_SUMMARY
