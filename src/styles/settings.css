@@ -111,8 +111,26 @@
   background: #fff5f8;
 }
 .settings-lang-item input[type="radio"] {
-  accent-color: #D4507A;
-  margin: 0;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.settings-lang-flag {
+  font-size: 22px;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+.settings-lang-name {
+  flex: 1 1 auto;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+.settings-lang-check {
+  flex: 0 0 auto;
+  color: #D4507A;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /* 通知トグル（横並びコンテナ + 独立したスイッチ） */

@@ -9,8 +9,7 @@ import {
 } from '../utils/bloomFilter'
 import { getSomeiyoshinoDate, getVarietyBloomWindow } from '../utils/bloomOffset'
 import { getDiscoveredVarietyIds } from '../utils/discoveries'
-import { useLang, type Lang } from '../contexts/LangContext'
-import { isHapticEnabled, setHapticEnabled, isHapticSupported, haptic, HapticPattern } from '../utils/haptic'
+import { useLang } from '../contexts/LangContext'
 
 // カレンダーと同じ東京基準のソメイヨシノ開花日
 const LIST_SOMEIYOSHINO_DATE = getSomeiyoshinoDate(35.6895, 139.6917)
@@ -119,90 +118,6 @@ function VarietyCard({ variety, onClick, discovered }: CardProps) {
           {discovered && (
             <span className="variety-card-discovered">✓</span>
           )}
-        </div>
-      </div>
-    </div>
-  )
-}
-
-// ── Lang Modal ───────────────────────────────────────────────────────────────
-
-function LangModal({ onClose }: { onClose: () => void }) {
-  const { lang, setLang, t } = useLang()
-  const s = t('lang')
-  const [hapticOn, setHapticOn] = useState(isHapticEnabled())
-  const hapticSupported = isHapticSupported()
-
-  // i18n（設定モーダル用のローカル文字列。LangContextに追加せずインラインで管理）
-  const L = {
-    title: lang === 'en' ? 'Settings' : lang === 'zh-TW' ? '設定' : '設定',
-    sectionLang: lang === 'en' ? 'Language' : lang === 'zh-TW' ? '語言' : '言語',
-    sectionHaptic: lang === 'en' ? 'Haptic Feedback' : lang === 'zh-TW' ? '震動回饋' : 'ハプティック（振動）',
-    hapticDesc: lang === 'en' ? 'Subtle vibration on taps' : lang === 'zh-TW' ? '點擊時輕微震動' : 'タップ時に軽く振動',
-    hapticUnsupported: lang === 'en' ? 'Not supported on this device' : lang === 'zh-TW' ? '此裝置不支援' : 'この端末では利用できません',
-    on: lang === 'en' ? 'ON' : lang === 'zh-TW' ? '開啟' : 'ON',
-    off: lang === 'en' ? 'OFF' : lang === 'zh-TW' ? '關閉' : 'OFF',
-  }
-
-  function select(l: Lang) {
-    haptic(HapticPattern.light)
-    setLang(l)
-    onClose()
-  }
-
-  function toggleHaptic() {
-    const next = !hapticOn
-    setHapticEnabled(next)
-    setHapticOn(next)
-    if (next) haptic(HapticPattern.strong) // ONにした瞬間フィードバック
-  }
-
-  return (
-    <div className="lang-modal-backdrop" onClick={onClose}>
-      <div className="lang-modal" onClick={e => e.stopPropagation()}>
-        <div className="lang-modal__header">
-          <span className="lang-modal__title">{L.title}</span>
-          <button className="lang-modal__close" onClick={onClose}>{s.close}</button>
-        </div>
-
-        {/* 言語セクション */}
-        <div className="settings-section-label">{L.sectionLang}</div>
-        <div className="lang-modal__list">
-          {(['ja', 'zh-TW', 'en'] as Lang[]).map(l => (
-            <button
-              key={l}
-              className={`lang-modal__item${lang === l ? ' active' : ''}`}
-              onClick={() => select(l)}
-            >
-              <span className="lang-modal__flag">
-                {l === 'ja' ? '🇯🇵' : l === 'zh-TW' ? '🇹🇼' : '🇬🇧'}
-              </span>
-              <span className="lang-modal__name">{s[l]}</span>
-              {lang === l && <span className="lang-modal__check">✓</span>}
-            </button>
-          ))}
-        </div>
-
-        {/* ハプティックセクション */}
-        <div className="settings-section-label">{L.sectionHaptic}</div>
-        <div className="settings-row">
-          <div className="settings-row__text">
-            <div className="settings-row__title">📳 {L.sectionHaptic}</div>
-            <div className="settings-row__desc">
-              {hapticSupported ? L.hapticDesc : L.hapticUnsupported}
-            </div>
-          </div>
-          <button
-            type="button"
-            role="switch"
-            aria-checked={hapticOn}
-            disabled={!hapticSupported}
-            onClick={toggleHaptic}
-            className={`settings-toggle${hapticOn ? ' on' : ''}${!hapticSupported ? ' disabled' : ''}`}
-          >
-            <span className="settings-toggle__thumb" />
-            <span className="settings-toggle__label">{hapticOn ? L.on : L.off}</span>
-          </button>
         </div>
       </div>
     </div>
@@ -319,7 +234,6 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
   const zukan = t('zukan')
   const [filter, setFilter] = useState<FilterState>(INIT_FILTER)
   const [discoveredIds] = useState(() => getDiscoveredVarietyIds())
-  const [langModalOpen, setLangModalOpen] = useState(false)
 
   const filtered = useMemo(() => {
     if (!filter.start || !filter.end) return varieties
@@ -334,16 +248,6 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
     <div>
       {/* Sticky header */}
       <div className="zukan-header">
-        <button
-          className="lang-gear-btn"
-          onClick={() => setLangModalOpen(true)}
-          aria-label="Language"
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="12" cy="12" r="3"/>
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-          </svg>
-        </button>
         <div className="zukan-header-title">{zukan.title}</div>
         <div className="zukan-header-sub">
           {isFiltered
@@ -399,8 +303,6 @@ export function VarietyList({ varieties, onSelect, spotFilter, onClearSpotFilter
         ))}
       </div>
 
-      {/* Lang Modal */}
-      {langModalOpen && <LangModal onClose={() => setLangModalOpen(false)} />}
     </div>
   )
 }

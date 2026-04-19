@@ -11,6 +11,13 @@ import {
   getCurrentSubscription,
   type PushPermissionState,
 } from '../utils/push'
+import {
+  isHapticEnabled,
+  setHapticEnabled,
+  isHapticSupported,
+  haptic,
+  HapticPattern,
+} from '../utils/haptic'
 
 interface Props {
   open: boolean
@@ -29,6 +36,22 @@ export function SettingsModal({ open, onClose }: Props) {
   const [subscribed, setSubscribed] = useState(false)
   const [working, setWorking] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [hapticOn, setHapticOn] = useState(isHapticEnabled())
+  const hapticSupported = isHapticSupported()
+
+  // haptic用ローカル文字列（LangContext汚染を避けインライン管理）
+  const hapticStrings = {
+    section: lang === 'en' ? 'Haptic Feedback' : lang === 'zh-TW' ? '震動回饋' : 'ハプティック（振動）',
+    label: lang === 'en' ? 'Subtle vibration on taps' : lang === 'zh-TW' ? '點擊時輕微震動' : 'タップ時に軽く振動',
+    unsupported: lang === 'en' ? 'Not supported on this device' : lang === 'zh-TW' ? '此裝置不支援' : 'この端末では利用できません',
+  }
+
+  function toggleHaptic() {
+    const next = !hapticOn
+    setHapticEnabled(next)
+    setHapticOn(next)
+    if (next) haptic(HapticPattern.strong)
+  }
 
   // モーダルを開いた時だけ状態再評価
   useEffect(() => {
@@ -120,10 +143,34 @@ export function SettingsModal({ open, onClose }: Props) {
                     checked={lang === l}
                     onChange={() => setLang(l)}
                   />
-                  <span>{langLabels[l]}</span>
+                  <span className="settings-lang-flag" aria-hidden="true">
+                    {l === 'ja' ? '🇯🇵' : l === 'zh-TW' ? '🇹🇼' : '🇬🇧'}
+                  </span>
+                  <span className="settings-lang-name">{langLabels[l]}</span>
+                  {lang === l && <span className="settings-lang-check" aria-hidden="true">✓</span>}
                 </label>
               ))}
             </div>
+          </section>
+
+          {/* ハプティックセクション */}
+          <section className="settings-section">
+            <h3 className="settings-section__title">{hapticStrings.section}</h3>
+            <div className={`settings-toggle${!hapticSupported ? ' is-disabled' : ''}`}>
+              <span className="settings-toggle__label">📳 {hapticStrings.label}</span>
+              <label className="toggle-switch" aria-label={hapticStrings.section}>
+                <input
+                  type="checkbox"
+                  checked={hapticOn}
+                  disabled={!hapticSupported}
+                  onChange={toggleHaptic}
+                />
+                <span className="toggle-switch__slider" aria-hidden="true" />
+              </label>
+            </div>
+            {!hapticSupported && (
+              <p className="settings-note settings-note--warn">{hapticStrings.unsupported}</p>
+            )}
           </section>
 
           {/* 通知セクション */}
