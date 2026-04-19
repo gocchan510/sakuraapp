@@ -129,19 +129,21 @@ export function SettingsModal({ open, onClose }: Props) {
           {/* 通知セクション */}
           <section className="settings-section">
             <h3 className="settings-section__title">{s.notifSection}</h3>
-            <label className={`settings-toggle${toggleDisabled ? ' is-disabled' : ''}`}>
+            <div className={`settings-toggle${toggleDisabled ? ' is-disabled' : ''}`}>
               <span className="settings-toggle__label">{s.notifToggle}</span>
-              <input
-                type="checkbox"
-                checked={subscribed}
-                disabled={toggleDisabled}
-                onChange={(e) => {
-                  if (e.target.checked) handleToggleOn()
-                  else handleToggleOff()
-                }}
-              />
-              <span className="settings-toggle__slider" aria-hidden="true" />
-            </label>
+              <label className="toggle-switch" aria-label={s.notifToggle}>
+                <input
+                  type="checkbox"
+                  checked={subscribed}
+                  disabled={toggleDisabled}
+                  onChange={(e) => {
+                    if (e.target.checked) handleToggleOn()
+                    else handleToggleOff()
+                  }}
+                />
+                <span className="toggle-switch__slider" aria-hidden="true" />
+              </label>
+            </div>
             <p className="settings-note">{s.notifNote}</p>
             {notifMessage && <p className="settings-note settings-note--warn">{notifMessage}</p>}
             {working && <p className="settings-note">{s.working}</p>}

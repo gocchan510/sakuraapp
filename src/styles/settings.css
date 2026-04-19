@@ -115,20 +115,16 @@
   margin: 0;
 }
 
-/* 通知トグル */
+/* 通知トグル（横並びコンテナ + 独立したスイッチ） */
 .settings-toggle {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   padding: 8px 0;
-  cursor: pointer;
   user-select: none;
 }
-.settings-toggle.is-disabled {
-  cursor: not-allowed;
-  opacity: 0.55;
-}
+.settings-toggle.is-disabled { opacity: 0.55; }
 .settings-toggle__label {
   flex: 1 1 auto;
   min-width: 0;
@@ -138,21 +134,31 @@
   word-break: keep-all;
   overflow-wrap: normal;
 }
-.settings-toggle input[type="checkbox"] {
+
+/* iOS風スイッチ — 独立した固定幅要素 */
+.toggle-switch {
+  position: relative;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+.toggle-switch input {
   position: absolute;
   opacity: 0;
+  width: 0;
+  height: 0;
   pointer-events: none;
 }
-.settings-toggle__slider {
-  position: relative;
-  width: 40px;
-  height: 24px;
+.toggle-switch__slider {
+  position: absolute;
+  inset: 0;
   background: #ccc;
   border-radius: 12px;
   transition: background 0.15s ease;
-  flex-shrink: 0;
 }
-.settings-toggle__slider::after {
+.toggle-switch__slider::after {
   content: '';
   position: absolute;
   top: 2px;
@@ -164,12 +170,10 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: transform 0.15s ease;
 }
-.settings-toggle input:checked ~ .settings-toggle__slider {
-  background: #D4507A;
-}
-.settings-toggle input:checked ~ .settings-toggle__slider::after {
-  transform: translateX(16px);
-}
+.toggle-switch input:checked + .toggle-switch__slider { background: #D4507A; }
+.toggle-switch input:checked + .toggle-switch__slider::after { transform: translateX(20px); }
+.toggle-switch input:disabled + .toggle-switch__slider { cursor: not-allowed; }
+.settings-toggle.is-disabled .toggle-switch { cursor: not-allowed; }
 
 /* 注釈 */
 .settings-note {
