@@ -1,7 +1,7 @@
 // 日次ジョブ: 全購読を走査し、遷移検知 → Push 送信
 import { iterateSubscriptions, updateLastNotified } from './firestore.ts'
 import { sendPush } from './push.ts'
-import { getSpot, getVarietyNames } from './spotLookup.ts'
+import { getSpot, getBloomingVarietyNames } from './spotLookup.ts'
 import { computeSpotBloom, type BloomStatus } from '../../shared/spotBloom.ts'
 import { notifyTitle, notifyBody } from './i18n.ts'
 
@@ -45,7 +45,7 @@ export async function runDailyNotify(today = new Date()): Promise<NotifyResult> 
       if (last && last.status === bloom.status) continue
 
       const title = notifyTitle(sub.lang, bloom.status)
-      const varieties = getVarietyNames(spot.varieties, sub.lang, 3)
+      const varieties = getBloomingVarietyNames(spot, today, sub.lang, 3)
       const body  = notifyBody(sub.lang, spot.name, bloom.status, varieties)
       const url = `${APP_ORIGIN}/#/map?spot=${encodeURIComponent(spotId)}`
 
