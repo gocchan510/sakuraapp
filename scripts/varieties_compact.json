@@ -1,0 +1,4391 @@
+[
+  {
+    "id": "accolade",
+    "name": "アーコレード",
+    "reading": "あーこれーど"
+  },
+  {
+    "id": "aizu-usuzumi",
+    "name": "会津薄墨",
+    "reading": "あいづうすずみ"
+  },
+  {
+    "id": "akashinju",
+    "name": "赤真珠",
+    "reading": "あかしんじゅ"
+  },
+  {
+    "id": "akatsuki-naden",
+    "name": "暁南殿",
+    "reading": "あかつきなでん"
+  },
+  {
+    "id": "akabana-mazakura",
+    "name": "赤花真桜",
+    "reading": "あかばなまざくら"
+  },
+  {
+    "id": "akami-ohshima",
+    "name": "赤実大島",
+    "reading": "あかみおおしま"
+  },
+  {
+    "id": "agishi-kogiku-zakura",
+    "name": "阿岸小菊桜",
+    "reading": "あぎしこぎくざくら"
+  },
+  {
+    "id": "asahiyama",
+    "name": "旭山",
+    "reading": "あさひやま",
+    "aliases": [
+      "朝日山"
+    ]
+  },
+  {
+    "id": "azumanishiki",
+    "name": "東錦",
+    "reading": "あずまにしき"
+  },
+  {
+    "id": "atamizakura",
+    "name": "熱海桜",
+    "reading": "あたみざくら"
+  },
+  {
+    "id": "akkeshi-taizanfukun",
+    "name": "厚岸泰山府君",
+    "reading": "あっけしたいざんふくん"
+  },
+  {
+    "id": "amagiyoshino",
+    "name": "天城吉野",
+    "reading": "あまぎよしの"
+  },
+  {
+    "id": "amanogawa",
+    "name": "天の川",
+    "reading": "あまのがわ"
+  },
+  {
+    "id": "amayadori",
+    "name": "雨宿",
+    "reading": "あまやどり"
+  },
+  {
+    "id": "america",
+    "name": "アメリカ",
+    "reading": "あめりか"
+  },
+  {
+    "id": "arakawanioi",
+    "name": "荒川匂",
+    "reading": "あらかわにおい"
+  },
+  {
+    "id": "arashiyama",
+    "name": "嵐山",
+    "reading": "あらしやま"
+  },
+  {
+    "id": "aratama",
+    "name": "新珠",
+    "reading": "あらたま",
+    "aliases": [
+      "荒玉"
+    ]
+  },
+  {
+    "id": "ariake",
+    "name": "有明",
+    "reading": "ありあけ"
+  },
+  {
+    "id": "izu-saifukuji-shidare",
+    "name": "伊豆最福寺枝垂",
+    "reading": "いずさいふくじしだれ"
+  },
+  {
+    "id": "izutaga-aka",
+    "name": "伊豆多賀赤",
+    "reading": "いずたがあか"
+  },
+  {
+    "id": "izutaga-shiro",
+    "name": "伊豆多賀白",
+    "reading": "いずたがしろ"
+  },
+  {
+    "id": "izu-yoshino",
+    "name": "伊豆吉野",
+    "reading": "いずよしの"
+  },
+  {
+    "id": "ichiharatoranoo",
+    "name": "市原虎の尾",
+    "reading": "いちはらとらのお"
+  },
+  {
+    "id": "ichiyou",
+    "name": "一葉",
+    "reading": "いちよう"
+  },
+  {
+    "id": "itsukayama",
+    "name": "早晩山",
+    "reading": "いつかやま",
+    "aliases": [
+      "五月山"
+    ]
+  },
+  {
+    "id": "ito-zakura",
+    "name": "伊東桜",
+    "reading": "いとうざくら"
+  },
+  {
+    "id": "itokukuri",
+    "name": "糸括",
+    "reading": "いとくくり"
+  },
+  {
+    "id": "ivensii",
+    "name": "イベンシー",
+    "reading": "いべんしー"
+  },
+  {
+    "id": "hiranojinja-imose",
+    "name": "妹背（平野神社）",
+    "reading": "いもせ（ひらのじんじゃいもせ）",
+    "aliases": [
+      "妹背"
+    ]
+  },
+  {
+    "id": "iyo-usuzumi",
+    "name": "伊予薄墨",
+    "reading": "いようすずみ"
+  },
+  {
+    "id": "ueno-shirayuki-shidare",
+    "name": "上野白雪枝垂",
+    "reading": "うえのしらゆきしだれ"
+  },
+  {
+    "id": "warwick",
+    "name": "ウォーウィック",
+    "reading": "うぉーうぃっく"
+  },
+  {
+    "id": "ukon",
+    "name": "鬱金",
+    "reading": "うこん"
+  },
+  {
+    "id": "ujo-shidare",
+    "name": "雨情枝垂",
+    "reading": "うじょうしだれ",
+    "aliases": [
+      "宇城枝垂"
+    ]
+  },
+  {
+    "id": "ushugasane-ohshima",
+    "name": "薄重大島",
+    "reading": "うすがさねおおしま"
+  },
+  {
+    "id": "usuge-ohshima",
+    "name": "薄毛大島",
+    "reading": "うすげおおしま"
+  },
+  {
+    "id": "usuzumi",
+    "name": "薄墨",
+    "reading": "うすずみ"
+  },
+  {
+    "id": "usubeni-miyama",
+    "name": "薄紅深山桜",
+    "reading": "うすべにみやまざくら"
+  },
+  {
+    "id": "uzuzakura",
+    "name": "渦桜",
+    "reading": "うずざくら"
+  },
+  {
+    "id": "umineko",
+    "name": "ウミネコ",
+    "reading": "うみねこ"
+  },
+  {
+    "id": "umineko-isyu",
+    "name": "ウミネコ異種",
+    "reading": "うみねこいしゅ"
+  },
+  {
+    "id": "unryu-ohshima",
+    "name": "雲竜大島",
+    "reading": "うんりゅうおおしま"
+  },
+  {
+    "id": "eigenji",
+    "name": "永源寺",
+    "reading": "えいげんじ"
+  },
+  {
+    "id": "ezo-nishiki",
+    "name": "蝦夷錦",
+    "reading": "えぞにしき"
+  },
+  {
+    "id": "edo",
+    "name": "江戸",
+    "reading": "えど"
+  },
+  {
+    "id": "edohigan-ichifusa-beni",
+    "name": "江戸彼岸（市房紅）",
+    "reading": "えどひがん（いちふさべに）"
+  },
+  {
+    "id": "edohigan-ozakura",
+    "name": "江戸彼岸（大桜）",
+    "reading": "えどひがん（おおざくら）"
+  },
+  {
+    "id": "edohigan-mukaino",
+    "name": "江戸彼岸（向野）",
+    "reading": "えどひがん（むかいの）"
+  },
+  {
+    "id": "edohigan-yamataka-jindai-zakura",
+    "name": "江戸彼岸（山高神代桜）",
+    "reading": "えどひがん（やまたかじんだいざくら）"
+  },
+  {
+    "id": "eregansu-miyuki",
+    "name": "エレガンスみゆき",
+    "reading": "えれがんすみゆき"
+  },
+  {
+    "id": "entsuji-zakura",
+    "name": "円通寺桜",
+    "reading": "えんつうじざくら"
+  },
+  {
+    "id": "oushusatozakura",
+    "name": "奥州里桜",
+    "reading": "おうしゅうさとざくら"
+  },
+  {
+    "id": "ouchi-zakura",
+    "name": "大内桜",
+    "reading": "おおうちざくら"
+  },
+  {
+    "id": "o-kanzakura",
+    "name": "大寒桜",
+    "reading": "おおかんざくら"
+  },
+  {
+    "id": "okusa-kohigan",
+    "name": "大草小彼岸",
+    "reading": "おおくさこひがん"
+  },
+  {
+    "id": "osawazakura",
+    "name": "大沢桜",
+    "reading": "おおさわざくら"
+  },
+  {
+    "id": "oshimazakura",
+    "name": "オオシマザクラ",
+    "reading": "おおしまざくら"
+  },
+  {
+    "id": "ota-zakura",
+    "name": "太田桜",
+    "reading": "おおたざくら"
+  },
+  {
+    "id": "ojochin",
+    "name": "大提灯",
+    "reading": "おおぢょうちん"
+  },
+  {
+    "id": "onadeshiko",
+    "name": "大撫子",
+    "reading": "おおなでしこ"
+  },
+  {
+    "id": "onaden",
+    "name": "大南殿",
+    "reading": "おおなでん"
+  },
+  {
+    "id": "ohara-nagisa",
+    "name": "大原渚",
+    "reading": "おおはらなぎさ"
+  },
+  {
+    "id": "oharanagisa-isyu",
+    "name": "大原渚異種",
+    "reading": "おおはらなぎさいしゅ"
+  },
+  {
+    "id": "ominezakura",
+    "name": "大峰桜",
+    "reading": "おおみねざくら"
+  },
+  {
+    "id": "omurazakura",
+    "name": "大村桜",
+    "reading": "おおむらざくら"
+  },
+  {
+    "id": "okame",
+    "name": "オカメ",
+    "reading": "おかめ"
+  },
+  {
+    "id": "okuchoji-zakura",
+    "name": "奥丁字桜",
+    "reading": "おくちょうじざくら"
+  },
+  {
+    "id": "oshidorizakura",
+    "name": "鴛鴦桜",
+    "reading": "おしどりざくら"
+  },
+  {
+    "id": "oneyama-higan",
+    "name": "小根山彼岸",
+    "reading": "おねやまひがん"
+  },
+  {
+    "id": "ofusa-zakura",
+    "name": "お房桜",
+    "reading": "おふさざくら"
+  },
+  {
+    "id": "ominosato-buraizakura",
+    "name": "麻績の里舞台桜",
+    "reading": "おみのさとぶたいざくら"
+  },
+  {
+    "id": "omuro-ariake",
+    "name": "御室有明",
+    "reading": "おむろありあけ"
+  },
+  {
+    "id": "omoigawa",
+    "name": "思川",
+    "reading": "おもいがわ"
+  },
+  {
+    "id": "omoidezakura",
+    "name": "思伊出桜",
+    "reading": "おもいでざくら",
+    "aliases": [
+      "思い出桜"
+    ]
+  },
+  {
+    "id": "kakegawa-zakura",
+    "name": "掛川桜",
+    "reading": "かけがわざくら"
+  },
+  {
+    "id": "kasumizakura",
+    "name": "カスミザクラ",
+    "reading": "かすみざくら"
+  },
+  {
+    "id": "kataoka-zakura",
+    "name": "片丘桜",
+    "reading": "かたおかざくら",
+    "aliases": [
+      "片岡桜"
+    ]
+  },
+  {
+    "id": "katsuura-hinazakura",
+    "name": "勝浦雛桜",
+    "reading": "かつうらひなざくら"
+  },
+  {
+    "id": "kaba-sakura",
+    "name": "蒲桜",
+    "reading": "かばざくら"
+  },
+  {
+    "id": "kamatari-zakura",
+    "name": "鎌足桜",
+    "reading": "かまたりざくら"
+  },
+  {
+    "id": "kamiiso-ushiozakura",
+    "name": "上磯海潮桜",
+    "reading": "かみいそうしおざくら"
+  },
+  {
+    "id": "kamiokazakura",
+    "name": "神岡桜",
+    "reading": "かみおかざくら"
+  },
+  {
+    "id": "kamiyama-shidare-zakura",
+    "name": "神山枝垂桜",
+    "reading": "かみやましだれざくら"
+  },
+  {
+    "id": "kawaduzakura",
+    "name": "河津桜",
+    "reading": "かわづざくら"
+  },
+  {
+    "id": "kanzaki-ohshima",
+    "name": "寒咲大島",
+    "reading": "かんざきおおしま"
+  },
+  {
+    "id": "kanzashi-zakura",
+    "name": "簪桜",
+    "reading": "かんざしざくら"
+  },
+  {
+    "id": "kanzan",
+    "name": "関山",
+    "reading": "かんざん"
+  },
+  {
+    "id": "campanuloides",
+    "name": "カンパニュロイデス",
+    "reading": "かんぱにゅろいです"
+  },
+  {
+    "id": "kanhizakura",
+    "name": "カンヒザクラ",
+    "reading": "かんひざくら",
+    "aliases": [
+      "寒緋桜",
+      "緋寒桜",
+      "元日桜",
+      "台湾桜"
+    ]
+  },
+  {
+    "id": "kanhizakura-taiwan",
+    "name": "カンヒザクラ（台湾産）",
+    "reading": "かんひざくら（たいわんさん）"
+  },
+  {
+    "id": "ganman-zakura",
+    "name": "含満桜",
+    "reading": "がんまんざくら"
+  },
+  {
+    "id": "kikushidare",
+    "name": "菊枝垂",
+    "reading": "きくしだれ"
+  },
+  {
+    "id": "kibune-uzu",
+    "name": "貴船雲珠",
+    "reading": "きぶねうず",
+    "aliases": [
+      "貴船渦"
+    ]
+  },
+  {
+    "id": "kirin",
+    "name": "麒麟",
+    "reading": "きりん"
+  },
+  {
+    "id": "kinki-mamezakura",
+    "name": "近畿豆桜",
+    "reading": "きんきまめざくら"
+  },
+  {
+    "id": "kinryu-zakura",
+    "name": "金龍桜",
+    "reading": "きんりゅうざくら"
+  },
+  {
+    "id": "gioji-gijo-zakura",
+    "name": "祇王寺祇女桜",
+    "reading": "ぎおうじぎじょざくら"
+  },
+  {
+    "id": "gyoikou",
+    "name": "御衣黄",
+    "reading": "ぎょいこう"
+  },
+  {
+    "id": "gyosyo",
+    "name": "暁鐘",
+    "reading": "ぎょうしょう"
+  },
+  {
+    "id": "kushima-zakura",
+    "name": "玖島桜",
+    "reading": "くしまざくら",
+    "aliases": [
+      "久島桜"
+    ]
+  },
+  {
+    "id": "kushiro-yae",
+    "name": "釧路八重",
+    "reading": "くしろやえ"
+  },
+  {
+    "id": "kumagai",
+    "name": "熊谷",
+    "reading": "くまがい"
+  },
+  {
+    "id": "kumagaizakura",
+    "name": "熊谷桜",
+    "reading": "くまがいざくら",
+    "aliases": [
+      "八重咲山彼岸"
+    ]
+  },
+  {
+    "id": "kumanozakura",
+    "name": "クマノザクラ",
+    "reading": "くまのざくら"
+  },
+  {
+    "id": "kurama",
+    "name": "クラマ",
+    "reading": "くらま"
+  },
+  {
+    "id": "kurama-uzu",
+    "name": "鞍馬雲珠",
+    "reading": "くらまうず"
+  },
+  {
+    "id": "kurama-zakura",
+    "name": "鞍馬桜（肥後吉野）",
+    "reading": "くらまざくら（ひごよしの）"
+  },
+  {
+    "id": "kurusaru",
+    "name": "クルサル",
+    "reading": "くるさる"
+  },
+  {
+    "id": "kureha-otome-shidare",
+    "name": "呉羽おとめ枝垂",
+    "reading": "くれはおとめしだれ"
+  },
+  {
+    "id": "keio-zakura",
+    "name": "啓翁桜",
+    "reading": "けいおうざくら"
+  },
+  {
+    "id": "ketano-shirokikuzakura",
+    "name": "気多の白菊桜",
+    "reading": "けたのしろきくざくら"
+  },
+  {
+    "id": "kechimyakuzakura",
+    "name": "血脈桜原木",
+    "reading": "けちみゃくざくらげんぼく"
+  },
+  {
+    "id": "kemuriyama-beni-yamazakura",
+    "name": "煙山紅山桜",
+    "reading": "けむりやまべにやまざくら"
+  },
+  {
+    "id": "kenrokuen-kikuzakura",
+    "name": "兼六園菊桜",
+    "reading": "けんろくえんきくざくら"
+  },
+  {
+    "id": "kenrokuen-kumagai",
+    "name": "兼六園熊谷",
+    "reading": "けんろくえんくまがい"
+  },
+  {
+    "id": "geba-zakura-ishu",
+    "name": "下馬桜異種",
+    "reading": "げばざくらいしゅ"
+  },
+  {
+    "id": "koka",
+    "name": "紅華",
+    "reading": "こうか"
+  },
+  {
+    "id": "kofuku",
+    "name": "幸福",
+    "reading": "こうふく"
+  },
+  {
+    "id": "kokeshimizu",
+    "name": "苔清水",
+    "reading": "こけしみず"
+  },
+  {
+    "id": "kokonoe",
+    "name": "九重",
+    "reading": "ここのえ"
+  },
+  {
+    "id": "koshioyama",
+    "name": "小汐山（小塩山）",
+    "reading": "こしおやま",
+    "aliases": [
+      "小塩山"
+    ]
+  },
+  {
+    "id": "koshino-kamozakura",
+    "name": "越の加茂桜",
+    "reading": "こしのかもざくら"
+  },
+  {
+    "id": "koshinohigan-kimurakabu",
+    "name": "越の彼岸（木村株）",
+    "reading": "こしのひがん（きむらかぶ）"
+  },
+  {
+    "id": "koshinohigan_koshimuragenboku",
+    "name": "越の彼岸（越村原木）",
+    "reading": "こしのひがん（こしむらげんぼく）"
+  },
+  {
+    "id": "koshino-fuyuzakura",
+    "name": "越の冬桜",
+    "reading": "こしのふゆざくら"
+  },
+  {
+    "id": "kojonomai",
+    "name": "湖上の舞",
+    "reading": "こじょうのまい"
+  },
+  {
+    "id": "kocho",
+    "name": "胡蝶",
+    "reading": "こちょう"
+  },
+  {
+    "id": "kotohira",
+    "name": "琴平",
+    "reading": "ことひら"
+  },
+  {
+    "id": "konohana-zakura",
+    "name": "木の花桜",
+    "reading": "このはなざくら"
+  },
+  {
+    "id": "kobanayae-ohshima",
+    "name": "小花八重大島",
+    "reading": "こばなやえおおしま"
+  },
+  {
+    "id": "kohigan",
+    "name": "小彼岸",
+    "reading": "こひがん"
+  },
+  {
+    "id": "kobuku-zakura",
+    "name": "子福桜",
+    "reading": "こぶくざくら"
+  },
+  {
+    "id": "komatsu-otome",
+    "name": "小松乙女",
+    "reading": "こまつおとめ"
+  },
+  {
+    "id": "komatsunagi",
+    "name": "駒繋",
+    "reading": "こまつなぎ"
+  },
+  {
+    "id": "komame-zakura",
+    "name": "小豆桜",
+    "reading": "こまめざくら"
+  },
+  {
+    "id": "collingwood-ingram",
+    "name": "コリングウッド イングラム",
+    "reading": "こりんぐうっどいんぐらむ"
+  },
+  {
+    "id": "conradinae-schmitii-semiplena",
+    "name": "コンラディナエ × スミッティ セミプレナ",
+    "reading": "こんらでぃなえ×すみってぃせみぷれな"
+  },
+  {
+    "id": "conradinae-semiplena",
+    "name": "コンラディナエ セミプレナ",
+    "reading": "こんらでぃなえせみぷれな"
+  },
+  {
+    "id": "gokurakuji-zakura",
+    "name": "極楽寺桜",
+    "reading": "ごくらくじざくら"
+  },
+  {
+    "id": "gozanomanioi",
+    "name": "御座の間匂",
+    "reading": "ござのまにおい"
+  },
+  {
+    "id": "gosyozakura",
+    "name": "五所桜",
+    "reading": "ごしょざくら",
+    "aliases": [
+      "御所桜"
+    ]
+  },
+  {
+    "id": "goshinzakura",
+    "name": "御信桜",
+    "reading": "ごしんざくら"
+  },
+  {
+    "id": "gotenba-zakura",
+    "name": "御殿場桜",
+    "reading": "ごてんばざくら"
+  },
+  {
+    "id": "sakigake",
+    "name": "さきがけ",
+    "reading": "さきがけ"
+  },
+  {
+    "id": "sakuyahime",
+    "name": "咲耶姫",
+    "reading": "さくやひめ"
+  },
+  {
+    "id": "sasaga-oshidori",
+    "name": "笹賀鴛鴦桜",
+    "reading": "ささがおしどりざくら"
+  },
+  {
+    "id": "sasabe-zakura",
+    "name": "笹部桜",
+    "reading": "ささべざくら"
+  },
+  {
+    "id": "satohara",
+    "name": "里原",
+    "reading": "さとはら"
+  },
+  {
+    "id": "sanozakura",
+    "name": "佐野桜",
+    "reading": "さのざくら"
+  },
+  {
+    "id": "shikizaki-chojizakura",
+    "name": "四季咲丁字桜",
+    "reading": "しきざきちょうじざくら"
+  },
+  {
+    "id": "shikizaki-banshi",
+    "name": "四季咲伴氏",
+    "reading": "しきざきばんし"
+  },
+  {
+    "id": "shikizakura",
+    "name": "四季桜",
+    "reading": "しきざくら"
+  },
+  {
+    "id": "shizuka",
+    "name": "静香",
+    "reading": "しずか"
+  },
+  {
+    "id": "shizuka-zakura",
+    "name": "静桜",
+    "reading": "しずかざくら"
+  },
+  {
+    "id": "shizuka-nioi",
+    "name": "静匂",
+    "reading": "しずかにおい"
+  },
+  {
+    "id": "shisensho-gabisansan",
+    "name": "四川省峨眉山産",
+    "reading": "しせんしょうがびさんさん"
+  },
+  {
+    "id": "shidarezakura",
+    "name": "枝垂桜",
+    "reading": "しだれざくら"
+  },
+  {
+    "id": "shidarezakura-daisenshiro",
+    "name": "枝垂桜（大仙白）",
+    "reading": "しだれざくら（だいせんしろ）"
+  },
+  {
+    "id": "shidare-higan",
+    "name": "しだれ彼岸",
+    "reading": "しだれひがん"
+  },
+  {
+    "id": "shidare-fujizakura",
+    "name": "枝垂富士桜",
+    "reading": "しだれふじざくら"
+  },
+  {
+    "id": "shidare-yamazakura",
+    "name": "枝垂山桜（仙台枝垂）",
+    "reading": "しだれやまざくら（せんだいしだれ）"
+  },
+  {
+    "id": "shinamizakura",
+    "name": "シナミザクラ",
+    "reading": "しなみざくら"
+  },
+  {
+    "id": "shibayama",
+    "name": "芝山",
+    "reading": "しばやま"
+  },
+  {
+    "id": "syuzenjikanzakura",
+    "name": "修善寺寒桜",
+    "reading": "しゅぜんじかんざくら"
+  },
+  {
+    "id": "schmittii",
+    "name": "シュミッティイ",
+    "reading": "しゅみったい"
+  },
+  {
+    "id": "shogetsu",
+    "name": "松月",
+    "reading": "しょうげつ"
+  },
+  {
+    "id": "shogetsu-isyu",
+    "name": "松月異種",
+    "reading": "しょうげついしゅ"
+  },
+  {
+    "id": "shodo-zakura",
+    "name": "勝道桜",
+    "reading": "しょうどうざくら",
+    "aliases": [
+      "正道桜"
+    ]
+  },
+  {
+    "id": "shodo-higan",
+    "name": "勝道彼岸",
+    "reading": "しょうどうひがん",
+    "aliases": [
+      "正道彼岸"
+    ]
+  },
+  {
+    "id": "shofukuji-zakura",
+    "name": "正福寺桜",
+    "reading": "しょうふくじざくら",
+    "aliases": [
+      "湯村"
+    ]
+  },
+  {
+    "id": "showa-zakura",
+    "name": "昭和桜",
+    "reading": "しょうわざくら"
+  },
+  {
+    "id": "shosai",
+    "name": "ショーサイ",
+    "reading": "しょーさい"
+  },
+  {
+    "id": "shirayuki",
+    "name": "白雪",
+    "reading": "しらゆき"
+  },
+  {
+    "id": "shirayukihime",
+    "name": "白雪姫",
+    "reading": "しらゆきひめ"
+  },
+  {
+    "id": "shirotae",
+    "name": "白妙",
+    "reading": "しろたえ"
+  },
+  {
+    "id": "shirofugen-karamurauto",
+    "name": "シロフゲン（カラムタウト）",
+    "reading": "しろふげん（からむたうと）",
+    "aliases": [
+      "白普賢",
+      "シロフゲン（キューガーデン）"
+    ]
+  },
+  {
+    "id": "shin-sumizome",
+    "name": "新墨染",
+    "reading": "しんすみぞめ"
+  },
+  {
+    "id": "shinranshonin-juzukake-zakura",
+    "name": "親鸞上人数珠掛桜",
+    "reading": "しんらんしょうにんじゅずかけざくら"
+  },
+  {
+    "id": "jugatsu-zakura",
+    "name": "十月桜",
+    "reading": "じゅうがつざくら"
+  },
+  {
+    "id": "jyonioi",
+    "name": "上匂",
+    "reading": "じょうにおい"
+  },
+  {
+    "id": "jindai-akebono",
+    "name": "神代曙",
+    "reading": "じんだいあけぼの"
+  },
+  {
+    "id": "suisho",
+    "name": "水晶",
+    "reading": "すいしょう"
+  },
+  {
+    "id": "sumaura-fugenzo",
+    "name": "須磨浦普賢象",
+    "reading": "すまうらふげんぞう"
+  },
+  {
+    "id": "sumizome-nioi",
+    "name": "墨染匂",
+    "reading": "すみぞめにおい"
+  },
+  {
+    "id": "surugadai-nioi",
+    "name": "駿河台匂",
+    "reading": "するがだいにおい"
+  },
+  {
+    "id": "sunpu-zakura",
+    "name": "駿府桜",
+    "reading": "すんぷざくら"
+  },
+  {
+    "id": "zuisenji-fuyuzakura",
+    "name": "瑞泉寺冬桜",
+    "reading": "ずいせんじふゆざくら"
+  },
+  {
+    "id": "seimei-sakura",
+    "name": "清明さくら",
+    "reading": "せいめいさくら"
+  },
+  {
+    "id": "sendaiya",
+    "name": "仙台屋",
+    "reading": "せんだいや"
+  },
+  {
+    "id": "sendaiyoshino",
+    "name": "仙台吉野",
+    "reading": "せんだいよしの"
+  },
+  {
+    "id": "sennenji-hizakura",
+    "name": "専念寺緋桜",
+    "reading": "せんねんじひざくら"
+  },
+  {
+    "id": "senriko",
+    "name": "千里香",
+    "reading": "せんりこう"
+  },
+  {
+    "id": "zenshoji-kikuzakura",
+    "name": "善正寺菊桜",
+    "reading": "ぜんしょうじきくざくら"
+  },
+  {
+    "id": "sotoorihime",
+    "name": "衣通姫",
+    "reading": "そとおりひめ"
+  },
+  {
+    "id": "sonosato-kizakura",
+    "name": "園里黄桜",
+    "reading": "そのさときざくら"
+  },
+  {
+    "id": "sonosato-ryokuryu",
+    "name": "園里緑龍",
+    "reading": "そのさとりょくりゅう"
+  },
+  {
+    "id": "somei-beni",
+    "name": "染井紅",
+    "reading": "そめいべに"
+  },
+  {
+    "id": "someiyoshino",
+    "name": "染井吉野",
+    "reading": "そめいよしの"
+  },
+  {
+    "id": "taizanfukun",
+    "name": "泰山府君",
+    "reading": "たいざんふくん"
+  },
+  {
+    "id": "taihaku",
+    "name": "太白",
+    "reading": "たいはく",
+    "aliases": [
+      "タイハク",
+      "タイハク（別系）"
+    ]
+  },
+  {
+    "id": "taiheizakura",
+    "name": "太平桜",
+    "reading": "たいへいざくら"
+  },
+  {
+    "id": "tairyo-zakura",
+    "name": "大漁桜",
+    "reading": "たいりょうざくら"
+  },
+  {
+    "id": "taoyame",
+    "name": "手弱女",
+    "reading": "たおやめ"
+  },
+  {
+    "id": "takaoka-koshino-higan",
+    "name": "高岡越の彼岸",
+    "reading": "たかおかこしのひがん"
+  },
+  {
+    "id": "takasago",
+    "name": "高砂",
+    "reading": "たかさご",
+    "aliases": [
+      "武者桜",
+      "奈天",
+      "南殿",
+      "早生都"
+    ]
+  },
+  {
+    "id": "takato-kohigan",
+    "name": "高遠小彼岸桜",
+    "reading": "たかとこひがんざくら",
+    "aliases": [
+      "高遠小彼岸"
+    ]
+  },
+  {
+    "id": "takamatsu-chigo",
+    "name": "高松稚児",
+    "reading": "たかまつちご"
+  },
+  {
+    "id": "taguiarashi",
+    "name": "類嵐",
+    "reading": "たぐいあらし"
+  },
+  {
+    "id": "tatsugo-satozakura",
+    "name": "たつご里桜",
+    "reading": "たつごさとざくら"
+  },
+  {
+    "id": "cheju-zakura",
+    "name": "済州桜",
+    "reading": "ちぇじゅざくら"
+  },
+  {
+    "id": "chichibuzakura",
+    "name": "秩父桜",
+    "reading": "ちちぶざくら"
+  },
+  {
+    "id": "chiharazakura",
+    "name": "千原桜",
+    "reading": "ちはらざくら"
+  },
+  {
+    "id": "chosyuhizakura",
+    "name": "長州緋桜",
+    "reading": "ちょうしゅうひざくら"
+  },
+  {
+    "id": "tyoujizakura",
+    "name": "チョウジザクラ",
+    "reading": "ちょうじざくら",
+    "aliases": [
+      "丁子桜",
+      "丁字桜",
+      "メジロザクラ"
+    ]
+  },
+  {
+    "id": "chikushizakura",
+    "name": "筑紫桜",
+    "reading": "つくしざくら"
+  },
+  {
+    "id": "hirano-tsukubane",
+    "name": "突羽根（平野突羽根）",
+    "reading": "つくばね（ひらのつくばね）"
+  },
+  {
+    "id": "tsubakikanzakura",
+    "name": "椿寒桜",
+    "reading": "つばきかんざくら"
+  },
+  {
+    "id": "tsurukikusakura",
+    "name": "鶴菊桜",
+    "reading": "つるきくさくら"
+  },
+  {
+    "id": "temari",
+    "name": "手毬",
+    "reading": "てまり"
+  },
+  {
+    "id": "tenshiko",
+    "name": "天賜香",
+    "reading": "てんしこう"
+  },
+  {
+    "id": "toukaizakura",
+    "name": "東海桜",
+    "reading": "とうかいざくら"
+  },
+  {
+    "id": "tokyo-zakura",
+    "name": "東京桜",
+    "reading": "とうきょうざくら"
+  },
+  {
+    "id": "togen",
+    "name": "桃源",
+    "reading": "とうげん"
+  },
+  {
+    "id": "naito-ohshima",
+    "name": "内藤大島",
+    "reading": "ないとうおおしま"
+  },
+  {
+    "id": "najimazakura",
+    "name": "名島桜",
+    "reading": "なじまざくら"
+  },
+  {
+    "id": "narano-yaezakura",
+    "name": "奈良の八重桜",
+    "reading": "ならのやえざくら",
+    "aliases": [
+      "奈良八重桜"
+    ]
+  },
+  {
+    "id": "nioizakura",
+    "name": "匂桜",
+    "reading": "においざくら"
+  },
+  {
+    "id": "nikko-zakura",
+    "name": "日光桜",
+    "reading": "にっこうざくら"
+  },
+  {
+    "id": "nidozakura",
+    "name": "二度桜",
+    "reading": "にどざくら"
+  },
+  {
+    "id": "nodano-osakura",
+    "name": "野田の大桜",
+    "reading": "のだのおおざくら"
+  },
+  {
+    "id": "hakusan-hatazakura",
+    "name": "白山旗桜",
+    "reading": "はくさんはたざくら"
+  },
+  {
+    "id": "hatagasane-ohshima",
+    "name": "旗重大島",
+    "reading": "はたがさねおおしま"
+  },
+  {
+    "id": "hachisuka-zakura",
+    "name": "蜂須賀桜",
+    "reading": "はちすかざくら"
+  },
+  {
+    "id": "hatsumiyozakura",
+    "name": "初御代桜",
+    "reading": "はつみよざくら"
+  },
+  {
+    "id": "hanakagami",
+    "name": "華加賀美",
+    "reading": "はなかがみ",
+    "aliases": [
+      "花鏡"
+    ]
+  },
+  {
+    "id": "hanagasa",
+    "name": "花笠",
+    "reading": "はながさ"
+  },
+  {
+    "id": "hanagatami-zakura",
+    "name": "花筺桜",
+    "reading": "はなかたみざくら"
+  },
+  {
+    "id": "hamaoka-hamazaki",
+    "name": "浜岡早咲（仮称）",
+    "reading": "はまおかはやざき（かしょう）"
+  },
+  {
+    "id": "hayazaki-yae-ohshima",
+    "name": "早咲八重大島",
+    "reading": "はやざきやえおおしま"
+  },
+  {
+    "id": "baigoji-juzukakezakura",
+    "name": "梅護寺数珠掛桜",
+    "reading": "ばいごじじゅずかけざくら",
+    "aliases": [
+      "数珠掛桜",
+      "梅護寺数珠掛桜・数珠掛桜"
+    ]
+  },
+  {
+    "id": "banrikou",
+    "name": "萬里香",
+    "reading": "ばんりこう"
+  },
+  {
+    "id": "hiuchidani-kikuzakura",
+    "name": "火打谷菊桜",
+    "reading": "ひうちだにきくざくら"
+  },
+  {
+    "id": "higurashi",
+    "name": "日暮",
+    "reading": "ひぐらし"
+  },
+  {
+    "id": "hitachi-miyabi",
+    "name": "常陸乙女",
+    "reading": "ひたちおとめ"
+  },
+  {
+    "id": "hinagikuzakura",
+    "name": "雛菊桜（菊枝垂の別種）",
+    "reading": "ひなぎくざくら"
+  },
+  {
+    "id": "himenosawa",
+    "name": "姫の沢",
+    "reading": "ひめのさわ"
+  },
+  {
+    "id": "hiyoshizakura",
+    "name": "日吉桜",
+    "reading": "ひよしざくら"
+  },
+  {
+    "id": "hirosaki-sandanzaki",
+    "name": "弘前三段咲",
+    "reading": "ひろさきさんだんざき"
+  },
+  {
+    "id": "pink-wave",
+    "name": "ピンク ウェーブ",
+    "reading": "ぴんくうぇーぶ"
+  },
+  {
+    "id": "pink-cloud",
+    "name": "ピンク クラウド",
+    "reading": "ぴんくくらうど"
+  },
+  {
+    "id": "pink-perfection",
+    "name": "ピンク パーフェクション",
+    "reading": "ぴんくぱーふぇくしょん",
+    "aliases": [
+      "ピンクパーフェクション"
+    ]
+  },
+  {
+    "id": "first-lady",
+    "name": "ファースト レディー",
+    "reading": "ふぁーすとれでぃー"
+  },
+  {
+    "id": "fuiri-zakura-b",
+    "name": "斑入桜（B）",
+    "reading": "ふいりざくら（びー）"
+  },
+  {
+    "id": "fukuzaura",
+    "name": "福寿桜",
+    "reading": "ふくじゅざくら"
+  },
+  {
+    "id": "fukurokujyu",
+    "name": "福禄寿",
+    "reading": "ふくろくじゅ"
+  },
+  {
+    "id": "fugenzou",
+    "name": "普賢象",
+    "reading": "ふげんぞう"
+  },
+  {
+    "id": "fusa-zakura",
+    "name": "房桜",
+    "reading": "ふさざくら",
+    "aliases": [
+      "総桜"
+    ]
+  },
+  {
+    "id": "futakami-zakura",
+    "name": "二上山",
+    "reading": "ふたかみざくら",
+    "aliases": [
+      "二上桜"
+    ]
+  },
+  {
+    "id": "funadu-13go",
+    "name": "船津13号",
+    "reading": "ふなつじゅうさんごう"
+  },
+  {
+    "id": "funadu-3go",
+    "name": "船津3号",
+    "reading": "ふなつさんごう"
+  },
+  {
+    "id": "funabara-yoshino",
+    "name": "船原吉野",
+    "reading": "ふなばらよしの"
+  },
+  {
+    "id": "fuyu-zakura",
+    "name": "冬桜",
+    "reading": "ふゆざくら"
+  },
+  {
+    "id": "furusatozakura-isyu",
+    "name": "古里桜異種",
+    "reading": "ふるさとざくらいしゅ"
+  },
+  {
+    "id": "heishichi-zakura",
+    "name": "平七桜",
+    "reading": "へいしちざくら"
+  },
+  {
+    "id": "benigasa",
+    "name": "紅傘",
+    "reading": "べにがさ"
+  },
+  {
+    "id": "beni-shigure",
+    "name": "紅時雨",
+    "reading": "べにしぐれ"
+  },
+  {
+    "id": "beni-shidare",
+    "name": "紅枝垂",
+    "reading": "べにしだれ"
+  },
+  {
+    "id": "beni-tamanishiki",
+    "name": "紅玉錦",
+    "reading": "べにたまにしき"
+  },
+  {
+    "id": "beni-chochin",
+    "name": "紅提灯",
+    "reading": "べにちょうちん"
+  },
+  {
+    "id": "benizuruzakura",
+    "name": "紅鶴桜",
+    "reading": "べにづるざくら"
+  },
+  {
+    "id": "beni-demari",
+    "name": "紅手毬",
+    "reading": "べにでまり"
+  },
+  {
+    "id": "beniyutaka",
+    "name": "紅豊",
+    "reading": "べにゆたか"
+  },
+  {
+    "id": "bendono",
+    "name": "弁殿",
+    "reading": "べんどの"
+  },
+  {
+    "id": "hoki-zakura",
+    "name": "伯耆桜",
+    "reading": "ほうきざくら",
+    "aliases": [
+      "箒桜"
+    ]
+  },
+  {
+    "id": "hozaki-higan-yaezakura",
+    "name": "穂咲彼岸八重桜",
+    "reading": "ほざきひがんやえざくら"
+  },
+  {
+    "id": "hosokawa-nioi",
+    "name": "細川匂",
+    "reading": "ほそかわにおい"
+  },
+  {
+    "id": "white-fastigiata",
+    "name": "ホワイトファスティギアータ",
+    "reading": "ほわいとふぁすてぃぎあーた"
+  },
+  {
+    "id": "botan",
+    "name": "牡丹",
+    "reading": "ぼたん"
+  },
+  {
+    "id": "pond-c",
+    "name": "ポンドC",
+    "reading": "ぽんどしー"
+  },
+  {
+    "id": "maihime",
+    "name": "舞姫",
+    "reading": "まいひめ"
+  },
+  {
+    "id": "mazakura",
+    "name": "磨桜",
+    "reading": "まざくら"
+  },
+  {
+    "id": "matsumae",
+    "name": "松前",
+    "reading": "まつまえ"
+  },
+  {
+    "id": "matsumae-aizen",
+    "name": "松前愛染",
+    "reading": "まつまえあいぜん",
+    "aliases": [
+      "松前相生"
+    ]
+  },
+  {
+    "id": "matsumae-usugasanesomei",
+    "name": "松前薄重染井",
+    "reading": "まつまえうすがさねそめい"
+  },
+  {
+    "id": "matsumae-usbenikokonoe",
+    "name": "松前薄紅小重",
+    "reading": "まつまえうすべにこごえ"
+  },
+  {
+    "id": "matsumae-kazanin",
+    "name": "松前花山院",
+    "reading": "まつまえかざんいん",
+    "aliases": [
+      "松前花染院"
+    ]
+  },
+  {
+    "id": "matsumae-shiraginu",
+    "name": "松前白絹",
+    "reading": "まつまえしらぎぬ"
+  },
+  {
+    "id": "matsumae-hanamiyako",
+    "name": "松前花都",
+    "reading": "まつまえはなみやこ",
+    "aliases": [
+      "花都"
+    ]
+  },
+  {
+    "id": "matsumae-hayazaki",
+    "name": "松前早咲",
+    "reading": "まつまえはやざき"
+  },
+  {
+    "id": "matsumae-fukujuzakura",
+    "name": "松前福寿桜",
+    "reading": "まつまえふくじゅざくら"
+  },
+  {
+    "id": "matsumae-benihigoromo",
+    "name": "松前紅緋衣",
+    "reading": "まつまえべにひごろも"
+  },
+  {
+    "id": "matsumae-benimurasaki",
+    "name": "松前紅紫",
+    "reading": "まつまえべにむらさき"
+  },
+  {
+    "id": "matsumae-yaekotobuki",
+    "name": "松前八重寿",
+    "reading": "まつまえやえことぶき"
+  },
+  {
+    "id": "manaduruzakura",
+    "name": "愛鶴桜",
+    "reading": "まなづるざくら"
+  },
+  {
+    "id": "manoga",
+    "name": "マノガ",
+    "reading": "まのが"
+  },
+  {
+    "id": "mamezakura",
+    "name": "マメザクラ",
+    "reading": "まめざくら"
+  },
+  {
+    "id": "mikado-yoshino",
+    "name": "御帝吉野",
+    "reading": "みかどよしの",
+    "aliases": [
+      "帝吉野"
+    ]
+  },
+  {
+    "id": "mikurumagaeshi",
+    "name": "御車返し",
+    "reading": "みくるまがえし",
+    "aliases": [
+      "桐ケ谷"
+    ]
+  },
+  {
+    "id": "mishima-fujizakura",
+    "name": "三島藤桜",
+    "reading": "みしまふじざくら"
+  },
+  {
+    "id": "mitsukabizakura",
+    "name": "三鍬桜",
+    "reading": "みつかびざくら"
+  },
+  {
+    "id": "midorizakura",
+    "name": "緑桜",
+    "reading": "みどりざくら",
+    "aliases": [
+      "緑萼桜",
+      "緑豆桜"
+    ]
+  },
+  {
+    "id": "minakami-taihaku",
+    "name": "水上太白",
+    "reading": "みなかみたいはく"
+  },
+  {
+    "id": "minobu-zakura",
+    "name": "身延桜",
+    "reading": "みのぶざくら",
+    "aliases": [
+      "山豆桜"
+    ]
+  },
+  {
+    "id": "miyabi",
+    "name": "雅（プリンセス）",
+    "reading": "みやび（ぷりんせす）"
+  },
+  {
+    "id": "murasakizakura",
+    "name": "紫桜",
+    "reading": "むらさきざくら"
+  },
+  {
+    "id": "meigetsu",
+    "name": "明月",
+    "reading": "めいげつ"
+  },
+  {
+    "id": "mochizukizakura",
+    "name": "望月桜",
+    "reading": "もちづきざくら"
+  },
+  {
+    "id": "morioka-shidare",
+    "name": "盛岡しだれ",
+    "reading": "もりおかしだれ",
+    "aliases": [
+      "盛岡枝垂"
+    ]
+  },
+  {
+    "id": "yaeakebono",
+    "name": "八重曙",
+    "reading": "やえあけぼの"
+  },
+  {
+    "id": "yaekanhizakura",
+    "name": "八重寒緋桜",
+    "reading": "やえかんひざくら"
+  },
+  {
+    "id": "yaeno-ohshima",
+    "name": "八重の大島",
+    "reading": "やえのおおしま"
+  },
+  {
+    "id": "yaenomamezakura",
+    "name": "八重の豆桜",
+    "reading": "やえのまめざくら"
+  },
+  {
+    "id": "yaebeni-ohshima",
+    "name": "八重紅大島",
+    "reading": "やえべにおおしま"
+  },
+  {
+    "id": "yaebenishidare-sanokei",
+    "name": "八重紅枝垂(佐野系）",
+    "reading": "やえべにしだれ（さのけい）",
+    "aliases": [
+      "八重紅枝垂"
+    ]
+  },
+  {
+    "id": "yaebeni-toranoo",
+    "name": "八重紅虎の尾",
+    "reading": "やえべにとらのお"
+  },
+  {
+    "id": "yaebeni-higan",
+    "name": "八重紅彼岸",
+    "reading": "やえべにひがん"
+  },
+  {
+    "id": "yaemiyamazakura",
+    "name": "八重深山桜",
+    "reading": "やえみやまざくら"
+  },
+  {
+    "id": "yaemurasakizakura-koshimizukei",
+    "name": "八重紫桜（小清水系）",
+    "reading": "やえむらさきざくら（こしみずけい）",
+    "aliases": [
+      "八重紫桜（富山林試系）"
+    ]
+  },
+  {
+    "id": "yakuoji-yae",
+    "name": "薬王寺八重",
+    "reading": "やくおうじやえ"
+  },
+  {
+    "id": "yatsubusazakura",
+    "name": "八房桜",
+    "reading": "やつぶさざくら"
+  },
+  {
+    "id": "yamazakura",
+    "name": "ヤマザクラ",
+    "reading": "やまざくら"
+  },
+  {
+    "id": "yumehagizakura",
+    "name": "夢萩桜",
+    "reading": "ゆめはぎざくら"
+  },
+  {
+    "id": "youkihi",
+    "name": "楊貴妃",
+    "reading": "ようきひ",
+    "aliases": [
+      "楊貴妃（江戸系）"
+    ]
+  },
+  {
+    "id": "yoko",
+    "name": "陽光",
+    "reading": "ようこう"
+  },
+  {
+    "id": "yousyun",
+    "name": "陽春",
+    "reading": "ようしゅん"
+  },
+  {
+    "id": "yoro-zakura",
+    "name": "養老桜",
+    "reading": "ようろうざくら"
+  },
+  {
+    "id": "yokohamahizakura",
+    "name": "横浜緋桜",
+    "reading": "よこはまひざくら"
+  },
+  {
+    "id": "yokowazakura",
+    "name": "横輪桜",
+    "reading": "よこわざくら"
+  },
+  {
+    "id": "yonono-yaezakura",
+    "name": "予野の八重桜",
+    "reading": "よののやえざくら"
+  },
+  {
+    "id": "raikoji-kikuzakura",
+    "name": "来迎寺菊桜",
+    "reading": "らいこうじきくざくら"
+  },
+  {
+    "id": "ranran",
+    "name": "蘭蘭",
+    "reading": "らんらん"
+  },
+  {
+    "id": "ryuunin-beniyaezakura",
+    "name": "龍雲院紅八重桜",
+    "reading": "りゅううんいんべにやえざくら"
+  },
+  {
+    "id": "royal-burgundy",
+    "name": "ロイヤルバーガンディ",
+    "reading": "ろいやるばーがんでぃ"
+  },
+  {
+    "id": "wakakinosakura",
+    "name": "稚木の桜",
+    "reading": "わかきのさくら"
+  },
+  {
+    "id": "washinoo",
+    "name": "鷲の尾",
+    "reading": "わしのお"
+  },
+  {
+    "id": "watanabezakura",
+    "name": "渡辺桜",
+    "reading": "わたなべざくら"
+  },
+  {
+    "id": "wadai",
+    "name": "ワダイ",
+    "reading": "わだい"
+  },
+  {
+    "id": "wabihito",
+    "name": "ワビヒト",
+    "reading": "わびひと"
+  },
+  {
+    "id": "aoba",
+    "name": "青葉",
+    "reading": "あおば"
+  },
+  {
+    "id": "akatsukizakura",
+    "name": "暁桜",
+    "reading": "あかつきざくら"
+  },
+  {
+    "id": "akatsunaden",
+    "name": "暁撫弦",
+    "reading": "あかつきなでん"
+  },
+  {
+    "id": "akaneyae",
+    "name": "茜八重",
+    "reading": "あかねやえ"
+  },
+  {
+    "id": "asagirizakura",
+    "name": "朝霧桜",
+    "reading": "あさぎりざくら"
+  },
+  {
+    "id": "akihimezakura",
+    "name": "秋姫桜",
+    "reading": "あきひめざくら"
+  },
+  {
+    "id": "akebonozakura",
+    "name": "曙桜",
+    "reading": "あけぼのざくら"
+  },
+  {
+    "id": "asatsuyuzakura",
+    "name": "朝露桜",
+    "reading": "あさつゆざくら"
+  },
+  {
+    "id": "asami",
+    "name": "浅見",
+    "reading": "あさみ"
+  },
+  {
+    "id": "ashigarazakura",
+    "name": "春めき",
+    "reading": "あしがらざくら",
+    "aliases": [
+      "足柄桜"
+    ]
+  },
+  {
+    "id": "gekko",
+    "name": "月光",
+    "reading": "あしずりざくら",
+    "aliases": [
+      "足摺桜",
+      "月光桜",
+      "西幡多桜"
+    ]
+  },
+  {
+    "id": "azumahigan",
+    "name": "東彼岸",
+    "reading": "あずまひがん"
+  },
+  {
+    "id": "amedamazakura",
+    "name": "雨玉桜",
+    "reading": "あめだまざくら",
+    "aliases": [
+      "飴玉桜"
+    ]
+  },
+  {
+    "id": "ayanishiki",
+    "name": "綾錦",
+    "reading": "あやにしき"
+  },
+  {
+    "id": "izayoizakura",
+    "name": "十六夜桜",
+    "reading": "いざよいざくら"
+  },
+  {
+    "id": "ishizuchizakura",
+    "name": "石鎚桜",
+    "reading": "いしづちざくら"
+  },
+  {
+    "id": "izuzakura",
+    "name": "伊豆桜",
+    "reading": "いずざくら"
+  },
+  {
+    "id": "izutoizakura",
+    "name": "伊豆戸居桜",
+    "reading": "いずといざくら"
+  },
+  {
+    "id": "itoukomorozakura",
+    "name": "伊藤小室桜",
+    "reading": "いとうこむろざくら"
+  },
+  {
+    "id": "itozakura",
+    "name": "糸桜",
+    "reading": "いとざくら"
+  },
+  {
+    "id": "ibozakura",
+    "name": "疣桜",
+    "reading": "いぼざくら"
+  },
+  {
+    "id": "imaiichikizakura",
+    "name": "今井一木桜",
+    "reading": "いまいいちきざくら"
+  },
+  {
+    "id": "imazubenikunzakura",
+    "name": "今津紅寒桜",
+    "reading": "いまづべにかんざくら"
+  },
+  {
+    "id": "iyokumagai",
+    "name": "伊予熊谷",
+    "reading": "いよくまがい"
+  },
+  {
+    "id": "iriaizakura",
+    "name": "入会桜",
+    "reading": "いりあいざくら"
+  },
+  {
+    "id": "usuirokanzakura",
+    "name": "薄色寒桜",
+    "reading": "うすいろかんざくら"
+  },
+  {
+    "id": "usugeyamazakura",
+    "name": "薄毛山桜",
+    "reading": "うすげやまざくら"
+  },
+  {
+    "id": "usuzan",
+    "name": "薄山",
+    "reading": "うすざん"
+  },
+  {
+    "id": "usubenikunzakura",
+    "name": "薄紅寒桜",
+    "reading": "うすべにかんざくら"
+  },
+  {
+    "id": "ubahigan",
+    "name": "ウバヒガン",
+    "reading": "うばひがん"
+  },
+  {
+    "id": "umaji",
+    "name": "ウマジ",
+    "reading": "うまじ"
+  },
+  {
+    "id": "urawa",
+    "name": "ウラワ",
+    "reading": "うらわ"
+  },
+  {
+    "id": "unnanzakura",
+    "name": "ウンナンザクラ",
+    "reading": "うんなんざくら"
+  },
+  {
+    "id": "eishu-zakura",
+    "name": "エイシュウザクラ",
+    "reading": "えいしゅうざくら"
+  },
+  {
+    "id": "ezonogasumizakura",
+    "name": "エゾノガスミザクラ",
+    "reading": "えぞのがすみざくら"
+  },
+  {
+    "id": "ezozakura",
+    "name": "エゾザクラ",
+    "reading": "えぞざくら"
+  },
+  {
+    "id": "ezoyamazakura",
+    "name": "エゾヤマザクラ",
+    "reading": "えぞやまざくら"
+  },
+  {
+    "id": "edohigan-yae",
+    "name": "エドヒガンヤエ",
+    "reading": "えどひがんやえ"
+  },
+  {
+    "id": "etorofuzakura",
+    "name": "エトロフザクラ",
+    "reading": "えとろふざくら"
+  },
+  {
+    "id": "eboshizakura",
+    "name": "エボシザクラ",
+    "reading": "えぼしざくら"
+  },
+  {
+    "id": "endozakura",
+    "name": "エンドウザクラ",
+    "reading": "えんどうざくら"
+  },
+  {
+    "id": "ouchiyama",
+    "name": "オオウチヤマ",
+    "reading": "おおうちやま"
+  },
+  {
+    "id": "oookuchoji-zakura",
+    "name": "オオオクチョウジザクラ",
+    "reading": "おおおくちょうじざくら"
+  },
+  {
+    "id": "ookamezakura",
+    "name": "オオカメザクラ",
+    "reading": "おおかめざくら"
+  },
+  {
+    "id": "osaka-fuyuzakura",
+    "name": "オオサカフユザクラ",
+    "reading": "おおさかふゆざくら"
+  },
+  {
+    "id": "oshogun",
+    "name": "オオショウクン",
+    "reading": "おおしょうくん"
+  },
+  {
+    "id": "osomei",
+    "name": "オオソメイ",
+    "reading": "おおそめい"
+  },
+  {
+    "id": "oodemari",
+    "name": "オオデマリ",
+    "reading": "おおでまり"
+  },
+  {
+    "id": "oobanamame-zakura",
+    "name": "オオバナマメザクラ",
+    "reading": "おおばなまめざくら"
+  },
+  {
+    "id": "ooyamazakura",
+    "name": "オオヤマザクラ",
+    "reading": "おおやまざくら"
+  },
+  {
+    "id": "okamoto-zakura",
+    "name": "オカモトザクラ",
+    "reading": "おかもとざくら"
+  },
+  {
+    "id": "okinazakura",
+    "name": "オキナザクラ",
+    "reading": "おきなざくら"
+  },
+  {
+    "id": "okumiyako",
+    "name": "オクミヤコ",
+    "reading": "おくみやこ"
+  },
+  {
+    "id": "oguraya-mazakura",
+    "name": "オグラヤマザクラ",
+    "reading": "おぐらやまざくら"
+  },
+  {
+    "id": "okesa",
+    "name": "オケサ",
+    "reading": "おけさ"
+  },
+  {
+    "id": "osozaki-oshima",
+    "name": "オソザキオオシマ",
+    "reading": "おそざきおおしま"
+  },
+  {
+    "id": "otani-yae",
+    "name": "オタニヤエ",
+    "reading": "おたにやえ"
+  },
+  {
+    "id": "otomegasumi",
+    "name": "オトメガスミ",
+    "reading": "おとめがすみ"
+  },
+  {
+    "id": "obizakura",
+    "name": "オビザクラ",
+    "reading": "おびざくら"
+  },
+  {
+    "id": "ontake-mamezakura",
+    "name": "オンタケマメザクラ",
+    "reading": "おんたけまめざくら"
+  },
+  {
+    "id": "gakunanzakura",
+    "name": "ガクナンザクラ",
+    "reading": "がくなんざくら"
+  },
+  {
+    "id": "kasazakura",
+    "name": "笠桜",
+    "reading": "かさざくら"
+  },
+  {
+    "id": "kasugai",
+    "name": "春日井",
+    "reading": "かすがい"
+  },
+  {
+    "id": "kasumiezoyamazakura",
+    "name": "霞蝦夷山桜",
+    "reading": "かすみえぞやまざくら"
+  },
+  {
+    "id": "kasumiooyamazakura",
+    "name": "霞大山桜",
+    "reading": "かすみおおやまざくら"
+  },
+  {
+    "id": "kamakazezakura",
+    "name": "鎌掛桜",
+    "reading": "かまかけざくら"
+  },
+  {
+    "id": "kamonokebono",
+    "name": "加茂の曙",
+    "reading": "かものあけぼの"
+  },
+  {
+    "id": "karamizakura",
+    "name": "唐実桜",
+    "reading": "からみざくら"
+  },
+  {
+    "id": "kariginu",
+    "name": "狩衣",
+    "reading": "かりぎぬ"
+  },
+  {
+    "id": "kawadzushogatu",
+    "name": "河津正月",
+    "reading": "かわづしょうがつ"
+  },
+  {
+    "id": "kawanishizakura",
+    "name": "川西桜",
+    "reading": "かわにしざくら"
+  },
+  {
+    "id": "kankaoto",
+    "name": "寒花桜桃",
+    "reading": "かんかおうとう"
+  },
+  {
+    "id": "kankan",
+    "name": "寒寒",
+    "reading": "かんかん"
+  },
+  {
+    "id": "kanzakura",
+    "name": "寒桜",
+    "reading": "かんざくら"
+  },
+  {
+    "id": "kanjitsuzakura",
+    "name": "寒実桜",
+    "reading": "かんじつざくら"
+  },
+  {
+    "id": "kikuzakichoujizakura",
+    "name": "菊咲丁子桜",
+    "reading": "きくざきちょうじざくら"
+  },
+  {
+    "id": "kikuzakura",
+    "name": "菊桜",
+    "reading": "きくざくら",
+    "aliases": []
+  },
+  {
+    "id": "kitanozakura",
+    "name": "北の桜",
+    "reading": "きたのざくら"
+  },
+  {
+    "id": "kichijoji",
+    "name": "吉祥寺",
+    "reading": "きちじょうじ"
+  },
+  {
+    "id": "kinashichigozakura",
+    "name": "鬼無稚児桜",
+    "reading": "きなしちござくら",
+    "aliases": [
+      "木梨稚児桜"
+    ]
+  },
+  {
+    "id": "kibizakura",
+    "name": "吉備桜",
+    "reading": "きびざくら",
+    "aliases": [
+      "高梁霞桜"
+    ]
+  },
+  {
+    "id": "kiyosumishidare",
+    "name": "清澄枝垂",
+    "reading": "きよすみしだれ",
+    "aliases": [
+      "枝垂小葉桜"
+    ]
+  },
+  {
+    "id": "kirigaya",
+    "name": "桐ヶ谷",
+    "reading": "きりがや"
+  },
+  {
+    "id": "kiritachiyamazakura",
+    "name": "切立山桜",
+    "reading": "きりたちやまざくら"
+  },
+  {
+    "id": "kujootome",
+    "name": "九条乙女",
+    "reading": "くじょうおとめ"
+  },
+  {
+    "id": "kumenosakura",
+    "name": "久米の桜",
+    "reading": "くめのさくら"
+  },
+  {
+    "id": "kumoizakura",
+    "name": "雲居桜",
+    "reading": "くもいざくら"
+  },
+  {
+    "id": "kumogabata",
+    "name": "雲ヶ畑",
+    "reading": "くもがばた",
+    "aliases": [
+      "雲ケ畑"
+    ]
+  },
+  {
+    "id": "kumonoe",
+    "name": "雲の上",
+    "reading": "くものえ"
+  },
+  {
+    "id": "kuramakauzan",
+    "name": "鞍馬寒山",
+    "reading": "くらまかんざん"
+  },
+  {
+    "id": "kuramanibana",
+    "name": "鞍馬二花",
+    "reading": "くらまにばな"
+  },
+  {
+    "id": "キヌガサ",
+    "name": "衣笠",
+    "reading": "きぬがさ"
+  },
+  {
+    "id": "キリタチヤマザクラ",
+    "name": "霧立山桜",
+    "reading": "きりたちやまざくら"
+  },
+  {
+    "id": "クモノエ",
+    "name": "雲の井",
+    "reading": "くものえ"
+  },
+  {
+    "id": "クラマカンザン",
+    "name": "鞍馬関山",
+    "reading": "くらまかんざん",
+    "aliases": [
+      "鞍馬本社"
+    ]
+  },
+  {
+    "id": "クラマニバナ",
+    "name": "鞍馬似花",
+    "reading": "くらまにばな"
+  },
+  {
+    "id": "クルマドメ",
+    "name": "車駐",
+    "reading": "くるまどめ"
+  },
+  {
+    "id": "クロダヒャクネン",
+    "name": "黒田百年",
+    "reading": "くろだひゃくねん"
+  },
+  {
+    "id": "クワジマザクラ",
+    "name": "桑島桜",
+    "reading": "くわじまざくら"
+  },
+  {
+    "id": "ゲバザクラ",
+    "name": "下馬桜",
+    "reading": "げばざくら"
+  },
+  {
+    "id": "ケヤマザクラ",
+    "name": "霞桜",
+    "reading": "けやまざくら",
+    "aliases": [
+      "毛山桜"
+    ]
+  },
+  {
+    "id": "ケンロクエンシキザクラ",
+    "name": "兼六園冬桜",
+    "reading": "けんろくえんしきざくら",
+    "aliases": [
+      "兼六園四季桜"
+    ]
+  },
+  {
+    "id": "コウゼンジシロヤエザクラ",
+    "name": "光善寺白八重桜",
+    "reading": "こうぜんじしろやえざくら"
+  },
+  {
+    "id": "コウダイジ",
+    "name": "高台寺",
+    "reading": "こうだいじ"
+  },
+  {
+    "id": "コウヨウ",
+    "name": "松前紅陽",
+    "reading": "こうよう",
+    "aliases": [
+      "紅陽"
+    ]
+  },
+  {
+    "id": "コウラン",
+    "name": "紅蘭",
+    "reading": "こうらん"
+  },
+  {
+    "id": "コウリン",
+    "name": "松前香輪",
+    "reading": "こうりん",
+    "aliases": [
+      "香輪"
+    ]
+  },
+  {
+    "id": "コガネイウスベニザクラ",
+    "name": "小金井薄紅桜",
+    "reading": "こがねいうすべにざくら"
+  },
+  {
+    "id": "コシノフクカサネ",
+    "name": "越の福かさね",
+    "reading": "こしのふくかさね",
+    "aliases": [
+      "越の福重"
+    ]
+  },
+  {
+    "id": "コシミズハヤザキ",
+    "name": "越水早咲き",
+    "reading": "こしみずはやざき",
+    "aliases": [
+      "満池谷桜"
+    ]
+  },
+  {
+    "id": "ゴショサコンノサクラ",
+    "name": "御所左近の桜",
+    "reading": "ごしょさこんのさくら"
+  },
+  {
+    "id": "ゴショミクルマガエシ",
+    "name": "御所御車返し",
+    "reading": "ごしょみくるまがえし"
+  },
+  {
+    "id": "satsuma-zakura",
+    "name": "薩摩桜",
+    "reading": "さつまざくら"
+  },
+  {
+    "id": "satsuma-hizakura",
+    "name": "薩摩緋桜",
+    "reading": "さつまひざくら"
+  },
+  {
+    "id": "sanoki-kuzakura",
+    "name": "佐野菊桜",
+    "reading": "さのきくざくら"
+  },
+  {
+    "id": "sanzenki-zakura",
+    "name": "三千木桜",
+    "reading": "さんぜんきざくら"
+  },
+  {
+    "id": "shiokaze-zakura",
+    "name": "潮風桜",
+    "reading": "しおかぜざくら"
+  },
+  {
+    "id": "shiogama",
+    "name": "塩竈",
+    "reading": "しおがま",
+    "aliases": [
+      "塩竈桜"
+    ]
+  },
+  {
+    "id": "shionobori",
+    "name": "塩昇",
+    "reading": "しおのぼり"
+  },
+  {
+    "id": "shikoku-mamezakura",
+    "name": "四国豆桜",
+    "reading": "しこくまめざくら"
+  },
+  {
+    "id": "shishinden",
+    "name": "紫宸殿",
+    "reading": "ししんでん"
+  },
+  {
+    "id": "shidaresomei-yoshino",
+    "name": "枝垂染井吉野",
+    "reading": "しだれそめいよしの"
+  },
+  {
+    "id": "shibuya-konno-uzakura",
+    "name": "渋谷金王桜",
+    "reading": "しぶやこんのうざくら"
+  },
+  {
+    "id": "shimamachi-kiku-zakura",
+    "name": "島町菊桜",
+    "reading": "しままちきくざくら"
+  },
+  {
+    "id": "shimotaga-naden",
+    "name": "下多賀納殿",
+    "reading": "しもたがなでん"
+  },
+  {
+    "id": "shukugawa-maizakura",
+    "name": "夙川舞桜",
+    "reading": "しゅくがわまいざくら",
+    "aliases": [
+      "三日美人"
+    ]
+  },
+  {
+    "id": "shuzenji-zakura",
+    "name": "修禅寺桜",
+    "reading": "しゅぜんじざくら",
+    "aliases": [
+      "修善寺桜"
+    ]
+  },
+  {
+    "id": "juniyae",
+    "name": "十二単",
+    "reading": "じゅうにやえ"
+  },
+  {
+    "id": "jurokunichi-zakura",
+    "name": "十六日桜",
+    "reading": "じゅうろくにちざくら",
+    "aliases": [
+      "孝子桜"
+    ]
+  },
+  {
+    "id": "junai-gasumi",
+    "name": "純愛霞",
+    "reading": "じゅんあいがすみ"
+  },
+  {
+    "id": "jogasaki-zakura",
+    "name": "城ヶ崎桜",
+    "reading": "じょうがさきざくら"
+  },
+  {
+    "id": "jokyoji-temari-zakura",
+    "name": "常鏡寺手鞠桜",
+    "reading": "じょうきょうじてまりざくら"
+  },
+  {
+    "id": "shogatsu-zakura",
+    "name": "正月桜",
+    "reading": "しょうがつざくら"
+  },
+  {
+    "id": "shoki",
+    "name": "鐘馗",
+    "reading": "しょうき"
+  },
+  {
+    "id": "shogetsuj-noozakura",
+    "name": "松月寺の大桜",
+    "reading": "しょうげつじのおおざくら"
+  },
+  {
+    "id": "shoji-kanzashi",
+    "name": "庄司簪",
+    "reading": "しょうじかんざし"
+  },
+  {
+    "id": "shofukuji",
+    "name": "正福寺",
+    "reading": "しょうふくじ"
+  },
+  {
+    "id": "shofukuji-shidare",
+    "name": "正福寺枝垂",
+    "reading": "しょうふくじしだれ",
+    "aliases": [
+      "湯村枝垂",
+      "湯村枝垂桜"
+    ]
+  },
+  {
+    "id": "shohoji-kikuzakura",
+    "name": "正法寺菊桜",
+    "reading": "しょうほうじきくざくら"
+  },
+  {
+    "id": "ジョウキョウジテマリザクラ",
+    "name": "浄教寺手鞠桜",
+    "reading": "じょうきょうじてまりざくら"
+  },
+  {
+    "id": "シラクモ",
+    "name": "白雲",
+    "reading": "しらくも"
+  },
+  {
+    "id": "シラツユ",
+    "name": "白露",
+    "reading": "しらつゆ"
+  },
+  {
+    "id": "シラハマイコナ",
+    "name": "白浜伊古奈",
+    "reading": "しらはまいこな"
+  },
+  {
+    "id": "シロウスガサネ",
+    "name": "白薄重",
+    "reading": "しろうすがさね"
+  },
+  {
+    "id": "シロヒガン",
+    "name": "江戸彼岸",
+    "reading": "しろひがん",
+    "aliases": [
+      "東彼岸",
+      "婆彼岸",
+      "立彼岸",
+      "立桜",
+      "白彼岸",
+      "シロヒガン"
+    ]
+  },
+  {
+    "id": "シロヤマザクラ",
+    "name": "白山桜",
+    "reading": "しろやまざくら",
+    "aliases": [
+      "山桜"
+    ]
+  },
+  {
+    "id": "シンエイザクラ",
+    "name": "信英桜",
+    "reading": "しんえいざくら"
+  },
+  {
+    "id": "シンデン",
+    "name": "心田",
+    "reading": "しんでん"
+  },
+  {
+    "id": "シンニシキ",
+    "name": "新錦",
+    "reading": "しんにしき"
+  },
+  {
+    "id": "スザク",
+    "name": "朱雀",
+    "reading": "すざく"
+  },
+  {
+    "id": "スパイアー",
+    "name": "スパイアー",
+    "reading": "すぱいあー"
+  },
+  {
+    "id": "スミゾメ",
+    "name": "墨染",
+    "reading": "すみぞめ"
+  },
+  {
+    "id": "takamorikojo",
+    "name": "高森古城",
+    "reading": "たかもりこじょう"
+  },
+  {
+    "id": "takiko",
+    "name": "滝香",
+    "reading": "たきこう"
+  },
+  {
+    "id": "takinioi",
+    "name": "滝匂",
+    "reading": "たきにおい",
+    "aliases": [
+      "瀧匂"
+    ]
+  },
+  {
+    "id": "takeshima",
+    "name": "竹島",
+    "reading": "たけしま"
+  },
+  {
+    "id": "tachihigan",
+    "name": "立彼岸",
+    "reading": "たちひがん"
+  },
+  {
+    "id": "tatsuzakura",
+    "name": "立桜",
+    "reading": "たつざくら"
+  },
+  {
+    "id": "tamagaki",
+    "name": "松前玉垣",
+    "reading": "まつまえたまがき"
+  },
+  {
+    "id": "tamanawa-zakura",
+    "name": "玉縄桜",
+    "reading": "たまなわざくら"
+  },
+  {
+    "id": "tamanohoshi-zakura",
+    "name": "玉の星桜",
+    "reading": "たまのほしざくら"
+  },
+  {
+    "id": "dainagon-kikuzakura",
+    "name": "大納言菊桜",
+    "reading": "だいなごんきくざくら"
+  },
+  {
+    "id": "daimin",
+    "name": "大明",
+    "reading": "だいみん"
+  },
+  {
+    "id": "dairino-sakura",
+    "name": "内裏の桜",
+    "reading": "だいりのさくら"
+  },
+  {
+    "id": "danchi-oto",
+    "name": "檀智桜桃",
+    "reading": "だんちおうとう"
+  },
+  {
+    "id": "chishima-zakura",
+    "name": "千島桜",
+    "reading": "ちしまざくら"
+  },
+  {
+    "id": "chichibu-benishidare",
+    "name": "秩父紅枝垂",
+    "reading": "ちちぶべにしだれ"
+  },
+  {
+    "id": "chuzenji-zakura",
+    "name": "中禅寺桜",
+    "reading": "ちゅうぜんじざくら"
+  },
+  {
+    "id": "choshoin-hatazakura",
+    "name": "長勝院旗桜",
+    "reading": "ちょうしょういんはたざくら"
+  },
+  {
+    "id": "choryo",
+    "name": "長良",
+    "reading": "ちょうりょう"
+  },
+  {
+    "id": "tsukihashi-kikuzakura",
+    "name": "月橋菊桜",
+    "reading": "つきはしきくざくら"
+  },
+  {
+    "id": "tsukushi-yamazakura",
+    "name": "筑紫山桜",
+    "reading": "つくしやまざくら"
+  },
+  {
+    "id": "tegara-zakura",
+    "name": "手柄桜",
+    "reading": "てがらざくら",
+    "aliases": [
+      "二重霞桜"
+    ]
+  },
+  {
+    "id": "tennin-fuji",
+    "name": "天人藤",
+    "reading": "てんにんふじ"
+  },
+  {
+    "id": "torano-o",
+    "name": "虎の尾",
+    "reading": "とらのお"
+  },
+  {
+    "id": "dobakanza",
+    "name": "道場勘山",
+    "reading": "どうばかんざん"
+  },
+  {
+    "id": "nagae-yae",
+    "name": "長枝八重",
+    "reading": "ながえやえ"
+  },
+  {
+    "id": "nagasaki-zakura",
+    "name": "長崎桜",
+    "reading": "ながさきざくら"
+  },
+  {
+    "id": "nadeshiko-zakura",
+    "name": "撫子桜",
+    "reading": "なでしこざくら",
+    "aliases": [
+      "平野撫子"
+    ]
+  },
+  {
+    "id": "nanamori-zakura",
+    "name": "七曲桜",
+    "reading": "ななもりざくら"
+  },
+  {
+    "id": "naniwa-zakura",
+    "name": "難波桜",
+    "reading": "なにわざくら",
+    "aliases": [
+      "浪速桜"
+    ]
+  },
+  {
+    "id": "チョウリョウ",
+    "name": "潮陵",
+    "reading": "ちょうりょう"
+  },
+  {
+    "id": "ツキハシキクザクラ",
+    "name": "槻橋菊桜",
+    "reading": "つきはしきくざくら"
+  },
+  {
+    "id": "ツクバネ",
+    "name": "突羽根",
+    "reading": "つくばね",
+    "aliases": [
+      "平野突羽根"
+    ]
+  },
+  {
+    "id": "ツルギオリトキクザクラ",
+    "name": "剱折戸菊桜",
+    "reading": "つるぎおりときくざくら",
+    "aliases": [
+      "剣折時菊桜"
+    ]
+  },
+  {
+    "id": "テンニンフジ",
+    "name": "天人富士",
+    "reading": "てんにんふじ"
+  },
+  {
+    "id": "トウインヤエヤマザクラ",
+    "name": "東員八重山桜",
+    "reading": "とういんやえやまざくら",
+    "aliases": [
+      "東院八重山桜"
+    ]
+  },
+  {
+    "id": "ドウバカンザン",
+    "name": "銅葉関山",
+    "reading": "どうばかんざん",
+    "aliases": [
+      "紅葉関山",
+      "ロイヤルバーガンディー"
+    ]
+  },
+  {
+    "id": "ナガエヤエ",
+    "name": "長柄八重",
+    "reading": "ながえやえ"
+  },
+  {
+    "id": "ナガサキザクラ",
+    "name": "長咲桜",
+    "reading": "ながさきざくら"
+  },
+  {
+    "id": "ナナモリザクラ",
+    "name": "七盛桜",
+    "reading": "ななもりざくら"
+  },
+  {
+    "id": "ナルサワザクラ",
+    "name": "鳴沢桜",
+    "reading": "なるさわざくら",
+    "aliases": [
+      "花石桜"
+    ]
+  },
+  {
+    "id": "ナラノココノエザクラ",
+    "name": "奈良の九重桜",
+    "reading": "ならのここのえざくら"
+  },
+  {
+    "id": "ニシナザオウ",
+    "name": "仁科蔵王",
+    "reading": "にしなざおう"
+  },
+  {
+    "id": "ニシナオトメ",
+    "name": "仁科乙女",
+    "reading": "にしなおとめ"
+  },
+  {
+    "id": "ニシナコマチ",
+    "name": "仁科小町",
+    "reading": "にしなこまち"
+  },
+  {
+    "id": "ニシナハルカ",
+    "name": "仁科春果",
+    "reading": "にしなはるか"
+  },
+  {
+    "id": "ニシノミヤゴンゲンタイラザクラ",
+    "name": "西宮権現平桜",
+    "reading": "にしのみやごんげんたいらざくら",
+    "aliases": [
+      "紅白桜"
+    ]
+  },
+  {
+    "id": "ニソンインフケンゾウ",
+    "name": "二尊院普賢象",
+    "reading": "にそんいんふけんぞう"
+  },
+  {
+    "id": "ニュウゼンオトメキクザクラ",
+    "name": "入善乙女キクザクラ",
+    "reading": "にゅうぜんおとめきくざくら"
+  },
+  {
+    "id": "ニョゼザクラ",
+    "name": "如是桜",
+    "reading": "にょぜざくら"
+  },
+  {
+    "id": "ノナカノサクラ",
+    "name": "野中桜",
+    "reading": "のなかのさくら"
+  },
+  {
+    "id": "ノノミヤ",
+    "name": "野々宮",
+    "reading": "ののみや"
+  },
+  {
+    "id": "ハクサン1ゴウ",
+    "name": "白山１号",
+    "reading": "はくさん1ごう"
+  },
+  {
+    "id": "ハクサンオオデマリ",
+    "name": "白山大手毬",
+    "reading": "はくさんおおでまり"
+  },
+  {
+    "id": "ハクチョウ",
+    "name": "白鳥",
+    "reading": "はくちょう"
+  },
+  {
+    "id": "ハクホウザクラ",
+    "name": "白鳳桜",
+    "reading": "はくほうざくら"
+  },
+  {
+    "id": "ハクホウ",
+    "name": "白峰",
+    "reading": "はくほう"
+  },
+  {
+    "id": "ハコダテニオイ",
+    "name": "函館匂",
+    "reading": "はこだてにおい"
+  },
+  {
+    "id": "ハコネザクラ",
+    "name": "豆桜",
+    "reading": "はこねざくら",
+    "aliases": [
+      "富士桜",
+      "婆彼岸",
+      "箱根桜"
+    ]
+  },
+  {
+    "id": "ハシタテキクザクラ",
+    "name": "橋立菊桜",
+    "reading": "はしたてきくざくら"
+  },
+  {
+    "id": "ハセフ",
+    "name": "長谷府",
+    "reading": "はせふ"
+  },
+  {
+    "id": "ハタザクラ",
+    "name": "旗桜",
+    "reading": "はたざくら"
+  },
+  {
+    "id": "ハッテンザクラ",
+    "name": "八天桜",
+    "reading": "はってんざくら"
+  },
+  {
+    "id": "ハナカゴト",
+    "name": "花香琴",
+    "reading": "はなかごと"
+  },
+  {
+    "id": "ハナシホウ",
+    "name": "花司峰",
+    "reading": "はなしほう"
+  },
+  {
+    "id": "ハヤシ1ゴウ",
+    "name": "林１号",
+    "reading": "はやし1ごう"
+  },
+  {
+    "id": "ハヤシ2ゴウ",
+    "name": "林２号",
+    "reading": "はやし2ごう"
+  },
+  {
+    "id": "ハンベイシロベニザクラ",
+    "name": "半兵衛白紅桜",
+    "reading": "はんべいしろべにざくら"
+  },
+  {
+    "id": "ヒゴヨシノ",
+    "name": "肥後吉野",
+    "reading": "ひごよしの",
+    "aliases": [
+      "鞍馬桜"
+    ]
+  },
+  {
+    "id": "ヒザクラ",
+    "name": "緋桜",
+    "reading": "ひざくら"
+  },
+  {
+    "id": "ヒナハチジョウ",
+    "name": "雛八丈桜",
+    "reading": "ひなはちじょう",
+    "aliases": [
+      "雛八丈"
+    ]
+  },
+  {
+    "id": "ヒマラヤザクラ",
+    "name": "ヒマラヤ桜",
+    "reading": "ひまらやざくら"
+  },
+  {
+    "id": "ヒマラヤヒザクラ",
+    "name": "ヒマラヤ緋桜",
+    "reading": "ひまらやひざくら"
+  },
+  {
+    "id": "ヒミクヅロキクザクラ",
+    "name": "氷見久津呂菊桜",
+    "reading": "ひみくづろきくざくら"
+  },
+  {
+    "id": "ヒメタカサゴ",
+    "name": "姫高砂",
+    "reading": "ひめたかさご"
+  },
+  {
+    "id": "ヒメミドリザクラ",
+    "name": "姫緑桜",
+    "reading": "ひめみどりざくら"
+  },
+  {
+    "id": "ヒュペヘンシス",
+    "name": "ヒュペヘンシス",
+    "reading": "ひゅぺへんしす",
+    "aliases": [
+      "ヒュペヘンシス？",
+      "Cerasus serrulata hupehensis"
+    ]
+  },
+  {
+    "id": "ヒラノニオイ",
+    "name": "平野匂",
+    "reading": "ひらのにおい"
+  },
+  {
+    "id": "ヒラノネザメ",
+    "name": "平野寝覚",
+    "reading": "ひらのねざめ"
+  },
+  {
+    "id": "ヒロシマエバヤマザクラ",
+    "name": "広島江波山桜",
+    "reading": "ひろしまえばやまざくら"
+  },
+  {
+    "id": "フイリシダレ",
+    "name": "斑入り枝垂",
+    "reading": "ふいりしだれ"
+  },
+  {
+    "id": "beniyaesomeiyoshino",
+    "name": "紅八重染井吉野",
+    "reading": "べにやえそめいよしの"
+  },
+  {
+    "id": "beniyamazakura",
+    "name": "紅山桜",
+    "reading": "べにやまざくら"
+  },
+  {
+    "id": "beniyoshino",
+    "name": "紅吉野",
+    "reading": "べによしの"
+  },
+  {
+    "id": "houmyouji",
+    "name": "豊明寺",
+    "reading": "ほうみょうじ"
+  },
+  {
+    "id": "houraizakura",
+    "name": "蓬莱桜",
+    "reading": "ほうらいざくら"
+  },
+  {
+    "id": "houraisan",
+    "name": "蓬莱山",
+    "reading": "ほうらいさん"
+  },
+  {
+    "id": "hourinji",
+    "name": "法輪寺",
+    "reading": "ほうりんじ"
+  },
+  {
+    "id": "hokuenzakura",
+    "name": "北苑桜",
+    "reading": "ほくえんざくら"
+  },
+  {
+    "id": "hokutotakasago",
+    "name": "北斗高砂",
+    "reading": "ほくとたかさご"
+  },
+  {
+    "id": "hoshizakura",
+    "name": "星桜",
+    "reading": "ほしざくら"
+  },
+  {
+    "id": "hotate",
+    "name": "帆立",
+    "reading": "ほたて"
+  },
+  {
+    "id": "horiihizakura",
+    "name": "堀井緋桜",
+    "reading": "ほりいひざくら"
+  },
+  {
+    "id": "honseijikogikuzakura",
+    "name": "本誓寺小菊桜",
+    "reading": "ほんせいじこぎくざくら"
+  },
+  {
+    "id": "honseijishidare",
+    "name": "本誓寺枝垂",
+    "reading": "ほんせいじしだれ",
+    "aliases": [
+      "白滝枝垂"
+    ]
+  },
+  {
+    "id": "bonborizakura",
+    "name": "雪洞桜",
+    "reading": "ぼんぼりざくら"
+  },
+  {
+    "id": "machimura",
+    "name": "待村桜",
+    "reading": "まちむらざくら"
+  },
+  {
+    "id": "matsuhimezakura",
+    "name": "松姫桜",
+    "reading": "まつひめざくら"
+  },
+  {
+    "id": "matsumaeakane",
+    "name": "松前茜",
+    "reading": "まつまえあかね"
+  },
+  {
+    "id": "matsumaeavanishiki",
+    "name": "松前綾錦",
+    "reading": "まつまえあやにしき"
+  },
+  {
+    "id": "matsumaearatama",
+    "name": "松前新玉",
+    "reading": "まつまえあらたま"
+  },
+  {
+    "id": "matsumaekorin",
+    "name": "松前紅鱗",
+    "reading": "まつまえこうりん"
+  },
+  {
+    "id": "matsumaekoitozakura",
+    "name": "松前琴糸桜",
+    "reading": "まつまえこといとざくら"
+  },
+  {
+    "id": "matsumaeokoyuki",
+    "name": "松前小雪",
+    "reading": "まつまえこゆき"
+  },
+  {
+    "id": "matsumaesasameyuki",
+    "name": "松前笹目雪",
+    "reading": "まつまえささめゆき"
+  },
+  {
+    "id": "matsumaesarasa",
+    "name": "松前更紗",
+    "reading": "まつまえさらさ"
+  },
+  {
+    "id": "matsumaeoshizuka",
+    "name": "松前静",
+    "reading": "まつまえしずか"
+  },
+  {
+    "id": "matsumaeshirasagi",
+    "name": "松前白鷺",
+    "reading": "まつまえしらさぎ",
+    "aliases": [
+      "白鷺"
+    ]
+  },
+  {
+    "id": "matsumaeshirobotan",
+    "name": "松前白牡丹",
+    "reading": "まつまえしろぼたん"
+  },
+  {
+    "id": "matsumaesekimori",
+    "name": "松前関守",
+    "reading": "まつまえせきもり"
+  },
+  {
+    "id": "matsumaefuki",
+    "name": "松前深紅",
+    "reading": "まつまえふき"
+  },
+  {
+    "id": "matsumaefukuzakura",
+    "name": "松前福桜",
+    "reading": "まつまえふくざくら"
+  },
+  {
+    "id": "matsumae-beni-usome",
+    "name": "松前紅染",
+    "reading": "まつまえべにうぞめ"
+  },
+  {
+    "id": "matsumae-benigasa",
+    "name": "松前紅笠",
+    "reading": "まつまえべにがさ"
+  },
+  {
+    "id": "matsumae-beni-kosode",
+    "name": "松前紅小袖",
+    "reading": "まつまえべにこそで"
+  },
+  {
+    "id": "matsumae-beni-botan",
+    "name": "松前紅牡丹",
+    "reading": "まつまえべにぼたん"
+  },
+  {
+    "id": "matsumae-yae-goromo",
+    "name": "松前八重衣",
+    "reading": "まつまえやえごろも"
+  },
+  {
+    "id": "matsumae-yuen",
+    "name": "松前幽艶",
+    "reading": "まつまえゆうえん"
+  },
+  {
+    "id": "mani-yae-yamazakura",
+    "name": "真仁八重山桜",
+    "reading": "まにやえやまざくら"
+  },
+  {
+    "id": "maruyama",
+    "name": "丸山",
+    "reading": "まるやま"
+  },
+  {
+    "id": "mishima-zakura",
+    "name": "三島桜",
+    "reading": "みしまざくら"
+  },
+  {
+    "id": "mishima-taki-nioi",
+    "name": "三島滝匂",
+    "reading": "みしまたきにおい"
+  },
+  {
+    "id": "mizutama-zakura",
+    "name": "水玉桜",
+    "reading": "みずたまざくら"
+  },
+  {
+    "id": "misumi-ohira-zakura",
+    "name": "三角大平桜",
+    "reading": "みすみおおひらざくら"
+  },
+  {
+    "id": "midono-yae",
+    "name": "三殿野八重",
+    "reading": "みどのやえ",
+    "aliases": [
+      "御堂八重"
+    ]
+  },
+  {
+    "id": "midori-kinki-mame-zakura",
+    "name": "緑近畿豆桜",
+    "reading": "みどりきんきまめざくら"
+  },
+  {
+    "id": "midori-yoshino",
+    "name": "緑吉野",
+    "reading": "みどりよしの"
+  },
+  {
+    "id": "minami-zakura",
+    "name": "南桜",
+    "reading": "みなみざくら"
+  },
+  {
+    "id": "mine-zakura",
+    "name": "峰桜",
+    "reading": "みねざくら",
+    "aliases": [
+      "高嶺桜"
+    ]
+  },
+  {
+    "id": "miyano-hina-zakura",
+    "name": "宮野雛桜",
+    "reading": "みやのひなざくら"
+  },
+  {
+    "id": "miyama-zakura",
+    "name": "深山桜",
+    "reading": "みやまざくら",
+    "aliases": [
+      "白桜",
+      "シロザクラ"
+    ]
+  },
+  {
+    "id": "meg-zakura",
+    "name": "目具桜",
+    "reading": "めぐざくら"
+  },
+  {
+    "id": "mejiro-zakura",
+    "name": "目白桜",
+    "reading": "めじろざくら",
+    "aliases": []
+  },
+  {
+    "id": "moniwa-zakura",
+    "name": "茂庭桜",
+    "reading": "もにわざくら"
+  },
+  {
+    "id": "yae-zaki-yamahigan",
+    "name": "八重咲き山彼岸",
+    "reading": "やえざきやまひがん"
+  },
+  {
+    "id": "yae-no-oyama-zakura",
+    "name": "八重のオオヤマ桜",
+    "reading": "やえのおおやまざくら",
+    "aliases": [
+      "八重大山桜"
+    ]
+  },
+  {
+    "id": "yae-no-sakon",
+    "name": "八重の左近",
+    "reading": "やえのさこん",
+    "aliases": [
+      "八重左近桜"
+    ]
+  },
+  {
+    "id": "yae-yamakoshi",
+    "name": "八重山越",
+    "reading": "やえやまこし"
+  },
+  {
+    "id": "yae-yamazakura",
+    "name": "八重山桜",
+    "reading": "やえやまざくら"
+  },
+  {
+    "id": "マンゲツ",
+    "name": "満月",
+    "reading": "まんげつ"
+  },
+  {
+    "id": "ミシマフジミザクラ",
+    "name": "三島富士見桜",
+    "reading": "みしまふじみざくら"
+  },
+  {
+    "id": "ミスミオオヒラザクラ",
+    "name": "三隅大平桜",
+    "reading": "みすみおおひらざくら"
+  },
+  {
+    "id": "ミダレユキ",
+    "name": "乱雪",
+    "reading": "みだれゆき"
+  },
+  {
+    "id": "ミドノヤエ",
+    "name": "水土野八重",
+    "reading": "みどのやえ"
+  },
+  {
+    "id": "ミナカミ",
+    "name": "水上",
+    "reading": "みなかみ"
+  },
+  {
+    "id": "ミナトザクラ",
+    "name": "湊桜",
+    "reading": "みなとざくら"
+  },
+  {
+    "id": "ミヤコニシキ",
+    "name": "都錦",
+    "reading": "みやこにしき"
+  },
+  {
+    "id": "ミヤノヒナザクラ",
+    "name": "宮の雛桜",
+    "reading": "みやのひなざくら"
+  },
+  {
+    "id": "ミヤマチョウジザクラ",
+    "name": "深山丁子桜",
+    "reading": "みやまちょうじざくら",
+    "aliases": [
+      "深山丁字桜"
+    ]
+  },
+  {
+    "id": "ムシャザクライデンケン",
+    "name": "ムシャザクラ（遺伝研の株）",
+    "reading": "むしゃざくらいでんけん"
+  },
+  {
+    "id": "メグザクラ",
+    "name": "萌紅桜",
+    "reading": "めぐざくら"
+  },
+  {
+    "id": "ヤエムラサキザクラ",
+    "name": "八重紫桜",
+    "reading": "やえむらさきざくら"
+  },
+  {
+    "id": "ヤエヤマコシ",
+    "name": "八重山古志",
+    "reading": "やえやまこし"
+  },
+  {
+    "id": "ヤダケムラサキ",
+    "name": "矢岳紫",
+    "reading": "やだけむらさき"
+  },
+  {
+    "id": "ヤチヨ",
+    "name": "八千代",
+    "reading": "やちよ"
+  },
+  {
+    "id": "ヤツセニオイ",
+    "name": "八瀬匂",
+    "reading": "やつせにおい"
+  },
+  {
+    "id": "ヤヒコ",
+    "name": "雛菊桜",
+    "reading": "やひこ",
+    "aliases": [
+      "菊咲丁字桜",
+      "弥彦"
+    ]
+  },
+  {
+    "id": "ヤブザクラ",
+    "name": "藪桜",
+    "reading": "やぶざくら"
+  },
+  {
+    "id": "ヤマトニシキ",
+    "name": "大和錦",
+    "reading": "やまとにしき"
+  },
+  {
+    "id": "ヤマヒガン",
+    "name": "ヤマヒガン",
+    "reading": "やまひがん"
+  },
+  {
+    "id": "ヤヨイタカサゴ",
+    "name": "弥生高砂",
+    "reading": "やよいたかさご"
+  },
+  {
+    "id": "ユウエン",
+    "name": "松前優艶",
+    "reading": "ゆうえん",
+    "aliases": [
+      "優艶"
+    ]
+  },
+  {
+    "id": "ユウガ",
+    "name": "松前優雅",
+    "reading": "ゆうが",
+    "aliases": [
+      "優雅"
+    ]
+  },
+  {
+    "id": "ユウグレ",
+    "name": "夕暮",
+    "reading": "ゆうぐれ"
+  },
+  {
+    "id": "ユウバエガスミ",
+    "name": "夕映霞",
+    "reading": "ゆうばえがすみ"
+  },
+  {
+    "id": "ユゲ",
+    "name": "弓削",
+    "reading": "ゆげ"
+  },
+  {
+    "id": "ヨウドウザクラ",
+    "name": "揚道桜",
+    "reading": "ようどうざくら",
+    "aliases": [
+      "泣き桜"
+    ]
+  },
+  {
+    "id": "ヨサノアキコ",
+    "name": "与謝野晶子",
+    "reading": "よさのあきこ"
+  },
+  {
+    "id": "ヨシノシダレ",
+    "name": "吉野枝垂",
+    "reading": "よしのしだれ"
+  },
+  {
+    "id": "リュウウンインベニヤエ",
+    "name": "龍雲院紅八重",
+    "reading": "りゅううんいんべにやえ"
+  },
+  {
+    "id": "リンポウザクラ",
+    "name": "林宝桜",
+    "reading": "りんぽうざくら"
+  },
+  {
+    "id": "ワカナニッコウザクラ",
+    "name": "若名日光桜",
+    "reading": "わかなにっこうざくら"
+  },
+  {
+    "id": "ワカムシャザクラ",
+    "name": "若武者桜",
+    "reading": "わかむしゃざくら"
+  },
+  {
+    "id": "ワセヤマザクラ",
+    "name": "早生山桜",
+    "reading": "わせやまざくら"
+  },
+  {
+    "id": "ワセヨシノ",
+    "name": "早生吉野",
+    "reading": "わせよしの"
+  },
+  {
+    "id": "angyo-zakura",
+    "name": "安行桜",
+    "reading": "あんぎょうざくら"
+  },
+  {
+    "id": "inu-zakura",
+    "name": "犬桜",
+    "reading": "いぬざくら"
+  },
+  {
+    "id": "uwamizu-zakura",
+    "name": "上溝桜",
+    "reading": "うわみずざくら"
+  },
+  {
+    "id": "edo-zakura",
+    "name": "江戸桜",
+    "reading": "えどざくら"
+  },
+  {
+    "id": "edohigan-zakura",
+    "name": "江戸彼岸桜",
+    "reading": "えどひがんざくら"
+  },
+  {
+    "id": "suzaku-zakura",
+    "name": "朱雀桜",
+    "reading": "すざくざくら"
+  },
+  {
+    "id": "niwa-zakura",
+    "name": "庭桜",
+    "reading": "にわざくら"
+  },
+  {
+    "id": "higan-zakura",
+    "name": "彼岸桜",
+    "reading": "ひがんざくら"
+  },
+  {
+    "id": "fuji-shidare-zakura",
+    "name": "富士枝垂桜",
+    "reading": "ふじしだれざくら"
+  },
+  {
+    "id": "miyabi-zakura",
+    "name": "雅桜",
+    "reading": "みやびざくら"
+  },
+  {
+    "id": "ryukyu-kanhizakura",
+    "name": "琉球寒緋桜",
+    "reading": "りゅうきゅうかんひざくら",
+    "aliases": [
+      "琉球緋桜"
+    ]
+  },
+  {
+    "id": "koba-zakura",
+    "name": "小葉桜",
+    "reading": "こばざくら"
+  },
+  {
+    "id": "koshi-no-higan",
+    "name": "越の彼岸",
+    "reading": "こしのひがん"
+  },
+  {
+    "id": "choji-mame-zakura",
+    "name": "チョウジマメザクラ",
+    "reading": "ちょうじまめざくら"
+  },
+  {
+    "id": "oneyama-zakura",
+    "name": "オネヤマザクラ",
+    "reading": "おねやまざくら"
+  },
+  {
+    "id": "miyama-kasumi-zakura",
+    "name": "深山霞桜",
+    "reading": "みやまかすみざくら"
+  },
+  {
+    "id": "shinei-zakura",
+    "name": "晋栄桜",
+    "reading": "しんえいざくら"
+  },
+  {
+    "id": "kashio-zakura",
+    "name": "樫尾桜",
+    "reading": "かしおざくら"
+  },
+  {
+    "id": "imajuku-zakura",
+    "name": "今宿桜",
+    "reading": "いまじゅくざくら"
+  },
+  {
+    "id": "iwai-zakura",
+    "name": "祝桜",
+    "reading": "いわいざくら"
+  },
+  {
+    "id": "oshiba-yama",
+    "name": "大芝山",
+    "reading": "おおしばやま"
+  },
+  {
+    "id": "kuruma-dome",
+    "name": "車止め",
+    "reading": "くるまどめ"
+  },
+  {
+    "id": "koenji-shiro-yae-zakura",
+    "name": "高円寺白八重桜",
+    "reading": "こうえんじしろやえざくら"
+  },
+  {
+    "id": "goten-nioi",
+    "name": "御殿匂",
+    "reading": "ごてんにおい"
+  },
+  {
+    "id": "kongo-zan",
+    "name": "金剛山",
+    "reading": "こんごうざん"
+  },
+  {
+    "id": "sho-nanden",
+    "name": "正南殿",
+    "reading": "しょうなんでん"
+  },
+  {
+    "id": "sendai-shidare",
+    "name": "仙台枝垂",
+    "reading": "せんだいしだれ"
+  },
+  {
+    "id": "haku-kasan",
+    "name": "白花山",
+    "reading": "はくかさん"
+  },
+  {
+    "id": "fuku-zakura",
+    "name": "福桜",
+    "reading": "ふくざくら"
+  },
+  {
+    "id": "fudan-zakura",
+    "name": "不断桜",
+    "reading": "ふだんざくら"
+  },
+  {
+    "id": "beni-gasa",
+    "name": "紅笠",
+    "reading": "べにがさ"
+  },
+  {
+    "id": "hokuhо",
+    "name": "北方",
+    "reading": "ほくほう"
+  },
+  {
+    "id": "ma-zakura",
+    "name": "真桜",
+    "reading": "まざくら"
+  },
+  {
+    "id": "matsumae-oshima",
+    "name": "松前大島",
+    "reading": "まつまえおおしお"
+  },
+  {
+    "id": "matsumae-fuki",
+    "name": "松前風杏",
+    "reading": "まつまえふうき"
+  },
+  {
+    "id": "mikkabi-zakura",
+    "name": "三ヶ日桜",
+    "reading": "みっかびざくら"
+  },
+  {
+    "id": "yae-nioi",
+    "name": "八重匂",
+    "reading": "やえにおい"
+  },
+  {
+    "id": "yadake-murasaki",
+    "name": "矢竹紫",
+    "reading": "やだけむらさき"
+  },
+  {
+    "id": "hatsu-yuki-zakura",
+    "name": "初雪桜",
+    "reading": "はつゆきざくら"
+  },
+  {
+    "id": "ke-ezo-yamazakura",
+    "name": "毛蝦夷山桜",
+    "reading": "けえぞやまざくら"
+  },
+  {
+    "id": "kirifuri-zakura",
+    "name": "霧降桜",
+    "reading": "きりふりざくら"
+  },
+  {
+    "id": "kuchinashi-zakura",
+    "name": "梔子桜",
+    "reading": "くちなしざくら"
+  },
+  {
+    "id": "sodo-zakura",
+    "name": "総道桜",
+    "reading": "そうどうざくら"
+  },
+  {
+    "id": "raikoji-kiku-zakura",
+    "name": "頼光寺菊桜",
+    "reading": "らいこうじきくざくら"
+  },
+  {
+    "id": "yamagoshi-murasaki",
+    "name": "山越紫",
+    "reading": "やまごしむらさき",
+    "aliases": [
+      "山越桜"
+    ]
+  },
+  {
+    "id": "yama-mochizuki-zakura",
+    "name": "山望月桜",
+    "reading": "やまもちづきざくら"
+  },
+  {
+    "id": "okusai-zakura",
+    "name": "大草井桜",
+    "reading": "おおくさいざくら"
+  },
+  {
+    "id": "shidare-okusai-zakura",
+    "name": "枝垂大草井桜",
+    "reading": "しだれおおくさいざくら"
+  },
+  {
+    "id": "katte-zakura",
+    "name": "勝手桜",
+    "reading": "かってざくら"
+  },
+  {
+    "id": "somei-nioi",
+    "name": "染井匂",
+    "reading": "そめいにおい"
+  },
+  {
+    "id": "shira-taki-zakura",
+    "name": "白滝桜",
+    "reading": "しらたきざくら"
+  },
+  {
+    "id": "shira-tama",
+    "name": "白玉",
+    "reading": "しらたま"
+  },
+  {
+    "id": "tomoe-zakura",
+    "name": "巴桜",
+    "reading": "ともえざくら"
+  },
+  {
+    "id": "shojo",
+    "name": "猩々",
+    "reading": "しょうじょう"
+  },
+  {
+    "id": "myojo",
+    "name": "明星",
+    "reading": "みょうじょう"
+  },
+  {
+    "id": "buko-mame-zakura",
+    "name": "武甲豆桜",
+    "reading": "ぶこうまめざくら"
+  },
+  {
+    "id": "manazuru-zakura",
+    "name": "真鶴桜",
+    "reading": "まなづるざくら"
+  },
+  {
+    "id": "yaeno-oshima-zakura",
+    "name": "八重大島桜",
+    "reading": "やえのおおしまざくら"
+  },
+  {
+    "id": "yaeno-kasumi-zakura",
+    "name": "八重霞桜",
+    "reading": "やえのかすみざくら"
+  },
+  {
+    "id": "kikuzaki-okuchoji-zakura",
+    "name": "菊咲奥丁字桜",
+    "reading": "きくざきおくちょうじざくら"
+  },
+  {
+    "id": "hatsumiyo-zakura",
+    "name": "初巳桜",
+    "reading": "はつみよざくら"
+  },
+  {
+    "id": "risshun-kanzakura",
+    "name": "立春寒桜",
+    "reading": "りっしゅんかんざくら"
+  },
+  {
+    "id": "beni-nanden",
+    "name": "紅南殿",
+    "reading": "べになんでん"
+  },
+  {
+    "id": "saiho-ji-zakura",
+    "name": "西方寺桜",
+    "reading": "さいほうじざくら"
+  },
+  {
+    "id": "wakaki-no-sakura",
+    "name": "若木の桜",
+    "reading": "わかきのさくら"
+  },
+  {
+    "id": "taki-no-sakura",
+    "name": "滝の桜",
+    "reading": "たきのざくら"
+  },
+  {
+    "id": "kohoku-nioi",
+    "name": "江北匂",
+    "reading": "こうほくにおい"
+  },
+  {
+    "id": "matsumae-usubeni-kokonoe",
+    "name": "松前薄紅九重",
+    "reading": "まつまえうすべにこのこえ"
+  },
+  {
+    "id": "shidare-oyama-zakura",
+    "name": "枝垂大山桜",
+    "reading": "しだれおおやまざくら"
+  },
+  {
+    "id": "kaba-zakura",
+    "name": "樺桜",
+    "reading": "かばざくら"
+  },
+  {
+    "id": "takane-oyama-zakura",
+    "name": "高嶺大山桜",
+    "reading": "たかねおおやまざくら"
+  },
+  {
+    "id": "zenshoji-kiku-zakura",
+    "name": "善照寺菊桜",
+    "reading": "ぜんしょうじきくざくら"
+  },
+  {
+    "id": "snow-goose",
+    "name": "スノーグース",
+    "reading": "すのーぐーす"
+  },
+  {
+    "id": "spire",
+    "name": "スパイア",
+    "reading": "すぱいあ"
+  },
+  {
+    "id": "dawyck-zakura",
+    "name": "ドーウィック桜",
+    "reading": "どーうぃっくざくら"
+  },
+  {
+    "id": "siebold-zakura",
+    "name": "シーボルト桜",
+    "reading": "しーぼるとざくら"
+  },
+  {
+    "id": "kurama-yama",
+    "name": "鞍馬山",
+    "reading": "くらまやま"
+  },
+  {
+    "id": "rosy-cloud",
+    "name": "ロージークラウド",
+    "reading": "ろーじーくらうど"
+  },
+  {
+    "id": "hirtipes-zakura",
+    "name": "ヒルティペス桜",
+    "reading": "ひるてぃぺすざくら"
+  },
+  {
+    "id": "kursar",
+    "name": "クルサー",
+    "reading": "くるさー"
+  },
+  {
+    "id": "kojo-no-mai",
+    "name": "小城の舞",
+    "reading": "こじょうのまい"
+  },
+  {
+    "id": "autumnalis-rosea",
+    "name": "オータムナリスロゼア",
+    "reading": "おーたむなりすろぜあ"
+  },
+  {
+    "id": "asano",
+    "name": "浅野",
+    "reading": "あさの"
+  },
+  {
+    "id": "seiyomizakura",
+    "name": "西洋実桜",
+    "reading": "せいようみざくら"
+  },
+  {
+    "id": "rokkoukikuzakura",
+    "name": "六高菊桜",
+    "reading": "ろっこうきくざくら",
+    "aliases": []
+  },
+  {
+    "id": "kiccho",
+    "name": "吉兆",
+    "reading": "きっちょう",
+    "aliases": []
+  },
+  {
+    "id": "haruka",
+    "name": "はるか",
+    "reading": "はるか",
+    "aliases": []
+  },
+  {
+    "id": "hitachi-miyabi-zakura",
+    "name": "ひたち雅",
+    "reading": "ひたちみやび",
+    "aliases": []
+  },
+  {
+    "id": "afterglow",
+    "name": "アフターグロウ",
+    "reading": "あふたーぐろう",
+    "aliases": []
+  },
+  {
+    "id": "higan-dai-zakura",
+    "name": "彼岸台桜",
+    "reading": "ヒガンダイザクラ",
+    "aliases": []
+  },
+  {
+    "id": "hiyodorizakura",
+    "name": "鵯桜",
+    "reading": "ヒヨドリザクラ",
+    "aliases": []
+  },
+  {
+    "id": "hirosaki-yukiakari",
+    "name": "弘前雪明かり",
+    "reading": "ヒロサキユキアカリ",
+    "aliases": []
+  },
+  {
+    "id": "fuiri-shidare-zakura",
+    "name": "斑入り枝垂桜",
+    "reading": "フイリシダレザクラ",
+    "aliases": []
+  },
+  {
+    "id": "fujizakura-ohaku-chirifu",
+    "name": "富士桜 黄白散斑",
+    "reading": "フジザクラ オウハクチリフ",
+    "aliases": []
+  },
+  {
+    "id": "pusilliflora-yunnanensis",
+    "name": "プシリフローラ × ユンナエンシス？",
+    "reading": "プシリフローラ×ユンナエンシス",
+    "aliases": []
+  },
+  {
+    "id": "benibana-koubon-outou",
+    "name": "紅花高盆桜桃",
+    "reading": "べにばなこうぼんおうとう",
+    "aliases": [
+      "紅花高盆桜桃？",
+      "ベニバナコウボンオウトウ"
+    ]
+  },
+  {
+    "id": "hoshu-zakura",
+    "name": "宝珠桜",
+    "reading": "ホウシュザクラ",
+    "aliases": []
+  },
+  {
+    "id": "hokusai",
+    "name": "ホクサイ",
+    "reading": "ホクサイ",
+    "aliases": []
+  },
+  {
+    "id": "hokusai-isyu",
+    "name": "ホクサイ異種",
+    "reading": "ホクサイイシュ",
+    "aliases": []
+  },
+  {
+    "id": "hokuho",
+    "name": "北鵬",
+    "reading": "ホクホウ",
+    "aliases": []
+  },
+  {
+    "id": "hosokawa-beni",
+    "name": "ホソカワベニ",
+    "reading": "ホシカワベニ",
+    "aliases": []
+  },
+  {
+    "id": "masuyama",
+    "name": "増山",
+    "reading": "マスヤマ",
+    "aliases": []
+  },
+  {
+    "id": "matsumae-osio",
+    "name": "松前大潮",
+    "reading": "マツマエオオシオ",
+    "aliases": []
+  },
+  {
+    "id": "matsumae-hanazomei",
+    "name": "松前花染衣",
+    "reading": "マツマエハナゾメイ",
+    "aliases": [
+      "花染衣",
+      "はなぞめごろも",
+      "ハナゾメゴロモ"
+    ]
+  },
+  {
+    "id": "matsumae-benitamae",
+    "name": "松前紅珠恵",
+    "reading": "マツマエベニタマエ",
+    "aliases": []
+  },
+  {
+    "id": "mishoumumei-imose729",
+    "name": "実生無名（妹背729実生）",
+    "reading": "ミショウムメイ（イモセ729）",
+    "aliases": []
+  },
+  {
+    "id": "mishoumumei-imose730",
+    "name": "実生無名（妹背730実生）",
+    "reading": "ミショウムメイ（イモセ730）",
+    "aliases": []
+  },
+  {
+    "id": "mishoumumei-oushusatozakura1224",
+    "name": "実生無名（奥州里桜1224実生）",
+    "reading": "ミショウムメイ（オウシュウサトザクラ1224）",
+    "aliases": []
+  },
+  {
+    "id": "mishoumumei-matsumaeyaekotobuki869",
+    "name": "実生無名（松前八重寿869実生）",
+    "reading": "ミショウムメイ（マツマエヤエコトブキ869）",
+    "aliases": []
+  },
+  {
+    "id": "mishoumumei-mikurumagaeshi270",
+    "name": "実生無名（御車返し270実生）",
+    "reading": "ミショウムメイ（ミクルマガエシ270）",
+    "aliases": []
+  },
+  {
+    "id": "myoshoji",
+    "name": "明正寺",
+    "reading": "ミョウショウジ",
+    "aliases": []
+  },
+  {
+    "id": "myotoku-jigenzakura",
+    "name": "明徳慈眼桜",
+    "reading": "ミョウトクジゲンザクラ",
+    "aliases": []
+  },
+  {
+    "id": "mushazakura",
+    "name": "霧社桜",
+    "reading": "ムシャザクラ",
+    "aliases": []
+  },
+  {
+    "id": "morikomachi",
+    "name": "森小町",
+    "reading": "モリコマチ",
+    "aliases": []
+  },
+  {
+    "id": "michinoku-shidare",
+    "name": "みちのく枝垂",
+    "reading": "ミチノクシダレ",
+    "aliases": []
+  },
+  {
+    "id": "yabu-higan",
+    "name": "ヤブヒガン",
+    "reading": "ヤブヒガン",
+    "aliases": []
+  },
+  {
+    "id": "musashino",
+    "name": "武蔵野",
+    "reading": "ムサシノ",
+    "aliases": []
+  },
+  {
+    "id": "mikawa-kanzakura",
+    "name": "三河寒桜",
+    "reading": "ミカワカンザクラ",
+    "aliases": []
+  },
+  {
+    "id": "yamato-hizakura",
+    "name": "大和緋桜",
+    "reading": "ヤマトヒザクラ",
+    "aliases": []
+  },
+  {
+    "id": "miyuki-zakura",
+    "name": "御幸桜",
+    "reading": "ミユキザクラ",
+    "aliases": []
+  },
+  {
+    "id": "yamagata-otome",
+    "name": "山形乙女",
+    "reading": "ヤマガタオトメ",
+    "aliases": []
+  },
+  {
+    "id": "miya-no-yuki",
+    "name": "宮の雪",
+    "reading": "ミヤノユキ",
+    "aliases": []
+  },
+  {
+    "id": "miyamoto-wase",
+    "name": "宮本早生",
+    "reading": "ミヤモトワセ",
+    "aliases": []
+  },
+  {
+    "id": "miyazawa-wase",
+    "name": "宮沢早生",
+    "reading": "ミヤザワワセ",
+    "aliases": []
+  },
+  {
+    "id": "yoshino-yamazakura",
+    "name": "ヨシノ",
+    "reading": "ヨシノ",
+    "aliases": [
+      "吉野",
+      "ヤマザクラ（吉野選抜）"
+    ]
+  },
+  {
+    "id": "rikyu-zakura",
+    "name": "利休桜",
+    "reading": "リキュウザクラ",
+    "aliases": []
+  },
+  {
+    "id": "yaguchi",
+    "name": "矢口",
+    "reading": "ヤグチ",
+    "aliases": []
+  },
+  {
+    "id": "murata-zakura",
+    "name": "村田桜",
+    "reading": "ムラタザクラ",
+    "aliases": []
+  },
+  {
+    "id": "ryumon-shidare",
+    "name": "流紋枝垂",
+    "reading": "リュウモンシダレ",
+    "aliases": []
+  },
+  {
+    "id": "yabusame-zakura",
+    "name": "流鏑馬桜",
+    "reading": "ヤブサメザクラ",
+    "aliases": []
+  },
+  {
+    "id": "ryugan",
+    "name": "龍眼",
+    "reading": "リュウガン",
+    "aliases": []
+  },
+  {
+    "id": "ryokuryu-hananokai",
+    "name": "緑龍",
+    "reading": "リョクリュウ",
+    "aliases": []
+  },
+  {
+    "id": "yae-fuyuzakura",
+    "name": "八重冬桜",
+    "reading": "ヤエフユザクラ",
+    "aliases": []
+  },
+  {
+    "id": "yamazakura-bandai",
+    "name": "山桜（磐梯山産）",
+    "reading": "ヤマザクラ（バンダイサンサン）",
+    "aliases": []
+  },
+  {
+    "id": "yamazakura-nachi",
+    "name": "山桜（那智山産）",
+    "reading": "ヤマザクラ（ナチサンサン）",
+    "aliases": []
+  },
+  {
+    "id": "yamazakura-nikko",
+    "name": "山桜（日光産）",
+    "reading": "ヤマザクラ（ニッコウサン）",
+    "aliases": []
+  },
+  {
+    "id": "yae-yamazakura-yoshino",
+    "name": "八重咲ヤマザクラ（吉野山産）",
+    "reading": "ヤエザキヤマザクラ（ヨシノヤマサン）",
+    "aliases": []
+  },
+  {
+    "id": "yae-yamazakura-unknown",
+    "name": "八重咲ヤマザクラ（産地不明）",
+    "reading": "ヤエザキヤマザクラ（サンチフメイ）",
+    "aliases": []
+  },
+  {
+    "id": "yaezakura-akita",
+    "name": "八重桜（秋田県産）",
+    "reading": "ヤエザクラ（アキタケンサン）",
+    "aliases": []
+  },
+  {
+    "id": "yae-ohshima-ko",
+    "name": "八重咲大島（小）",
+    "reading": "ヤエザキオオシマ（コ）",
+    "aliases": []
+  },
+  {
+    "id": "yae-ohshima-nami",
+    "name": "八重咲大島（並）",
+    "reading": "ヤエザキオオシマ（ナミ）",
+    "aliases": []
+  }
+]

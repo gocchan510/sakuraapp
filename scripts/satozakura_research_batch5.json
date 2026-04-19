@@ -1,0 +1,83 @@
+[
+  {
+    "spot_id": "walker-ar0206e25654",
+    "spot_name": "天童公園(舞鶴山)の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0206e25654/",
+    "notes": "複数サイト調査済みだが「里桜」という総称のみ。具体的なサトザクラ品種名は確認不可"
+  },
+  {
+    "spot_id": "walker-ar0313e60404",
+    "spot_name": "都立芝公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0313e60404/",
+    "notes": "ウォーカープラス・東京都公園協会公式等調査済み。「里桜」総称のみで具体品種名は確認不可"
+  },
+  {
+    "spot_id": "walker-ar0313e25820",
+    "spot_name": "浮間公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0313e25820/",
+    "notes": "北区側池沿いに約20本のサトザクラがあることは確認。具体的な品種名はどのソースにも掲載なし"
+  },
+  {
+    "spot_id": "walker-ar0516e60604",
+    "spot_name": "富山県中央植物園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（約140種中のサトザクラ群、品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://www.bgtym.org/",
+    "notes": "約140種520本中にサトザクラ・キクザクラ類が含まれることは確認。公式サイト等で具体的な新規サトザクラ品種名は確認不可"
+  },
+  {
+    "spot_id": "walker-ar0622e219695",
+    "spot_name": "つま恋リゾート彩の郷(さいのさと)の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0622e219695/",
+    "notes": "約1500本中に里桜が含まれることは確認。掛川市公式・ウォーカープラス等で具体的品種名は記載なし"
+  },
+  {
+    "spot_id": "walker-ar0726e458786",
+    "spot_name": "京都御苑の桜",
+    "found_variety_ids": ["kanzan", "fugenzou", "shogetsu"],
+    "unmatched_names": [],
+    "confidence": "high",
+    "source_url": "https://media.mk-group.co.jp/entry/sakura-gyoen/",
+    "notes": "MKメディア・環境省公式・国民公園協会等複数ソースが一致。出水の小川周辺に関山・普賢象・松月・御衣黄が咲くと記述。御衣黄(gyoikou)は既存リストに存在のため除外"
+  },
+  {
+    "spot_id": "walker-ar0727e381585",
+    "spot_name": "南天満公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0727e381585/",
+    "notes": "「ソメイヨシノ・山桜・里桜などがずらりと咲き誇る」という記述のみ"
+  },
+  {
+    "spot_id": "walker-ar0938e26308",
+    "spot_name": "道後公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不特定）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0938e26308/",
+    "notes": "「里桜」は総称のみの記述。具体的サトザクラ品種名は確認不可"
+  },
+  {
+    "spot_id": "walker-ar0311e25764",
+    "spot_name": "美の山公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://www.pref.saitama.lg.jp/b0504/minoyamakouen-top/",
+    "notes": "「花の森」に60〜70種以上のサトザクラが集まっていることは確認。名指し確認できた品種（御衣黄・鬱金）は全て既存リストに存在"
+  }
+]

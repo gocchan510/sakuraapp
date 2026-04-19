@@ -1,0 +1,83 @@
+[
+  {
+    "spot_id": "walker-ar0308e25707",
+    "spot_name": "かみね公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0308e25707/data.html",
+    "notes": "約22〜25種の桜があることは確認されているが、里桜の具体的な品種名は公開情報から特定できず"
+  },
+  {
+    "spot_id": "walker-ar0313e60405",
+    "spot_name": "旧芝離宮恩賜庭園の桜",
+    "found_variety_ids": ["kanzan"],
+    "unmatched_names": [],
+    "confidence": "medium",
+    "source_url": "https://www.enjoytokyo.jp/spot/l_00001029/",
+    "notes": "御衣黄・普賢象・一葉は既に登録済み。関山が複数情報源で追加確認"
+  },
+  {
+    "spot_id": "walker-ar0314e459044",
+    "spot_name": "よこはま動物園ズーラシアの桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0314e459044/",
+    "notes": "公式情報では「里桜」としか記載なく具体的品種名は特定できなかった"
+  },
+  {
+    "spot_id": "walker-ar0516e60164",
+    "spot_name": "小矢部川公園千本桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0516e60164/",
+    "notes": "「ソメイヨシノ、里桜が見られる」との記載のみ"
+  },
+  {
+    "spot_id": "walker-ar0622e60262",
+    "spot_name": "蓮華寺池公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://www.city.fujieda.shizuoka.jp/rengeji/index.html",
+    "notes": "「池の西側遊歩道沿いに里桜が見られる」との情報のみ。具体的品種名は不明"
+  },
+  {
+    "spot_id": "walker-ar0726e26116",
+    "spot_name": "平安神宮 神苑の桜",
+    "found_variety_ids": ["kanzan", "shogetsu"],
+    "unmatched_names": [],
+    "confidence": "medium",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0726e26116/",
+    "notes": "約20種300本。一葉・鬱金は既登録。関山・松月は複数情報源で確認。直接確認はmedium"
+  },
+  {
+    "spot_id": "walker-ar0727e26138",
+    "spot_name": "万博記念公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://www.expo70-park.jp/flower/2438/",
+    "notes": "12種約5500本。東の広場にサトザクラゾーンあり。ただし里桜の具体的品種名は記載なし"
+  },
+  {
+    "spot_id": "walker-ar1043e60309",
+    "spot_name": "湯の児チェリーラインの桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["里桜（品種名不明）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar1043e60309/",
+    "notes": "「ソメイヨシノ、ヤマザクラ、サトザクラほか約500本」との記載。具体的品種名は不明"
+  },
+  {
+    "spot_id": "walker-ar0311e60438",
+    "spot_name": "慈光山歴史公苑の桜",
+    "found_variety_ids": ["kanzan", "shogetsu", "amanogawa", "shirotae", "mikurumagaeshi", "omoigawa", "ariake", "ukon"],
+    "unmatched_names": ["阿岸小菊桜", "鴛鴦桜", "八重紅大島", "花笠", "南殿", "舞姫", "火打谷菊桜", "大提灯", "鵯桜", "須磨浦普賢象", "旗桜", "糸くくり", "雲珠桜", "蘭蘭", "松前早咲", "敬翁桜", "雨宿り", "永源寺", "紅時雨", "朱雀", "仙台屋", "稚木ノ桜", "紅豊", "大村桜", "梅護寺数珠掛"],
+    "confidence": "high",
+    "source_url": "https://www.town.tokigawa.lg.jp/info/1160",
+    "notes": "ときがわ町公式サイトから55品種の完全リスト取得。既登録(surugadai-nioi, fugenzou, someiyoshino, gyoikou, ichiyou, kawaduzakura)除く"
+  }
+]

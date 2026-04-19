@@ -1,0 +1,65 @@
+{
+  "id": "accolade",
+  "no": "001",
+  "name": "アーコレード",
+  "reading": "あーこれーど",
+  "bloomSeason": "4月上旬（秋にも二季咲き）",
+  "color": "淡紅",
+  "colorCode": "#FFB7C5",
+  "flowerShape": "八重咲",
+  "tags": [
+    "八重咲",
+    "大輪",
+    "二季咲き",
+    "海外品種"
+  ],
+  "summary": "英国生まれの淡紅色大輪八重咲き品種",
+  "features": "英国の研究施設でヤマザクラ系の大輪品種と早咲き品種を交配して作出された。花弁は淡紅色で大輪の八重咲きを誇る。日本では春と秋の二度開花する二季咲きの特性を示し、秋花は9月から11月ごろに咲く。秋花はカラミザクラより花色が濃く、花も大きいとされる。",
+  "history": "英国の育種施設で作出され、のちに日本に導入された。日本の気候条件下で二季咲き性が顕現し、他の品種にない特徴として注目された。",
+  "background": "学名はCerasus 'Accolade'。傘状の樹形を持つ亜高木で、英国では春一季咲きとして育てられているが、日本では環境条件により秋にも開花するという興味深い特性を示す。",
+  "trivia": "アーコレードは英語で称賛を意味し、その美しさへの賞賛から名付けられたとされる。",
+  "wikiTitleJa": "アーコレード (桜)",
+  "wikiTitleEn": "Prunus 'Accolade'",
+  "emoji": "🌸",
+  "images": [
+    {
+      "file": "images/accolade/01.webp",
+      "source": "inaturalist",
+      "author": "andreacala",
+      "license": "CC-BY-NC",
+      "originalUrl": "https://www.inaturalist.org/photos/114179165"
+    },
+    {
+      "file": "images/accolade/02.webp",
+      "source": "inaturalist",
+      "author": "andreacala",
+      "license": "CC-BY-NC",
+      "originalUrl": "https://www.inaturalist.org/photos/114179172"
+    },
+    {
+      "file": "images/accolade/03.webp",
+      "source": "inaturalist",
+      "author": "andreacala",
+      "license": "CC-BY-NC",
+      "originalUrl": "https://www.inaturalist.org/photos/114179176"
+    }
+  ],
+  "hasImage": true,
+  "rarity": {
+    "score": 4,
+    "stars": "★★★★",
+    "label": "とても珍しい",
+    "reasons": [
+      "八重咲き",
+      "二季咲き（春と秋に開花）"
+    ]
+  },
+  "spots": [
+    {
+      "spotId": "yuki-sakura-farm",
+      "spotName": "日本花の会 結城農場 桜見本園"
+    }
+  ],
+  "bloomGroup": "fuyu",
+  "someiyoshinoOffset": null
+}

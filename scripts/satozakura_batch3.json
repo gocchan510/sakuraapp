@@ -1,0 +1,121 @@
+[
+  {
+    "spot_id": "walker-ar0202e25565",
+    "spot_name": "八戸公園の桜",
+    "prefecture": "青森県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "oshidorizakura",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "ukon"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e382570",
+    "spot_name": "千葉市昭和の森の桜",
+    "prefecture": "千葉県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e460683",
+    "spot_name": "御殿山トラストシティの桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kirigaya",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0415e60125",
+    "spot_name": "魚野川桜づつみの桜",
+    "prefecture": "新潟県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "ooyamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e26044",
+    "spot_name": "はままつフラワーパークの桜",
+    "prefecture": "静岡県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "fugenzou",
+      "someiyoshino",
+      "kanzan",
+      "yamazakura",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0623e380519",
+    "spot_name": "138タワーパークの桜",
+    "prefecture": "愛知県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kohigan",
+      "シロヤマザクラ",
+      "kasumizakura",
+      "someiyoshino",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "shidarezakura",
+      "yamazakura",
+      "sendaiyoshino",
+      "jugatsu-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e428584",
+    "spot_name": "三段池公園の桜",
+    "prefecture": "京都府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "ujo-shidare",
+      "amanogawa",
+      "ukon",
+      "usuzumi",
+      "jindai-akebono",
+      "kenrokuen-kikuzakura",
+      "kawaduzakura",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0730e26177",
+    "spot_name": "和歌山城の桜",
+    "prefecture": "和歌山県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "shidarezakura",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e25836",
+    "spot_name": "水元公園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "サトザクラ",
+    "current_varieties": [
+      "o-kanzakura",
+      "oshimazakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
+    ]
+  }
+]

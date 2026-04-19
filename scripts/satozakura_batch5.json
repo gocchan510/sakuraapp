@@ -1,0 +1,137 @@
+[
+  {
+    "spot_id": "walker-ar0206e25654",
+    "spot_name": "天童公園(舞鶴山)の桜",
+    "prefecture": "山形県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e60404",
+    "spot_name": "都立芝公園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kawaduzakura",
+      "shidarezakura",
+      "kanhizakura",
+      "someiyoshino",
+      "oshimazakura",
+      "jugatsu-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e25820",
+    "spot_name": "浮間公園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0516e60604",
+    "spot_name": "富山県中央植物園の桜",
+    "prefecture": "富山県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "ジョウキョウジテマリザクラ",
+      "kureha-otome-shidare",
+      "ヒミクヅロキクザクラ",
+      "ニュウゼンオトメキクザクラ",
+      "ヤヨイタカサゴ",
+      "kawaduzakura",
+      "someiyoshino",
+      "kenrokuen-kikuzakura",
+      "hiyodorizakura",
+      "yaebenishidare-sanokei",
+      "miyama-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e219695",
+    "spot_name": "つま恋リゾート彩の郷(さいのさと)の桜",
+    "prefecture": "静岡県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "shidarezakura",
+      "kakegawa-zakura",
+      "someiyoshino",
+      "kawaduzakura",
+      "yamazakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e458786",
+    "spot_name": "京都御苑の桜",
+    "prefecture": "京都府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "hiranojinja-imose",
+      "gyoikou",
+      "mikurumagaeshi",
+      "ichiharatoranoo",
+      "kasumizakura",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0727e381585",
+    "spot_name": "南天満公園の桜",
+    "prefecture": "大阪府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0938e26308",
+    "spot_name": "道後公園の桜",
+    "prefecture": "愛媛県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "jurokunichi-zakura",
+      "iyo-usuzumi",
+      "シロヤマザクラ",
+      "tsubakikanzakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "edohigan-zakura",
+      "kanzakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e25764",
+    "spot_name": "美の山公園の桜",
+    "prefecture": "埼玉県",
+    "variety_raw": "サトザクラ類（70種以上の園芸品種）",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "gyoikou",
+      "chichibuzakura",
+      "yamazakura",
+      "ukon",
+      "shidarezakura",
+      "kanzan",
+      "fugenzou",
+      "taihaku",
+      "omoigawa",
+      "amanogawa"
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "spot_id": "walker-ar0308e25707",
+    "spot_name": "かみね公園の桜",
+    "prefecture": "茨城県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "hitachi-miyabi-zakura",
+      "someiyoshino",
+      "oshimazakura",
+      "gyoikou",
+      "ukon"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e60405",
+    "spot_name": "旧芝離宮恩賜庭園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "ichiyou",
+      "シロヤマザクラ",
+      "kanzan",
+      "gyoikou",
+      "fugenzou",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0314e459044",
+    "spot_name": "よこはま動物園ズーラシアの桜",
+    "prefecture": "神奈川県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kawaduzakura",
+      "yoko",
+      "someiyoshino",
+      "jugatsu-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0516e60164",
+    "spot_name": "小矢部川公園千本桜",
+    "prefecture": "富山県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "koshi-no-higan",
+      "koshinohigan-kimurakabu",
+      "koshinohigan_koshimuragenboku",
+      "edohigan-mukaino",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e60262",
+    "spot_name": "蓮華寺池公園の桜",
+    "prefecture": "静岡県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kawaduzakura",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e26116",
+    "spot_name": "平安神宮 神苑の桜",
+    "prefecture": "京都府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "higan-zakura",
+      "yaebenishidare-sanokei",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura",
+      "oshimazakura",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "ukon"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0727e26138",
+    "spot_name": "万博記念公園の桜",
+    "prefecture": "大阪府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "higan-zakura",
+      "oshimazakura",
+      "シロヤマザクラ",
+      "jugatsu-zakura",
+      "shidarezakura",
+      "jindai-akebono",
+      "kanhizakura",
+      "someiyoshino",
+      "yamazakura",
+      "edohigan-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar1043e60309",
+    "spot_name": "湯の児チェリーラインの桜",
+    "prefecture": "熊本県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0311e60438",
+    "spot_name": "慈光山歴史公苑の桜",
+    "prefecture": "埼玉県",
+    "variety_raw": "里ざくらコレクション約50種の詳細品種",
+    "current_varieties": [
+      "surugadai-nioi",
+      "fugenzou",
+      "someiyoshino",
+      "gyoikou",
+      "ichiyou",
+      "kawaduzakura"
+    ]
+  }
+]

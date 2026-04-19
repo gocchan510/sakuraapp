@@ -1,0 +1,130 @@
+[
+  {
+    "spot_id": "walker-ar0202e25561",
+    "spot_name": "合浦公園の桜",
+    "prefecture": "青森県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "ukon",
+      "kanhizakura",
+      "kanzan",
+      "someiyoshino",
+      "shidarezakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25796",
+    "spot_name": "千葉市動物公園の桜",
+    "prefecture": "千葉県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "oshimazakura",
+      "beni-shidare",
+      "chiharazakura",
+      "yoko",
+      "kanzan",
+      "gyoikou",
+      "jindai-akebono",
+      "someiyoshino",
+      "ichiharatoranoo",
+      "kawaduzakura",
+      "yamazakura",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e380154",
+    "spot_name": "大島小松川公園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "ukon",
+      "keio-zakura",
+      "kanzan",
+      "gyoikou",
+      "shidarezakura",
+      "someiyoshino",
+      "oshimazakura",
+      "edohigan-zakura",
+      "ooyamazakura",
+      "yaebenishidare-sanokei"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0314e382205",
+    "spot_name": "鎌倉大仏殿高徳院の桜",
+    "prefecture": "神奈川県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "tamanawa-zakura",
+      "シロヤマザクラ",
+      "yoko",
+      "zuisenji-fuyuzakura",
+      "someiyoshino",
+      "yamazakura",
+      "oshimazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0621e60232",
+    "spot_name": "平田公園と大榑川の桜並木(平田靱負ロード)",
+    "prefecture": "岐阜県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0623e381928",
+    "spot_name": "庄内緑地の桜",
+    "prefecture": "愛知県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "shidarezakura",
+      "kanzan",
+      "jugatsu-zakura",
+      "kobuku-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e401387",
+    "spot_name": "元離宮二条城の桜",
+    "prefecture": "京都府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "keio-zakura",
+      "kanhizakura",
+      "someiyoshino",
+      "yaebenishidare-sanokei",
+      "shidarezakura",
+      "yamazakura",
+      "fugenzou"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0728e494862",
+    "spot_name": "しあわせの村の桜",
+    "prefecture": "兵庫県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0727e26137",
+    "spot_name": "大阪城公園の桜",
+    "prefecture": "大阪府",
+    "variety_raw": "サトザクラ",
+    "current_varieties": [
+      "yamazakura",
+      "oshima-zakura",
+      "shidarezakura",
+      "someiyoshino",
+      "oshimazakura",
+      "kanzan"
+    ]
+  }
+]

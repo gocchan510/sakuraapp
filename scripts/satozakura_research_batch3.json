@@ -1,0 +1,83 @@
+[
+  {
+    "spot_id": "walker-ar0202e25565",
+    "spot_name": "八戸公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["八重桜（ヤエザクラ）"],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0202e25565/",
+    "notes": "各サイトで「里桜」「ヤエザクラ」という一般名称のみ確認。具体的なサトザクラ品種名の記載なし"
+  },
+  {
+    "spot_id": "walker-ar0312e382570",
+    "spot_name": "千葉市昭和の森の桜",
+    "found_variety_ids": ["kanzan", "taihaku"],
+    "unmatched_names": ["糸括", "白雪", "八重紅枝垂"],
+    "confidence": "high",
+    "source_url": "https://www.showano-mori.jp/page/15",
+    "notes": "昭和の森公式サイトに品種リストあり。関山・普賢象・太白・糸括・白雪・八重紅枝垂が明記。普賢象(fugenzou)は既存。太白(taihaku)・関山(kanzan)が新規追加候補。糸括・白雪は対応ID不明"
+  },
+  {
+    "spot_id": "walker-ar0313e460683",
+    "spot_name": "御殿山トラストシティの桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0313e460683/",
+    "notes": "複数サイト確認したが具体的なサトザクラ品種名の記載なし"
+  },
+  {
+    "spot_id": "walker-ar0415e60125",
+    "spot_name": "魚野川桜づつみの桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://www.iine-uonuma.jp/activity/natural_landscape/sakuradutumi/",
+    "notes": "「ソメイヨシノ、里桜、オオヤマザクラ」の一般名称のみ。具体的品種名不明"
+  },
+  {
+    "spot_id": "walker-ar0622e26044",
+    "spot_name": "はままつフラワーパークの桜",
+    "found_variety_ids": ["kanzan"],
+    "unmatched_names": [],
+    "confidence": "high",
+    "source_url": "https://www.japan47go.travel/ja/detail/2189a7c8-028b-4f6a-8a09-5d4679864a3b",
+    "notes": "複数サイトで「関山・普賢象など多くの種類」と明記。普賢象(fugenzou)は既存。関山(kanzan)が新規追加候補。160品種1700本"
+  },
+  {
+    "spot_id": "walker-ar0623e380519",
+    "spot_name": "138タワーパークの桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://www.kisosansenkoen.jp/~tower138/m138event_sakura.html",
+    "notes": "公式サイトで計10品種確認されたが「里桜」の具体的品種名は不明"
+  },
+  {
+    "spot_id": "walker-ar0726e428584",
+    "spot_name": "三段池公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["薄墨桜"],
+    "confidence": "low",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0726e428584/",
+    "notes": "確認された品種は全て既存リストに含まれる。「里桜」に含まれる関山・普賢象等の具体的記載なし"
+  },
+  {
+    "spot_id": "walker-ar0730e26177",
+    "spot_name": "和歌山城の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["ボタンザクラ（牡丹桜）"],
+    "confidence": "low",
+    "source_url": "https://rurubu.jp/andmore/spot/80031872/sakura",
+    "notes": "ボタンザクラはサトザクラの別称（総称）であり具体的品種名ではない"
+  },
+  {
+    "spot_id": "walker-ar0313e25836",
+    "spot_name": "水元公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://www.tokyo-park.or.jp/park/mizumoto/index.html",
+    "notes": "「ソメイヨシノ、シダレザクラ、ヤマザクラ、サトザクラ」の一般名称のみ"
+  }
+]

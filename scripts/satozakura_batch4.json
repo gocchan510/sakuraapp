@@ -1,0 +1,101 @@
+[
+  {
+    "spot_id": "walker-ar0202e25571",
+    "spot_name": "県立芦野公園の桜",
+    "prefecture": "青森県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25780",
+    "spot_name": "茂原公園の桜",
+    "prefecture": "千葉県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "fuyu-zakura",
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e60557",
+    "spot_name": "駒沢オリンピック公園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0420e60593",
+    "spot_name": "千人塚公園の桜",
+    "prefecture": "長野県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "gyoikou",
+      "someiyoshino",
+      "jindai-akebono"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0622e60238",
+    "spot_name": "粟ヶ岳の桜",
+    "prefecture": "静岡県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kakegawa-zakura",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0623e62095",
+    "spot_name": "愛知こどもの国の桜",
+    "prefecture": "愛知県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "gyoikou",
+      "シロヤマザクラ",
+      "kanhizakura",
+      "someiyoshino",
+      "yamazakura",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0727e26136",
+    "spot_name": "毛馬桜之宮公園の桜",
+    "prefecture": "大阪府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0834e26246",
+    "spot_name": "福山城公園の桜",
+    "prefecture": "広島県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "yamazakura",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0207e25684",
+    "spot_name": "磐椅神社 大鹿桜",
+    "prefecture": "福島県",
+    "variety_raw": "里桜 (八重桜小菊桜)",
+    "current_varieties": [
+      "ichiyou"
+    ]
+  }
+]

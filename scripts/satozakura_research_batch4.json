@@ -1,0 +1,83 @@
+[
+  {
+    "spot_id": "walker-ar0202e25571",
+    "spot_name": "県立芦野公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0202e25571/",
+    "notes": "複数サイトで「里桜」という総称のみ。具体的品種名は公開情報では確認できず"
+  },
+  {
+    "spot_id": "walker-ar0312e25780",
+    "spot_name": "茂原公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0312e25780/",
+    "notes": "「ソメイヨシノや里桜など約2000本」とあるが具体的品種名の記載なし"
+  },
+  {
+    "spot_id": "walker-ar0313e60557",
+    "spot_name": "駒沢オリンピック公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0313e60557/",
+    "notes": "「約100本のソメイヨシノとサトザクラ」とあるが里桜の具体的品種名は確認できず"
+  },
+  {
+    "spot_id": "walker-ar0420e60593",
+    "spot_name": "千人塚公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": ["ヤエザクラ（八重桜）"],
+    "confidence": "low",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0420e60593/",
+    "notes": "御衣黄(gyoikou)は既存。ヤエザクラは総称。個別品種名は確認できず"
+  },
+  {
+    "spot_id": "walker-ar0622e60238",
+    "spot_name": "粟ヶ岳の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0622e60238/",
+    "notes": "「ソメイヨシノ、里桜、山桜など約500本」とあるが具体的品種名は確認できず"
+  },
+  {
+    "spot_id": "walker-ar0623e62095",
+    "spot_name": "愛知こどもの国の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0623e62095/",
+    "notes": "御衣黄(gyoikou)・寒緋桜(kanhizakura)は既存。里桜の具体的品種名は記載なし"
+  },
+  {
+    "spot_id": "walker-ar0727e26136",
+    "spot_name": "毛馬桜之宮公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0727e26136/",
+    "notes": "「ソメイヨシノ、山桜、里桜など約4800本」とあるが具体的品種名は確認できず"
+  },
+  {
+    "spot_id": "walker-ar0834e26246",
+    "spot_name": "福山城公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0834e26246/",
+    "notes": "「ソメイヨシノ、里桜、山桜など約300本」とあるが具体的品種名は確認できず"
+  },
+  {
+    "spot_id": "walker-ar0207e25684",
+    "spot_name": "磐椅神社 大鹿桜",
+    "found_variety_ids": ["kiku-zakura"],
+    "unmatched_names": [],
+    "confidence": "high",
+    "source_url": "https://iwahashijinja.jp/guidance-01-2/",
+    "notes": "磐椅神社公式サイトに「天暦元年(947)奉納のサトザクラの一品種・八重桜（子菊桜）」と明記。磐梯山ジオパーク・会津全集でも「菊咲きのサトザクラ」「子菊桜」と確認。「里桜(八重桜小菊桜)」の記述と一致"
+  }
+]

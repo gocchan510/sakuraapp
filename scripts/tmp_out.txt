@@ -1,0 +1,30 @@
+id: accolade
+name: アーコレード
+reading: あーこれーど
+aliases: 
+tags: ['八重咲', '大輪', '二季咲き', '海外品種']
+
+id: aizu-usuzumi
+name: 会津薄墨
+reading: あいづうすずみ
+aliases: 
+tags: ['八重咲', '大輪', '天然記念物', '福島県']
+
+id: akashinju
+name: 赤真珠
+reading: あかしんじゅ
+aliases: 
+tags: ['一重咲', '中輪', '早咲き', '交配品種']
+
+id: akatsuki-naden
+name: 暁南殿
+reading: あかつきなでん
+aliases: 
+tags: ['半八重咲', '大輪', '松前品種', '北海道']
+
+id: akabana-mazakura
+name: 赤花真桜
+reading: あかばなまざくら
+aliases: 
+tags: ['一重咲', '大輪', '台木品種', '江戸時代']
+

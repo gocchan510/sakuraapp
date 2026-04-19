@@ -1,0 +1,36 @@
+=== 円山公園の桜(北海道) (北海道) ===
+  status: improved
+  raw: ソメイヨシノ、蝦夷山桜(エゾヤマザクラ)
+  matched: [('ソメイヨシノ', 'someiyoshino'), ('蝦夷山桜(エゾヤマザクラ)', 'ezoyamazakura')]
+  unmatched: []
+  NEW IDs: ['someiyoshino', 'ezoyamazakura']
+
+=== 弘前公園(鷹揚公園)の桜 (青森県) ===
+  status: improved+etc
+  raw: 八重桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、エドヒガン、カスミザクラ、弘前雪明かり(弘前発祥の八重桜)、など全52品種
+  全52品種フラグ
+  matched: [('八重桜', 'kanzan'), ('ソメイヨシノ', 'someiyoshino'), ('山桜', 'yamazakura'), ('しだれ桜', 'shidarezakura'), ('寒緋桜', 'kanhizakura'), ('大島桜', 'oshimazakura'), ('エドヒガン', 'edohigan-zakura'), ('カスミザクラ', 'kasumizakura'), ('弘前雪明かり(弘前発祥の八重桜)', 'hirosaki-yukiakari')]
+  unmatched: []
+  NEW IDs: ['edohigan-zakura']
+
+=== 新宿御苑の桜 (東京都) ===
+  status: improved
+  raw: 河津桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、エドヒガン、カンザクラ類、一葉、関山、普賢象
+  matched: [('河津桜', 'kawaduzakura'), ('ソメイヨシノ', 'someiyoshino'), ('山桜', 'yamazakura'), ('しだれ桜', 'shidarezakura'), ('寒緋桜', 'kanhizakura'), ('大島桜', 'oshimazakura'), ('エドヒガン', 'edohigan-zakura'), ('一葉', 'ichiyou'), ('関山', 'kanzan'), ('普賢象', 'fugenzou')]
+  unmatched: ['カンザクラ類']
+  NEW IDs: ['edohigan-zakura']
+
+=== 松前公園の桜 (北海道) ===
+  status: matched
+  raw: ソメイヨシノ、蝦夷霞桜、糸括、関山、雨宿、鬱金、南殿桜
+  matched: [('ソメイヨシノ', 'someiyoshino'), ('糸括', 'itokukuri'), ('関山', 'kanzan'), ('雨宿', 'amayadori'), ('鬱金', 'ukon')]
+  unmatched: ['蝦夷霞桜', '南殿桜']
+  NEW IDs: []
+
+=== 西新井大師の桜 (東京都) ===
+  status: improved
+  raw: 河津桜、八重桜、ソメイヨシノ、しだれ桜、彼岸桜、大島桜、寒桜、安行桜
+  matched: [('河津桜', 'kawaduzakura'), ('八重桜', 'kanzan'), ('ソメイヨシノ', 'someiyoshino'), ('しだれ桜', 'shidarezakura'), ('彼岸桜', 'higan-zakura'), ('大島桜', 'oshimazakura'), ('寒桜', 'kanzakura'), ('安行桜', 'angyo-zakura')]
+  unmatched: []
+  NEW IDs: ['kanzan', 'someiyoshino', 'shidarezakura', 'oshimazakura', 'angyo-zakura']
+

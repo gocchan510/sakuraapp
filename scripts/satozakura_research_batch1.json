@@ -1,0 +1,83 @@
+[
+  {
+    "spot_id": "walker-ar0101e60100",
+    "spot_name": "芦別市旭ケ丘公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0101e60100/",
+    "notes": "「エゾヤマザクラ、ソメイヨシノ、里桜」の記載はあるが里桜の具体的品種名は見当たらず"
+  },
+  {
+    "spot_id": "walker-ar0312e25772",
+    "spot_name": "泉自然公園の桜",
+    "found_variety_ids": ["kanzan", "fugenzou", "yaebenishidare-sanokei"],
+    "unmatched_names": [],
+    "confidence": "high",
+    "source_url": "https://izumi-park.city.chiba.jp/book.php",
+    "notes": "公式サイト花鳥図鑑ページに「カンザン（関山）」「フゲンゾウ（普賢象）」「ヤエベニシダレ（八重紅枝垂）」の3品種が明記。計20種約1500本"
+  },
+  {
+    "spot_id": "walker-ar0313e60409",
+    "spot_name": "清澄庭園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://weathernews.jp/sakura/spot/44016/",
+    "notes": "自由広場のサトザクラ（全9本）の具体的品種名は公開情報に見当たらず"
+  },
+  {
+    "spot_id": "walker-ar0314e381578",
+    "spot_name": "生田緑地の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0314e381578/",
+    "notes": "公式で「中央地区 桜探訪MAP」を配布中（現地ビジターセンターのみ）。ウェブ上では里桜の具体的品種名は非公開"
+  },
+  {
+    "spot_id": "walker-ar0517e60412",
+    "spot_name": "能登町柳田植物公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://www.hot-ishikawa.jp/spot/detail_6642.html",
+    "notes": "サトザクラ100本・ヤエザクラ20本の植栽記録はあるが具体的品種名は記載なし"
+  },
+  {
+    "spot_id": "walker-ar0623e381919",
+    "spot_name": "平和公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0623e381919/",
+    "notes": "「里桜」の具体的品種名はウェブ上に公開されていない"
+  },
+  {
+    "spot_id": "walker-ar0726e380418",
+    "spot_name": "国立京都国際会館の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0726e380418/",
+    "notes": "「八重桜、ソメイヨシノ、しだれ桜、神代曙、里桜」の記載はあるが里桜の具体的品種名は不明"
+  },
+  {
+    "spot_id": "walker-ar0728e381579",
+    "spot_name": "神戸総合運動公園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar0728e381579/",
+    "notes": "「ソメイヨシノ、しだれ桜、里桜」の記載はあるが具体的品種名はウェブ上に公開されていない"
+  },
+  {
+    "spot_id": "walker-ar1046e60314",
+    "spot_name": "国指定名勝 仙巌園の桜",
+    "found_variety_ids": [],
+    "unmatched_names": [],
+    "confidence": "not_found",
+    "source_url": "https://hanami.walkerplus.com/detail/ar1046e60314/",
+    "notes": "「カンヒザクラ、ヤマザクラ、ソメイヨシノ、サトザクラ約150本」の記載はあるが具体的品種名は不明"
+  }
+]

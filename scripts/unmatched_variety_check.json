@@ -1,0 +1,179 @@
+{
+  "matched": [
+    {
+      "name": "糸括",
+      "spot": "昭和の森",
+      "id": "itokukuri",
+      "var_name": "糸括"
+    },
+    {
+      "name": "白雪",
+      "spot": "昭和の森",
+      "id": "shirayuki",
+      "var_name": "白雪"
+    },
+    {
+      "name": "八重紅枝垂",
+      "spot": "昭和の森",
+      "id": "yaebenishidare-sanokei",
+      "var_name": "八重紅枝垂(佐野系）"
+    },
+    {
+      "name": "阿岸小菊桜",
+      "spot": "慈光山",
+      "id": "agishi-kogiku-zakura",
+      "var_name": "阿岸小菊桜"
+    },
+    {
+      "name": "鴛鴦桜",
+      "spot": "慈光山",
+      "id": "oshidorizakura",
+      "var_name": "鴛鴦桜"
+    },
+    {
+      "name": "八重紅大島",
+      "spot": "慈光山",
+      "id": "yaebeni-ohshima",
+      "var_name": "八重紅大島"
+    },
+    {
+      "name": "花笠",
+      "spot": "慈光山",
+      "id": "hanagasa",
+      "var_name": "花笠"
+    },
+    {
+      "name": "南殿",
+      "spot": "慈光山",
+      "id": "takasago",
+      "var_name": "高砂"
+    },
+    {
+      "name": "舞姫",
+      "spot": "慈光山",
+      "id": "maihime",
+      "var_name": "舞姫"
+    },
+    {
+      "name": "火打谷菊桜",
+      "spot": "慈光山",
+      "id": "hiuchidani-kikuzakura",
+      "var_name": "火打谷菊桜"
+    },
+    {
+      "name": "大提灯",
+      "spot": "慈光山",
+      "id": "ojochin",
+      "var_name": "大提灯"
+    },
+    {
+      "name": "鵯桜",
+      "spot": "慈光山",
+      "id": "hiyodorizakura",
+      "var_name": "鵯桜"
+    },
+    {
+      "name": "須磨浦普賢象",
+      "spot": "慈光山",
+      "id": "sumaura-fugenzo",
+      "var_name": "須磨浦普賢象"
+    },
+    {
+      "name": "旗桜",
+      "spot": "慈光山",
+      "id": "ハタザクラ",
+      "var_name": "旗桜"
+    },
+    {
+      "name": "蘭蘭",
+      "spot": "慈光山",
+      "id": "ranran",
+      "var_name": "蘭蘭"
+    },
+    {
+      "name": "松前早咲",
+      "spot": "慈光山",
+      "id": "matsumae-hayazaki",
+      "var_name": "松前早咲"
+    },
+    {
+      "name": "永源寺",
+      "spot": "慈光山",
+      "id": "eigenji",
+      "var_name": "永源寺"
+    },
+    {
+      "name": "紅時雨",
+      "spot": "慈光山",
+      "id": "beni-shigure",
+      "var_name": "紅時雨"
+    },
+    {
+      "name": "朱雀",
+      "spot": "慈光山",
+      "id": "スザク",
+      "var_name": "朱雀"
+    },
+    {
+      "name": "仙台屋",
+      "spot": "慈光山",
+      "id": "sendaiya",
+      "var_name": "仙台屋"
+    },
+    {
+      "name": "紅豊",
+      "spot": "慈光山",
+      "id": "beniyutaka",
+      "var_name": "紅豊"
+    },
+    {
+      "name": "大村桜",
+      "spot": "慈光山",
+      "id": "omurazakura",
+      "var_name": "大村桜"
+    },
+    {
+      "name": "鬱金",
+      "spot": "二条城",
+      "id": "ukon",
+      "var_name": "鬱金"
+    }
+  ],
+  "not_matched": [
+    {
+      "name": "糸くくり",
+      "spot": "慈光山",
+      "partials": []
+    },
+    {
+      "name": "雲珠桜",
+      "spot": "慈光山",
+      "partials": []
+    },
+    {
+      "name": "敬翁桜",
+      "spot": "慈光山",
+      "partials": []
+    },
+    {
+      "name": "雨宿り",
+      "spot": "慈光山",
+      "partials": [
+        "amayadori"
+      ]
+    },
+    {
+      "name": "稚木ノ桜",
+      "spot": "慈光山",
+      "partials": []
+    },
+    {
+      "name": "梅護寺数珠掛",
+      "spot": "慈光山",
+      "partials": [
+        "baigoji-juzukakezakura",
+        "baigoji-juzukakezakura"
+      ]
+    }
+  ]
+}

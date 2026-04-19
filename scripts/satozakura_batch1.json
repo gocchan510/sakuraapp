@@ -1,0 +1,111 @@
+[
+  {
+    "spot_id": "walker-ar0101e60100",
+    "spot_name": "芦別市旭ケ丘公園の桜",
+    "prefecture": "北海道",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "シロヤマザクラ",
+      "yamazakura",
+      "shidarezakura",
+      "ezoyamazakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0312e25772",
+    "spot_name": "泉自然公園の桜",
+    "prefecture": "千葉県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "shidarezakura",
+      "oshimazakura",
+      "someiyoshino",
+      "yamazakura",
+      "uwamizu-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0313e60409",
+    "spot_name": "清澄庭園の桜",
+    "prefecture": "東京都",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kanhizakura",
+      "someiyoshino"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0314e381578",
+    "spot_name": "生田緑地の桜",
+    "prefecture": "神奈川県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kiccho",
+      "シロヤマザクラ",
+      "yamazakura",
+      "someiyoshino",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0517e60412",
+    "spot_name": "能登町柳田植物公園の桜",
+    "prefecture": "石川県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "シロヤマザクラ",
+      "someiyoshino",
+      "oshimazakura",
+      "yamazakura",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0623e381919",
+    "spot_name": "平和公園の桜",
+    "prefecture": "愛知県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "shidarezakura",
+      "シロヤマザクラ",
+      "someiyoshino",
+      "yamazakura",
+      "edohigan-zakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0726e380418",
+    "spot_name": "国立京都国際会館の桜",
+    "prefecture": "京都府",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "jindai-akebono",
+      "someiyoshino",
+      "shidarezakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar0728e381579",
+    "spot_name": "神戸総合運動公園の桜",
+    "prefecture": "兵庫県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "someiyoshino",
+      "shidarezakura",
+      "kanhizakura"
+    ]
+  },
+  {
+    "spot_id": "walker-ar1046e60314",
+    "spot_name": "国指定名勝 仙巌園の桜",
+    "prefecture": "鹿児島県",
+    "variety_raw": "里桜",
+    "current_varieties": [
+      "kanhizakura",
+      "シロヤマザクラ",
+      "yamazakura",
+      "someiyoshino"
+    ]
+  }
+]
