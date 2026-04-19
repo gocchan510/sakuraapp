@@ -146,6 +146,37 @@ app.post('/api/debug/test-push', async (c) => {
   return c.json(res)
 })
 
+// Debug: per-spot variety status
+app.get('/api/debug/spot-varieties/:id', async (c) => {
+  const token = c.req.header('x-api-token') || ''
+  if (!env.DEBUG_API_TOKEN || token !== env.DEBUG_API_TOKEN) {
+    return c.json({ error: 'forbidden' }, 403)
+  }
+  const id = c.req.param('id')
+  const { getSpot } = await import('./spotLookup.ts')
+  const { varietiesById, getVarietyBloomStatus, computeSpotBloom } = await import('../../shared/spotBloom.ts')
+  const { getSomeiyoshinoDate, hasOffsetData } = await import('../../shared/bloomOffset.ts')
+  const spot = getSpot(id)
+  if (!spot) return c.json({ error: 'not found' }, 404)
+  const today = new Date()
+  const soDate = (spot.lat && spot.lng && hasOffsetData())
+    ? getSomeiyoshinoDate(spot.lat, spot.lng)
+    : getSomeiyoshinoDate(35.6895, 139.6917)
+  const vs = (spot.varieties ?? []).map(vid => {
+    const v = varietiesById.get(vid)
+    if (!v) return { id: vid, found: false }
+    const status = getVarietyBloomStatus(v.bloomGroup, v.someiyoshinoOffset, soDate, today)
+    return { id: vid, name: v.name, bloomGroup: v.bloomGroup, offset: v.someiyoshinoOffset, status }
+  })
+  return c.json({
+    today: today.toISOString(),
+    spot: { id: spot.id, name: spot.name, lat: spot.lat, lng: spot.lng },
+    someiyoshinoDate: soDate.toISOString(),
+    spotBloom: computeSpotBloom(spot, today),
+    varieties: vs,
+  })
+})
+
 const port = env.PORT
 console.log(`[sakura-push] listening on :${port}`)
 serve({ fetch: app.fetch, port })
