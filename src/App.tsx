@@ -7,6 +7,9 @@ import {
 import varietiesData from './data/varieties.json'
 import { LangProvider, useLang, type Lang } from './contexts/LangContext'
 import { FavoritesProvider } from './contexts/FavoritesContext'
+import { SettingsModal } from './components/SettingsModal'
+import { PushSoftPrompt } from './components/PushSoftPrompt'
+import './styles/settings.css'
 import type { Variety } from './types'
 
 // ── コード分割：ルート単位で lazy load ──────────────────────────────────
@@ -157,10 +160,19 @@ function TabLayout() {
   const location = useLocation()
   const isMap    = location.pathname === '/map'
   const { mode, onInstall, onDismiss } = useInstallBanner()
+  const [settingsOpen, setSettingsOpen] = useState(false)
 
   return (
     <div className={`app${isMap ? ' app--map' : ''}`}>
       <Outlet />
+      <button
+        className="settings-btn"
+        onClick={() => setSettingsOpen(true)}
+        aria-label="Settings"
+        title="Settings"
+      >⚙️</button>
+      <SettingsModal open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+      <PushSoftPrompt />
       <InstallBanner mode={mode} onInstall={onInstall} onDismiss={onDismiss} />
 
       <nav className="tab-bar">

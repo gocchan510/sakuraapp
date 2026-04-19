@@ -61,6 +61,25 @@ export interface Strings {
     varietyCountLabel: string
   }
   lang: { title: string; ja: string; 'zh-TW': string; en: string; close: string }
+  settings: {
+    title: string
+    close: string
+    langSection: string
+    notifSection: string
+    notifToggle: string
+    notifNote: string
+    notifDenied: string
+    notifUnsupported: string
+    notifUnavailable: string
+    working: string
+    errorRetry: string
+  }
+  softPrompt: {
+    title: string
+    body: string
+    acceptBtn: string
+    laterBtn: string
+  }
   loading: { text: string }
   install: { android: string; ios: string; addBtn: string; closeBtn: string }
   map: {
@@ -137,6 +156,25 @@ const ja: Strings = {
     varietyCountLabel: '品種',
   },
   lang: { title: '言語', ja: '日本語', 'zh-TW': '繁體中文', en: 'English', close: '閉じる' },
+  settings: {
+    title: '⚙️ 設定',
+    close: '閉じる',
+    langSection: '言語',
+    notifSection: '通知',
+    notifToggle: '開花通知を受け取る',
+    notifNote: 'お気に入り登録したスポットが見頃になると通知されます。',
+    notifDenied: 'ブラウザの通知が拒否されています。ブラウザ設定から有効化してください。',
+    notifUnsupported: 'このブラウザは通知に対応していません。',
+    notifUnavailable: '通知機能は現在利用できません。',
+    working: '処理中...',
+    errorRetry: 'エラーが発生しました。もう一度お試しください。',
+  },
+  softPrompt: {
+    title: '🌸 見頃通知を受け取りますか？',
+    body: 'お気に入りのスポットが見頃になったら通知でお知らせします。',
+    acceptBtn: '通知を受け取る',
+    laterBtn: 'あとで',
+  },
   loading: { text: '読み込み中...' },
   install: {
     android: '🌸 ホーム画面に追加してアプリとして使えます',
@@ -224,6 +262,25 @@ const zhTW: Strings = {
     varietyCountLabel: '個品種',
   },
   lang: { title: '語言', ja: '日本語', 'zh-TW': '繁體中文', en: 'English', close: '關閉' },
+  settings: {
+    title: '⚙️ 設定',
+    close: '關閉',
+    langSection: '語言',
+    notifSection: '通知',
+    notifToggle: '接收開花通知',
+    notifNote: '當您收藏的景點進入賞花期時會通知您。',
+    notifDenied: '瀏覽器通知已被拒絕。請在瀏覽器設定中啟用。',
+    notifUnsupported: '此瀏覽器不支援通知。',
+    notifUnavailable: '通知功能目前無法使用。',
+    working: '處理中...',
+    errorRetry: '發生錯誤，請再試一次。',
+  },
+  softPrompt: {
+    title: '🌸 要接收賞花通知嗎？',
+    body: '當您收藏的景點進入賞花期時，我們會通知您。',
+    acceptBtn: '接收通知',
+    laterBtn: '稍後',
+  },
   loading: { text: '讀取中...' },
   install: {
     android: '🌸 加入主畫面，像 App 一樣使用',
@@ -311,6 +368,25 @@ const en: Strings = {
     varietyCountLabel: 'varieties',
   },
   lang: { title: 'Language', ja: '日本語', 'zh-TW': '繁體中文', en: 'English', close: 'Close' },
+  settings: {
+    title: '⚙️ Settings',
+    close: 'Close',
+    langSection: 'Language',
+    notifSection: 'Notifications',
+    notifToggle: 'Receive bloom notifications',
+    notifNote: "You'll be notified when your favorited spots reach peak bloom.",
+    notifDenied: 'Notifications are blocked. Please enable them in your browser settings.',
+    notifUnsupported: 'This browser does not support notifications.',
+    notifUnavailable: 'Notifications are currently unavailable.',
+    working: 'Working...',
+    errorRetry: 'An error occurred. Please try again.',
+  },
+  softPrompt: {
+    title: '🌸 Get bloom alerts?',
+    body: "We'll notify you when your favorited spots reach peak bloom.",
+    acceptBtn: 'Enable notifications',
+    laterBtn: 'Maybe later',
+  },
   loading: { text: 'Loading...' },
   install: {
     android: '🌸 Add to Home Screen to use as an app',
