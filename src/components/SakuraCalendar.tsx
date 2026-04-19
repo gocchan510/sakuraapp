@@ -4,8 +4,9 @@ import varietiesData from '../data/varieties.json'
 import prefectureVarietiesData from '../data/prefectureVarieties.json'
 import type { Variety } from '../types'
 import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom } from '../utils/bloomOffset'
-import { statusFromWindow } from '../utils/spotBloom'
+import { statusFromWindow, type BloomStatus } from '../utils/spotBloom'
 import { PREFS_LIST, PREF_COORDS, detectPrefecture, getCachedPrefecture } from '../utils/prefectureUtils'
+import { useLang } from '../contexts/LangContext'
 
 const varieties = varietiesData as unknown as Variety[]
 
@@ -74,22 +75,40 @@ function formatDateLabel(d: Date): string {
   return `${m}月${day}日（${dow}）`
 }
 
-const RARITY_LABELS: Record<number, string> = {
-  5: '★★★★★ 超レア',
-  4: '★★★★ とても珍しい',
-  3: '★★★ 珍しい',
-  2: '★★ やや珍しい',
-  1: '★ よく見る',
-}
+// RARITY_LABELS and PHASE_OPTIONS are now derived from useLang() inside the component
 
-const CALENDAR_TODAY = new Date()
+type DayEntry = { variety: Variety; phase: BloomStatus }
 
 export function SakuraCalendar() {
   const navigate = useNavigate()
+  const { t, tVariety } = useLang()
+  const cal = t('calendar')
+
+  const RARITY_LABELS = cal.rarityLabels
+  const PHASE_OPTIONS: { key: string; label: string }[] = [
+    { key: 'opening',  label: cal.phaseOpening },
+    { key: 'in_bloom', label: cal.phaseInBloom },
+    { key: 'falling',  label: cal.phaseFalling },
+  ]
+
   const todayKey = getTodayKey()
   const [selectedKey, setSelectedKey] = useState(todayKey)
   const [selectedPref, setSelectedPref] = useState<string>('全国')
   const [geoLoading, setGeoLoading] = useState(false)
+  const [phaseFilter, setPhaseFilter] = useState<Set<string>>(() => new Set(['in_bloom']))
+
+  function togglePhase(phase: string) {
+    setPhaseFilter(prev => {
+      const next = new Set(prev)
+      if (next.has(phase)) {
+        if (next.size === 1) return prev // 最低1つ選択
+        next.delete(phase)
+      } else {
+        next.add(phase)
+      }
+      return next
+    })
+  }
 
   const heatmapRef = useRef<HTMLDivElement>(null)
 
@@ -127,19 +146,19 @@ export function SakuraCalendar() {
     )
     const filteredVarieties = varieties.filter(v => allowedIds.has(v.id))
 
-    const map = new Map<string, Variety[]>()
+    const map = new Map<string, DayEntry[]>()
 
     filteredVarieties.forEach(v => {
       const win = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, soDate)
       if (!win) {
-        // fuyu 品種の秋の開花（10〜11月）
+        // fuyu 品種の秋の開花（10〜11月）は満開扱い
         if (v.bloomGroup === 'fuyu') {
           DAYS.forEach(d => {
             const m = d.getMonth() + 1
             if (m >= 10 && m <= 11) {
               const key = toDateKey(d)
               if (!map.has(key)) map.set(key, [])
-              map.get(key)!.push(v)
+              map.get(key)!.push({ variety: v, phase: 'in_bloom' })
             }
           })
         }
@@ -148,8 +167,9 @@ export function SakuraCalendar() {
       DAYS.forEach(d => {
         if (d >= win.start && d <= win.end) {
           const key = toDateKey(d)
+          const phase = statusFromWindow(win, d)
           if (!map.has(key)) map.set(key, [])
-          map.get(key)!.push(v)
+          map.get(key)!.push({ variety: v, phase })
         }
       })
     })
@@ -157,28 +177,29 @@ export function SakuraCalendar() {
     return { dayMap: map, someiyoshinoDate: soDate }
   }, [selectedPref])
 
-  // ── 最大品種数（ヒートマップ強度計算用） ─────────────────────
+  // ── フェーズフィルタ適用後の最大品種数（ヒートマップ強度計算用） ─
   const maxCount = useMemo(() => {
     let max = 1
     for (const arr of dayMap.values()) {
-      if (arr.length > max) max = arr.length
+      const filtered = arr.filter(x => phaseFilter.has(x.phase)).length
+      if (filtered > max) max = filtered
     }
     return max
-  }, [dayMap])
+  }, [dayMap, phaseFilter])
 
-  // ── 選択日の品種リスト ────────────────────────────────────
+  // ── 選択日の品種リスト（フェーズフィルタ適用） ───────────────
   const selectedVarieties = useMemo(() => {
-    const arr = dayMap.get(selectedKey) ?? []
-    return [...arr].sort((a, b) => (b.rarity?.score ?? 0) - (a.rarity?.score ?? 0))
-  }, [selectedKey, dayMap])
+    const arr = (dayMap.get(selectedKey) ?? []).filter(x => phaseFilter.has(x.phase))
+    return [...arr].sort((a, b) => (b.variety.rarity?.score ?? 0) - (a.variety.rarity?.score ?? 0))
+  }, [selectedKey, dayMap, phaseFilter])
 
   // ── レア度グループ ────────────────────────────────────────
   const grouped = useMemo(() => {
-    const groups = new Map<number, Variety[]>()
-    selectedVarieties.forEach(v => {
-      const score = v.rarity?.score ?? 1
+    const groups = new Map<number, DayEntry[]>()
+    selectedVarieties.forEach(entry => {
+      const score = entry.variety.rarity?.score ?? 1
       if (!groups.has(score)) groups.set(score, [])
-      groups.get(score)!.push(v)
+      groups.get(score)!.push(entry)
     })
     return [...groups.entries()].sort((a, b) => b[0] - a[0])
   }, [selectedVarieties])
@@ -208,8 +229,8 @@ export function SakuraCalendar() {
   return (
     <div className="calendar-page">
       <div className="calendar-header">
-        <h1 className="calendar-title">🗓️ 桜カレンダー</h1>
-        <p className="calendar-subtitle">日付をタップして品種を確認</p>
+        <h1 className="calendar-title">{cal.title}</h1>
+        <p className="calendar-subtitle">{cal.subtitle}</p>
       </div>
 
       {/* 都道府県フィルタ */}
@@ -219,12 +240,12 @@ export function SakuraCalendar() {
           value={selectedPref}
           onChange={e => setSelectedPref(e.target.value)}
         >
-          <option value="全国">🌸 全国（東京基準）</option>
+          <option value="全国">🌸 {cal.prefecture}</option>
           {PREFS_LIST.map(p => (
             <option key={p} value={p}>{p}</option>
           ))}
         </select>
-        {geoLoading && <span className="calendar-pref-loading">📍 検出中...</span>}
+        {geoLoading && <span className="calendar-pref-loading">{cal.loadingPref}</span>}
       </div>
 
       {/* 月タブ */}
@@ -242,12 +263,25 @@ export function SakuraCalendar() {
         </div>
       </div>
 
+      {/* フェーズフィルタ */}
+      <div className="calendar-phase-filter">
+        {PHASE_OPTIONS.map(({ key, label }) => (
+          <button
+            key={key}
+            className={`cal-phase-chip${phaseFilter.has(key) ? ' active' : ''}`}
+            onClick={() => togglePhase(key)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
       {/* 日単位ヒートマップ */}
       <div className="calendar-heatmap-wrap" ref={heatmapRef}>
         <div className="calendar-heatmap">
           {DAYS.map(d => {
             const key = toDateKey(d)
-            const count = dayMap.get(key)?.length ?? 0
+            const count = (dayMap.get(key) ?? []).filter(x => phaseFilter.has(x.phase)).length
             const intensity = maxCount > 0 ? count / maxCount : 0
             const isSelected = key === selectedKey
             const isToday = key === todayKey
@@ -265,7 +299,7 @@ export function SakuraCalendar() {
                   `day-type-${dayType}`,
                 ].filter(Boolean).join(' ')}
                 onClick={() => setSelectedKey(key)}
-                title={`${formatDateLabel(d)}: ${count}品種`}
+                title={`${formatDateLabel(d)}: ${cal.varietyCount(count)}`}
               >
                 {/* バー */}
                 <div
@@ -292,30 +326,30 @@ export function SakuraCalendar() {
       {/* 選択日ヘッダー */}
       <div className="calendar-date-header">
         <span className="calendar-date-label">{formatDateLabel(selectedDate)}</span>
-        <span className="calendar-date-count">{selectedVarieties.length}品種</span>
-        {selectedKey === todayKey && <span className="calendar-date-now">← 今ここ</span>}
+        <span className="calendar-date-count">{cal.varietyCount(selectedVarieties.length)}</span>
+        {selectedKey === todayKey && <span className="calendar-date-now">{cal.nowHere}</span>}
       </div>
 
       {/* 品種リスト */}
       <div className="calendar-variety-list">
-        {grouped.map(([score, vars]) => (
+        {grouped.map(([score, entries]) => (
           <div key={score} className="calendar-rarity-group">
             <div className="calendar-rarity-label">{RARITY_LABELS[score] ?? `★${score}`}</div>
             <div className="calendar-variety-cards">
-              {vars.map(v => {
-                const nowInBloom = (() => {
-                  if (!v.bloomGroup) return false
-                  const w = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, someiyoshinoDate)
-                  return statusFromWindow(w, CALENDAR_TODAY) === 'in_bloom'
-                    || isFuyuAutumnBloom(v.bloomGroup, CALENDAR_TODAY)
-                })()
-                // 「今見頃」バッジ: 選択日が今日 OR 今日が bloom window 内
-                const showNowBadge = nowInBloom || selectedKey === todayKey && nowInBloom
+              {entries.map(({ variety: v, phase }) => {
+                const tv = tVariety(v)
+                const phaseBadge = cal.phaseBadge as Record<string, string>
+                const PHASE_BADGE: Partial<Record<string, { label: string; cls: string }>> = {
+                  in_bloom: { label: phaseBadge.in_bloom, cls: 'cal-phase--inbloom' },
+                  opening:  { label: phaseBadge.opening,  cls: 'cal-phase--opening' },
+                  falling:  { label: phaseBadge.falling,  cls: 'cal-phase--falling' },
+                }
+                const badge = PHASE_BADGE[phase]
                 return (
                   <div
                     key={v.id}
-                    className={`calendar-variety-card${showNowBadge ? ' calendar-variety-card--bloom' : ''}`}
-                    onClick={() => navigate(`/variety/${v.id}`, { state: { fromPref: selectedPref } })}
+                    className={`calendar-variety-card${phase === 'in_bloom' ? ' calendar-variety-card--bloom' : ''}`}
+                    onClick={() => navigate(`/variety/${v.id}`, { state: { fromPref: selectedPref, fromDate: selectedKey } })}
                   >
                     <div
                       className="calendar-variety-card__color"
@@ -326,9 +360,9 @@ export function SakuraCalendar() {
                       ) : (
                         <span className="calendar-variety-card__dot" style={{ background: v.colorCode }} />
                       )}
-                      {nowInBloom && <span className="calendar-variety-card__now">今見頃</span>}
+                      {badge && <span className={`calendar-variety-card__now ${badge.cls}`}>{badge.label}</span>}
                     </div>
-                    <div className="calendar-variety-card__name">{v.name}</div>
+                    <div className="calendar-variety-card__name">{tv.name}</div>
                     {v.rarity && (
                       <div className="calendar-variety-card__stars" data-score={v.rarity.score}>
                         {v.rarity.stars}
@@ -341,7 +375,7 @@ export function SakuraCalendar() {
           </div>
         ))}
         {selectedVarieties.length === 0 && (
-          <p className="calendar-empty">この日は開花データがありません</p>
+          <p className="calendar-empty">{cal.noVarieties}</p>
         )}
       </div>
     </div>

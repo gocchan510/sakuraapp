@@ -5,21 +5,14 @@ import type { BloomStatus } from '../utils/spotBloom'
 import { spotBloomCache } from '../utils/spotBloom'
 import { normalize } from '../utils/searchNormalize'
 import { SpotListCard } from './SpotListCard'
+import { useLang } from '../contexts/LangContext'
+import { useFavorites } from '../contexts/FavoritesContext'
 
 type RawSpot = typeof spotsData[number]
 const allSpots = spotsData as unknown as RawSpot[]
 
 // ── 都道府県リスト ───────────────────────────────────────────────
 const PREFS = [...new Set(allSpots.map(s => s.prefecture).filter(Boolean))].sort()
-
-// ── 見頃フィルタチップ ───────────────────────────────────────────
-const BLOOM_CHIPS: { key: BloomStatus | 'all'; label: string }[] = [
-  { key: 'all',        label: '全て' },
-  { key: 'in_bloom',   label: '🌸 見頃' },
-  { key: 'budding',    label: '🌱 もうすぐ' },
-  { key: 'past_bloom', label: '🍃 散り頃' },
-  { key: 'off_season', label: '⬜ 時期外' },
-]
 
 type SortKey = 'bloom' | 'popular' | 'distance'
 
@@ -47,6 +40,21 @@ const PAGE_SIZE = 50
 export function SpotListPage() {
   const navigate = useNavigate()
   const location = useLocation()
+  const { t } = useLang()
+  const spotsStr = t('spots')
+  const statusStr = t('status')
+  const { favoriteIds, count: favCount } = useFavorites()
+
+  const BLOOM_CHIPS: { key: BloomStatus | 'all'; label: string }[] = [
+    { key: 'all',        label: statusStr.all },
+    { key: 'in_bloom',   label: `🌸 ${statusStr.in_bloom}` },
+    { key: 'opening',    label: `🌷 ${statusStr.opening}` },
+    { key: 'falling',    label: `🍃 ${statusStr.falling}` },
+    { key: 'leaf',       label: `🌿 ${statusStr.leaf}` },
+    { key: 'budding',    label: `🌱 ${statusStr.budding}` },
+    { key: 'off_season', label: `⬜ ${statusStr.off_season}` },
+  ]
+
   const highlightSpotId = (location.state as { highlightSpotId?: string } | null)?.highlightSpotId
 
   // ── フィルタ状態（sessionStorage で保持） ───────────────────────
@@ -62,11 +70,15 @@ export function SpotListPage() {
   const [searchQuery, setSearchQuery] = useState(
     () => sessionStorage.getItem('spots-searchQuery') ?? ''
   )
+  const [favOnly, setFavOnly] = useState<boolean>(
+    () => sessionStorage.getItem('spots-favOnly') === '1'
+  )
 
   useEffect(() => { sessionStorage.setItem('spots-bloomFilter', bloomFilter) }, [bloomFilter])
   useEffect(() => { sessionStorage.setItem('spots-prefFilter', prefFilter) }, [prefFilter])
   useEffect(() => { sessionStorage.setItem('spots-sortKey', sortKey) }, [sortKey])
   useEffect(() => { sessionStorage.setItem('spots-searchQuery', searchQuery) }, [searchQuery])
+  useEffect(() => { sessionStorage.setItem('spots-favOnly', favOnly ? '1' : '0') }, [favOnly])
 
   // ── 検索デバウンス ───────────────────────────────────────────────
   const [debouncedQuery, setDebouncedQuery] = useState(searchQuery)
@@ -88,7 +100,7 @@ export function SpotListPage() {
         setGeoError(null)
       },
       () => {
-        setGeoError('現在地を取得できませんでした')
+        setGeoError(spotsStr.locationDenied)
         setSortKey('bloom')
       },
       { timeout: 10000 }
@@ -106,7 +118,7 @@ export function SpotListPage() {
   const [page, setPage] = useState(1)
   const sentinelRef = useRef<HTMLDivElement>(null)
 
-  useEffect(() => { setPage(1) }, [bloomFilter, prefFilter, sortKey, debouncedQuery])
+  useEffect(() => { setPage(1) }, [bloomFilter, prefFilter, sortKey, debouncedQuery, favOnly])
 
   useEffect(() => {
     const el = sentinelRef.current
@@ -124,6 +136,8 @@ export function SpotListPage() {
     const q = normalize(debouncedQuery.trim())
 
     let spots = allSpots.filter(s => {
+      // お気に入りフィルタ（AND）
+      if (favOnly && !favoriteIds.has(s.id)) return false
       // 見頃フィルタ
       if (bloomFilter !== 'all') {
         const status = spotBloomCache.get(s.id)?.status ?? 'off_season'
@@ -172,7 +186,7 @@ export function SpotListPage() {
     }
 
     return spots
-  }, [bloomFilter, prefFilter, sortKey, debouncedQuery, userLocation, highlightSpotId])
+  }, [bloomFilter, prefFilter, sortKey, debouncedQuery, userLocation, highlightSpotId, favOnly, favoriteIds])
 
   const visible = filteredSpots.slice(0, page * PAGE_SIZE)
   const hasMore = visible.length < filteredSpots.length
@@ -186,18 +200,25 @@ export function SpotListPage() {
           <input
             className="spot-list-page__search"
             type="search"
-            placeholder="スポット名・都道府県・市区町村"
+            placeholder={spotsStr.searchPlaceholder}
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
           {searchQuery && (
-            <button className="spot-list-page__search-clear" onClick={() => setSearchQuery('')} aria-label="クリア">✕</button>
+            <button className="spot-list-page__search-clear" onClick={() => setSearchQuery('')} aria-label="clear">✕</button>
           )}
         </div>
       </div>
 
       {/* 見頃フィルタチップ */}
       <div className="spot-list-page__chips-row">
+        <button
+          className={`spot-list-page__chip spot-list-page__chip--fav${favOnly ? ' active' : ''}`}
+          onClick={() => setFavOnly(v => !v)}
+          aria-pressed={favOnly}
+        >
+          ♥ お気に入り{favCount > 0 ? ` (${favCount})` : ''}
+        </button>
         {BLOOM_CHIPS.map(({ key, label }) => (
           <button
             key={key}
@@ -216,7 +237,7 @@ export function SpotListPage() {
           value={prefFilter}
           onChange={e => setPrefFilter(e.target.value)}
         >
-          <option value="">都道府県 全て</option>
+          <option value="">{spotsStr.allPref}</option>
           {PREFS.map(p => <option key={p} value={p}>{p}</option>)}
         </select>
         <select
@@ -224,9 +245,9 @@ export function SpotListPage() {
           value={sortKey}
           onChange={e => handleSortChange(e.target.value as SortKey)}
         >
-          <option value="bloom">見頃が近い順</option>
-          <option value="popular">人気順</option>
-          <option value="distance">距離順{userLocation ? ' ✓' : ''}</option>
+          <option value="bloom">{spotsStr.sortBloom}</option>
+          <option value="popular">{spotsStr.sortPopular}</option>
+          <option value="distance">{spotsStr.sortDistance}{userLocation ? ' ✓' : ''}</option>
         </select>
       </div>
 
@@ -249,13 +270,28 @@ export function SpotListPage() {
         ))}
         {filteredSpots.length === 0 && (
           <div className="spot-list-page__empty">
-            <p>該当するスポットが見つかりませんでした</p>
-            <button
-              className="spot-list-page__reset-btn"
-              onClick={() => { setBloomFilter('all'); setPrefFilter(''); setSearchQuery('') }}
-            >
-              絞り込みをリセット
-            </button>
+            {favOnly && favCount === 0 ? (
+              <>
+                <div style={{ fontSize: 40, marginBottom: 8 }}>♡</div>
+                <p>まだお気に入りがありません。<br/>ハートマークで保存してみよう 🌸</p>
+                <button
+                  className="spot-list-page__reset-btn"
+                  onClick={() => setFavOnly(false)}
+                >
+                  すべて表示
+                </button>
+              </>
+            ) : (
+              <>
+                <p>{spotsStr.empty}</p>
+                <button
+                  className="spot-list-page__reset-btn"
+                  onClick={() => { setBloomFilter('all'); setPrefFilter(''); setSearchQuery(''); setFavOnly(false) }}
+                >
+                  {statusStr.all}
+                </button>
+              </>
+            )}
           </div>
         )}
       </div>
@@ -270,20 +306,20 @@ export function SpotListPage() {
         >
           <div className="spot-list-page__geo-dialog" onClick={e => e.stopPropagation()}>
             <div className="spot-list-page__geo-icon">📍</div>
-            <h3 className="spot-list-page__geo-title">現在地を使いますか？</h3>
-            <p className="spot-list-page__geo-desc">距離順で並べるには、現在地の取得が必要です。</p>
+            <h3 className="spot-list-page__geo-title">{spotsStr.locating}</h3>
+            <p className="spot-list-page__geo-desc">{spotsStr.sortDistance}</p>
             <div className="spot-list-page__geo-actions">
               <button
                 className="spot-list-page__geo-cancel"
                 onClick={() => { setGeoDialogOpen(false); setSortKey('bloom') }}
               >
-                キャンセル
+                {t('detail').reportCancel}
               </button>
               <button
                 className="spot-list-page__geo-confirm"
                 onClick={requestGeo}
               >
-                許可する
+                OK
               </button>
             </div>
           </div>

@@ -1,6 +1,6 @@
 {
-  "total_unmatched_entries": 304,
-  "unique_variety_names": 163,
+  "total_unmatched_entries": 208,
+  "unique_variety_names": 128,
   "by_variety": [
     {
       "variety_name": "里桜",
@@ -251,143 +251,8 @@
           "spot_name": "国指定名勝 仙巌園の桜",
           "prefecture": "鹿児島県"
         }
-      ]
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "count": 26,
-      "spots": [
-        {
-          "spot_id": "walker-ar0101e536782",
-          "spot_name": "旭山記念公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e537272",
-          "spot_name": "新川さくら並木の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e25533",
-          "spot_name": "モエレ沼公園サクラの森の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60097",
-          "spot_name": "北海道立真駒内公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60098",
-          "spot_name": "小樽公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60090",
-          "spot_name": "旭山公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e100948",
-          "spot_name": "うらかわ千本桜　優駿さくらロード",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e23376",
-          "spot_name": "二十間道路桜並木の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60114",
-          "spot_name": "春採公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60096",
-          "spot_name": "帯広市緑ケ丘公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60093",
-          "spot_name": "天都山桜公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60103",
-          "spot_name": "苫小牧市緑ヶ丘公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e25556",
-          "spot_name": "美唄市東明公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60100",
-          "spot_name": "芦別市旭ケ丘公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60115",
-          "spot_name": "弥生公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60104",
-          "spot_name": "登別桜並木の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e25553",
-          "spot_name": "有珠善光寺自然公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60110",
-          "spot_name": "さらんべ公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60106",
-          "spot_name": "奈井江町にわ山森林自然公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60099",
-          "spot_name": "栗山公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60113",
-          "spot_name": "北竜町金比羅公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e180120",
-          "spot_name": "パレットヒルズの桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60109",
-          "spot_name": "安平町鹿公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60111",
-          "spot_name": "神楽岡公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e60105",
-          "spot_name": "えりも町庶野さくら公園の桜",
-          "prefecture": "北海道"
-        },
-        {
-          "spot_id": "walker-ar0101e25549",
-          "spot_name": "別保公園の桜",
-          "prefecture": "北海道"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ほか",
@@ -513,105 +378,8 @@
           "spot_name": "蛇ヶ谷公園の桜",
           "prefecture": "熊本県"
         }
-      ]
-    },
-    {
-      "variety_name": "春めき桜",
-      "count": 6,
-      "spots": [
-        {
-          "spot_id": "walker-ar0314e495194",
-          "spot_name": "観音崎公園の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0314e377382",
-          "spot_name": "小田原フラワーガーデンの桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0314e586607",
-          "spot_name": "大磯運動公園の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0314e402794",
-          "spot_name": "BIOTOPIA(ビオトピア)の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0314e495185",
-          "spot_name": "あぐりパーク嵯峨山苑の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0420e65094",
-          "spot_name": "名勝天龍峡の桜",
-          "prefecture": "長野県"
-        }
-      ]
-    },
-    {
-      "variety_name": "アズマヒガンザクラ",
-      "count": 5,
-      "spots": [
-        {
-          "spot_id": "walker-ar0833e26234",
-          "spot_name": "醍醐桜",
-          "prefecture": "岡山県"
-        },
-        {
-          "spot_id": "walker-ar0203e25579",
-          "spot_name": "盛岡城跡公園(岩手公園)の桜",
-          "prefecture": "岩手県"
-        },
-        {
-          "spot_id": "walker-ar0621e26033",
-          "spot_name": "荘川桜",
-          "prefecture": "岐阜県"
-        },
-        {
-          "spot_id": "walker-ar0725e60376",
-          "spot_name": "清水(しょうず)の桜",
-          "prefecture": "滋賀県"
-        },
-        {
-          "spot_id": "walker-ar0833e60291",
-          "spot_name": "岩井畝の大桜",
-          "prefecture": "岡山県"
-        }
-      ]
-    },
-    {
-      "variety_name": "八重紅しだれ",
-      "count": 5,
-      "spots": [
-        {
-          "spot_id": "walker-ar0313e377509",
-          "spot_name": "グランドプリンスホテル高輪の桜",
-          "prefecture": "東京都"
-        },
-        {
-          "spot_id": "walker-ar0623e26066",
-          "spot_name": "東谷山フルーツパークの桜",
-          "prefecture": "愛知県"
-        },
-        {
-          "spot_id": "walker-ar0726e461160",
-          "spot_name": "原谷苑の桜",
-          "prefecture": "京都府"
-        },
-        {
-          "spot_id": "walker-ar0728e536781",
-          "spot_name": "有馬温泉の桜",
-          "prefecture": "兵庫県"
-        },
-        {
-          "spot_id": "walker-ar1044e425457",
-          "spot_name": "長湯温泉 しだれ桜の里の桜",
-          "prefecture": "大分県"
-        }
-      ]
+      ],
+      "reason": "noise"
     },
     {
       "variety_name": "など約",
@@ -637,174 +405,8 @@
           "spot_name": "佐倉城址公園の桜",
           "prefecture": "千葉県"
         }
-      ]
-    },
-    {
-      "variety_name": "オカメザクラ",
-      "count": 4,
-      "spots": [
-        {
-          "spot_id": "walker-ar0207e25667",
-          "spot_name": "花見山の桜",
-          "prefecture": "福島県"
-        },
-        {
-          "spot_id": "walker-ar0314e459024",
-          "spot_name": "山手公園の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0314e25874",
-          "spot_name": "箱根強羅公園の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0727e537596",
-          "spot_name": "長居公園の桜",
-          "prefecture": "大阪府"
-        }
-      ]
-    },
-    {
-      "variety_name": "薄墨桜",
-      "count": 4,
-      "spots": [
-        {
-          "spot_id": "walker-ar0207e25691",
-          "spot_name": "宮川千本桜",
-          "prefecture": "福島県"
-        },
-        {
-          "spot_id": "walker-ar0726e428584",
-          "spot_name": "三段池公園の桜",
-          "prefecture": "京都府"
-        },
-        {
-          "spot_id": "walker-ar0729e26173",
-          "spot_name": "談山神社の桜",
-          "prefecture": "奈良県"
-        },
-        {
-          "spot_id": "walker-ar0939e403142",
-          "spot_name": "牧野公園の桜",
-          "prefecture": "高知県"
-        }
-      ]
-    },
-    {
-      "variety_name": "牡丹桜",
-      "count": 4,
-      "spots": [
-        {
-          "spot_id": "walker-ar0308e25714",
-          "spot_name": "愛宕山(山頂)の桜",
-          "prefecture": "茨城県"
-        },
-        {
-          "spot_id": "walker-ar0311e138389",
-          "spot_name": "キサイフーズはなさきふれあいパーク(加須はなさき公園)の桜",
-          "prefecture": "埼玉県"
-        },
-        {
-          "spot_id": "walker-ar0938e26307",
-          "spot_name": "松山城(城山公園)の桜",
-          "prefecture": "愛媛県"
-        },
-        {
-          "spot_id": "walker-ar1044e26387",
-          "spot_name": "岡城跡の桜",
-          "prefecture": "大分県"
-        }
-      ]
-    },
-    {
-      "variety_name": "陽光桜",
-      "count": 4,
-      "spots": [
-        {
-          "spot_id": "walker-ar0311e301789",
-          "spot_name": "西武園ゆうえんちの桜",
-          "prefecture": "埼玉県"
-        },
-        {
-          "spot_id": "walker-ar0622e584902",
-          "spot_name": "あらさわふる里公園の桜",
-          "prefecture": "静岡県"
-        },
-        {
-          "spot_id": "walker-ar0727e537596",
-          "spot_name": "長居公園の桜",
-          "prefecture": "大阪府"
-        },
-        {
-          "spot_id": "walker-ar1044e26387",
-          "spot_name": "岡城跡の桜",
-          "prefecture": "大分県"
-        }
-      ]
-    },
-    {
-      "variety_name": "塩釜桜",
-      "count": 3,
-      "spots": [
-        {
-          "spot_id": "walker-ar0204e60530",
-          "spot_name": "牡鹿半島 金華山の桜",
-          "prefecture": "宮城県"
-        },
-        {
-          "spot_id": "walker-ar0517e25921",
-          "spot_name": "特別名勝兼六園の桜",
-          "prefecture": "石川県"
-        },
-        {
-          "spot_id": "walker-ar0938e26307",
-          "spot_name": "松山城(城山公園)の桜",
-          "prefecture": "愛媛県"
-        }
-      ]
-    },
-    {
-      "variety_name": "ベニシダレザクラ",
-      "count": 3,
-      "spots": [
-        {
-          "spot_id": "walker-ar0207e583833",
-          "spot_name": "中島の地蔵桜",
-          "prefecture": "福島県"
-        },
-        {
-          "spot_id": "walker-ar0725e427946",
-          "spot_name": "じゅらくの里の桜",
-          "prefecture": "滋賀県"
-        },
-        {
-          "spot_id": "walker-ar0729e26170",
-          "spot_name": "大野寺の桜",
-          "prefecture": "奈良県"
-        }
-      ]
-    },
-    {
-      "variety_name": "淡墨桜",
-      "count": 3,
-      "spots": [
-        {
-          "spot_id": "walker-ar0309e23377",
-          "spot_name": "天平の丘公園の桜",
-          "prefecture": "栃木県"
-        },
-        {
-          "spot_id": "walker-ar0420e25983",
-          "spot_name": "飯田市大宮通り桜並木",
-          "prefecture": "長野県"
-        },
-        {
-          "spot_id": "walker-ar0623e60239",
-          "spot_name": "大山緑地の桜",
-          "prefecture": "愛知県"
-        }
-      ]
+      ],
+      "reason": "noise"
     },
     {
       "variety_name": "ほか約",
@@ -820,7 +422,8 @@
           "spot_name": "妙義山県立森林公園さくらの里の桜",
           "prefecture": "群馬県"
         }
-      ]
+      ],
+      "reason": "noise"
     },
     {
       "variety_name": "サトザクラ",
@@ -836,7 +439,8 @@
           "spot_name": "水元公園の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "シウリザクラ",
@@ -852,55 +456,8 @@
           "spot_name": "いちょう公園の桜",
           "prefecture": "青森県"
         }
-      ]
-    },
-    {
-      "variety_name": "ベニヒガンザクラ",
-      "count": 2,
-      "spots": [
-        {
-          "spot_id": "walker-ar0207e60179",
-          "spot_name": "愛蔵寺の護摩桜",
-          "prefecture": "福島県"
-        },
-        {
-          "spot_id": "walker-ar0207e25702",
-          "spot_name": "米沢の千歳桜",
-          "prefecture": "福島県"
-        }
-      ]
-    },
-    {
-      "variety_name": "鬱金桜",
-      "count": 2,
-      "spots": [
-        {
-          "spot_id": "walker-ar0313e26523",
-          "spot_name": "播磨坂さくら並木の桜",
-          "prefecture": "東京都"
-        },
-        {
-          "spot_id": "walker-ar0420e25979",
-          "spot_name": "上田城跡公園の桜",
-          "prefecture": "長野県"
-        }
-      ]
-    },
-    {
-      "variety_name": "小彼岸桜",
-      "count": 2,
-      "spots": [
-        {
-          "spot_id": "walker-ar0314e25874",
-          "spot_name": "箱根強羅公園の桜",
-          "prefecture": "神奈川県"
-        },
-        {
-          "spot_id": "walker-ar0420e60155",
-          "spot_name": "愛宕様の小彼岸桜",
-          "prefecture": "長野県"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "魯桃桜",
@@ -916,23 +473,8 @@
           "spot_name": "小諸城址 懐古園の桜",
           "prefecture": "長野県"
         }
-      ]
-    },
-    {
-      "variety_name": "ヨウコウザクラ",
-      "count": 2,
-      "spots": [
-        {
-          "spot_id": "walker-ar0726e26118",
-          "spot_name": "御室(仁和寺)の桜",
-          "prefecture": "京都府"
-        },
-        {
-          "spot_id": "walker-ar1044e425457",
-          "spot_name": "長湯温泉 しだれ桜の里の桜",
-          "prefecture": "大分県"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "八重桜(関山",
@@ -948,7 +490,8 @@
           "spot_name": "造幣局広島支局 花のまわりみち",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "しだれ桜など)",
@@ -964,34 +507,8 @@
           "spot_name": "造幣局広島支局 花のまわりみち",
           "prefecture": "広島県"
         }
-      ]
-    },
-    {
-      "variety_name": "ヤエベニシダレ",
-      "count": 2,
-      "spots": [
-        {
-          "spot_id": "walker-ar0833e26235",
-          "spot_name": "がいせん桜",
-          "prefecture": "岡山県"
-        },
-        {
-          "spot_id": "walker-ar1040e60381",
-          "spot_name": "舞鶴公園の桜",
-          "prefecture": "福岡県"
-        }
-      ]
-    },
-    {
-      "variety_name": "蝦夷霞桜",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0101e25542",
-          "spot_name": "松前公園の桜",
-          "prefecture": "北海道"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "南殿桜",
@@ -1002,7 +519,8 @@
           "spot_name": "松前公園の桜",
           "prefecture": "北海道"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "エドヒガン系ベニシダレザクラ",
@@ -1013,18 +531,8 @@
           "spot_name": "三春滝桜",
           "prefecture": "福島県"
         }
-      ]
-    },
-    {
-      "variety_name": "タカトオコヒガンザクラ",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0420e25997",
-          "spot_name": "高遠城址公園の桜",
-          "prefecture": "長野県"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "蝦夷の上溝桜",
@@ -1035,7 +543,8 @@
           "spot_name": "春採公園の桜",
           "prefecture": "北海道"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "青葉枝垂",
@@ -1046,7 +555,8 @@
           "spot_name": "青葉ヶ丘公園の桜",
           "prefecture": "北海道"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "駒見桜",
@@ -1057,7 +567,8 @@
           "spot_name": "オニウシ公園の桜",
           "prefecture": "北海道"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ノムラベニヤマザクラ",
@@ -1068,7 +579,8 @@
           "spot_name": "いちょう公園の桜",
           "prefecture": "青森県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "大河原紅桜",
@@ -1079,7 +591,8 @@
           "spot_name": "白石川堤一目千本桜",
           "prefecture": "宮城県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "おおがわら千年桜",
@@ -1090,7 +603,8 @@
           "spot_name": "白石川堤一目千本桜",
           "prefecture": "宮城県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ヤエベニシダレヒガンザクラ",
@@ -1101,18 +615,8 @@
           "spot_name": "米内浄水場の桜",
           "prefecture": "岩手県"
         }
-      ]
-    },
-    {
-      "variety_name": "コヒガンザクラ",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0204e537271",
-          "spot_name": "錦町公園の桜",
-          "prefecture": "宮城県"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "など多",
@@ -1123,7 +627,8 @@
           "spot_name": "三神峯公園の桜",
           "prefecture": "宮城県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "鹽竈桜",
@@ -1134,7 +639,8 @@
           "spot_name": "志波彦神社 鹽竈神社の桜",
           "prefecture": "宮城県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "里桜 (八重桜小菊桜)",
@@ -1145,7 +651,8 @@
           "spot_name": "磐椅神社 大鹿桜",
           "prefecture": "福島県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "神代桜",
@@ -1156,7 +663,8 @@
           "spot_name": "宮川千本桜",
           "prefecture": "福島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "知恵桜",
@@ -1167,7 +675,8 @@
           "spot_name": "宮川千本桜",
           "prefecture": "福島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "など園芸品種70種以上",
@@ -1178,7 +687,8 @@
           "spot_name": "美の山(みのやま)公園の桜",
           "prefecture": "埼玉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "しだれ桜 (詳細名不明)",
@@ -1189,7 +699,8 @@
           "spot_name": "砂川堀のしだれ桜",
           "prefecture": "埼玉県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "ベニシダレの近縁",
@@ -1200,7 +711,8 @@
           "spot_name": "放光寺の桜",
           "prefecture": "埼玉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "安行寒桜",
@@ -1211,7 +723,8 @@
           "spot_name": "北浅羽桜堤公園の桜",
           "prefecture": "埼玉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "大漁ザクラ",
@@ -1222,7 +735,8 @@
           "spot_name": "あけぼの山公園の桜",
           "prefecture": "千葉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "元朝桜",
@@ -1233,7 +747,8 @@
           "spot_name": "抱湖園の桜",
           "prefecture": "千葉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ウバヒガンシダレザクラ",
@@ -1244,7 +759,8 @@
           "spot_name": "長光寺のしだれ桜",
           "prefecture": "千葉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "カンザン桜",
@@ -1255,7 +771,8 @@
           "spot_name": "日比谷公園の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "駿河桜",
@@ -1266,7 +783,8 @@
           "spot_name": "国立劇場の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "駿河小町",
@@ -1277,7 +795,8 @@
           "spot_name": "国立劇場の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "駿河桜の実生",
@@ -1288,7 +807,8 @@
           "spot_name": "国立劇場の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ワシントンザクラ",
@@ -1299,7 +819,8 @@
           "spot_name": "東京都庭園美術館の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "祐天桜",
@@ -1310,7 +831,8 @@
           "spot_name": "大本山 増上寺の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "カンザクラ類",
@@ -1321,7 +843,8 @@
           "spot_name": "新宿御苑の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "エドコヒガンザクラ",
@@ -1332,7 +855,8 @@
           "spot_name": "新宿中央公園の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "など。小山内裏公園内では",
@@ -1343,7 +867,8 @@
           "spot_name": "尾根緑道の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "河津桜や希少種のヤブザクラ",
@@ -1354,7 +879,8 @@
           "spot_name": "尾根緑道の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "タマノホシザクラなども観桜可",
@@ -1365,7 +891,8 @@
           "spot_name": "尾根緑道の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ほか。上記含めて約",
@@ -1376,7 +903,8 @@
           "spot_name": "県立三ツ池公園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "伊勢山桜",
@@ -1387,7 +915,8 @@
           "spot_name": "伊勢山皇大神宮の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "シドモア桜",
@@ -1398,7 +927,8 @@
           "spot_name": "伊勢山皇大神宮の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ウスズミザクラ",
@@ -1409,7 +939,8 @@
           "spot_name": "三溪園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ショウカワザクラ",
@@ -1420,7 +951,8 @@
           "spot_name": "三溪園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ヤナイヅタカクワホシザクラ",
@@ -1431,7 +963,8 @@
           "spot_name": "三溪園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "思川桜",
@@ -1442,7 +975,8 @@
           "spot_name": "弘法山公園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "大磯小桜",
@@ -1453,7 +987,8 @@
           "spot_name": "大磯運動公園の桜",
           "prefecture": "神奈川県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "穂咲彼岸八重桜 ※約9割がソメイヨシノ",
@@ -1464,7 +999,8 @@
           "spot_name": "村松公園の桜",
           "prefecture": "新潟県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "希少品種の穂咲彼岸八重桜も観賞できる",
@@ -1475,7 +1011,8 @@
           "spot_name": "村松公園の桜",
           "prefecture": "新潟県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "結桜",
@@ -1486,7 +1023,8 @@
           "spot_name": "瓢湖水きん公園の桜",
           "prefecture": "新潟県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "霞桜。※しだれ桜の正式名称はイトザクラ",
@@ -1497,7 +1035,8 @@
           "spot_name": "国宝 松本城の桜",
           "prefecture": "長野県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "誓願桜",
@@ -1508,7 +1047,8 @@
           "spot_name": "飯田市大宮通り桜並木",
           "prefecture": "長野県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "小諸八重紅しだれ",
@@ -1519,7 +1059,8 @@
           "spot_name": "小諸城址 懐古園の桜",
           "prefecture": "長野県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "蝦夷桜",
@@ -1530,7 +1071,8 @@
           "spot_name": "小諸城址 懐古園の桜",
           "prefecture": "長野県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "等",
@@ -1541,7 +1083,8 @@
           "spot_name": "清水船越堤公園の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "noise"
     },
     {
       "variety_name": "あたみ桜",
@@ -1552,7 +1095,8 @@
           "spot_name": "糸川遊歩道の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "城ケ崎桜",
@@ -1563,7 +1107,8 @@
           "spot_name": "さくらの里の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "フジザクラ",
@@ -1574,7 +1119,8 @@
           "spot_name": "秩父宮記念公園の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "土肥桜",
@@ -1585,7 +1131,8 @@
           "spot_name": "松原公園の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "あらさわ紅桜",
@@ -1596,7 +1143,8 @@
           "spot_name": "あらさわふる里公園の桜",
           "prefecture": "静岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "おおぐち観鋭桜",
@@ -1607,7 +1155,8 @@
           "spot_name": "大口町 五条川の桜並木",
           "prefecture": "愛知県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "大手毬など)",
@@ -1618,7 +1167,8 @@
           "spot_name": "造幣局　桜の通り抜け",
           "prefecture": "大阪府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "一重桜(大島桜",
@@ -1629,7 +1179,8 @@
           "spot_name": "造幣局　桜の通り抜け",
           "prefecture": "大阪府"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "エゾヒガンザクラ",
@@ -1640,7 +1191,8 @@
           "spot_name": "清瀧寺徳源院の桜",
           "prefecture": "滋賀県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "オカメフジザクラ",
@@ -1651,7 +1203,8 @@
           "spot_name": "湖東三山西明寺の桜",
           "prefecture": "滋賀県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "寝覚桜",
@@ -1662,7 +1215,8 @@
           "spot_name": "平野神社の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "平野妹背",
@@ -1673,7 +1227,8 @@
           "spot_name": "平野神社の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "魁桜",
@@ -1684,7 +1239,8 @@
           "spot_name": "平野神社の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "黄桜",
@@ -1695,7 +1251,8 @@
           "spot_name": "原谷苑の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "御会式桜",
@@ -1706,7 +1263,8 @@
           "spot_name": "大本山 妙蓮寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "八重紅枝垂桜",
@@ -1717,7 +1275,8 @@
           "spot_name": "鴨川公園(半木の道)の八重紅枝垂桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "紅枝垂れ桜",
@@ -1728,7 +1287,8 @@
           "spot_name": "鴨川公園(半木の道)の八重紅枝垂桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ヒガンシダレザクラ",
@@ -1739,7 +1299,8 @@
           "spot_name": "常寂光寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "紅しだれ",
@@ -1750,7 +1311,8 @@
           "spot_name": "退蔵院(妙心寺山内)の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "渓仙桜",
@@ -1761,7 +1323,8 @@
           "spot_name": "車折神社の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "御室桜",
@@ -1772,7 +1335,8 @@
           "spot_name": "金花山宝泉寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "観音桜",
@@ -1783,7 +1347,8 @@
           "spot_name": "金花山宝泉寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "金剛桜",
@@ -1794,7 +1359,8 @@
           "spot_name": "金花山宝泉寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "紅枝垂桜",
@@ -1805,7 +1371,8 @@
           "spot_name": "城南宮 神苑 楽水苑の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "墨染桜",
@@ -1816,7 +1383,8 @@
           "spot_name": "墨染寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "千眼桜",
@@ -1827,7 +1395,8 @@
           "spot_name": "大原野神社の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "紅枝垂れ",
@@ -1838,7 +1407,8 @@
           "spot_name": "勝持寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ぼたん桜",
@@ -1849,7 +1419,8 @@
           "spot_name": "善峯寺の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ギオンシダレ",
@@ -1860,7 +1431,8 @@
           "spot_name": "福知山城の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ヒョウタンザクラ",
@@ -1871,7 +1443,8 @@
           "spot_name": "地蔵禅院の桜",
           "prefecture": "京都府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "テルテモモ",
@@ -1882,7 +1455,8 @@
           "spot_name": "八幡屋公園の桜",
           "prefecture": "大阪府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "多数の種類が咲く",
@@ -1893,7 +1467,8 @@
           "spot_name": "大仙公園の桜",
           "prefecture": "大阪府"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "紅八重枝垂桜",
@@ -1904,7 +1479,8 @@
           "spot_name": "千鳥川桜堤公園の桜",
           "prefecture": "兵庫県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ナラココノエザクラ",
@@ -1915,7 +1491,8 @@
           "spot_name": "奈良公園の桜",
           "prefecture": "奈良県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "コイトシダレザクラ",
@@ -1926,7 +1503,8 @@
           "spot_name": "大野寺の桜",
           "prefecture": "奈良県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "一重桜(駿河台匂",
@@ -1937,7 +1515,8 @@
           "spot_name": "造幣局広島支局 花のまわりみち",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "太白など)",
@@ -1948,7 +1527,8 @@
           "spot_name": "造幣局広島支局 花のまわりみち",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "江戸彼岸大島",
@@ -1959,7 +1539,8 @@
           "spot_name": "斐伊川堤防桜並木",
           "prefecture": "島根県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ミョウヨウジザクラ",
@@ -1970,7 +1551,8 @@
           "spot_name": "妙用寺の桜(ミョウヨウジザクラ)",
           "prefecture": "島根県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "タイハクザクラ",
@@ -1981,7 +1563,8 @@
           "spot_name": "みやま公園の桜",
           "prefecture": "岡山県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ほか(約70種)",
@@ -1992,7 +1575,8 @@
           "spot_name": "広島市植物公園の桜",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "(エドヒガンの変種)",
@@ -2003,7 +1587,8 @@
           "spot_name": "石畳東のしだれ桜",
           "prefecture": "愛媛県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "センダイヤザクラ",
@@ -2014,18 +1599,8 @@
           "spot_name": "高知公園の桜",
           "prefecture": "高知県"
         }
-      ]
-    },
-    {
-      "variety_name": "ボタンザクラ",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0939e26317",
-          "spot_name": "高知公園の桜",
-          "prefecture": "高知県"
-        }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ほか数十",
@@ -2036,7 +1611,8 @@
           "spot_name": "白野江植物公園の桜",
           "prefecture": "福岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "オモイカワザクラ",
@@ -2047,7 +1623,8 @@
           "spot_name": "長湯温泉 しだれ桜の里の桜",
           "prefecture": "大分県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "福聚桜",
@@ -2058,7 +1635,8 @@
           "spot_name": "呑山観音寺の桜",
           "prefecture": "福岡県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "玖島桜など20種類以上",
@@ -2069,7 +1647,8 @@
           "spot_name": "大村公園(大村神社)の桜",
           "prefecture": "長崎県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ヒメシダレザクラ",
@@ -2080,7 +1659,8 @@
           "spot_name": "宝珠寺の桜",
           "prefecture": "佐賀県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ニドザキザクラ",
@@ -2091,7 +1671,8 @@
           "spot_name": "亀岡公園の桜",
           "prefecture": "長崎県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "ガンタンザクラ",
@@ -2102,7 +1683,8 @@
           "spot_name": "国指定名勝 仙巌園の桜",
           "prefecture": "鹿児島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "秋色桜",
@@ -2113,7 +1695,8 @@
           "spot_name": "上野恩賜公園の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "輪王寺御車返し",
@@ -2124,7 +1707,8 @@
           "spot_name": "上野恩賜公園の桜",
           "prefecture": "東京都"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "大枝垂れ（弘前枝垂れ）",
@@ -2135,7 +1719,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "白糸枝垂れ（シライトシダレ）",
@@ -2146,18 +1731,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
-    },
-    {
-      "variety_name": "船原吉野（フナバラヨシノ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "紅芳遊（ベニボウユ）",
@@ -2168,29 +1743,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
-    },
-    {
-      "variety_name": "御車返し（ミクルマガエシ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
-    },
-    {
-      "variety_name": "咲耶姫（サクヤヒメ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "衣縫（コロモツギ）",
@@ -2201,18 +1755,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
-    },
-    {
-      "variety_name": "日暮（ヒグレ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "行仙（ギョイオ）",
@@ -2223,7 +1767,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "大東陳（ダイトウチン）",
@@ -2234,7 +1779,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "開六園菊桜（カイロクエンキクザクラ）",
@@ -2245,29 +1791,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
-    },
-    {
-      "variety_name": "千里香（センリカ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
-    },
-    {
-      "variety_name": "手まり（テマリ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0202e25563",
-          "spot_name": "弘前公園(鷹揚公園)の桜",
-          "prefecture": "青森県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "松前あこや山錦（マツマエアコヤマニシキ）",
@@ -2278,7 +1803,8 @@
           "spot_name": "弘前公園(鷹揚公園)の桜",
           "prefecture": "青森県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "西山エドヒガン",
@@ -2289,7 +1815,8 @@
           "spot_name": "烏帽子山公園の桜",
           "prefecture": "山形県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "おとぎ桜（エドヒガンサクラ）",
@@ -2300,7 +1827,8 @@
           "spot_name": "烏帽子山公園の桜",
           "prefecture": "山形県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "康寿ざくら（エドヒガンサクラ）",
@@ -2311,7 +1839,8 @@
           "spot_name": "烏帽子山公園の桜",
           "prefecture": "山形県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "家昌桜（エドヒガンサクラ）",
@@ -2322,51 +1851,8 @@
           "spot_name": "烏帽子山公園の桜",
           "prefecture": "山形県"
         }
-      ]
-    },
-    {
-      "variety_name": "見返り桜（シダレザクラ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0206e25655",
-          "spot_name": "烏帽子山公園の桜",
-          "prefecture": "山形県"
-        }
-      ]
-    },
-    {
-      "variety_name": "鳥居の桜（シダレザクラ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0206e25655",
-          "spot_name": "烏帽子山公園の桜",
-          "prefecture": "山形県"
-        }
-      ]
-    },
-    {
-      "variety_name": "烏帽子ざくら（シダレザクラ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0206e25655",
-          "spot_name": "烏帽子山公園の桜",
-          "prefecture": "山形県"
-        }
-      ]
-    },
-    {
-      "variety_name": "菊桜",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0206e25655",
-          "spot_name": "烏帽子山公園の桜",
-          "prefecture": "山形県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "サトザクラ類（70種以上の園芸品種）",
@@ -2377,51 +1863,8 @@
           "spot_name": "美の山公園の桜",
           "prefecture": "埼玉県"
         }
-      ]
-    },
-    {
-      "variety_name": "ヨウキヒ（楊貴妃）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0310e25755",
-          "spot_name": "妙義山県立森林公園さくらの里の桜",
-          "prefecture": "群馬県"
-        }
-      ]
-    },
-    {
-      "variety_name": "ミシマザクラ（三島桜）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0310e25755",
-          "spot_name": "妙義山県立森林公園さくらの里の桜",
-          "prefecture": "群馬県"
-        }
-      ]
-    },
-    {
-      "variety_name": "駿河台匂（スルガダイニオイ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0311e60438",
-          "spot_name": "慈光山歴史公苑の桜",
-          "prefecture": "埼玉県"
-        }
-      ]
-    },
-    {
-      "variety_name": "御衣黄（ギョイコウ）",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0311e60438",
-          "spot_name": "慈光山歴史公苑の桜",
-          "prefecture": "埼玉県"
-        }
-      ]
+      ],
+      "reason": "noise"
     },
     {
       "variety_name": "里ざくらコレクション約50種の詳細品種",
@@ -2432,7 +1875,8 @@
           "spot_name": "慈光山歴史公苑の桜",
           "prefecture": "埼玉県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "劫初の桜（コウジョノサクラ）",
@@ -2443,7 +1887,8 @@
           "spot_name": "清水公園の桜(千葉県)",
           "prefecture": "千葉県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "笹目桜（ササメザクラ）",
@@ -2454,7 +1899,8 @@
           "spot_name": "清水公園の桜(千葉県)",
           "prefecture": "千葉県"
         }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "笹目桜（ヨウヘイザクラ）",
@@ -2465,18 +1911,8 @@
           "spot_name": "清水公園の桜(千葉県)",
           "prefecture": "千葉県"
         }
-      ]
-    },
-    {
-      "variety_name": "広島江波山桜",
-      "count": 1,
-      "spots": [
-        {
-          "spot_id": "walker-ar0834e60423",
-          "spot_name": "広島市植物公園の桜",
-          "prefecture": "広島県"
-        }
-      ]
+      ],
+      "reason": "parse_artifact"
     },
     {
       "variety_name": "春月花",
@@ -2487,7 +1923,8 @@
           "spot_name": "広島市植物公園の桜",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     },
     {
       "variety_name": "乙女東彼岸",
@@ -2498,73 +1935,11 @@
           "spot_name": "広島市植物公園の桜",
           "prefecture": "広島県"
         }
-      ]
+      ],
+      "reason": "genuinely_unmatched"
     }
   ],
   "flat_list": [
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e536782",
-      "spot_name": "旭山記念公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e537272",
-      "spot_name": "新川さくら並木の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e25533",
-      "spot_name": "モエレ沼公園サクラの森の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜、霞桜、千島桜、など"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60097",
-      "spot_name": "北海道立真駒内公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60098",
-      "spot_name": "小樽公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、ソメイヨシノ、山桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60090",
-      "spot_name": "旭山公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e100948",
-      "spot_name": "うらかわ千本桜　優駿さくらロード",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e23376",
-      "spot_name": "二十間道路桜並木の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷霞桜",
-      "spot_id": "walker-ar0101e25542",
-      "spot_name": "松前公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、蝦夷霞桜、糸括、関山、雨宿、鬱金、南殿桜"
-    },
     {
       "variety_name": "南殿桜",
       "spot_id": "walker-ar0101e25542",
@@ -2594,27 +1969,6 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、大島桜、サトザクラ"
     },
     {
-      "variety_name": "タカトオコヒガンザクラ",
-      "spot_id": "walker-ar0420e25997",
-      "spot_name": "高遠城址公園の桜",
-      "prefecture": "長野県",
-      "raw_variety_text": "タカトオコヒガンザクラ"
-    },
-    {
-      "variety_name": "アズマヒガンザクラ",
-      "spot_id": "walker-ar0833e26234",
-      "spot_name": "醍醐桜",
-      "prefecture": "岡山県",
-      "raw_variety_text": "アズマヒガンザクラ"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60114",
-      "spot_name": "春採公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜、霞桜、千島桜、深山桜、釧路八重、蝦夷の上溝桜、シウリザクラ"
-    },
-    {
       "variety_name": "蝦夷の上溝桜",
       "spot_id": "walker-ar0101e60114",
       "spot_name": "春採公園の桜",
@@ -2629,67 +1983,11 @@
       "raw_variety_text": "蝦夷山桜、霞桜、千島桜、深山桜、釧路八重、蝦夷の上溝桜、シウリザクラ"
     },
     {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60096",
-      "spot_name": "帯広市緑ケ丘公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60093",
-      "spot_name": "天都山桜公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60103",
-      "spot_name": "苫小牧市緑ヶ丘公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e25556",
-      "spot_name": "美唄市東明公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、ソメイヨシノ、蝦夷山桜"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0101e60100",
       "spot_name": "芦別市旭ケ丘公園の桜",
       "prefecture": "北海道",
       "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、里桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60100",
-      "spot_name": "芦別市旭ケ丘公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、里桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60115",
-      "spot_name": "弥生公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60104",
-      "spot_name": "登別桜並木の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e25553",
-      "spot_name": "有珠善光寺自然公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、彼岸桜、大島桜、蝦夷山桜"
     },
     {
       "variety_name": "ほか",
@@ -2711,69 +2009,6 @@
       "spot_name": "オニウシ公園の桜",
       "prefecture": "北海道",
       "raw_variety_text": "ソメイヨシノ、大山桜、千島桜、駒見桜、堀井緋桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60110",
-      "spot_name": "さらんべ公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "ソメイヨシノ、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60106",
-      "spot_name": "奈井江町にわ山森林自然公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、ソメイヨシノ、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60099",
-      "spot_name": "栗山公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60113",
-      "spot_name": "北竜町金比羅公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e180120",
-      "spot_name": "パレットヒルズの桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60109",
-      "spot_name": "安平町鹿公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60111",
-      "spot_name": "神楽岡公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e60105",
-      "spot_name": "えりも町庶野さくら公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、蝦夷山桜"
-    },
-    {
-      "variety_name": "蝦夷山桜",
-      "spot_id": "walker-ar0101e25549",
-      "spot_name": "別保公園の桜",
-      "prefecture": "北海道",
-      "raw_variety_text": "蝦夷山桜、千島桜、釧路八重"
     },
     {
       "variety_name": "里桜",
@@ -2825,13 +2060,6 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、仙台吉野、大河原紅桜、おおがわら千年桜"
     },
     {
-      "variety_name": "アズマヒガンザクラ",
-      "spot_id": "walker-ar0203e25579",
-      "spot_name": "盛岡城跡公園(岩手公園)の桜",
-      "prefecture": "岩手県",
-      "raw_variety_text": "ソメイヨシノ、エドヒガン、大山桜、鬱金、ニワザクラ、アズマヒガンザクラ、など"
-    },
-    {
       "variety_name": "ヤエベニシダレヒガンザクラ",
       "spot_id": "walker-ar0203e25600",
       "spot_name": "米内浄水場の桜",
@@ -2846,13 +2074,6 @@
       "raw_variety_text": "ソメイヨシノ、大山桜、霞桜、など約150種"
     },
     {
-      "variety_name": "コヒガンザクラ",
-      "spot_id": "walker-ar0204e537271",
-      "spot_name": "錦町公園の桜",
-      "prefecture": "宮城県",
-      "raw_variety_text": "ソメイヨシノ、コヒガンザクラ"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0204e25604",
       "spot_name": "榴岡公園の桜",
@@ -2865,13 +2086,6 @@
       "spot_name": "三神峯公園の桜",
       "prefecture": "宮城県",
       "raw_variety_text": "八重桜、ソメイヨシノ、しだれ桜、など多品種"
-    },
-    {
-      "variety_name": "塩釜桜",
-      "spot_id": "walker-ar0204e60530",
-      "spot_name": "牡鹿半島 金華山の桜",
-      "prefecture": "宮城県",
-      "raw_variety_text": "八重桜、ソメイヨシノ、しだれ桜、塩釜桜"
     },
     {
       "variety_name": "鹽竈桜",
@@ -2902,39 +2116,11 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、しだれ桜、エドヒガン、大山桜、菊桜、など約25種"
     },
     {
-      "variety_name": "オカメザクラ",
-      "spot_id": "walker-ar0207e25667",
-      "spot_name": "花見山の桜",
-      "prefecture": "福島県",
-      "raw_variety_text": "ソメイヨシノ、彼岸桜、寒緋桜、東海桜、オカメザクラ、など"
-    },
-    {
-      "variety_name": "ベニヒガンザクラ",
-      "spot_id": "walker-ar0207e60179",
-      "spot_name": "愛蔵寺の護摩桜",
-      "prefecture": "福島県",
-      "raw_variety_text": "ベニヒガンザクラ"
-    },
-    {
-      "variety_name": "ベニシダレザクラ",
-      "spot_id": "walker-ar0207e583833",
-      "spot_name": "中島の地蔵桜",
-      "prefecture": "福島県",
-      "raw_variety_text": "ベニシダレザクラ"
-    },
-    {
       "variety_name": "里桜 (八重桜小菊桜)",
       "spot_id": "walker-ar0207e25684",
       "spot_name": "磐椅神社 大鹿桜",
       "prefecture": "福島県",
       "raw_variety_text": "里桜 (八重桜小菊桜)"
-    },
-    {
-      "variety_name": "薄墨桜",
-      "spot_id": "walker-ar0207e25691",
-      "spot_name": "宮川千本桜",
-      "prefecture": "福島県",
-      "raw_variety_text": "ソメイヨシノ、薄墨桜、神代桜、知恵桜"
     },
     {
       "variety_name": "神代桜",
@@ -2951,13 +2137,6 @@
       "raw_variety_text": "ソメイヨシノ、薄墨桜、神代桜、知恵桜"
     },
     {
-      "variety_name": "ベニヒガンザクラ",
-      "spot_id": "walker-ar0207e25702",
-      "spot_name": "米沢の千歳桜",
-      "prefecture": "福島県",
-      "raw_variety_text": "ベニヒガンザクラ"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0308e25707",
       "spot_name": "かみね公園の桜",
@@ -2972,20 +2151,6 @@
       "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、御衣黄、など園芸品種70種以上"
     },
     {
-      "variety_name": "牡丹桜",
-      "spot_id": "walker-ar0308e25714",
-      "spot_name": "愛宕山(山頂)の桜",
-      "prefecture": "茨城県",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、大島桜、エドヒガン、牡丹桜、陽光、紅山桜"
-    },
-    {
-      "variety_name": "淡墨桜",
-      "spot_id": "walker-ar0309e23377",
-      "spot_name": "天平の丘公園の桜",
-      "prefecture": "栃木県",
-      "raw_variety_text": "淡墨桜、一葉、関山、普賢象、ほか"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0309e23377",
       "spot_name": "天平の丘公園の桜",
@@ -2998,13 +2163,6 @@
       "spot_name": "妙義山県立森林公園さくらの里の桜",
       "prefecture": "群馬県",
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、冬桜、大島桜、ほか約45種"
-    },
-    {
-      "variety_name": "陽光桜",
-      "spot_id": "walker-ar0311e301789",
-      "spot_name": "西武園ゆうえんちの桜",
-      "prefecture": "埼玉県",
-      "raw_variety_text": "ソメイヨシノ、彼岸桜、陽光桜、など"
     },
     {
       "variety_name": "ほか",
@@ -3026,13 +2184,6 @@
       "spot_name": "砂川堀のしだれ桜",
       "prefecture": "埼玉県",
       "raw_variety_text": "しだれ桜 (詳細名不明)"
-    },
-    {
-      "variety_name": "牡丹桜",
-      "spot_id": "walker-ar0311e138389",
-      "spot_name": "キサイフーズはなさきふれあいパーク(加須はなさき公園)の桜",
-      "prefecture": "埼玉県",
-      "raw_variety_text": "ソメイヨシノ、牡丹桜、など"
     },
     {
       "variety_name": "ベニシダレの近縁",
@@ -3154,13 +2305,6 @@
       "raw_variety_text": "ソメイヨシノ、山桜、大島桜、御衣黄、里桜、普賢象、一葉"
     },
     {
-      "variety_name": "八重紅しだれ",
-      "spot_id": "walker-ar0313e377509",
-      "spot_name": "グランドプリンスホテル高輪の桜",
-      "prefecture": "東京都",
-      "raw_variety_text": "河津桜、ソメイヨシノ、山桜、しだれ桜、寒緋桜、大島桜、御衣黄、小彼岸、神代曙、御車返し、八重紅しだれ、関山、松月、霞桜、朱雀、普賢象、御殿場桜"
-    },
-    {
       "variety_name": "ワシントンザクラ",
       "spot_id": "walker-ar0313e380313",
       "spot_name": "東京都庭園美術館の桜",
@@ -3187,13 +2331,6 @@
       "spot_name": "新宿中央公園の桜",
       "prefecture": "東京都",
       "raw_variety_text": "河津桜、ソメイヨシノ、しだれ桜、高遠小彼岸桜、エドコヒガンザクラ"
-    },
-    {
-      "variety_name": "鬱金桜",
-      "spot_id": "walker-ar0313e26523",
-      "spot_name": "播磨坂さくら並木の桜",
-      "prefecture": "東京都",
-      "raw_variety_text": "ソメイヨシノ、鬱金桜、など"
     },
     {
       "variety_name": "ほか",
@@ -3315,13 +2452,6 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、大島桜、ウスズミザクラ、ショウカワザクラ、ヤナイヅタカクワホシザクラ、オオカンザクラ"
     },
     {
-      "variety_name": "オカメザクラ",
-      "spot_id": "walker-ar0314e459024",
-      "spot_name": "山手公園の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "八重桜、ソメイヨシノ、山桜、大島桜、オカメザクラ"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0314e459044",
       "spot_name": "よこはま動物園ズーラシアの桜",
@@ -3341,13 +2471,6 @@
       "spot_name": "ヴェルニー公園の桜",
       "prefecture": "神奈川県",
       "raw_variety_text": "ソメイヨシノ、ほか"
-    },
-    {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0314e495194",
-      "spot_name": "観音崎公園の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、大島桜、春めき桜、陽光、神代曙"
     },
     {
       "variety_name": "ほか",
@@ -3371,13 +2494,6 @@
       "raw_variety_text": "ソメイヨシノ、山桜、豆桜、ほか"
     },
     {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0314e377382",
-      "spot_name": "小田原フラワーガーデンの桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、ソメイヨシノ、彼岸桜、大島桜、御衣黄、関山、オカメ、春めき桜、神代曙、八重紅大島、鬱金、御殿場桜、舞姫"
-    },
-    {
       "variety_name": "思川桜",
       "spot_id": "walker-ar0314e25866",
       "spot_name": "弘法山公園の桜",
@@ -3392,46 +2508,11 @@
       "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、大磯小桜、春めき桜"
     },
     {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0314e586607",
-      "spot_name": "大磯運動公園の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、大磯小桜、春めき桜"
-    },
-    {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0314e402794",
-      "spot_name": "BIOTOPIA(ビオトピア)の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、御衣黄、春めき桜、鬱金、ほか"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0314e402794",
       "spot_name": "BIOTOPIA(ビオトピア)の桜",
       "prefecture": "神奈川県",
       "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、御衣黄、春めき桜、鬱金、ほか"
-    },
-    {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0314e495185",
-      "spot_name": "あぐりパーク嵯峨山苑の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、八重桜、寒緋桜、オカメ、春めき桜、陽光"
-    },
-    {
-      "variety_name": "小彼岸桜",
-      "spot_id": "walker-ar0314e25874",
-      "spot_name": "箱根強羅公園の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、ソメイヨシノ、山桜、十月桜、小彼岸桜、豆桜、オカメザクラ、ヤエノマメザクラ、など"
-    },
-    {
-      "variety_name": "オカメザクラ",
-      "spot_id": "walker-ar0314e25874",
-      "spot_name": "箱根強羅公園の桜",
-      "prefecture": "神奈川県",
-      "raw_variety_text": "河津桜、ソメイヨシノ、山桜、十月桜、小彼岸桜、豆桜、オカメザクラ、ヤエノマメザクラ、など"
     },
     {
       "variety_name": "穂咲彼岸八重桜 ※約9割がソメイヨシノ",
@@ -3483,32 +2564,11 @@
       "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、彼岸桜、エドヒガン、魯桃桜、鬱金桜"
     },
     {
-      "variety_name": "鬱金桜",
-      "spot_id": "walker-ar0420e25979",
-      "spot_name": "上田城跡公園の桜",
-      "prefecture": "長野県",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、彼岸桜、エドヒガン、魯桃桜、鬱金桜"
-    },
-    {
       "variety_name": "誓願桜",
       "spot_id": "walker-ar0420e25983",
       "spot_name": "飯田市大宮通り桜並木",
       "prefecture": "長野県",
       "raw_variety_text": "ソメイヨシノ、彼岸桜、誓願桜、淡墨桜、など"
-    },
-    {
-      "variety_name": "淡墨桜",
-      "spot_id": "walker-ar0420e25983",
-      "spot_name": "飯田市大宮通り桜並木",
-      "prefecture": "長野県",
-      "raw_variety_text": "ソメイヨシノ、彼岸桜、誓願桜、淡墨桜、など"
-    },
-    {
-      "variety_name": "春めき桜",
-      "spot_id": "walker-ar0420e65094",
-      "spot_name": "名勝天龍峡の桜",
-      "prefecture": "長野県",
-      "raw_variety_text": "八重桜、ソメイヨシノ、しだれ桜、春めき桜"
     },
     {
       "variety_name": "小諸八重紅しだれ",
@@ -3539,13 +2599,6 @@
       "raw_variety_text": "ソメイヨシノ、御衣黄、里桜、ジンダイアケボノ"
     },
     {
-      "variety_name": "小彼岸桜",
-      "spot_id": "walker-ar0420e60155",
-      "spot_name": "愛宕様の小彼岸桜",
-      "prefecture": "長野県",
-      "raw_variety_text": "小彼岸桜"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0420e25998",
       "spot_name": "大西公園の桜",
@@ -3560,13 +2613,6 @@
       "raw_variety_text": "ソメイヨシノ、里桜、など"
     },
     {
-      "variety_name": "塩釜桜",
-      "spot_id": "walker-ar0517e25921",
-      "spot_name": "特別名勝兼六園の桜",
-      "prefecture": "石川県",
-      "raw_variety_text": "ソメイヨシノ、塩釜桜、普賢象、鬱金"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0516e60164",
       "spot_name": "小矢部川公園千本桜",
@@ -3579,13 +2625,6 @@
       "spot_name": "能登町柳田植物公園の桜",
       "prefecture": "石川県",
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、大島桜、里桜"
-    },
-    {
-      "variety_name": "アズマヒガンザクラ",
-      "spot_id": "walker-ar0621e26033",
-      "spot_name": "荘川桜",
-      "prefecture": "岐阜県",
-      "raw_variety_text": "アズマヒガンザクラ"
     },
     {
       "variety_name": "ほか",
@@ -3679,13 +2718,6 @@
       "raw_variety_text": "ソメイヨシノ、寒緋桜、あらさわ紅桜、陽光桜"
     },
     {
-      "variety_name": "陽光桜",
-      "spot_id": "walker-ar0622e584902",
-      "spot_name": "あらさわふる里公園の桜",
-      "prefecture": "静岡県",
-      "raw_variety_text": "ソメイヨシノ、寒緋桜、あらさわ紅桜、陽光桜"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0623e381919",
       "spot_name": "平和公園の桜",
@@ -3698,13 +2730,6 @@
       "spot_name": "庄内緑地の桜",
       "prefecture": "愛知県",
       "raw_variety_text": "ソメイヨシノ、しだれ桜、里桜"
-    },
-    {
-      "variety_name": "八重紅しだれ",
-      "spot_id": "walker-ar0623e26066",
-      "spot_name": "東谷山フルーツパークの桜",
-      "prefecture": "愛知県",
-      "raw_variety_text": "河津桜、ソメイヨシノ、山桜、御衣黄、八重紅しだれ、鬱金、雨情枝垂、など"
     },
     {
       "variety_name": "里桜",
@@ -3721,25 +2746,11 @@
       "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、寒緋桜、御衣黄、里桜"
     },
     {
-      "variety_name": "淡墨桜",
-      "spot_id": "walker-ar0623e60239",
-      "spot_name": "大山緑地の桜",
-      "prefecture": "愛知県",
-      "raw_variety_text": "ソメイヨシノ、山桜、淡墨桜"
-    },
-    {
       "variety_name": "おおぐち観鋭桜",
       "spot_id": "walker-ar0623e60241",
       "spot_name": "大口町 五条川の桜並木",
       "prefecture": "愛知県",
       "raw_variety_text": "ソメイヨシノ、おおぐち観鋭桜"
-    },
-    {
-      "variety_name": "ヨウコウザクラ",
-      "spot_id": "walker-ar0726e26118",
-      "spot_name": "御室(仁和寺)の桜",
-      "prefecture": "京都府",
-      "raw_variety_text": "八重桜、ソメイヨシノ、山桜、彼岸桜、御衣黄、御室有明、ヨウコウザクラ"
     },
     {
       "variety_name": "八重桜(関山",
@@ -3770,25 +2781,11 @@
       "raw_variety_text": "八重桜(関山、普賢象、大手毬など)、一重桜(大島桜、しだれ桜など)"
     },
     {
-      "variety_name": "ベニシダレザクラ",
-      "spot_id": "walker-ar0725e427946",
-      "spot_name": "じゅらくの里の桜",
-      "prefecture": "滋賀県",
-      "raw_variety_text": "ソメイヨシノ、寒桜、ベニシダレザクラ、ほか"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0725e427946",
       "spot_name": "じゅらくの里の桜",
       "prefecture": "滋賀県",
       "raw_variety_text": "ソメイヨシノ、寒桜、ベニシダレザクラ、ほか"
-    },
-    {
-      "variety_name": "アズマヒガンザクラ",
-      "spot_id": "walker-ar0725e60376",
-      "spot_name": "清水(しょうず)の桜",
-      "prefecture": "滋賀県",
-      "raw_variety_text": "アズマヒガンザクラ"
     },
     {
       "variety_name": "ほか",
@@ -3831,13 +2828,6 @@
       "spot_name": "平野神社の桜",
       "prefecture": "京都府",
       "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、しだれ桜、彼岸桜、大島桜、寒桜、エドヒガン、寝覚桜、平野妹背、魁桜、突羽根、衣笠、胡蝶、など"
-    },
-    {
-      "variety_name": "八重紅しだれ",
-      "spot_id": "walker-ar0726e461160",
-      "spot_name": "原谷苑の桜",
-      "prefecture": "京都府",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、大島桜、御衣黄、八重紅しだれ、吉野桜、菊桜、楊貴妃、松月、白妙、黄桜、陽光、普賢象、関山、など"
     },
     {
       "variety_name": "黄桜",
@@ -3994,13 +2984,6 @@
       "raw_variety_text": "河津桜、ソメイヨシノ、しだれ桜、大島桜、里桜、兼六園菊桜、神代曙、雨情枝垂、天の川、鬱金、薄墨桜"
     },
     {
-      "variety_name": "薄墨桜",
-      "spot_id": "walker-ar0726e428584",
-      "spot_name": "三段池公園の桜",
-      "prefecture": "京都府",
-      "raw_variety_text": "河津桜、ソメイヨシノ、しだれ桜、大島桜、里桜、兼六園菊桜、神代曙、雨情枝垂、天の川、鬱金、薄墨桜"
-    },
-    {
       "variety_name": "ヒョウタンザクラ",
       "spot_id": "walker-ar0726e60218",
       "spot_name": "地蔵禅院の桜",
@@ -4013,20 +2996,6 @@
       "spot_name": "八幡屋公園の桜",
       "prefecture": "大阪府",
       "raw_variety_text": "河津桜、ソメイヨシノ、御衣黄、テルテモモ、陽光"
-    },
-    {
-      "variety_name": "オカメザクラ",
-      "spot_id": "walker-ar0727e537596",
-      "spot_name": "長居公園の桜",
-      "prefecture": "大阪府",
-      "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、大島桜、オカメザクラ、陽光桜"
-    },
-    {
-      "variety_name": "陽光桜",
-      "spot_id": "walker-ar0727e537596",
-      "spot_name": "長居公園の桜",
-      "prefecture": "大阪府",
-      "raw_variety_text": "河津桜、八重桜、ソメイヨシノ、山桜、大島桜、オカメザクラ、陽光桜"
     },
     {
       "variety_name": "里桜",
@@ -4078,13 +3047,6 @@
       "raw_variety_text": "ソメイヨシノ、里桜"
     },
     {
-      "variety_name": "八重紅しだれ",
-      "spot_id": "walker-ar0728e536781",
-      "spot_name": "有馬温泉の桜",
-      "prefecture": "兵庫県",
-      "raw_variety_text": "ソメイヨシノ、山桜、しだれ桜、大島桜、八重紅しだれ"
-    },
-    {
       "variety_name": "紅八重枝垂桜",
       "spot_id": "walker-ar0728e382683",
       "spot_name": "千鳥川桜堤公園の桜",
@@ -4099,21 +3061,7 @@
       "raw_variety_text": "ソメイヨシノ、ナラココノエザクラ、ナラノヤエザクラ"
     },
     {
-      "variety_name": "薄墨桜",
-      "spot_id": "walker-ar0729e26173",
-      "spot_name": "談山神社の桜",
-      "prefecture": "奈良県",
-      "raw_variety_text": "ソメイヨシノ、薄墨桜"
-    },
-    {
       "variety_name": "コイトシダレザクラ",
-      "spot_id": "walker-ar0729e26170",
-      "spot_name": "大野寺の桜",
-      "prefecture": "奈良県",
-      "raw_variety_text": "ソメイヨシノ、しだれ桜、コイトシダレザクラ、ベニシダレザクラ"
-    },
-    {
-      "variety_name": "ベニシダレザクラ",
       "spot_id": "walker-ar0729e26170",
       "spot_name": "大野寺の桜",
       "prefecture": "奈良県",
@@ -4125,13 +3073,6 @@
       "spot_name": "和歌山城の桜",
       "prefecture": "和歌山県",
       "raw_variety_text": "ソメイヨシノ、しだれ桜、里桜、など"
-    },
-    {
-      "variety_name": "ヤエベニシダレ",
-      "spot_id": "walker-ar0833e26235",
-      "spot_name": "がいせん桜",
-      "prefecture": "岡山県",
-      "raw_variety_text": "ソメイヨシノ、ヤエベニシダレ"
     },
     {
       "variety_name": "八重桜(関山",
@@ -4190,13 +3131,6 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、山桜、しだれ桜、彼岸桜、寒緋桜、大島桜、タイハクザクラ"
     },
     {
-      "variety_name": "アズマヒガンザクラ",
-      "spot_id": "walker-ar0833e60291",
-      "spot_name": "岩井畝の大桜",
-      "prefecture": "岡山県",
-      "raw_variety_text": "アズマヒガンザクラ"
-    },
-    {
       "variety_name": "ほか",
       "spot_id": "walker-ar0833e60282",
       "spot_name": "丸山公園の桜",
@@ -4225,20 +3159,6 @@
       "raw_variety_text": "ソメイヨシノ、大島桜、八重桜、ほか"
     },
     {
-      "variety_name": "塩釜桜",
-      "spot_id": "walker-ar0938e26307",
-      "spot_name": "松山城(城山公園)の桜",
-      "prefecture": "愛媛県",
-      "raw_variety_text": "ソメイヨシノ、大島桜、椿寒桜、塩釜桜、牡丹桜"
-    },
-    {
-      "variety_name": "牡丹桜",
-      "spot_id": "walker-ar0938e26307",
-      "spot_name": "松山城(城山公園)の桜",
-      "prefecture": "愛媛県",
-      "raw_variety_text": "ソメイヨシノ、大島桜、椿寒桜、塩釜桜、牡丹桜"
-    },
-    {
       "variety_name": "里桜",
       "spot_id": "walker-ar0938e26308",
       "spot_name": "道後公園の桜",
@@ -4260,46 +3180,11 @@
       "raw_variety_text": "ソメイヨシノ、山桜、大島桜、センダイヤザクラ、ボタンザクラ、など"
     },
     {
-      "variety_name": "ボタンザクラ",
-      "spot_id": "walker-ar0939e26317",
-      "spot_name": "高知公園の桜",
-      "prefecture": "高知県",
-      "raw_variety_text": "ソメイヨシノ、山桜、大島桜、センダイヤザクラ、ボタンザクラ、など"
-    },
-    {
-      "variety_name": "薄墨桜",
-      "spot_id": "walker-ar0939e403142",
-      "spot_name": "牧野公園の桜",
-      "prefecture": "高知県",
-      "raw_variety_text": "河津桜、ソメイヨシノ、山桜、薄墨桜"
-    },
-    {
       "variety_name": "ほか数十",
       "spot_id": "walker-ar1040e60305",
       "spot_name": "白野江植物公園の桜",
       "prefecture": "福岡県",
       "raw_variety_text": "河津桜、ソメイヨシノ、山桜、大島桜、御衣黄、寒桜、ほか数十種類"
-    },
-    {
-      "variety_name": "ヤエベニシダレ",
-      "spot_id": "walker-ar1040e60381",
-      "spot_name": "舞鶴公園の桜",
-      "prefecture": "福岡県",
-      "raw_variety_text": "ソメイヨシノ、大島桜、陽光、関山、一葉、紅豊、薄墨、ヤエベニシダレ、普賢象、鬱金"
-    },
-    {
-      "variety_name": "八重紅しだれ",
-      "spot_id": "walker-ar1044e425457",
-      "spot_name": "長湯温泉 しだれ桜の里の桜",
-      "prefecture": "大分県",
-      "raw_variety_text": "八重桜、大漁桜、コマツオトメ、八重紅しだれ、ヨウコウザクラ、オモイカワザクラ"
-    },
-    {
-      "variety_name": "ヨウコウザクラ",
-      "spot_id": "walker-ar1044e425457",
-      "spot_name": "長湯温泉 しだれ桜の里の桜",
-      "prefecture": "大分県",
-      "raw_variety_text": "八重桜、大漁桜、コマツオトメ、八重紅しだれ、ヨウコウザクラ、オモイカワザクラ"
     },
     {
       "variety_name": "オモイカワザクラ",
@@ -4351,20 +3236,6 @@
       "raw_variety_text": "八重桜、ソメイヨシノ、大島桜、ほか"
     },
     {
-      "variety_name": "陽光桜",
-      "spot_id": "walker-ar1044e26387",
-      "spot_name": "岡城跡の桜",
-      "prefecture": "大分県",
-      "raw_variety_text": "ソメイヨシノ、山桜、陽光桜、牡丹桜"
-    },
-    {
-      "variety_name": "牡丹桜",
-      "spot_id": "walker-ar1044e26387",
-      "spot_name": "岡城跡の桜",
-      "prefecture": "大分県",
-      "raw_variety_text": "ソメイヨシノ、山桜、陽光桜、牡丹桜"
-    },
-    {
       "variety_name": "ガンタンザクラ",
       "spot_id": "walker-ar1046e60314",
       "spot_name": "国指定名勝 仙巌園の桜",
@@ -4407,13 +3278,6 @@
       "raw_variety_text": "弘前公園公式サイト掲載品種"
     },
     {
-      "variety_name": "船原吉野（フナバラヨシノ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※alias_mapにはfunabara-yoshinoとして存在するが既存登録済みか要確認"
-    },
-    {
       "variety_name": "紅芳遊（ベニボウユ）",
       "spot_id": "walker-ar0202e25563",
       "spot_name": "弘前公園(鷹揚公園)の桜",
@@ -4421,32 +3285,11 @@
       "raw_variety_text": "弘前公園公式品種一覧"
     },
     {
-      "variety_name": "御車返し（ミクルマガエシ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※mikurumagaeshiとして既存登録か要確認"
-    },
-    {
-      "variety_name": "咲耶姫（サクヤヒメ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※sakuyahimeとして既存登録済み"
-    },
-    {
       "variety_name": "衣縫（コロモツギ）",
       "spot_id": "walker-ar0202e25563",
       "spot_name": "弘前公園(鷹揚公園)の桜",
       "prefecture": "青森県",
       "raw_variety_text": "弘前公園公式品種一覧"
-    },
-    {
-      "variety_name": "日暮（ヒグレ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※alias_mapにhigurashiとして存在"
     },
     {
       "variety_name": "行仙（ギョイオ）",
@@ -4468,20 +3311,6 @@
       "spot_name": "弘前公園(鷹揚公園)の桜",
       "prefecture": "青森県",
       "raw_variety_text": "弘前公園公式品種一覧 ※kenrokuen-kikuzakuraとして既存登録済み"
-    },
-    {
-      "variety_name": "千里香（センリカ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※senrikoとして既存登録済み"
-    },
-    {
-      "variety_name": "手まり（テマリ）",
-      "spot_id": "walker-ar0202e25563",
-      "spot_name": "弘前公園(鷹揚公園)の桜",
-      "prefecture": "青森県",
-      "raw_variety_text": "弘前公園公式品種一覧 ※temariとして既存登録済み"
     },
     {
       "variety_name": "松前あこや山錦（マツマエアコヤマニシキ）",
@@ -4519,67 +3348,11 @@
       "raw_variety_text": "固有個体名・品種はエドヒガンサクラ"
     },
     {
-      "variety_name": "見返り桜（シダレザクラ）",
-      "spot_id": "walker-ar0206e25655",
-      "spot_name": "烏帽子山公園の桜",
-      "prefecture": "山形県",
-      "raw_variety_text": "固有個体名・品種はシダレザクラ"
-    },
-    {
-      "variety_name": "鳥居の桜（シダレザクラ）",
-      "spot_id": "walker-ar0206e25655",
-      "spot_name": "烏帽子山公園の桜",
-      "prefecture": "山形県",
-      "raw_variety_text": "固有個体名・品種はシダレザクラ"
-    },
-    {
-      "variety_name": "烏帽子ざくら（シダレザクラ）",
-      "spot_id": "walker-ar0206e25655",
-      "spot_name": "烏帽子山公園の桜",
-      "prefecture": "山形県",
-      "raw_variety_text": "固有個体名・品種はシダレザクラ"
-    },
-    {
-      "variety_name": "菊桜",
-      "spot_id": "walker-ar0206e25655",
-      "spot_name": "烏帽子山公園の桜",
-      "prefecture": "山形県",
-      "raw_variety_text": "Walker+情報では「菊桜」の記載あり。全国桜名木二代目園に金沢菊桜の接ぎ木がある。kikuzakuraは既存登録済み"
-    },
-    {
       "variety_name": "サトザクラ類（70種以上の園芸品種）",
       "spot_id": "walker-ar0311e25764",
       "spot_name": "美の山公園の桜",
       "prefecture": "埼玉県",
       "raw_variety_text": "花の森に約50種以上190本のサトザクラ園芸品種があるが、個別品種名は公開PDF参照"
-    },
-    {
-      "variety_name": "ヨウキヒ（楊貴妃）",
-      "spot_id": "walker-ar0310e25755",
-      "spot_name": "妙義山県立森林公園さくらの里の桜",
-      "prefecture": "群馬県",
-      "raw_variety_text": "妙義山さくらの里記載品種 ※youkihiとして既存登録済み"
-    },
-    {
-      "variety_name": "ミシマザクラ（三島桜）",
-      "spot_id": "walker-ar0310e25755",
-      "spot_name": "妙義山県立森林公園さくらの里の桜",
-      "prefecture": "群馬県",
-      "raw_variety_text": "妙義山さくらの里記載の珍しい品種 ※mishima-zakuraとして既存登録済み"
-    },
-    {
-      "variety_name": "駿河台匂（スルガダイニオイ）",
-      "spot_id": "walker-ar0311e60438",
-      "spot_name": "慈光山歴史公苑の桜",
-      "prefecture": "埼玉県",
-      "raw_variety_text": "既存登録済み(surugadai-nioi)"
-    },
-    {
-      "variety_name": "御衣黄（ギョイコウ）",
-      "spot_id": "walker-ar0311e60438",
-      "spot_name": "慈光山歴史公苑の桜",
-      "prefecture": "埼玉県",
-      "raw_variety_text": "既存登録済み(gyoikou)"
     },
     {
       "variety_name": "里ざくらコレクション約50種の詳細品種",
@@ -4608,13 +3381,6 @@
       "spot_name": "清水公園の桜(千葉県)",
       "prefecture": "千葉県",
       "raw_variety_text": "清水公園さくらまつりページの記載品種"
-    },
-    {
-      "variety_name": "広島江波山桜",
-      "spot_id": "walker-ar0834e60423",
-      "spot_name": "広島市植物公園の桜",
-      "prefecture": "広島県",
-      "raw_variety_text": "広島市の天然記念物。山桜の一種で5〜13枚の花びらをつける。alias_mapではID=ヒロシマエバヤマザクラ（カタカナ）として登録"
     },
     {
       "variety_name": "春月花",

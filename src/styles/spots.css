@@ -12,20 +12,21 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--pink-light);
+  background: linear-gradient(160deg, #fff 50%, #fde8ef 100%);
   padding: 12px 16px 0;
+  border-bottom: 1px solid var(--border);
 }
 
 .spot-list-page__search-inner {
   display: flex;
   align-items: center;
   background: var(--white);
-  border: 1.5px solid var(--pink-mid);
+  border: 1px solid var(--border);
   border-radius: 24px;
   padding: 0 14px;
   gap: 8px;
   height: 44px;
-  box-shadow: 0 2px 8px rgba(200,100,140,0.10);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .spot-list-page__search-icon {
@@ -69,17 +70,18 @@
   position: sticky;
   top: 56px;
   z-index: 99;
-  background: var(--pink-light);
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
 }
 .spot-list-page__chips-row::-webkit-scrollbar { display: none; }
 
 .spot-list-page__chip {
   white-space: nowrap;
-  padding: 6px 14px;
+  padding: 5px 13px;
   border-radius: 20px;
-  border: 1.5px solid var(--pink-mid);
+  border: 1px solid var(--border);
   background: var(--white);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   font-family: inherit;
   color: var(--text-mid);
@@ -87,11 +89,23 @@
   transition: background 0.15s, color 0.15s, border-color 0.15s;
   -webkit-tap-highlight-color: transparent;
   flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
 .spot-list-page__chip.active {
-  background: var(--pink-deep);
-  border-color: var(--pink-deep);
+  background: var(--pink-dark);
+  border-color: var(--pink-dark);
+  color: #fff;
+}
+
+.spot-list-page__chip--fav {
+  color: #ff3d7f;
+  border-color: #ffb3cc;
+}
+
+.spot-list-page__chip--fav.active {
+  background: #ff3d7f;
+  border-color: #ff3d7f;
   color: #fff;
 }
 
@@ -105,15 +119,22 @@
 .spot-list-page__select {
   flex: 1;
   height: 36px;
-  border: 1.5px solid var(--pink-mid);
-  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
   background: var(--white);
   font-size: 13px;
   font-family: inherit;
   color: var(--text);
-  padding: 0 8px;
+  padding: 0 12px;
   cursor: pointer;
   outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B5294F' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 28px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
 /* ── 件数 ── */
@@ -155,7 +176,7 @@
 }
 
 .spot-list-page__reset-btn {
-  background: var(--pink-deep);
+  background: var(--pink-dark);
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -214,7 +235,7 @@
 .spot-list-page__geo-cancel {
   flex: 1;
   height: 44px;
-  border: 1.5px solid var(--pink-mid);
+  border: 1.5px solid var(--border);
   border-radius: 22px;
   background: var(--white);
   color: var(--text-mid);
@@ -228,7 +249,7 @@
   height: 44px;
   border: none;
   border-radius: 22px;
-  background: var(--pink-deep);
+  background: var(--pink-dark);
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -245,7 +266,7 @@
   background: var(--white);
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
-  border: 1.5px solid rgba(244, 143, 177, 0.2);
+  border: 1px solid var(--border);
   overflow: hidden;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
   -webkit-tap-highlight-color: transparent;
@@ -257,8 +278,8 @@
 }
 
 .spot-list-card--highlighted {
-  border-color: var(--pink-deep);
-  box-shadow: 0 4px 20px rgba(194, 24, 91, 0.25);
+  border-color: var(--pink-dark);
+  box-shadow: 0 4px 20px rgba(181,41,79,0.25);
 }
 
 /* サムネイル */
@@ -268,6 +289,7 @@
   flex-shrink: 0;
   overflow: hidden;
   background: var(--pink-mid);
+  position: relative;
 }
 
 .spot-list-card__img {
@@ -416,7 +438,7 @@
   min-width: 120px;
   padding: 10px 14px;
   border-radius: 20px;
-  border: 1.5px solid var(--pink-mid);
+  border: 1px solid var(--border);
   background: var(--white);
   color: var(--text-mid);
   font-size: 13px;
@@ -428,4 +450,4 @@
   transition: background 0.15s;
 }
 
-.spot-sheet__view-spot-list:active { background: var(--pink-mid); }
+.spot-sheet__view-spot-list:active { background: var(--pink-light); }

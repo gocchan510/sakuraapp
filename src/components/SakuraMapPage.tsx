@@ -1,12 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { RecommendWizard } from './RecommendWizard'
+import { useLang } from '../contexts/LangContext'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import spotsData from '../data/spots.json'
 import varietiesData from '../data/varieties.json'
 import type { Variety } from '../types'
-import { hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
-import { spotBloomCache, getSortedVarieties, type BloomStatus } from '../utils/spotBloom'
+import { getSomeiyoshinoDate, getVarietyBloomWindow, isFuyuAutumnBloom, hasOffsetData, OFFSET_UPDATED_AT } from '../utils/bloomOffset'
+import { spotBloomCache, computeSpotBloom, getSortedVarieties, getVarietyBloomStatus, STATUS_PRIORITY, type BloomStatus } from '../utils/spotBloom'
+import { fetchWeatherForSpots, dateKey } from '../utils/weather'
+import type { ShareCardParams } from '../utils/shareCard'
+import { ShareModal } from './ShareModal'
+import { FavoriteHeart } from './FavoriteHeart'
+import { useFavorites } from '../contexts/FavoritesContext'
+import { haptic, HapticPattern } from '../utils/haptic'
 
 // ── 型 ───────────────────────────────────────────────────────────
 type RawSpot = typeof spotsData[number]
@@ -18,17 +25,66 @@ type MapSpot = Omit<RawSpot, 'varieties'> & {
 const allSpots = spotsData as unknown as MapSpot[]
 const allVarieties = varietiesData as unknown as Variety[]
 
+// ── 前線レイヤー: グループ定義 ────────────────────────────────────
+const FRONTIER_GROUPS = ['kanhizakura', 'edohigan', 'someiyoshino', 'yamazakura', 'kasumizakura', 'sato-early', 'sato-mid', 'sato-late'] as const
+type FrontierGroup = typeof FRONTIER_GROUPS[number]
+const GROUP_INFO: Record<FrontierGroup, { name: string; icon: string; color: string }> = {
+  kanhizakura:  { name: 'カンヒザクラ系',  icon: '🌺', color: '#D81B60' },
+  edohigan:     { name: 'エドヒガン系',    icon: '🌸', color: '#8E24AA' },
+  someiyoshino: { name: 'ソメイヨシノ',    icon: '🌸', color: '#E91E8C' },
+  yamazakura:   { name: 'ヤマザクラ系',    icon: '🌿', color: '#F57C00' },
+  kasumizakura: { name: 'カスミザクラ系',  icon: '🌫️', color: '#0288D1' },
+  'sato-early': { name: 'サトザクラ(早)',  icon: '🌷', color: '#388E3C' },
+  'sato-mid':   { name: 'サトザクラ(中)',  icon: '🌷', color: '#5C6BC0' },
+  'sato-late':  { name: 'サトザクラ(遅)',  icon: '🌹', color: '#C62828' },
+}
+
 // ── 開花状況 ─────────────────────────────────────────────────────
 const BLOOM_COLOR: Record<BloomStatus, string> = {
   in_bloom:   '#FF69B4',
-  budding:    '#7CCD7C',
-  past_bloom: '#C8A870',
+  opening:    '#FF9AB8',
+  falling:    '#C8A870',
+  leaf:       '#66BB6A',
+  budding:    '#FFD54F',
   upcoming:   '#87CEEB',
   off_season: '#C8C8C8',
 }
 
+// ── 日付ユーティリティ ────────────────────────────────────────────
+const MAP_DAY_NAMES = ['日', '月', '火', '水', '木', '金', '土']
+function isSameDay(a: Date, b: Date): boolean {
+  return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate()
+}
+function addDays(d: Date, n: number): Date {
+  const r = new Date(d); r.setDate(r.getDate() + n); return r
+}
+function toInputDate(d: Date): string {
+  const mm = String(d.getMonth() + 1).padStart(2, '0')
+  const dd = String(d.getDate()).padStart(2, '0')
+  return `${d.getFullYear()}-${mm}-${dd}`
+}
+function formatMapDate(d: Date): string {
+  return `${d.getMonth() + 1}月${d.getDate()}日（${MAP_DAY_NAMES[d.getDay()]}）`
+}
+
 // ── 事前計算 ─────────────────────────────────────────────────────
 const varietiesById = new Map(allVarieties.map(v => [v.id, v]))
+
+// グループ別スポット一覧（varietiesById 定義後に構築）
+const spotsByBloomGroup = new Map<string, typeof allSpots>()
+allSpots.forEach(spot => {
+  const groups = new Set<string>()
+  ;(spot.varieties ?? []).forEach(id => {
+    const v = varietiesById.get(id)
+    if (v?.bloomGroup && (FRONTIER_GROUPS as readonly string[]).includes(v.bloomGroup)) {
+      groups.add(v.bloomGroup)
+    }
+  })
+  groups.forEach(g => {
+    if (!spotsByBloomGroup.has(g)) spotsByBloomGroup.set(g, [])
+    spotsByBloomGroup.get(g)!.push(spot)
+  })
+})
 
 // spotBloom.tsのキャッシュを使用
 const spotStatusMap = new Map<string, BloomStatus>(
@@ -64,15 +120,6 @@ allSpots.forEach(spot => {
   spotFilterKeysMap.get(spot.id)?.forEach(k => { if (k in filterCounts) filterCounts[k]++ })
 })
 
-const CHIPS = [
-  { key: 'in_bloom',     label: '🌸 今見頃' },
-  { key: 'rare',         label: '★★★+ 珍しい' },
-  { key: 'many',         label: '🌳 多品種' },
-  { key: 'one_tree',     label: '🌲 一本桜' },
-  { key: 'near_station', label: '🚶 駅近' },
-  { key: 'free',         label: '🆓 無料' },
-]
-
 // ── ズームレベル → 最小 popularity ─────────────────────────────
 function minPopForZoom(zoom: number): number {
   if (zoom >= 11) return 2
@@ -83,6 +130,35 @@ function minPopForZoom(zoom: number): number {
 function pinRadius(pop: number, inBloom: boolean): number {
   const base = pop === 5 ? 9 : pop === 4 ? 7 : pop === 3 ? 6 : 5
   return inBloom ? base + 2 : base
+}
+
+// ── 咲き具合スコア 0〜1（前線補完用） ───────────────────────────
+function bloomScoreFromWindow(win: { start: Date; end: Date } | null, today: Date): number {
+  if (!win) return 0
+  const t = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  if (t > win.end) return 0
+  if (t < win.start) return 0
+  const duration = (win.end.getTime() - win.start.getTime()) / 86400000
+  const elapsed  = (t.getTime() - win.start.getTime()) / 86400000
+  const ratio = duration > 0 ? elapsed / duration : 0.5
+  if (ratio < 0.35) return 0.5 + (ratio / 0.35) * 0.5   // opening: 0.5→1.0
+  if (ratio < 0.65) return 1.0                             // in_bloom: 1.0
+  return 1.0 - ((ratio - 0.65) / 0.35) * 0.7              // falling: 1.0→0.3
+}
+
+function getGroupScoreAtSpot(spot: MapSpot, bloomGroup: string, date: Date): number {
+  const soDate = (spot.lat && spot.lng && hasOffsetData())
+    ? getSomeiyoshinoDate(spot.lat, spot.lng)
+    : getSomeiyoshinoDate(35.6895, 139.6917)
+  let best = 0
+  for (const id of spot.varieties ?? []) {
+    const v = varietiesById.get(id)
+    if (!v || v.bloomGroup !== bloomGroup) continue
+    if (isFuyuAutumnBloom(v.bloomGroup, date)) { best = Math.max(best, 1.0); continue }
+    const win = getVarietyBloomWindow(v.bloomGroup, v.someiyoshinoOffset ?? null, soDate)
+    best = Math.max(best, bloomScoreFromWindow(win, date))
+  }
+  return best
 }
 
 // ── Haversine distance ───────────────────────────────────────────
@@ -194,7 +270,7 @@ interface MiniCardProps {
 }
 function VarietyMiniCard({ variety, status, onTap }: MiniCardProps) {
   const imgSrc = variety.hasImage && variety.images?.[0]?.file
-  const isPast = status === 'past_bloom' || status === 'off_season'
+  const isPast = status === 'leaf' || status === 'off_season'
 
   return (
     <div
@@ -206,8 +282,9 @@ function VarietyMiniCard({ variety, status, onTap }: MiniCardProps) {
           ? <img src={imgSrc} alt={variety.name} />
           : <span className="map-mini-card__dot" style={{ background: variety.colorCode }} />
         }
-        {status === 'in_bloom' && <span className="map-mini-card__badge">見頃</span>}
-        {status === 'budding'  && <span className="map-mini-card__badge map-mini-card__badge--bud">間もなく</span>}
+        {status === 'in_bloom'  && <span className="map-mini-card__badge">満開・見頃</span>}
+        {status === 'opening'   && <span className="map-mini-card__badge map-mini-card__badge--opening">開花中</span>}
+        {status === 'budding'   && <span className="map-mini-card__badge map-mini-card__badge--bud">間もなく</span>}
       </div>
       <div className="map-mini-card__body">
         <div className="map-mini-card__name">{variety.name}</div>
@@ -226,41 +303,142 @@ interface SheetProps {
   spot: MapSpot
   onClose:           () => void
   onViewAll:         () => void
-  onSelectVariety:   (id: string) => void
+  onSelectVariety:   (id: string, fromDate?: string) => void
   onViewSpotList?:   (spotId: string) => void
+  mapDate:           Date
 }
-function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpotList }: SheetProps) {
+function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpotList, mapDate }: SheetProps) {
   const [expanded, setExpanded] = useState(false)
-  const touchStartY = useRef(0)
+  const [sharing, setSharing] = useState(false)
+  const [shareParams, setShareParams] = useState<Omit<ShareCardParams, 'format'> | null>(null)
+  const [dragY, setDragY] = useState(0)
+  const [dragging, setDragging] = useState(false)
+  const dragStateRef = useRef<{
+    startY: number
+    startTime: number
+    lastY: number
+    lastTime: number
+  } | null>(null)
+  const { t } = useLang()
+  const mapStr = t('map')
+
+  async function handleShare() {
+    if (sharing || shareParams) return
+    setSharing(true)
+    try {
+      const targetDate = mapDate
+      let weather = null
+      if (spot.lat && spot.lng) {
+        const weatherMap = await fetchWeatherForSpots(
+          [{ id: spot.id, lat: spot.lat, lng: spot.lng }],
+          [targetDate],
+          false,
+        )
+        weather = weatherMap.get(spot.id)?.get(dateKey(targetDate)) ?? null
+      }
+      const bloom = computeSpotBloom(spot as Parameters<typeof computeSpotBloom>[0], targetDate)
+      const dayNames = ['日', '月', '火', '水', '木', '金', '土']
+      const dayLabel = `${targetDate.getMonth() + 1}/${targetDate.getDate()}(${dayNames[targetDate.getDay()]})`
+      // 代表品種：ソメイヨシノ優先、なければ最上位
+      const sorted = getSortedVarieties(spot as Parameters<typeof getSortedVarieties>[0], targetDate)
+      let primaryVariety: string | null = null
+      if (sorted.length > 0) {
+        const topStatus = sorted[0].status
+        const someiyoshino = sorted.find(x => x.variety.id === 'someiyoshino' && x.status === topStatus)
+        primaryVariety = someiyoshino ? someiyoshino.variety.name : sorted[0].variety.name
+      }
+      setShareParams({
+        name: spot.name,
+        prefecture: spot.prefecture,
+        city: spot.city ?? '',
+        bloomStatus: bloom.status,
+        weather,
+        isNight: false,
+        dayLabel,
+        features: spot.features ?? [],
+        varietyCount: spot.varietyCount ?? (spot.varieties?.length ?? 0),
+        is100sen: (spot.features ?? []).includes('さくら名所100選'),
+        imageUrl: (spot as any).imageUrl ?? null,
+        primaryVariety,
+        targetDate,
+        spotId: spot.id,
+      })
+    } finally {
+      setSharing(false)
+    }
+  }
 
   const ids = spot.varieties ?? []
   // getSortedVarieties を使って品種の開花ステータスを取得
-  const sortedVars = getSortedVarieties(spot)
+  const sortedVars = getSortedVarieties(spot, mapDate)
   const variants: { variety: Variety; status: BloomStatus }[] = sortedVars
 
-  const inBloom  = variants.filter(x => x.status === 'in_bloom')
+  const inBloom  = variants.filter(x => x.status === 'in_bloom' || x.status === 'opening' || x.status === 'falling')
   const budding  = variants.filter(x => x.status === 'budding')
-  const others   = variants.filter(x => x.status !== 'in_bloom' && x.status !== 'budding')
+  const others   = variants.filter(x => !['in_bloom','opening','falling','budding'].includes(x.status))
 
   const varCount  = spot.varietyCount ?? ids.length
-  const peakShort = (spot.peakMonth ?? '').replace(/[（(].*/, '').trim().slice(0, 24)
-  const spotStatus = spotStatusMap.get(spot.id) ?? 'off_season'
+  const peakShort = spot.peakMonth != null ? `${spot.peakMonth}月` : ''
+  const spotStatus = computeSpotBloom(spot as Parameters<typeof computeSpotBloom>[0], mapDate).status
 
-  const STATUS_LABEL: Record<BloomStatus, string> = {
-    in_bloom:   '🌸 今見頃',
-    budding:    '🌱 もうすぐ咲く',
-    past_bloom: '🍃 散り終わり',
-    upcoming:   '🫧 まだ先',
-    off_season: '⬜ 時期外',
-  }
+  const STATUS_LABEL = mapStr.statusLabel as Record<string, string>
 
-  function onHandleTouch(e: React.TouchEvent) {
-    touchStartY.current = e.touches[0].clientY
+  // ── ハンドルのドラッグ操作（指追従） ──
+  function onHandleTouchStart(e: React.TouchEvent) {
+    const tc = e.touches[0]
+    const now = performance.now()
+    dragStateRef.current = {
+      startY: tc.clientY,
+      startTime: now,
+      lastY: tc.clientY,
+      lastTime: now,
+    }
+    setDragging(true)
   }
-  function onHandleTouchEnd(e: React.TouchEvent) {
-    const delta = e.changedTouches[0].clientY - touchStartY.current
-    if (delta < -30) setExpanded(true)
-    if (delta > 30)  delta > 80 ? onClose() : setExpanded(false)
+  function onHandleTouchMove(e: React.TouchEvent) {
+    const st = dragStateRef.current
+    if (!st) return
+    const tc = e.touches[0]
+    st.lastY = tc.clientY
+    st.lastTime = performance.now()
+    setDragY(tc.clientY - st.startY)
+  }
+  function onHandleTouchEnd() {
+    const st = dragStateRef.current
+    if (!st) return
+    dragStateRef.current = null
+    const delta = st.lastY - st.startY
+    const dt = Math.max(1, st.lastTime - st.startTime)
+    const velocity = delta / dt  // px/ms 正=下方向
+
+    setDragging(false)
+
+    const FLICK = 0.6        // 速度しきい値 (px/ms)
+    const CLOSE_FLICK = 1.3  // 即 close する勢い
+    const CLOSE_DIST = 140   // 位置だけで close 判定
+
+    if (expanded) {
+      // full状態
+      if (velocity > CLOSE_FLICK || delta > window.innerHeight * 0.45) {
+        haptic(HapticPattern.medium)
+        setDragY(0); onClose(); return
+      }
+      if (velocity > FLICK || delta > 160) {
+        haptic(HapticPattern.strong)
+        setExpanded(false)
+      }
+      // 上方向スワイプは何もしない（既に full）
+    } else {
+      // peek状態
+      if (velocity < -FLICK || delta < -60) {
+        haptic(HapticPattern.strong)
+        setExpanded(true)
+      } else if (velocity > FLICK || delta > CLOSE_DIST) {
+        haptic(HapticPattern.medium)
+        setDragY(0); onClose(); return
+      }
+    }
+    setDragY(0)
   }
 
   return (
@@ -268,13 +446,16 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
       {/* Backdrop — タップで閉じる */}
       {expanded && <div className="sheet-backdrop" onClick={onClose} />}
 
-      <div className={`spot-sheet${expanded ? ' spot-sheet--full' : ' spot-sheet--peek'}`}>
+      <div
+        className={`spot-sheet${expanded ? ' spot-sheet--full' : ' spot-sheet--peek'}${dragging ? ' spot-sheet--dragging' : ''}`}
+        style={(dragging || dragY !== 0) ? ({ ['--drag-y' as any]: `${dragY}px` } as React.CSSProperties) : undefined}
+      >
         {/* Handle */}
         <div
           className="spot-sheet__handle-wrap"
-          onTouchStart={onHandleTouch}
+          onTouchStart={onHandleTouchStart}
+          onTouchMove={onHandleTouchMove}
           onTouchEnd={onHandleTouchEnd}
-          onClick={() => setExpanded(e => !e)}
         >
           <div className="spot-sheet__handle" />
         </div>
@@ -284,6 +465,7 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
           <div className="spot-sheet__title-row">
             <h2 className="spot-sheet__name">🌸 {spot.name}</h2>
             <div className="spot-sheet__header-actions">
+              <FavoriteHeart spotId={spot.id} variant="sheet" stopPropagation={false} />
               {spot.lat && spot.lng && (
                 <button
                   className="spot-sheet__route-btn"
@@ -292,15 +474,34 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
                     '_blank'
                   )}
                 >
-                  🚶 ルート
+                  {mapStr.routeBtn}
                 </button>
               )}
+              <button
+                className="spot-sheet__route-btn"
+                aria-label={mapStr.shareBtn}
+                onClick={handleShare}
+                disabled={sharing}
+              >
+                {sharing ? (
+                  <span style={{display:'inline-flex',alignItems:'center',gap:4}}>⏳ 生成中…</span>
+                ) : (
+                  <>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{verticalAlign:'middle'}}>
+                      <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                    </svg>
+                    {' '}{mapStr.shareBtn}
+                  </>
+                )}
+              </button>
               <button className="spot-sheet__close" onClick={onClose} aria-label="閉じる">✕</button>
             </div>
           </div>
           <div className="spot-sheet__meta">
             <span className="spot-sheet__pref">{spot.prefecture}</span>
-            {varCount > 0 && <span className="spot-sheet__count">{varCount}品種</span>}
+            {varCount > 0 && <span className="spot-sheet__count">{mapStr.varietyCount(varCount)}</span>}
             <span className="spot-sheet__status" style={{ color: BLOOM_COLOR[spotStatus] }}>
               {STATUS_LABEL[spotStatus]}
             </span>
@@ -308,15 +509,12 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
           {/* ソメイヨシノ指標 */}
           {(() => {
             const soStatus = spotBloomCache.get(spot.id)?.someiyoshinoStatus
-            const SO_LABEL: Record<string, string> = {
-              in_bloom: '🟢 見頃', budding: '🟡 もうすぐ', past_bloom: '🔴 散り頃', upcoming: '⏳ これから',
-            }
-            const soLabel = soStatus ? SO_LABEL[soStatus as string] : null
+            const soLabel = soStatus ? (mapStr.soLabel as Record<string, string>)[soStatus as string] : null
             if (!soLabel) return null
-            return <div className="spot-sheet__someiyoshino-ref">🌸 ソメイヨシノ: {soLabel}</div>
+            return <div className="spot-sheet__someiyoshino-ref">🌸 {t('spots').someiyoshino}: {soLabel}</div>
           })()}
           {peakShort && (
-            <div className="spot-sheet__peak">見頃: {peakShort}</div>
+            <div className="spot-sheet__peak">{mapStr.peakLabel} {peakShort}</div>
           )}
           {/* Feature 3a: 特徴タグ */}
           {spot.features && spot.features.length > 0 && (
@@ -328,8 +526,8 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
           )}
         </div>
 
-        {/* 品種リスト（expanded時のみ） */}
-        {expanded && (
+        {/* 品種リスト（常にレンダリング：ドラッグ中も中身が見える） */}
+        {(
           <div className="spot-sheet__body">
             {/* Feature 3b: レア品種セクション */}
             {(() => {
@@ -340,7 +538,7 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
                   <div className="spot-sheet__section-title">✨ レア品種</div>
                   <div className="spot-sheet__cards">
                     {rareVariants.map(({ variety, status }) => (
-                      <VarietyMiniCard key={variety.id} variety={variety} status={status} onTap={() => onSelectVariety(variety.id)} />
+                      <VarietyMiniCard key={variety.id} variety={variety} status={status} onTap={() => onSelectVariety(variety.id, toInputDate(mapDate))} />
                     ))}
                   </div>
                 </section>
@@ -349,14 +547,14 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
 
             {inBloom.length > 0 && (
               <section className="spot-sheet__section">
-                <div className="spot-sheet__section-title">🌸 今見頃の品種</div>
+                <div className="spot-sheet__section-title">{mapStr.nowBloomTitle}</div>
                 <div className="spot-sheet__cards">
                   {inBloom.map(({ variety, status }) => (
                     <VarietyMiniCard
                       key={variety.id}
                       variety={variety}
                       status={status}
-                      onTap={() => onSelectVariety(variety.id)}
+                      onTap={() => onSelectVariety(variety.id, toInputDate(mapDate))}
                     />
                   ))}
                 </div>
@@ -372,7 +570,7 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
                       key={variety.id}
                       variety={variety}
                       status={status}
-                      onTap={() => onSelectVariety(variety.id)}
+                      onTap={() => onSelectVariety(variety.id, toInputDate(mapDate))}
                     />
                   ))}
                 </div>
@@ -388,7 +586,7 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
                       key={variety.id}
                       variety={variety}
                       status={status}
-                      onTap={() => onSelectVariety(variety.id)}
+                      onTap={() => onSelectVariety(variety.id, toInputDate(mapDate))}
                     />
                   ))}
                 </div>
@@ -398,7 +596,7 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
             <div className="spot-sheet__action-row">
               {ids.length > 0 && (
                 <button className="spot-sheet__view-all" onClick={onViewAll}>
-                  🌸 図鑑で見る
+                  🌸 {t('tabs').zukan}
                 </button>
               )}
               {onViewSpotList && (
@@ -406,25 +604,33 @@ function SpotBottomSheet({ spot, onClose, onViewAll, onSelectVariety, onViewSpot
                   className="spot-sheet__view-spot-list"
                   onClick={() => { onClose(); onViewSpotList(spot.id) }}
                 >
-                  📋 スポット一覧で見る
+                  {mapStr.spotListBtn}
                 </button>
               )}
             </div>
           </div>
         )}
       </div>
+      {shareParams && (
+        <ShareModal params={shareParams} onClose={() => setShareParams(null)} />
+      )}
     </>
   )
 }
 
 // ── 凡例 ─────────────────────────────────────────────────────────
 function MapLegend() {
+  const { t } = useLang()
+  const mapStr = t('map')
+  const statusStr = t('status')
   return (
     <div className="map-legend">
-      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.in_bloom }} />見頃</span>
-      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.budding }} />もうすぐ</span>
-      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.past_bloom }} />散り終わり</span>
-      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.off_season }} />時期外</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.in_bloom }} />{mapStr.legendInBloom}</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.opening }} />{statusStr.opening}</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.falling }} />{mapStr.legendFalling}</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.budding }} />{mapStr.legendBudding}</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.leaf }} />{statusStr.leaf}</span>
+      <span><span className="map-legend__dot" style={{ background: BLOOM_COLOR.off_season }} />{statusStr.off_season}</span>
     </div>
   )
 }
@@ -471,10 +677,11 @@ function NearbyCarousel({ spots, onSpotTap }: {
   spots: { spot: MapSpot; distance: number; status: BloomStatus }[]
   onSpotTap: (spot: MapSpot) => void
 }) {
+  const { t } = useLang()
   if (!spots.length) return null
   return (
     <div className="nearby-carousel">
-      <div className="nearby-carousel__title">📍 近くの見頃スポット</div>
+      <div className="nearby-carousel__title">{t('map').nearbyTitle}</div>
       <div className="nearby-carousel__track">
         {spots.map(({ spot, distance, status }) => (
           <NearbySpotCard
@@ -493,22 +700,44 @@ function NearbyCarousel({ spots, onSpotTap }: {
 // ── Props ────────────────────────────────────────────────────────
 interface Props {
   onViewVarieties:   (spotName: string, varietyIds: string[]) => void
-  onSelectVariety:   (id: string) => void
+  onSelectVariety:   (id: string, fromDate?: string) => void
   onViewSpotList?:   (spotId: string) => void
   focusSpotId?:      string
 }
 
 // ── メインコンポーネント ─────────────────────────────────────────
 export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList, focusSpotId }: Props) {
+  const { t } = useLang()
+  const mapStr = t('map')
+  const { favoriteIds, count: favCount } = useFavorites()
+
+  const CHIPS = [
+    { key: 'in_bloom',     label: mapStr.chips.in_bloom },
+    { key: 'rare',         label: mapStr.chips.rare },
+    { key: 'many',         label: mapStr.chips.many },
+    { key: 'one_tree',     label: mapStr.chips.one_tree },
+    { key: 'near_station', label: mapStr.chips.near_station },
+    { key: 'free',         label: mapStr.chips.free },
+  ]
+
   const containerRef      = useRef<HTMLDivElement>(null)
   const mapRef            = useRef<L.Map | null>(null)
   const markerLayerRef    = useRef<L.LayerGroup | null>(null)
+  const frontierLayerRef  = useRef<L.LayerGroup | null>(null)
+  const mapDateRef        = useRef<Date>(new Date())
+  const updateFrontierRef = useRef<(() => void) | null>(null)
 
   // React state
   const [selectedSpot, setSelectedSpot] = useState<MapSpot | null>(null)
   const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set())
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
   const [showWizard, setShowWizard] = useState(false)
+
+  // 日付ピッカー
+  const [mapDate, setMapDate] = useState<Date>(() => new Date())
+  const dateInputRef = useRef<HTMLInputElement>(null)
+  const dateStatusMapRef = useRef<Map<string, BloomStatus>>(new Map(spotStatusMap))
+  const [dateStatusMap, setDateStatusMap] = useState<Map<string, BloomStatus>>(() => new Map(spotStatusMap))
 
   // 検索状態
   const [searchQuery, setSearchQuery] = useState('')
@@ -522,6 +751,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
   const activeFiltersRef   = useRef<Set<string>>(new Set())
   const searchPinFilterRef = useRef<Set<string> | null>(null)  // 品種検索ピンフィルタ
   const updateMarkersRef   = useRef<(() => void) | null>(null)
+  const favoriteIdsRef     = useRef<Set<string>>(favoriteIds)
 
   useEffect(() => { onSelectSpotRef.current = setSelectedSpot }, [])
 
@@ -530,6 +760,25 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
     activeFiltersRef.current = activeFilters
     updateMarkersRef.current?.()
   }, [activeFilters])
+
+  // お気に入り変化時にもマーカーを再描画
+  useEffect(() => {
+    favoriteIdsRef.current = favoriteIds
+    updateMarkersRef.current?.()
+  }, [favoriteIds])
+
+  // mapDate 変化時: 全スポットのステータスを再計算してピンを更新
+  useEffect(() => {
+    const today = new Date()
+    const newMap: Map<string, BloomStatus> = isSameDay(mapDate, today)
+      ? new Map(spotStatusMap)
+      : new Map(allSpots.map(s => [s.id, computeSpotBloom(s as Parameters<typeof computeSpotBloom>[0], mapDate).status]))
+    dateStatusMapRef.current = newMap
+    mapDateRef.current = mapDate
+    setDateStatusMap(newMap)
+    updateMarkersRef.current?.()
+    updateFrontierRef.current?.()
+  }, [mapDate])
 
   // focusSpotId が変化したらそのスポットにフォーカス
   useEffect(() => {
@@ -548,18 +797,18 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
   // ── nearbySpots ──────────────────────────────────────────────
   const nearbySpots = useMemo(() => {
     if (!userLocation) return []
-    const PRIORITY: Record<BloomStatus, number> = { in_bloom: 0, budding: 1, upcoming: 2, past_bloom: 99, off_season: 99 }
+    const PRIORITY: Record<BloomStatus, number> = { in_bloom: 0, opening: 1, falling: 2, budding: 3, leaf: 4, upcoming: 5, off_season: 99 }
     return allSpots
       .filter(s => s.lat && s.lng)
       .map(s => ({
         spot: s,
-        status: spotStatusMap.get(s.id) ?? ('off_season' as BloomStatus),
+        status: dateStatusMap.get(s.id) ?? ('off_season' as BloomStatus),
         distance: getDistance(userLocation.lat, userLocation.lng, s.lat!, s.lng!),
       }))
       .filter(x => PRIORITY[x.status] < 99)
       .sort((a, b) => PRIORITY[a.status] - PRIORITY[b.status] || a.distance - b.distance)
       .slice(0, 10)
-  }, [userLocation])
+  }, [userLocation, dateStatusMap])
 
   // ── 地図初期化（1回のみ） ──────────────────────────────────────
   useEffect(() => {
@@ -582,34 +831,114 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
     const layer = L.layerGroup().addTo(map)
     markerLayerRef.current = layer
 
+    // ── 前線レイヤー（スポットマーカーより下のパネル） ──────────────
+    const frontierPane = map.createPane('frontierPane')
+    frontierPane.style.zIndex = '350'
+    const frontierLayer = L.layerGroup().addTo(map)
+    frontierLayerRef.current = frontierLayer
+
+    function updateFrontier() {
+      frontierLayer.clearLayers()
+      const date = mapDateRef.current
+
+      const SCORE_THRESHOLD = 0.25
+      const BAND_WIDTH = 1.5
+
+      FRONTIER_GROUPS.forEach(group => {
+        const spots = spotsByBloomGroup.get(group) ?? []
+
+        // スコア付きスポットを収集（閾値以上のみ）
+        const scored = spots
+          .filter(s => s.lat && s.lng)
+          .map(s => ({ spot: s, score: getGroupScoreAtSpot(s, group, date) }))
+          .filter(x => x.score >= SCORE_THRESHOLD)
+
+        if (scored.length < 3) return
+
+        const info = GROUP_INFO[group]
+
+        // 経度帯ごとに「スコア加重で最も北寄りの点」を選んで前線を形成
+        const lngMin = Math.min(...scored.map(x => x.spot.lng!))
+        const lngMax = Math.max(...scored.map(x => x.spot.lng!))
+        const frontPoints: [number, number][] = []
+
+        for (let lng = lngMin; lng <= lngMax + BAND_WIDTH; lng += BAND_WIDTH) {
+          const band = scored.filter(x => x.spot.lng! >= lng && x.spot.lng! < lng + BAND_WIDTH)
+          if (band.length === 0) continue
+          // スコアが高いほど北側に引き寄せる（加重）
+          const weightedNorth = band.reduce((best, x) => {
+            const adjustedLat = x.spot.lat! + x.score * 0.3  // スコアで少し北にずらす
+            const bestAdj = best.spot.lat! + best.score * 0.3
+            return adjustedLat > bestAdj ? x : best
+          })
+          frontPoints.push([weightedNorth.spot.lat!, weightedNorth.spot.lng!])
+        }
+
+        if (frontPoints.length < 2) return
+        frontPoints.sort((a, b) => a[1] - b[1])
+
+        L.polyline(frontPoints, {
+          color: info.color,
+          weight: 3,
+          opacity: 0.85,
+          dashArray: '10, 5',
+          interactive: false,
+          pane: 'frontierPane',
+        }).addTo(frontierLayer)
+
+        // ラベル: 最もスコアが高い帯の点
+        const midIdx = Math.floor(frontPoints.length / 2)
+        const [labelLat, labelLng] = frontPoints[midIdx]
+
+        L.marker([labelLat, labelLng], {
+          icon: L.divIcon({
+            html: `<div class="frontier-label" style="color:${info.color};border-color:${info.color}">${info.icon} ${info.name}</div>`,
+            className: 'frontier-label-wrapper',
+            iconSize: [0, 0] as [number, number],
+            iconAnchor: [0, 0] as [number, number],
+          }),
+          interactive: false,
+          pane: 'frontierPane',
+        }).addTo(frontierLayer)
+      })
+    }
+
+    updateFrontier()
+    updateFrontierRef.current = updateFrontier
+
     function updateMarkers() {
       layer.clearLayers()
       const zoom   = map.getZoom()
       const minPop = minPopForZoom(zoom)
       const filters = activeFiltersRef.current
+      const favSet  = favoriteIdsRef.current
       const seen   = new Set<string>()
 
       allSpots.forEach(spot => {
         const lat = spot.lat, lng = spot.lng
         if (!lat || !lng) return
 
+        const isFav = favSet.has(spot.id)
         const pop = spot.popularity ?? 2
-        if (pop < minPop) return
+        // お気に入りは popularity 低くても必ず表示
+        if (pop < minPop && !isFav) return
 
         const key = `${lat.toFixed(4)},${lng.toFixed(4)}`
         if (seen.has(key)) return
         seen.add(key)
 
-        const status = spotStatusMap.get(spot.id) ?? 'off_season'
+        const status = dateStatusMapRef.current.get(spot.id) ?? 'off_season'
         const color  = BLOOM_COLOR[status]
-        const radius = pinRadius(pop, status === 'in_bloom')
+        const radius = pinRadius(pop, status === 'in_bloom' || status === 'opening')
 
-        // チップフィルタ
+        // チップフィルタ（AND）
         let dimmed = false
         if (filters.size > 0) {
           const spotKeys = spotFilterKeysMap.get(spot.id) ?? new Set<string>()
           for (const fk of filters) {
-            if (!spotKeys.has(fk)) { dimmed = true; break }
+            if (fk === 'fav') {
+              if (!isFav) { dimmed = true; break }
+            } else if (!spotKeys.has(fk)) { dimmed = true; break }
           }
         }
         // 品種検索ピンフィルタ
@@ -618,14 +947,35 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
           dimmed = true
         }
 
-        const marker = L.circleMarker([lat, lng], {
-          radius,
-          fillColor:   color,
-          color:       status === 'in_bloom' ? 'rgba(220,0,80,0.4)' : 'rgba(0,0,0,0.18)',
-          weight:      status === 'in_bloom' ? 2 : 1,
-          fillOpacity: dimmed ? 0.12 : 0.85,
-          opacity:     dimmed ? 0.3  : 1,
-        }).addTo(layer)
+        let marker: L.Layer
+        if (isFav) {
+          // ハート形ピン（bloom色で塗り、白縁）
+          const size = Math.max(22, radius * 2 + 10)
+          const stroke = (status === 'in_bloom' || status === 'opening') ? '#fff' : '#fff'
+          const strokeW = 1.6
+          const heartSvg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"
+                    fill="${color}" stroke="${stroke}" stroke-width="${strokeW}" stroke-linejoin="round"
+                    style="filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35));" />
+            </svg>`
+          const icon = L.divIcon({
+            html: heartSvg,
+            className: `fav-map-pin${dimmed ? ' fav-map-pin--dim' : ''}`,
+            iconSize: [size, size],
+            iconAnchor: [size / 2, size / 2],
+          })
+          marker = L.marker([lat, lng], { icon, keyboard: false, interactive: true }).addTo(layer)
+        } else {
+          marker = L.circleMarker([lat, lng], {
+            radius,
+            fillColor:   color,
+            color:       (status === 'in_bloom' || status === 'opening') ? 'rgba(220,0,80,0.4)' : 'rgba(0,0,0,0.18)',
+            weight:      (status === 'in_bloom' || status === 'opening') ? 2 : 1,
+            fillOpacity: dimmed ? 0.12 : 0.85,
+            opacity:     dimmed ? 0.3  : 1,
+          }).addTo(layer)
+        }
 
         marker.on('click', () => onSelectSpotRef.current(spot))
       })
@@ -639,6 +989,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
     return () => {
       map.remove()
       mapRef.current = markerLayerRef.current = updateMarkersRef.current = null
+      frontierLayerRef.current = updateFrontierRef.current = null
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -732,7 +1083,7 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
         <input
           className="map-search-input"
           type="text"
-          placeholder="スポット名・品種名で検索..."
+          placeholder={mapStr.searchPlaceholder}
           value={searchQuery}
           onChange={e => handleSearchChange(e.target.value)}
           onFocus={() => setSearchActive(true)}
@@ -785,8 +1136,35 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
         )}
       </div>
 
+      {/* 日付ピッカー */}
+      <div className="map-date-bar">
+        <button className="map-date-nav" onClick={() => setMapDate(d => addDays(d, -1))}>◀</button>
+        <button
+          className={`map-date-label${isSameDay(mapDate, new Date()) ? ' map-date-label--today' : ''}`}
+          onClick={() => { try { dateInputRef.current?.showPicker() } catch { dateInputRef.current?.click() } }}
+        >
+          {isSameDay(mapDate, new Date()) ? `今日 ${formatMapDate(mapDate)}` : formatMapDate(mapDate)}
+        </button>
+        <button className="map-date-nav" onClick={() => setMapDate(d => addDays(d, 1))}>▶</button>
+        <input
+          ref={dateInputRef}
+          type="date"
+          value={toInputDate(mapDate)}
+          onChange={e => { if (e.target.value) setMapDate(new Date(e.target.value + 'T00:00:00')) }}
+          className="map-date-input-hidden"
+        />
+      </div>
+
       {/* フィルタチップバー */}
       <div className="map-chip-bar">
+        <button
+          className={`map-chip map-chip--fav${activeFilters.has('fav') ? ' active' : ''}`}
+          onClick={() => toggleChip('fav')}
+          aria-pressed={activeFilters.has('fav')}
+        >
+          ♥ お気に入り
+          {favCount > 0 && <span className="map-chip__count">({favCount})</span>}
+        </button>
         {CHIPS.map(({ key, label }) => (
           <button
             key={key}
@@ -824,14 +1202,17 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
         📍
       </button>
 
-      {/* おすすめウィザード フローティングボタン */}
-      <button
-        className="map-wizard-fab"
-        onClick={() => setShowWizard(true)}
-        aria-label="おすすめスポットを探す"
-      >
-        ✨ おすすめ
-      </button>
+      {/* 今週末バナー（スポット未選択時のみ表示） */}
+      {!selectedSpot && (
+        <button
+          className="map-weekend-banner"
+          onClick={() => setShowWizard(true)}
+          aria-label="今週末のお花見どこいく？"
+        >
+          <span className="map-weekend-banner__text">🌸 今週末のお花見どこいく？</span>
+          <span className="map-weekend-banner__arrow">→</span>
+        </button>
+      )}
 
       {/* おすすめウィザード */}
       {showWizard && (
@@ -863,13 +1244,14 @@ export function SakuraMapPage({ onViewVarieties, onSelectVariety, onViewSpotList
       {selectedSpot && (
         <SpotBottomSheet
           spot={selectedSpot}
+          mapDate={mapDate}
           onClose={() => setSelectedSpot(null)}
           onViewAll={() => {
             onViewVarieties(selectedSpot.name, selectedSpot.varieties ?? [])
             setSelectedSpot(null)
           }}
-          onSelectVariety={id => {
-            onSelectVariety(id)
+          onSelectVariety={(id, fromDate) => {
+            onSelectVariety(id, fromDate)
             setSelectedSpot(null)
           }}
           onViewSpotList={onViewSpotList}

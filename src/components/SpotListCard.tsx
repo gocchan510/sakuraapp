@@ -1,5 +1,8 @@
+import { useState } from 'react'
 import type { BloomStatus } from '../utils/spotBloom'
 import { spotBloomCache, getSortedVarieties } from '../utils/spotBloom'
+import { useLang } from '../contexts/LangContext'
+import { FavoriteHeart } from './FavoriteHeart'
 
 type Spot = {
   id: string
@@ -12,12 +15,14 @@ type Spot = {
   imageUrl?: string | null
 }
 
-const BLOOM_DISPLAY: Record<BloomStatus, { label: string; emoji: string; color: string; bg: string }> = {
-  in_bloom:   { label: '見頃',    emoji: '🌸', color: '#c2185b', bg: '#fce4ec' },
-  budding:    { label: 'もうすぐ', emoji: '🌱', color: '#2e7d32', bg: '#e8f5e9' },
-  past_bloom: { label: '散り頃',  emoji: '🍃', color: '#795548', bg: '#efebe9' },
-  upcoming:   { label: '時期外',  emoji: '⬜', color: '#9e9e9e', bg: '#f5f5f5' },
-  off_season: { label: '時期外',  emoji: '⬜', color: '#9e9e9e', bg: '#f5f5f5' },
+const BLOOM_COLORS: Record<BloomStatus, { color: string; bg: string; emoji: string }> = {
+  in_bloom:   { emoji: '🌸', color: '#c2185b', bg: '#fce4ec' },
+  opening:    { emoji: '🌷', color: '#e91e63', bg: '#fce4ec' },
+  falling:    { emoji: '🍃', color: '#795548', bg: '#efebe9' },
+  leaf:       { emoji: '🌿', color: '#558b2f', bg: '#f1f8e9' },
+  budding:    { emoji: '🌱', color: '#2e7d32', bg: '#e8f5e9' },
+  upcoming:   { emoji: '⬜', color: '#9e9e9e', bg: '#f5f5f5' },
+  off_season: { emoji: '⬜', color: '#9e9e9e', bg: '#f5f5f5' },
 }
 
 interface Props {
@@ -28,57 +33,79 @@ interface Props {
 }
 
 export function SpotListCard({ spot, highlighted, onMapClick, onVarietyClick }: Props) {
+  const { t, tSpot, lang } = useLang()
+  const statusStr = t('status')
+  const spotsStr = t('spots')
+  const mapStr = t('map')
+
+  const ts = tSpot(spot)
   const bloom = spotBloomCache.get(spot.id) ?? { status: 'off_season' as BloomStatus, daysScore: 99999, someiyoshinoStatus: 'off_season' as BloomStatus }
-  const bd = BLOOM_DISPLAY[bloom.status]
+  const bc = BLOOM_COLORS[bloom.status]
+  const bloomLabel = statusStr[bloom.status as keyof typeof statusStr] ?? statusStr.off_season
 
   const sortedVarieties = getSortedVarieties(spot as Parameters<typeof getSortedVarieties>[0])
   const visible = sortedVarieties.slice(0, 3)
   const extra = Math.max(0, sortedVarieties.length - 3)
 
+  const [imgLoaded, setImgLoaded] = useState(false)
+
   return (
     <div className={`spot-list-card${highlighted ? ' spot-list-card--highlighted' : ''}`}>
       {/* サムネイル */}
       <div className="spot-list-card__thumb">
-        {spot.imageUrl
-          ? <img src={spot.imageUrl} alt={spot.name} className="spot-list-card__img" loading="lazy" />
-          : <div className="spot-list-card__img-placeholder">🌸</div>
-        }
+        {spot.imageUrl ? (
+          <>
+            {!imgLoaded && <div className="skeleton skeleton--img" aria-hidden="true" />}
+            <img
+              src={spot.imageUrl}
+              alt={spot.name}
+              className="spot-list-card__img"
+              loading="lazy"
+              style={{ opacity: imgLoaded ? 1 : 0, transition: 'opacity 0.25s' }}
+              onLoad={() => setImgLoaded(true)}
+              onError={() => setImgLoaded(true)}
+            />
+          </>
+        ) : (
+          <div className="spot-list-card__img-placeholder">🌸</div>
+        )}
+        <FavoriteHeart spotId={spot.id} variant="overlay" />
       </div>
 
       {/* コンテンツ */}
       <div className="spot-list-card__body">
         <div className="spot-list-card__header">
           <div className="spot-list-card__name-wrap">
-            <span className="spot-list-card__pref">{spot.prefecture}</span>
-            <h3 className="spot-list-card__name">{spot.name}</h3>
+            <span className="spot-list-card__pref">{ts.prefecture}</span>
+            <h3 className="spot-list-card__name">{ts.name}</h3>
           </div>
           <button
             className="spot-list-card__map-btn"
             onClick={e => { e.stopPropagation(); onMapClick() }}
-            aria-label="地図で見る"
+            aria-label={spotsStr.mapBtn}
           >
             🗺
           </button>
         </div>
 
-        <div className="spot-list-card__city">{spot.city}</div>
+        <div className="spot-list-card__city">{ts.city}</div>
 
         {/* 見頃バッジ */}
         <span
           className="spot-list-card__bloom"
-          style={{ color: bd.color, background: bd.bg }}
+          style={{ color: bc.color, background: bc.bg }}
         >
-          {bd.emoji} {bd.label}
+          {bc.emoji} {bloomLabel}
         </span>
 
         {/* ソメイヨシノ指標 */}
         {bloom.someiyoshinoStatus !== 'off_season' && (() => {
-          const SO_LABEL: Record<string, string> = {
-            in_bloom: '🟢 見頃', budding: '🟡 もうすぐ', past_bloom: '🔴 散り頃', upcoming: '⏳ これから',
-          }
-          const soLabel = SO_LABEL[bloom.someiyoshinoStatus as string]
+          const soStatus = bloom.someiyoshinoStatus as string
+          const soLabelMap = mapStr.soLabel as Record<string, string>
+          const soLabel = soLabelMap[soStatus]
           if (!soLabel) return null
-          return <div className="spot-someiyoshino-ref">🌸 ソメイヨシノ: {soLabel}</div>
+          const soName = lang === 'en' ? 'Somei Yoshino' : lang === 'zh-TW' ? '染井吉野' : 'ソメイヨシノ'
+          return <div className="spot-someiyoshino-ref">🌸 {soName}: {soLabel}</div>
         })()}
 
         {/* 品種バッジ */}
@@ -98,7 +125,7 @@ export function SpotListCard({ spot, highlighted, onMapClick, onVarietyClick }: 
               </button>
             ))}
             {extra > 0 && (
-              <span className="spot-list-card__variety-more">+{extra}種</span>
+              <span className="spot-list-card__variety-more">+{extra}</span>
             )}
           </div>
         )}

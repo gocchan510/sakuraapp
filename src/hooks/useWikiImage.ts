@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const cache: Record<string, string> = {}
+const failedKeys = new Set<string>()
 
 export function useWikiImage(wikiTitleJa: string, wikiTitleEn: string): string | null {
   const key = wikiTitleJa || wikiTitleEn
@@ -36,9 +37,21 @@ export function useWikiImage(wikiTitleJa: string, wikiTitleEn: string): string |
       if (url) {
         cache[key] = url
         setImageUrl(url)
+      } else {
+        failedKeys.add(key)
       }
     })()
   }, [key, wikiTitleJa, wikiTitleEn])
 
   return imageUrl
+}
+
+export function useWikiImageWithState(wikiTitleJa: string, wikiTitleEn: string): {
+  imageUrl: string | null
+  loading: boolean
+} {
+  const key = wikiTitleJa || wikiTitleEn
+  const imageUrl = useWikiImage(wikiTitleJa, wikiTitleEn)
+  const loading = !!key && imageUrl === null && !failedKeys.has(key)
+  return { imageUrl, loading }
 }

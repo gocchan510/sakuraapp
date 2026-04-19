@@ -10,6 +10,7 @@
   z-index: 3000;
   display: flex;
   align-items: flex-end;
+  padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
 }
 
 /* ── モーダル本体（ボトムシート） ── */
@@ -173,6 +174,14 @@
   color: #fff;
 }
 
+/* ── フッター（次へボタン固定） ── */
+.wizard-footer {
+  flex-shrink: 0;
+  padding: 12px 16px 20px;
+  border-top: 1px solid rgba(244, 143, 177, 0.15);
+  background: var(--white);
+}
+
 /* ── 次へボタン ── */
 .wizard-next-btn {
   width: 100%;
@@ -237,6 +246,15 @@
   gap: 12px;
   padding: 12px 16px;
   border-bottom: 1px solid rgba(244, 143, 177, 0.15);
+}
+
+.wizard-result-card__thumb {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .wizard-result-card__img {
@@ -305,6 +323,30 @@
   letter-spacing: -0.5px;
 }
 
+/* ── 天気表示（結果カード内） ── */
+.wizard-result-card__weather {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-mid);
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: rgba(244, 143, 177, 0.08);
+  animation: weatherFadeIn 0.35s ease;
+}
+
+.wizard-result-card__weather--night {
+  background: rgba(63, 81, 181, 0.10);
+  color: #3949ab;
+}
+
+@keyframes weatherFadeIn {
+  from { opacity: 0; transform: translateY(-2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .wizard-result-card__features {
   display: flex;
   flex-wrap: wrap;
@@ -320,8 +362,15 @@
   padding: 1px 6px;
 }
 
-.wizard-result-card__map-btn {
+.wizard-result-card__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   flex-shrink: 0;
+}
+
+.wizard-result-card__map-btn,
+.wizard-result-card__share-btn {
   width: 40px;
   height: 40px;
   border: 1.5px solid var(--pink-mid);
@@ -334,9 +383,17 @@
   justify-content: center;
   -webkit-tap-highlight-color: transparent;
   transition: background 0.15s;
+  padding: 0;
+  font-family: inherit;
 }
 
-.wizard-result-card__map-btn:active { background: var(--pink-light); }
+.wizard-result-card__map-btn:active,
+.wizard-result-card__share-btn:active { background: var(--pink-light); }
+
+.wizard-result-card__share-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
 
 /* ── 空状態 ── */
 .wizard-empty {
@@ -364,33 +421,149 @@
   font-size: 14px;
   font-family: inherit;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s;
+}
+.wizard-retry-btn:active { opacity: 0.8; }
+
+.wizard-retry-btn--secondary {
+  background: var(--white);
+  color: var(--text-mid);
+  border: 1.5px solid var(--border);
 }
 
-/* ── フローティングボタン（地図タブ） ── */
-.map-wizard-fab {
+.wizard-empty__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.wizard-widen-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 6px 16px 0;
+  padding: 8px 12px;
+  background: rgba(244, 143, 177, 0.12);
+  border: 1px dashed rgba(194, 24, 91, 0.4);
+  border-radius: 10px;
+  font-size: 12px;
+  color: var(--text-mid);
+}
+.wizard-widen-notice__restore {
+  background: none;
+  border: none;
+  color: var(--pink-deep);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 4px 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.wizard-widen-notice__restore:active { opacity: 0.7; }
+
+/* ── 今週末バナー（地図タブ下部） ── */
+.map-weekend-banner {
   position: absolute;
-  bottom: 96px;
-  right: 16px;
+  bottom: 80px;
+  left: 12px;
+  right: 12px;
   z-index: 900;
-  background: var(--pink-deep);
+  background: linear-gradient(135deg, #c2185b 0%, #e91e63 100%);
   color: #fff;
   border: none;
-  border-radius: 28px;
-  height: 48px;
-  padding: 0 18px;
-  font-size: 14px;
+  border-radius: 18px;
+  height: 56px;
+  padding: 0 20px;
+  font-size: 15px;
   font-weight: 700;
   font-family: inherit;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
-  box-shadow: 0 4px 16px rgba(194, 24, 91, 0.35);
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(194, 24, 91, 0.40);
   -webkit-tap-highlight-color: transparent;
-  transition: opacity 0.15s, transform 0.15s;
+  transition: opacity 0.15s, transform 0.12s;
+  animation: bannerFadeIn 0.25s ease;
 }
 
-.map-wizard-fab:active {
+@keyframes bannerFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.map-weekend-banner:active {
+  opacity: 0.88;
+  transform: scale(0.98);
+}
+
+.map-weekend-banner__text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.map-weekend-banner__arrow {
+  font-size: 18px;
   opacity: 0.85;
-  transform: scale(0.96);
+}
+
+/* ── 土日タブ（結果画面） ── */
+.wizard-day-tabs {
+  display: flex;
+  border-bottom: 1px solid rgba(244, 143, 177, 0.25);
+  flex-shrink: 0;
+}
+
+.wizard-day-tab {
+  flex: 1;
+  height: 44px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text-light);
+  cursor: pointer;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s;
+}
+
+.wizard-day-tab.active {
+  color: var(--pink-deep);
+}
+
+.wizard-day-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 2.5px;
+  background: var(--pink-deep);
+  border-radius: 2px;
+}
+
+/* ── Q2 サブテキスト ── */
+.wizard-option-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wizard-option-sub {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-left: 8px;
 }
